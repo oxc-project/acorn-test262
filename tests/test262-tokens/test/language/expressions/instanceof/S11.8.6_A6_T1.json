@@ -3,400 +3,240 @@
     "type": "Keyword",
     "value": "try",
     "start": 351,
-    "end": 354,
-    "range": [
-      351,
-      354
-    ]
+    "end": 354
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 354,
-    "end": 355,
-    "range": [
-      354,
-      355
-    ]
+    "end": 355
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 357,
-    "end": 358,
-    "range": [
-      357,
-      358
-    ]
+    "end": 358
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 358,
-    "end": 359,
-    "range": [
-      358,
-      359
-    ]
+    "end": 359
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 359,
-    "end": 360,
-    "range": [
-      359,
-      360
-    ]
+    "end": 360
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 360,
-    "end": 361,
-    "range": [
-      360,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "Keyword",
     "value": "instanceof",
     "start": 362,
-    "end": 372,
-    "range": [
-      362,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 373,
-    "end": 377,
-    "range": [
-      373,
-      377
-    ]
+    "end": 377
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 377,
-    "end": 378,
-    "range": [
-      377,
-      378
-    ]
+    "end": 378
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 380,
-    "end": 385,
-    "range": [
-      380,
-      385
-    ]
+    "end": 385
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 386,
-    "end": 389,
-    "range": [
-      386,
-      389
-    ]
+    "end": 389
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 390,
-    "end": 402,
-    "range": [
-      390,
-      402
-    ]
+    "end": 402
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 402,
-    "end": 403,
-    "range": [
-      402,
-      403
-    ]
+    "end": 403
   },
   {
     "type": "String",
     "value": "'#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator'",
     "start": 403,
-    "end": 531,
-    "range": [
-      403,
-      531
-    ]
+    "end": 531
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 531,
-    "end": 532,
-    "range": [
-      531,
-      532
-    ]
+    "end": 532
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 532,
-    "end": 533,
-    "range": [
-      532,
-      533
-    ]
+    "end": 533
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 534,
-    "end": 535,
-    "range": [
-      534,
-      535
-    ]
+    "end": 535
   },
   {
     "type": "Keyword",
     "value": "catch",
     "start": 536,
-    "end": 541,
-    "range": [
-      536,
-      541
-    ]
+    "end": 541
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 541,
-    "end": 542,
-    "range": [
-      541,
-      542
-    ]
+    "end": 542
   },
   {
     "type": "Identifier",
     "value": "e",
     "start": 542,
-    "end": 543,
-    "range": [
-      542,
-      543
-    ]
+    "end": 543
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 543,
-    "end": 544,
-    "range": [
-      543,
-      544
-    ]
+    "end": 544
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 544,
-    "end": 545,
-    "range": [
-      544,
-      545
-    ]
+    "end": 545
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 548,
-    "end": 550,
-    "range": [
-      548,
-      550
-    ]
+    "end": 550
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 551,
-    "end": 552,
-    "range": [
-      551,
-      552
-    ]
+    "end": 552
   },
   {
     "type": "Identifier",
     "value": "e",
     "start": 552,
-    "end": 553,
-    "range": [
-      552,
-      553
-    ]
+    "end": 553
   },
   {
     "type": "Keyword",
     "value": "instanceof",
     "start": 554,
-    "end": 564,
-    "range": [
-      554,
-      564
-    ]
+    "end": 564
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 565,
-    "end": 574,
-    "range": [
-      565,
-      574
-    ]
+    "end": 574
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 575,
-    "end": 578,
-    "range": [
-      575,
-      578
-    ]
+    "end": 578
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 579,
-    "end": 583,
-    "range": [
-      579,
-      583
-    ]
+    "end": 583
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 583,
-    "end": 584,
-    "range": [
-      583,
-      584
-    ]
+    "end": 584
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 585,
-    "end": 586,
-    "range": [
-      585,
-      586
-    ]
+    "end": 586
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 591,
-    "end": 596,
-    "range": [
-      591,
-      596
-    ]
+    "end": 596
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 597,
-    "end": 600,
-    "range": [
-      597,
-      600
-    ]
+    "end": 600
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 601,
-    "end": 613,
-    "range": [
-      601,
-      613
-    ]
+    "end": 613
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 613,
-    "end": 614,
-    "range": [
-      613,
-      614
-    ]
+    "end": 614
   },
   {
     "type": "String",
     "value": "'#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator'",
     "start": 614,
-    "end": 742,
-    "range": [
-      614,
-      742
-    ]
+    "end": 742
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 742,
-    "end": 743,
-    "range": [
-      742,
-      743
-    ]
+    "end": 743
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 743,
-    "end": 744,
-    "range": [
-      743,
-      744
-    ]
+    "end": 744
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 747,
-    "end": 748,
-    "range": [
-      747,
-      748
-    ]
+    "end": 748
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 749,
-    "end": 750,
-    "range": [
-      749,
-      750
-    ]
+    "end": 750
   }
 ]

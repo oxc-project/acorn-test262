@@ -473,721 +473,433 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Keyword",
     "value": "enum",
     "start": 7,
-    "end": 11,
-    "range": [
-      7,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "MouseButton",
     "start": 12,
-    "end": 23,
-    "range": [
-      12,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 24,
-    "end": 25,
-    "range": [
-      24,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Identifier",
     "value": "LEFT_BUTTON",
     "start": 27,
-    "end": 38,
-    "range": [
-      27,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 41,
-    "end": 42,
-    "range": [
-      41,
-      42
-    ]
+    "end": 42
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 42,
-    "end": 43,
-    "range": [
-      42,
-      43
-    ]
+    "end": 43
   },
   {
     "type": "Identifier",
     "value": "RIGHT_BUTTON",
     "start": 45,
-    "end": 57,
-    "range": [
-      45,
-      57
-    ]
+    "end": 57
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 58,
-    "end": 59,
-    "range": [
-      58,
-      59
-    ]
+    "end": 59
   },
   {
     "type": "Numeric",
     "value": "2",
     "start": 60,
-    "end": 61,
-    "range": [
-      60,
-      61
-    ]
+    "end": 61
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 61,
-    "end": 62,
-    "range": [
-      61,
-      62
-    ]
+    "end": 62
   },
   {
     "type": "Identifier",
     "value": "MIDDLE_BUTTON",
     "start": 64,
-    "end": 77,
-    "range": [
-      64,
-      77
-    ]
+    "end": 77
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 78,
-    "end": 79,
-    "range": [
-      78,
-      79
-    ]
+    "end": 79
   },
   {
     "type": "Numeric",
     "value": "4",
     "start": 80,
-    "end": 81,
-    "range": [
-      80,
-      81
-    ]
+    "end": 81
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 81,
-    "end": 82,
-    "range": [
-      81,
-      82
-    ]
+    "end": 82
   },
   {
     "type": "Identifier",
     "value": "XBUTTON1_BUTTON",
     "start": 84,
-    "end": 99,
-    "range": [
-      84,
-      99
-    ]
+    "end": 99
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 100,
-    "end": 101,
-    "range": [
-      100,
-      101
-    ]
+    "end": 101
   },
   {
     "type": "Numeric",
     "value": "5",
     "start": 102,
-    "end": 103,
-    "range": [
-      102,
-      103
-    ]
+    "end": 103
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 103,
-    "end": 104,
-    "range": [
-      103,
-      104
-    ]
+    "end": 104
   },
   {
     "type": "Identifier",
     "value": "XBUTTON2_BUTTON",
     "start": 106,
-    "end": 121,
-    "range": [
-      106,
-      121
-    ]
+    "end": 121
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 122,
-    "end": 123,
-    "range": [
-      122,
-      123
-    ]
+    "end": 123
   },
   {
     "type": "Numeric",
     "value": "6",
     "start": 124,
-    "end": 125,
-    "range": [
-      124,
-      125
-    ]
+    "end": 125
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 125,
-    "end": 126,
-    "range": [
-      125,
-      126
-    ]
+    "end": 126
   },
   {
     "type": "Identifier",
     "value": "NO_BUTTON",
     "start": 128,
-    "end": 137,
-    "range": [
-      128,
-      137
-    ]
+    "end": 137
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 138,
-    "end": 139,
-    "range": [
-      138,
-      139
-    ]
+    "end": 139
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 140,
-    "end": 141,
-    "range": [
-      140,
-      141
-    ]
+    "end": 141
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 141,
-    "end": 142,
-    "range": [
-      141,
-      142
-    ]
+    "end": 142
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 143,
-    "end": 144,
-    "range": [
-      143,
-      144
-    ]
+    "end": 144
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 146,
-    "end": 152,
-    "range": [
-      146,
-      152
-    ]
+    "end": 152
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 153,
-    "end": 158,
-    "range": [
-      153,
-      158
-    ]
+    "end": 158
   },
   {
     "type": "Identifier",
     "value": "DOMMouseButton",
     "start": 159,
-    "end": 173,
-    "range": [
-      159,
-      173
-    ]
+    "end": 173
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 174,
-    "end": 175,
-    "range": [
-      174,
-      175
-    ]
+    "end": 175
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 176,
-    "end": 177,
-    "range": [
-      176,
-      177
-    ]
+    "end": 177
   },
   {
     "type": "String",
     "value": "'-1'",
     "start": 179,
-    "end": 183,
-    "range": [
-      179,
-      183
-    ]
+    "end": 183
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 183,
-    "end": 184,
-    "range": [
-      183,
-      184
-    ]
+    "end": 184
   },
   {
     "type": "Identifier",
     "value": "MouseButton",
     "start": 185,
-    "end": 196,
-    "range": [
-      185,
-      196
-    ]
+    "end": 196
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 196,
-    "end": 197,
-    "range": [
-      196,
-      197
-    ]
+    "end": 197
   },
   {
     "type": "Identifier",
     "value": "NO_BUTTON",
     "start": 197,
-    "end": 206,
-    "range": [
-      197,
-      206
-    ]
+    "end": 206
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 206,
-    "end": 207,
-    "range": [
-      206,
-      207
-    ]
+    "end": 207
   },
   {
     "type": "String",
     "value": "\"0\"",
     "start": 209,
-    "end": 212,
-    "range": [
-      209,
-      212
-    ]
+    "end": 212
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 212,
-    "end": 213,
-    "range": [
-      212,
-      213
-    ]
+    "end": 213
   },
   {
     "type": "Identifier",
     "value": "MouseButton",
     "start": 214,
-    "end": 225,
-    "range": [
-      214,
-      225
-    ]
+    "end": 225
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 225,
-    "end": 226,
-    "range": [
-      225,
-      226
-    ]
+    "end": 226
   },
   {
     "type": "Identifier",
     "value": "LEFT_BUTTON",
     "start": 226,
-    "end": 237,
-    "range": [
-      226,
-      237
-    ]
+    "end": 237
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 237,
-    "end": 238,
-    "range": [
-      237,
-      238
-    ]
+    "end": 238
   },
   {
     "type": "String",
     "value": "\"1\"",
     "start": 240,
-    "end": 243,
-    "range": [
-      240,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 243,
-    "end": 244,
-    "range": [
-      243,
-      244
-    ]
+    "end": 244
   },
   {
     "type": "Identifier",
     "value": "MouseButton",
     "start": 245,
-    "end": 256,
-    "range": [
-      245,
-      256
-    ]
+    "end": 256
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 256,
-    "end": 257,
-    "range": [
-      256,
-      257
-    ]
+    "end": 257
   },
   {
     "type": "Identifier",
     "value": "MIDDLE_BUTTON",
     "start": 257,
-    "end": 270,
-    "range": [
-      257,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 270,
-    "end": 271,
-    "range": [
-      270,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "String",
     "value": "\"2\"",
     "start": 273,
-    "end": 276,
-    "range": [
-      273,
-      276
-    ]
+    "end": 276
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 276,
-    "end": 277,
-    "range": [
-      276,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Identifier",
     "value": "MouseButton",
     "start": 278,
-    "end": 289,
-    "range": [
-      278,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Identifier",
     "value": "RIGHT_BUTTON",
     "start": 290,
-    "end": 302,
-    "range": [
-      290,
-      302
-    ]
+    "end": 302
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 302,
-    "end": 303,
-    "range": [
-      302,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "String",
     "value": "\"3\"",
     "start": 305,
-    "end": 308,
-    "range": [
-      305,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 308,
-    "end": 309,
-    "range": [
-      308,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "Identifier",
     "value": "MouseButton",
     "start": 310,
-    "end": 321,
-    "range": [
-      310,
-      321
-    ]
+    "end": 321
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 321,
-    "end": 322,
-    "range": [
-      321,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Identifier",
     "value": "XBUTTON1_BUTTON",
     "start": 322,
-    "end": 337,
-    "range": [
-      322,
-      337
-    ]
+    "end": 337
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 337,
-    "end": 338,
-    "range": [
-      337,
-      338
-    ]
+    "end": 338
   },
   {
     "type": "String",
     "value": "\"4\"",
     "start": 340,
-    "end": 343,
-    "range": [
-      340,
-      343
-    ]
+    "end": 343
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 343,
-    "end": 344,
-    "range": [
-      343,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Identifier",
     "value": "MouseButton",
     "start": 345,
-    "end": 356,
-    "range": [
-      345,
-      356
-    ]
+    "end": 356
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 356,
-    "end": 357,
-    "range": [
-      356,
-      357
-    ]
+    "end": 357
   },
   {
     "type": "Identifier",
     "value": "XBUTTON2_BUTTON",
     "start": 357,
-    "end": 372,
-    "range": [
-      357,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 372,
-    "end": 373,
-    "range": [
-      372,
-      373
-    ]
+    "end": 373
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 374,
-    "end": 375,
-    "range": [
-      374,
-      375
-    ]
+    "end": 375
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 375,
-    "end": 376,
-    "range": [
-      375,
-      376
-    ]
+    "end": 376
   }
 ]
 ```

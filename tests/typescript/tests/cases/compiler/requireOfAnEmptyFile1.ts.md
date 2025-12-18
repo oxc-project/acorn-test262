@@ -44,81 +44,49 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 25,
-    "end": 31,
-    "range": [
-      25,
-      31
-    ]
+    "end": 31
   },
   {
     "type": "Identifier",
     "value": "fs",
     "start": 32,
-    "end": 34,
-    "range": [
-      32,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 35,
-    "end": 36,
-    "range": [
-      35,
-      36
-    ]
+    "end": 36
   },
   {
     "type": "Identifier",
     "value": "require",
     "start": 37,
-    "end": 44,
-    "range": [
-      37,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 44,
-    "end": 45,
-    "range": [
-      44,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "String",
     "value": "'./requireOfAnEmptyFile1_b'",
     "start": 45,
-    "end": 72,
-    "range": [
-      45,
-      72
-    ]
+    "end": 72
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 72,
-    "end": 73,
-    "range": [
-      72,
-      73
-    ]
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 73,
-    "end": 74,
-    "range": [
-      73,
-      74
-    ]
+    "end": 74
   }
 ]
 ```

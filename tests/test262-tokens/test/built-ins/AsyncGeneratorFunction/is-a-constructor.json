@@ -3,270 +3,162 @@
     "type": "Keyword",
     "value": "var",
     "start": 756,
-    "end": 759,
-    "range": [
-      756,
-      759
-    ]
+    "end": 759
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunction",
     "start": 760,
-    "end": 782,
-    "range": [
-      760,
-      782
-    ]
+    "end": 782
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 783,
-    "end": 784,
-    "range": [
-      783,
-      784
-    ]
+    "end": 784
   },
   {
     "type": "Identifier",
     "value": "getWellKnownIntrinsicObject",
     "start": 785,
-    "end": 812,
-    "range": [
-      785,
-      812
-    ]
+    "end": 812
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 812,
-    "end": 813,
-    "range": [
-      812,
-      813
-    ]
+    "end": 813
   },
   {
     "type": "String",
     "value": "'%AsyncGeneratorFunction%'",
     "start": 813,
-    "end": 839,
-    "range": [
-      813,
-      839
-    ]
+    "end": 839
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 839,
-    "end": 840,
-    "range": [
-      839,
-      840
-    ]
+    "end": 840
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 840,
-    "end": 841,
-    "range": [
-      840,
-      841
-    ]
+    "end": 841
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 842,
-    "end": 848,
-    "range": [
-      842,
-      848
-    ]
+    "end": 848
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 848,
-    "end": 849,
-    "range": [
-      848,
-      849
-    ]
+    "end": 849
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 849,
-    "end": 858,
-    "range": [
-      849,
-      858
-    ]
+    "end": 858
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 858,
-    "end": 859,
-    "range": [
-      858,
-      859
-    ]
+    "end": 859
   },
   {
     "type": "Identifier",
     "value": "isConstructor",
     "start": 862,
-    "end": 875,
-    "range": [
-      862,
-      875
-    ]
+    "end": 875
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 875,
-    "end": 876,
-    "range": [
-      875,
-      876
-    ]
+    "end": 876
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunction",
     "start": 876,
-    "end": 898,
-    "range": [
-      876,
-      898
-    ]
+    "end": 898
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 898,
-    "end": 899,
-    "range": [
-      898,
-      899
-    ]
+    "end": 899
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 899,
-    "end": 900,
-    "range": [
-      899,
-      900
-    ]
+    "end": 900
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 903,
-    "end": 907,
-    "range": [
-      903,
-      907
-    ]
+    "end": 907
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 907,
-    "end": 908,
-    "range": [
-      907,
-      908
-    ]
+    "end": 908
   },
   {
     "type": "String",
     "value": "'isConstructor(AsyncGeneratorFunction) must return true'",
     "start": 911,
-    "end": 967,
-    "range": [
-      911,
-      967
-    ]
+    "end": 967
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 968,
-    "end": 969,
-    "range": [
-      968,
-      969
-    ]
+    "end": 969
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 969,
-    "end": 970,
-    "range": [
-      969,
-      970
-    ]
+    "end": 970
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 971,
-    "end": 974,
-    "range": [
-      971,
-      974
-    ]
+    "end": 974
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunction",
     "start": 975,
-    "end": 997,
-    "range": [
-      975,
-      997
-    ]
+    "end": 997
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 997,
-    "end": 998,
-    "range": [
-      997,
-      998
-    ]
+    "end": 998
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 998,
-    "end": 999,
-    "range": [
-      998,
-      999
-    ]
+    "end": 999
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 999,
-    "end": 1000,
-    "range": [
-      999,
-      1000
-    ]
+    "end": 1000
   }
 ]

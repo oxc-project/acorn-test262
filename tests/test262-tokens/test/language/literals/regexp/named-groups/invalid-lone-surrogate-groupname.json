@@ -3,680 +3,408 @@
     "type": "Identifier",
     "value": "assert",
     "start": 257,
-    "end": 263,
-    "range": [
-      257,
-      263
-    ]
+    "end": 263
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 263,
-    "end": 264,
-    "range": [
-      263,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 264,
-    "end": 270,
-    "range": [
-      264,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 270,
-    "end": 271,
-    "range": [
-      270,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Identifier",
     "value": "SyntaxError",
     "start": 271,
-    "end": 282,
-    "range": [
-      271,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 282,
-    "end": 283,
-    "range": [
-      282,
-      283
-    ]
+    "end": 283
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 284,
-    "end": 285,
-    "range": [
-      284,
-      285
-    ]
+    "end": 285
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 285,
-    "end": 286,
-    "range": [
-      285,
-      286
-    ]
+    "end": 286
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 287,
-    "end": 289,
-    "range": [
-      287,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 290,
-    "end": 294,
-    "range": [
-      290,
-      294
-    ]
+    "end": 294
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 294,
-    "end": 295,
-    "range": [
-      294,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "String",
     "value": "\"/(?<a\\uD801>.)/\"",
     "start": 295,
-    "end": 312,
-    "range": [
-      295,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 312,
-    "end": 313,
-    "range": [
-      312,
-      313
-    ]
+    "end": 313
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 313,
-    "end": 314,
-    "range": [
-      313,
-      314
-    ]
+    "end": 314
   },
   {
     "type": "String",
     "value": "\"Lead\"",
     "start": 315,
-    "end": 321,
-    "range": [
-      315,
-      321
-    ]
+    "end": 321
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 321,
-    "end": 322,
-    "range": [
-      321,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 322,
-    "end": 323,
-    "range": [
-      322,
-      323
-    ]
+    "end": 323
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 324,
-    "end": 330,
-    "range": [
-      324,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 330,
-    "end": 331,
-    "range": [
-      330,
-      331
-    ]
+    "end": 331
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 331,
-    "end": 337,
-    "range": [
-      331,
-      337
-    ]
+    "end": 337
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 337,
-    "end": 338,
-    "range": [
-      337,
-      338
-    ]
+    "end": 338
   },
   {
     "type": "Identifier",
     "value": "SyntaxError",
     "start": 338,
-    "end": 349,
-    "range": [
-      338,
-      349
-    ]
+    "end": 349
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 349,
-    "end": 350,
-    "range": [
-      349,
-      350
-    ]
+    "end": 350
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 351,
-    "end": 352,
-    "range": [
-      351,
-      352
-    ]
+    "end": 352
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 352,
-    "end": 353,
-    "range": [
-      352,
-      353
-    ]
+    "end": 353
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 354,
-    "end": 356,
-    "range": [
-      354,
-      356
-    ]
+    "end": 356
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 357,
-    "end": 361,
-    "range": [
-      357,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 361,
-    "end": 362,
-    "range": [
-      361,
-      362
-    ]
+    "end": 362
   },
   {
     "type": "String",
     "value": "\"/(?<a\\uDCA4>.)/\"",
     "start": 362,
-    "end": 379,
-    "range": [
-      362,
-      379
-    ]
+    "end": 379
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 379,
-    "end": 380,
-    "range": [
-      379,
-      380
-    ]
+    "end": 380
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 380,
-    "end": 381,
-    "range": [
-      380,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "String",
     "value": "\"Trail\"",
     "start": 382,
-    "end": 389,
-    "range": [
-      382,
-      389
-    ]
+    "end": 389
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 389,
-    "end": 390,
-    "range": [
-      389,
-      390
-    ]
+    "end": 390
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 390,
-    "end": 391,
-    "range": [
-      390,
-      391
-    ]
+    "end": 391
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 392,
-    "end": 398,
-    "range": [
-      392,
-      398
-    ]
+    "end": 398
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 398,
-    "end": 399,
-    "range": [
-      398,
-      399
-    ]
+    "end": 399
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 399,
-    "end": 405,
-    "range": [
-      399,
-      405
-    ]
+    "end": 405
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 405,
-    "end": 406,
-    "range": [
-      405,
-      406
-    ]
+    "end": 406
   },
   {
     "type": "Identifier",
     "value": "SyntaxError",
     "start": 406,
-    "end": 417,
-    "range": [
-      406,
-      417
-    ]
+    "end": 417
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 417,
-    "end": 418,
-    "range": [
-      417,
-      418
-    ]
+    "end": 418
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 419,
-    "end": 420,
-    "range": [
-      419,
-      420
-    ]
+    "end": 420
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 420,
-    "end": 421,
-    "range": [
-      420,
-      421
-    ]
+    "end": 421
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 422,
-    "end": 424,
-    "range": [
-      422,
-      424
-    ]
+    "end": 424
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 425,
-    "end": 429,
-    "range": [
-      425,
-      429
-    ]
+    "end": 429
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 429,
-    "end": 430,
-    "range": [
-      429,
-      430
-    ]
+    "end": 430
   },
   {
     "type": "String",
     "value": "\"/(?<a\\uD801>.)/u\"",
     "start": 430,
-    "end": 448,
-    "range": [
-      430,
-      448
-    ]
+    "end": 448
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 448,
-    "end": 449,
-    "range": [
-      448,
-      449
-    ]
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 449,
-    "end": 450,
-    "range": [
-      449,
-      450
-    ]
+    "end": 450
   },
   {
     "type": "String",
     "value": "\"Lead with u flag\"",
     "start": 451,
-    "end": 469,
-    "range": [
-      451,
-      469
-    ]
+    "end": 469
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 469,
-    "end": 470,
-    "range": [
-      469,
-      470
-    ]
+    "end": 470
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 470,
-    "end": 471,
-    "range": [
-      470,
-      471
-    ]
+    "end": 471
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 472,
-    "end": 478,
-    "range": [
-      472,
-      478
-    ]
+    "end": 478
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 478,
-    "end": 479,
-    "range": [
-      478,
-      479
-    ]
+    "end": 479
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 479,
-    "end": 485,
-    "range": [
-      479,
-      485
-    ]
+    "end": 485
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 485,
-    "end": 486,
-    "range": [
-      485,
-      486
-    ]
+    "end": 486
   },
   {
     "type": "Identifier",
     "value": "SyntaxError",
     "start": 486,
-    "end": 497,
-    "range": [
-      486,
-      497
-    ]
+    "end": 497
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 497,
-    "end": 498,
-    "range": [
-      497,
-      498
-    ]
+    "end": 498
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 499,
-    "end": 500,
-    "range": [
-      499,
-      500
-    ]
+    "end": 500
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 500,
-    "end": 501,
-    "range": [
-      500,
-      501
-    ]
+    "end": 501
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 502,
-    "end": 504,
-    "range": [
-      502,
-      504
-    ]
+    "end": 504
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 505,
-    "end": 509,
-    "range": [
-      505,
-      509
-    ]
+    "end": 509
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 509,
-    "end": 510,
-    "range": [
-      509,
-      510
-    ]
+    "end": 510
   },
   {
     "type": "String",
     "value": "\"/(?<a\\uDCA4>.)/u\"",
     "start": 510,
-    "end": 528,
-    "range": [
-      510,
-      528
-    ]
+    "end": 528
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 528,
-    "end": 529,
-    "range": [
-      528,
-      529
-    ]
+    "end": 529
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 529,
-    "end": 530,
-    "range": [
-      529,
-      530
-    ]
+    "end": 530
   },
   {
     "type": "String",
     "value": "\"Trail with u flag\"",
     "start": 531,
-    "end": 550,
-    "range": [
-      531,
-      550
-    ]
+    "end": 550
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 550,
-    "end": 551,
-    "range": [
-      550,
-      551
-    ]
+    "end": 551
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 551,
-    "end": 552,
-    "range": [
-      551,
-      552
-    ]
+    "end": 552
   }
 ]

@@ -200,271 +200,163 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "const",
     "start": 70,
-    "end": 75,
-    "range": [
-      70,
-      75
-    ]
+    "end": 75
   },
   {
     "type": "Identifier",
     "value": "p",
     "start": 76,
-    "end": 77,
-    "range": [
-      76,
-      77
-    ]
+    "end": 77
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 78,
-    "end": 79,
-    "range": [
-      78,
-      79
-    ]
+    "end": 79
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 111,
-    "end": 112,
-    "range": [
-      111,
-      112
-    ]
+    "end": 112
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 112,
-    "end": 113,
-    "range": [
-      112,
-      113
-    ]
+    "end": 113
   },
   {
     "type": "Identifier",
     "value": "isEven",
     "start": 118,
-    "end": 124,
-    "range": [
-      118,
-      124
-    ]
+    "end": 124
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 124,
-    "end": 125,
-    "range": [
-      124,
-      125
-    ]
+    "end": 125
   },
   {
     "type": "Identifier",
     "value": "n",
     "start": 126,
-    "end": 127,
-    "range": [
-      126,
-      127
-    ]
+    "end": 127
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 128,
-    "end": 130,
-    "range": [
-      128,
-      130
-    ]
+    "end": 130
   },
   {
     "type": "Identifier",
     "value": "n",
     "start": 131,
-    "end": 132,
-    "range": [
-      131,
-      132
-    ]
+    "end": 132
   },
   {
     "type": "Punctuator",
     "value": "%",
     "start": 133,
-    "end": 134,
-    "range": [
-      133,
-      134
-    ]
+    "end": 134
   },
   {
     "type": "Numeric",
     "value": "2",
     "start": 135,
-    "end": 136,
-    "range": [
-      135,
-      136
-    ]
+    "end": 136
   },
   {
     "type": "Punctuator",
     "value": "===",
     "start": 137,
-    "end": 140,
-    "range": [
-      137,
-      140
-    ]
+    "end": 140
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 141,
-    "end": 142,
-    "range": [
-      141,
-      142
-    ]
+    "end": 142
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 142,
-    "end": 143,
-    "range": [
-      142,
-      143
-    ]
+    "end": 143
   },
   {
     "type": "Identifier",
     "value": "isOdd",
     "start": 148,
-    "end": 153,
-    "range": [
-      148,
-      153
-    ]
+    "end": 153
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 153,
-    "end": 154,
-    "range": [
-      153,
-      154
-    ]
+    "end": 154
   },
   {
     "type": "Identifier",
     "value": "n",
     "start": 155,
-    "end": 156,
-    "range": [
-      155,
-      156
-    ]
+    "end": 156
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 157,
-    "end": 159,
-    "range": [
-      157,
-      159
-    ]
+    "end": 159
   },
   {
     "type": "Identifier",
     "value": "n",
     "start": 160,
-    "end": 161,
-    "range": [
-      160,
-      161
-    ]
+    "end": 161
   },
   {
     "type": "Punctuator",
     "value": "%",
     "start": 162,
-    "end": 163,
-    "range": [
-      162,
-      163
-    ]
+    "end": 163
   },
   {
     "type": "Numeric",
     "value": "2",
     "start": 164,
-    "end": 165,
-    "range": [
-      164,
-      165
-    ]
+    "end": 165
   },
   {
     "type": "Punctuator",
     "value": "===",
     "start": 166,
-    "end": 169,
-    "range": [
-      166,
-      169
-    ]
+    "end": 169
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 170,
-    "end": 171,
-    "range": [
-      170,
-      171
-    ]
+    "end": 171
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 172,
-    "end": 173,
-    "range": [
-      172,
-      173
-    ]
+    "end": 173
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 173,
-    "end": 174,
-    "range": [
-      173,
-      174
-    ]
+    "end": 174
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 174,
-    "end": 175,
-    "range": [
-      174,
-      175
-    ]
+    "end": 175
   }
 ]
 ```

@@ -116,141 +116,85 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 7,
-    "end": 12,
-    "range": [
-      7,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Identifier",
     "value": "C1",
     "start": 13,
-    "end": 15,
-    "range": [
-      13,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 16,
-    "end": 17,
-    "range": [
-      16,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Identifier",
     "value": "m1",
     "start": 19,
-    "end": 21,
-    "range": [
-      19,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 22,
-    "end": 23,
-    "range": [
-      22,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Numeric",
     "value": "42",
     "start": 24,
-    "end": 26,
-    "range": [
-      24,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 26,
-    "end": 27,
-    "range": [
-      26,
-      27
-    ]
+    "end": 27
   },
   {
     "type": "Keyword",
     "value": "static",
     "start": 29,
-    "end": 35,
-    "range": [
-      29,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "Identifier",
     "value": "s1",
     "start": 36,
-    "end": 38,
-    "range": [
-      36,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 41,
-    "end": 45,
-    "range": [
-      41,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 45,
-    "end": 46,
-    "range": [
-      45,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 47,
-    "end": 48,
-    "range": [
-      47,
-      48
-    ]
+    "end": 48
   }
 ]
 ```
@@ -331,131 +275,79 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Identifier",
     "value": "c1",
     "start": 7,
-    "end": 9,
-    "range": [
-      7,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 10,
-    "end": 11,
-    "range": [
-      10,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "require",
     "start": 12,
-    "end": 19,
-    "range": [
-      12,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 19,
-    "end": 20,
-    "range": [
-      19,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "String",
     "value": "'./foo_0'",
     "start": 20,
-    "end": 29,
-    "range": [
-      20,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 29,
-    "end": 30,
-    "range": [
-      29,
-      30
-    ]
+    "end": 30
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 30,
-    "end": 31,
-    "range": [
-      30,
-      31
-    ]
+    "end": 31
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 65,
-    "end": 68,
-    "range": [
-      65,
-      68
-    ]
+    "end": 68
   },
   {
     "type": "Identifier",
     "value": "answer",
     "start": 69,
-    "end": 75,
-    "range": [
-      69,
-      75
-    ]
+    "end": 75
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 76,
-    "end": 77,
-    "range": [
-      76,
-      77
-    ]
+    "end": 77
   },
   {
     "type": "Numeric",
     "value": "42",
     "start": 78,
-    "end": 80,
-    "range": [
-      78,
-      80
-    ]
+    "end": 80
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 80,
-    "end": 81,
-    "range": [
-      80,
-      81
-    ]
+    "end": 81
   }
 ]
 ```
@@ -538,131 +430,79 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 7,
-    "end": 10,
-    "range": [
-      7,
-      10
-    ]
+    "end": 10
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 11,
-    "end": 12,
-    "range": [
-      11,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Identifier",
     "value": "require",
     "start": 13,
-    "end": 20,
-    "range": [
-      13,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 20,
-    "end": 21,
-    "range": [
-      20,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "String",
     "value": "\"./foo_1\"",
     "start": 21,
-    "end": 30,
-    "range": [
-      21,
-      30
-    ]
+    "end": 30
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 30,
-    "end": 31,
-    "range": [
-      30,
-      31
-    ]
+    "end": 31
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 31,
-    "end": 32,
-    "range": [
-      31,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 33,
-    "end": 36,
-    "range": [
-      33,
-      36
-    ]
+    "end": 36
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 37,
-    "end": 38,
-    "range": [
-      37,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 41,
-    "end": 44,
-    "range": [
-      41,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 44,
-    "end": 45,
-    "range": [
-      44,
-      45
-    ]
+    "end": 45
   }
 ]
 ```

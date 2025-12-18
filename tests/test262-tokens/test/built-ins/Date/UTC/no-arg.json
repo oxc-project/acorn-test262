@@ -3,150 +3,90 @@
     "type": "Identifier",
     "value": "assert",
     "start": 849,
-    "end": 855,
-    "range": [
-      849,
-      855
-    ]
+    "end": 855
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 855,
-    "end": 856,
-    "range": [
-      855,
-      856
-    ]
+    "end": 856
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 856,
-    "end": 865,
-    "range": [
-      856,
-      865
-    ]
+    "end": 865
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 865,
-    "end": 866,
-    "range": [
-      865,
-      866
-    ]
+    "end": 866
   },
   {
     "type": "Identifier",
     "value": "Date",
     "start": 866,
-    "end": 870,
-    "range": [
-      866,
-      870
-    ]
+    "end": 870
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 870,
-    "end": 871,
-    "range": [
-      870,
-      871
-    ]
+    "end": 871
   },
   {
     "type": "Identifier",
     "value": "UTC",
     "start": 871,
-    "end": 874,
-    "range": [
-      871,
-      874
-    ]
+    "end": 874
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 874,
-    "end": 875,
-    "range": [
-      874,
-      875
-    ]
+    "end": 875
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 875,
-    "end": 876,
-    "range": [
-      875,
-      876
-    ]
+    "end": 876
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 876,
-    "end": 877,
-    "range": [
-      876,
-      877
-    ]
+    "end": 877
   },
   {
     "type": "Identifier",
     "value": "NaN",
     "start": 878,
-    "end": 881,
-    "range": [
-      878,
-      881
-    ]
+    "end": 881
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 881,
-    "end": 882,
-    "range": [
-      881,
-      882
-    ]
+    "end": 882
   },
   {
     "type": "String",
     "value": "'missing non-optional year argument'",
     "start": 883,
-    "end": 919,
-    "range": [
-      883,
-      919
-    ]
+    "end": 919
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 919,
-    "end": 920,
-    "range": [
-      919,
-      920
-    ]
+    "end": 920
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 920,
-    "end": 921,
-    "range": [
-      920,
-      921
-    ]
+    "end": 921
   }
 ]

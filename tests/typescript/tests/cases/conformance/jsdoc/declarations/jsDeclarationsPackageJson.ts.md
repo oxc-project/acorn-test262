@@ -112,141 +112,85 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "const",
     "start": 0,
-    "end": 5,
-    "range": [
-      0,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Identifier",
     "value": "j",
     "start": 6,
-    "end": 7,
-    "range": [
-      6,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8,
-    "end": 9,
-    "range": [
-      8,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Identifier",
     "value": "require",
     "start": 10,
-    "end": 17,
-    "range": [
-      10,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 17,
-    "end": 18,
-    "range": [
-      17,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "String",
     "value": "\"./package.json\"",
     "start": 18,
-    "end": 34,
-    "range": [
-      18,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 34,
-    "end": 35,
-    "range": [
-      34,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 35,
-    "end": 36,
-    "range": [
-      35,
-      36
-    ]
+    "end": 36
   },
   {
     "type": "Identifier",
     "value": "module",
     "start": 37,
-    "end": 43,
-    "range": [
-      37,
-      43
-    ]
+    "end": 43
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 43,
-    "end": 44,
-    "range": [
-      43,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Identifier",
     "value": "exports",
     "start": 44,
-    "end": 51,
-    "range": [
-      44,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 52,
-    "end": 53,
-    "range": [
-      52,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Identifier",
     "value": "j",
     "start": 54,
-    "end": 55,
-    "range": [
-      54,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 55,
-    "end": 56,
-    "range": [
-      55,
-      56
-    ]
+    "end": 56
   }
 ]
 ```

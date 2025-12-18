@@ -399,671 +399,403 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7,
-    "end": 8,
-    "range": [
-      7,
-      8
-    ]
+    "end": 8
   },
   {
     "type": "Identifier",
     "value": "React",
     "start": 9,
-    "end": 14,
-    "range": [
-      9,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 14,
-    "end": 15,
-    "range": [
-      14,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 16,
-    "end": 22,
-    "range": [
-      16,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 23,
-    "end": 25,
-    "range": [
-      23,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 26,
-    "end": 35,
-    "range": [
-      26,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "Identifier",
     "value": "React",
     "start": 36,
-    "end": 41,
-    "range": [
-      36,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 41,
-    "end": 42,
-    "range": [
-      41,
-      42
-    ]
+    "end": 42
   },
   {
     "type": "Identifier",
     "value": "declare",
     "start": 44,
-    "end": 51,
-    "range": [
-      44,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 52,
-    "end": 61,
-    "range": [
-      52,
-      61
-    ]
+    "end": 61
   },
   {
     "type": "Identifier",
     "value": "React",
     "start": 62,
-    "end": 67,
-    "range": [
-      62,
-      67
-    ]
+    "end": 67
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 68,
-    "end": 69,
-    "range": [
-      68,
-      69
-    ]
+    "end": 69
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 69,
-    "end": 70,
-    "range": [
-      69,
-      70
-    ]
+    "end": 70
   },
   {
     "type": "Identifier",
     "value": "declare",
     "start": 72,
-    "end": 79,
-    "range": [
-      72,
-      79
-    ]
+    "end": 79
   },
   {
     "type": "Identifier",
     "value": "global",
     "start": 80,
-    "end": 86,
-    "range": [
-      80,
-      86
-    ]
+    "end": 86
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 87,
-    "end": 88,
-    "range": [
-      87,
-      88
-    ]
+    "end": 88
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 91,
-    "end": 100,
-    "range": [
-      91,
-      100
-    ]
+    "end": 100
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 101,
-    "end": 104,
-    "range": [
-      101,
-      104
-    ]
+    "end": 104
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 105,
-    "end": 106,
-    "range": [
-      105,
-      106
-    ]
+    "end": 106
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 111,
-    "end": 120,
-    "range": [
-      111,
-      120
-    ]
+    "end": 120
   },
   {
     "type": "Identifier",
     "value": "Element",
     "start": 121,
-    "end": 128,
-    "range": [
-      121,
-      128
-    ]
+    "end": 128
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 129,
-    "end": 130,
-    "range": [
-      129,
-      130
-    ]
+    "end": 130
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 130,
-    "end": 131,
-    "range": [
-      130,
-      131
-    ]
+    "end": 131
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 136,
-    "end": 145,
-    "range": [
-      136,
-      145
-    ]
+    "end": 145
   },
   {
     "type": "Identifier",
     "value": "ElementClass",
     "start": 146,
-    "end": 158,
-    "range": [
-      146,
-      158
-    ]
+    "end": 158
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 159,
-    "end": 160,
-    "range": [
-      159,
-      160
-    ]
+    "end": 160
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 160,
-    "end": 161,
-    "range": [
-      160,
-      161
-    ]
+    "end": 161
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 166,
-    "end": 175,
-    "range": [
-      166,
-      175
-    ]
+    "end": 175
   },
   {
     "type": "Identifier",
     "value": "ElementAttributesProperty",
     "start": 176,
-    "end": 201,
-    "range": [
-      176,
-      201
-    ]
+    "end": 201
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 202,
-    "end": 203,
-    "range": [
-      202,
-      203
-    ]
+    "end": 203
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 203,
-    "end": 204,
-    "range": [
-      203,
-      204
-    ]
+    "end": 204
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 209,
-    "end": 218,
-    "range": [
-      209,
-      218
-    ]
+    "end": 218
   },
   {
     "type": "Identifier",
     "value": "ElementChildrenAttribute",
     "start": 219,
-    "end": 243,
-    "range": [
-      219,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 244,
-    "end": 245,
-    "range": [
-      244,
-      245
-    ]
+    "end": 245
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 245,
-    "end": 246,
-    "range": [
-      245,
-      246
-    ]
+    "end": 246
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 251,
-    "end": 255,
-    "range": [
-      251,
-      255
-    ]
+    "end": 255
   },
   {
     "type": "Identifier",
     "value": "LibraryManagedAttributes",
     "start": 256,
-    "end": 280,
-    "range": [
-      256,
-      280
-    ]
+    "end": 280
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 280,
-    "end": 281,
-    "range": [
-      280,
-      281
-    ]
+    "end": 281
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 281,
-    "end": 282,
-    "range": [
-      281,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 282,
-    "end": 283,
-    "range": [
-      282,
-      283
-    ]
+    "end": 283
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 284,
-    "end": 285,
-    "range": [
-      284,
-      285
-    ]
+    "end": 285
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 285,
-    "end": 286,
-    "range": [
-      285,
-      286
-    ]
+    "end": 286
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 287,
-    "end": 288,
-    "range": [
-      287,
-      288
-    ]
+    "end": 288
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 290,
-    "end": 291,
-    "range": [
-      290,
-      291
-    ]
+    "end": 291
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 296,
-    "end": 305,
-    "range": [
-      296,
-      305
-    ]
+    "end": 305
   },
   {
     "type": "Identifier",
     "value": "IntrinsicAttributes",
     "start": 306,
-    "end": 325,
-    "range": [
-      306,
-      325
-    ]
+    "end": 325
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 326,
-    "end": 327,
-    "range": [
-      326,
-      327
-    ]
+    "end": 327
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 327,
-    "end": 328,
-    "range": [
-      327,
-      328
-    ]
+    "end": 328
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 333,
-    "end": 342,
-    "range": [
-      333,
-      342
-    ]
+    "end": 342
   },
   {
     "type": "Identifier",
     "value": "IntrinsicClassAttributes",
     "start": 343,
-    "end": 367,
-    "range": [
-      343,
-      367
-    ]
+    "end": 367
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 367,
-    "end": 368,
-    "range": [
-      367,
-      368
-    ]
+    "end": 368
   },
   {
     "type": "Identifier",
     "value": "T",
     "start": 368,
-    "end": 369,
-    "range": [
-      368,
-      369
-    ]
+    "end": 369
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 369,
-    "end": 370,
-    "range": [
-      369,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 371,
-    "end": 372,
-    "range": [
-      371,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 372,
-    "end": 373,
-    "range": [
-      372,
-      373
-    ]
+    "end": 373
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 378,
-    "end": 387,
-    "range": [
-      378,
-      387
-    ]
+    "end": 387
   },
   {
     "type": "Identifier",
     "value": "IntrinsicElements",
     "start": 388,
-    "end": 405,
-    "range": [
-      388,
-      405
-    ]
+    "end": 405
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 406,
-    "end": 407,
-    "range": [
-      406,
-      407
-    ]
+    "end": 407
   },
   {
     "type": "Identifier",
     "value": "div",
     "start": 414,
-    "end": 417,
-    "range": [
-      414,
-      417
-    ]
+    "end": 417
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 417,
-    "end": 418,
-    "range": [
-      417,
-      418
-    ]
+    "end": 418
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 419,
-    "end": 420,
-    "range": [
-      419,
-      420
-    ]
+    "end": 420
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 420,
-    "end": 421,
-    "range": [
-      420,
-      421
-    ]
+    "end": 421
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 426,
-    "end": 427,
-    "range": [
-      426,
-      427
-    ]
+    "end": 427
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 430,
-    "end": 431,
-    "range": [
-      430,
-      431
-    ]
+    "end": 431
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 432,
-    "end": 433,
-    "range": [
-      432,
-      433
-    ]
+    "end": 433
   }
 ]
 ```
@@ -1127,81 +859,49 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 7,
-    "end": 8,
-    "range": [
-      7,
-      8
-    ]
+    "end": 8
   },
   {
     "type": "Identifier",
     "value": "EmotionJSX",
     "start": 9,
-    "end": 19,
-    "range": [
-      9,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 20,
-    "end": 22,
-    "range": [
-      20,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 23,
-    "end": 26,
-    "range": [
-      23,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 27,
-    "end": 28,
-    "range": [
-      27,
-      28
-    ]
+    "end": 28
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 29,
-    "end": 33,
-    "range": [
-      29,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "String",
     "value": "'./jsx-namespace'",
     "start": 34,
-    "end": 51,
-    "range": [
-      34,
-      51
-    ]
+    "end": 51
   }
 ]
 ```
@@ -2548,1891 +2248,1135 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "String",
     "value": "'react'",
     "start": 7,
-    "end": 14,
-    "range": [
-      7,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 16,
-    "end": 20,
-    "range": [
-      16,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Identifier",
     "value": "WithConditionalCSSProp",
     "start": 21,
-    "end": 43,
-    "range": [
-      21,
-      43
-    ]
+    "end": 43
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 43,
-    "end": 44,
-    "range": [
-      43,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 44,
-    "end": 45,
-    "range": [
-      44,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 45,
-    "end": 46,
-    "range": [
-      45,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 47,
-    "end": 48,
-    "range": [
-      47,
-      48
-    ]
+    "end": 48
   },
   {
     "type": "String",
     "value": "'className'",
     "start": 49,
-    "end": 60,
-    "range": [
-      49,
-      60
-    ]
+    "end": 60
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 61,
-    "end": 68,
-    "range": [
-      61,
-      68
-    ]
+    "end": 68
   },
   {
     "type": "Identifier",
     "value": "keyof",
     "start": 69,
-    "end": 74,
-    "range": [
-      69,
-      74
-    ]
+    "end": 74
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 75,
-    "end": 76,
-    "range": [
-      75,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 79,
-    "end": 80,
-    "range": [
-      79,
-      80
-    ]
+    "end": 80
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 81,
-    "end": 82,
-    "range": [
-      81,
-      82
-    ]
+    "end": 82
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 82,
-    "end": 83,
-    "range": [
-      82,
-      83
-    ]
+    "end": 83
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 84,
-    "end": 91,
-    "range": [
-      84,
-      91
-    ]
+    "end": 91
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 92,
-    "end": 93,
-    "range": [
-      92,
-      93
-    ]
+    "end": 93
   },
   {
     "type": "Identifier",
     "value": "className",
     "start": 94,
-    "end": 103,
-    "range": [
-      94,
-      103
-    ]
+    "end": 103
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 103,
-    "end": 104,
-    "range": [
-      103,
-      104
-    ]
+    "end": 104
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 104,
-    "end": 105,
-    "range": [
-      104,
-      105
-    ]
+    "end": 105
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 106,
-    "end": 112,
-    "range": [
-      106,
-      112
-    ]
+    "end": 112
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 113,
-    "end": 114,
-    "range": [
-      113,
-      114
-    ]
+    "end": 114
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 115,
-    "end": 116,
-    "range": [
-      115,
-      116
-    ]
+    "end": 116
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 117,
-    "end": 118,
-    "range": [
-      117,
-      118
-    ]
+    "end": 118
   },
   {
     "type": "Punctuator",
     "value": "&",
     "start": 119,
-    "end": 120,
-    "range": [
-      119,
-      120
-    ]
+    "end": 120
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 121,
-    "end": 122,
-    "range": [
-      121,
-      122
-    ]
+    "end": 122
   },
   {
     "type": "Identifier",
     "value": "css",
     "start": 123,
-    "end": 126,
-    "range": [
-      123,
-      126
-    ]
+    "end": 126
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 126,
-    "end": 127,
-    "range": [
-      126,
-      127
-    ]
+    "end": 127
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 127,
-    "end": 128,
-    "range": [
-      127,
-      128
-    ]
+    "end": 128
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 129,
-    "end": 135,
-    "range": [
-      129,
-      135
-    ]
+    "end": 135
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 136,
-    "end": 137,
-    "range": [
-      136,
-      137
-    ]
+    "end": 137
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 138,
-    "end": 139,
-    "range": [
-      138,
-      139
-    ]
+    "end": 139
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 140,
-    "end": 141,
-    "range": [
-      140,
-      141
-    ]
+    "end": 141
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 141,
-    "end": 142,
-    "range": [
-      141,
-      142
-    ]
+    "end": 142
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 145,
-    "end": 146,
-    "range": [
-      145,
-      146
-    ]
+    "end": 146
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 147,
-    "end": 148,
-    "range": [
-      147,
-      148
-    ]
+    "end": 148
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 150,
-    "end": 154,
-    "range": [
-      150,
-      154
-    ]
+    "end": 154
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElement",
     "start": 155,
-    "end": 170,
-    "range": [
-      155,
-      170
-    ]
+    "end": 170
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 171,
-    "end": 172,
-    "range": [
-      171,
-      172
-    ]
+    "end": 172
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 173,
-    "end": 176,
-    "range": [
-      173,
-      176
-    ]
+    "end": 176
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 176,
-    "end": 177,
-    "range": [
-      176,
-      177
-    ]
+    "end": 177
   },
   {
     "type": "Identifier",
     "value": "Element",
     "start": 177,
-    "end": 184,
-    "range": [
-      177,
-      184
-    ]
+    "end": 184
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 185,
-    "end": 189,
-    "range": [
-      185,
-      189
-    ]
+    "end": 189
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElementClass",
     "start": 190,
-    "end": 210,
-    "range": [
-      190,
-      210
-    ]
+    "end": 210
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 211,
-    "end": 212,
-    "range": [
-      211,
-      212
-    ]
+    "end": 212
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 213,
-    "end": 216,
-    "range": [
-      213,
-      216
-    ]
+    "end": 216
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 216,
-    "end": 217,
-    "range": [
-      216,
-      217
-    ]
+    "end": 217
   },
   {
     "type": "Identifier",
     "value": "ElementClass",
     "start": 217,
-    "end": 229,
-    "range": [
-      217,
-      229
-    ]
+    "end": 229
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 230,
-    "end": 234,
-    "range": [
-      230,
-      234
-    ]
+    "end": 234
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElementAttributesProperty",
     "start": 235,
-    "end": 268,
-    "range": [
-      235,
-      268
-    ]
+    "end": 268
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 269,
-    "end": 270,
-    "range": [
-      269,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 271,
-    "end": 274,
-    "range": [
-      271,
-      274
-    ]
+    "end": 274
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 274,
-    "end": 275,
-    "range": [
-      274,
-      275
-    ]
+    "end": 275
   },
   {
     "type": "Identifier",
     "value": "ElementAttributesProperty",
     "start": 275,
-    "end": 300,
-    "range": [
-      275,
-      300
-    ]
+    "end": 300
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 301,
-    "end": 305,
-    "range": [
-      301,
-      305
-    ]
+    "end": 305
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElementChildrenAttribute",
     "start": 306,
-    "end": 338,
-    "range": [
-      306,
-      338
-    ]
+    "end": 338
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 339,
-    "end": 340,
-    "range": [
-      339,
-      340
-    ]
+    "end": 340
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 341,
-    "end": 344,
-    "range": [
-      341,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 344,
-    "end": 345,
-    "range": [
-      344,
-      345
-    ]
+    "end": 345
   },
   {
     "type": "Identifier",
     "value": "ElementChildrenAttribute",
     "start": 345,
-    "end": 369,
-    "range": [
-      345,
-      369
-    ]
+    "end": 369
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 370,
-    "end": 374,
-    "range": [
-      370,
-      374
-    ]
+    "end": 374
   },
   {
     "type": "Identifier",
     "value": "ReactJSXLibraryManagedAttributes",
     "start": 375,
-    "end": 407,
-    "range": [
-      375,
-      407
-    ]
+    "end": 407
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 407,
-    "end": 408,
-    "range": [
-      407,
-      408
-    ]
+    "end": 408
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 408,
-    "end": 409,
-    "range": [
-      408,
-      409
-    ]
+    "end": 409
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 409,
-    "end": 410,
-    "range": [
-      409,
-      410
-    ]
+    "end": 410
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 411,
-    "end": 412,
-    "range": [
-      411,
-      412
-    ]
+    "end": 412
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 412,
-    "end": 413,
-    "range": [
-      412,
-      413
-    ]
+    "end": 413
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 414,
-    "end": 415,
-    "range": [
-      414,
-      415
-    ]
+    "end": 415
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 416,
-    "end": 419,
-    "range": [
-      416,
-      419
-    ]
+    "end": 419
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 419,
-    "end": 420,
-    "range": [
-      419,
-      420
-    ]
+    "end": 420
   },
   {
     "type": "Identifier",
     "value": "LibraryManagedAttributes",
     "start": 420,
-    "end": 444,
-    "range": [
-      420,
-      444
-    ]
+    "end": 444
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 444,
-    "end": 445,
-    "range": [
-      444,
-      445
-    ]
+    "end": 445
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 445,
-    "end": 446,
-    "range": [
-      445,
-      446
-    ]
+    "end": 446
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 446,
-    "end": 447,
-    "range": [
-      446,
-      447
-    ]
+    "end": 447
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 448,
-    "end": 449,
-    "range": [
-      448,
-      449
-    ]
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 449,
-    "end": 450,
-    "range": [
-      449,
-      450
-    ]
+    "end": 450
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 451,
-    "end": 455,
-    "range": [
-      451,
-      455
-    ]
+    "end": 455
   },
   {
     "type": "Identifier",
     "value": "ReactJSXIntrinsicAttributes",
     "start": 456,
-    "end": 483,
-    "range": [
-      456,
-      483
-    ]
+    "end": 483
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 484,
-    "end": 485,
-    "range": [
-      484,
-      485
-    ]
+    "end": 485
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 486,
-    "end": 489,
-    "range": [
-      486,
-      489
-    ]
+    "end": 489
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 489,
-    "end": 490,
-    "range": [
-      489,
-      490
-    ]
+    "end": 490
   },
   {
     "type": "Identifier",
     "value": "IntrinsicAttributes",
     "start": 490,
-    "end": 509,
-    "range": [
-      490,
-      509
-    ]
+    "end": 509
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 510,
-    "end": 514,
-    "range": [
-      510,
-      514
-    ]
+    "end": 514
   },
   {
     "type": "Identifier",
     "value": "ReactJSXIntrinsicClassAttributes",
     "start": 515,
-    "end": 547,
-    "range": [
-      515,
-      547
-    ]
+    "end": 547
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 547,
-    "end": 548,
-    "range": [
-      547,
-      548
-    ]
+    "end": 548
   },
   {
     "type": "Identifier",
     "value": "T",
     "start": 548,
-    "end": 549,
-    "range": [
-      548,
-      549
-    ]
+    "end": 549
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 549,
-    "end": 550,
-    "range": [
-      549,
-      550
-    ]
+    "end": 550
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 551,
-    "end": 552,
-    "range": [
-      551,
-      552
-    ]
+    "end": 552
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 553,
-    "end": 556,
-    "range": [
-      553,
-      556
-    ]
+    "end": 556
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 556,
-    "end": 557,
-    "range": [
-      556,
-      557
-    ]
+    "end": 557
   },
   {
     "type": "Identifier",
     "value": "IntrinsicClassAttributes",
     "start": 557,
-    "end": 581,
-    "range": [
-      557,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 581,
-    "end": 582,
-    "range": [
-      581,
-      582
-    ]
+    "end": 582
   },
   {
     "type": "Identifier",
     "value": "T",
     "start": 582,
-    "end": 583,
-    "range": [
-      582,
-      583
-    ]
+    "end": 583
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 583,
-    "end": 584,
-    "range": [
-      583,
-      584
-    ]
+    "end": 584
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 585,
-    "end": 589,
-    "range": [
-      585,
-      589
-    ]
+    "end": 589
   },
   {
     "type": "Identifier",
     "value": "ReactJSXIntrinsicElements",
     "start": 590,
-    "end": 615,
-    "range": [
-      590,
-      615
-    ]
+    "end": 615
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 616,
-    "end": 617,
-    "range": [
-      616,
-      617
-    ]
+    "end": 617
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 618,
-    "end": 621,
-    "range": [
-      618,
-      621
-    ]
+    "end": 621
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 621,
-    "end": 622,
-    "range": [
-      621,
-      622
-    ]
+    "end": 622
   },
   {
     "type": "Identifier",
     "value": "IntrinsicElements",
     "start": 622,
-    "end": 639,
-    "range": [
-      622,
-      639
-    ]
+    "end": 639
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 641,
-    "end": 647,
-    "range": [
-      641,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 648,
-    "end": 657,
-    "range": [
-      648,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "Identifier",
     "value": "EmotionJSX",
     "start": 658,
-    "end": 668,
-    "range": [
-      658,
-      668
-    ]
+    "end": 668
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 669,
-    "end": 670,
-    "range": [
-      669,
-      670
-    ]
+    "end": 670
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 673,
-    "end": 682,
-    "range": [
-      673,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Identifier",
     "value": "Element",
     "start": 683,
-    "end": 690,
-    "range": [
-      683,
-      690
-    ]
+    "end": 690
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 691,
-    "end": 698,
-    "range": [
-      691,
-      698
-    ]
+    "end": 698
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElement",
     "start": 699,
-    "end": 714,
-    "range": [
-      699,
-      714
-    ]
+    "end": 714
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 715,
-    "end": 716,
-    "range": [
-      715,
-      716
-    ]
+    "end": 716
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 716,
-    "end": 717,
-    "range": [
-      716,
-      717
-    ]
+    "end": 717
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 720,
-    "end": 729,
-    "range": [
-      720,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "Identifier",
     "value": "ElementClass",
     "start": 730,
-    "end": 742,
-    "range": [
-      730,
-      742
-    ]
+    "end": 742
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 743,
-    "end": 750,
-    "range": [
-      743,
-      750
-    ]
+    "end": 750
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElementClass",
     "start": 751,
-    "end": 771,
-    "range": [
-      751,
-      771
-    ]
+    "end": 771
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 772,
-    "end": 773,
-    "range": [
-      772,
-      773
-    ]
+    "end": 773
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 773,
-    "end": 774,
-    "range": [
-      773,
-      774
-    ]
+    "end": 774
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 777,
-    "end": 786,
-    "range": [
-      777,
-      786
-    ]
+    "end": 786
   },
   {
     "type": "Identifier",
     "value": "ElementAttributesProperty",
     "start": 787,
-    "end": 812,
-    "range": [
-      787,
-      812
-    ]
+    "end": 812
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 817,
-    "end": 824,
-    "range": [
-      817,
-      824
-    ]
+    "end": 824
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElementAttributesProperty",
     "start": 825,
-    "end": 858,
-    "range": [
-      825,
-      858
-    ]
+    "end": 858
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 859,
-    "end": 860,
-    "range": [
-      859,
-      860
-    ]
+    "end": 860
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 860,
-    "end": 861,
-    "range": [
-      860,
-      861
-    ]
+    "end": 861
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 864,
-    "end": 873,
-    "range": [
-      864,
-      873
-    ]
+    "end": 873
   },
   {
     "type": "Identifier",
     "value": "ElementChildrenAttribute",
     "start": 874,
-    "end": 898,
-    "range": [
-      874,
-      898
-    ]
+    "end": 898
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 899,
-    "end": 906,
-    "range": [
-      899,
-      906
-    ]
+    "end": 906
   },
   {
     "type": "Identifier",
     "value": "ReactJSXElementChildrenAttribute",
     "start": 907,
-    "end": 939,
-    "range": [
-      907,
-      939
-    ]
+    "end": 939
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 940,
-    "end": 941,
-    "range": [
-      940,
-      941
-    ]
+    "end": 941
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 941,
-    "end": 942,
-    "range": [
-      941,
-      942
-    ]
+    "end": 942
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 946,
-    "end": 950,
-    "range": [
-      946,
-      950
-    ]
+    "end": 950
   },
   {
     "type": "Identifier",
     "value": "LibraryManagedAttributes",
     "start": 951,
-    "end": 975,
-    "range": [
-      951,
-      975
-    ]
+    "end": 975
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 975,
-    "end": 976,
-    "range": [
-      975,
-      976
-    ]
+    "end": 976
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 976,
-    "end": 977,
-    "range": [
-      976,
-      977
-    ]
+    "end": 977
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 977,
-    "end": 978,
-    "range": [
-      977,
-      978
-    ]
+    "end": 978
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 979,
-    "end": 980,
-    "range": [
-      979,
-      980
-    ]
+    "end": 980
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 980,
-    "end": 981,
-    "range": [
-      980,
-      981
-    ]
+    "end": 981
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 982,
-    "end": 983,
-    "range": [
-      982,
-      983
-    ]
+    "end": 983
   },
   {
     "type": "Identifier",
     "value": "WithConditionalCSSProp",
     "start": 984,
-    "end": 1006,
-    "range": [
-      984,
-      1006
-    ]
+    "end": 1006
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 1006,
-    "end": 1007,
-    "range": [
-      1006,
-      1007
-    ]
+    "end": 1007
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 1007,
-    "end": 1008,
-    "range": [
-      1007,
-      1008
-    ]
+    "end": 1008
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 1008,
-    "end": 1009,
-    "range": [
-      1008,
-      1009
-    ]
+    "end": 1009
   },
   {
     "type": "Punctuator",
     "value": "&",
     "start": 1010,
-    "end": 1011,
-    "range": [
-      1010,
-      1011
-    ]
+    "end": 1011
   },
   {
     "type": "Identifier",
     "value": "ReactJSXLibraryManagedAttributes",
     "start": 1016,
-    "end": 1048,
-    "range": [
-      1016,
-      1048
-    ]
+    "end": 1048
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 1048,
-    "end": 1049,
-    "range": [
-      1048,
-      1049
-    ]
+    "end": 1049
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 1049,
-    "end": 1050,
-    "range": [
-      1049,
-      1050
-    ]
+    "end": 1050
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1050,
-    "end": 1051,
-    "range": [
-      1050,
-      1051
-    ]
+    "end": 1051
   },
   {
     "type": "Identifier",
     "value": "P",
     "start": 1052,
-    "end": 1053,
-    "range": [
-      1052,
-      1053
-    ]
+    "end": 1053
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 1053,
-    "end": 1054,
-    "range": [
-      1053,
-      1054
-    ]
+    "end": 1054
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 1058,
-    "end": 1067,
-    "range": [
-      1058,
-      1067
-    ]
+    "end": 1067
   },
   {
     "type": "Identifier",
     "value": "IntrinsicAttributes",
     "start": 1068,
-    "end": 1087,
-    "range": [
-      1068,
-      1087
-    ]
+    "end": 1087
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 1088,
-    "end": 1095,
-    "range": [
-      1088,
-      1095
-    ]
+    "end": 1095
   },
   {
     "type": "Identifier",
     "value": "ReactJSXIntrinsicAttributes",
     "start": 1096,
-    "end": 1123,
-    "range": [
-      1096,
-      1123
-    ]
+    "end": 1123
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1124,
-    "end": 1125,
-    "range": [
-      1124,
-      1125
-    ]
+    "end": 1125
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1125,
-    "end": 1126,
-    "range": [
-      1125,
-      1126
-    ]
+    "end": 1126
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 1129,
-    "end": 1138,
-    "range": [
-      1129,
-      1138
-    ]
+    "end": 1138
   },
   {
     "type": "Identifier",
     "value": "IntrinsicClassAttributes",
     "start": 1139,
-    "end": 1163,
-    "range": [
-      1139,
-      1163
-    ]
+    "end": 1163
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 1163,
-    "end": 1164,
-    "range": [
-      1163,
-      1164
-    ]
+    "end": 1164
   },
   {
     "type": "Identifier",
     "value": "T",
     "start": 1164,
-    "end": 1165,
-    "range": [
-      1164,
-      1165
-    ]
+    "end": 1165
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 1165,
-    "end": 1166,
-    "range": [
-      1165,
-      1166
-    ]
+    "end": 1166
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 1171,
-    "end": 1178,
-    "range": [
-      1171,
-      1178
-    ]
+    "end": 1178
   },
   {
     "type": "Identifier",
     "value": "ReactJSXIntrinsicClassAttributes",
     "start": 1179,
-    "end": 1211,
-    "range": [
-      1179,
-      1211
-    ]
+    "end": 1211
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 1211,
-    "end": 1212,
-    "range": [
-      1211,
-      1212
-    ]
+    "end": 1212
   },
   {
     "type": "Identifier",
     "value": "T",
     "start": 1212,
-    "end": 1213,
-    "range": [
-      1212,
-      1213
-    ]
+    "end": 1213
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 1213,
-    "end": 1214,
-    "range": [
-      1213,
-      1214
-    ]
+    "end": 1214
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1215,
-    "end": 1216,
-    "range": [
-      1215,
-      1216
-    ]
+    "end": 1216
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1216,
-    "end": 1217,
-    "range": [
-      1216,
-      1217
-    ]
+    "end": 1217
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 1221,
-    "end": 1225,
-    "range": [
-      1221,
-      1225
-    ]
+    "end": 1225
   },
   {
     "type": "Identifier",
     "value": "IntrinsicElements",
     "start": 1226,
-    "end": 1243,
-    "range": [
-      1226,
-      1243
-    ]
+    "end": 1243
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1244,
-    "end": 1245,
-    "range": [
-      1244,
-      1245
-    ]
+    "end": 1245
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1246,
-    "end": 1247,
-    "range": [
-      1246,
-      1247
-    ]
+    "end": 1247
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1252,
-    "end": 1253,
-    "range": [
-      1252,
-      1253
-    ]
+    "end": 1253
   },
   {
     "type": "Identifier",
     "value": "K",
     "start": 1253,
-    "end": 1254,
-    "range": [
-      1253,
-      1254
-    ]
+    "end": 1254
   },
   {
     "type": "Keyword",
     "value": "in",
     "start": 1255,
-    "end": 1257,
-    "range": [
-      1255,
-      1257
-    ]
+    "end": 1257
   },
   {
     "type": "Identifier",
     "value": "keyof",
     "start": 1258,
-    "end": 1263,
-    "range": [
-      1258,
-      1263
-    ]
+    "end": 1263
   },
   {
     "type": "Identifier",
     "value": "ReactJSXIntrinsicElements",
     "start": 1264,
-    "end": 1289,
-    "range": [
-      1264,
-      1289
-    ]
+    "end": 1289
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1289,
-    "end": 1290,
-    "range": [
-      1289,
-      1290
-    ]
+    "end": 1290
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1290,
-    "end": 1291,
-    "range": [
-      1290,
-      1291
-    ]
+    "end": 1291
   },
   {
     "type": "Identifier",
     "value": "ReactJSXIntrinsicElements",
     "start": 1292,
-    "end": 1317,
-    "range": [
-      1292,
-      1317
-    ]
+    "end": 1317
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1317,
-    "end": 1318,
-    "range": [
-      1317,
-      1318
-    ]
+    "end": 1318
   },
   {
     "type": "Identifier",
     "value": "K",
     "start": 1318,
-    "end": 1319,
-    "range": [
-      1318,
-      1319
-    ]
+    "end": 1319
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1319,
-    "end": 1320,
-    "range": [
-      1319,
-      1320
-    ]
+    "end": 1320
   },
   {
     "type": "Punctuator",
     "value": "&",
     "start": 1321,
-    "end": 1322,
-    "range": [
-      1321,
-      1322
-    ]
+    "end": 1322
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1323,
-    "end": 1324,
-    "range": [
-      1323,
-      1324
-    ]
+    "end": 1324
   },
   {
     "type": "Identifier",
     "value": "css",
     "start": 1331,
-    "end": 1334,
-    "range": [
-      1331,
-      1334
-    ]
+    "end": 1334
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 1334,
-    "end": 1335,
-    "range": [
-      1334,
-      1335
-    ]
+    "end": 1335
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1335,
-    "end": 1336,
-    "range": [
-      1335,
-      1336
-    ]
+    "end": 1336
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 1337,
-    "end": 1343,
-    "range": [
-      1337,
-      1343
-    ]
+    "end": 1343
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1348,
-    "end": 1349,
-    "range": [
-      1348,
-      1349
-    ]
+    "end": 1349
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1352,
-    "end": 1353,
-    "range": [
-      1352,
-      1353
-    ]
+    "end": 1353
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1354,
-    "end": 1355,
-    "range": [
-      1354,
-      1355
-    ]
+    "end": 1355
   }
 ]
 ```
@@ -4550,181 +3494,109 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7,
-    "end": 12,
-    "range": [
-      7,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Identifier",
     "value": "Comp",
     "start": 13,
-    "end": 17,
-    "range": [
-      13,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 18,
-    "end": 19,
-    "range": [
-      18,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 20,
-    "end": 21,
-    "range": [
-      20,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 21,
-    "end": 22,
-    "range": [
-      21,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 23,
-    "end": 25,
-    "range": [
-      23,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 26,
-    "end": 27,
-    "range": [
-      26,
-      27
-    ]
+    "end": 27
   },
   {
     "type": "JSXIdentifier",
     "value": "div",
     "start": 27,
-    "end": 30,
-    "range": [
-      27,
-      30
-    ]
+    "end": 30
   },
   {
     "type": "JSXIdentifier",
     "value": "css",
     "start": 31,
-    "end": 34,
-    "range": [
-      31,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 34,
-    "end": 35,
-    "range": [
-      34,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "JSXText",
     "value": "\"color: hotpink;\"",
     "start": 35,
-    "end": 52,
-    "range": [
-      35,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 52,
-    "end": 53,
-    "range": [
-      52,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 53,
-    "end": 54,
-    "range": [
-      53,
-      54
-    ]
+    "end": 54
   },
   {
     "type": "Punctuator",
     "value": "/",
     "start": 54,
-    "end": 55,
-    "range": [
-      54,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "JSXIdentifier",
     "value": "div",
     "start": 55,
-    "end": 58,
-    "range": [
-      55,
-      58
-    ]
+    "end": 58
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 58,
-    "end": 59,
-    "range": [
-      58,
-      59
-    ]
+    "end": 59
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 59,
-    "end": 60,
-    "range": [
-      59,
-      60
-    ]
+    "end": 60
   }
 ]
 ```

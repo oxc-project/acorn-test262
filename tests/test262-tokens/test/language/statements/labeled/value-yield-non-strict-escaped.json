@@ -3,40 +3,24 @@
     "type": "Keyword",
     "value": "yield",
     "start": 319,
-    "end": 329,
-    "range": [
-      319,
-      329
-    ]
+    "end": 329
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 329,
-    "end": 330,
-    "range": [
-      329,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 331,
-    "end": 332,
-    "range": [
-      331,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 332,
-    "end": 333,
-    "range": [
-      332,
-      333
-    ]
+    "end": 333
   }
 ]

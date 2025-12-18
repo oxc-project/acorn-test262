@@ -42,41 +42,25 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 8,
-    "end": 11,
-    "range": [
-      8,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "v",
     "start": 12,
-    "end": 13,
-    "range": [
-      12,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 13,
-    "end": 14,
-    "range": [
-      13,
-      14
-    ]
+    "end": 14
   }
 ]
 ```

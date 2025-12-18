@@ -3,6000 +3,3600 @@
     "type": "Identifier",
     "value": "assert",
     "start": 635,
-    "end": 641,
-    "range": [
-      635,
-      641
-    ]
+    "end": 641
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 641,
-    "end": 642,
-    "range": [
-      641,
-      642
-    ]
+    "end": 642
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 642,
-    "end": 651,
-    "range": [
-      642,
-      651
-    ]
+    "end": 651
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 651,
-    "end": 652,
-    "range": [
-      651,
-      652
-    ]
+    "end": 652
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC00\"",
     "start": 652,
-    "end": 666,
-    "range": [
-      652,
-      666
-    ]
+    "end": 666
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 666,
-    "end": 667,
-    "range": [
-      666,
-      667
-    ]
+    "end": 667
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 667,
-    "end": 678,
-    "range": [
-      667,
-      678
-    ]
+    "end": 678
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 678,
-    "end": 679,
-    "range": [
-      678,
-      679
-    ]
+    "end": 679
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 679,
-    "end": 680,
-    "range": [
-      679,
-      680
-    ]
+    "end": 680
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 680,
-    "end": 681,
-    "range": [
-      680,
-      681
-    ]
+    "end": 681
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC28\"",
     "start": 682,
-    "end": 696,
-    "range": [
-      682,
-      696
-    ]
+    "end": 696
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 696,
-    "end": 697,
-    "range": [
-      696,
-      697
-    ]
+    "end": 697
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER LONG I\"",
     "start": 698,
-    "end": 729,
-    "range": [
-      698,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 729,
-    "end": 730,
-    "range": [
-      729,
-      730
-    ]
+    "end": 730
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 730,
-    "end": 731,
-    "range": [
-      730,
-      731
-    ]
+    "end": 731
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 732,
-    "end": 738,
-    "range": [
-      732,
-      738
-    ]
+    "end": 738
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 738,
-    "end": 739,
-    "range": [
-      738,
-      739
-    ]
+    "end": 739
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 739,
-    "end": 748,
-    "range": [
-      739,
-      748
-    ]
+    "end": 748
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 748,
-    "end": 749,
-    "range": [
-      748,
-      749
-    ]
+    "end": 749
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC01\"",
     "start": 749,
-    "end": 763,
-    "range": [
-      749,
-      763
-    ]
+    "end": 763
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 763,
-    "end": 764,
-    "range": [
-      763,
-      764
-    ]
+    "end": 764
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 764,
-    "end": 775,
-    "range": [
-      764,
-      775
-    ]
+    "end": 775
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 775,
-    "end": 776,
-    "range": [
-      775,
-      776
-    ]
+    "end": 776
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 776,
-    "end": 777,
-    "range": [
-      776,
-      777
-    ]
+    "end": 777
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 777,
-    "end": 778,
-    "range": [
-      777,
-      778
-    ]
+    "end": 778
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC29\"",
     "start": 779,
-    "end": 793,
-    "range": [
-      779,
-      793
-    ]
+    "end": 793
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 793,
-    "end": 794,
-    "range": [
-      793,
-      794
-    ]
+    "end": 794
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER LONG E\"",
     "start": 795,
-    "end": 826,
-    "range": [
-      795,
-      826
-    ]
+    "end": 826
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 826,
-    "end": 827,
-    "range": [
-      826,
-      827
-    ]
+    "end": 827
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 827,
-    "end": 828,
-    "range": [
-      827,
-      828
-    ]
+    "end": 828
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 829,
-    "end": 835,
-    "range": [
-      829,
-      835
-    ]
+    "end": 835
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 835,
-    "end": 836,
-    "range": [
-      835,
-      836
-    ]
+    "end": 836
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 836,
-    "end": 845,
-    "range": [
-      836,
-      845
-    ]
+    "end": 845
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 845,
-    "end": 846,
-    "range": [
-      845,
-      846
-    ]
+    "end": 846
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC02\"",
     "start": 846,
-    "end": 860,
-    "range": [
-      846,
-      860
-    ]
+    "end": 860
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 860,
-    "end": 861,
-    "range": [
-      860,
-      861
-    ]
+    "end": 861
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 861,
-    "end": 872,
-    "range": [
-      861,
-      872
-    ]
+    "end": 872
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 872,
-    "end": 873,
-    "range": [
-      872,
-      873
-    ]
+    "end": 873
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 873,
-    "end": 874,
-    "range": [
-      873,
-      874
-    ]
+    "end": 874
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 874,
-    "end": 875,
-    "range": [
-      874,
-      875
-    ]
+    "end": 875
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC2A\"",
     "start": 876,
-    "end": 890,
-    "range": [
-      876,
-      890
-    ]
+    "end": 890
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 890,
-    "end": 891,
-    "range": [
-      890,
-      891
-    ]
+    "end": 891
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER LONG A\"",
     "start": 892,
-    "end": 923,
-    "range": [
-      892,
-      923
-    ]
+    "end": 923
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 923,
-    "end": 924,
-    "range": [
-      923,
-      924
-    ]
+    "end": 924
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 924,
-    "end": 925,
-    "range": [
-      924,
-      925
-    ]
+    "end": 925
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 926,
-    "end": 932,
-    "range": [
-      926,
-      932
-    ]
+    "end": 932
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 932,
-    "end": 933,
-    "range": [
-      932,
-      933
-    ]
+    "end": 933
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 933,
-    "end": 942,
-    "range": [
-      933,
-      942
-    ]
+    "end": 942
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 942,
-    "end": 943,
-    "range": [
-      942,
-      943
-    ]
+    "end": 943
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC03\"",
     "start": 943,
-    "end": 957,
-    "range": [
-      943,
-      957
-    ]
+    "end": 957
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 957,
-    "end": 958,
-    "range": [
-      957,
-      958
-    ]
+    "end": 958
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 958,
-    "end": 969,
-    "range": [
-      958,
-      969
-    ]
+    "end": 969
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 969,
-    "end": 970,
-    "range": [
-      969,
-      970
-    ]
+    "end": 970
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 970,
-    "end": 971,
-    "range": [
-      970,
-      971
-    ]
+    "end": 971
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 971,
-    "end": 972,
-    "range": [
-      971,
-      972
-    ]
+    "end": 972
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC2B\"",
     "start": 973,
-    "end": 987,
-    "range": [
-      973,
-      987
-    ]
+    "end": 987
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 987,
-    "end": 988,
-    "range": [
-      987,
-      988
-    ]
+    "end": 988
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER LONG AH\"",
     "start": 989,
-    "end": 1021,
-    "range": [
-      989,
-      1021
-    ]
+    "end": 1021
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1021,
-    "end": 1022,
-    "range": [
-      1021,
-      1022
-    ]
+    "end": 1022
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1022,
-    "end": 1023,
-    "range": [
-      1022,
-      1023
-    ]
+    "end": 1023
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1024,
-    "end": 1030,
-    "range": [
-      1024,
-      1030
-    ]
+    "end": 1030
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1030,
-    "end": 1031,
-    "range": [
-      1030,
-      1031
-    ]
+    "end": 1031
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1031,
-    "end": 1040,
-    "range": [
-      1031,
-      1040
-    ]
+    "end": 1040
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1040,
-    "end": 1041,
-    "range": [
-      1040,
-      1041
-    ]
+    "end": 1041
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC04\"",
     "start": 1041,
-    "end": 1055,
-    "range": [
-      1041,
-      1055
-    ]
+    "end": 1055
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1055,
-    "end": 1056,
-    "range": [
-      1055,
-      1056
-    ]
+    "end": 1056
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1056,
-    "end": 1067,
-    "range": [
-      1056,
-      1067
-    ]
+    "end": 1067
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1067,
-    "end": 1068,
-    "range": [
-      1067,
-      1068
-    ]
+    "end": 1068
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1068,
-    "end": 1069,
-    "range": [
-      1068,
-      1069
-    ]
+    "end": 1069
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1069,
-    "end": 1070,
-    "range": [
-      1069,
-      1070
-    ]
+    "end": 1070
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC2C\"",
     "start": 1071,
-    "end": 1085,
-    "range": [
-      1071,
-      1085
-    ]
+    "end": 1085
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1085,
-    "end": 1086,
-    "range": [
-      1085,
-      1086
-    ]
+    "end": 1086
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER LONG O\"",
     "start": 1087,
-    "end": 1118,
-    "range": [
-      1087,
-      1118
-    ]
+    "end": 1118
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1118,
-    "end": 1119,
-    "range": [
-      1118,
-      1119
-    ]
+    "end": 1119
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1119,
-    "end": 1120,
-    "range": [
-      1119,
-      1120
-    ]
+    "end": 1120
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1121,
-    "end": 1127,
-    "range": [
-      1121,
-      1127
-    ]
+    "end": 1127
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1127,
-    "end": 1128,
-    "range": [
-      1127,
-      1128
-    ]
+    "end": 1128
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1128,
-    "end": 1137,
-    "range": [
-      1128,
-      1137
-    ]
+    "end": 1137
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1137,
-    "end": 1138,
-    "range": [
-      1137,
-      1138
-    ]
+    "end": 1138
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC05\"",
     "start": 1138,
-    "end": 1152,
-    "range": [
-      1138,
-      1152
-    ]
+    "end": 1152
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1152,
-    "end": 1153,
-    "range": [
-      1152,
-      1153
-    ]
+    "end": 1153
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1153,
-    "end": 1164,
-    "range": [
-      1153,
-      1164
-    ]
+    "end": 1164
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1164,
-    "end": 1165,
-    "range": [
-      1164,
-      1165
-    ]
+    "end": 1165
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1165,
-    "end": 1166,
-    "range": [
-      1165,
-      1166
-    ]
+    "end": 1166
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1166,
-    "end": 1167,
-    "range": [
-      1166,
-      1167
-    ]
+    "end": 1167
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC2D\"",
     "start": 1168,
-    "end": 1182,
-    "range": [
-      1168,
-      1182
-    ]
+    "end": 1182
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1182,
-    "end": 1183,
-    "range": [
-      1182,
-      1183
-    ]
+    "end": 1183
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER LONG OO\"",
     "start": 1184,
-    "end": 1216,
-    "range": [
-      1184,
-      1216
-    ]
+    "end": 1216
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1216,
-    "end": 1217,
-    "range": [
-      1216,
-      1217
-    ]
+    "end": 1217
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1217,
-    "end": 1218,
-    "range": [
-      1217,
-      1218
-    ]
+    "end": 1218
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1219,
-    "end": 1225,
-    "range": [
-      1219,
-      1225
-    ]
+    "end": 1225
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1225,
-    "end": 1226,
-    "range": [
-      1225,
-      1226
-    ]
+    "end": 1226
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1226,
-    "end": 1235,
-    "range": [
-      1226,
-      1235
-    ]
+    "end": 1235
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1235,
-    "end": 1236,
-    "range": [
-      1235,
-      1236
-    ]
+    "end": 1236
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC06\"",
     "start": 1236,
-    "end": 1250,
-    "range": [
-      1236,
-      1250
-    ]
+    "end": 1250
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1250,
-    "end": 1251,
-    "range": [
-      1250,
-      1251
-    ]
+    "end": 1251
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1251,
-    "end": 1262,
-    "range": [
-      1251,
-      1262
-    ]
+    "end": 1262
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1262,
-    "end": 1263,
-    "range": [
-      1262,
-      1263
-    ]
+    "end": 1263
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1263,
-    "end": 1264,
-    "range": [
-      1263,
-      1264
-    ]
+    "end": 1264
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1264,
-    "end": 1265,
-    "range": [
-      1264,
-      1265
-    ]
+    "end": 1265
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC2E\"",
     "start": 1266,
-    "end": 1280,
-    "range": [
-      1266,
-      1280
-    ]
+    "end": 1280
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1280,
-    "end": 1281,
-    "range": [
-      1280,
-      1281
-    ]
+    "end": 1281
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER SHORT I\"",
     "start": 1282,
-    "end": 1314,
-    "range": [
-      1282,
-      1314
-    ]
+    "end": 1314
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1314,
-    "end": 1315,
-    "range": [
-      1314,
-      1315
-    ]
+    "end": 1315
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1315,
-    "end": 1316,
-    "range": [
-      1315,
-      1316
-    ]
+    "end": 1316
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1317,
-    "end": 1323,
-    "range": [
-      1317,
-      1323
-    ]
+    "end": 1323
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1323,
-    "end": 1324,
-    "range": [
-      1323,
-      1324
-    ]
+    "end": 1324
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1324,
-    "end": 1333,
-    "range": [
-      1324,
-      1333
-    ]
+    "end": 1333
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1333,
-    "end": 1334,
-    "range": [
-      1333,
-      1334
-    ]
+    "end": 1334
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC07\"",
     "start": 1334,
-    "end": 1348,
-    "range": [
-      1334,
-      1348
-    ]
+    "end": 1348
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1348,
-    "end": 1349,
-    "range": [
-      1348,
-      1349
-    ]
+    "end": 1349
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1349,
-    "end": 1360,
-    "range": [
-      1349,
-      1360
-    ]
+    "end": 1360
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1360,
-    "end": 1361,
-    "range": [
-      1360,
-      1361
-    ]
+    "end": 1361
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1361,
-    "end": 1362,
-    "range": [
-      1361,
-      1362
-    ]
+    "end": 1362
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1362,
-    "end": 1363,
-    "range": [
-      1362,
-      1363
-    ]
+    "end": 1363
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC2F\"",
     "start": 1364,
-    "end": 1378,
-    "range": [
-      1364,
-      1378
-    ]
+    "end": 1378
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1378,
-    "end": 1379,
-    "range": [
-      1378,
-      1379
-    ]
+    "end": 1379
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER SHORT E\"",
     "start": 1380,
-    "end": 1412,
-    "range": [
-      1380,
-      1412
-    ]
+    "end": 1412
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1412,
-    "end": 1413,
-    "range": [
-      1412,
-      1413
-    ]
+    "end": 1413
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1413,
-    "end": 1414,
-    "range": [
-      1413,
-      1414
-    ]
+    "end": 1414
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1415,
-    "end": 1421,
-    "range": [
-      1415,
-      1421
-    ]
+    "end": 1421
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1421,
-    "end": 1422,
-    "range": [
-      1421,
-      1422
-    ]
+    "end": 1422
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1422,
-    "end": 1431,
-    "range": [
-      1422,
-      1431
-    ]
+    "end": 1431
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1431,
-    "end": 1432,
-    "range": [
-      1431,
-      1432
-    ]
+    "end": 1432
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC08\"",
     "start": 1432,
-    "end": 1446,
-    "range": [
-      1432,
-      1446
-    ]
+    "end": 1446
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1446,
-    "end": 1447,
-    "range": [
-      1446,
-      1447
-    ]
+    "end": 1447
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1447,
-    "end": 1458,
-    "range": [
-      1447,
-      1458
-    ]
+    "end": 1458
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1458,
-    "end": 1459,
-    "range": [
-      1458,
-      1459
-    ]
+    "end": 1459
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1459,
-    "end": 1460,
-    "range": [
-      1459,
-      1460
-    ]
+    "end": 1460
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1460,
-    "end": 1461,
-    "range": [
-      1460,
-      1461
-    ]
+    "end": 1461
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC30\"",
     "start": 1462,
-    "end": 1476,
-    "range": [
-      1462,
-      1476
-    ]
+    "end": 1476
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1476,
-    "end": 1477,
-    "range": [
-      1476,
-      1477
-    ]
+    "end": 1477
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER SHORT A\"",
     "start": 1478,
-    "end": 1510,
-    "range": [
-      1478,
-      1510
-    ]
+    "end": 1510
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1510,
-    "end": 1511,
-    "range": [
-      1510,
-      1511
-    ]
+    "end": 1511
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1511,
-    "end": 1512,
-    "range": [
-      1511,
-      1512
-    ]
+    "end": 1512
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1513,
-    "end": 1519,
-    "range": [
-      1513,
-      1519
-    ]
+    "end": 1519
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1519,
-    "end": 1520,
-    "range": [
-      1519,
-      1520
-    ]
+    "end": 1520
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1520,
-    "end": 1529,
-    "range": [
-      1520,
-      1529
-    ]
+    "end": 1529
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1529,
-    "end": 1530,
-    "range": [
-      1529,
-      1530
-    ]
+    "end": 1530
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC09\"",
     "start": 1530,
-    "end": 1544,
-    "range": [
-      1530,
-      1544
-    ]
+    "end": 1544
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1544,
-    "end": 1545,
-    "range": [
-      1544,
-      1545
-    ]
+    "end": 1545
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1545,
-    "end": 1556,
-    "range": [
-      1545,
-      1556
-    ]
+    "end": 1556
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1556,
-    "end": 1557,
-    "range": [
-      1556,
-      1557
-    ]
+    "end": 1557
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1557,
-    "end": 1558,
-    "range": [
-      1557,
-      1558
-    ]
+    "end": 1558
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1558,
-    "end": 1559,
-    "range": [
-      1558,
-      1559
-    ]
+    "end": 1559
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC31\"",
     "start": 1560,
-    "end": 1574,
-    "range": [
-      1560,
-      1574
-    ]
+    "end": 1574
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1574,
-    "end": 1575,
-    "range": [
-      1574,
-      1575
-    ]
+    "end": 1575
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER SHORT AH\"",
     "start": 1576,
-    "end": 1609,
-    "range": [
-      1576,
-      1609
-    ]
+    "end": 1609
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1609,
-    "end": 1610,
-    "range": [
-      1609,
-      1610
-    ]
+    "end": 1610
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1610,
-    "end": 1611,
-    "range": [
-      1610,
-      1611
-    ]
+    "end": 1611
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1612,
-    "end": 1618,
-    "range": [
-      1612,
-      1618
-    ]
+    "end": 1618
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1618,
-    "end": 1619,
-    "range": [
-      1618,
-      1619
-    ]
+    "end": 1619
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1619,
-    "end": 1628,
-    "range": [
-      1619,
-      1628
-    ]
+    "end": 1628
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1628,
-    "end": 1629,
-    "range": [
-      1628,
-      1629
-    ]
+    "end": 1629
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC0A\"",
     "start": 1629,
-    "end": 1643,
-    "range": [
-      1629,
-      1643
-    ]
+    "end": 1643
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1643,
-    "end": 1644,
-    "range": [
-      1643,
-      1644
-    ]
+    "end": 1644
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1644,
-    "end": 1655,
-    "range": [
-      1644,
-      1655
-    ]
+    "end": 1655
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1655,
-    "end": 1656,
-    "range": [
-      1655,
-      1656
-    ]
+    "end": 1656
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1656,
-    "end": 1657,
-    "range": [
-      1656,
-      1657
-    ]
+    "end": 1657
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1657,
-    "end": 1658,
-    "range": [
-      1657,
-      1658
-    ]
+    "end": 1658
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC32\"",
     "start": 1659,
-    "end": 1673,
-    "range": [
-      1659,
-      1673
-    ]
+    "end": 1673
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1673,
-    "end": 1674,
-    "range": [
-      1673,
-      1674
-    ]
+    "end": 1674
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER SHORT O\"",
     "start": 1675,
-    "end": 1707,
-    "range": [
-      1675,
-      1707
-    ]
+    "end": 1707
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1707,
-    "end": 1708,
-    "range": [
-      1707,
-      1708
-    ]
+    "end": 1708
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1708,
-    "end": 1709,
-    "range": [
-      1708,
-      1709
-    ]
+    "end": 1709
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1710,
-    "end": 1716,
-    "range": [
-      1710,
-      1716
-    ]
+    "end": 1716
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1716,
-    "end": 1717,
-    "range": [
-      1716,
-      1717
-    ]
+    "end": 1717
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1717,
-    "end": 1726,
-    "range": [
-      1717,
-      1726
-    ]
+    "end": 1726
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1726,
-    "end": 1727,
-    "range": [
-      1726,
-      1727
-    ]
+    "end": 1727
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC0B\"",
     "start": 1727,
-    "end": 1741,
-    "range": [
-      1727,
-      1741
-    ]
+    "end": 1741
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1741,
-    "end": 1742,
-    "range": [
-      1741,
-      1742
-    ]
+    "end": 1742
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1742,
-    "end": 1753,
-    "range": [
-      1742,
-      1753
-    ]
+    "end": 1753
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1753,
-    "end": 1754,
-    "range": [
-      1753,
-      1754
-    ]
+    "end": 1754
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1754,
-    "end": 1755,
-    "range": [
-      1754,
-      1755
-    ]
+    "end": 1755
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1755,
-    "end": 1756,
-    "range": [
-      1755,
-      1756
-    ]
+    "end": 1756
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC33\"",
     "start": 1757,
-    "end": 1771,
-    "range": [
-      1757,
-      1771
-    ]
+    "end": 1771
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1771,
-    "end": 1772,
-    "range": [
-      1771,
-      1772
-    ]
+    "end": 1772
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER SHORT OO\"",
     "start": 1773,
-    "end": 1806,
-    "range": [
-      1773,
-      1806
-    ]
+    "end": 1806
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1806,
-    "end": 1807,
-    "range": [
-      1806,
-      1807
-    ]
+    "end": 1807
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1807,
-    "end": 1808,
-    "range": [
-      1807,
-      1808
-    ]
+    "end": 1808
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1809,
-    "end": 1815,
-    "range": [
-      1809,
-      1815
-    ]
+    "end": 1815
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1815,
-    "end": 1816,
-    "range": [
-      1815,
-      1816
-    ]
+    "end": 1816
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1816,
-    "end": 1825,
-    "range": [
-      1816,
-      1825
-    ]
+    "end": 1825
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1825,
-    "end": 1826,
-    "range": [
-      1825,
-      1826
-    ]
+    "end": 1826
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC0C\"",
     "start": 1826,
-    "end": 1840,
-    "range": [
-      1826,
-      1840
-    ]
+    "end": 1840
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1840,
-    "end": 1841,
-    "range": [
-      1840,
-      1841
-    ]
+    "end": 1841
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1841,
-    "end": 1852,
-    "range": [
-      1841,
-      1852
-    ]
+    "end": 1852
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1852,
-    "end": 1853,
-    "range": [
-      1852,
-      1853
-    ]
+    "end": 1853
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1853,
-    "end": 1854,
-    "range": [
-      1853,
-      1854
-    ]
+    "end": 1854
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1854,
-    "end": 1855,
-    "range": [
-      1854,
-      1855
-    ]
+    "end": 1855
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC34\"",
     "start": 1856,
-    "end": 1870,
-    "range": [
-      1856,
-      1870
-    ]
+    "end": 1870
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1870,
-    "end": 1871,
-    "range": [
-      1870,
-      1871
-    ]
+    "end": 1871
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER AY\"",
     "start": 1872,
-    "end": 1899,
-    "range": [
-      1872,
-      1899
-    ]
+    "end": 1899
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1899,
-    "end": 1900,
-    "range": [
-      1899,
-      1900
-    ]
+    "end": 1900
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1900,
-    "end": 1901,
-    "range": [
-      1900,
-      1901
-    ]
+    "end": 1901
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1902,
-    "end": 1908,
-    "range": [
-      1902,
-      1908
-    ]
+    "end": 1908
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1908,
-    "end": 1909,
-    "range": [
-      1908,
-      1909
-    ]
+    "end": 1909
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1909,
-    "end": 1918,
-    "range": [
-      1909,
-      1918
-    ]
+    "end": 1918
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1918,
-    "end": 1919,
-    "range": [
-      1918,
-      1919
-    ]
+    "end": 1919
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC0D\"",
     "start": 1919,
-    "end": 1933,
-    "range": [
-      1919,
-      1933
-    ]
+    "end": 1933
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1933,
-    "end": 1934,
-    "range": [
-      1933,
-      1934
-    ]
+    "end": 1934
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 1934,
-    "end": 1945,
-    "range": [
-      1934,
-      1945
-    ]
+    "end": 1945
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1945,
-    "end": 1946,
-    "range": [
-      1945,
-      1946
-    ]
+    "end": 1946
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1946,
-    "end": 1947,
-    "range": [
-      1946,
-      1947
-    ]
+    "end": 1947
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1947,
-    "end": 1948,
-    "range": [
-      1947,
-      1948
-    ]
+    "end": 1948
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC35\"",
     "start": 1949,
-    "end": 1963,
-    "range": [
-      1949,
-      1963
-    ]
+    "end": 1963
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1963,
-    "end": 1964,
-    "range": [
-      1963,
-      1964
-    ]
+    "end": 1964
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER OW\"",
     "start": 1965,
-    "end": 1992,
-    "range": [
-      1965,
-      1992
-    ]
+    "end": 1992
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1992,
-    "end": 1993,
-    "range": [
-      1992,
-      1993
-    ]
+    "end": 1993
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1993,
-    "end": 1994,
-    "range": [
-      1993,
-      1994
-    ]
+    "end": 1994
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1995,
-    "end": 2001,
-    "range": [
-      1995,
-      2001
-    ]
+    "end": 2001
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2001,
-    "end": 2002,
-    "range": [
-      2001,
-      2002
-    ]
+    "end": 2002
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2002,
-    "end": 2011,
-    "range": [
-      2002,
-      2011
-    ]
+    "end": 2011
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2011,
-    "end": 2012,
-    "range": [
-      2011,
-      2012
-    ]
+    "end": 2012
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC0E\"",
     "start": 2012,
-    "end": 2026,
-    "range": [
-      2012,
-      2026
-    ]
+    "end": 2026
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2026,
-    "end": 2027,
-    "range": [
-      2026,
-      2027
-    ]
+    "end": 2027
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2027,
-    "end": 2038,
-    "range": [
-      2027,
-      2038
-    ]
+    "end": 2038
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2038,
-    "end": 2039,
-    "range": [
-      2038,
-      2039
-    ]
+    "end": 2039
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2039,
-    "end": 2040,
-    "range": [
-      2039,
-      2040
-    ]
+    "end": 2040
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2040,
-    "end": 2041,
-    "range": [
-      2040,
-      2041
-    ]
+    "end": 2041
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC36\"",
     "start": 2042,
-    "end": 2056,
-    "range": [
-      2042,
-      2056
-    ]
+    "end": 2056
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2056,
-    "end": 2057,
-    "range": [
-      2056,
-      2057
-    ]
+    "end": 2057
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER WU\"",
     "start": 2058,
-    "end": 2085,
-    "range": [
-      2058,
-      2085
-    ]
+    "end": 2085
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2085,
-    "end": 2086,
-    "range": [
-      2085,
-      2086
-    ]
+    "end": 2086
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2086,
-    "end": 2087,
-    "range": [
-      2086,
-      2087
-    ]
+    "end": 2087
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2088,
-    "end": 2094,
-    "range": [
-      2088,
-      2094
-    ]
+    "end": 2094
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2094,
-    "end": 2095,
-    "range": [
-      2094,
-      2095
-    ]
+    "end": 2095
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2095,
-    "end": 2104,
-    "range": [
-      2095,
-      2104
-    ]
+    "end": 2104
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2104,
-    "end": 2105,
-    "range": [
-      2104,
-      2105
-    ]
+    "end": 2105
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC0F\"",
     "start": 2105,
-    "end": 2119,
-    "range": [
-      2105,
-      2119
-    ]
+    "end": 2119
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2119,
-    "end": 2120,
-    "range": [
-      2119,
-      2120
-    ]
+    "end": 2120
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2120,
-    "end": 2131,
-    "range": [
-      2120,
-      2131
-    ]
+    "end": 2131
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2131,
-    "end": 2132,
-    "range": [
-      2131,
-      2132
-    ]
+    "end": 2132
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2132,
-    "end": 2133,
-    "range": [
-      2132,
-      2133
-    ]
+    "end": 2133
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2133,
-    "end": 2134,
-    "range": [
-      2133,
-      2134
-    ]
+    "end": 2134
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC37\"",
     "start": 2135,
-    "end": 2149,
-    "range": [
-      2135,
-      2149
-    ]
+    "end": 2149
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2149,
-    "end": 2150,
-    "range": [
-      2149,
-      2150
-    ]
+    "end": 2150
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER YEE\"",
     "start": 2151,
-    "end": 2179,
-    "range": [
-      2151,
-      2179
-    ]
+    "end": 2179
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2179,
-    "end": 2180,
-    "range": [
-      2179,
-      2180
-    ]
+    "end": 2180
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2180,
-    "end": 2181,
-    "range": [
-      2180,
-      2181
-    ]
+    "end": 2181
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2182,
-    "end": 2188,
-    "range": [
-      2182,
-      2188
-    ]
+    "end": 2188
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2188,
-    "end": 2189,
-    "range": [
-      2188,
-      2189
-    ]
+    "end": 2189
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2189,
-    "end": 2198,
-    "range": [
-      2189,
-      2198
-    ]
+    "end": 2198
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2198,
-    "end": 2199,
-    "range": [
-      2198,
-      2199
-    ]
+    "end": 2199
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC10\"",
     "start": 2199,
-    "end": 2213,
-    "range": [
-      2199,
-      2213
-    ]
+    "end": 2213
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2213,
-    "end": 2214,
-    "range": [
-      2213,
-      2214
-    ]
+    "end": 2214
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2214,
-    "end": 2225,
-    "range": [
-      2214,
-      2225
-    ]
+    "end": 2225
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2225,
-    "end": 2226,
-    "range": [
-      2225,
-      2226
-    ]
+    "end": 2226
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2226,
-    "end": 2227,
-    "range": [
-      2226,
-      2227
-    ]
+    "end": 2227
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2227,
-    "end": 2228,
-    "range": [
-      2227,
-      2228
-    ]
+    "end": 2228
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC38\"",
     "start": 2229,
-    "end": 2243,
-    "range": [
-      2229,
-      2243
-    ]
+    "end": 2243
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2243,
-    "end": 2244,
-    "range": [
-      2243,
-      2244
-    ]
+    "end": 2244
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER H\"",
     "start": 2245,
-    "end": 2271,
-    "range": [
-      2245,
-      2271
-    ]
+    "end": 2271
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2271,
-    "end": 2272,
-    "range": [
-      2271,
-      2272
-    ]
+    "end": 2272
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2272,
-    "end": 2273,
-    "range": [
-      2272,
-      2273
-    ]
+    "end": 2273
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2274,
-    "end": 2280,
-    "range": [
-      2274,
-      2280
-    ]
+    "end": 2280
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2280,
-    "end": 2281,
-    "range": [
-      2280,
-      2281
-    ]
+    "end": 2281
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2281,
-    "end": 2290,
-    "range": [
-      2281,
-      2290
-    ]
+    "end": 2290
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2290,
-    "end": 2291,
-    "range": [
-      2290,
-      2291
-    ]
+    "end": 2291
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC11\"",
     "start": 2291,
-    "end": 2305,
-    "range": [
-      2291,
-      2305
-    ]
+    "end": 2305
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2305,
-    "end": 2306,
-    "range": [
-      2305,
-      2306
-    ]
+    "end": 2306
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2306,
-    "end": 2317,
-    "range": [
-      2306,
-      2317
-    ]
+    "end": 2317
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2317,
-    "end": 2318,
-    "range": [
-      2317,
-      2318
-    ]
+    "end": 2318
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2318,
-    "end": 2319,
-    "range": [
-      2318,
-      2319
-    ]
+    "end": 2319
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2319,
-    "end": 2320,
-    "range": [
-      2319,
-      2320
-    ]
+    "end": 2320
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC39\"",
     "start": 2321,
-    "end": 2335,
-    "range": [
-      2321,
-      2335
-    ]
+    "end": 2335
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2335,
-    "end": 2336,
-    "range": [
-      2335,
-      2336
-    ]
+    "end": 2336
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER PEE\"",
     "start": 2337,
-    "end": 2365,
-    "range": [
-      2337,
-      2365
-    ]
+    "end": 2365
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2365,
-    "end": 2366,
-    "range": [
-      2365,
-      2366
-    ]
+    "end": 2366
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2366,
-    "end": 2367,
-    "range": [
-      2366,
-      2367
-    ]
+    "end": 2367
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2368,
-    "end": 2374,
-    "range": [
-      2368,
-      2374
-    ]
+    "end": 2374
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2374,
-    "end": 2375,
-    "range": [
-      2374,
-      2375
-    ]
+    "end": 2375
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2375,
-    "end": 2384,
-    "range": [
-      2375,
-      2384
-    ]
+    "end": 2384
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2384,
-    "end": 2385,
-    "range": [
-      2384,
-      2385
-    ]
+    "end": 2385
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC12\"",
     "start": 2385,
-    "end": 2399,
-    "range": [
-      2385,
-      2399
-    ]
+    "end": 2399
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2399,
-    "end": 2400,
-    "range": [
-      2399,
-      2400
-    ]
+    "end": 2400
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2400,
-    "end": 2411,
-    "range": [
-      2400,
-      2411
-    ]
+    "end": 2411
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2411,
-    "end": 2412,
-    "range": [
-      2411,
-      2412
-    ]
+    "end": 2412
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2412,
-    "end": 2413,
-    "range": [
-      2412,
-      2413
-    ]
+    "end": 2413
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2413,
-    "end": 2414,
-    "range": [
-      2413,
-      2414
-    ]
+    "end": 2414
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC3A\"",
     "start": 2415,
-    "end": 2429,
-    "range": [
-      2415,
-      2429
-    ]
+    "end": 2429
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2429,
-    "end": 2430,
-    "range": [
-      2429,
-      2430
-    ]
+    "end": 2430
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER BEE\"",
     "start": 2431,
-    "end": 2459,
-    "range": [
-      2431,
-      2459
-    ]
+    "end": 2459
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2459,
-    "end": 2460,
-    "range": [
-      2459,
-      2460
-    ]
+    "end": 2460
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2460,
-    "end": 2461,
-    "range": [
-      2460,
-      2461
-    ]
+    "end": 2461
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2462,
-    "end": 2468,
-    "range": [
-      2462,
-      2468
-    ]
+    "end": 2468
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2468,
-    "end": 2469,
-    "range": [
-      2468,
-      2469
-    ]
+    "end": 2469
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2469,
-    "end": 2478,
-    "range": [
-      2469,
-      2478
-    ]
+    "end": 2478
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2478,
-    "end": 2479,
-    "range": [
-      2478,
-      2479
-    ]
+    "end": 2479
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC13\"",
     "start": 2479,
-    "end": 2493,
-    "range": [
-      2479,
-      2493
-    ]
+    "end": 2493
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2493,
-    "end": 2494,
-    "range": [
-      2493,
-      2494
-    ]
+    "end": 2494
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2494,
-    "end": 2505,
-    "range": [
-      2494,
-      2505
-    ]
+    "end": 2505
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2505,
-    "end": 2506,
-    "range": [
-      2505,
-      2506
-    ]
+    "end": 2506
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2506,
-    "end": 2507,
-    "range": [
-      2506,
-      2507
-    ]
+    "end": 2507
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2507,
-    "end": 2508,
-    "range": [
-      2507,
-      2508
-    ]
+    "end": 2508
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC3B\"",
     "start": 2509,
-    "end": 2523,
-    "range": [
-      2509,
-      2523
-    ]
+    "end": 2523
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2523,
-    "end": 2524,
-    "range": [
-      2523,
-      2524
-    ]
+    "end": 2524
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER TEE\"",
     "start": 2525,
-    "end": 2553,
-    "range": [
-      2525,
-      2553
-    ]
+    "end": 2553
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2553,
-    "end": 2554,
-    "range": [
-      2553,
-      2554
-    ]
+    "end": 2554
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2554,
-    "end": 2555,
-    "range": [
-      2554,
-      2555
-    ]
+    "end": 2555
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2556,
-    "end": 2562,
-    "range": [
-      2556,
-      2562
-    ]
+    "end": 2562
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2562,
-    "end": 2563,
-    "range": [
-      2562,
-      2563
-    ]
+    "end": 2563
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2563,
-    "end": 2572,
-    "range": [
-      2563,
-      2572
-    ]
+    "end": 2572
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2572,
-    "end": 2573,
-    "range": [
-      2572,
-      2573
-    ]
+    "end": 2573
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC14\"",
     "start": 2573,
-    "end": 2587,
-    "range": [
-      2573,
-      2587
-    ]
+    "end": 2587
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2587,
-    "end": 2588,
-    "range": [
-      2587,
-      2588
-    ]
+    "end": 2588
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2588,
-    "end": 2599,
-    "range": [
-      2588,
-      2599
-    ]
+    "end": 2599
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2599,
-    "end": 2600,
-    "range": [
-      2599,
-      2600
-    ]
+    "end": 2600
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2600,
-    "end": 2601,
-    "range": [
-      2600,
-      2601
-    ]
+    "end": 2601
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2601,
-    "end": 2602,
-    "range": [
-      2601,
-      2602
-    ]
+    "end": 2602
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC3C\"",
     "start": 2603,
-    "end": 2617,
-    "range": [
-      2603,
-      2617
-    ]
+    "end": 2617
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2617,
-    "end": 2618,
-    "range": [
-      2617,
-      2618
-    ]
+    "end": 2618
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER DEE\"",
     "start": 2619,
-    "end": 2647,
-    "range": [
-      2619,
-      2647
-    ]
+    "end": 2647
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2647,
-    "end": 2648,
-    "range": [
-      2647,
-      2648
-    ]
+    "end": 2648
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2648,
-    "end": 2649,
-    "range": [
-      2648,
-      2649
-    ]
+    "end": 2649
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2650,
-    "end": 2656,
-    "range": [
-      2650,
-      2656
-    ]
+    "end": 2656
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2656,
-    "end": 2657,
-    "range": [
-      2656,
-      2657
-    ]
+    "end": 2657
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2657,
-    "end": 2666,
-    "range": [
-      2657,
-      2666
-    ]
+    "end": 2666
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2666,
-    "end": 2667,
-    "range": [
-      2666,
-      2667
-    ]
+    "end": 2667
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC15\"",
     "start": 2667,
-    "end": 2681,
-    "range": [
-      2667,
-      2681
-    ]
+    "end": 2681
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2681,
-    "end": 2682,
-    "range": [
-      2681,
-      2682
-    ]
+    "end": 2682
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2682,
-    "end": 2693,
-    "range": [
-      2682,
-      2693
-    ]
+    "end": 2693
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2693,
-    "end": 2694,
-    "range": [
-      2693,
-      2694
-    ]
+    "end": 2694
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2694,
-    "end": 2695,
-    "range": [
-      2694,
-      2695
-    ]
+    "end": 2695
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2695,
-    "end": 2696,
-    "range": [
-      2695,
-      2696
-    ]
+    "end": 2696
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC3D\"",
     "start": 2697,
-    "end": 2711,
-    "range": [
-      2697,
-      2711
-    ]
+    "end": 2711
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2711,
-    "end": 2712,
-    "range": [
-      2711,
-      2712
-    ]
+    "end": 2712
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER CHEE\"",
     "start": 2713,
-    "end": 2742,
-    "range": [
-      2713,
-      2742
-    ]
+    "end": 2742
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2742,
-    "end": 2743,
-    "range": [
-      2742,
-      2743
-    ]
+    "end": 2743
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2743,
-    "end": 2744,
-    "range": [
-      2743,
-      2744
-    ]
+    "end": 2744
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2745,
-    "end": 2751,
-    "range": [
-      2745,
-      2751
-    ]
+    "end": 2751
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2751,
-    "end": 2752,
-    "range": [
-      2751,
-      2752
-    ]
+    "end": 2752
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2752,
-    "end": 2761,
-    "range": [
-      2752,
-      2761
-    ]
+    "end": 2761
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2761,
-    "end": 2762,
-    "range": [
-      2761,
-      2762
-    ]
+    "end": 2762
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC16\"",
     "start": 2762,
-    "end": 2776,
-    "range": [
-      2762,
-      2776
-    ]
+    "end": 2776
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2776,
-    "end": 2777,
-    "range": [
-      2776,
-      2777
-    ]
+    "end": 2777
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2777,
-    "end": 2788,
-    "range": [
-      2777,
-      2788
-    ]
+    "end": 2788
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2788,
-    "end": 2789,
-    "range": [
-      2788,
-      2789
-    ]
+    "end": 2789
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2789,
-    "end": 2790,
-    "range": [
-      2789,
-      2790
-    ]
+    "end": 2790
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2790,
-    "end": 2791,
-    "range": [
-      2790,
-      2791
-    ]
+    "end": 2791
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC3E\"",
     "start": 2792,
-    "end": 2806,
-    "range": [
-      2792,
-      2806
-    ]
+    "end": 2806
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2806,
-    "end": 2807,
-    "range": [
-      2806,
-      2807
-    ]
+    "end": 2807
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER JEE\"",
     "start": 2808,
-    "end": 2836,
-    "range": [
-      2808,
-      2836
-    ]
+    "end": 2836
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2836,
-    "end": 2837,
-    "range": [
-      2836,
-      2837
-    ]
+    "end": 2837
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2837,
-    "end": 2838,
-    "range": [
-      2837,
-      2838
-    ]
+    "end": 2838
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2839,
-    "end": 2845,
-    "range": [
-      2839,
-      2845
-    ]
+    "end": 2845
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2845,
-    "end": 2846,
-    "range": [
-      2845,
-      2846
-    ]
+    "end": 2846
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2846,
-    "end": 2855,
-    "range": [
-      2846,
-      2855
-    ]
+    "end": 2855
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2855,
-    "end": 2856,
-    "range": [
-      2855,
-      2856
-    ]
+    "end": 2856
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC17\"",
     "start": 2856,
-    "end": 2870,
-    "range": [
-      2856,
-      2870
-    ]
+    "end": 2870
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2870,
-    "end": 2871,
-    "range": [
-      2870,
-      2871
-    ]
+    "end": 2871
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2871,
-    "end": 2882,
-    "range": [
-      2871,
-      2882
-    ]
+    "end": 2882
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2882,
-    "end": 2883,
-    "range": [
-      2882,
-      2883
-    ]
+    "end": 2883
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2883,
-    "end": 2884,
-    "range": [
-      2883,
-      2884
-    ]
+    "end": 2884
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2884,
-    "end": 2885,
-    "range": [
-      2884,
-      2885
-    ]
+    "end": 2885
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC3F\"",
     "start": 2886,
-    "end": 2900,
-    "range": [
-      2886,
-      2900
-    ]
+    "end": 2900
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2900,
-    "end": 2901,
-    "range": [
-      2900,
-      2901
-    ]
+    "end": 2901
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER KAY\"",
     "start": 2902,
-    "end": 2930,
-    "range": [
-      2902,
-      2930
-    ]
+    "end": 2930
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2930,
-    "end": 2931,
-    "range": [
-      2930,
-      2931
-    ]
+    "end": 2931
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2931,
-    "end": 2932,
-    "range": [
-      2931,
-      2932
-    ]
+    "end": 2932
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2933,
-    "end": 2939,
-    "range": [
-      2933,
-      2939
-    ]
+    "end": 2939
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2939,
-    "end": 2940,
-    "range": [
-      2939,
-      2940
-    ]
+    "end": 2940
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2940,
-    "end": 2949,
-    "range": [
-      2940,
-      2949
-    ]
+    "end": 2949
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2949,
-    "end": 2950,
-    "range": [
-      2949,
-      2950
-    ]
+    "end": 2950
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC18\"",
     "start": 2950,
-    "end": 2964,
-    "range": [
-      2950,
-      2964
-    ]
+    "end": 2964
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2964,
-    "end": 2965,
-    "range": [
-      2964,
-      2965
-    ]
+    "end": 2965
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 2965,
-    "end": 2976,
-    "range": [
-      2965,
-      2976
-    ]
+    "end": 2976
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2976,
-    "end": 2977,
-    "range": [
-      2976,
-      2977
-    ]
+    "end": 2977
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2977,
-    "end": 2978,
-    "range": [
-      2977,
-      2978
-    ]
+    "end": 2978
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2978,
-    "end": 2979,
-    "range": [
-      2978,
-      2979
-    ]
+    "end": 2979
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC40\"",
     "start": 2980,
-    "end": 2994,
-    "range": [
-      2980,
-      2994
-    ]
+    "end": 2994
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2994,
-    "end": 2995,
-    "range": [
-      2994,
-      2995
-    ]
+    "end": 2995
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER GAY\"",
     "start": 2996,
-    "end": 3024,
-    "range": [
-      2996,
-      3024
-    ]
+    "end": 3024
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3024,
-    "end": 3025,
-    "range": [
-      3024,
-      3025
-    ]
+    "end": 3025
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3025,
-    "end": 3026,
-    "range": [
-      3025,
-      3026
-    ]
+    "end": 3026
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3027,
-    "end": 3033,
-    "range": [
-      3027,
-      3033
-    ]
+    "end": 3033
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3033,
-    "end": 3034,
-    "range": [
-      3033,
-      3034
-    ]
+    "end": 3034
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3034,
-    "end": 3043,
-    "range": [
-      3034,
-      3043
-    ]
+    "end": 3043
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3043,
-    "end": 3044,
-    "range": [
-      3043,
-      3044
-    ]
+    "end": 3044
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC19\"",
     "start": 3044,
-    "end": 3058,
-    "range": [
-      3044,
-      3058
-    ]
+    "end": 3058
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3058,
-    "end": 3059,
-    "range": [
-      3058,
-      3059
-    ]
+    "end": 3059
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3059,
-    "end": 3070,
-    "range": [
-      3059,
-      3070
-    ]
+    "end": 3070
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3070,
-    "end": 3071,
-    "range": [
-      3070,
-      3071
-    ]
+    "end": 3071
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3071,
-    "end": 3072,
-    "range": [
-      3071,
-      3072
-    ]
+    "end": 3072
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3072,
-    "end": 3073,
-    "range": [
-      3072,
-      3073
-    ]
+    "end": 3073
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC41\"",
     "start": 3074,
-    "end": 3088,
-    "range": [
-      3074,
-      3088
-    ]
+    "end": 3088
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3088,
-    "end": 3089,
-    "range": [
-      3088,
-      3089
-    ]
+    "end": 3089
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER EF\"",
     "start": 3090,
-    "end": 3117,
-    "range": [
-      3090,
-      3117
-    ]
+    "end": 3117
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3117,
-    "end": 3118,
-    "range": [
-      3117,
-      3118
-    ]
+    "end": 3118
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3118,
-    "end": 3119,
-    "range": [
-      3118,
-      3119
-    ]
+    "end": 3119
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3120,
-    "end": 3126,
-    "range": [
-      3120,
-      3126
-    ]
+    "end": 3126
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3126,
-    "end": 3127,
-    "range": [
-      3126,
-      3127
-    ]
+    "end": 3127
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3127,
-    "end": 3136,
-    "range": [
-      3127,
-      3136
-    ]
+    "end": 3136
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3136,
-    "end": 3137,
-    "range": [
-      3136,
-      3137
-    ]
+    "end": 3137
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC1A\"",
     "start": 3137,
-    "end": 3151,
-    "range": [
-      3137,
-      3151
-    ]
+    "end": 3151
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3151,
-    "end": 3152,
-    "range": [
-      3151,
-      3152
-    ]
+    "end": 3152
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3152,
-    "end": 3163,
-    "range": [
-      3152,
-      3163
-    ]
+    "end": 3163
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3163,
-    "end": 3164,
-    "range": [
-      3163,
-      3164
-    ]
+    "end": 3164
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3164,
-    "end": 3165,
-    "range": [
-      3164,
-      3165
-    ]
+    "end": 3165
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3165,
-    "end": 3166,
-    "range": [
-      3165,
-      3166
-    ]
+    "end": 3166
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC42\"",
     "start": 3167,
-    "end": 3181,
-    "range": [
-      3167,
-      3181
-    ]
+    "end": 3181
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3181,
-    "end": 3182,
-    "range": [
-      3181,
-      3182
-    ]
+    "end": 3182
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER VEE\"",
     "start": 3183,
-    "end": 3211,
-    "range": [
-      3183,
-      3211
-    ]
+    "end": 3211
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3211,
-    "end": 3212,
-    "range": [
-      3211,
-      3212
-    ]
+    "end": 3212
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3212,
-    "end": 3213,
-    "range": [
-      3212,
-      3213
-    ]
+    "end": 3213
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3214,
-    "end": 3220,
-    "range": [
-      3214,
-      3220
-    ]
+    "end": 3220
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3220,
-    "end": 3221,
-    "range": [
-      3220,
-      3221
-    ]
+    "end": 3221
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3221,
-    "end": 3230,
-    "range": [
-      3221,
-      3230
-    ]
+    "end": 3230
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3230,
-    "end": 3231,
-    "range": [
-      3230,
-      3231
-    ]
+    "end": 3231
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC1B\"",
     "start": 3231,
-    "end": 3245,
-    "range": [
-      3231,
-      3245
-    ]
+    "end": 3245
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3245,
-    "end": 3246,
-    "range": [
-      3245,
-      3246
-    ]
+    "end": 3246
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3246,
-    "end": 3257,
-    "range": [
-      3246,
-      3257
-    ]
+    "end": 3257
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3257,
-    "end": 3258,
-    "range": [
-      3257,
-      3258
-    ]
+    "end": 3258
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3258,
-    "end": 3259,
-    "range": [
-      3258,
-      3259
-    ]
+    "end": 3259
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3259,
-    "end": 3260,
-    "range": [
-      3259,
-      3260
-    ]
+    "end": 3260
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC43\"",
     "start": 3261,
-    "end": 3275,
-    "range": [
-      3261,
-      3275
-    ]
+    "end": 3275
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3275,
-    "end": 3276,
-    "range": [
-      3275,
-      3276
-    ]
+    "end": 3276
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER ETH\"",
     "start": 3277,
-    "end": 3305,
-    "range": [
-      3277,
-      3305
-    ]
+    "end": 3305
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3305,
-    "end": 3306,
-    "range": [
-      3305,
-      3306
-    ]
+    "end": 3306
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3306,
-    "end": 3307,
-    "range": [
-      3306,
-      3307
-    ]
+    "end": 3307
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3308,
-    "end": 3314,
-    "range": [
-      3308,
-      3314
-    ]
+    "end": 3314
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3314,
-    "end": 3315,
-    "range": [
-      3314,
-      3315
-    ]
+    "end": 3315
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3315,
-    "end": 3324,
-    "range": [
-      3315,
-      3324
-    ]
+    "end": 3324
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3324,
-    "end": 3325,
-    "range": [
-      3324,
-      3325
-    ]
+    "end": 3325
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC1C\"",
     "start": 3325,
-    "end": 3339,
-    "range": [
-      3325,
-      3339
-    ]
+    "end": 3339
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3339,
-    "end": 3340,
-    "range": [
-      3339,
-      3340
-    ]
+    "end": 3340
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3340,
-    "end": 3351,
-    "range": [
-      3340,
-      3351
-    ]
+    "end": 3351
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3351,
-    "end": 3352,
-    "range": [
-      3351,
-      3352
-    ]
+    "end": 3352
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3352,
-    "end": 3353,
-    "range": [
-      3352,
-      3353
-    ]
+    "end": 3353
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3353,
-    "end": 3354,
-    "range": [
-      3353,
-      3354
-    ]
+    "end": 3354
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC44\"",
     "start": 3355,
-    "end": 3369,
-    "range": [
-      3355,
-      3369
-    ]
+    "end": 3369
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3369,
-    "end": 3370,
-    "range": [
-      3369,
-      3370
-    ]
+    "end": 3370
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER THEE\"",
     "start": 3371,
-    "end": 3400,
-    "range": [
-      3371,
-      3400
-    ]
+    "end": 3400
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3400,
-    "end": 3401,
-    "range": [
-      3400,
-      3401
-    ]
+    "end": 3401
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3401,
-    "end": 3402,
-    "range": [
-      3401,
-      3402
-    ]
+    "end": 3402
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3403,
-    "end": 3409,
-    "range": [
-      3403,
-      3409
-    ]
+    "end": 3409
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3409,
-    "end": 3410,
-    "range": [
-      3409,
-      3410
-    ]
+    "end": 3410
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3410,
-    "end": 3419,
-    "range": [
-      3410,
-      3419
-    ]
+    "end": 3419
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3419,
-    "end": 3420,
-    "range": [
-      3419,
-      3420
-    ]
+    "end": 3420
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC1D\"",
     "start": 3420,
-    "end": 3434,
-    "range": [
-      3420,
-      3434
-    ]
+    "end": 3434
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3434,
-    "end": 3435,
-    "range": [
-      3434,
-      3435
-    ]
+    "end": 3435
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3435,
-    "end": 3446,
-    "range": [
-      3435,
-      3446
-    ]
+    "end": 3446
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3446,
-    "end": 3447,
-    "range": [
-      3446,
-      3447
-    ]
+    "end": 3447
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3447,
-    "end": 3448,
-    "range": [
-      3447,
-      3448
-    ]
+    "end": 3448
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3448,
-    "end": 3449,
-    "range": [
-      3448,
-      3449
-    ]
+    "end": 3449
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC45\"",
     "start": 3450,
-    "end": 3464,
-    "range": [
-      3450,
-      3464
-    ]
+    "end": 3464
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3464,
-    "end": 3465,
-    "range": [
-      3464,
-      3465
-    ]
+    "end": 3465
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER ES\"",
     "start": 3466,
-    "end": 3493,
-    "range": [
-      3466,
-      3493
-    ]
+    "end": 3493
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3493,
-    "end": 3494,
-    "range": [
-      3493,
-      3494
-    ]
+    "end": 3494
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3494,
-    "end": 3495,
-    "range": [
-      3494,
-      3495
-    ]
+    "end": 3495
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3496,
-    "end": 3502,
-    "range": [
-      3496,
-      3502
-    ]
+    "end": 3502
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3502,
-    "end": 3503,
-    "range": [
-      3502,
-      3503
-    ]
+    "end": 3503
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3503,
-    "end": 3512,
-    "range": [
-      3503,
-      3512
-    ]
+    "end": 3512
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3512,
-    "end": 3513,
-    "range": [
-      3512,
-      3513
-    ]
+    "end": 3513
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC1E\"",
     "start": 3513,
-    "end": 3527,
-    "range": [
-      3513,
-      3527
-    ]
+    "end": 3527
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3527,
-    "end": 3528,
-    "range": [
-      3527,
-      3528
-    ]
+    "end": 3528
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3528,
-    "end": 3539,
-    "range": [
-      3528,
-      3539
-    ]
+    "end": 3539
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3539,
-    "end": 3540,
-    "range": [
-      3539,
-      3540
-    ]
+    "end": 3540
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3540,
-    "end": 3541,
-    "range": [
-      3540,
-      3541
-    ]
+    "end": 3541
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3541,
-    "end": 3542,
-    "range": [
-      3541,
-      3542
-    ]
+    "end": 3542
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC46\"",
     "start": 3543,
-    "end": 3557,
-    "range": [
-      3543,
-      3557
-    ]
+    "end": 3557
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3557,
-    "end": 3558,
-    "range": [
-      3557,
-      3558
-    ]
+    "end": 3558
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER ZEE\"",
     "start": 3559,
-    "end": 3587,
-    "range": [
-      3559,
-      3587
-    ]
+    "end": 3587
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3587,
-    "end": 3588,
-    "range": [
-      3587,
-      3588
-    ]
+    "end": 3588
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3588,
-    "end": 3589,
-    "range": [
-      3588,
-      3589
-    ]
+    "end": 3589
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3590,
-    "end": 3596,
-    "range": [
-      3590,
-      3596
-    ]
+    "end": 3596
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3596,
-    "end": 3597,
-    "range": [
-      3596,
-      3597
-    ]
+    "end": 3597
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3597,
-    "end": 3606,
-    "range": [
-      3597,
-      3606
-    ]
+    "end": 3606
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3606,
-    "end": 3607,
-    "range": [
-      3606,
-      3607
-    ]
+    "end": 3607
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC1F\"",
     "start": 3607,
-    "end": 3621,
-    "range": [
-      3607,
-      3621
-    ]
+    "end": 3621
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3621,
-    "end": 3622,
-    "range": [
-      3621,
-      3622
-    ]
+    "end": 3622
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3622,
-    "end": 3633,
-    "range": [
-      3622,
-      3633
-    ]
+    "end": 3633
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3633,
-    "end": 3634,
-    "range": [
-      3633,
-      3634
-    ]
+    "end": 3634
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3634,
-    "end": 3635,
-    "range": [
-      3634,
-      3635
-    ]
+    "end": 3635
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3635,
-    "end": 3636,
-    "range": [
-      3635,
-      3636
-    ]
+    "end": 3636
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC47\"",
     "start": 3637,
-    "end": 3651,
-    "range": [
-      3637,
-      3651
-    ]
+    "end": 3651
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3651,
-    "end": 3652,
-    "range": [
-      3651,
-      3652
-    ]
+    "end": 3652
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER ESH\"",
     "start": 3653,
-    "end": 3681,
-    "range": [
-      3653,
-      3681
-    ]
+    "end": 3681
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3681,
-    "end": 3682,
-    "range": [
-      3681,
-      3682
-    ]
+    "end": 3682
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3682,
-    "end": 3683,
-    "range": [
-      3682,
-      3683
-    ]
+    "end": 3683
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3684,
-    "end": 3690,
-    "range": [
-      3684,
-      3690
-    ]
+    "end": 3690
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3690,
-    "end": 3691,
-    "range": [
-      3690,
-      3691
-    ]
+    "end": 3691
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3691,
-    "end": 3700,
-    "range": [
-      3691,
-      3700
-    ]
+    "end": 3700
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3700,
-    "end": 3701,
-    "range": [
-      3700,
-      3701
-    ]
+    "end": 3701
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC20\"",
     "start": 3701,
-    "end": 3715,
-    "range": [
-      3701,
-      3715
-    ]
+    "end": 3715
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3715,
-    "end": 3716,
-    "range": [
-      3715,
-      3716
-    ]
+    "end": 3716
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3716,
-    "end": 3727,
-    "range": [
-      3716,
-      3727
-    ]
+    "end": 3727
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3727,
-    "end": 3728,
-    "range": [
-      3727,
-      3728
-    ]
+    "end": 3728
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3728,
-    "end": 3729,
-    "range": [
-      3728,
-      3729
-    ]
+    "end": 3729
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3729,
-    "end": 3730,
-    "range": [
-      3729,
-      3730
-    ]
+    "end": 3730
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC48\"",
     "start": 3731,
-    "end": 3745,
-    "range": [
-      3731,
-      3745
-    ]
+    "end": 3745
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3745,
-    "end": 3746,
-    "range": [
-      3745,
-      3746
-    ]
+    "end": 3746
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER ZHEE\"",
     "start": 3747,
-    "end": 3776,
-    "range": [
-      3747,
-      3776
-    ]
+    "end": 3776
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3776,
-    "end": 3777,
-    "range": [
-      3776,
-      3777
-    ]
+    "end": 3777
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3777,
-    "end": 3778,
-    "range": [
-      3777,
-      3778
-    ]
+    "end": 3778
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3779,
-    "end": 3785,
-    "range": [
-      3779,
-      3785
-    ]
+    "end": 3785
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3785,
-    "end": 3786,
-    "range": [
-      3785,
-      3786
-    ]
+    "end": 3786
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3786,
-    "end": 3795,
-    "range": [
-      3786,
-      3795
-    ]
+    "end": 3795
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3795,
-    "end": 3796,
-    "range": [
-      3795,
-      3796
-    ]
+    "end": 3796
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC21\"",
     "start": 3796,
-    "end": 3810,
-    "range": [
-      3796,
-      3810
-    ]
+    "end": 3810
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3810,
-    "end": 3811,
-    "range": [
-      3810,
-      3811
-    ]
+    "end": 3811
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3811,
-    "end": 3822,
-    "range": [
-      3811,
-      3822
-    ]
+    "end": 3822
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3822,
-    "end": 3823,
-    "range": [
-      3822,
-      3823
-    ]
+    "end": 3823
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3823,
-    "end": 3824,
-    "range": [
-      3823,
-      3824
-    ]
+    "end": 3824
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3824,
-    "end": 3825,
-    "range": [
-      3824,
-      3825
-    ]
+    "end": 3825
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC49\"",
     "start": 3826,
-    "end": 3840,
-    "range": [
-      3826,
-      3840
-    ]
+    "end": 3840
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3840,
-    "end": 3841,
-    "range": [
-      3840,
-      3841
-    ]
+    "end": 3841
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER ER\"",
     "start": 3842,
-    "end": 3869,
-    "range": [
-      3842,
-      3869
-    ]
+    "end": 3869
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3869,
-    "end": 3870,
-    "range": [
-      3869,
-      3870
-    ]
+    "end": 3870
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3870,
-    "end": 3871,
-    "range": [
-      3870,
-      3871
-    ]
+    "end": 3871
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3872,
-    "end": 3878,
-    "range": [
-      3872,
-      3878
-    ]
+    "end": 3878
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3878,
-    "end": 3879,
-    "range": [
-      3878,
-      3879
-    ]
+    "end": 3879
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3879,
-    "end": 3888,
-    "range": [
-      3879,
-      3888
-    ]
+    "end": 3888
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3888,
-    "end": 3889,
-    "range": [
-      3888,
-      3889
-    ]
+    "end": 3889
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC22\"",
     "start": 3889,
-    "end": 3903,
-    "range": [
-      3889,
-      3903
-    ]
+    "end": 3903
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3903,
-    "end": 3904,
-    "range": [
-      3903,
-      3904
-    ]
+    "end": 3904
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3904,
-    "end": 3915,
-    "range": [
-      3904,
-      3915
-    ]
+    "end": 3915
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3915,
-    "end": 3916,
-    "range": [
-      3915,
-      3916
-    ]
+    "end": 3916
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3916,
-    "end": 3917,
-    "range": [
-      3916,
-      3917
-    ]
+    "end": 3917
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3917,
-    "end": 3918,
-    "range": [
-      3917,
-      3918
-    ]
+    "end": 3918
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC4A\"",
     "start": 3919,
-    "end": 3933,
-    "range": [
-      3919,
-      3933
-    ]
+    "end": 3933
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3933,
-    "end": 3934,
-    "range": [
-      3933,
-      3934
-    ]
+    "end": 3934
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER EL\"",
     "start": 3935,
-    "end": 3962,
-    "range": [
-      3935,
-      3962
-    ]
+    "end": 3962
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3962,
-    "end": 3963,
-    "range": [
-      3962,
-      3963
-    ]
+    "end": 3963
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3963,
-    "end": 3964,
-    "range": [
-      3963,
-      3964
-    ]
+    "end": 3964
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3965,
-    "end": 3971,
-    "range": [
-      3965,
-      3971
-    ]
+    "end": 3971
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3971,
-    "end": 3972,
-    "range": [
-      3971,
-      3972
-    ]
+    "end": 3972
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3972,
-    "end": 3981,
-    "range": [
-      3972,
-      3981
-    ]
+    "end": 3981
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3981,
-    "end": 3982,
-    "range": [
-      3981,
-      3982
-    ]
+    "end": 3982
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC23\"",
     "start": 3982,
-    "end": 3996,
-    "range": [
-      3982,
-      3996
-    ]
+    "end": 3996
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3996,
-    "end": 3997,
-    "range": [
-      3996,
-      3997
-    ]
+    "end": 3997
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 3997,
-    "end": 4008,
-    "range": [
-      3997,
-      4008
-    ]
+    "end": 4008
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4008,
-    "end": 4009,
-    "range": [
-      4008,
-      4009
-    ]
+    "end": 4009
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4009,
-    "end": 4010,
-    "range": [
-      4009,
-      4010
-    ]
+    "end": 4010
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4010,
-    "end": 4011,
-    "range": [
-      4010,
-      4011
-    ]
+    "end": 4011
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC4B\"",
     "start": 4012,
-    "end": 4026,
-    "range": [
-      4012,
-      4026
-    ]
+    "end": 4026
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4026,
-    "end": 4027,
-    "range": [
-      4026,
-      4027
-    ]
+    "end": 4027
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER EM\"",
     "start": 4028,
-    "end": 4055,
-    "range": [
-      4028,
-      4055
-    ]
+    "end": 4055
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4055,
-    "end": 4056,
-    "range": [
-      4055,
-      4056
-    ]
+    "end": 4056
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4056,
-    "end": 4057,
-    "range": [
-      4056,
-      4057
-    ]
+    "end": 4057
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4058,
-    "end": 4064,
-    "range": [
-      4058,
-      4064
-    ]
+    "end": 4064
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4064,
-    "end": 4065,
-    "range": [
-      4064,
-      4065
-    ]
+    "end": 4065
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4065,
-    "end": 4074,
-    "range": [
-      4065,
-      4074
-    ]
+    "end": 4074
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4074,
-    "end": 4075,
-    "range": [
-      4074,
-      4075
-    ]
+    "end": 4075
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC24\"",
     "start": 4075,
-    "end": 4089,
-    "range": [
-      4075,
-      4089
-    ]
+    "end": 4089
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4089,
-    "end": 4090,
-    "range": [
-      4089,
-      4090
-    ]
+    "end": 4090
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 4090,
-    "end": 4101,
-    "range": [
-      4090,
-      4101
-    ]
+    "end": 4101
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4101,
-    "end": 4102,
-    "range": [
-      4101,
-      4102
-    ]
+    "end": 4102
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4102,
-    "end": 4103,
-    "range": [
-      4102,
-      4103
-    ]
+    "end": 4103
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4103,
-    "end": 4104,
-    "range": [
-      4103,
-      4104
-    ]
+    "end": 4104
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC4C\"",
     "start": 4105,
-    "end": 4119,
-    "range": [
-      4105,
-      4119
-    ]
+    "end": 4119
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4119,
-    "end": 4120,
-    "range": [
-      4119,
-      4120
-    ]
+    "end": 4120
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER EN\"",
     "start": 4121,
-    "end": 4148,
-    "range": [
-      4121,
-      4148
-    ]
+    "end": 4148
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4148,
-    "end": 4149,
-    "range": [
-      4148,
-      4149
-    ]
+    "end": 4149
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4149,
-    "end": 4150,
-    "range": [
-      4149,
-      4150
-    ]
+    "end": 4150
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4151,
-    "end": 4157,
-    "range": [
-      4151,
-      4157
-    ]
+    "end": 4157
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4157,
-    "end": 4158,
-    "range": [
-      4157,
-      4158
-    ]
+    "end": 4158
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4158,
-    "end": 4167,
-    "range": [
-      4158,
-      4167
-    ]
+    "end": 4167
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4167,
-    "end": 4168,
-    "range": [
-      4167,
-      4168
-    ]
+    "end": 4168
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC25\"",
     "start": 4168,
-    "end": 4182,
-    "range": [
-      4168,
-      4182
-    ]
+    "end": 4182
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4182,
-    "end": 4183,
-    "range": [
-      4182,
-      4183
-    ]
+    "end": 4183
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 4183,
-    "end": 4194,
-    "range": [
-      4183,
-      4194
-    ]
+    "end": 4194
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4194,
-    "end": 4195,
-    "range": [
-      4194,
-      4195
-    ]
+    "end": 4195
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4195,
-    "end": 4196,
-    "range": [
-      4195,
-      4196
-    ]
+    "end": 4196
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4196,
-    "end": 4197,
-    "range": [
-      4196,
-      4197
-    ]
+    "end": 4197
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC4D\"",
     "start": 4198,
-    "end": 4212,
-    "range": [
-      4198,
-      4212
-    ]
+    "end": 4212
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4212,
-    "end": 4213,
-    "range": [
-      4212,
-      4213
-    ]
+    "end": 4213
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER ENG\"",
     "start": 4214,
-    "end": 4242,
-    "range": [
-      4214,
-      4242
-    ]
+    "end": 4242
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4242,
-    "end": 4243,
-    "range": [
-      4242,
-      4243
-    ]
+    "end": 4243
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4243,
-    "end": 4244,
-    "range": [
-      4243,
-      4244
-    ]
+    "end": 4244
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4245,
-    "end": 4251,
-    "range": [
-      4245,
-      4251
-    ]
+    "end": 4251
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4251,
-    "end": 4252,
-    "range": [
-      4251,
-      4252
-    ]
+    "end": 4252
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4252,
-    "end": 4261,
-    "range": [
-      4252,
-      4261
-    ]
+    "end": 4261
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4261,
-    "end": 4262,
-    "range": [
-      4261,
-      4262
-    ]
+    "end": 4262
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC26\"",
     "start": 4262,
-    "end": 4276,
-    "range": [
-      4262,
-      4276
-    ]
+    "end": 4276
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4276,
-    "end": 4277,
-    "range": [
-      4276,
-      4277
-    ]
+    "end": 4277
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 4277,
-    "end": 4288,
-    "range": [
-      4277,
-      4288
-    ]
+    "end": 4288
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4288,
-    "end": 4289,
-    "range": [
-      4288,
-      4289
-    ]
+    "end": 4289
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4289,
-    "end": 4290,
-    "range": [
-      4289,
-      4290
-    ]
+    "end": 4290
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4290,
-    "end": 4291,
-    "range": [
-      4290,
-      4291
-    ]
+    "end": 4291
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC4E\"",
     "start": 4292,
-    "end": 4306,
-    "range": [
-      4292,
-      4306
-    ]
+    "end": 4306
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4306,
-    "end": 4307,
-    "range": [
-      4306,
-      4307
-    ]
+    "end": 4307
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER OI\"",
     "start": 4308,
-    "end": 4335,
-    "range": [
-      4308,
-      4335
-    ]
+    "end": 4335
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4335,
-    "end": 4336,
-    "range": [
-      4335,
-      4336
-    ]
+    "end": 4336
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4336,
-    "end": 4337,
-    "range": [
-      4336,
-      4337
-    ]
+    "end": 4337
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4338,
-    "end": 4344,
-    "range": [
-      4338,
-      4344
-    ]
+    "end": 4344
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4344,
-    "end": 4345,
-    "range": [
-      4344,
-      4345
-    ]
+    "end": 4345
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4345,
-    "end": 4354,
-    "range": [
-      4345,
-      4354
-    ]
+    "end": 4354
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4354,
-    "end": 4355,
-    "range": [
-      4354,
-      4355
-    ]
+    "end": 4355
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC27\"",
     "start": 4355,
-    "end": 4369,
-    "range": [
-      4355,
-      4369
-    ]
+    "end": 4369
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4369,
-    "end": 4370,
-    "range": [
-      4369,
-      4370
-    ]
+    "end": 4370
   },
   {
     "type": "Identifier",
     "value": "toLowerCase",
     "start": 4370,
-    "end": 4381,
-    "range": [
-      4370,
-      4381
-    ]
+    "end": 4381
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4381,
-    "end": 4382,
-    "range": [
-      4381,
-      4382
-    ]
+    "end": 4382
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4382,
-    "end": 4383,
-    "range": [
-      4382,
-      4383
-    ]
+    "end": 4383
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4383,
-    "end": 4384,
-    "range": [
-      4383,
-      4384
-    ]
+    "end": 4384
   },
   {
     "type": "String",
     "value": "\"\\uD801\\uDC4F\"",
     "start": 4385,
-    "end": 4399,
-    "range": [
-      4385,
-      4399
-    ]
+    "end": 4399
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4399,
-    "end": 4400,
-    "range": [
-      4399,
-      4400
-    ]
+    "end": 4400
   },
   {
     "type": "String",
     "value": "\"DESERET CAPITAL LETTER EW\"",
     "start": 4401,
-    "end": 4428,
-    "range": [
-      4401,
-      4428
-    ]
+    "end": 4428
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4428,
-    "end": 4429,
-    "range": [
-      4428,
-      4429
-    ]
+    "end": 4429
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4429,
-    "end": 4430,
-    "range": [
-      4429,
-      4430
-    ]
+    "end": 4430
   }
 ]

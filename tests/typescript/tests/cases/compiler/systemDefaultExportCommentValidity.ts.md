@@ -62,81 +62,49 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "const",
     "start": 0,
-    "end": 5,
-    "range": [
-      0,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Identifier",
     "value": "Home",
     "start": 6,
-    "end": 10,
-    "range": [
-      6,
-      10
-    ]
+    "end": 10
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 11,
-    "end": 12,
-    "range": [
-      11,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 13,
-    "end": 14,
-    "range": [
-      13,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 14,
-    "end": 15,
-    "range": [
-      14,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 17,
-    "end": 23,
-    "range": [
-      17,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Keyword",
     "value": "default",
     "start": 24,
-    "end": 31,
-    "range": [
-      24,
-      31
-    ]
+    "end": 31
   },
   {
     "type": "Identifier",
     "value": "Home",
     "start": 32,
-    "end": 36,
-    "range": [
-      32,
-      36
-    ]
+    "end": 36
   }
 ]
 ```

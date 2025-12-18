@@ -82,111 +82,67 @@ __ESTREE_TEST__:TOKENS:
     "type": "Boolean",
     "value": "false",
     "start": 0,
-    "end": 5,
-    "range": [
-      0,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 6,
-    "end": 7,
-    "range": [
-      6,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8,
-    "end": 9,
-    "range": [
-      8,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Identifier",
     "value": "param",
     "start": 9,
-    "end": 14,
-    "range": [
-      9,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 14,
-    "end": 15,
-    "range": [
-      14,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 15,
-    "end": 16,
-    "range": [
-      15,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 17,
-    "end": 23,
-    "range": [
-      17,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 24,
-    "end": 26,
-    "range": [
-      24,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Identifier",
     "value": "param",
     "start": 27,
-    "end": 32,
-    "range": [
-      27,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 33,
-    "end": 34,
-    "range": [
-      33,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Null",
     "value": "null",
     "start": 35,
-    "end": 39,
-    "range": [
-      35,
-      39
-    ]
+    "end": 39
   }
 ]
 ```
@@ -274,111 +230,67 @@ __ESTREE_TEST__:TOKENS:
     "type": "Boolean",
     "value": "false",
     "start": 0,
-    "end": 5,
-    "range": [
-      0,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 6,
-    "end": 7,
-    "range": [
-      6,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8,
-    "end": 9,
-    "range": [
-      8,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Identifier",
     "value": "param",
     "start": 9,
-    "end": 14,
-    "range": [
-      9,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 14,
-    "end": 15,
-    "range": [
-      14,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 15,
-    "end": 16,
-    "range": [
-      15,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 17,
-    "end": 23,
-    "range": [
-      17,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 24,
-    "end": 26,
-    "range": [
-      24,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Identifier",
     "value": "param",
     "start": 27,
-    "end": 32,
-    "range": [
-      27,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 33,
-    "end": 34,
-    "range": [
-      33,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Null",
     "value": "null",
     "start": 35,
-    "end": 39,
-    "range": [
-      35,
-      39
-    ]
+    "end": 39
   }
 ]
 ```

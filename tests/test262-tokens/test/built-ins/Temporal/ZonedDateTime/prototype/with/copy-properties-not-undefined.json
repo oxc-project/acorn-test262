@@ -3,1520 +3,912 @@
     "type": "Keyword",
     "value": "const",
     "start": 546,
-    "end": 551,
-    "range": [
-      546,
-      551
-    ]
+    "end": 551
   },
   {
     "type": "Identifier",
     "value": "d1",
     "start": 552,
-    "end": 554,
-    "range": [
-      552,
-      554
-    ]
+    "end": 554
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 555,
-    "end": 556,
-    "range": [
-      555,
-      556
-    ]
+    "end": 556
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 557,
-    "end": 560,
-    "range": [
-      557,
-      560
-    ]
+    "end": 560
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 561,
-    "end": 569,
-    "range": [
-      561,
-      569
-    ]
+    "end": 569
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 569,
-    "end": 570,
-    "range": [
-      569,
-      570
-    ]
+    "end": 570
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 570,
-    "end": 583,
-    "range": [
-      570,
-      583
-    ]
+    "end": 583
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 583,
-    "end": 584,
-    "range": [
-      583,
-      584
-    ]
+    "end": 584
   },
   {
     "type": "Numeric",
     "value": "1_000_000_000_000_000_789n",
     "start": 584,
-    "end": 610,
-    "range": [
-      584,
-      610
-    ]
+    "end": 610
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 610,
-    "end": 611,
-    "range": [
-      610,
-      611
-    ]
+    "end": 611
   },
   {
     "type": "String",
     "value": "\"UTC\"",
     "start": 612,
-    "end": 617,
-    "range": [
-      612,
-      617
-    ]
+    "end": 617
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 617,
-    "end": 618,
-    "range": [
-      617,
-      618
-    ]
+    "end": 618
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 618,
-    "end": 619,
-    "range": [
-      618,
-      619
-    ]
+    "end": 619
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 621,
-    "end": 626,
-    "range": [
-      621,
-      626
-    ]
+    "end": 626
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 627,
-    "end": 629,
-    "range": [
-      627,
-      629
-    ]
+    "end": 629
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 630,
-    "end": 631,
-    "range": [
-      630,
-      631
-    ]
+    "end": 631
   },
   {
     "type": "Identifier",
     "value": "d1",
     "start": 632,
-    "end": 634,
-    "range": [
-      632,
-      634
-    ]
+    "end": 634
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 634,
-    "end": 635,
-    "range": [
-      634,
-      635
-    ]
+    "end": 635
   },
   {
     "type": "Identifier",
     "value": "with",
     "start": 635,
-    "end": 639,
-    "range": [
-      635,
-      639
-    ]
+    "end": 639
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 639,
-    "end": 640,
-    "range": [
-      639,
-      640
-    ]
+    "end": 640
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 640,
-    "end": 641,
-    "range": [
-      640,
-      641
-    ]
+    "end": 641
   },
   {
     "type": "Identifier",
     "value": "day",
     "start": 642,
-    "end": 645,
-    "range": [
-      642,
-      645
-    ]
+    "end": 645
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 645,
-    "end": 646,
-    "range": [
-      645,
-      646
-    ]
+    "end": 646
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 647,
-    "end": 648,
-    "range": [
-      647,
-      648
-    ]
+    "end": 648
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 648,
-    "end": 649,
-    "range": [
-      648,
-      649
-    ]
+    "end": 649
   },
   {
     "type": "Identifier",
     "value": "hour",
     "start": 650,
-    "end": 654,
-    "range": [
-      650,
-      654
-    ]
+    "end": 654
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 654,
-    "end": 655,
-    "range": [
-      654,
-      655
-    ]
+    "end": 655
   },
   {
     "type": "Numeric",
     "value": "10",
     "start": 656,
-    "end": 658,
-    "range": [
-      656,
-      658
-    ]
+    "end": 658
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 658,
-    "end": 659,
-    "range": [
-      658,
-      659
-    ]
+    "end": 659
   },
   {
     "type": "Identifier",
     "value": "year",
     "start": 660,
-    "end": 664,
-    "range": [
-      660,
-      664
-    ]
+    "end": 664
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 664,
-    "end": 665,
-    "range": [
-      664,
-      665
-    ]
+    "end": 665
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 666,
-    "end": 675,
-    "range": [
-      666,
-      675
-    ]
+    "end": 675
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 676,
-    "end": 677,
-    "range": [
-      676,
-      677
-    ]
+    "end": 677
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 677,
-    "end": 678,
-    "range": [
-      677,
-      678
-    ]
+    "end": 678
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 678,
-    "end": 679,
-    "range": [
-      678,
-      679
-    ]
+    "end": 679
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 681,
-    "end": 687,
-    "range": [
-      681,
-      687
-    ]
+    "end": 687
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 687,
-    "end": 688,
-    "range": [
-      687,
-      688
-    ]
+    "end": 688
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 688,
-    "end": 697,
-    "range": [
-      688,
-      697
-    ]
+    "end": 697
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 697,
-    "end": 698,
-    "range": [
-      697,
-      698
-    ]
+    "end": 698
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 698,
-    "end": 700,
-    "range": [
-      698,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 700,
-    "end": 701,
-    "range": [
-      700,
-      701
-    ]
+    "end": 701
   },
   {
     "type": "Identifier",
     "value": "year",
     "start": 701,
-    "end": 705,
-    "range": [
-      701,
-      705
-    ]
+    "end": 705
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 705,
-    "end": 706,
-    "range": [
-      705,
-      706
-    ]
+    "end": 706
   },
   {
     "type": "Numeric",
     "value": "2001",
     "start": 707,
-    "end": 711,
-    "range": [
-      707,
-      711
-    ]
+    "end": 711
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 711,
-    "end": 712,
-    "range": [
-      711,
-      712
-    ]
+    "end": 712
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (year value)\"",
     "start": 715,
-    "end": 809,
-    "range": [
-      715,
-      809
-    ]
+    "end": 809
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 810,
-    "end": 811,
-    "range": [
-      810,
-      811
-    ]
+    "end": 811
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 811,
-    "end": 812,
-    "range": [
-      811,
-      812
-    ]
+    "end": 812
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 814,
-    "end": 820,
-    "range": [
-      814,
-      820
-    ]
+    "end": 820
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 820,
-    "end": 821,
-    "range": [
-      820,
-      821
-    ]
+    "end": 821
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 821,
-    "end": 830,
-    "range": [
-      821,
-      830
-    ]
+    "end": 830
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 830,
-    "end": 831,
-    "range": [
-      830,
-      831
-    ]
+    "end": 831
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 831,
-    "end": 833,
-    "range": [
-      831,
-      833
-    ]
+    "end": 833
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 833,
-    "end": 834,
-    "range": [
-      833,
-      834
-    ]
+    "end": 834
   },
   {
     "type": "Identifier",
     "value": "month",
     "start": 834,
-    "end": 839,
-    "range": [
-      834,
-      839
-    ]
+    "end": 839
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 839,
-    "end": 840,
-    "range": [
-      839,
-      840
-    ]
+    "end": 840
   },
   {
     "type": "Numeric",
     "value": "9",
     "start": 841,
-    "end": 842,
-    "range": [
-      841,
-      842
-    ]
+    "end": 842
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 842,
-    "end": 843,
-    "range": [
-      842,
-      843
-    ]
+    "end": 843
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (month value)\"",
     "start": 846,
-    "end": 941,
-    "range": [
-      846,
-      941
-    ]
+    "end": 941
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 942,
-    "end": 943,
-    "range": [
-      942,
-      943
-    ]
+    "end": 943
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 943,
-    "end": 944,
-    "range": [
-      943,
-      944
-    ]
+    "end": 944
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 946,
-    "end": 952,
-    "range": [
-      946,
-      952
-    ]
+    "end": 952
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 952,
-    "end": 953,
-    "range": [
-      952,
-      953
-    ]
+    "end": 953
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 953,
-    "end": 962,
-    "range": [
-      953,
-      962
-    ]
+    "end": 962
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 962,
-    "end": 963,
-    "range": [
-      962,
-      963
-    ]
+    "end": 963
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 963,
-    "end": 965,
-    "range": [
-      963,
-      965
-    ]
+    "end": 965
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 965,
-    "end": 966,
-    "range": [
-      965,
-      966
-    ]
+    "end": 966
   },
   {
     "type": "Identifier",
     "value": "day",
     "start": 966,
-    "end": 969,
-    "range": [
-      966,
-      969
-    ]
+    "end": 969
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 969,
-    "end": 970,
-    "range": [
-      969,
-      970
-    ]
+    "end": 970
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 971,
-    "end": 972,
-    "range": [
-      971,
-      972
-    ]
+    "end": 972
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 972,
-    "end": 973,
-    "range": [
-      972,
-      973
-    ]
+    "end": 973
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (day value)\"",
     "start": 976,
-    "end": 1069,
-    "range": [
-      976,
-      1069
-    ]
+    "end": 1069
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1070,
-    "end": 1071,
-    "range": [
-      1070,
-      1071
-    ]
+    "end": 1071
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1071,
-    "end": 1072,
-    "range": [
-      1071,
-      1072
-    ]
+    "end": 1072
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1074,
-    "end": 1080,
-    "range": [
-      1074,
-      1080
-    ]
+    "end": 1080
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1080,
-    "end": 1081,
-    "range": [
-      1080,
-      1081
-    ]
+    "end": 1081
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1081,
-    "end": 1090,
-    "range": [
-      1081,
-      1090
-    ]
+    "end": 1090
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1090,
-    "end": 1091,
-    "range": [
-      1090,
-      1091
-    ]
+    "end": 1091
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 1091,
-    "end": 1093,
-    "range": [
-      1091,
-      1093
-    ]
+    "end": 1093
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1093,
-    "end": 1094,
-    "range": [
-      1093,
-      1094
-    ]
+    "end": 1094
   },
   {
     "type": "Identifier",
     "value": "hour",
     "start": 1094,
-    "end": 1098,
-    "range": [
-      1094,
-      1098
-    ]
+    "end": 1098
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1098,
-    "end": 1099,
-    "range": [
-      1098,
-      1099
-    ]
+    "end": 1099
   },
   {
     "type": "Numeric",
     "value": "10",
     "start": 1100,
-    "end": 1102,
-    "range": [
-      1100,
-      1102
-    ]
+    "end": 1102
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1102,
-    "end": 1103,
-    "range": [
-      1102,
-      1103
-    ]
+    "end": 1103
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (hour value)\"",
     "start": 1106,
-    "end": 1200,
-    "range": [
-      1106,
-      1200
-    ]
+    "end": 1200
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1201,
-    "end": 1202,
-    "range": [
-      1201,
-      1202
-    ]
+    "end": 1202
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1202,
-    "end": 1203,
-    "range": [
-      1202,
-      1203
-    ]
+    "end": 1203
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1204,
-    "end": 1210,
-    "range": [
-      1204,
-      1210
-    ]
+    "end": 1210
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1210,
-    "end": 1211,
-    "range": [
-      1210,
-      1211
-    ]
+    "end": 1211
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1211,
-    "end": 1220,
-    "range": [
-      1211,
-      1220
-    ]
+    "end": 1220
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1220,
-    "end": 1221,
-    "range": [
-      1220,
-      1221
-    ]
+    "end": 1221
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 1221,
-    "end": 1223,
-    "range": [
-      1221,
-      1223
-    ]
+    "end": 1223
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1223,
-    "end": 1224,
-    "range": [
-      1223,
-      1224
-    ]
+    "end": 1224
   },
   {
     "type": "Identifier",
     "value": "minute",
     "start": 1224,
-    "end": 1230,
-    "range": [
-      1224,
-      1230
-    ]
+    "end": 1230
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1230,
-    "end": 1231,
-    "range": [
-      1230,
-      1231
-    ]
+    "end": 1231
   },
   {
     "type": "Numeric",
     "value": "46",
     "start": 1232,
-    "end": 1234,
-    "range": [
-      1232,
-      1234
-    ]
+    "end": 1234
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1234,
-    "end": 1235,
-    "range": [
-      1234,
-      1235
-    ]
+    "end": 1235
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (minute value)\"",
     "start": 1238,
-    "end": 1334,
-    "range": [
-      1238,
-      1334
-    ]
+    "end": 1334
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1335,
-    "end": 1336,
-    "range": [
-      1335,
-      1336
-    ]
+    "end": 1336
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1336,
-    "end": 1337,
-    "range": [
-      1336,
-      1337
-    ]
+    "end": 1337
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1338,
-    "end": 1344,
-    "range": [
-      1338,
-      1344
-    ]
+    "end": 1344
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1344,
-    "end": 1345,
-    "range": [
-      1344,
-      1345
-    ]
+    "end": 1345
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1345,
-    "end": 1354,
-    "range": [
-      1345,
-      1354
-    ]
+    "end": 1354
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1354,
-    "end": 1355,
-    "range": [
-      1354,
-      1355
-    ]
+    "end": 1355
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 1355,
-    "end": 1357,
-    "range": [
-      1355,
-      1357
-    ]
+    "end": 1357
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1357,
-    "end": 1358,
-    "range": [
-      1357,
-      1358
-    ]
+    "end": 1358
   },
   {
     "type": "Identifier",
     "value": "second",
     "start": 1358,
-    "end": 1364,
-    "range": [
-      1358,
-      1364
-    ]
+    "end": 1364
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1364,
-    "end": 1365,
-    "range": [
-      1364,
-      1365
-    ]
+    "end": 1365
   },
   {
     "type": "Numeric",
     "value": "40",
     "start": 1366,
-    "end": 1368,
-    "range": [
-      1366,
-      1368
-    ]
+    "end": 1368
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1368,
-    "end": 1369,
-    "range": [
-      1368,
-      1369
-    ]
+    "end": 1369
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (second value)\"",
     "start": 1372,
-    "end": 1468,
-    "range": [
-      1372,
-      1468
-    ]
+    "end": 1468
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1469,
-    "end": 1470,
-    "range": [
-      1469,
-      1470
-    ]
+    "end": 1470
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1470,
-    "end": 1471,
-    "range": [
-      1470,
-      1471
-    ]
+    "end": 1471
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1472,
-    "end": 1478,
-    "range": [
-      1472,
-      1478
-    ]
+    "end": 1478
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1478,
-    "end": 1479,
-    "range": [
-      1478,
-      1479
-    ]
+    "end": 1479
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1479,
-    "end": 1488,
-    "range": [
-      1479,
-      1488
-    ]
+    "end": 1488
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1488,
-    "end": 1489,
-    "range": [
-      1488,
-      1489
-    ]
+    "end": 1489
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 1489,
-    "end": 1491,
-    "range": [
-      1489,
-      1491
-    ]
+    "end": 1491
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1491,
-    "end": 1492,
-    "range": [
-      1491,
-      1492
-    ]
+    "end": 1492
   },
   {
     "type": "Identifier",
     "value": "millisecond",
     "start": 1492,
-    "end": 1503,
-    "range": [
-      1492,
-      1503
-    ]
+    "end": 1503
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1503,
-    "end": 1504,
-    "range": [
-      1503,
-      1504
-    ]
+    "end": 1504
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1505,
-    "end": 1506,
-    "range": [
-      1505,
-      1506
-    ]
+    "end": 1506
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1506,
-    "end": 1507,
-    "range": [
-      1506,
-      1507
-    ]
+    "end": 1507
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (millisecond value)\"",
     "start": 1510,
-    "end": 1611,
-    "range": [
-      1510,
-      1611
-    ]
+    "end": 1611
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1612,
-    "end": 1613,
-    "range": [
-      1612,
-      1613
-    ]
+    "end": 1613
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1613,
-    "end": 1614,
-    "range": [
-      1613,
-      1614
-    ]
+    "end": 1614
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1615,
-    "end": 1621,
-    "range": [
-      1615,
-      1621
-    ]
+    "end": 1621
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1621,
-    "end": 1622,
-    "range": [
-      1621,
-      1622
-    ]
+    "end": 1622
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1622,
-    "end": 1631,
-    "range": [
-      1622,
-      1631
-    ]
+    "end": 1631
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1631,
-    "end": 1632,
-    "range": [
-      1631,
-      1632
-    ]
+    "end": 1632
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 1632,
-    "end": 1634,
-    "range": [
-      1632,
-      1634
-    ]
+    "end": 1634
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1634,
-    "end": 1635,
-    "range": [
-      1634,
-      1635
-    ]
+    "end": 1635
   },
   {
     "type": "Identifier",
     "value": "microsecond",
     "start": 1635,
-    "end": 1646,
-    "range": [
-      1635,
-      1646
-    ]
+    "end": 1646
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1646,
-    "end": 1647,
-    "range": [
-      1646,
-      1647
-    ]
+    "end": 1647
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1648,
-    "end": 1649,
-    "range": [
-      1648,
-      1649
-    ]
+    "end": 1649
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1649,
-    "end": 1650,
-    "range": [
-      1649,
-      1650
-    ]
+    "end": 1650
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (microsecond value)\"",
     "start": 1653,
-    "end": 1754,
-    "range": [
-      1653,
-      1754
-    ]
+    "end": 1754
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1755,
-    "end": 1756,
-    "range": [
-      1755,
-      1756
-    ]
+    "end": 1756
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1756,
-    "end": 1757,
-    "range": [
-      1756,
-      1757
-    ]
+    "end": 1757
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1758,
-    "end": 1764,
-    "range": [
-      1758,
-      1764
-    ]
+    "end": 1764
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1764,
-    "end": 1765,
-    "range": [
-      1764,
-      1765
-    ]
+    "end": 1765
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1765,
-    "end": 1774,
-    "range": [
-      1765,
-      1774
-    ]
+    "end": 1774
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1774,
-    "end": 1775,
-    "range": [
-      1774,
-      1775
-    ]
+    "end": 1775
   },
   {
     "type": "Identifier",
     "value": "d2",
     "start": 1775,
-    "end": 1777,
-    "range": [
-      1775,
-      1777
-    ]
+    "end": 1777
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1777,
-    "end": 1778,
-    "range": [
-      1777,
-      1778
-    ]
+    "end": 1778
   },
   {
     "type": "Identifier",
     "value": "nanosecond",
     "start": 1778,
-    "end": 1788,
-    "range": [
-      1778,
-      1788
-    ]
+    "end": 1788
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1788,
-    "end": 1789,
-    "range": [
-      1788,
-      1789
-    ]
+    "end": 1789
   },
   {
     "type": "Numeric",
     "value": "789",
     "start": 1790,
-    "end": 1793,
-    "range": [
-      1790,
-      1793
-    ]
+    "end": 1793
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1793,
-    "end": 1794,
-    "range": [
-      1793,
-      1794
-    ]
+    "end": 1794
   },
   {
     "type": "String",
     "value": "\"only the properties that are present and defined in the plain object are copied (nanosecond value)\"",
     "start": 1797,
-    "end": 1897,
-    "range": [
-      1797,
-      1897
-    ]
+    "end": 1897
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1898,
-    "end": 1899,
-    "range": [
-      1898,
-      1899
-    ]
+    "end": 1899
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1899,
-    "end": 1900,
-    "range": [
-      1899,
-      1900
-    ]
+    "end": 1900
   }
 ]

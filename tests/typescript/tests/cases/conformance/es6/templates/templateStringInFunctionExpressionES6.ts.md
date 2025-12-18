@@ -152,181 +152,109 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "var",
     "start": 0,
-    "end": 3,
-    "range": [
-      0,
-      3
-    ]
+    "end": 3
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 4,
-    "end": 5,
-    "range": [
-      4,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6,
-    "end": 7,
-    "range": [
-      6,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 8,
-    "end": 16,
-    "range": [
-      8,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Identifier",
     "value": "y",
     "start": 17,
-    "end": 18,
-    "range": [
-      17,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 18,
-    "end": 19,
-    "range": [
-      18,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 19,
-    "end": 20,
-    "range": [
-      19,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 21,
-    "end": 22,
-    "range": [
-      21,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Template",
     "value": "`abc${",
     "start": 27,
-    "end": 33,
-    "range": [
-      27,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 34,
-    "end": 35,
-    "range": [
-      34,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "Template",
     "value": "}def`",
     "start": 36,
-    "end": 41,
-    "range": [
-      36,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Keyword",
     "value": "return",
     "start": 46,
-    "end": 52,
-    "range": [
-      46,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Template",
     "value": "`abc${",
     "start": 53,
-    "end": 59,
-    "range": [
-      53,
-      59
-    ]
+    "end": 59
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 60,
-    "end": 61,
-    "range": [
-      60,
-      61
-    ]
+    "end": 61
   },
   {
     "type": "Template",
     "value": "}def`",
     "start": 62,
-    "end": 67,
-    "range": [
-      62,
-      67
-    ]
+    "end": 67
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 67,
-    "end": 68,
-    "range": [
-      67,
-      68
-    ]
+    "end": 68
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 69,
-    "end": 70,
-    "range": [
-      69,
-      70
-    ]
+    "end": 70
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 70,
-    "end": 71,
-    "range": [
-      70,
-      71
-    ]
+    "end": 71
   }
 ]
 ```

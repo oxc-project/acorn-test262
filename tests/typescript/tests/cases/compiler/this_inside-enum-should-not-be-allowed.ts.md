@@ -127,181 +127,109 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "enum",
     "start": 0,
-    "end": 4,
-    "range": [
-      0,
-      4
-    ]
+    "end": 4
   },
   {
     "type": "Identifier",
     "value": "TopLevelEnum",
     "start": 5,
-    "end": 17,
-    "range": [
-      5,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 18,
-    "end": 19,
-    "range": [
-      18,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "Identifier",
     "value": "ThisWasAllowedButShouldNotBe",
     "start": 24,
-    "end": 52,
-    "range": [
-      24,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 53,
-    "end": 54,
-    "range": [
-      53,
-      54
-    ]
+    "end": 54
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 55,
-    "end": 59,
-    "range": [
-      55,
-      59
-    ]
+    "end": 59
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 85,
-    "end": 86,
-    "range": [
-      85,
-      86
-    ]
+    "end": 86
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 88,
-    "end": 97,
-    "range": [
-      88,
-      97
-    ]
+    "end": 97
   },
   {
     "type": "Identifier",
     "value": "ModuleEnum",
     "start": 98,
-    "end": 108,
-    "range": [
-      98,
-      108
-    ]
+    "end": 108
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 109,
-    "end": 110,
-    "range": [
-      109,
-      110
-    ]
+    "end": 110
   },
   {
     "type": "Keyword",
     "value": "enum",
     "start": 115,
-    "end": 119,
-    "range": [
-      115,
-      119
-    ]
+    "end": 119
   },
   {
     "type": "Identifier",
     "value": "EnumInModule",
     "start": 120,
-    "end": 132,
-    "range": [
-      120,
-      132
-    ]
+    "end": 132
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 133,
-    "end": 134,
-    "range": [
-      133,
-      134
-    ]
+    "end": 134
   },
   {
     "type": "Identifier",
     "value": "WasADifferentError",
     "start": 143,
-    "end": 161,
-    "range": [
-      143,
-      161
-    ]
+    "end": 161
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 162,
-    "end": 163,
-    "range": [
-      162,
-      163
-    ]
+    "end": 163
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 164,
-    "end": 168,
-    "range": [
-      164,
-      168
-    ]
+    "end": 168
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 220,
-    "end": 221,
-    "range": [
-      220,
-      221
-    ]
+    "end": 221
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 222,
-    "end": 223,
-    "range": [
-      222,
-      223
-    ]
+    "end": 223
   }
 ]
 ```

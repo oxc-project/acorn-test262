@@ -3,330 +3,198 @@
     "type": "Keyword",
     "value": "if",
     "start": 461,
-    "end": 463,
-    "range": [
-      461,
-      463
-    ]
+    "end": 463
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 464,
-    "end": 465,
-    "range": [
-      464,
-      465
-    ]
+    "end": 465
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 465,
-    "end": 471,
-    "range": [
-      465,
-      471
-    ]
+    "end": 471
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 471,
-    "end": 472,
-    "range": [
-      471,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "String",
     "value": "\"lego\"",
     "start": 472,
-    "end": 478,
-    "range": [
-      472,
-      478
-    ]
+    "end": 478
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 478,
-    "end": 479,
-    "range": [
-      478,
-      479
-    ]
+    "end": 479
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 479,
-    "end": 480,
-    "range": [
-      479,
-      480
-    ]
+    "end": 480
   },
   {
     "type": "Identifier",
     "value": "charCodeAt",
     "start": 480,
-    "end": 490,
-    "range": [
-      480,
-      490
-    ]
+    "end": 490
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 490,
-    "end": 491,
-    "range": [
-      490,
-      491
-    ]
+    "end": 491
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 491,
-    "end": 500,
-    "range": [
-      491,
-      500
-    ]
+    "end": 500
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 500,
-    "end": 501,
-    "range": [
-      500,
-      501
-    ]
+    "end": 501
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 502,
-    "end": 505,
-    "range": [
-      502,
-      505
-    ]
+    "end": 505
   },
   {
     "type": "Numeric",
     "value": "0x6C",
     "start": 506,
-    "end": 510,
-    "range": [
-      506,
-      510
-    ]
+    "end": 510
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 510,
-    "end": 511,
-    "range": [
-      510,
-      511
-    ]
+    "end": 511
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 512,
-    "end": 513,
-    "range": [
-      512,
-      513
-    ]
+    "end": 513
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 516,
-    "end": 521,
-    "range": [
-      516,
-      521
-    ]
+    "end": 521
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 522,
-    "end": 525,
-    "range": [
-      522,
-      525
-    ]
+    "end": 525
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 526,
-    "end": 538,
-    "range": [
-      526,
-      538
-    ]
+    "end": 538
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 538,
-    "end": 539,
-    "range": [
-      538,
-      539
-    ]
+    "end": 539
   },
   {
     "type": "String",
     "value": "'#1: String(\"lego\").charCodeAt(undefined) === 0x6C. Actual: String(\"lego\").charCodeAt(undefined) ==='",
     "start": 539,
-    "end": 640,
-    "range": [
-      539,
-      640
-    ]
+    "end": 640
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 641,
-    "end": 642,
-    "range": [
-      641,
-      642
-    ]
+    "end": 642
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 643,
-    "end": 649,
-    "range": [
-      643,
-      649
-    ]
+    "end": 649
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 649,
-    "end": 650,
-    "range": [
-      649,
-      650
-    ]
+    "end": 650
   },
   {
     "type": "String",
     "value": "\"lego\"",
     "start": 650,
-    "end": 656,
-    "range": [
-      650,
-      656
-    ]
+    "end": 656
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 656,
-    "end": 657,
-    "range": [
-      656,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 657,
-    "end": 658,
-    "range": [
-      657,
-      658
-    ]
+    "end": 658
   },
   {
     "type": "Identifier",
     "value": "charCodeAt",
     "start": 658,
-    "end": 668,
-    "range": [
-      658,
-      668
-    ]
+    "end": 668
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 668,
-    "end": 669,
-    "range": [
-      668,
-      669
-    ]
+    "end": 669
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 669,
-    "end": 678,
-    "range": [
-      669,
-      678
-    ]
+    "end": 678
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 678,
-    "end": 679,
-    "range": [
-      678,
-      679
-    ]
+    "end": 679
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 679,
-    "end": 680,
-    "range": [
-      679,
-      680
-    ]
+    "end": 680
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 680,
-    "end": 681,
-    "range": [
-      680,
-      681
-    ]
+    "end": 681
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 682,
-    "end": 683,
-    "range": [
-      682,
-      683
-    ]
+    "end": 683
   }
 ]

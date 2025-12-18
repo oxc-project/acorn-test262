@@ -79,101 +79,61 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 329,
-    "end": 336,
-    "range": [
-      329,
-      336
-    ]
+    "end": 336
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 337,
-    "end": 342,
-    "range": [
-      337,
-      342
-    ]
+    "end": 342
   },
   {
     "type": "Identifier",
     "value": "MyClass",
     "start": 343,
-    "end": 350,
-    "range": [
-      343,
-      350
-    ]
+    "end": 350
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 351,
-    "end": 352,
-    "range": [
-      351,
-      352
-    ]
+    "end": 352
   },
   {
     "type": "Keyword",
     "value": "private",
     "start": 353,
-    "end": 360,
-    "range": [
-      353,
-      360
-    ]
+    "end": 360
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 361,
-    "end": 362,
-    "range": [
-      361,
-      362
-    ]
+    "end": 362
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 362,
-    "end": 363,
-    "range": [
-      362,
-      363
-    ]
+    "end": 363
   },
   {
     "type": "Identifier",
     "value": "number",
     "start": 364,
-    "end": 370,
-    "range": [
-      364,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 370,
-    "end": 371,
-    "range": [
-      370,
-      371
-    ]
+    "end": 371
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 372,
-    "end": 373,
-    "range": [
-      372,
-      373
-    ]
+    "end": 373
   }
 ]
 ```

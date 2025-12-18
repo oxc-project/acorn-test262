@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "Function",
     "start": 308,
-    "end": 316,
-    "range": [
-      308,
-      316
-    ]
+    "end": 316
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 316,
-    "end": 317,
-    "range": [
-      316,
-      317
-    ]
+    "end": 317
   },
   {
     "type": "String",
     "value": "'var arguments;'",
     "start": 317,
-    "end": 333,
-    "range": [
-      317,
-      333
-    ]
+    "end": 333
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 333,
-    "end": 334,
-    "range": [
-      333,
-      334
-    ]
+    "end": 334
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 334,
-    "end": 335,
-    "range": [
-      334,
-      335
-    ]
+    "end": 335
   }
 ]

@@ -71,41 +71,25 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "if",
     "start": 0,
-    "end": 2,
-    "range": [
-      0,
-      2
-    ]
+    "end": 2
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3,
-    "end": 4,
-    "range": [
-      3,
-      4
-    ]
+    "end": 4
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 4,
-    "end": 5,
-    "range": [
-      4,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5,
-    "end": 6,
-    "range": [
-      5,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "RegularExpression",
@@ -115,61 +99,37 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "regexp"
     },
     "start": 7,
-    "end": 16,
-    "range": [
-      7,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 16,
-    "end": 17,
-    "range": [
-      16,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 17,
-    "end": 20,
-    "range": [
-      17,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 20,
-    "end": 21,
-    "range": [
-      20,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 21,
-    "end": 22,
-    "range": [
-      21,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 22,
-    "end": 23,
-    "range": [
-      22,
-      23
-    ]
+    "end": 23
   }
 ]
 ```

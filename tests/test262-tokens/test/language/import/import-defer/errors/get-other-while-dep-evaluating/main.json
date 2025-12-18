@@ -3,360 +3,216 @@
     "type": "Keyword",
     "value": "import",
     "start": 1531,
-    "end": 1537,
-    "range": [
-      1531,
-      1537
-    ]
+    "end": 1537
   },
   {
     "type": "String",
     "value": "\"./dep-1_FIXTURE.js\"",
     "start": 1538,
-    "end": 1558,
-    "range": [
-      1538,
-      1558
-    ]
+    "end": 1558
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1558,
-    "end": 1559,
-    "range": [
-      1558,
-      1559
-    ]
+    "end": 1559
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1561,
-    "end": 1567,
-    "range": [
-      1561,
-      1567
-    ]
+    "end": 1567
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1567,
-    "end": 1568,
-    "range": [
-      1567,
-      1568
-    ]
+    "end": 1568
   },
   {
     "type": "Identifier",
     "value": "globalThis",
     "start": 1568,
-    "end": 1578,
-    "range": [
-      1568,
-      1578
-    ]
+    "end": 1578
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1578,
-    "end": 1579,
-    "range": [
-      1578,
-      1579
-    ]
+    "end": 1579
   },
   {
     "type": "String",
     "value": "\"evaluating dep2.foo error\"",
     "start": 1579,
-    "end": 1606,
-    "range": [
-      1579,
-      1606
-    ]
+    "end": 1606
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1606,
-    "end": 1607,
-    "range": [
-      1606,
-      1607
-    ]
+    "end": 1607
   },
   {
     "type": "Keyword",
     "value": "instanceof",
     "start": 1608,
-    "end": 1618,
-    "range": [
-      1608,
-      1618
-    ]
+    "end": 1618
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 1619,
-    "end": 1628,
-    "range": [
-      1619,
-      1628
-    ]
+    "end": 1628
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1628,
-    "end": 1629,
-    "range": [
-      1628,
-      1629
-    ]
+    "end": 1629
   },
   {
     "type": "String",
     "value": "\"evaluating dep2.foo throws a TypeError\"",
     "start": 1630,
-    "end": 1670,
-    "range": [
-      1630,
-      1670
-    ]
+    "end": 1670
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1670,
-    "end": 1671,
-    "range": [
-      1670,
-      1671
-    ]
+    "end": 1671
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1671,
-    "end": 1672,
-    "range": [
-      1671,
-      1672
-    ]
+    "end": 1672
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1673,
-    "end": 1679,
-    "range": [
-      1673,
-      1679
-    ]
+    "end": 1679
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1679,
-    "end": 1680,
-    "range": [
-      1679,
-      1680
-    ]
+    "end": 1680
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 1680,
-    "end": 1681,
-    "range": [
-      1680,
-      1681
-    ]
+    "end": 1681
   },
   {
     "type": "Identifier",
     "value": "globalThis",
     "start": 1681,
-    "end": 1691,
-    "range": [
-      1681,
-      1691
-    ]
+    "end": 1691
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1691,
-    "end": 1692,
-    "range": [
-      1691,
-      1692
-    ]
+    "end": 1692
   },
   {
     "type": "String",
     "value": "\"evaluating dep2.foo evaluates dep3\"",
     "start": 1692,
-    "end": 1728,
-    "range": [
-      1692,
-      1728
-    ]
+    "end": 1728
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1728,
-    "end": 1729,
-    "range": [
-      1728,
-      1729
-    ]
+    "end": 1729
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1729,
-    "end": 1730,
-    "range": [
-      1729,
-      1730
-    ]
+    "end": 1730
   },
   {
     "type": "String",
     "value": "\"evaluating dep2.foo does not evaluate dep3\"",
     "start": 1731,
-    "end": 1775,
-    "range": [
-      1731,
-      1775
-    ]
+    "end": 1775
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1775,
-    "end": 1776,
-    "range": [
-      1775,
-      1776
-    ]
+    "end": 1776
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1776,
-    "end": 1777,
-    "range": [
-      1776,
-      1777
-    ]
+    "end": 1777
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1778,
-    "end": 1784,
-    "range": [
-      1778,
-      1784
-    ]
+    "end": 1784
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1784,
-    "end": 1785,
-    "range": [
-      1784,
-      1785
-    ]
+    "end": 1785
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 1785,
-    "end": 1786,
-    "range": [
-      1785,
-      1786
-    ]
+    "end": 1786
   },
   {
     "type": "Identifier",
     "value": "globalThis",
     "start": 1786,
-    "end": 1796,
-    "range": [
-      1786,
-      1796
-    ]
+    "end": 1796
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1796,
-    "end": 1797,
-    "range": [
-      1796,
-      1797
-    ]
+    "end": 1797
   },
   {
     "type": "Identifier",
     "value": "dep3evaluated",
     "start": 1797,
-    "end": 1810,
-    "range": [
-      1797,
-      1810
-    ]
+    "end": 1810
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1810,
-    "end": 1811,
-    "range": [
-      1810,
-      1811
-    ]
+    "end": 1811
   },
   {
     "type": "String",
     "value": "\"dep3 is not evaluated at all\"",
     "start": 1812,
-    "end": 1842,
-    "range": [
-      1812,
-      1842
-    ]
+    "end": 1842
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1842,
-    "end": 1843,
-    "range": [
-      1842,
-      1843
-    ]
+    "end": 1843
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1843,
-    "end": 1844,
-    "range": [
-      1843,
-      1844
-    ]
+    "end": 1844
   }
 ]

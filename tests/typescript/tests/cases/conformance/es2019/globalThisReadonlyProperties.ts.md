@@ -221,251 +221,151 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "globalThis",
     "start": 0,
-    "end": 10,
-    "range": [
-      0,
-      10
-    ]
+    "end": 10
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10,
-    "end": 11,
-    "range": [
-      10,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "globalThis",
     "start": 11,
-    "end": 21,
-    "range": [
-      11,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 22,
-    "end": 23,
-    "range": [
-      22,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 24,
-    "end": 25,
-    "range": [
-      24,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 26,
-    "end": 28,
-    "range": [
-      26,
-      28
-    ]
+    "end": 28
   },
   {
     "type": "Identifier",
     "value": "any",
     "start": 29,
-    "end": 32,
-    "range": [
-      29,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 49,
-    "end": 52,
-    "range": [
-      49,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 53,
-    "end": 54,
-    "range": [
-      53,
-      54
-    ]
+    "end": 54
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 55,
-    "end": 56,
-    "range": [
-      55,
-      56
-    ]
+    "end": 56
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 57,
-    "end": 58,
-    "range": [
-      57,
-      58
-    ]
+    "end": 58
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 59,
-    "end": 64,
-    "range": [
-      59,
-      64
-    ]
+    "end": 64
   },
   {
     "type": "Identifier",
     "value": "y",
     "start": 65,
-    "end": 66,
-    "range": [
-      65,
-      66
-    ]
+    "end": 66
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 67,
-    "end": 68,
-    "range": [
-      67,
-      68
-    ]
+    "end": 68
   },
   {
     "type": "Numeric",
     "value": "2",
     "start": 69,
-    "end": 70,
-    "range": [
-      69,
-      70
-    ]
+    "end": 70
   },
   {
     "type": "Identifier",
     "value": "globalThis",
     "start": 71,
-    "end": 81,
-    "range": [
-      71,
-      81
-    ]
+    "end": 81
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 81,
-    "end": 82,
-    "range": [
-      81,
-      82
-    ]
+    "end": 82
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 82,
-    "end": 83,
-    "range": [
-      82,
-      83
-    ]
+    "end": 83
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 84,
-    "end": 85,
-    "range": [
-      84,
-      85
-    ]
+    "end": 85
   },
   {
     "type": "Numeric",
     "value": "3",
     "start": 86,
-    "end": 87,
-    "range": [
-      86,
-      87
-    ]
+    "end": 87
   },
   {
     "type": "Identifier",
     "value": "globalThis",
     "start": 88,
-    "end": 98,
-    "range": [
-      88,
-      98
-    ]
+    "end": 98
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 98,
-    "end": 99,
-    "range": [
-      98,
-      99
-    ]
+    "end": 99
   },
   {
     "type": "Identifier",
     "value": "y",
     "start": 99,
-    "end": 100,
-    "range": [
-      99,
-      100
-    ]
+    "end": 100
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 101,
-    "end": 102,
-    "range": [
-      101,
-      102
-    ]
+    "end": 102
   },
   {
     "type": "Numeric",
     "value": "4",
     "start": 103,
-    "end": 104,
-    "range": [
-      103,
-      104
-    ]
+    "end": 104
   }
 ]
 ```

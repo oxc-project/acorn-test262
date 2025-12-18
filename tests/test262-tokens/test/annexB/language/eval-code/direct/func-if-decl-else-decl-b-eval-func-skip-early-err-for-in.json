@@ -3,150 +3,90 @@
     "type": "Punctuator",
     "value": "(",
     "start": 1203,
-    "end": 1204,
-    "range": [
-      1203,
-      1204
-    ]
+    "end": 1204
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 1204,
-    "end": 1212,
-    "range": [
-      1204,
-      1212
-    ]
+    "end": 1212
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1212,
-    "end": 1213,
-    "range": [
-      1212,
-      1213
-    ]
+    "end": 1213
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1213,
-    "end": 1214,
-    "range": [
-      1213,
-      1214
-    ]
+    "end": 1214
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1215,
-    "end": 1216,
-    "range": [
-      1215,
-      1216
-    ]
+    "end": 1216
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1219,
-    "end": 1223,
-    "range": [
-      1219,
-      1223
-    ]
+    "end": 1223
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1223,
-    "end": 1224,
-    "range": [
-      1223,
-      1224
-    ]
+    "end": 1224
   },
   {
     "type": "String",
     "value": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    for (let f in { key: 0 }) {if (false) function _f() {} else function f() {  }}\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'",
     "start": 1229,
-    "end": 1853,
-    "range": [
-      1229,
-      1853
-    ]
+    "end": 1853
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1856,
-    "end": 1857,
-    "range": [
-      1856,
-      1857
-    ]
+    "end": 1857
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1857,
-    "end": 1858,
-    "range": [
-      1857,
-      1858
-    ]
+    "end": 1858
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1859,
-    "end": 1860,
-    "range": [
-      1859,
-      1860
-    ]
+    "end": 1860
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1860,
-    "end": 1861,
-    "range": [
-      1860,
-      1861
-    ]
+    "end": 1861
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1861,
-    "end": 1862,
-    "range": [
-      1861,
-      1862
-    ]
+    "end": 1862
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1862,
-    "end": 1863,
-    "range": [
-      1862,
-      1863
-    ]
+    "end": 1863
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1863,
-    "end": 1864,
-    "range": [
-      1863,
-      1864
-    ]
+    "end": 1864
   }
 ]

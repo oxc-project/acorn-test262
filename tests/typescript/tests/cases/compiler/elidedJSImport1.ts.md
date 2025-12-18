@@ -200,311 +200,187 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 7,
-    "end": 8,
-    "range": [
-      7,
-      8
-    ]
+    "end": 8
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 9,
-    "end": 11,
-    "range": [
-      9,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "fs",
     "start": 12,
-    "end": 14,
-    "range": [
-      12,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 15,
-    "end": 19,
-    "range": [
-      15,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "String",
     "value": "'fs'",
     "start": 20,
-    "end": 24,
-    "range": [
-      20,
-      24
-    ]
+    "end": 24
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 24,
-    "end": 25,
-    "range": [
-      24,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 26,
-    "end": 32,
-    "range": [
-      26,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Identifier",
     "value": "TruffleContract",
     "start": 33,
-    "end": 48,
-    "range": [
-      33,
-      48
-    ]
+    "end": 48
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 49,
-    "end": 53,
-    "range": [
-      49,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "String",
     "value": "'@truffle/contract'",
     "start": 54,
-    "end": 73,
-    "range": [
-      54,
-      73
-    ]
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 73,
-    "end": 74,
-    "range": [
-      73,
-      74
-    ]
+    "end": 74
   },
   {
     "type": "Identifier",
     "value": "console",
     "start": 126,
-    "end": 133,
-    "range": [
-      126,
-      133
-    ]
+    "end": 133
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 133,
-    "end": 134,
-    "range": [
-      133,
-      134
-    ]
+    "end": 134
   },
   {
     "type": "Identifier",
     "value": "log",
     "start": 134,
-    "end": 137,
-    "range": [
-      134,
-      137
-    ]
+    "end": 137
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 137,
-    "end": 138,
-    "range": [
-      137,
-      138
-    ]
+    "end": 138
   },
   {
     "type": "Identifier",
     "value": "fs",
     "start": 138,
-    "end": 140,
-    "range": [
-      138,
-      140
-    ]
+    "end": 140
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 140,
-    "end": 141,
-    "range": [
-      140,
-      141
-    ]
+    "end": 141
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 141,
-    "end": 142,
-    "range": [
-      141,
-      142
-    ]
+    "end": 142
   },
   {
     "type": "Identifier",
     "value": "console",
     "start": 143,
-    "end": 150,
-    "range": [
-      143,
-      150
-    ]
+    "end": 150
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 150,
-    "end": 151,
-    "range": [
-      150,
-      151
-    ]
+    "end": 151
   },
   {
     "type": "Identifier",
     "value": "log",
     "start": 151,
-    "end": 154,
-    "range": [
-      151,
-      154
-    ]
+    "end": 154
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 154,
-    "end": 155,
-    "range": [
-      154,
-      155
-    ]
+    "end": 155
   },
   {
     "type": "String",
     "value": "'TruffleContract is '",
     "start": 155,
-    "end": 176,
-    "range": [
-      155,
-      176
-    ]
+    "end": 176
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 176,
-    "end": 177,
-    "range": [
-      176,
-      177
-    ]
+    "end": 177
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 178,
-    "end": 184,
-    "range": [
-      178,
-      184
-    ]
+    "end": 184
   },
   {
     "type": "Identifier",
     "value": "TruffleContract",
     "start": 185,
-    "end": 200,
-    "range": [
-      185,
-      200
-    ]
+    "end": 200
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 200,
-    "end": 201,
-    "range": [
-      200,
-      201
-    ]
+    "end": 201
   },
   {
     "type": "Identifier",
     "value": "TruffleContract",
     "start": 202,
-    "end": 217,
-    "range": [
-      202,
-      217
-    ]
+    "end": 217
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 217,
-    "end": 218,
-    "range": [
-      217,
-      218
-    ]
+    "end": 218
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 218,
-    "end": 219,
-    "range": [
-      218,
-      219
-    ]
+    "end": 219
   }
 ]
 ```
@@ -681,271 +557,163 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Identifier",
     "value": "module",
     "start": 8,
-    "end": 14,
-    "range": [
-      8,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "String",
     "value": "\"@truffle/contract\"",
     "start": 15,
-    "end": 34,
-    "range": [
-      15,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 35,
-    "end": 36,
-    "range": [
-      35,
-      36
-    ]
+    "end": 36
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 41,
-    "end": 50,
-    "range": [
-      41,
-      50
-    ]
+    "end": 50
   },
   {
     "type": "Identifier",
     "value": "ContractObject",
     "start": 51,
-    "end": 65,
-    "range": [
-      51,
-      65
-    ]
+    "end": 65
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 66,
-    "end": 67,
-    "range": [
-      66,
-      67
-    ]
+    "end": 67
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 76,
-    "end": 79,
-    "range": [
-      76,
-      79
-    ]
+    "end": 79
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 79,
-    "end": 80,
-    "range": [
-      79,
-      80
-    ]
+    "end": 80
   },
   {
     "type": "Identifier",
     "value": "number",
     "start": 81,
-    "end": 87,
-    "range": [
-      81,
-      87
-    ]
+    "end": 87
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 87,
-    "end": 88,
-    "range": [
-      87,
-      88
-    ]
+    "end": 88
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 93,
-    "end": 94,
-    "range": [
-      93,
-      94
-    ]
+    "end": 94
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 99,
-    "end": 108,
-    "range": [
-      99,
-      108
-    ]
+    "end": 108
   },
   {
     "type": "Identifier",
     "value": "TruffleContract",
     "start": 109,
-    "end": 124,
-    "range": [
-      109,
-      124
-    ]
+    "end": 124
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 125,
-    "end": 126,
-    "range": [
-      125,
-      126
-    ]
+    "end": 126
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 135,
-    "end": 141,
-    "range": [
-      135,
-      141
-    ]
+    "end": 141
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 142,
-    "end": 146,
-    "range": [
-      142,
-      146
-    ]
+    "end": 146
   },
   {
     "type": "Identifier",
     "value": "Contract",
     "start": 147,
-    "end": 155,
-    "range": [
-      147,
-      155
-    ]
+    "end": 155
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 156,
-    "end": 157,
-    "range": [
-      156,
-      157
-    ]
+    "end": 157
   },
   {
     "type": "Identifier",
     "value": "ContractObject",
     "start": 158,
-    "end": 172,
-    "range": [
-      158,
-      172
-    ]
+    "end": 172
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 172,
-    "end": 173,
-    "range": [
-      172,
-      173
-    ]
+    "end": 173
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 178,
-    "end": 179,
-    "range": [
-      178,
-      179
-    ]
+    "end": 179
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 184,
-    "end": 190,
-    "range": [
-      184,
-      190
-    ]
+    "end": 190
   },
   {
     "type": "Keyword",
     "value": "default",
     "start": 191,
-    "end": 198,
-    "range": [
-      191,
-      198
-    ]
+    "end": 198
   },
   {
     "type": "Identifier",
     "value": "TruffleContract",
     "start": 199,
-    "end": 214,
-    "range": [
-      199,
-      214
-    ]
+    "end": 214
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 214,
-    "end": 215,
-    "range": [
-      214,
-      215
-    ]
+    "end": 215
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 216,
-    "end": 217,
-    "range": [
-      216,
-      217
-    ]
+    "end": 217
   }
 ]
 ```

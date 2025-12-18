@@ -3,31 +3,19 @@
     "type": "Keyword",
     "value": "var",
     "start": 2693,
-    "end": 2696,
-    "range": [
-      2693,
-      2696
-    ]
+    "end": 2696
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2697,
-    "end": 2700,
-    "range": [
-      2697,
-      2700
-    ]
+    "end": 2700
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2701,
-    "end": 2702,
-    "range": [
-      2701,
-      2702
-    ]
+    "end": 2702
   },
   {
     "type": "RegularExpression",
@@ -37,640 +25,384 @@
       "pattern": "(?-i:\\P{Lu})"
     },
     "start": 2703,
-    "end": 2719,
-    "range": [
-      2703,
-      2719
-    ]
+    "end": 2719
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2719,
-    "end": 2720,
-    "range": [
-      2719,
-      2720
-    ]
+    "end": 2720
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2721,
-    "end": 2727,
-    "range": [
-      2721,
-      2727
-    ]
+    "end": 2727
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2727,
-    "end": 2728,
-    "range": [
-      2727,
-      2728
-    ]
+    "end": 2728
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2728,
-    "end": 2729,
-    "range": [
-      2728,
-      2729
-    ]
+    "end": 2729
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2729,
-    "end": 2732,
-    "range": [
-      2729,
-      2732
-    ]
+    "end": 2732
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2732,
-    "end": 2733,
-    "range": [
-      2732,
-      2733
-    ]
+    "end": 2733
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2733,
-    "end": 2737,
-    "range": [
-      2733,
-      2737
-    ]
+    "end": 2737
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2737,
-    "end": 2738,
-    "range": [
-      2737,
-      2738
-    ]
+    "end": 2738
   },
   {
     "type": "String",
     "value": "\"A\"",
     "start": 2738,
-    "end": 2741,
-    "range": [
-      2738,
-      2741
-    ]
+    "end": 2741
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2741,
-    "end": 2742,
-    "range": [
-      2741,
-      2742
-    ]
+    "end": 2742
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2742,
-    "end": 2743,
-    "range": [
-      2742,
-      2743
-    ]
+    "end": 2743
   },
   {
     "type": "String",
     "value": "\"\\\\P{Lu} should not match A\"",
     "start": 2744,
-    "end": 2772,
-    "range": [
-      2744,
-      2772
-    ]
+    "end": 2772
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2772,
-    "end": 2773,
-    "range": [
-      2772,
-      2773
-    ]
+    "end": 2773
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2773,
-    "end": 2774,
-    "range": [
-      2773,
-      2774
-    ]
+    "end": 2774
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2775,
-    "end": 2781,
-    "range": [
-      2775,
-      2781
-    ]
+    "end": 2781
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2781,
-    "end": 2782,
-    "range": [
-      2781,
-      2782
-    ]
+    "end": 2782
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2782,
-    "end": 2785,
-    "range": [
-      2782,
-      2785
-    ]
+    "end": 2785
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2785,
-    "end": 2786,
-    "range": [
-      2785,
-      2786
-    ]
+    "end": 2786
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2786,
-    "end": 2790,
-    "range": [
-      2786,
-      2790
-    ]
+    "end": 2790
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2790,
-    "end": 2791,
-    "range": [
-      2790,
-      2791
-    ]
+    "end": 2791
   },
   {
     "type": "String",
     "value": "\"a\"",
     "start": 2791,
-    "end": 2794,
-    "range": [
-      2791,
-      2794
-    ]
+    "end": 2794
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2794,
-    "end": 2795,
-    "range": [
-      2794,
-      2795
-    ]
+    "end": 2795
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2795,
-    "end": 2796,
-    "range": [
-      2795,
-      2796
-    ]
+    "end": 2796
   },
   {
     "type": "String",
     "value": "\"\\\\P{Lu} should match a\"",
     "start": 2797,
-    "end": 2821,
-    "range": [
-      2797,
-      2821
-    ]
+    "end": 2821
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2821,
-    "end": 2822,
-    "range": [
-      2821,
-      2822
-    ]
+    "end": 2822
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2822,
-    "end": 2823,
-    "range": [
-      2822,
-      2823
-    ]
+    "end": 2823
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2824,
-    "end": 2830,
-    "range": [
-      2824,
-      2830
-    ]
+    "end": 2830
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2830,
-    "end": 2831,
-    "range": [
-      2830,
-      2831
-    ]
+    "end": 2831
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2831,
-    "end": 2832,
-    "range": [
-      2831,
-      2832
-    ]
+    "end": 2832
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2832,
-    "end": 2835,
-    "range": [
-      2832,
-      2835
-    ]
+    "end": 2835
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2835,
-    "end": 2836,
-    "range": [
-      2835,
-      2836
-    ]
+    "end": 2836
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2836,
-    "end": 2840,
-    "range": [
-      2836,
-      2840
-    ]
+    "end": 2840
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2840,
-    "end": 2841,
-    "range": [
-      2840,
-      2841
-    ]
+    "end": 2841
   },
   {
     "type": "String",
     "value": "\"Z\"",
     "start": 2841,
-    "end": 2844,
-    "range": [
-      2841,
-      2844
-    ]
+    "end": 2844
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2844,
-    "end": 2845,
-    "range": [
-      2844,
-      2845
-    ]
+    "end": 2845
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2845,
-    "end": 2846,
-    "range": [
-      2845,
-      2846
-    ]
+    "end": 2846
   },
   {
     "type": "String",
     "value": "\"\\\\P{Lu} should not match Z\"",
     "start": 2847,
-    "end": 2875,
-    "range": [
-      2847,
-      2875
-    ]
+    "end": 2875
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2875,
-    "end": 2876,
-    "range": [
-      2875,
-      2876
-    ]
+    "end": 2876
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2876,
-    "end": 2877,
-    "range": [
-      2876,
-      2877
-    ]
+    "end": 2877
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2878,
-    "end": 2884,
-    "range": [
-      2878,
-      2884
-    ]
+    "end": 2884
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2884,
-    "end": 2885,
-    "range": [
-      2884,
-      2885
-    ]
+    "end": 2885
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2885,
-    "end": 2888,
-    "range": [
-      2885,
-      2888
-    ]
+    "end": 2888
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2888,
-    "end": 2889,
-    "range": [
-      2888,
-      2889
-    ]
+    "end": 2889
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2889,
-    "end": 2893,
-    "range": [
-      2889,
-      2893
-    ]
+    "end": 2893
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2893,
-    "end": 2894,
-    "range": [
-      2893,
-      2894
-    ]
+    "end": 2894
   },
   {
     "type": "String",
     "value": "\"z\"",
     "start": 2894,
-    "end": 2897,
-    "range": [
-      2894,
-      2897
-    ]
+    "end": 2897
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2897,
-    "end": 2898,
-    "range": [
-      2897,
-      2898
-    ]
+    "end": 2898
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2898,
-    "end": 2899,
-    "range": [
-      2898,
-      2899
-    ]
+    "end": 2899
   },
   {
     "type": "String",
     "value": "\"\\\\P{Lu} should match z\"",
     "start": 2900,
-    "end": 2924,
-    "range": [
-      2900,
-      2924
-    ]
+    "end": 2924
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2924,
-    "end": 2925,
-    "range": [
-      2924,
-      2925
-    ]
+    "end": 2925
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2925,
-    "end": 2926,
-    "range": [
-      2925,
-      2926
-    ]
+    "end": 2926
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2927,
-    "end": 2933,
-    "range": [
-      2927,
-      2933
-    ]
+    "end": 2933
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2933,
-    "end": 2934,
-    "range": [
-      2933,
-      2934
-    ]
+    "end": 2934
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2934,
-    "end": 2937,
-    "range": [
-      2934,
-      2937
-    ]
+    "end": 2937
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2937,
-    "end": 2938,
-    "range": [
-      2937,
-      2938
-    ]
+    "end": 2938
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2938,
-    "end": 2942,
-    "range": [
-      2938,
-      2942
-    ]
+    "end": 2942
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2942,
-    "end": 2943,
-    "range": [
-      2942,
-      2943
-    ]
+    "end": 2943
   },
   {
     "type": "String",
     "value": "\"0\"",
     "start": 2943,
-    "end": 2946,
-    "range": [
-      2943,
-      2946
-    ]
+    "end": 2946
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2946,
-    "end": 2947,
-    "range": [
-      2946,
-      2947
-    ]
+    "end": 2947
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2947,
-    "end": 2948,
-    "range": [
-      2947,
-      2948
-    ]
+    "end": 2948
   },
   {
     "type": "String",
     "value": "\"\\\\P{Lu} should match 0\"",
     "start": 2949,
-    "end": 2973,
-    "range": [
-      2949,
-      2973
-    ]
+    "end": 2973
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2973,
-    "end": 2974,
-    "range": [
-      2973,
-      2974
-    ]
+    "end": 2974
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2974,
-    "end": 2975,
-    "range": [
-      2974,
-      2975
-    ]
+    "end": 2975
   }
 ]

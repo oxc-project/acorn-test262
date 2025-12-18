@@ -3,540 +3,324 @@
     "type": "Identifier",
     "value": "assert",
     "start": 957,
-    "end": 963,
-    "range": [
-      957,
-      963
-    ]
+    "end": 963
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 963,
-    "end": 964,
-    "range": [
-      963,
-      964
-    ]
+    "end": 964
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 964,
-    "end": 970,
-    "range": [
-      964,
-      970
-    ]
+    "end": 970
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 970,
-    "end": 971,
-    "range": [
-      970,
-      971
-    ]
+    "end": 971
   },
   {
     "type": "Identifier",
     "value": "isExtensible",
     "start": 971,
-    "end": 983,
-    "range": [
-      971,
-      983
-    ]
+    "end": 983
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 983,
-    "end": 984,
-    "range": [
-      983,
-      984
-    ]
+    "end": 984
   },
   {
     "type": "Identifier",
     "value": "Array",
     "start": 984,
-    "end": 989,
-    "range": [
-      984,
-      989
-    ]
+    "end": 989
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 989,
-    "end": 990,
-    "range": [
-      989,
-      990
-    ]
+    "end": 990
   },
   {
     "type": "Identifier",
     "value": "fromAsync",
     "start": 990,
-    "end": 999,
-    "range": [
-      990,
-      999
-    ]
+    "end": 999
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 999,
-    "end": 1000,
-    "range": [
-      999,
-      1000
-    ]
+    "end": 1000
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1000,
-    "end": 1001,
-    "range": [
-      1000,
-      1001
-    ]
+    "end": 1001
   },
   {
     "type": "String",
     "value": "\"Array.fromAsync is extensible\"",
     "start": 1002,
-    "end": 1033,
-    "range": [
-      1002,
-      1033
-    ]
+    "end": 1033
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1033,
-    "end": 1034,
-    "range": [
-      1033,
-      1034
-    ]
+    "end": 1034
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1034,
-    "end": 1035,
-    "range": [
-      1034,
-      1035
-    ]
+    "end": 1035
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1037,
-    "end": 1043,
-    "range": [
-      1037,
-      1043
-    ]
+    "end": 1043
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1043,
-    "end": 1044,
-    "range": [
-      1043,
-      1044
-    ]
+    "end": 1044
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1044,
-    "end": 1053,
-    "range": [
-      1044,
-      1053
-    ]
+    "end": 1053
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1053,
-    "end": 1054,
-    "range": [
-      1053,
-      1054
-    ]
+    "end": 1054
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 1057,
-    "end": 1063,
-    "range": [
-      1057,
-      1063
-    ]
+    "end": 1063
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1063,
-    "end": 1064,
-    "range": [
-      1063,
-      1064
-    ]
+    "end": 1064
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 1064,
-    "end": 1078,
-    "range": [
-      1064,
-      1078
-    ]
+    "end": 1078
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1078,
-    "end": 1079,
-    "range": [
-      1078,
-      1079
-    ]
+    "end": 1079
   },
   {
     "type": "Identifier",
     "value": "Array",
     "start": 1079,
-    "end": 1084,
-    "range": [
-      1079,
-      1084
-    ]
+    "end": 1084
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1084,
-    "end": 1085,
-    "range": [
-      1084,
-      1085
-    ]
+    "end": 1085
   },
   {
     "type": "Identifier",
     "value": "fromAsync",
     "start": 1085,
-    "end": 1094,
-    "range": [
-      1085,
-      1094
-    ]
+    "end": 1094
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1094,
-    "end": 1095,
-    "range": [
-      1094,
-      1095
-    ]
+    "end": 1095
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1095,
-    "end": 1096,
-    "range": [
-      1095,
-      1096
-    ]
+    "end": 1096
   },
   {
     "type": "Identifier",
     "value": "Function",
     "start": 1099,
-    "end": 1107,
-    "range": [
-      1099,
-      1107
-    ]
+    "end": 1107
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1107,
-    "end": 1108,
-    "range": [
-      1107,
-      1108
-    ]
+    "end": 1108
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 1108,
-    "end": 1117,
-    "range": [
-      1108,
-      1117
-    ]
+    "end": 1117
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1117,
-    "end": 1118,
-    "range": [
-      1117,
-      1118
-    ]
+    "end": 1118
   },
   {
     "type": "String",
     "value": "\"Prototype of Array.fromAsync is Function.prototype\"",
     "start": 1121,
-    "end": 1173,
-    "range": [
-      1121,
-      1173
-    ]
+    "end": 1173
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1174,
-    "end": 1175,
-    "range": [
-      1174,
-      1175
-    ]
+    "end": 1175
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1175,
-    "end": 1176,
-    "range": [
-      1175,
-      1176
-    ]
+    "end": 1176
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1178,
-    "end": 1184,
-    "range": [
-      1178,
-      1184
-    ]
+    "end": 1184
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1184,
-    "end": 1185,
-    "range": [
-      1184,
-      1185
-    ]
+    "end": 1185
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1185,
-    "end": 1194,
-    "range": [
-      1185,
-      1194
-    ]
+    "end": 1194
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1194,
-    "end": 1195,
-    "range": [
-      1194,
-      1195
-    ]
+    "end": 1195
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 1198,
-    "end": 1204,
-    "range": [
-      1198,
-      1204
-    ]
+    "end": 1204
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1204,
-    "end": 1205,
-    "range": [
-      1204,
-      1205
-    ]
+    "end": 1205
   },
   {
     "type": "Identifier",
     "value": "getOwnPropertyDescriptor",
     "start": 1205,
-    "end": 1229,
-    "range": [
-      1205,
-      1229
-    ]
+    "end": 1229
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1229,
-    "end": 1230,
-    "range": [
-      1229,
-      1230
-    ]
+    "end": 1230
   },
   {
     "type": "Identifier",
     "value": "Array",
     "start": 1230,
-    "end": 1235,
-    "range": [
-      1230,
-      1235
-    ]
+    "end": 1235
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1235,
-    "end": 1236,
-    "range": [
-      1235,
-      1236
-    ]
+    "end": 1236
   },
   {
     "type": "Identifier",
     "value": "fromAsync",
     "start": 1236,
-    "end": 1245,
-    "range": [
-      1236,
-      1245
-    ]
+    "end": 1245
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1245,
-    "end": 1246,
-    "range": [
-      1245,
-      1246
-    ]
+    "end": 1246
   },
   {
     "type": "String",
     "value": "\"prototype\"",
     "start": 1247,
-    "end": 1258,
-    "range": [
-      1247,
-      1258
-    ]
+    "end": 1258
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1258,
-    "end": 1259,
-    "range": [
-      1258,
-      1259
-    ]
+    "end": 1259
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1259,
-    "end": 1260,
-    "range": [
-      1259,
-      1260
-    ]
+    "end": 1260
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 1263,
-    "end": 1272,
-    "range": [
-      1263,
-      1272
-    ]
+    "end": 1272
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1272,
-    "end": 1273,
-    "range": [
-      1272,
-      1273
-    ]
+    "end": 1273
   },
   {
     "type": "String",
     "value": "\"Array.fromAsync has no own prototype property\"",
     "start": 1276,
-    "end": 1323,
-    "range": [
-      1276,
-      1323
-    ]
+    "end": 1323
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1324,
-    "end": 1325,
-    "range": [
-      1324,
-      1325
-    ]
+    "end": 1325
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1325,
-    "end": 1326,
-    "range": [
-      1325,
-      1326
-    ]
+    "end": 1326
   }
 ]

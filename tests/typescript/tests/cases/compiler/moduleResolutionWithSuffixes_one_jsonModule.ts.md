@@ -113,141 +113,85 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 7,
-    "end": 10,
-    "range": [
-      7,
-      10
-    ]
+    "end": 10
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 11,
-    "end": 15,
-    "range": [
-      11,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "String",
     "value": "\"./foo.json\"",
     "start": 16,
-    "end": 28,
-    "range": [
-      16,
-      28
-    ]
+    "end": 28
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 28,
-    "end": 29,
-    "range": [
-      28,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Identifier",
     "value": "console",
     "start": 30,
-    "end": 37,
-    "range": [
-      30,
-      37
-    ]
+    "end": 37
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 37,
-    "end": 38,
-    "range": [
-      37,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Identifier",
     "value": "log",
     "start": 38,
-    "end": 41,
-    "range": [
-      38,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 41,
-    "end": 42,
-    "range": [
-      41,
-      42
-    ]
+    "end": 42
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 42,
-    "end": 45,
-    "range": [
-      42,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 45,
-    "end": 46,
-    "range": [
-      45,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "Identifier",
     "value": "ios",
     "start": 46,
-    "end": 49,
-    "range": [
-      46,
-      49
-    ]
+    "end": 49
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 49,
-    "end": 50,
-    "range": [
-      49,
-      50
-    ]
+    "end": 50
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 50,
-    "end": 51,
-    "range": [
-      50,
-      51
-    ]
+    "end": 51
   }
 ]
 ```

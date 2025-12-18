@@ -70,111 +70,67 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Identifier",
     "value": "json",
     "start": 7,
-    "end": 11,
-    "range": [
-      7,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 12,
-    "end": 16,
-    "range": [
-      12,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "String",
     "value": "\"./package.json\"",
     "start": 17,
-    "end": 33,
-    "range": [
-      17,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "Keyword",
     "value": "with",
     "start": 34,
-    "end": 38,
-    "range": [
-      34,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 41,
-    "end": 45,
-    "range": [
-      41,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 45,
-    "end": 46,
-    "range": [
-      45,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "String",
     "value": "\"json\"",
     "start": 47,
-    "end": 53,
-    "range": [
-      47,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 54,
-    "end": 55,
-    "range": [
-      54,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 55,
-    "end": 56,
-    "range": [
-      55,
-      56
-    ]
+    "end": 56
   }
 ]
 ```
@@ -346,291 +302,175 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Identifier",
     "value": "json",
     "start": 7,
-    "end": 11,
-    "range": [
-      7,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 12,
-    "end": 16,
-    "range": [
-      12,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "String",
     "value": "\"./package.json\"",
     "start": 17,
-    "end": 33,
-    "range": [
-      17,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "Keyword",
     "value": "with",
     "start": 34,
-    "end": 38,
-    "range": [
-      34,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 41,
-    "end": 45,
-    "range": [
-      41,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 45,
-    "end": 46,
-    "range": [
-      45,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "String",
     "value": "\"json\"",
     "start": 47,
-    "end": 53,
-    "range": [
-      47,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 54,
-    "end": 55,
-    "range": [
-      54,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 55,
-    "end": 56,
-    "range": [
-      55,
-      56
-    ]
+    "end": 56
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 116,
-    "end": 121,
-    "range": [
-      116,
-      121
-    ]
+    "end": 121
   },
   {
     "type": "Identifier",
     "value": "json2",
     "start": 122,
-    "end": 127,
-    "range": [
-      122,
-      127
-    ]
+    "end": 127
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 128,
-    "end": 129,
-    "range": [
-      128,
-      129
-    ]
+    "end": 129
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 130,
-    "end": 136,
-    "range": [
-      130,
-      136
-    ]
+    "end": 136
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 136,
-    "end": 137,
-    "range": [
-      136,
-      137
-    ]
+    "end": 137
   },
   {
     "type": "String",
     "value": "\"./package.json\"",
     "start": 137,
-    "end": 153,
-    "range": [
-      137,
-      153
-    ]
+    "end": 153
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 153,
-    "end": 154,
-    "range": [
-      153,
-      154
-    ]
+    "end": 154
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 155,
-    "end": 156,
-    "range": [
-      155,
-      156
-    ]
+    "end": 156
   },
   {
     "type": "Identifier",
     "value": "with",
     "start": 157,
-    "end": 161,
-    "range": [
-      157,
-      161
-    ]
+    "end": 161
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 161,
-    "end": 162,
-    "range": [
-      161,
-      162
-    ]
+    "end": 162
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 163,
-    "end": 164,
-    "range": [
-      163,
-      164
-    ]
+    "end": 164
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 165,
-    "end": 169,
-    "range": [
-      165,
-      169
-    ]
+    "end": 169
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 169,
-    "end": 170,
-    "range": [
-      169,
-      170
-    ]
+    "end": 170
   },
   {
     "type": "String",
     "value": "\"json\"",
     "start": 171,
-    "end": 177,
-    "range": [
-      171,
-      177
-    ]
+    "end": 177
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 178,
-    "end": 179,
-    "range": [
-      178,
-      179
-    ]
+    "end": 179
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 180,
-    "end": 181,
-    "range": [
-      180,
-      181
-    ]
+    "end": 181
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 181,
-    "end": 182,
-    "range": [
-      181,
-      182
-    ]
+    "end": 182
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 182,
-    "end": 183,
-    "range": [
-      182,
-      183
-    ]
+    "end": 183
   }
 ]
 ```

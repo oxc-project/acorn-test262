@@ -48,51 +48,31 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "var",
     "start": 23,
-    "end": 26,
-    "range": [
-      23,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Identifier",
     "value": "y",
     "start": 27,
-    "end": 28,
-    "range": [
-      27,
-      28
-    ]
+    "end": 28
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 29,
-    "end": 30,
-    "range": [
-      29,
-      30
-    ]
+    "end": 30
   },
   {
     "type": "Numeric",
     "value": "10",
     "start": 31,
-    "end": 33,
-    "range": [
-      31,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 33,
-    "end": 34,
-    "range": [
-      33,
-      34
-    ]
+    "end": 34
   }
 ]
 ```

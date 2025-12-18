@@ -94,111 +94,67 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "class",
     "start": 0,
-    "end": 5,
-    "range": [
-      0,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Identifier",
     "value": "WebControls",
     "start": 6,
-    "end": 17,
-    "range": [
-      6,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 18,
-    "end": 19,
-    "range": [
-      18,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "Identifier",
     "value": "createControl",
     "start": 64,
-    "end": 77,
-    "range": [
-      64,
-      77
-    ]
+    "end": 77
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 77,
-    "end": 78,
-    "range": [
-      77,
-      78
-    ]
+    "end": 78
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 78,
-    "end": 79,
-    "range": [
-      78,
-      79
-    ]
+    "end": 79
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 79,
-    "end": 80,
-    "range": [
-      79,
-      80
-    ]
+    "end": 80
   },
   {
     "type": "Identifier",
     "value": "any",
     "start": 81,
-    "end": 84,
-    "range": [
-      81,
-      84
-    ]
+    "end": 84
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 85,
-    "end": 86,
-    "range": [
-      85,
-      86
-    ]
+    "end": 86
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 91,
-    "end": 92,
-    "range": [
-      91,
-      92
-    ]
+    "end": 92
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 93,
-    "end": 94,
-    "range": [
-      93,
-      94
-    ]
+    "end": 94
   }
 ]
 ```

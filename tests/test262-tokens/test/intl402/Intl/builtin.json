@@ -3,430 +3,258 @@
     "type": "Identifier",
     "value": "assert",
     "start": 357,
-    "end": 363,
-    "range": [
-      357,
-      363
-    ]
+    "end": 363
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 363,
-    "end": 364,
-    "range": [
-      363,
-      364
-    ]
+    "end": 364
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 364,
-    "end": 370,
-    "range": [
-      364,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 370,
-    "end": 371,
-    "range": [
-      370,
-      371
-    ]
+    "end": 371
   },
   {
     "type": "Identifier",
     "value": "isExtensible",
     "start": 371,
-    "end": 383,
-    "range": [
-      371,
-      383
-    ]
+    "end": 383
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 383,
-    "end": 384,
-    "range": [
-      383,
-      384
-    ]
+    "end": 384
   },
   {
     "type": "Identifier",
     "value": "Intl",
     "start": 384,
-    "end": 388,
-    "range": [
-      384,
-      388
-    ]
+    "end": 388
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 388,
-    "end": 389,
-    "range": [
-      388,
-      389
-    ]
+    "end": 389
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 389,
-    "end": 390,
-    "range": [
-      389,
-      390
-    ]
+    "end": 390
   },
   {
     "type": "String",
     "value": "\"Built-in objects must be extensible.\"",
     "start": 391,
-    "end": 429,
-    "range": [
-      391,
-      429
-    ]
+    "end": 429
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 429,
-    "end": 430,
-    "range": [
-      429,
-      430
-    ]
+    "end": 430
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 430,
-    "end": 431,
-    "range": [
-      430,
-      431
-    ]
+    "end": 431
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 433,
-    "end": 439,
-    "range": [
-      433,
-      439
-    ]
+    "end": 439
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 439,
-    "end": 440,
-    "range": [
-      439,
-      440
-    ]
+    "end": 440
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 440,
-    "end": 449,
-    "range": [
-      440,
-      449
-    ]
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 449,
-    "end": 450,
-    "range": [
-      449,
-      450
-    ]
+    "end": 450
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 450,
-    "end": 456,
-    "range": [
-      450,
-      456
-    ]
+    "end": 456
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 456,
-    "end": 457,
-    "range": [
-      456,
-      457
-    ]
+    "end": 457
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 457,
-    "end": 471,
-    "range": [
-      457,
-      471
-    ]
+    "end": 471
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 471,
-    "end": 472,
-    "range": [
-      471,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "Identifier",
     "value": "Intl",
     "start": 472,
-    "end": 476,
-    "range": [
-      472,
-      476
-    ]
+    "end": 476
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 476,
-    "end": 477,
-    "range": [
-      476,
-      477
-    ]
+    "end": 477
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 477,
-    "end": 478,
-    "range": [
-      477,
-      478
-    ]
+    "end": 478
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 479,
-    "end": 485,
-    "range": [
-      479,
-      485
-    ]
+    "end": 485
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 485,
-    "end": 486,
-    "range": [
-      485,
-      486
-    ]
+    "end": 486
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 486,
-    "end": 495,
-    "range": [
-      486,
-      495
-    ]
+    "end": 495
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 495,
-    "end": 496,
-    "range": [
-      495,
-      496
-    ]
+    "end": 496
   },
   {
     "type": "String",
     "value": "\"The [[Prototype]] of Intl is %ObjectPrototype%.\"",
     "start": 514,
-    "end": 563,
-    "range": [
-      514,
-      563
-    ]
+    "end": 563
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 563,
-    "end": 564,
-    "range": [
-      563,
-      564
-    ]
+    "end": 564
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 564,
-    "end": 565,
-    "range": [
-      564,
-      565
-    ]
+    "end": 565
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 567,
-    "end": 573,
-    "range": [
-      567,
-      573
-    ]
+    "end": 573
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 573,
-    "end": 574,
-    "range": [
-      573,
-      574
-    ]
+    "end": 574
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 574,
-    "end": 583,
-    "range": [
-      574,
-      583
-    ]
+    "end": 583
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 583,
-    "end": 584,
-    "range": [
-      583,
-      584
-    ]
+    "end": 584
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 584,
-    "end": 588,
-    "range": [
-      584,
-      588
-    ]
+    "end": 588
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 588,
-    "end": 589,
-    "range": [
-      588,
-      589
-    ]
+    "end": 589
   },
   {
     "type": "Identifier",
     "value": "Intl",
     "start": 589,
-    "end": 593,
-    "range": [
-      589,
-      593
-    ]
+    "end": 593
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 593,
-    "end": 594,
-    "range": [
-      593,
-      594
-    ]
+    "end": 594
   },
   {
     "type": "Identifier",
     "value": "Intl",
     "start": 595,
-    "end": 599,
-    "range": [
-      595,
-      599
-    ]
+    "end": 599
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 599,
-    "end": 600,
-    "range": [
-      599,
-      600
-    ]
+    "end": 600
   },
   {
     "type": "String",
     "value": "\"%Intl% is accessible as a property of the global object.\"",
     "start": 618,
-    "end": 676,
-    "range": [
-      618,
-      676
-    ]
+    "end": 676
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 676,
-    "end": 677,
-    "range": [
-      676,
-      677
-    ]
+    "end": 677
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 677,
-    "end": 678,
-    "range": [
-      677,
-      678
-    ]
+    "end": 678
   }
 ]

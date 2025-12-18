@@ -104,131 +104,79 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "namespace",
     "start": 0,
-    "end": 9,
-    "range": [
-      0,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Identifier",
     "value": "m1",
     "start": 10,
-    "end": 12,
-    "range": [
-      10,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 13,
-    "end": 14,
-    "range": [
-      13,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Keyword",
     "value": "enum",
     "start": 19,
-    "end": 23,
-    "range": [
-      19,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Identifier",
     "value": "e",
     "start": 24,
-    "end": 25,
-    "range": [
-      24,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 26,
-    "end": 27,
-    "range": [
-      26,
-      27
-    ]
+    "end": 27
   },
   {
     "type": "Identifier",
     "value": "m1",
     "start": 36,
-    "end": 38,
-    "range": [
-      36,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 38,
-    "end": 39,
-    "range": [
-      38,
-      39
-    ]
+    "end": 39
   },
   {
     "type": "Identifier",
     "value": "m2",
     "start": 49,
-    "end": 51,
-    "range": [
-      49,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 52,
-    "end": 53,
-    "range": [
-      52,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Identifier",
     "value": "m1",
     "start": 54,
-    "end": 56,
-    "range": [
-      54,
-      56
-    ]
+    "end": 56
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 61,
-    "end": 62,
-    "range": [
-      61,
-      62
-    ]
+    "end": 62
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 63,
-    "end": 64,
-    "range": [
-      63,
-      64
-    ]
+    "end": 64
   }
 ]
 ```

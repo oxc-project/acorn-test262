@@ -3,380 +3,226 @@
     "type": "Keyword",
     "value": "const",
     "start": 322,
-    "end": 327,
-    "range": [
-      322,
-      327
-    ]
+    "end": 327
   },
   {
     "type": "Identifier",
     "value": "date",
     "start": 328,
-    "end": 332,
-    "range": [
-      328,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 333,
-    "end": 334,
-    "range": [
-      333,
-      334
-    ]
+    "end": 334
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 335,
-    "end": 338,
-    "range": [
-      335,
-      338
-    ]
+    "end": 338
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 339,
-    "end": 347,
-    "range": [
-      339,
-      347
-    ]
+    "end": 347
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 347,
-    "end": 348,
-    "range": [
-      347,
-      348
-    ]
+    "end": 348
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 348,
-    "end": 361,
-    "range": [
-      348,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 361,
-    "end": 362,
-    "range": [
-      361,
-      362
-    ]
+    "end": 362
   },
   {
     "type": "Numeric",
     "value": "3661_987_654_321n",
     "start": 362,
-    "end": 379,
-    "range": [
-      362,
-      379
-    ]
+    "end": 379
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 379,
-    "end": 380,
-    "range": [
-      379,
-      380
-    ]
+    "end": 380
   },
   {
     "type": "String",
     "value": "\"UTC\"",
     "start": 381,
-    "end": 386,
-    "range": [
-      381,
-      386
-    ]
+    "end": 386
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 386,
-    "end": 387,
-    "range": [
-      386,
-      387
-    ]
+    "end": 387
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 387,
-    "end": 388,
-    "range": [
-      387,
-      388
-    ]
+    "end": 388
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 389,
-    "end": 394,
-    "range": [
-      389,
-      394
-    ]
+    "end": 394
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 395,
-    "end": 401,
-    "range": [
-      395,
-      401
-    ]
+    "end": 401
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 402,
-    "end": 403,
-    "range": [
-      402,
-      403
-    ]
+    "end": 403
   },
   {
     "type": "Identifier",
     "value": "date",
     "start": 404,
-    "end": 408,
-    "range": [
-      404,
-      408
-    ]
+    "end": 408
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 408,
-    "end": 409,
-    "range": [
-      408,
-      409
-    ]
+    "end": 409
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 409,
-    "end": 417,
-    "range": [
-      409,
-      417
-    ]
+    "end": 417
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 417,
-    "end": 418,
-    "range": [
-      417,
-      418
-    ]
+    "end": 418
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 418,
-    "end": 419,
-    "range": [
-      418,
-      419
-    ]
+    "end": 419
   },
   {
     "type": "Identifier",
     "value": "calendarName",
     "start": 420,
-    "end": 432,
-    "range": [
-      420,
-      432
-    ]
+    "end": 432
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 432,
-    "end": 433,
-    "range": [
-      432,
-      433
-    ]
+    "end": 433
   },
   {
     "type": "String",
     "value": "\"critical\"",
     "start": 434,
-    "end": 444,
-    "range": [
-      434,
-      444
-    ]
+    "end": 444
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 445,
-    "end": 446,
-    "range": [
-      445,
-      446
-    ]
+    "end": 446
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 446,
-    "end": 447,
-    "range": [
-      446,
-      447
-    ]
+    "end": 447
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 447,
-    "end": 448,
-    "range": [
-      447,
-      448
-    ]
+    "end": 448
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 449,
-    "end": 455,
-    "range": [
-      449,
-      455
-    ]
+    "end": 455
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 455,
-    "end": 456,
-    "range": [
-      455,
-      456
-    ]
+    "end": 456
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 456,
-    "end": 465,
-    "range": [
-      456,
-      465
-    ]
+    "end": 465
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 465,
-    "end": 466,
-    "range": [
-      465,
-      466
-    ]
+    "end": 466
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 466,
-    "end": 472,
-    "range": [
-      466,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 472,
-    "end": 473,
-    "range": [
-      472,
-      473
-    ]
+    "end": 473
   },
   {
     "type": "String",
     "value": "\"1970-01-01T01:01:01.987654321+00:00[UTC][!u-ca=iso8601]\"",
     "start": 474,
-    "end": 531,
-    "range": [
-      474,
-      531
-    ]
+    "end": 531
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 531,
-    "end": 532,
-    "range": [
-      531,
-      532
-    ]
+    "end": 532
   },
   {
     "type": "Template",
-    "value": "`built-in ISO calendar for calendarName = critical`",
-    "start": 533,
-    "end": 584,
-    "range": [
-      533,
-      584
-    ]
+    "value": "`built-in ISO calendar for calendarName = critical`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 584,
-    "end": 585,
-    "range": [
-      584,
-      585
-    ]
+    "end": 585
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 585,
-    "end": 586,
-    "range": [
-      585,
-      586
-    ]
+    "end": 586
   }
 ]

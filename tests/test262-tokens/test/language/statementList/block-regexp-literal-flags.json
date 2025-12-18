@@ -3,21 +3,13 @@
     "type": "Punctuator",
     "value": "{",
     "start": 950,
-    "end": 951,
-    "range": [
-      950,
-      951
-    ]
+    "end": 951
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 951,
-    "end": 952,
-    "range": [
-      951,
-      952
-    ]
+    "end": 952
   },
   {
     "type": "RegularExpression",
@@ -27,20 +19,12 @@
       "pattern": "1"
     },
     "start": 952,
-    "end": 956,
-    "range": [
-      952,
-      956
-    ]
+    "end": 956
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 956,
-    "end": 957,
-    "range": [
-      956,
-      957
-    ]
+    "end": 957
   }
 ]

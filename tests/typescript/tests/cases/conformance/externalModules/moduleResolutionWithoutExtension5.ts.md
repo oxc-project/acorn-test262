@@ -93,121 +93,73 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 62,
-    "end": 68,
-    "range": [
-      62,
-      68
-    ]
+    "end": 68
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 68,
-    "end": 69,
-    "range": [
-      68,
-      69
-    ]
+    "end": 69
   },
   {
     "type": "String",
     "value": "\"./foo\"",
     "start": 69,
-    "end": 76,
-    "range": [
-      69,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 76,
-    "end": 77,
-    "range": [
-      76,
-      77
-    ]
+    "end": 77
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 77,
-    "end": 78,
-    "range": [
-      77,
-      78
-    ]
+    "end": 78
   },
   {
     "type": "Identifier",
     "value": "then",
     "start": 78,
-    "end": 82,
-    "range": [
-      78,
-      82
-    ]
+    "end": 82
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 82,
-    "end": 83,
-    "range": [
-      82,
-      83
-    ]
+    "end": 83
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 83,
-    "end": 84,
-    "range": [
-      83,
-      84
-    ]
+    "end": 84
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 85,
-    "end": 87,
-    "range": [
-      85,
-      87
-    ]
+    "end": 87
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 88,
-    "end": 89,
-    "range": [
-      88,
-      89
-    ]
+    "end": 89
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 89,
-    "end": 90,
-    "range": [
-      89,
-      90
-    ]
+    "end": 90
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 90,
-    "end": 91,
-    "range": [
-      90,
-      91
-    ]
+    "end": 91
   }
 ]
 ```

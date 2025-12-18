@@ -50,61 +50,37 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Keyword",
     "value": "default",
     "start": 7,
-    "end": 14,
-    "range": [
-      7,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 15,
-    "end": 20,
-    "range": [
-      15,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 21,
-    "end": 27,
-    "range": [
-      21,
-      27
-    ]
+    "end": 27
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 28,
-    "end": 29,
-    "range": [
-      28,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 29,
-    "end": 30,
-    "range": [
-      29,
-      30
-    ]
+    "end": 30
   }
 ]
 ```

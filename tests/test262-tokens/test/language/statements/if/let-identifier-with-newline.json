@@ -3,90 +3,54 @@
     "type": "Keyword",
     "value": "if",
     "start": 463,
-    "end": 465,
-    "range": [
-      463,
-      465
-    ]
+    "end": 465
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 466,
-    "end": 467,
-    "range": [
-      466,
-      467
-    ]
+    "end": 467
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 467,
-    "end": 472,
-    "range": [
-      467,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 472,
-    "end": 473,
-    "range": [
-      472,
-      473
-    ]
+    "end": 473
   },
   {
     "type": "Keyword",
     "value": "let",
     "start": 474,
-    "end": 477,
-    "range": [
-      474,
-      477
-    ]
+    "end": 477
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 485,
-    "end": 486,
-    "range": [
-      485,
-      486
-    ]
+    "end": 486
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 487,
-    "end": 488,
-    "range": [
-      487,
-      488
-    ]
+    "end": 488
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 489,
-    "end": 490,
-    "range": [
-      489,
-      490
-    ]
+    "end": 490
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 490,
-    "end": 491,
-    "range": [
-      490,
-      491
-    ]
+    "end": 491
   }
 ]

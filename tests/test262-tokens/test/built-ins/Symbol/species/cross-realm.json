@@ -3,260 +3,156 @@
     "type": "Keyword",
     "value": "var",
     "start": 348,
-    "end": 351,
-    "range": [
-      348,
-      351
-    ]
+    "end": 351
   },
   {
     "type": "Identifier",
     "value": "OSymbol",
     "start": 352,
-    "end": 359,
-    "range": [
-      352,
-      359
-    ]
+    "end": 359
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 360,
-    "end": 361,
-    "range": [
-      360,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 362,
-    "end": 366,
-    "range": [
-      362,
-      366
-    ]
+    "end": 366
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 366,
-    "end": 367,
-    "range": [
-      366,
-      367
-    ]
+    "end": 367
   },
   {
     "type": "Identifier",
     "value": "createRealm",
     "start": 367,
-    "end": 378,
-    "range": [
-      367,
-      378
-    ]
+    "end": 378
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 378,
-    "end": 379,
-    "range": [
-      378,
-      379
-    ]
+    "end": 379
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 379,
-    "end": 380,
-    "range": [
-      379,
-      380
-    ]
+    "end": 380
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 380,
-    "end": 381,
-    "range": [
-      380,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "Identifier",
     "value": "global",
     "start": 381,
-    "end": 387,
-    "range": [
-      381,
-      387
-    ]
+    "end": 387
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 387,
-    "end": 388,
-    "range": [
-      387,
-      388
-    ]
+    "end": 388
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 388,
-    "end": 394,
-    "range": [
-      388,
-      394
-    ]
+    "end": 394
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 394,
-    "end": 395,
-    "range": [
-      394,
-      395
-    ]
+    "end": 395
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 397,
-    "end": 403,
-    "range": [
-      397,
-      403
-    ]
+    "end": 403
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 403,
-    "end": 404,
-    "range": [
-      403,
-      404
-    ]
+    "end": 404
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 404,
-    "end": 413,
-    "range": [
-      404,
-      413
-    ]
+    "end": 413
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 413,
-    "end": 414,
-    "range": [
-      413,
-      414
-    ]
+    "end": 414
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 414,
-    "end": 420,
-    "range": [
-      414,
-      420
-    ]
+    "end": 420
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 420,
-    "end": 421,
-    "range": [
-      420,
-      421
-    ]
+    "end": 421
   },
   {
     "type": "Identifier",
     "value": "species",
     "start": 421,
-    "end": 428,
-    "range": [
-      421,
-      428
-    ]
+    "end": 428
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 428,
-    "end": 429,
-    "range": [
-      428,
-      429
-    ]
+    "end": 429
   },
   {
     "type": "Identifier",
     "value": "OSymbol",
     "start": 430,
-    "end": 437,
-    "range": [
-      430,
-      437
-    ]
+    "end": 437
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 437,
-    "end": 438,
-    "range": [
-      437,
-      438
-    ]
+    "end": 438
   },
   {
     "type": "Identifier",
     "value": "species",
     "start": 438,
-    "end": 445,
-    "range": [
-      438,
-      445
-    ]
+    "end": 445
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 445,
-    "end": 446,
-    "range": [
-      445,
-      446
-    ]
+    "end": 446
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 446,
-    "end": 447,
-    "range": [
-      446,
-      447
-    ]
+    "end": 447
   }
 ]

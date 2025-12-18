@@ -57,61 +57,37 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 177,
-    "end": 183,
-    "range": [
-      177,
-      183
-    ]
+    "end": 183
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 184,
-    "end": 189,
-    "range": [
-      184,
-      189
-    ]
+    "end": 189
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 190,
-    "end": 191,
-    "range": [
-      190,
-      191
-    ]
+    "end": 191
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 192,
-    "end": 193,
-    "range": [
-      192,
-      193
-    ]
+    "end": 193
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 194,
-    "end": 195,
-    "range": [
-      194,
-      195
-    ]
+    "end": 195
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 195,
-    "end": 196,
-    "range": [
-      195,
-      196
-    ]
+    "end": 196
   }
 ]
 ```
@@ -246,201 +222,121 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 7,
-    "end": 8,
-    "range": [
-      7,
-      8
-    ]
+    "end": 8
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 9,
-    "end": 10,
-    "range": [
-      9,
-      10
-    ]
+    "end": 10
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 11,
-    "end": 12,
-    "range": [
-      11,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 13,
-    "end": 17,
-    "range": [
-      13,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "String",
     "value": "\"./shared/abc\"",
     "start": 18,
-    "end": 32,
-    "range": [
-      18,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 32,
-    "end": 33,
-    "range": [
-      32,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 34,
-    "end": 40,
-    "range": [
-      34,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 41,
-    "end": 42,
-    "range": [
-      41,
-      42
-    ]
+    "end": 42
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 43,
-    "end": 44,
-    "range": [
-      43,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 45,
-    "end": 47,
-    "range": [
-      45,
-      47
-    ]
+    "end": 47
   },
   {
     "type": "Identifier",
     "value": "x2",
     "start": 48,
-    "end": 50,
-    "range": [
-      48,
-      50
-    ]
+    "end": 50
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 51,
-    "end": 52,
-    "range": [
-      51,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 53,
-    "end": 57,
-    "range": [
-      53,
-      57
-    ]
+    "end": 57
   },
   {
     "type": "String",
     "value": "\"./shared2/abc\"",
     "start": 58,
-    "end": 73,
-    "range": [
-      58,
-      73
-    ]
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 73,
-    "end": 74,
-    "range": [
-      73,
-      74
-    ]
+    "end": 74
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 75,
-    "end": 76,
-    "range": [
-      75,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 77,
-    "end": 78,
-    "range": [
-      77,
-      78
-    ]
+    "end": 78
   },
   {
     "type": "Identifier",
     "value": "x2",
     "start": 79,
-    "end": 81,
-    "range": [
-      79,
-      81
-    ]
+    "end": 81
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 81,
-    "end": 82,
-    "range": [
-      81,
-      82
-    ]
+    "end": 82
   }
 ]
 ```

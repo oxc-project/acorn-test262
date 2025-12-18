@@ -3,90 +3,54 @@
     "type": "Keyword",
     "value": "var",
     "start": 338,
-    "end": 341,
-    "range": [
-      338,
-      341
-    ]
+    "end": 341
   },
   {
     "type": "Identifier",
     "value": "_13_0_4_17_fun",
     "start": 342,
-    "end": 356,
-    "range": [
-      342,
-      356
-    ]
+    "end": 356
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 357,
-    "end": 358,
-    "range": [
-      357,
-      358
-    ]
+    "end": 358
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 359,
-    "end": 362,
-    "range": [
-      359,
-      362
-    ]
+    "end": 362
   },
   {
     "type": "Identifier",
     "value": "Function",
     "start": 363,
-    "end": 371,
-    "range": [
-      363,
-      371
-    ]
+    "end": 371
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 371,
-    "end": 372,
-    "range": [
-      371,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "String",
     "value": "'eval = 42;'",
     "start": 372,
-    "end": 384,
-    "range": [
-      372,
-      384
-    ]
+    "end": 384
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 384,
-    "end": 385,
-    "range": [
-      384,
-      385
-    ]
+    "end": 385
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 385,
-    "end": 386,
-    "range": [
-      385,
-      386
-    ]
+    "end": 386
   }
 ]

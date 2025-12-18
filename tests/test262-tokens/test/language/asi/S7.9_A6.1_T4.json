@@ -3,90 +3,54 @@
     "type": "Keyword",
     "value": "for",
     "start": 283,
-    "end": 286,
-    "range": [
-      283,
-      286
-    ]
+    "end": 286
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 286,
-    "end": 287,
-    "range": [
-      286,
-      287
-    ]
+    "end": 287
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 292,
-    "end": 293,
-    "range": [
-      292,
-      293
-    ]
+    "end": 293
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 298,
-    "end": 299,
-    "range": [
-      298,
-      299
-    ]
+    "end": 299
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 300,
-    "end": 301,
-    "range": [
-      300,
-      301
-    ]
+    "end": 301
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 302,
-    "end": 303,
-    "range": [
-      302,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "Keyword",
     "value": "break",
     "start": 306,
-    "end": 311,
-    "range": [
-      306,
-      311
-    ]
+    "end": 311
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 311,
-    "end": 312,
-    "range": [
-      311,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 313,
-    "end": 314,
-    "range": [
-      313,
-      314
-    ]
+    "end": 314
   }
 ]

@@ -3,21 +3,13 @@
     "type": "Identifier",
     "value": "assert",
     "start": 634,
-    "end": 640,
-    "range": [
-      634,
-      640
-    ]
+    "end": 640
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 640,
-    "end": 641,
-    "range": [
-      640,
-      641
-    ]
+    "end": 641
   },
   {
     "type": "RegularExpression",
@@ -27,80 +19,48 @@
       "pattern": "^[\\ud834\\udf06]$"
     },
     "start": 641,
-    "end": 660,
-    "range": [
-      641,
-      660
-    ]
+    "end": 660
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 660,
-    "end": 661,
-    "range": [
-      660,
-      661
-    ]
+    "end": 661
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 661,
-    "end": 665,
-    "range": [
-      661,
-      665
-    ]
+    "end": 665
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 665,
-    "end": 666,
-    "range": [
-      665,
-      666
-    ]
+    "end": 666
   },
   {
     "type": "String",
     "value": "'\\ud834\\udf06'",
     "start": 666,
-    "end": 680,
-    "range": [
-      666,
-      680
-    ]
+    "end": 680
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 680,
-    "end": 681,
-    "range": [
-      680,
-      681
-    ]
+    "end": 681
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 681,
-    "end": 682,
-    "range": [
-      681,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 682,
-    "end": 683,
-    "range": [
-      682,
-      683
-    ]
+    "end": 683
   }
 ]

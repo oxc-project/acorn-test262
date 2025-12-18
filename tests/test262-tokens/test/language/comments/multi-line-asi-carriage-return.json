@@ -3,20 +3,12 @@
     "type": "String",
     "value": "''",
     "start": 532,
-    "end": 534,
-    "range": [
-      532,
-      534
-    ]
+    "end": 534
   },
   {
     "type": "String",
     "value": "''",
     "start": 539,
-    "end": 541,
-    "range": [
-      539,
-      541
-    ]
+    "end": 541
   }
 ]

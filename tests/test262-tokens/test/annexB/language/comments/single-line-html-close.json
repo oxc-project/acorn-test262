@@ -3,390 +3,234 @@
     "type": "Keyword",
     "value": "var",
     "start": 644,
-    "end": 647,
-    "range": [
-      644,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Identifier",
     "value": "counter",
     "start": 648,
-    "end": 655,
-    "range": [
-      648,
-      655
-    ]
+    "end": 655
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 656,
-    "end": 657,
-    "range": [
-      656,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 658,
-    "end": 659,
-    "range": [
-      658,
-      659
-    ]
+    "end": 659
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 659,
-    "end": 660,
-    "range": [
-      659,
-      660
-    ]
+    "end": 660
   },
   {
     "type": "Identifier",
     "value": "counter",
     "start": 665,
-    "end": 672,
-    "range": [
-      665,
-      672
-    ]
+    "end": 672
   },
   {
     "type": "Punctuator",
     "value": "+=",
     "start": 673,
-    "end": 675,
-    "range": [
-      673,
-      675
-    ]
+    "end": 675
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 676,
-    "end": 677,
-    "range": [
-      676,
-      677
-    ]
+    "end": 677
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 677,
-    "end": 678,
-    "range": [
-      677,
-      678
-    ]
+    "end": 678
   },
   {
     "type": "Identifier",
     "value": "counter",
     "start": 723,
-    "end": 730,
-    "range": [
-      723,
-      730
-    ]
+    "end": 730
   },
   {
     "type": "Punctuator",
     "value": "+=",
     "start": 731,
-    "end": 733,
-    "range": [
-      731,
-      733
-    ]
+    "end": 733
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 734,
-    "end": 735,
-    "range": [
-      734,
-      735
-    ]
+    "end": 735
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 735,
-    "end": 736,
-    "range": [
-      735,
-      736
-    ]
+    "end": 736
   },
   {
     "type": "Identifier",
     "value": "counter",
     "start": 784,
-    "end": 791,
-    "range": [
-      784,
-      791
-    ]
+    "end": 791
   },
   {
     "type": "Punctuator",
     "value": "+=",
     "start": 792,
-    "end": 794,
-    "range": [
-      792,
-      794
-    ]
+    "end": 794
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 795,
-    "end": 796,
-    "range": [
-      795,
-      796
-    ]
+    "end": 796
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 796,
-    "end": 797,
-    "range": [
-      796,
-      797
-    ]
+    "end": 797
   },
   {
     "type": "Identifier",
     "value": "counter",
     "start": 891,
-    "end": 898,
-    "range": [
-      891,
-      898
-    ]
+    "end": 898
   },
   {
     "type": "Punctuator",
     "value": "+=",
     "start": 899,
-    "end": 901,
-    "range": [
-      899,
-      901
-    ]
+    "end": 901
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 902,
-    "end": 903,
-    "range": [
-      902,
-      903
-    ]
+    "end": 903
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 903,
-    "end": 904,
-    "range": [
-      903,
-      904
-    ]
+    "end": 904
   },
   {
     "type": "Identifier",
     "value": "counter",
     "start": 1010,
-    "end": 1017,
-    "range": [
-      1010,
-      1017
-    ]
+    "end": 1017
   },
   {
     "type": "Punctuator",
     "value": "+=",
     "start": 1018,
-    "end": 1020,
-    "range": [
-      1018,
-      1020
-    ]
+    "end": 1020
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 1021,
-    "end": 1022,
-    "range": [
-      1021,
-      1022
-    ]
+    "end": 1022
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1022,
-    "end": 1023,
-    "range": [
-      1022,
-      1023
-    ]
+    "end": 1023
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 1442,
-    "end": 1444,
-    "range": [
-      1442,
-      1444
-    ]
+    "end": 1444
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1445,
-    "end": 1446,
-    "range": [
-      1445,
-      1446
-    ]
+    "end": 1446
   },
   {
     "type": "Identifier",
     "value": "counter",
     "start": 1446,
-    "end": 1453,
-    "range": [
-      1446,
-      1453
-    ]
+    "end": 1453
   },
   {
     "type": "Punctuator",
     "value": "===",
     "start": 1454,
-    "end": 1457,
-    "range": [
-      1454,
-      1457
-    ]
+    "end": 1457
   },
   {
     "type": "Numeric",
     "value": "5",
     "start": 1458,
-    "end": 1459,
-    "range": [
-      1458,
-      1459
-    ]
+    "end": 1459
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1459,
-    "end": 1460,
-    "range": [
-      1459,
-      1460
-    ]
+    "end": 1460
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1461,
-    "end": 1462,
-    "range": [
-      1461,
-      1462
-    ]
+    "end": 1462
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 1465,
-    "end": 1470,
-    "range": [
-      1465,
-      1470
-    ]
+    "end": 1470
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1471,
-    "end": 1474,
-    "range": [
-      1471,
-      1474
-    ]
+    "end": 1474
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 1475,
-    "end": 1487,
-    "range": [
-      1475,
-      1487
-    ]
+    "end": 1487
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1487,
-    "end": 1488,
-    "range": [
-      1487,
-      1488
-    ]
+    "end": 1488
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1488,
-    "end": 1489,
-    "range": [
-      1488,
-      1489
-    ]
+    "end": 1489
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1489,
-    "end": 1490,
-    "range": [
-      1489,
-      1490
-    ]
+    "end": 1490
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1491,
-    "end": 1492,
-    "range": [
-      1491,
-      1492
-    ]
+    "end": 1492
   }
 ]

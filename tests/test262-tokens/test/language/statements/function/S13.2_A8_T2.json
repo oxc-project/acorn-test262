@@ -3,80 +3,48 @@
     "type": "String",
     "value": "'arguments'",
     "start": 237,
-    "end": 248,
-    "range": [
-      237,
-      248
-    ]
+    "end": 248
   },
   {
     "type": "Keyword",
     "value": "in",
     "start": 249,
-    "end": 251,
-    "range": [
-      249,
-      251
-    ]
+    "end": 251
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 252,
-    "end": 260,
-    "range": [
-      252,
-      260
-    ]
+    "end": 260
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 260,
-    "end": 261,
-    "range": [
-      260,
-      261
-    ]
+    "end": 261
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 261,
-    "end": 262,
-    "range": [
-      261,
-      262
-    ]
+    "end": 262
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 263,
-    "end": 264,
-    "range": [
-      263,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 264,
-    "end": 265,
-    "range": [
-      264,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 265,
-    "end": 266,
-    "range": [
-      265,
-      266
-    ]
+    "end": 266
   }
 ]

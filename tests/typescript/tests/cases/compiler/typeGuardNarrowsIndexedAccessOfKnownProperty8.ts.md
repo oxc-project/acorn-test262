@@ -57,61 +57,37 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7,
-    "end": 12,
-    "range": [
-      7,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 13,
-    "end": 16,
-    "range": [
-      13,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 17,
-    "end": 18,
-    "range": [
-      17,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "String",
     "value": "\"a\"",
     "start": 19,
-    "end": 22,
-    "range": [
-      19,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 22,
-    "end": 23,
-    "range": [
-      22,
-      23
-    ]
+    "end": 23
   }
 ]
 ```
@@ -349,341 +325,205 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 7,
-    "end": 8,
-    "range": [
-      7,
-      8
-    ]
+    "end": 8
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 9,
-    "end": 11,
-    "range": [
-      9,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 12,
-    "end": 13,
-    "range": [
-      12,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 14,
-    "end": 18,
-    "range": [
-      14,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "String",
     "value": "\"./a\"",
     "start": 19,
-    "end": 24,
-    "range": [
-      19,
-      24
-    ]
+    "end": 24
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 24,
-    "end": 25,
-    "range": [
-      24,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 26,
-    "end": 32,
-    "range": [
-      26,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 33,
-    "end": 38,
-    "range": [
-      33,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 41,
-    "end": 42,
-    "range": [
-      41,
-      42
-    ]
+    "end": 42
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 47,
-    "end": 48,
-    "range": [
-      47,
-      48
-    ]
+    "end": 48
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 48,
-    "end": 49,
-    "range": [
-      48,
-      49
-    ]
+    "end": 49
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 49,
-    "end": 50,
-    "range": [
-      49,
-      50
-    ]
+    "end": 50
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 50,
-    "end": 53,
-    "range": [
-      50,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 53,
-    "end": 54,
-    "range": [
-      53,
-      54
-    ]
+    "end": 54
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 54,
-    "end": 55,
-    "range": [
-      54,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 56,
-    "end": 62,
-    "range": [
-      56,
-      62
-    ]
+    "end": 62
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 62,
-    "end": 63,
-    "range": [
-      62,
-      63
-    ]
+    "end": 63
   },
   {
     "type": "Identifier",
     "value": "constructor",
     "start": 69,
-    "end": 80,
-    "range": [
-      69,
-      80
-    ]
+    "end": 80
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 80,
-    "end": 81,
-    "range": [
-      80,
-      81
-    ]
+    "end": 81
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 81,
-    "end": 82,
-    "range": [
-      81,
-      82
-    ]
+    "end": 82
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 83,
-    "end": 84,
-    "range": [
-      83,
-      84
-    ]
+    "end": 84
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 93,
-    "end": 97,
-    "range": [
-      93,
-      97
-    ]
+    "end": 97
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 97,
-    "end": 98,
-    "range": [
-      97,
-      98
-    ]
+    "end": 98
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 98,
-    "end": 99,
-    "range": [
-      98,
-      99
-    ]
+    "end": 99
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 99,
-    "end": 100,
-    "range": [
-      99,
-      100
-    ]
+    "end": 100
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 100,
-    "end": 103,
-    "range": [
-      100,
-      103
-    ]
+    "end": 103
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 103,
-    "end": 104,
-    "range": [
-      103,
-      104
-    ]
+    "end": 104
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 105,
-    "end": 106,
-    "range": [
-      105,
-      106
-    ]
+    "end": 106
   },
   {
     "type": "String",
     "value": "\"foo\"",
     "start": 107,
-    "end": 112,
-    "range": [
-      107,
-      112
-    ]
+    "end": 112
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 112,
-    "end": 113,
-    "range": [
-      112,
-      113
-    ]
+    "end": 113
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 118,
-    "end": 119,
-    "range": [
-      118,
-      119
-    ]
+    "end": 119
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 120,
-    "end": 121,
-    "range": [
-      120,
-      121
-    ]
+    "end": 121
   }
 ]
 ```

@@ -3,160 +3,96 @@
     "type": "Identifier",
     "value": "assert",
     "start": 249,
-    "end": 255,
-    "range": [
-      249,
-      255
-    ]
+    "end": 255
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 255,
-    "end": 256,
-    "range": [
-      255,
-      256
-    ]
+    "end": 256
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 256,
-    "end": 265,
-    "range": [
-      256,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 265,
-    "end": 266,
-    "range": [
-      265,
-      266
-    ]
+    "end": 266
   },
   {
     "type": "Identifier",
     "value": "Math",
     "start": 266,
-    "end": 270,
-    "range": [
-      266,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 270,
-    "end": 271,
-    "range": [
-      270,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Identifier",
     "value": "fround",
     "start": 271,
-    "end": 277,
-    "range": [
-      271,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 277,
-    "end": 278,
-    "range": [
-      277,
-      278
-    ]
+    "end": 278
   },
   {
     "type": "Identifier",
     "value": "Infinity",
     "start": 278,
-    "end": 286,
-    "range": [
-      278,
-      286
-    ]
+    "end": 286
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 286,
-    "end": 287,
-    "range": [
-      286,
-      287
-    ]
+    "end": 287
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 287,
-    "end": 288,
-    "range": [
-      287,
-      288
-    ]
+    "end": 288
   },
   {
     "type": "Identifier",
     "value": "Infinity",
     "start": 289,
-    "end": 297,
-    "range": [
-      289,
-      297
-    ]
+    "end": 297
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "String",
     "value": "'Math.fround(Infinity)'",
     "start": 299,
-    "end": 322,
-    "range": [
-      299,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 322,
-    "end": 323,
-    "range": [
-      322,
-      323
-    ]
+    "end": 323
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 323,
-    "end": 324,
-    "range": [
-      323,
-      324
-    ]
+    "end": 324
   }
 ]

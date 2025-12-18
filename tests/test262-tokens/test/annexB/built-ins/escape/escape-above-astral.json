@@ -3,140 +3,84 @@
     "type": "Identifier",
     "value": "assert",
     "start": 703,
-    "end": 709,
-    "range": [
-      703,
-      709
-    ]
+    "end": 709
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 709,
-    "end": 710,
-    "range": [
-      709,
-      710
-    ]
+    "end": 710
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 710,
-    "end": 719,
-    "range": [
-      710,
-      719
-    ]
+    "end": 719
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 719,
-    "end": 720,
-    "range": [
-      719,
-      720
-    ]
+    "end": 720
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 723,
-    "end": 729,
-    "range": [
-      723,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 729,
-    "end": 730,
-    "range": [
-      729,
-      730
-    ]
+    "end": 730
   },
   {
     "type": "String",
     "value": "'\\u{10401}'",
     "start": 730,
-    "end": 741,
-    "range": [
-      730,
-      741
-    ]
+    "end": 741
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 741,
-    "end": 742,
-    "range": [
-      741,
-      742
-    ]
+    "end": 742
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 742,
-    "end": 743,
-    "range": [
-      742,
-      743
-    ]
+    "end": 743
   },
   {
     "type": "String",
     "value": "'%uD801%uDC01'",
     "start": 744,
-    "end": 758,
-    "range": [
-      744,
-      758
-    ]
+    "end": 758
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 758,
-    "end": 759,
-    "range": [
-      758,
-      759
-    ]
+    "end": 759
   },
   {
     "type": "String",
     "value": "'\\\\u{10401} => \\\\uD801\\\\uDC01 (surrogate pairs encoded in string)'",
     "start": 760,
-    "end": 826,
-    "range": [
-      760,
-      826
-    ]
+    "end": 826
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 827,
-    "end": 828,
-    "range": [
-      827,
-      828
-    ]
+    "end": 828
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 828,
-    "end": 829,
-    "range": [
-      828,
-      829
-    ]
+    "end": 829
   }
 ]

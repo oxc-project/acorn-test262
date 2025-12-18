@@ -3,280 +3,168 @@
     "type": "Keyword",
     "value": "const",
     "start": 237,
-    "end": 242,
-    "range": [
-      237,
-      242
-    ]
+    "end": 242
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 243,
-    "end": 249,
-    "range": [
-      243,
-      249
-    ]
+    "end": 249
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 250,
-    "end": 251,
-    "range": [
-      250,
-      251
-    ]
+    "end": 251
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 252,
-    "end": 255,
-    "range": [
-      252,
-      255
-    ]
+    "end": 255
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 256,
-    "end": 264,
-    "range": [
-      256,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 264,
-    "end": 265,
-    "range": [
-      264,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 265,
-    "end": 278,
-    "range": [
-      265,
-      278
-    ]
+    "end": 278
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 278,
-    "end": 279,
-    "range": [
-      278,
-      279
-    ]
+    "end": 279
   },
   {
     "type": "Numeric",
     "value": "1719923640_000_000_000n",
     "start": 279,
-    "end": 302,
-    "range": [
-      279,
-      302
-    ]
+    "end": 302
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 302,
-    "end": 303,
-    "range": [
-      302,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "String",
     "value": "\"UTC\"",
     "start": 304,
-    "end": 309,
-    "range": [
-      304,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 309,
-    "end": 310,
-    "range": [
-      309,
-      310
-    ]
+    "end": 310
   },
   {
     "type": "String",
     "value": "\"islamicc\"",
     "start": 311,
-    "end": 321,
-    "range": [
-      311,
-      321
-    ]
+    "end": 321
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 321,
-    "end": 322,
-    "range": [
-      321,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 322,
-    "end": 323,
-    "range": [
-      322,
-      323
-    ]
+    "end": 323
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 324,
-    "end": 330,
-    "range": [
-      324,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 330,
-    "end": 331,
-    "range": [
-      330,
-      331
-    ]
+    "end": 331
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 331,
-    "end": 340,
-    "range": [
-      331,
-      340
-    ]
+    "end": 340
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 340,
-    "end": 341,
-    "range": [
-      340,
-      341
-    ]
+    "end": 341
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 341,
-    "end": 347,
-    "range": [
-      341,
-      347
-    ]
+    "end": 347
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 347,
-    "end": 348,
-    "range": [
-      347,
-      348
-    ]
+    "end": 348
   },
   {
     "type": "Identifier",
     "value": "calendarId",
     "start": 348,
-    "end": 358,
-    "range": [
-      348,
-      358
-    ]
+    "end": 358
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 358,
-    "end": 359,
-    "range": [
-      358,
-      359
-    ]
+    "end": 359
   },
   {
     "type": "String",
     "value": "\"islamic-civil\"",
     "start": 360,
-    "end": 375,
-    "range": [
-      360,
-      375
-    ]
+    "end": 375
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 375,
-    "end": 376,
-    "range": [
-      375,
-      376
-    ]
+    "end": 376
   },
   {
     "type": "String",
     "value": "\"calendar ID is canonicalized\"",
     "start": 377,
-    "end": 407,
-    "range": [
-      377,
-      407
-    ]
+    "end": 407
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 407,
-    "end": 408,
-    "range": [
-      407,
-      408
-    ]
+    "end": 408
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 408,
-    "end": 409,
-    "range": [
-      408,
-      409
-    ]
+    "end": 409
   }
 ]

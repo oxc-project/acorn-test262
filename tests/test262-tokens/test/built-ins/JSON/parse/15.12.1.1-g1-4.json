@@ -3,380 +3,228 @@
     "type": "Identifier",
     "value": "assert",
     "start": 247,
-    "end": 253,
-    "range": [
-      247,
-      253
-    ]
+    "end": 253
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 253,
-    "end": 254,
-    "range": [
-      253,
-      254
-    ]
+    "end": 254
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 254,
-    "end": 263,
-    "range": [
-      254,
-      263
-    ]
+    "end": 263
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 263,
-    "end": 264,
-    "range": [
-      263,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 264,
-    "end": 268,
-    "range": [
-      264,
-      268
-    ]
+    "end": 268
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 268,
-    "end": 269,
-    "range": [
-      268,
-      269
-    ]
+    "end": 269
   },
   {
     "type": "Identifier",
     "value": "parse",
     "start": 269,
-    "end": 274,
-    "range": [
-      269,
-      274
-    ]
+    "end": 274
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 274,
-    "end": 275,
-    "range": [
-      274,
-      275
-    ]
+    "end": 275
   },
   {
     "type": "String",
     "value": "' 1234'",
     "start": 275,
-    "end": 282,
-    "range": [
-      275,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 282,
-    "end": 283,
-    "range": [
-      282,
-      283
-    ]
+    "end": 283
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 283,
-    "end": 284,
-    "range": [
-      283,
-      284
-    ]
+    "end": 284
   },
   {
     "type": "Numeric",
     "value": "1234",
     "start": 285,
-    "end": 289,
-    "range": [
-      285,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "String",
     "value": "'<SP> should be ignored'",
     "start": 291,
-    "end": 315,
-    "range": [
-      291,
-      315
-    ]
+    "end": 315
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 315,
-    "end": 316,
-    "range": [
-      315,
-      316
-    ]
+    "end": 316
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 316,
-    "end": 317,
-    "range": [
-      316,
-      317
-    ]
+    "end": 317
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 319,
-    "end": 325,
-    "range": [
-      319,
-      325
-    ]
+    "end": 325
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 325,
-    "end": 326,
-    "range": [
-      325,
-      326
-    ]
+    "end": 326
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 326,
-    "end": 332,
-    "range": [
-      326,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 332,
-    "end": 333,
-    "range": [
-      332,
-      333
-    ]
+    "end": 333
   },
   {
     "type": "Identifier",
     "value": "SyntaxError",
     "start": 333,
-    "end": 344,
-    "range": [
-      333,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 344,
-    "end": 345,
-    "range": [
-      344,
-      345
-    ]
+    "end": 345
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 346,
-    "end": 354,
-    "range": [
-      346,
-      354
-    ]
+    "end": 354
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 354,
-    "end": 355,
-    "range": [
-      354,
-      355
-    ]
+    "end": 355
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 355,
-    "end": 356,
-    "range": [
-      355,
-      356
-    ]
+    "end": 356
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 357,
-    "end": 358,
-    "range": [
-      357,
-      358
-    ]
+    "end": 358
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 363,
-    "end": 367,
-    "range": [
-      363,
-      367
-    ]
+    "end": 367
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 367,
-    "end": 368,
-    "range": [
-      367,
-      368
-    ]
+    "end": 368
   },
   {
     "type": "Identifier",
     "value": "parse",
     "start": 368,
-    "end": 373,
-    "range": [
-      368,
-      373
-    ]
+    "end": 373
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 373,
-    "end": 374,
-    "range": [
-      373,
-      374
-    ]
+    "end": 374
   },
   {
     "type": "String",
     "value": "'12 34'",
     "start": 374,
-    "end": 381,
-    "range": [
-      374,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 381,
-    "end": 382,
-    "range": [
-      381,
-      382
-    ]
+    "end": 382
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 382,
-    "end": 383,
-    "range": [
-      382,
-      383
-    ]
+    "end": 383
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 384,
-    "end": 385,
-    "range": [
-      384,
-      385
-    ]
+    "end": 385
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 385,
-    "end": 386,
-    "range": [
-      385,
-      386
-    ]
+    "end": 386
   },
   {
     "type": "String",
     "value": "'<SP> should produce a syntax error as whitespace results in two tokens'",
     "start": 387,
-    "end": 459,
-    "range": [
-      387,
-      459
-    ]
+    "end": 459
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 459,
-    "end": 460,
-    "range": [
-      459,
-      460
-    ]
+    "end": 460
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 460,
-    "end": 461,
-    "range": [
-      460,
-      461
-    ]
+    "end": 461
   }
 ]

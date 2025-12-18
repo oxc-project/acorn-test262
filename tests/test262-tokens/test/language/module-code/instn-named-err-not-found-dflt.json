@@ -3,90 +3,54 @@
     "type": "Identifier",
     "value": "$DONOTEVALUATE",
     "start": 1012,
-    "end": 1026,
-    "range": [
-      1012,
-      1026
-    ]
+    "end": 1026
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1026,
-    "end": 1027,
-    "range": [
-      1026,
-      1027
-    ]
+    "end": 1027
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1027,
-    "end": 1028,
-    "range": [
-      1027,
-      1028
-    ]
+    "end": 1028
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1028,
-    "end": 1029,
-    "range": [
-      1028,
-      1029
-    ]
+    "end": 1029
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1031,
-    "end": 1037,
-    "range": [
-      1031,
-      1037
-    ]
+    "end": 1037
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 1038,
-    "end": 1039,
-    "range": [
-      1038,
-      1039
-    ]
+    "end": 1039
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 1040,
-    "end": 1044,
-    "range": [
-      1040,
-      1044
-    ]
+    "end": 1044
   },
   {
     "type": "String",
     "value": "'./instn-named-err-not-found-empty_FIXTURE.js'",
     "start": 1045,
-    "end": 1091,
-    "range": [
-      1045,
-      1091
-    ]
+    "end": 1091
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1091,
-    "end": 1092,
-    "range": [
-      1091,
-      1092
-    ]
+    "end": 1092
   }
 ]

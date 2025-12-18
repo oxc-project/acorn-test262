@@ -3,90 +3,54 @@
     "type": "Punctuator",
     "value": "(",
     "start": 1183,
-    "end": 1184,
-    "range": [
-      1183,
-      1184
-    ]
+    "end": 1184
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1184,
-    "end": 1185,
-    "range": [
-      1184,
-      1185
-    ]
+    "end": 1185
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1185,
-    "end": 1186,
-    "range": [
-      1185,
-      1186
-    ]
+    "end": 1186
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1186,
-    "end": 1190,
-    "range": [
-      1186,
-      1190
-    ]
+    "end": 1190
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1190,
-    "end": 1191,
-    "range": [
-      1190,
-      1191
-    ]
+    "end": 1191
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1191,
-    "end": 1192,
-    "range": [
-      1191,
-      1192
-    ]
+    "end": 1192
   },
   {
     "type": "String",
     "value": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");if (false) function _f() {} else function f() {  }assert.sameValue(f, 123, \"value is not updated following evaluation\");'",
     "start": 1195,
-    "end": 1403,
-    "range": [
-      1195,
-      1403
-    ]
+    "end": 1403
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1404,
-    "end": 1405,
-    "range": [
-      1404,
-      1405
-    ]
+    "end": 1405
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1405,
-    "end": 1406,
-    "range": [
-      1405,
-      1406
-    ]
+    "end": 1406
   }
 ]

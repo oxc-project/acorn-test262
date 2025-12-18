@@ -3,120 +3,72 @@
     "type": "Identifier",
     "value": "assert",
     "start": 237,
-    "end": 243,
-    "range": [
-      237,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 243,
-    "end": 244,
-    "range": [
-      243,
-      244
-    ]
+    "end": 244
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 244,
-    "end": 253,
-    "range": [
-      244,
-      253
-    ]
+    "end": 253
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 253,
-    "end": 254,
-    "range": [
-      253,
-      254
-    ]
+    "end": 254
   },
   {
     "type": "Keyword",
     "value": "delete",
     "start": 254,
-    "end": 260,
-    "range": [
-      254,
-      260
-    ]
+    "end": 260
   },
   {
     "type": "Identifier",
     "value": "NaN",
     "start": 261,
-    "end": 264,
-    "range": [
-      261,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 264,
-    "end": 265,
-    "range": [
-      264,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 266,
-    "end": 271,
-    "range": [
-      266,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 271,
-    "end": 272,
-    "range": [
-      271,
-      272
-    ]
+    "end": 272
   },
   {
     "type": "String",
     "value": "'The value of `delete NaN` is expected to be false'",
     "start": 273,
-    "end": 324,
-    "range": [
-      273,
-      324
-    ]
+    "end": 324
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 324,
-    "end": 325,
-    "range": [
-      324,
-      325
-    ]
+    "end": 325
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 325,
-    "end": 326,
-    "range": [
-      325,
-      326
-    ]
+    "end": 326
   }
 ]

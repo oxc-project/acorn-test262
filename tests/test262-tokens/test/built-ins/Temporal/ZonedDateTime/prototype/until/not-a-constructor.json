@@ -3,460 +3,276 @@
     "type": "Identifier",
     "value": "assert",
     "start": 574,
-    "end": 580,
-    "range": [
-      574,
-      580
-    ]
+    "end": 580
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 580,
-    "end": 581,
-    "range": [
-      580,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 581,
-    "end": 587,
-    "range": [
-      581,
-      587
-    ]
+    "end": 587
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 587,
-    "end": 588,
-    "range": [
-      587,
-      588
-    ]
+    "end": 588
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 588,
-    "end": 597,
-    "range": [
-      588,
-      597
-    ]
+    "end": 597
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 597,
-    "end": 598,
-    "range": [
-      597,
-      598
-    ]
+    "end": 598
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 599,
-    "end": 600,
-    "range": [
-      599,
-      600
-    ]
+    "end": 600
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 600,
-    "end": 601,
-    "range": [
-      600,
-      601
-    ]
+    "end": 601
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 602,
-    "end": 604,
-    "range": [
-      602,
-      604
-    ]
+    "end": 604
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 605,
-    "end": 606,
-    "range": [
-      605,
-      606
-    ]
+    "end": 606
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 609,
-    "end": 612,
-    "range": [
-      609,
-      612
-    ]
+    "end": 612
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 613,
-    "end": 621,
-    "range": [
-      613,
-      621
-    ]
+    "end": 621
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 621,
-    "end": 622,
-    "range": [
-      621,
-      622
-    ]
+    "end": 622
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 622,
-    "end": 635,
-    "range": [
-      622,
-      635
-    ]
+    "end": 635
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 635,
-    "end": 636,
-    "range": [
-      635,
-      636
-    ]
+    "end": 636
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 636,
-    "end": 645,
-    "range": [
-      636,
-      645
-    ]
+    "end": 645
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 645,
-    "end": 646,
-    "range": [
-      645,
-      646
-    ]
+    "end": 646
   },
   {
     "type": "Identifier",
     "value": "until",
     "start": 646,
-    "end": 651,
-    "range": [
-      646,
-      651
-    ]
+    "end": 651
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 651,
-    "end": 652,
-    "range": [
-      651,
-      652
-    ]
+    "end": 652
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 652,
-    "end": 653,
-    "range": [
-      652,
-      653
-    ]
+    "end": 653
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 653,
-    "end": 654,
-    "range": [
-      653,
-      654
-    ]
+    "end": 654
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 655,
-    "end": 656,
-    "range": [
-      655,
-      656
-    ]
+    "end": 656
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 656,
-    "end": 657,
-    "range": [
-      656,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "String",
     "value": "\"Calling as constructor\"",
     "start": 658,
-    "end": 682,
-    "range": [
-      658,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 682,
-    "end": 683,
-    "range": [
-      682,
-      683
-    ]
+    "end": 683
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 683,
-    "end": 684,
-    "range": [
-      683,
-      684
-    ]
+    "end": 684
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 686,
-    "end": 692,
-    "range": [
-      686,
-      692
-    ]
+    "end": 692
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 692,
-    "end": 693,
-    "range": [
-      692,
-      693
-    ]
+    "end": 693
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 693,
-    "end": 702,
-    "range": [
-      693,
-      702
-    ]
+    "end": 702
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 702,
-    "end": 703,
-    "range": [
-      702,
-      703
-    ]
+    "end": 703
   },
   {
     "type": "Identifier",
     "value": "isConstructor",
     "start": 703,
-    "end": 716,
-    "range": [
-      703,
-      716
-    ]
+    "end": 716
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 716,
-    "end": 717,
-    "range": [
-      716,
-      717
-    ]
+    "end": 717
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 717,
-    "end": 725,
-    "range": [
-      717,
-      725
-    ]
+    "end": 725
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 725,
-    "end": 726,
-    "range": [
-      725,
-      726
-    ]
+    "end": 726
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 726,
-    "end": 739,
-    "range": [
-      726,
-      739
-    ]
+    "end": 739
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 739,
-    "end": 740,
-    "range": [
-      739,
-      740
-    ]
+    "end": 740
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 740,
-    "end": 749,
-    "range": [
-      740,
-      749
-    ]
+    "end": 749
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 749,
-    "end": 750,
-    "range": [
-      749,
-      750
-    ]
+    "end": 750
   },
   {
     "type": "Identifier",
     "value": "until",
     "start": 750,
-    "end": 755,
-    "range": [
-      750,
-      755
-    ]
+    "end": 755
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 755,
-    "end": 756,
-    "range": [
-      755,
-      756
-    ]
+    "end": 756
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 756,
-    "end": 757,
-    "range": [
-      756,
-      757
-    ]
+    "end": 757
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 758,
-    "end": 763,
-    "range": [
-      758,
-      763
-    ]
+    "end": 763
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 763,
-    "end": 764,
-    "range": [
-      763,
-      764
-    ]
+    "end": 764
   },
   {
     "type": "String",
     "value": "\"isConstructor(Temporal.ZonedDateTime.prototype.until)\"",
     "start": 767,
-    "end": 822,
-    "range": [
-      767,
-      822
-    ]
+    "end": 822
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 822,
-    "end": 823,
-    "range": [
-      822,
-      823
-    ]
+    "end": 823
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 823,
-    "end": 824,
-    "range": [
-      823,
-      824
-    ]
+    "end": 824
   }
 ]

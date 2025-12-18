@@ -3,400 +3,238 @@
     "type": "Keyword",
     "value": "const",
     "start": 318,
-    "end": 323,
-    "range": [
-      318,
-      323
-    ]
+    "end": 323
   },
   {
     "type": "Identifier",
     "value": "date",
     "start": 324,
-    "end": 328,
-    "range": [
-      324,
-      328
-    ]
+    "end": 328
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 329,
-    "end": 330,
-    "range": [
-      329,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 331,
-    "end": 334,
-    "range": [
-      331,
-      334
-    ]
+    "end": 334
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 335,
-    "end": 343,
-    "range": [
-      335,
-      343
-    ]
+    "end": 343
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 343,
-    "end": 344,
-    "range": [
-      343,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Identifier",
     "value": "PlainDate",
     "start": 344,
-    "end": 353,
-    "range": [
-      344,
-      353
-    ]
+    "end": 353
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 353,
-    "end": 354,
-    "range": [
-      353,
-      354
-    ]
+    "end": 354
   },
   {
     "type": "Numeric",
     "value": "2000",
     "start": 354,
-    "end": 358,
-    "range": [
-      354,
-      358
-    ]
+    "end": 358
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 358,
-    "end": 359,
-    "range": [
-      358,
-      359
-    ]
+    "end": 359
   },
   {
     "type": "Numeric",
     "value": "5",
     "start": 360,
-    "end": 361,
-    "range": [
-      360,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 361,
-    "end": 362,
-    "range": [
-      361,
-      362
-    ]
+    "end": 362
   },
   {
     "type": "Numeric",
     "value": "2",
     "start": 363,
-    "end": 364,
-    "range": [
-      363,
-      364
-    ]
+    "end": 364
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 364,
-    "end": 365,
-    "range": [
-      364,
-      365
-    ]
+    "end": 365
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 365,
-    "end": 366,
-    "range": [
-      365,
-      366
-    ]
+    "end": 366
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 367,
-    "end": 372,
-    "range": [
-      367,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 373,
-    "end": 379,
-    "range": [
-      373,
-      379
-    ]
+    "end": 379
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 380,
-    "end": 381,
-    "range": [
-      380,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "Identifier",
     "value": "date",
     "start": 382,
-    "end": 386,
-    "range": [
-      382,
-      386
-    ]
+    "end": 386
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 386,
-    "end": 387,
-    "range": [
-      386,
-      387
-    ]
+    "end": 387
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 387,
-    "end": 395,
-    "range": [
-      387,
-      395
-    ]
+    "end": 395
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 395,
-    "end": 396,
-    "range": [
-      395,
-      396
-    ]
+    "end": 396
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 396,
-    "end": 397,
-    "range": [
-      396,
-      397
-    ]
+    "end": 397
   },
   {
     "type": "Identifier",
     "value": "calendarName",
     "start": 398,
-    "end": 410,
-    "range": [
-      398,
-      410
-    ]
+    "end": 410
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 410,
-    "end": 411,
-    "range": [
-      410,
-      411
-    ]
+    "end": 411
   },
   {
     "type": "String",
     "value": "\"critical\"",
     "start": 412,
-    "end": 422,
-    "range": [
-      412,
-      422
-    ]
+    "end": 422
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 423,
-    "end": 424,
-    "range": [
-      423,
-      424
-    ]
+    "end": 424
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 424,
-    "end": 425,
-    "range": [
-      424,
-      425
-    ]
+    "end": 425
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 425,
-    "end": 426,
-    "range": [
-      425,
-      426
-    ]
+    "end": 426
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 427,
-    "end": 433,
-    "range": [
-      427,
-      433
-    ]
+    "end": 433
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 433,
-    "end": 434,
-    "range": [
-      433,
-      434
-    ]
+    "end": 434
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 434,
-    "end": 443,
-    "range": [
-      434,
-      443
-    ]
+    "end": 443
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 443,
-    "end": 444,
-    "range": [
-      443,
-      444
-    ]
+    "end": 444
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 444,
-    "end": 450,
-    "range": [
-      444,
-      450
-    ]
+    "end": 450
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 450,
-    "end": 451,
-    "range": [
-      450,
-      451
-    ]
+    "end": 451
   },
   {
     "type": "String",
     "value": "\"2000-05-02[!u-ca=iso8601]\"",
     "start": 452,
-    "end": 479,
-    "range": [
-      452,
-      479
-    ]
+    "end": 479
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 479,
-    "end": 480,
-    "range": [
-      479,
-      480
-    ]
+    "end": 480
   },
   {
     "type": "Template",
-    "value": "`built-in ISO calendar for calendarName = critical`",
-    "start": 481,
-    "end": 532,
-    "range": [
-      481,
-      532
-    ]
+    "value": "`built-in ISO calendar for calendarName = critical`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 532,
-    "end": 533,
-    "range": [
-      532,
-      533
-    ]
+    "end": 533
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 533,
-    "end": 534,
-    "range": [
-      533,
-      534
-    ]
+    "end": 534
   }
 ]

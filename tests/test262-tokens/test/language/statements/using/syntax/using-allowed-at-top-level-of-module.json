@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "using",
     "start": 695,
-    "end": 700,
-    "range": [
-      695,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 701,
-    "end": 702,
-    "range": [
-      701,
-      702
-    ]
+    "end": 702
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 703,
-    "end": 704,
-    "range": [
-      703,
-      704
-    ]
+    "end": 704
   },
   {
     "type": "Null",
     "value": "null",
     "start": 705,
-    "end": 709,
-    "range": [
-      705,
-      709
-    ]
+    "end": 709
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 709,
-    "end": 710,
-    "range": [
-      709,
-      710
-    ]
+    "end": 710
   }
 ]

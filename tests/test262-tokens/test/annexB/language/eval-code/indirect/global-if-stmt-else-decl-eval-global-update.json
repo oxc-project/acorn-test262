@@ -3,90 +3,54 @@
     "type": "Punctuator",
     "value": "(",
     "start": 1560,
-    "end": 1561,
-    "range": [
-      1560,
-      1561
-    ]
+    "end": 1561
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1561,
-    "end": 1562,
-    "range": [
-      1561,
-      1562
-    ]
+    "end": 1562
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1562,
-    "end": 1563,
-    "range": [
-      1562,
-      1563
-    ]
+    "end": 1563
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1563,
-    "end": 1567,
-    "range": [
-      1563,
-      1567
-    ]
+    "end": 1567
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1567,
-    "end": 1568,
-    "range": [
-      1567,
-      1568
-    ]
+    "end": 1568
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1568,
-    "end": 1569,
-    "range": [
-      1568,
-      1569
-    ]
+    "end": 1569
   },
   {
     "type": "String",
     "value": "'if (false) ; else function f() { return \"declaration\"; }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'",
     "start": 1572,
-    "end": 1710,
-    "range": [
-      1572,
-      1710
-    ]
+    "end": 1710
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1711,
-    "end": 1712,
-    "range": [
-      1711,
-      1712
-    ]
+    "end": 1712
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1712,
-    "end": 1713,
-    "range": [
-      1712,
-      1713
-    ]
+    "end": 1713
   }
 ]

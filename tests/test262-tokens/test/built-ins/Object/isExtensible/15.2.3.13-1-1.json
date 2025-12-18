@@ -3,70 +3,42 @@
     "type": "Identifier",
     "value": "Object",
     "start": 248,
-    "end": 254,
-    "range": [
-      248,
-      254
-    ]
+    "end": 254
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 254,
-    "end": 255,
-    "range": [
-      254,
-      255
-    ]
+    "end": 255
   },
   {
     "type": "Identifier",
     "value": "isExtensible",
     "start": 255,
-    "end": 267,
-    "range": [
-      255,
-      267
-    ]
+    "end": 267
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 267,
-    "end": 268,
-    "range": [
-      267,
-      268
-    ]
+    "end": 268
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 268,
-    "end": 277,
-    "range": [
-      268,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 277,
-    "end": 278,
-    "range": [
-      277,
-      278
-    ]
+    "end": 278
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 278,
-    "end": 279,
-    "range": [
-      278,
-      279
-    ]
+    "end": 279
   }
 ]

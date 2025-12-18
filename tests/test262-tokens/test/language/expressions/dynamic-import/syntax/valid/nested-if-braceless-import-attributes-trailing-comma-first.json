@@ -3,100 +3,60 @@
     "type": "Keyword",
     "value": "if",
     "start": 1290,
-    "end": 1292,
-    "range": [
-      1290,
-      1292
-    ]
+    "end": 1292
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1293,
-    "end": 1294,
-    "range": [
-      1293,
-      1294
-    ]
+    "end": 1294
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 1294,
-    "end": 1298,
-    "range": [
-      1294,
-      1298
-    ]
+    "end": 1298
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1298,
-    "end": 1299,
-    "range": [
-      1298,
-      1299
-    ]
+    "end": 1299
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1300,
-    "end": 1306,
-    "range": [
-      1300,
-      1306
-    ]
+    "end": 1306
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1306,
-    "end": 1307,
-    "range": [
-      1306,
-      1307
-    ]
+    "end": 1307
   },
   {
     "type": "String",
     "value": "'./empty_FIXTURE.js'",
     "start": 1307,
-    "end": 1327,
-    "range": [
-      1307,
-      1327
-    ]
+    "end": 1327
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1327,
-    "end": 1328,
-    "range": [
-      1327,
-      1328
-    ]
+    "end": 1328
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1328,
-    "end": 1329,
-    "range": [
-      1328,
-      1329
-    ]
+    "end": 1329
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1329,
-    "end": 1330,
-    "range": [
-      1329,
-      1330
-    ]
+    "end": 1330
   }
 ]

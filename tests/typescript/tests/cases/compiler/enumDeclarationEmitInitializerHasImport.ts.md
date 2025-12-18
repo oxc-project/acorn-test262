@@ -81,91 +81,55 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Keyword",
     "value": "enum",
     "start": 7,
-    "end": 11,
-    "range": [
-      7,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "Enum",
     "start": 12,
-    "end": 16,
-    "range": [
-      12,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 17,
-    "end": 18,
-    "range": [
-      17,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "Identifier",
     "value": "Value1",
     "start": 23,
-    "end": 29,
-    "range": [
-      23,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 29,
-    "end": 30,
-    "range": [
-      29,
-      30
-    ]
+    "end": 30
   },
   {
     "type": "Identifier",
     "value": "Value2",
     "start": 35,
-    "end": 41,
-    "range": [
-      35,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 41,
-    "end": 42,
-    "range": [
-      41,
-      42
-    ]
+    "end": 42
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 43,
-    "end": 44,
-    "range": [
-      43,
-      44
-    ]
+    "end": 44
   }
 ]
 ```
@@ -289,181 +253,109 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Identifier",
     "value": "provider",
     "start": 7,
-    "end": 15,
-    "range": [
-      7,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 16,
-    "end": 17,
-    "range": [
-      16,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Identifier",
     "value": "require",
     "start": 18,
-    "end": 25,
-    "range": [
-      18,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 25,
-    "end": 26,
-    "range": [
-      25,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "String",
     "value": "'./provider'",
     "start": 26,
-    "end": 38,
-    "range": [
-      26,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 38,
-    "end": 39,
-    "range": [
-      38,
-      39
-    ]
+    "end": 39
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 42,
-    "end": 48,
-    "range": [
-      42,
-      48
-    ]
+    "end": 48
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 49,
-    "end": 54,
-    "range": [
-      49,
-      54
-    ]
+    "end": 54
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 55,
-    "end": 60,
-    "range": [
-      55,
-      60
-    ]
+    "end": 60
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 61,
-    "end": 62,
-    "range": [
-      61,
-      62
-    ]
+    "end": 62
   },
   {
     "type": "Identifier",
     "value": "provider",
     "start": 63,
-    "end": 71,
-    "range": [
-      63,
-      71
-    ]
+    "end": 71
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 71,
-    "end": 72,
-    "range": [
-      71,
-      72
-    ]
+    "end": 72
   },
   {
     "type": "Identifier",
     "value": "Enum",
     "start": 72,
-    "end": 76,
-    "range": [
-      72,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 76,
-    "end": 77,
-    "range": [
-      76,
-      77
-    ]
+    "end": 77
   },
   {
     "type": "Identifier",
     "value": "Value1",
     "start": 77,
-    "end": 83,
-    "range": [
-      77,
-      83
-    ]
+    "end": 83
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 83,
-    "end": 84,
-    "range": [
-      83,
-      84
-    ]
+    "end": 84
   }
 ]
 ```

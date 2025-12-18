@@ -57,61 +57,37 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 7,
-    "end": 10,
-    "range": [
-      7,
-      10
-    ]
+    "end": 10
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 11,
-    "end": 12,
-    "range": [
-      11,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 13,
-    "end": 14,
-    "range": [
-      13,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Numeric",
     "value": "10",
     "start": 15,
-    "end": 17,
-    "range": [
-      15,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 17,
-    "end": 18,
-    "range": [
-      17,
-      18
-    ]
+    "end": 18
   }
 ]
 ```
@@ -165,51 +141,31 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Identifier",
     "value": "defaultBinding",
     "start": 7,
-    "end": 21,
-    "range": [
-      7,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 22,
-    "end": 26,
-    "range": [
-      22,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "String",
     "value": "\"./es6ImportDefaultBindingNoDefaultProperty_0\"",
     "start": 27,
-    "end": 73,
-    "range": [
-      27,
-      73
-    ]
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 73,
-    "end": 74,
-    "range": [
-      73,
-      74
-    ]
+    "end": 74
   }
 ]
 ```

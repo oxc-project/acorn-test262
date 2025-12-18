@@ -3,140 +3,84 @@
     "type": "Keyword",
     "value": "function",
     "start": 254,
-    "end": 262,
-    "range": [
-      254,
-      262
-    ]
+    "end": 262
   },
   {
     "type": "Identifier",
     "value": "testcase",
     "start": 263,
-    "end": 271,
-    "range": [
-      263,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 271,
-    "end": 272,
-    "range": [
-      271,
-      272
-    ]
+    "end": 272
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 272,
-    "end": 273,
-    "range": [
-      272,
-      273
-    ]
+    "end": 273
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 274,
-    "end": 275,
-    "range": [
-      274,
-      275
-    ]
+    "end": 275
   },
   {
     "type": "Identifier",
     "value": "arguments",
     "start": 280,
-    "end": 289,
-    "range": [
-      280,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Identifier",
     "value": "callee",
     "start": 290,
-    "end": 296,
-    "range": [
-      290,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 296,
-    "end": 297,
-    "range": [
-      296,
-      297
-    ]
+    "end": 297
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 298,
-    "end": 299,
-    "range": [
-      298,
-      299
-    ]
+    "end": 299
   },
   {
     "type": "Identifier",
     "value": "testcase",
     "start": 300,
-    "end": 308,
-    "range": [
-      300,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 308,
-    "end": 309,
-    "range": [
-      308,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 309,
-    "end": 310,
-    "range": [
-      309,
-      310
-    ]
+    "end": 310
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 310,
-    "end": 311,
-    "range": [
-      310,
-      311
-    ]
+    "end": 311
   }
 ]

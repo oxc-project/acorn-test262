@@ -3,230 +3,138 @@
     "type": "Identifier",
     "value": "assert",
     "start": 465,
-    "end": 471,
-    "range": [
-      465,
-      471
-    ]
+    "end": 471
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 471,
-    "end": 472,
-    "range": [
-      471,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 472,
-    "end": 478,
-    "range": [
-      472,
-      478
-    ]
+    "end": 478
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 478,
-    "end": 479,
-    "range": [
-      478,
-      479
-    ]
+    "end": 479
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 479,
-    "end": 488,
-    "range": [
-      479,
-      488
-    ]
+    "end": 488
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 488,
-    "end": 489,
-    "range": [
-      488,
-      489
-    ]
+    "end": 489
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 490,
-    "end": 491,
-    "range": [
-      490,
-      491
-    ]
+    "end": 491
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 491,
-    "end": 492,
-    "range": [
-      491,
-      492
-    ]
+    "end": 492
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 493,
-    "end": 495,
-    "range": [
-      493,
-      495
-    ]
+    "end": 495
   },
   {
     "type": "Identifier",
     "value": "Intl",
     "start": 496,
-    "end": 500,
-    "range": [
-      496,
-      500
-    ]
+    "end": 500
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 500,
-    "end": 501,
-    "range": [
-      500,
-      501
-    ]
+    "end": 501
   },
   {
     "type": "Identifier",
     "value": "NumberFormat",
     "start": 501,
-    "end": 513,
-    "range": [
-      501,
-      513
-    ]
+    "end": 513
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 513,
-    "end": 514,
-    "range": [
-      513,
-      514
-    ]
+    "end": 514
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 514,
-    "end": 523,
-    "range": [
-      514,
-      523
-    ]
+    "end": 523
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 523,
-    "end": 524,
-    "range": [
-      523,
-      524
-    ]
+    "end": 524
   },
   {
     "type": "Identifier",
     "value": "format",
     "start": 524,
-    "end": 530,
-    "range": [
-      524,
-      530
-    ]
+    "end": 530
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 530,
-    "end": 531,
-    "range": [
-      530,
-      531
-    ]
+    "end": 531
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 531,
-    "end": 532,
-    "range": [
-      531,
-      532
-    ]
+    "end": 532
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 532,
-    "end": 533,
-    "range": [
-      532,
-      533
-    ]
+    "end": 533
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 533,
-    "end": 534,
-    "range": [
-      533,
-      534
-    ]
+    "end": 534
   },
   {
     "type": "String",
     "value": "\"Intl.NumberFormat's prototype is not an object that has been initialized as an Intl.NumberFormat\"",
     "start": 549,
-    "end": 647,
-    "range": [
-      549,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 647,
-    "end": 648,
-    "range": [
-      647,
-      648
-    ]
+    "end": 648
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 648,
-    "end": 649,
-    "range": [
-      648,
-      649
-    ]
+    "end": 649
   }
 ]

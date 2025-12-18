@@ -3,150 +3,90 @@
     "type": "Keyword",
     "value": "if",
     "start": 230,
-    "end": 232,
-    "range": [
-      230,
-      232
-    ]
+    "end": 232
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 233,
-    "end": 234,
-    "range": [
-      233,
-      234
-    ]
+    "end": 234
   },
   {
     "type": "String",
     "value": "\"\\x00\"",
     "start": 234,
-    "end": 240,
-    "range": [
-      234,
-      240
-    ]
+    "end": 240
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 241,
-    "end": 244,
-    "range": [
-      241,
-      244
-    ]
+    "end": 244
   },
   {
     "type": "String",
     "value": "\"\\0\"",
     "start": 245,
-    "end": 249,
-    "range": [
-      245,
-      249
-    ]
+    "end": 249
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 249,
-    "end": 250,
-    "range": [
-      249,
-      250
-    ]
+    "end": 250
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 251,
-    "end": 252,
-    "range": [
-      251,
-      252
-    ]
+    "end": 252
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 255,
-    "end": 260,
-    "range": [
-      255,
-      260
-    ]
+    "end": 260
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 261,
-    "end": 264,
-    "range": [
-      261,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 265,
-    "end": 277,
-    "range": [
-      265,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 277,
-    "end": 278,
-    "range": [
-      277,
-      278
-    ]
+    "end": 278
   },
   {
     "type": "String",
     "value": "'#1: \"\\\\x00\" === \"\\\\0\"'",
     "start": 278,
-    "end": 301,
-    "range": [
-      278,
-      301
-    ]
+    "end": 301
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 301,
-    "end": 302,
-    "range": [
-      301,
-      302
-    ]
+    "end": 302
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 302,
-    "end": 303,
-    "range": [
-      302,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 304,
-    "end": 305,
-    "range": [
-      304,
-      305
-    ]
+    "end": 305
   }
 ]

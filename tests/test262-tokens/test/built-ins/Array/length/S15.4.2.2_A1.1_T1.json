@@ -3,300 +3,180 @@
     "type": "Identifier",
     "value": "Array",
     "start": 472,
-    "end": 477,
-    "range": [
-      472,
-      477
-    ]
+    "end": 477
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 477,
-    "end": 478,
-    "range": [
-      477,
-      478
-    ]
+    "end": 478
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 478,
-    "end": 487,
-    "range": [
-      478,
-      487
-    ]
+    "end": 487
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 487,
-    "end": 488,
-    "range": [
-      487,
-      488
-    ]
+    "end": 488
   },
   {
     "type": "Identifier",
     "value": "myproperty",
     "start": 488,
-    "end": 498,
-    "range": [
-      488,
-      498
-    ]
+    "end": 498
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 499,
-    "end": 500,
-    "range": [
-      499,
-      500
-    ]
+    "end": 500
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 501,
-    "end": 502,
-    "range": [
-      501,
-      502
-    ]
+    "end": 502
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 502,
-    "end": 503,
-    "range": [
-      502,
-      503
-    ]
+    "end": 503
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 504,
-    "end": 507,
-    "range": [
-      504,
-      507
-    ]
+    "end": 507
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 508,
-    "end": 509,
-    "range": [
-      508,
-      509
-    ]
+    "end": 509
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 510,
-    "end": 511,
-    "range": [
-      510,
-      511
-    ]
+    "end": 511
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 512,
-    "end": 515,
-    "range": [
-      512,
-      515
-    ]
+    "end": 515
   },
   {
     "type": "Identifier",
     "value": "Array",
     "start": 516,
-    "end": 521,
-    "range": [
-      516,
-      521
-    ]
+    "end": 521
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 521,
-    "end": 522,
-    "range": [
-      521,
-      522
-    ]
+    "end": 522
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 522,
-    "end": 523,
-    "range": [
-      522,
-      523
-    ]
+    "end": 523
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 523,
-    "end": 524,
-    "range": [
-      523,
-      524
-    ]
+    "end": 524
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 524,
-    "end": 525,
-    "range": [
-      524,
-      525
-    ]
+    "end": 525
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 526,
-    "end": 532,
-    "range": [
-      526,
-      532
-    ]
+    "end": 532
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 532,
-    "end": 533,
-    "range": [
-      532,
-      533
-    ]
+    "end": 533
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 533,
-    "end": 542,
-    "range": [
-      533,
-      542
-    ]
+    "end": 542
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 542,
-    "end": 543,
-    "range": [
-      542,
-      543
-    ]
+    "end": 543
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 543,
-    "end": 544,
-    "range": [
-      543,
-      544
-    ]
+    "end": 544
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 544,
-    "end": 545,
-    "range": [
-      544,
-      545
-    ]
+    "end": 545
   },
   {
     "type": "Identifier",
     "value": "myproperty",
     "start": 545,
-    "end": 555,
-    "range": [
-      545,
-      555
-    ]
+    "end": 555
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 555,
-    "end": 556,
-    "range": [
-      555,
-      556
-    ]
+    "end": 556
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 557,
-    "end": 558,
-    "range": [
-      557,
-      558
-    ]
+    "end": 558
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 558,
-    "end": 559,
-    "range": [
-      558,
-      559
-    ]
+    "end": 559
   },
   {
     "type": "String",
     "value": "'The value of x.myproperty is expected to be 1'",
     "start": 560,
-    "end": 607,
-    "range": [
-      560,
-      607
-    ]
+    "end": 607
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 607,
-    "end": 608,
-    "range": [
-      607,
-      608
-    ]
+    "end": 608
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 608,
-    "end": 609,
-    "range": [
-      608,
-      609
-    ]
+    "end": 609
   }
 ]

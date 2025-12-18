@@ -3,440 +3,264 @@
     "type": "Keyword",
     "value": "var",
     "start": 288,
-    "end": 291,
-    "range": [
-      288,
-      291
-    ]
+    "end": 291
   },
   {
     "type": "Identifier",
     "value": "__evaluated",
     "start": 292,
-    "end": 303,
-    "range": [
-      292,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 303,
-    "end": 304,
-    "range": [
-      303,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 305,
-    "end": 308,
-    "range": [
-      305,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "Identifier",
     "value": "__condition",
     "start": 309,
-    "end": 320,
-    "range": [
-      309,
-      320
-    ]
+    "end": 320
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 320,
-    "end": 321,
-    "range": [
-      320,
-      321
-    ]
+    "end": 321
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 321,
-    "end": 322,
-    "range": [
-      321,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Identifier",
     "value": "__evaluated",
     "start": 324,
-    "end": 335,
-    "range": [
-      324,
-      335
-    ]
+    "end": 335
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 336,
-    "end": 337,
-    "range": [
-      336,
-      337
-    ]
+    "end": 337
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 338,
-    "end": 342,
-    "range": [
-      338,
-      342
-    ]
+    "end": 342
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 342,
-    "end": 343,
-    "range": [
-      342,
-      343
-    ]
+    "end": 343
   },
   {
     "type": "String",
     "value": "\"while (__condition<5) eval(\\\"__condition++\\\");\"",
     "start": 343,
-    "end": 391,
-    "range": [
-      343,
-      391
-    ]
+    "end": 391
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 391,
-    "end": 392,
-    "range": [
-      391,
-      392
-    ]
+    "end": 392
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 392,
-    "end": 393,
-    "range": [
-      392,
-      393
-    ]
+    "end": 393
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 484,
-    "end": 486,
-    "range": [
-      484,
-      486
-    ]
+    "end": 486
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 487,
-    "end": 488,
-    "range": [
-      487,
-      488
-    ]
+    "end": 488
   },
   {
     "type": "Identifier",
     "value": "__condition",
     "start": 488,
-    "end": 499,
-    "range": [
-      488,
-      499
-    ]
+    "end": 499
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 500,
-    "end": 503,
-    "range": [
-      500,
-      503
-    ]
+    "end": 503
   },
   {
     "type": "Numeric",
     "value": "5",
     "start": 504,
-    "end": 505,
-    "range": [
-      504,
-      505
-    ]
+    "end": 505
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 505,
-    "end": 506,
-    "range": [
-      505,
-      506
-    ]
+    "end": 506
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 507,
-    "end": 508,
-    "range": [
-      507,
-      508
-    ]
+    "end": 508
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 510,
-    "end": 515,
-    "range": [
-      510,
-      515
-    ]
+    "end": 515
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 516,
-    "end": 519,
-    "range": [
-      516,
-      519
-    ]
+    "end": 519
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 520,
-    "end": 532,
-    "range": [
-      520,
-      532
-    ]
+    "end": 532
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 532,
-    "end": 533,
-    "range": [
-      532,
-      533
-    ]
+    "end": 533
   },
   {
     "type": "String",
     "value": "'#1: The \"while\" statement is evaluated as described in the Standard'",
     "start": 533,
-    "end": 602,
-    "range": [
-      533,
-      602
-    ]
+    "end": 602
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 602,
-    "end": 603,
-    "range": [
-      602,
-      603
-    ]
+    "end": 603
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 603,
-    "end": 604,
-    "range": [
-      603,
-      604
-    ]
+    "end": 604
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 605,
-    "end": 606,
-    "range": [
-      605,
-      606
-    ]
+    "end": 606
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 779,
-    "end": 781,
-    "range": [
-      779,
-      781
-    ]
+    "end": 781
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 782,
-    "end": 783,
-    "range": [
-      782,
-      783
-    ]
+    "end": 783
   },
   {
     "type": "Identifier",
     "value": "__evaluated",
     "start": 783,
-    "end": 794,
-    "range": [
-      783,
-      794
-    ]
+    "end": 794
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 795,
-    "end": 798,
-    "range": [
-      795,
-      798
-    ]
+    "end": 798
   },
   {
     "type": "Numeric",
     "value": "4",
     "start": 799,
-    "end": 800,
-    "range": [
-      799,
-      800
-    ]
+    "end": 800
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 800,
-    "end": 801,
-    "range": [
-      800,
-      801
-    ]
+    "end": 801
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 802,
-    "end": 803,
-    "range": [
-      802,
-      803
-    ]
+    "end": 803
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 805,
-    "end": 810,
-    "range": [
-      805,
-      810
-    ]
+    "end": 810
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 811,
-    "end": 814,
-    "range": [
-      811,
-      814
-    ]
+    "end": 814
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 815,
-    "end": 827,
-    "range": [
-      815,
-      827
-    ]
+    "end": 827
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 827,
-    "end": 828,
-    "range": [
-      827,
-      828
-    ]
+    "end": 828
   },
   {
     "type": "String",
     "value": "'#2: The \"while\" statement returns (normal, V, empty)'",
     "start": 828,
-    "end": 882,
-    "range": [
-      828,
-      882
-    ]
+    "end": 882
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 882,
-    "end": 883,
-    "range": [
-      882,
-      883
-    ]
+    "end": 883
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 883,
-    "end": 884,
-    "range": [
-      883,
-      884
-    ]
+    "end": 884
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 885,
-    "end": 886,
-    "range": [
-      885,
-      886
-    ]
+    "end": 886
   }
 ]

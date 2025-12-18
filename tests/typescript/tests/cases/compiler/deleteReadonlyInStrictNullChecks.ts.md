@@ -135,181 +135,109 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "interface",
     "start": 0,
-    "end": 9,
-    "range": [
-      0,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Identifier",
     "value": "Function",
     "start": 10,
-    "end": 18,
-    "range": [
-      10,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 19,
-    "end": 20,
-    "range": [
-      19,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Identifier",
     "value": "readonly",
     "start": 21,
-    "end": 29,
-    "range": [
-      21,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Identifier",
     "value": "name",
     "start": 30,
-    "end": 34,
-    "range": [
-      30,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 34,
-    "end": 35,
-    "range": [
-      34,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 36,
-    "end": 42,
-    "range": [
-      36,
-      42
-    ]
+    "end": 42
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 42,
-    "end": 43,
-    "range": [
-      42,
-      43
-    ]
+    "end": 43
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 44,
-    "end": 45,
-    "range": [
-      44,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 46,
-    "end": 51,
-    "range": [
-      46,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Identifier",
     "value": "Foo",
     "start": 52,
-    "end": 55,
-    "range": [
-      52,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 56,
-    "end": 57,
-    "range": [
-      56,
-      57
-    ]
+    "end": 57
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 57,
-    "end": 58,
-    "range": [
-      57,
-      58
-    ]
+    "end": 58
   },
   {
     "type": "Keyword",
     "value": "delete",
     "start": 59,
-    "end": 65,
-    "range": [
-      59,
-      65
-    ]
+    "end": 65
   },
   {
     "type": "Identifier",
     "value": "Foo",
     "start": 66,
-    "end": 69,
-    "range": [
-      66,
-      69
-    ]
+    "end": 69
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 69,
-    "end": 70,
-    "range": [
-      69,
-      70
-    ]
+    "end": 70
   },
   {
     "type": "Identifier",
     "value": "name",
     "start": 70,
-    "end": 74,
-    "range": [
-      70,
-      74
-    ]
+    "end": 74
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 74,
-    "end": 75,
-    "range": [
-      74,
-      75
-    ]
+    "end": 75
   }
 ]
 ```

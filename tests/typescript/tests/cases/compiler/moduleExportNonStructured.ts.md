@@ -203,451 +203,271 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 7,
-    "end": 8,
-    "range": [
-      7,
-      8
-    ]
+    "end": 8
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 9,
-    "end": 11,
-    "range": [
-      9,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "exportAny",
     "start": 12,
-    "end": 21,
-    "range": [
-      12,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 22,
-    "end": 26,
-    "range": [
-      22,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "String",
     "value": "\"./exportAny.cjs\"",
     "start": 27,
-    "end": 44,
-    "range": [
-      27,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 44,
-    "end": 45,
-    "range": [
-      44,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 46,
-    "end": 52,
-    "range": [
-      46,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 53,
-    "end": 54,
-    "range": [
-      53,
-      54
-    ]
+    "end": 54
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 55,
-    "end": 57,
-    "range": [
-      55,
-      57
-    ]
+    "end": 57
   },
   {
     "type": "Identifier",
     "value": "exportUnknown",
     "start": 58,
-    "end": 71,
-    "range": [
-      58,
-      71
-    ]
+    "end": 71
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 72,
-    "end": 76,
-    "range": [
-      72,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "String",
     "value": "\"./exportUnknown.cjs\"",
     "start": 77,
-    "end": 98,
-    "range": [
-      77,
-      98
-    ]
+    "end": 98
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 98,
-    "end": 99,
-    "range": [
-      98,
-      99
-    ]
+    "end": 99
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 100,
-    "end": 106,
-    "range": [
-      100,
-      106
-    ]
+    "end": 106
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 107,
-    "end": 108,
-    "range": [
-      107,
-      108
-    ]
+    "end": 108
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 109,
-    "end": 111,
-    "range": [
-      109,
-      111
-    ]
+    "end": 111
   },
   {
     "type": "Identifier",
     "value": "exportSymbol",
     "start": 112,
-    "end": 124,
-    "range": [
-      112,
-      124
-    ]
+    "end": 124
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 125,
-    "end": 129,
-    "range": [
-      125,
-      129
-    ]
+    "end": 129
   },
   {
     "type": "String",
     "value": "\"./exportSymbol.cjs\"",
     "start": 130,
-    "end": 150,
-    "range": [
-      130,
-      150
-    ]
+    "end": 150
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 150,
-    "end": 151,
-    "range": [
-      150,
-      151
-    ]
+    "end": 151
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 153,
-    "end": 159,
-    "range": [
-      153,
-      159
-    ]
+    "end": 159
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 160,
-    "end": 164,
-    "range": [
-      160,
-      164
-    ]
+    "end": 164
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 165,
-    "end": 166,
-    "range": [
-      165,
-      166
-    ]
+    "end": 166
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 167,
-    "end": 169,
-    "range": [
-      167,
-      169
-    ]
+    "end": 169
   },
   {
     "type": "Identifier",
     "value": "exportAnyType",
     "start": 170,
-    "end": 183,
-    "range": [
-      170,
-      183
-    ]
+    "end": 183
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 184,
-    "end": 188,
-    "range": [
-      184,
-      188
-    ]
+    "end": 188
   },
   {
     "type": "String",
     "value": "\"./exportAny.cjs\"",
     "start": 189,
-    "end": 206,
-    "range": [
-      189,
-      206
-    ]
+    "end": 206
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 206,
-    "end": 207,
-    "range": [
-      206,
-      207
-    ]
+    "end": 207
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 208,
-    "end": 214,
-    "range": [
-      208,
-      214
-    ]
+    "end": 214
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 215,
-    "end": 219,
-    "range": [
-      215,
-      219
-    ]
+    "end": 219
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 220,
-    "end": 221,
-    "range": [
-      220,
-      221
-    ]
+    "end": 221
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 222,
-    "end": 224,
-    "range": [
-      222,
-      224
-    ]
+    "end": 224
   },
   {
     "type": "Identifier",
     "value": "exportUnknownType",
     "start": 225,
-    "end": 242,
-    "range": [
-      225,
-      242
-    ]
+    "end": 242
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 243,
-    "end": 247,
-    "range": [
-      243,
-      247
-    ]
+    "end": 247
   },
   {
     "type": "String",
     "value": "\"./exportUnknown.cjs\"",
     "start": 248,
-    "end": 269,
-    "range": [
-      248,
-      269
-    ]
+    "end": 269
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 269,
-    "end": 270,
-    "range": [
-      269,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 271,
-    "end": 277,
-    "range": [
-      271,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 278,
-    "end": 282,
-    "range": [
-      278,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 283,
-    "end": 284,
-    "range": [
-      283,
-      284
-    ]
+    "end": 284
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 285,
-    "end": 287,
-    "range": [
-      285,
-      287
-    ]
+    "end": 287
   },
   {
     "type": "Identifier",
     "value": "exportSymbolType",
     "start": 288,
-    "end": 304,
-    "range": [
-      288,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 305,
-    "end": 309,
-    "range": [
-      305,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "String",
     "value": "\"./exportSymbol.cjs\"",
     "start": 310,
-    "end": 330,
-    "range": [
-      310,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 330,
-    "end": 331,
-    "range": [
-      330,
-      331
-    ]
+    "end": 331
   }
 ]
 ```
@@ -718,101 +538,61 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8,
-    "end": 13,
-    "range": [
-      8,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Identifier",
     "value": "__",
     "start": 14,
-    "end": 16,
-    "range": [
-      14,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 16,
-    "end": 17,
-    "range": [
-      16,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Identifier",
     "value": "any",
     "start": 18,
-    "end": 21,
-    "range": [
-      18,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 21,
-    "end": 22,
-    "range": [
-      21,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 23,
-    "end": 29,
-    "range": [
-      23,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 30,
-    "end": 31,
-    "range": [
-      30,
-      31
-    ]
+    "end": 31
   },
   {
     "type": "Identifier",
     "value": "__",
     "start": 32,
-    "end": 34,
-    "range": [
-      32,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 34,
-    "end": 35,
-    "range": [
-      34,
-      35
-    ]
+    "end": 35
   }
 ]
 ```
@@ -883,101 +663,61 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8,
-    "end": 13,
-    "range": [
-      8,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Identifier",
     "value": "__",
     "start": 14,
-    "end": 16,
-    "range": [
-      14,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 16,
-    "end": 17,
-    "range": [
-      16,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Identifier",
     "value": "unknown",
     "start": 18,
-    "end": 25,
-    "range": [
-      18,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 25,
-    "end": 26,
-    "range": [
-      25,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 27,
-    "end": 33,
-    "range": [
-      27,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 34,
-    "end": 35,
-    "range": [
-      34,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "Identifier",
     "value": "__",
     "start": 36,
-    "end": 38,
-    "range": [
-      36,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 38,
-    "end": 39,
-    "range": [
-      38,
-      39
-    ]
+    "end": 39
   }
 ]
 ```
@@ -1048,101 +788,61 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8,
-    "end": 13,
-    "range": [
-      8,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Identifier",
     "value": "__",
     "start": 14,
-    "end": 16,
-    "range": [
-      14,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 16,
-    "end": 17,
-    "range": [
-      16,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Identifier",
     "value": "symbol",
     "start": 18,
-    "end": 24,
-    "range": [
-      18,
-      24
-    ]
+    "end": 24
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 24,
-    "end": 25,
-    "range": [
-      24,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 26,
-    "end": 32,
-    "range": [
-      26,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 33,
-    "end": 34,
-    "range": [
-      33,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Identifier",
     "value": "__",
     "start": 35,
-    "end": 37,
-    "range": [
-      35,
-      37
-    ]
+    "end": 37
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 37,
-    "end": 38,
-    "range": [
-      37,
-      38
-    ]
+    "end": 38
   }
 ]
 ```

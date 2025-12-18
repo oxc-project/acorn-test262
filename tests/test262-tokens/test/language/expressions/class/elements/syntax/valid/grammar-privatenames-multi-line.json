@@ -3,90 +3,54 @@
     "type": "Keyword",
     "value": "var",
     "start": 627,
-    "end": 630,
-    "range": [
-      627,
-      630
-    ]
+    "end": 630
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 631,
-    "end": 632,
-    "range": [
-      631,
-      632
-    ]
+    "end": 632
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 633,
-    "end": 634,
-    "range": [
-      633,
-      634
-    ]
+    "end": 634
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 635,
-    "end": 640,
-    "range": [
-      635,
-      640
-    ]
+    "end": 640
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 641,
-    "end": 642,
-    "range": [
-      641,
-      642
-    ]
+    "end": 642
   },
   {
     "type": "PrivateIdentifier",
     "value": "x",
     "start": 645,
-    "end": 647,
-    "range": [
-      645,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "PrivateIdentifier",
     "value": "y",
     "start": 650,
-    "end": 652,
-    "range": [
-      650,
-      652
-    ]
+    "end": 652
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 653,
-    "end": 654,
-    "range": [
-      653,
-      654
-    ]
+    "end": 654
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 654,
-    "end": 655,
-    "range": [
-      654,
-      655
-    ]
+    "end": 655
   }
 ]

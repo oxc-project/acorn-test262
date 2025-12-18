@@ -3,60 +3,36 @@
     "type": "Keyword",
     "value": "class",
     "start": 628,
-    "end": 633,
-    "range": [
-      628,
-      633
-    ]
+    "end": 633
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 634,
-    "end": 635,
-    "range": [
-      634,
-      635
-    ]
+    "end": 635
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 636,
-    "end": 637,
-    "range": [
-      636,
-      637
-    ]
+    "end": 637
   },
   {
     "type": "PrivateIdentifier",
     "value": "x",
     "start": 640,
-    "end": 642,
-    "range": [
-      640,
-      642
-    ]
+    "end": 642
   },
   {
     "type": "PrivateIdentifier",
     "value": "y",
     "start": 645,
-    "end": 647,
-    "range": [
-      645,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 648,
-    "end": 649,
-    "range": [
-      648,
-      649
-    ]
+    "end": 649
   }
 ]

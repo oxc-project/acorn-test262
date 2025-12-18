@@ -3,520 +3,312 @@
     "type": "Keyword",
     "value": "var",
     "start": 288,
-    "end": 291,
-    "range": [
-      288,
-      291
-    ]
+    "end": 291
   },
   {
     "type": "Identifier",
     "value": "evalStr",
     "start": 292,
-    "end": 299,
-    "range": [
-      292,
-      299
-    ]
+    "end": 299
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 300,
-    "end": 301,
-    "range": [
-      300,
-      301
-    ]
+    "end": 301
   },
   {
     "type": "String",
     "value": "'//CHECK#1\\n'",
     "start": 302,
-    "end": 315,
-    "range": [
-      302,
-      315
-    ]
+    "end": 315
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 315,
-    "end": 316,
-    "range": [
-      315,
-      316
-    ]
+    "end": 316
   },
   {
     "type": "String",
     "value": "'for (var x in this) {\\n'",
     "start": 317,
-    "end": 342,
-    "range": [
-      317,
-      342
-    ]
+    "end": 342
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 342,
-    "end": 343,
-    "range": [
-      342,
-      343
-    ]
+    "end": 343
   },
   {
     "type": "String",
     "value": "'  if ( x === \\'eval\\' ) {\\n'",
     "start": 344,
-    "end": 373,
-    "range": [
-      344,
-      373
-    ]
+    "end": 373
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 373,
-    "end": 374,
-    "range": [
-      373,
-      374
-    ]
+    "end": 374
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'eval\\' have attribute DontEnum\");\\n'",
     "start": 375,
-    "end": 446,
-    "range": [
-      375,
-      446
-    ]
+    "end": 446
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 446,
-    "end": 447,
-    "range": [
-      446,
-      447
-    ]
+    "end": 447
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'parseInt\\' ) {\\n'",
     "start": 448,
-    "end": 488,
-    "range": [
-      448,
-      488
-    ]
+    "end": 488
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 488,
-    "end": 489,
-    "range": [
-      488,
-      489
-    ]
+    "end": 489
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'parseInt\\' have attribute DontEnum\");\\n'",
     "start": 490,
-    "end": 565,
-    "range": [
-      490,
-      565
-    ]
+    "end": 565
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 565,
-    "end": 566,
-    "range": [
-      565,
-      566
-    ]
+    "end": 566
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'parseFloat\\' ) {\\n'",
     "start": 567,
-    "end": 609,
-    "range": [
-      567,
-      609
-    ]
+    "end": 609
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 609,
-    "end": 610,
-    "range": [
-      609,
-      610
-    ]
+    "end": 610
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'parseFloat\\' have attribute DontEnum\");\\n'",
     "start": 611,
-    "end": 688,
-    "range": [
-      611,
-      688
-    ]
+    "end": 688
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 688,
-    "end": 689,
-    "range": [
-      688,
-      689
-    ]
+    "end": 689
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'isNaN\\' ) {\\n'",
     "start": 690,
-    "end": 727,
-    "range": [
-      690,
-      727
-    ]
+    "end": 727
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 727,
-    "end": 728,
-    "range": [
-      727,
-      728
-    ]
+    "end": 728
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'isNaN\\' have attribute DontEnum\");\\n'",
     "start": 729,
-    "end": 801,
-    "range": [
-      729,
-      801
-    ]
+    "end": 801
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 801,
-    "end": 802,
-    "range": [
-      801,
-      802
-    ]
+    "end": 802
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'isFinite\\' ) {\\n'",
     "start": 803,
-    "end": 843,
-    "range": [
-      803,
-      843
-    ]
+    "end": 843
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 843,
-    "end": 844,
-    "range": [
-      843,
-      844
-    ]
+    "end": 844
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'isFinite\\' have attribute DontEnum\");\\n'",
     "start": 845,
-    "end": 920,
-    "range": [
-      845,
-      920
-    ]
+    "end": 920
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 920,
-    "end": 921,
-    "range": [
-      920,
-      921
-    ]
+    "end": 921
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'decodeURI\\' ) {\\n'",
     "start": 922,
-    "end": 963,
-    "range": [
-      922,
-      963
-    ]
+    "end": 963
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 963,
-    "end": 964,
-    "range": [
-      963,
-      964
-    ]
+    "end": 964
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'decodeURI\\' have attribute DontEnum\");\\n'",
     "start": 965,
-    "end": 1041,
-    "range": [
-      965,
-      1041
-    ]
+    "end": 1041
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1041,
-    "end": 1042,
-    "range": [
-      1041,
-      1042
-    ]
+    "end": 1042
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'decodeURIComponent\\' ) {\\n'",
     "start": 1043,
-    "end": 1093,
-    "range": [
-      1043,
-      1093
-    ]
+    "end": 1093
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1093,
-    "end": 1094,
-    "range": [
-      1093,
-      1094
-    ]
+    "end": 1094
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'decodeURIComponent\\' have attribute DontEnum\");\\n'",
     "start": 1095,
-    "end": 1180,
-    "range": [
-      1095,
-      1180
-    ]
+    "end": 1180
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1180,
-    "end": 1181,
-    "range": [
-      1180,
-      1181
-    ]
+    "end": 1181
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'encodeURI\\' ) {\\n'",
     "start": 1182,
-    "end": 1223,
-    "range": [
-      1182,
-      1223
-    ]
+    "end": 1223
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1223,
-    "end": 1224,
-    "range": [
-      1223,
-      1224
-    ]
+    "end": 1224
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'encodeURI\\' have attribute DontEnum\");\\n'",
     "start": 1225,
-    "end": 1301,
-    "range": [
-      1225,
-      1301
-    ]
+    "end": 1301
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1301,
-    "end": 1302,
-    "range": [
-      1301,
-      1302
-    ]
+    "end": 1302
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'encodeURIComponent\\' ) {\\n'",
     "start": 1303,
-    "end": 1353,
-    "range": [
-      1303,
-      1353
-    ]
+    "end": 1353
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1353,
-    "end": 1354,
-    "range": [
-      1353,
-      1354
-    ]
+    "end": 1354
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'encodeURIComponent\\' have attribute DontEnum\");\\n'",
     "start": 1355,
-    "end": 1440,
-    "range": [
-      1355,
-      1440
-    ]
+    "end": 1440
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1440,
-    "end": 1441,
-    "range": [
-      1440,
-      1441
-    ]
+    "end": 1441
   },
   {
     "type": "String",
     "value": "'  }\\n'",
     "start": 1442,
-    "end": 1449,
-    "range": [
-      1442,
-      1449
-    ]
+    "end": 1449
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1449,
-    "end": 1450,
-    "range": [
-      1449,
-      1450
-    ]
+    "end": 1450
   },
   {
     "type": "String",
     "value": "'}\\n'",
     "start": 1451,
-    "end": 1456,
-    "range": [
-      1451,
-      1456
-    ]
+    "end": 1456
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1456,
-    "end": 1457,
-    "range": [
-      1456,
-      1457
-    ]
+    "end": 1457
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1459,
-    "end": 1463,
-    "range": [
-      1459,
-      1463
-    ]
+    "end": 1463
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1463,
-    "end": 1464,
-    "range": [
-      1463,
-      1464
-    ]
+    "end": 1464
   },
   {
     "type": "Identifier",
     "value": "evalStr",
     "start": 1464,
-    "end": 1471,
-    "range": [
-      1464,
-      1471
-    ]
+    "end": 1471
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1471,
-    "end": 1472,
-    "range": [
-      1471,
-      1472
-    ]
+    "end": 1472
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1472,
-    "end": 1473,
-    "range": [
-      1472,
-      1473
-    ]
+    "end": 1473
   }
 ]

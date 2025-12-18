@@ -3,180 +3,108 @@
     "type": "Identifier",
     "value": "NaN",
     "start": 259,
-    "end": 262,
-    "range": [
-      259,
-      262
-    ]
+    "end": 262
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 263,
-    "end": 264,
-    "range": [
-      263,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 265,
-    "end": 269,
-    "range": [
-      265,
-      269
-    ]
+    "end": 269
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 269,
-    "end": 270,
-    "range": [
-      269,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 271,
-    "end": 277,
-    "range": [
-      271,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 277,
-    "end": 278,
-    "range": [
-      277,
-      278
-    ]
+    "end": 278
   },
   {
     "type": "Identifier",
     "value": "notSameValue",
     "start": 278,
-    "end": 290,
-    "range": [
-      278,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 290,
-    "end": 291,
-    "range": [
-      290,
-      291
-    ]
+    "end": 291
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 291,
-    "end": 297,
-    "range": [
-      291,
-      297
-    ]
+    "end": 297
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "Identifier",
     "value": "NaN",
     "start": 298,
-    "end": 301,
-    "range": [
-      298,
-      301
-    ]
+    "end": 301
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 301,
-    "end": 302,
-    "range": [
-      301,
-      302
-    ]
+    "end": 302
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 302,
-    "end": 303,
-    "range": [
-      302,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "String",
     "value": "\"boolean\"",
     "start": 304,
-    "end": 313,
-    "range": [
-      304,
-      313
-    ]
+    "end": 313
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 313,
-    "end": 314,
-    "range": [
-      313,
-      314
-    ]
+    "end": 314
   },
   {
     "type": "String",
     "value": "'The value of typeof(NaN) is not \"boolean\"'",
     "start": 315,
-    "end": 358,
-    "range": [
-      315,
-      358
-    ]
+    "end": 358
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 358,
-    "end": 359,
-    "range": [
-      358,
-      359
-    ]
+    "end": 359
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 359,
-    "end": 360,
-    "range": [
-      359,
-      360
-    ]
+    "end": 360
   }
 ]

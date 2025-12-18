@@ -38,51 +38,31 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Identifier",
     "value": "module",
     "start": 8,
-    "end": 14,
-    "range": [
-      8,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "String",
     "value": "\"react\"",
     "start": 15,
-    "end": 22,
-    "range": [
-      15,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 23,
-    "end": 24,
-    "range": [
-      23,
-      24
-    ]
+    "end": 24
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 26,
-    "end": 27,
-    "range": [
-      26,
-      27
-    ]
+    "end": 27
   }
 ]
 ```
@@ -188,141 +168,85 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 8,
-    "end": 17,
-    "range": [
-      8,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Identifier",
     "value": "JSX",
     "start": 18,
-    "end": 21,
-    "range": [
-      18,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 22,
-    "end": 23,
-    "range": [
-      22,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 28,
-    "end": 37,
-    "range": [
-      28,
-      37
-    ]
+    "end": 37
   },
   {
     "type": "Identifier",
     "value": "Element",
     "start": 38,
-    "end": 45,
-    "range": [
-      38,
-      45
-    ]
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 46,
-    "end": 47,
-    "range": [
-      46,
-      47
-    ]
+    "end": 47
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 48,
-    "end": 49,
-    "range": [
-      48,
-      49
-    ]
+    "end": 49
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 50,
-    "end": 51,
-    "range": [
-      50,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 52,
-    "end": 58,
-    "range": [
-      52,
-      58
-    ]
+    "end": 58
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 59,
-    "end": 64,
-    "range": [
-      59,
-      64
-    ]
+    "end": 64
   },
   {
     "type": "Identifier",
     "value": "MyClass",
     "start": 65,
-    "end": 72,
-    "range": [
-      65,
-      72
-    ]
+    "end": 72
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 73,
-    "end": 74,
-    "range": [
-      73,
-      74
-    ]
+    "end": 74
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 75,
-    "end": 76,
-    "range": [
-      75,
-      76
-    ]
+    "end": 76
   }
 ]
 ```
@@ -444,191 +368,115 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "import",
     "start": 33,
-    "end": 39,
-    "range": [
-      33,
-      39
-    ]
+    "end": 39
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 40,
-    "end": 41,
-    "range": [
-      40,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 42,
-    "end": 44,
-    "range": [
-      42,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Identifier",
     "value": "React",
     "start": 45,
-    "end": 50,
-    "range": [
-      45,
-      50
-    ]
+    "end": 50
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 51,
-    "end": 55,
-    "range": [
-      51,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "String",
     "value": "'react'",
     "start": 56,
-    "end": 63,
-    "range": [
-      56,
-      63
-    ]
+    "end": 63
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 63,
-    "end": 64,
-    "range": [
-      63,
-      64
-    ]
+    "end": 64
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 65,
-    "end": 71,
-    "range": [
-      65,
-      71
-    ]
+    "end": 71
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 72,
-    "end": 73,
-    "range": [
-      72,
-      73
-    ]
+    "end": 73
   },
   {
     "type": "Identifier",
     "value": "MyClass",
     "start": 73,
-    "end": 80,
-    "range": [
-      73,
-      80
-    ]
+    "end": 80
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 80,
-    "end": 81,
-    "range": [
-      80,
-      81
-    ]
+    "end": 81
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 82,
-    "end": 86,
-    "range": [
-      82,
-      86
-    ]
+    "end": 86
   },
   {
     "type": "String",
     "value": "'./file1'",
     "start": 87,
-    "end": 96,
-    "range": [
-      87,
-      96
-    ]
+    "end": 96
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 96,
-    "end": 97,
-    "range": [
-      96,
-      97
-    ]
+    "end": 97
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 99,
-    "end": 100,
-    "range": [
-      99,
-      100
-    ]
+    "end": 100
   },
   {
     "type": "JSXIdentifier",
     "value": "MyClass",
     "start": 100,
-    "end": 107,
-    "range": [
-      100,
-      107
-    ]
+    "end": 107
   },
   {
     "type": "Punctuator",
     "value": "/",
     "start": 108,
-    "end": 109,
-    "range": [
-      108,
-      109
-    ]
+    "end": 109
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 109,
-    "end": 110,
-    "range": [
-      109,
-      110
-    ]
+    "end": 110
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 110,
-    "end": 111,
-    "range": [
-      110,
-      111
-    ]
+    "end": 111
   }
 ]
 ```

@@ -109,101 +109,61 @@ __ESTREE_TEST__:TOKENS:
     "type": "String",
     "value": "\"oops �� oops\"",
     "start": 0,
-    "end": 14,
-    "range": [
-      0,
-      14
-    ]
+    "end": 14
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 14,
-    "end": 15,
-    "range": [
-      14,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "String",
     "value": "'oops �� oops'",
     "start": 16,
-    "end": 30,
-    "range": [
-      16,
-      30
-    ]
+    "end": 30
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 30,
-    "end": 31,
-    "range": [
-      30,
-      31
-    ]
+    "end": 31
   },
   {
     "type": "Template",
     "value": "`oops �� oops`",
     "start": 32,
-    "end": 46,
-    "range": [
-      32,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 46,
-    "end": 47,
-    "range": [
-      46,
-      47
-    ]
+    "end": 47
   },
   {
     "type": "Template",
     "value": "`${",
     "start": 48,
-    "end": 51,
-    "range": [
-      48,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "String",
     "value": "\"oops �� oops\"",
     "start": 51,
-    "end": 65,
-    "range": [
-      51,
-      65
-    ]
+    "end": 65
   },
   {
     "type": "Template",
     "value": "}`",
     "start": 65,
-    "end": 67,
-    "range": [
-      65,
-      67
-    ]
+    "end": 67
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 67,
-    "end": 68,
-    "range": [
-      67,
-      68
-    ]
+    "end": 68
   }
 ]
 ```

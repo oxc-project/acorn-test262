@@ -93,131 +93,79 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "var",
     "start": 0,
-    "end": 3,
-    "range": [
-      0,
-      3
-    ]
+    "end": 3
   },
   {
     "type": "Identifier",
     "value": "CustomTag",
     "start": 4,
-    "end": 13,
-    "range": [
-      4,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 14,
-    "end": 15,
-    "range": [
-      14,
-      15
-    ]
+    "end": 15
   },
   {
     "type": "String",
     "value": "\"h1\"",
     "start": 16,
-    "end": 20,
-    "range": [
-      16,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 20,
-    "end": 21,
-    "range": [
-      20,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 22,
-    "end": 23,
-    "range": [
-      22,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "JSXIdentifier",
     "value": "CustomTag",
     "start": 23,
-    "end": 32,
-    "range": [
-      23,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 32,
-    "end": 33,
-    "range": [
-      32,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "JSXText",
     "value": " Hello World ",
     "start": 33,
-    "end": 46,
-    "range": [
-      33,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 46,
-    "end": 47,
-    "range": [
-      46,
-      47
-    ]
+    "end": 47
   },
   {
     "type": "Punctuator",
     "value": "/",
     "start": 47,
-    "end": 48,
-    "range": [
-      47,
-      48
-    ]
+    "end": 48
   },
   {
     "type": "JSXIdentifier",
     "value": "CustomTag",
     "start": 48,
-    "end": 57,
-    "range": [
-      48,
-      57
-    ]
+    "end": 57
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 57,
-    "end": 58,
-    "range": [
-      57,
-      58
-    ]
+    "end": 58
   }
 ]
 ```

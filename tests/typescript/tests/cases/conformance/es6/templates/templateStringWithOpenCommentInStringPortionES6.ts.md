@@ -76,51 +76,31 @@ __ESTREE_TEST__:TOKENS:
     "type": "Template",
     "value": "` /**head  ${",
     "start": 0,
-    "end": 13,
-    "range": [
-      0,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Numeric",
     "value": "10",
     "start": 14,
-    "end": 16,
-    "range": [
-      14,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Template",
     "value": "} // still middle  ${",
     "start": 17,
-    "end": 38,
-    "range": [
-      17,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Numeric",
     "value": "20",
     "start": 39,
-    "end": 41,
-    "range": [
-      39,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Template",
     "value": "} /* still tail `",
     "start": 42,
-    "end": 59,
-    "range": [
-      42,
-      59
-    ]
+    "end": 59
   }
 ]
 ```

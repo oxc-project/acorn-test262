@@ -3,180 +3,108 @@
     "type": "Identifier",
     "value": "assert",
     "start": 316,
-    "end": 322,
-    "range": [
-      316,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 322,
-    "end": 323,
-    "range": [
-      322,
-      323
-    ]
+    "end": 323
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 323,
-    "end": 332,
-    "range": [
-      323,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 332,
-    "end": 333,
-    "range": [
-      332,
-      333
-    ]
+    "end": 333
   },
   {
     "type": "Identifier",
     "value": "Date",
     "start": 336,
-    "end": 340,
-    "range": [
-      336,
-      340
-    ]
+    "end": 340
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 340,
-    "end": 341,
-    "range": [
-      340,
-      341
-    ]
+    "end": 341
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 341,
-    "end": 350,
-    "range": [
-      341,
-      350
-    ]
+    "end": 350
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 350,
-    "end": 351,
-    "range": [
-      350,
-      351
-    ]
+    "end": 351
   },
   {
     "type": "Identifier",
     "value": "hasOwnProperty",
     "start": 351,
-    "end": 365,
-    "range": [
-      351,
-      365
-    ]
+    "end": 365
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 365,
-    "end": 366,
-    "range": [
-      365,
-      366
-    ]
+    "end": 366
   },
   {
     "type": "String",
     "value": "\"toTimeString\"",
     "start": 366,
-    "end": 380,
-    "range": [
-      366,
-      380
-    ]
+    "end": 380
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 380,
-    "end": 381,
-    "range": [
-      380,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 381,
-    "end": 382,
-    "range": [
-      381,
-      382
-    ]
+    "end": 382
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 385,
-    "end": 389,
-    "range": [
-      385,
-      389
-    ]
+    "end": 389
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 389,
-    "end": 390,
-    "range": [
-      389,
-      390
-    ]
+    "end": 390
   },
   {
     "type": "String",
     "value": "'Date.prototype.hasOwnProperty(\"toTimeString\") must return true'",
     "start": 393,
-    "end": 457,
-    "range": [
-      393,
-      457
-    ]
+    "end": 457
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 458,
-    "end": 459,
-    "range": [
-      458,
-      459
-    ]
+    "end": 459
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 459,
-    "end": 460,
-    "range": [
-      459,
-      460
-    ]
+    "end": 460
   }
 ]

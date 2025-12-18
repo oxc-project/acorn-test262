@@ -3,960 +3,576 @@
     "type": "Identifier",
     "value": "assert",
     "start": 203,
-    "end": 209,
-    "range": [
-      203,
-      209
-    ]
+    "end": 209
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 209,
-    "end": 210,
-    "range": [
-      209,
-      210
-    ]
+    "end": 210
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 210,
-    "end": 219,
-    "range": [
-      210,
-      219
-    ]
+    "end": 219
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 219,
-    "end": 220,
-    "range": [
-      219,
-      220
-    ]
+    "end": 220
   },
   {
     "type": "Identifier",
     "value": "Math",
     "start": 220,
-    "end": 224,
-    "range": [
-      220,
-      224
-    ]
+    "end": 224
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 224,
-    "end": 225,
-    "range": [
-      224,
-      225
-    ]
+    "end": 225
   },
   {
     "type": "Identifier",
     "value": "tanh",
     "start": 225,
-    "end": 229,
-    "range": [
-      225,
-      229
-    ]
+    "end": 229
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 229,
-    "end": 230,
-    "range": [
-      229,
-      230
-    ]
+    "end": 230
   },
   {
     "type": "Identifier",
     "value": "NaN",
     "start": 230,
-    "end": 233,
-    "range": [
-      230,
-      233
-    ]
+    "end": 233
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 233,
-    "end": 234,
-    "range": [
-      233,
-      234
-    ]
+    "end": 234
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 234,
-    "end": 235,
-    "range": [
-      234,
-      235
-    ]
+    "end": 235
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 236,
-    "end": 242,
-    "range": [
-      236,
-      242
-    ]
+    "end": 242
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 242,
-    "end": 243,
-    "range": [
-      242,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Identifier",
     "value": "NaN",
     "start": 243,
-    "end": 246,
-    "range": [
-      243,
-      246
-    ]
+    "end": 246
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 246,
-    "end": 247,
-    "range": [
-      246,
-      247
-    ]
+    "end": 247
   },
   {
     "type": "String",
     "value": "\"Math.tanh produces incorrect output for NaN\"",
     "start": 250,
-    "end": 295,
-    "range": [
-      250,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 295,
-    "end": 296,
-    "range": [
-      295,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 296,
-    "end": 297,
-    "range": [
-      296,
-      297
-    ]
+    "end": 297
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 298,
-    "end": 304,
-    "range": [
-      298,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 304,
-    "end": 305,
-    "range": [
-      304,
-      305
-    ]
+    "end": 305
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 305,
-    "end": 314,
-    "range": [
-      305,
-      314
-    ]
+    "end": 314
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 314,
-    "end": 315,
-    "range": [
-      314,
-      315
-    ]
+    "end": 315
   },
   {
     "type": "Identifier",
     "value": "Math",
     "start": 315,
-    "end": 319,
-    "range": [
-      315,
-      319
-    ]
+    "end": 319
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 319,
-    "end": 320,
-    "range": [
-      319,
-      320
-    ]
+    "end": 320
   },
   {
     "type": "Identifier",
     "value": "tanh",
     "start": 320,
-    "end": 324,
-    "range": [
-      320,
-      324
-    ]
+    "end": 324
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 324,
-    "end": 325,
-    "range": [
-      324,
-      325
-    ]
+    "end": 325
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 325,
-    "end": 331,
-    "range": [
-      325,
-      331
-    ]
+    "end": 331
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 331,
-    "end": 332,
-    "range": [
-      331,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Identifier",
     "value": "NEGATIVE_INFINITY",
     "start": 332,
-    "end": 349,
-    "range": [
-      332,
-      349
-    ]
+    "end": 349
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 349,
-    "end": 350,
-    "range": [
-      349,
-      350
-    ]
+    "end": 350
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 350,
-    "end": 351,
-    "range": [
-      350,
-      351
-    ]
+    "end": 351
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 352,
-    "end": 353,
-    "range": [
-      352,
-      353
-    ]
+    "end": 353
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 353,
-    "end": 354,
-    "range": [
-      353,
-      354
-    ]
+    "end": 354
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 354,
-    "end": 355,
-    "range": [
-      354,
-      355
-    ]
+    "end": 355
   },
   {
     "type": "String",
     "value": "\"Math.tanh should produce -1 for Number.NEGATIVE_INFINITY\"",
     "start": 358,
-    "end": 416,
-    "range": [
-      358,
-      416
-    ]
+    "end": 416
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 416,
-    "end": 417,
-    "range": [
-      416,
-      417
-    ]
+    "end": 417
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 417,
-    "end": 418,
-    "range": [
-      417,
-      418
-    ]
+    "end": 418
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 419,
-    "end": 425,
-    "range": [
-      419,
-      425
-    ]
+    "end": 425
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 425,
-    "end": 426,
-    "range": [
-      425,
-      426
-    ]
+    "end": 426
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 426,
-    "end": 435,
-    "range": [
-      426,
-      435
-    ]
+    "end": 435
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 435,
-    "end": 436,
-    "range": [
-      435,
-      436
-    ]
+    "end": 436
   },
   {
     "type": "Identifier",
     "value": "Math",
     "start": 436,
-    "end": 440,
-    "range": [
-      436,
-      440
-    ]
+    "end": 440
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 440,
-    "end": 441,
-    "range": [
-      440,
-      441
-    ]
+    "end": 441
   },
   {
     "type": "Identifier",
     "value": "tanh",
     "start": 441,
-    "end": 445,
-    "range": [
-      441,
-      445
-    ]
+    "end": 445
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 445,
-    "end": 446,
-    "range": [
-      445,
-      446
-    ]
+    "end": 446
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 446,
-    "end": 452,
-    "range": [
-      446,
-      452
-    ]
+    "end": 452
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 452,
-    "end": 453,
-    "range": [
-      452,
-      453
-    ]
+    "end": 453
   },
   {
     "type": "Identifier",
     "value": "POSITIVE_INFINITY",
     "start": 453,
-    "end": 470,
-    "range": [
-      453,
-      470
-    ]
+    "end": 470
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 470,
-    "end": 471,
-    "range": [
-      470,
-      471
-    ]
+    "end": 471
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 471,
-    "end": 472,
-    "range": [
-      471,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 473,
-    "end": 474,
-    "range": [
-      473,
-      474
-    ]
+    "end": 474
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 474,
-    "end": 475,
-    "range": [
-      474,
-      475
-    ]
+    "end": 475
   },
   {
     "type": "String",
     "value": "\"Math.tanh should produce 1 for Number.POSITIVE_INFINITY\"",
     "start": 478,
-    "end": 535,
-    "range": [
-      478,
-      535
-    ]
+    "end": 535
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 535,
-    "end": 536,
-    "range": [
-      535,
-      536
-    ]
+    "end": 536
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 536,
-    "end": 537,
-    "range": [
-      536,
-      537
-    ]
+    "end": 537
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 538,
-    "end": 544,
-    "range": [
-      538,
-      544
-    ]
+    "end": 544
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 544,
-    "end": 545,
-    "range": [
-      544,
-      545
-    ]
+    "end": 545
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 545,
-    "end": 554,
-    "range": [
-      545,
-      554
-    ]
+    "end": 554
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 554,
-    "end": 555,
-    "range": [
-      554,
-      555
-    ]
+    "end": 555
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 555,
-    "end": 556,
-    "range": [
-      555,
-      556
-    ]
+    "end": 556
   },
   {
     "type": "Punctuator",
     "value": "/",
     "start": 557,
-    "end": 558,
-    "range": [
-      557,
-      558
-    ]
+    "end": 558
   },
   {
     "type": "Identifier",
     "value": "Math",
     "start": 559,
-    "end": 563,
-    "range": [
-      559,
-      563
-    ]
+    "end": 563
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 563,
-    "end": 564,
-    "range": [
-      563,
-      564
-    ]
+    "end": 564
   },
   {
     "type": "Identifier",
     "value": "tanh",
     "start": 564,
-    "end": 568,
-    "range": [
-      564,
-      568
-    ]
+    "end": 568
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 568,
-    "end": 569,
-    "range": [
-      568,
-      569
-    ]
+    "end": 569
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 569,
-    "end": 570,
-    "range": [
-      569,
-      570
-    ]
+    "end": 570
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 570,
-    "end": 571,
-    "range": [
-      570,
-      571
-    ]
+    "end": 571
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 571,
-    "end": 572,
-    "range": [
-      571,
-      572
-    ]
+    "end": 572
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 572,
-    "end": 573,
-    "range": [
-      572,
-      573
-    ]
+    "end": 573
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 574,
-    "end": 580,
-    "range": [
-      574,
-      580
-    ]
+    "end": 580
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 580,
-    "end": 581,
-    "range": [
-      580,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Identifier",
     "value": "NEGATIVE_INFINITY",
     "start": 581,
-    "end": 598,
-    "range": [
-      581,
-      598
-    ]
+    "end": 598
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 598,
-    "end": 599,
-    "range": [
-      598,
-      599
-    ]
+    "end": 599
   },
   {
     "type": "String",
     "value": "\"Math.tanh should produce -0 for -0\"",
     "start": 602,
-    "end": 638,
-    "range": [
-      602,
-      638
-    ]
+    "end": 638
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 638,
-    "end": 639,
-    "range": [
-      638,
-      639
-    ]
+    "end": 639
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 639,
-    "end": 640,
-    "range": [
-      639,
-      640
-    ]
+    "end": 640
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 641,
-    "end": 647,
-    "range": [
-      641,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 647,
-    "end": 648,
-    "range": [
-      647,
-      648
-    ]
+    "end": 648
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 648,
-    "end": 657,
-    "range": [
-      648,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 657,
-    "end": 658,
-    "range": [
-      657,
-      658
-    ]
+    "end": 658
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 658,
-    "end": 659,
-    "range": [
-      658,
-      659
-    ]
+    "end": 659
   },
   {
     "type": "Punctuator",
     "value": "/",
     "start": 660,
-    "end": 661,
-    "range": [
-      660,
-      661
-    ]
+    "end": 661
   },
   {
     "type": "Identifier",
     "value": "Math",
     "start": 662,
-    "end": 666,
-    "range": [
-      662,
-      666
-    ]
+    "end": 666
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 666,
-    "end": 667,
-    "range": [
-      666,
-      667
-    ]
+    "end": 667
   },
   {
     "type": "Identifier",
     "value": "tanh",
     "start": 667,
-    "end": 671,
-    "range": [
-      667,
-      671
-    ]
+    "end": 671
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 671,
-    "end": 672,
-    "range": [
-      671,
-      672
-    ]
+    "end": 672
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 672,
-    "end": 673,
-    "range": [
-      672,
-      673
-    ]
+    "end": 673
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 673,
-    "end": 674,
-    "range": [
-      673,
-      674
-    ]
+    "end": 674
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 674,
-    "end": 675,
-    "range": [
-      674,
-      675
-    ]
+    "end": 675
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 676,
-    "end": 682,
-    "range": [
-      676,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 682,
-    "end": 683,
-    "range": [
-      682,
-      683
-    ]
+    "end": 683
   },
   {
     "type": "Identifier",
     "value": "POSITIVE_INFINITY",
     "start": 683,
-    "end": 700,
-    "range": [
-      683,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 700,
-    "end": 701,
-    "range": [
-      700,
-      701
-    ]
+    "end": 701
   },
   {
     "type": "String",
     "value": "\"Math.tanh should produce +0 for +0\"",
     "start": 704,
-    "end": 740,
-    "range": [
-      704,
-      740
-    ]
+    "end": 740
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 740,
-    "end": 741,
-    "range": [
-      740,
-      741
-    ]
+    "end": 741
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 741,
-    "end": 742,
-    "range": [
-      741,
-      742
-    ]
+    "end": 742
   }
 ]

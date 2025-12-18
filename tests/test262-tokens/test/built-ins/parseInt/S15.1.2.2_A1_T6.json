@@ -3,840 +3,504 @@
     "type": "Identifier",
     "value": "assert",
     "start": 246,
-    "end": 252,
-    "range": [
-      246,
-      252
-    ]
+    "end": 252
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 252,
-    "end": 253,
-    "range": [
-      252,
-      253
-    ]
+    "end": 253
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 253,
-    "end": 262,
-    "range": [
-      253,
-      262
-    ]
+    "end": 262
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 262,
-    "end": 263,
-    "range": [
-      262,
-      263
-    ]
+    "end": 263
   },
   {
     "type": "Identifier",
     "value": "parseInt",
     "start": 263,
-    "end": 271,
-    "range": [
-      263,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 271,
-    "end": 272,
-    "range": [
-      271,
-      272
-    ]
+    "end": 272
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 272,
-    "end": 275,
-    "range": [
-      272,
-      275
-    ]
+    "end": 275
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 276,
-    "end": 282,
-    "range": [
-      276,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 282,
-    "end": 283,
-    "range": [
-      282,
-      283
-    ]
+    "end": 283
   },
   {
     "type": "String",
     "value": "\"-1\"",
     "start": 283,
-    "end": 287,
-    "range": [
-      283,
-      287
-    ]
+    "end": 287
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 287,
-    "end": 288,
-    "range": [
-      287,
-      288
-    ]
+    "end": 288
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 288,
-    "end": 289,
-    "range": [
-      288,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Identifier",
     "value": "parseInt",
     "start": 291,
-    "end": 299,
-    "range": [
-      291,
-      299
-    ]
+    "end": 299
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 299,
-    "end": 300,
-    "range": [
-      299,
-      300
-    ]
+    "end": 300
   },
   {
     "type": "String",
     "value": "\"-1\"",
     "start": 300,
-    "end": 304,
-    "range": [
-      300,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 304,
-    "end": 305,
-    "range": [
-      304,
-      305
-    ]
+    "end": 305
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 305,
-    "end": 306,
-    "range": [
-      305,
-      306
-    ]
+    "end": 306
   },
   {
     "type": "String",
     "value": "'parseInt(new String(\"-1\")) must return the same value returned by parseInt(\"-1\")'",
     "start": 307,
-    "end": 389,
-    "range": [
-      307,
-      389
-    ]
+    "end": 389
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 389,
-    "end": 390,
-    "range": [
-      389,
-      390
-    ]
+    "end": 390
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 390,
-    "end": 391,
-    "range": [
-      390,
-      391
-    ]
+    "end": 391
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 393,
-    "end": 399,
-    "range": [
-      393,
-      399
-    ]
+    "end": 399
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 399,
-    "end": 400,
-    "range": [
-      399,
-      400
-    ]
+    "end": 400
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 400,
-    "end": 409,
-    "range": [
-      400,
-      409
-    ]
+    "end": 409
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 409,
-    "end": 410,
-    "range": [
-      409,
-      410
-    ]
+    "end": 410
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 413,
-    "end": 419,
-    "range": [
-      413,
-      419
-    ]
+    "end": 419
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 419,
-    "end": 420,
-    "range": [
-      419,
-      420
-    ]
+    "end": 420
   },
   {
     "type": "Identifier",
     "value": "parseInt",
     "start": 420,
-    "end": 428,
-    "range": [
-      420,
-      428
-    ]
+    "end": 428
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 428,
-    "end": 429,
-    "range": [
-      428,
-      429
-    ]
+    "end": 429
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 429,
-    "end": 432,
-    "range": [
-      429,
-      432
-    ]
+    "end": 432
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 433,
-    "end": 439,
-    "range": [
-      433,
-      439
-    ]
+    "end": 439
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 439,
-    "end": 440,
-    "range": [
-      439,
-      440
-    ]
+    "end": 440
   },
   {
     "type": "String",
     "value": "\"Infinity\"",
     "start": 440,
-    "end": 450,
-    "range": [
-      440,
-      450
-    ]
+    "end": 450
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 450,
-    "end": 451,
-    "range": [
-      450,
-      451
-    ]
+    "end": 451
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 451,
-    "end": 452,
-    "range": [
-      451,
-      452
-    ]
+    "end": 452
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 452,
-    "end": 453,
-    "range": [
-      452,
-      453
-    ]
+    "end": 453
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 453,
-    "end": 454,
-    "range": [
-      453,
-      454
-    ]
+    "end": 454
   },
   {
     "type": "String",
     "value": "\"NaN\"",
     "start": 457,
-    "end": 462,
-    "range": [
-      457,
-      462
-    ]
+    "end": 462
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 462,
-    "end": 463,
-    "range": [
-      462,
-      463
-    ]
+    "end": 463
   },
   {
     "type": "String",
     "value": "'String(parseInt(new String(\"Infinity\"))) must return \"NaN\"'",
     "start": 466,
-    "end": 526,
-    "range": [
-      466,
-      526
-    ]
+    "end": 526
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 527,
-    "end": 528,
-    "range": [
-      527,
-      528
-    ]
+    "end": 528
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 528,
-    "end": 529,
-    "range": [
-      528,
-      529
-    ]
+    "end": 529
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 531,
-    "end": 537,
-    "range": [
-      531,
-      537
-    ]
+    "end": 537
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 537,
-    "end": 538,
-    "range": [
-      537,
-      538
-    ]
+    "end": 538
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 538,
-    "end": 547,
-    "range": [
-      538,
-      547
-    ]
+    "end": 547
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 547,
-    "end": 548,
-    "range": [
-      547,
-      548
-    ]
+    "end": 548
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 548,
-    "end": 554,
-    "range": [
-      548,
-      554
-    ]
+    "end": 554
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 554,
-    "end": 555,
-    "range": [
-      554,
-      555
-    ]
+    "end": 555
   },
   {
     "type": "Identifier",
     "value": "parseInt",
     "start": 555,
-    "end": 563,
-    "range": [
-      555,
-      563
-    ]
+    "end": 563
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 563,
-    "end": 564,
-    "range": [
-      563,
-      564
-    ]
+    "end": 564
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 564,
-    "end": 567,
-    "range": [
-      564,
-      567
-    ]
+    "end": 567
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 568,
-    "end": 574,
-    "range": [
-      568,
-      574
-    ]
+    "end": 574
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 574,
-    "end": 575,
-    "range": [
-      574,
-      575
-    ]
+    "end": 575
   },
   {
     "type": "String",
     "value": "\"NaN\"",
     "start": 575,
-    "end": 580,
-    "range": [
-      575,
-      580
-    ]
+    "end": 580
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 580,
-    "end": 581,
-    "range": [
-      580,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 581,
-    "end": 582,
-    "range": [
-      581,
-      582
-    ]
+    "end": 582
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 582,
-    "end": 583,
-    "range": [
-      582,
-      583
-    ]
+    "end": 583
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 583,
-    "end": 584,
-    "range": [
-      583,
-      584
-    ]
+    "end": 584
   },
   {
     "type": "String",
     "value": "\"NaN\"",
     "start": 585,
-    "end": 590,
-    "range": [
-      585,
-      590
-    ]
+    "end": 590
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 590,
-    "end": 591,
-    "range": [
-      590,
-      591
-    ]
+    "end": 591
   },
   {
     "type": "String",
     "value": "'String(parseInt(new String(\"NaN\"))) must return \"NaN\"'",
     "start": 592,
-    "end": 647,
-    "range": [
-      592,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 647,
-    "end": 648,
-    "range": [
-      647,
-      648
-    ]
+    "end": 648
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 648,
-    "end": 649,
-    "range": [
-      648,
-      649
-    ]
+    "end": 649
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 650,
-    "end": 656,
-    "range": [
-      650,
-      656
-    ]
+    "end": 656
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 656,
-    "end": 657,
-    "range": [
-      656,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 657,
-    "end": 666,
-    "range": [
-      657,
-      666
-    ]
+    "end": 666
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 666,
-    "end": 667,
-    "range": [
-      666,
-      667
-    ]
+    "end": 667
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 667,
-    "end": 673,
-    "range": [
-      667,
-      673
-    ]
+    "end": 673
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 673,
-    "end": 674,
-    "range": [
-      673,
-      674
-    ]
+    "end": 674
   },
   {
     "type": "Identifier",
     "value": "parseInt",
     "start": 674,
-    "end": 682,
-    "range": [
-      674,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 682,
-    "end": 683,
-    "range": [
-      682,
-      683
-    ]
+    "end": 683
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 683,
-    "end": 686,
-    "range": [
-      683,
-      686
-    ]
+    "end": 686
   },
   {
     "type": "Identifier",
     "value": "String",
     "start": 687,
-    "end": 693,
-    "range": [
-      687,
-      693
-    ]
+    "end": 693
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 693,
-    "end": 694,
-    "range": [
-      693,
-      694
-    ]
+    "end": 694
   },
   {
     "type": "String",
     "value": "\"false\"",
     "start": 694,
-    "end": 701,
-    "range": [
-      694,
-      701
-    ]
+    "end": 701
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 701,
-    "end": 702,
-    "range": [
-      701,
-      702
-    ]
+    "end": 702
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 702,
-    "end": 703,
-    "range": [
-      702,
-      703
-    ]
+    "end": 703
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 703,
-    "end": 704,
-    "range": [
-      703,
-      704
-    ]
+    "end": 704
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 704,
-    "end": 705,
-    "range": [
-      704,
-      705
-    ]
+    "end": 705
   },
   {
     "type": "String",
     "value": "\"NaN\"",
     "start": 706,
-    "end": 711,
-    "range": [
-      706,
-      711
-    ]
+    "end": 711
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 711,
-    "end": 712,
-    "range": [
-      711,
-      712
-    ]
+    "end": 712
   },
   {
     "type": "String",
     "value": "'String(parseInt(new String(\"false\"))) must return \"NaN\"'",
     "start": 713,
-    "end": 770,
-    "range": [
-      713,
-      770
-    ]
+    "end": 770
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 770,
-    "end": 771,
-    "range": [
-      770,
-      771
-    ]
+    "end": 771
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 771,
-    "end": 772,
-    "range": [
-      771,
-      772
-    ]
+    "end": 772
   }
 ]

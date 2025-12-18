@@ -3,690 +3,414 @@
     "type": "Keyword",
     "value": "var",
     "start": 623,
-    "end": 626,
-    "range": [
-      623,
-      626
-    ]
+    "end": 626
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunctionPrototype",
     "start": 627,
-    "end": 658,
-    "range": [
-      627,
-      658
-    ]
+    "end": 658
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 659,
-    "end": 660,
-    "range": [
-      659,
-      660
-    ]
+    "end": 660
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 661,
-    "end": 667,
-    "range": [
-      661,
-      667
-    ]
+    "end": 667
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 667,
-    "end": 668,
-    "range": [
-      667,
-      668
-    ]
+    "end": 668
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 668,
-    "end": 682,
-    "range": [
-      668,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 682,
-    "end": 683,
-    "range": [
-      682,
-      683
-    ]
+    "end": 683
   },
   {
     "type": "Identifier",
     "value": "async",
     "start": 683,
-    "end": 688,
-    "range": [
-      683,
-      688
-    ]
+    "end": 688
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 689,
-    "end": 697,
-    "range": [
-      689,
-      697
-    ]
+    "end": 697
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 697,
-    "end": 698,
-    "range": [
-      697,
-      698
-    ]
+    "end": 698
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 699,
-    "end": 700,
-    "range": [
-      699,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 700,
-    "end": 701,
-    "range": [
-      700,
-      701
-    ]
+    "end": 701
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 702,
-    "end": 703,
-    "range": [
-      702,
-      703
-    ]
+    "end": 703
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 703,
-    "end": 704,
-    "range": [
-      703,
-      704
-    ]
+    "end": 704
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 704,
-    "end": 705,
-    "range": [
-      704,
-      705
-    ]
+    "end": 705
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 705,
-    "end": 706,
-    "range": [
-      705,
-      706
-    ]
+    "end": 706
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 708,
-    "end": 714,
-    "range": [
-      708,
-      714
-    ]
+    "end": 714
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 714,
-    "end": 715,
-    "range": [
-      714,
-      715
-    ]
+    "end": 715
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 715,
-    "end": 724,
-    "range": [
-      715,
-      724
-    ]
+    "end": 724
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 724,
-    "end": 725,
-    "range": [
-      724,
-      725
-    ]
+    "end": 725
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 725,
-    "end": 731,
-    "range": [
-      725,
-      731
-    ]
+    "end": 731
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunctionPrototype",
     "start": 732,
-    "end": 763,
-    "range": [
-      732,
-      763
-    ]
+    "end": 763
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 763,
-    "end": 764,
-    "range": [
-      763,
-      764
-    ]
+    "end": 764
   },
   {
     "type": "String",
     "value": "\"object\"",
     "start": 765,
-    "end": 773,
-    "range": [
-      765,
-      773
-    ]
+    "end": 773
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 773,
-    "end": 774,
-    "range": [
-      773,
-      774
-    ]
+    "end": 774
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 774,
-    "end": 775,
-    "range": [
-      774,
-      775
-    ]
+    "end": 775
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 776,
-    "end": 782,
-    "range": [
-      776,
-      782
-    ]
+    "end": 782
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 782,
-    "end": 783,
-    "range": [
-      782,
-      783
-    ]
+    "end": 783
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 783,
-    "end": 789,
-    "range": [
-      783,
-      789
-    ]
+    "end": 789
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 789,
-    "end": 790,
-    "range": [
-      789,
-      790
-    ]
+    "end": 790
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 790,
-    "end": 799,
-    "range": [
-      790,
-      799
-    ]
+    "end": 799
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 799,
-    "end": 800,
-    "range": [
-      799,
-      800
-    ]
+    "end": 800
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 801,
-    "end": 809,
-    "range": [
-      801,
-      809
-    ]
+    "end": 809
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 809,
-    "end": 810,
-    "range": [
-      809,
-      810
-    ]
+    "end": 810
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 810,
-    "end": 811,
-    "range": [
-      810,
-      811
-    ]
+    "end": 811
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 812,
-    "end": 813,
-    "range": [
-      812,
-      813
-    ]
+    "end": 813
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunctionPrototype",
     "start": 816,
-    "end": 847,
-    "range": [
-      816,
-      847
-    ]
+    "end": 847
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 847,
-    "end": 848,
-    "range": [
-      847,
-      848
-    ]
+    "end": 848
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 848,
-    "end": 849,
-    "range": [
-      848,
-      849
-    ]
+    "end": 849
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 849,
-    "end": 850,
-    "range": [
-      849,
-      850
-    ]
+    "end": 850
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 851,
-    "end": 852,
-    "range": [
-      851,
-      852
-    ]
+    "end": 852
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 852,
-    "end": 853,
-    "range": [
-      852,
-      853
-    ]
+    "end": 853
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 853,
-    "end": 854,
-    "range": [
-      853,
-      854
-    ]
+    "end": 854
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 856,
-    "end": 862,
-    "range": [
-      856,
-      862
-    ]
+    "end": 862
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 862,
-    "end": 863,
-    "range": [
-      862,
-      863
-    ]
+    "end": 863
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 863,
-    "end": 864,
-    "range": [
-      863,
-      864
-    ]
+    "end": 864
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunctionPrototype",
     "start": 864,
-    "end": 895,
-    "range": [
-      864,
-      895
-    ]
+    "end": 895
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 895,
-    "end": 896,
-    "range": [
-      895,
-      896
-    ]
+    "end": 896
   },
   {
     "type": "Identifier",
     "value": "hasOwnProperty",
     "start": 896,
-    "end": 910,
-    "range": [
-      896,
-      910
-    ]
+    "end": 910
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 910,
-    "end": 911,
-    "range": [
-      910,
-      911
-    ]
+    "end": 911
   },
   {
     "type": "String",
     "value": "\"length\"",
     "start": 911,
-    "end": 919,
-    "range": [
-      911,
-      919
-    ]
+    "end": 919
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 919,
-    "end": 920,
-    "range": [
-      919,
-      920
-    ]
+    "end": 920
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 920,
-    "end": 921,
-    "range": [
-      920,
-      921
-    ]
+    "end": 921
   },
   {
     "type": "String",
     "value": "\"length\"",
     "start": 922,
-    "end": 930,
-    "range": [
-      922,
-      930
-    ]
+    "end": 930
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 930,
-    "end": 931,
-    "range": [
-      930,
-      931
-    ]
+    "end": 931
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 931,
-    "end": 932,
-    "range": [
-      931,
-      932
-    ]
+    "end": 932
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 933,
-    "end": 939,
-    "range": [
-      933,
-      939
-    ]
+    "end": 939
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 939,
-    "end": 940,
-    "range": [
-      939,
-      940
-    ]
+    "end": 940
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 940,
-    "end": 941,
-    "range": [
-      940,
-      941
-    ]
+    "end": 941
   },
   {
     "type": "Identifier",
     "value": "AsyncGeneratorFunctionPrototype",
     "start": 941,
-    "end": 972,
-    "range": [
-      941,
-      972
-    ]
+    "end": 972
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 972,
-    "end": 973,
-    "range": [
-      972,
-      973
-    ]
+    "end": 973
   },
   {
     "type": "Identifier",
     "value": "hasOwnProperty",
     "start": 973,
-    "end": 987,
-    "range": [
-      973,
-      987
-    ]
+    "end": 987
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 987,
-    "end": 988,
-    "range": [
-      987,
-      988
-    ]
+    "end": 988
   },
   {
     "type": "String",
     "value": "\"name\"",
     "start": 988,
-    "end": 994,
-    "range": [
-      988,
-      994
-    ]
+    "end": 994
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 994,
-    "end": 995,
-    "range": [
-      994,
-      995
-    ]
+    "end": 995
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 995,
-    "end": 996,
-    "range": [
-      995,
-      996
-    ]
+    "end": 996
   },
   {
     "type": "String",
     "value": "\"name\"",
     "start": 997,
-    "end": 1003,
-    "range": [
-      997,
-      1003
-    ]
+    "end": 1003
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1003,
-    "end": 1004,
-    "range": [
-      1003,
-      1004
-    ]
+    "end": 1004
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1004,
-    "end": 1005,
-    "range": [
-      1004,
-      1005
-    ]
+    "end": 1005
   }
 ]

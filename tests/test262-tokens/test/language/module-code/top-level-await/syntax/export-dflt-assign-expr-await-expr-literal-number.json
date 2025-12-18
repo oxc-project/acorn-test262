@@ -3,50 +3,30 @@
     "type": "Keyword",
     "value": "export",
     "start": 2051,
-    "end": 2057,
-    "range": [
-      2051,
-      2057
-    ]
+    "end": 2057
   },
   {
     "type": "Keyword",
     "value": "default",
     "start": 2058,
-    "end": 2065,
-    "range": [
-      2058,
-      2065
-    ]
+    "end": 2065
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 2066,
-    "end": 2071,
-    "range": [
-      2066,
-      2071
-    ]
+    "end": 2071
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 2072,
-    "end": 2073,
-    "range": [
-      2072,
-      2073
-    ]
+    "end": 2073
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2073,
-    "end": 2074,
-    "range": [
-      2073,
-      2074
-    ]
+    "end": 2074
   }
 ]

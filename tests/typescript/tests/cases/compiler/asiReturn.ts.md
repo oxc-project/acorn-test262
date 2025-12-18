@@ -23,11 +23,7 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "return",
     "start": 95,
-    "end": 101,
-    "range": [
-      95,
-      101
-    ]
+    "end": 101
   }
 ]
 ```

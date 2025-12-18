@@ -3,210 +3,126 @@
     "type": "Identifier",
     "value": "assert",
     "start": 297,
-    "end": 303,
-    "range": [
-      297,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 303,
-    "end": 304,
-    "range": [
-      303,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 304,
-    "end": 310,
-    "range": [
-      304,
-      310
-    ]
+    "end": 310
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 310,
-    "end": 311,
-    "range": [
-      310,
-      311
-    ]
+    "end": 311
   },
   {
     "type": "Identifier",
     "value": "RangeError",
     "start": 311,
-    "end": 321,
-    "range": [
-      311,
-      321
-    ]
+    "end": 321
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 321,
-    "end": 322,
-    "range": [
-      321,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 323,
-    "end": 324,
-    "range": [
-      323,
-      324
-    ]
+    "end": 324
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 324,
-    "end": 325,
-    "range": [
-      324,
-      325
-    ]
+    "end": 325
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 326,
-    "end": 328,
-    "range": [
-      326,
-      328
-    ]
+    "end": 328
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 329,
-    "end": 337,
-    "range": [
-      329,
-      337
-    ]
+    "end": 337
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 337,
-    "end": 338,
-    "range": [
-      337,
-      338
-    ]
+    "end": 338
   },
   {
     "type": "Identifier",
     "value": "PlainDate",
     "start": 338,
-    "end": 347,
-    "range": [
-      338,
-      347
-    ]
+    "end": 347
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 347,
-    "end": 348,
-    "range": [
-      347,
-      348
-    ]
+    "end": 348
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 348,
-    "end": 352,
-    "range": [
-      348,
-      352
-    ]
+    "end": 352
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 352,
-    "end": 353,
-    "range": [
-      352,
-      353
-    ]
+    "end": 353
   },
   {
     "type": "String",
     "value": "\"1976-11-18junk\"",
     "start": 353,
-    "end": 369,
-    "range": [
-      353,
-      369
-    ]
+    "end": 369
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 369,
-    "end": 370,
-    "range": [
-      369,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 370,
-    "end": 371,
-    "range": [
-      370,
-      371
-    ]
+    "end": 371
   },
   {
     "type": "String",
     "value": "\"String with trailing junk should not be valid as a PlainDate\"",
     "start": 374,
-    "end": 436,
-    "range": [
-      374,
-      436
-    ]
+    "end": 436
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 436,
-    "end": 437,
-    "range": [
-      436,
-      437
-    ]
+    "end": 437
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 437,
-    "end": 438,
-    "range": [
-      437,
-      438
-    ]
+    "end": 438
   }
 ]

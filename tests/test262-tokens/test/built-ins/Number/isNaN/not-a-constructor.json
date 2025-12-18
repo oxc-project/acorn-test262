@@ -3,360 +3,216 @@
     "type": "Identifier",
     "value": "assert",
     "start": 684,
-    "end": 690,
-    "range": [
-      684,
-      690
-    ]
+    "end": 690
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 690,
-    "end": 691,
-    "range": [
-      690,
-      691
-    ]
+    "end": 691
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 691,
-    "end": 700,
-    "range": [
-      691,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 700,
-    "end": 701,
-    "range": [
-      700,
-      701
-    ]
+    "end": 701
   },
   {
     "type": "Identifier",
     "value": "isConstructor",
     "start": 701,
-    "end": 714,
-    "range": [
-      701,
-      714
-    ]
+    "end": 714
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 714,
-    "end": 715,
-    "range": [
-      714,
-      715
-    ]
+    "end": 715
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 715,
-    "end": 721,
-    "range": [
-      715,
-      721
-    ]
+    "end": 721
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 721,
-    "end": 722,
-    "range": [
-      721,
-      722
-    ]
+    "end": 722
   },
   {
     "type": "Identifier",
     "value": "isNaN",
     "start": 722,
-    "end": 727,
-    "range": [
-      722,
-      727
-    ]
+    "end": 727
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 727,
-    "end": 728,
-    "range": [
-      727,
-      728
-    ]
+    "end": 728
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 728,
-    "end": 729,
-    "range": [
-      728,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 730,
-    "end": 735,
-    "range": [
-      730,
-      735
-    ]
+    "end": 735
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 735,
-    "end": 736,
-    "range": [
-      735,
-      736
-    ]
+    "end": 736
   },
   {
     "type": "String",
     "value": "'isConstructor(Number.isNaN) must return false'",
     "start": 737,
-    "end": 784,
-    "range": [
-      737,
-      784
-    ]
+    "end": 784
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 784,
-    "end": 785,
-    "range": [
-      784,
-      785
-    ]
+    "end": 785
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 785,
-    "end": 786,
-    "range": [
-      785,
-      786
-    ]
+    "end": 786
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 788,
-    "end": 794,
-    "range": [
-      788,
-      794
-    ]
+    "end": 794
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 794,
-    "end": 795,
-    "range": [
-      794,
-      795
-    ]
+    "end": 795
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 795,
-    "end": 801,
-    "range": [
-      795,
-      801
-    ]
+    "end": 801
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 801,
-    "end": 802,
-    "range": [
-      801,
-      802
-    ]
+    "end": 802
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 802,
-    "end": 811,
-    "range": [
-      802,
-      811
-    ]
+    "end": 811
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 811,
-    "end": 812,
-    "range": [
-      811,
-      812
-    ]
+    "end": 812
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 813,
-    "end": 814,
-    "range": [
-      813,
-      814
-    ]
+    "end": 814
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 814,
-    "end": 815,
-    "range": [
-      814,
-      815
-    ]
+    "end": 815
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 816,
-    "end": 818,
-    "range": [
-      816,
-      818
-    ]
+    "end": 818
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 819,
-    "end": 820,
-    "range": [
-      819,
-      820
-    ]
+    "end": 820
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 823,
-    "end": 826,
-    "range": [
-      823,
-      826
-    ]
+    "end": 826
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 827,
-    "end": 833,
-    "range": [
-      827,
-      833
-    ]
+    "end": 833
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 833,
-    "end": 834,
-    "range": [
-      833,
-      834
-    ]
+    "end": 834
   },
   {
     "type": "Identifier",
     "value": "isNaN",
     "start": 834,
-    "end": 839,
-    "range": [
-      834,
-      839
-    ]
+    "end": 839
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 839,
-    "end": 840,
-    "range": [
-      839,
-      840
-    ]
+    "end": 840
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 840,
-    "end": 841,
-    "range": [
-      840,
-      841
-    ]
+    "end": 841
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 841,
-    "end": 842,
-    "range": [
-      841,
-      842
-    ]
+    "end": 842
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 843,
-    "end": 844,
-    "range": [
-      843,
-      844
-    ]
+    "end": 844
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 844,
-    "end": 845,
-    "range": [
-      844,
-      845
-    ]
+    "end": 845
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 845,
-    "end": 846,
-    "range": [
-      845,
-      846
-    ]
+    "end": 846
   }
 ]

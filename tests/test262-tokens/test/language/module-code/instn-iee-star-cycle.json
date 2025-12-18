@@ -3,250 +3,150 @@
     "type": "Keyword",
     "value": "export",
     "start": 1839,
-    "end": 1845,
-    "range": [
-      1839,
-      1845
-    ]
+    "end": 1845
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1846,
-    "end": 1847,
-    "range": [
-      1846,
-      1847
-    ]
+    "end": 1847
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 1848,
-    "end": 1849,
-    "range": [
-      1848,
-      1849
-    ]
+    "end": 1849
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1850,
-    "end": 1851,
-    "range": [
-      1850,
-      1851
-    ]
+    "end": 1851
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 1852,
-    "end": 1856,
-    "range": [
-      1852,
-      1856
-    ]
+    "end": 1856
   },
   {
     "type": "String",
     "value": "'./instn-iee-star-cycle-2_FIXTURE.js'",
     "start": 1857,
-    "end": 1894,
-    "range": [
-      1857,
-      1894
-    ]
+    "end": 1894
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1894,
-    "end": 1895,
-    "range": [
-      1894,
-      1895
-    ]
+    "end": 1895
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1897,
-    "end": 1903,
-    "range": [
-      1897,
-      1903
-    ]
+    "end": 1903
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 1904,
-    "end": 1905,
-    "range": [
-      1904,
-      1905
-    ]
+    "end": 1905
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 1906,
-    "end": 1908,
-    "range": [
-      1906,
-      1908
-    ]
+    "end": 1908
   },
   {
     "type": "Identifier",
     "value": "self",
     "start": 1909,
-    "end": 1913,
-    "range": [
-      1909,
-      1913
-    ]
+    "end": 1913
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 1914,
-    "end": 1918,
-    "range": [
-      1914,
-      1918
-    ]
+    "end": 1918
   },
   {
     "type": "String",
     "value": "'./instn-iee-star-cycle.js'",
     "start": 1919,
-    "end": 1946,
-    "range": [
-      1919,
-      1946
-    ]
+    "end": 1946
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1946,
-    "end": 1947,
-    "range": [
-      1946,
-      1947
-    ]
+    "end": 1947
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1949,
-    "end": 1955,
-    "range": [
-      1949,
-      1955
-    ]
+    "end": 1955
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1955,
-    "end": 1956,
-    "range": [
-      1955,
-      1956
-    ]
+    "end": 1956
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1956,
-    "end": 1965,
-    "range": [
-      1956,
-      1965
-    ]
+    "end": 1965
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1965,
-    "end": 1966,
-    "range": [
-      1965,
-      1966
-    ]
+    "end": 1966
   },
   {
     "type": "Identifier",
     "value": "self",
     "start": 1966,
-    "end": 1970,
-    "range": [
-      1966,
-      1970
-    ]
+    "end": 1970
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1970,
-    "end": 1971,
-    "range": [
-      1970,
-      1971
-    ]
+    "end": 1971
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 1971,
-    "end": 1972,
-    "range": [
-      1971,
-      1972
-    ]
+    "end": 1972
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1972,
-    "end": 1973,
-    "range": [
-      1972,
-      1973
-    ]
+    "end": 1973
   },
   {
     "type": "Numeric",
     "value": "45",
     "start": 1974,
-    "end": 1976,
-    "range": [
-      1974,
-      1976
-    ]
+    "end": 1976
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1976,
-    "end": 1977,
-    "range": [
-      1976,
-      1977
-    ]
+    "end": 1977
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1977,
-    "end": 1978,
-    "range": [
-      1977,
-      1978
-    ]
+    "end": 1978
   }
 ]

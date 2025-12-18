@@ -141,81 +141,49 @@ __ESTREE_TEST__:TOKENS:
     "type": "Template",
     "value": "`I AM THE ${",
     "start": 0,
-    "end": 12,
-    "range": [
-      0,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Template",
     "value": "`${",
     "start": 13,
-    "end": 16,
-    "range": [
-      13,
-      16
-    ]
+    "end": 16
   },
   {
     "type": "Template",
     "value": "`TAG`",
     "start": 17,
-    "end": 22,
-    "range": [
-      17,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Template",
     "value": "} `",
     "start": 23,
-    "end": 26,
-    "range": [
-      23,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Template",
     "value": "} PORTION`",
     "start": 27,
-    "end": 37,
-    "range": [
-      27,
-      37
-    ]
+    "end": 37
   },
   {
     "type": "Template",
     "value": "`I ${",
     "start": 41,
-    "end": 46,
-    "range": [
-      41,
-      46
-    ]
+    "end": 46
   },
   {
     "type": "String",
     "value": "\"AM\"",
     "start": 47,
-    "end": 51,
-    "range": [
-      47,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Template",
     "value": "} THE TEMPLATE PORTION`",
     "start": 52,
-    "end": 75,
-    "range": [
-      52,
-      75
-    ]
+    "end": 75
   }
 ]
 ```

@@ -3,110 +3,66 @@
     "type": "Punctuator",
     "value": "(",
     "start": 273,
-    "end": 274,
-    "range": [
-      273,
-      274
-    ]
+    "end": 274
   },
   {
     "type": "Identifier",
     "value": "async",
     "start": 274,
-    "end": 279,
-    "range": [
-      274,
-      279
-    ]
+    "end": 279
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 280,
-    "end": 288,
-    "range": [
-      280,
-      288
-    ]
+    "end": 288
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 289,
-    "end": 292,
-    "range": [
-      289,
-      292
-    ]
+    "end": 292
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 292,
-    "end": 293,
-    "range": [
-      292,
-      293
-    ]
+    "end": 293
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 293,
-    "end": 294,
-    "range": [
-      293,
-      294
-    ]
+    "end": 294
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 295,
-    "end": 296,
-    "range": [
-      295,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 298,
-    "end": 299,
-    "range": [
-      298,
-      299
-    ]
+    "end": 299
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 299,
-    "end": 308,
-    "range": [
-      299,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 308,
-    "end": 309,
-    "range": [
-      308,
-      309
-    ]
+    "end": 309
   }
 ]

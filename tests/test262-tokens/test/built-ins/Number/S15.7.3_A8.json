@@ -3,250 +3,150 @@
     "type": "Identifier",
     "value": "assert",
     "start": 269,
-    "end": 275,
-    "range": [
-      269,
-      275
-    ]
+    "end": 275
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 275,
-    "end": 276,
-    "range": [
-      275,
-      276
-    ]
+    "end": 276
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 276,
-    "end": 282,
-    "range": [
-      276,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 282,
-    "end": 283,
-    "range": [
-      282,
-      283
-    ]
+    "end": 283
   },
   {
     "type": "Identifier",
     "value": "hasOwnProperty",
     "start": 283,
-    "end": 297,
-    "range": [
-      283,
-      297
-    ]
+    "end": 297
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "String",
     "value": "\"length\"",
     "start": 298,
-    "end": 306,
-    "range": [
-      298,
-      306
-    ]
+    "end": 306
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 306,
-    "end": 307,
-    "range": [
-      306,
-      307
-    ]
+    "end": 307
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 307,
-    "end": 308,
-    "range": [
-      307,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "String",
     "value": "'Number.hasOwnProperty(\"length\") must return true'",
     "start": 309,
-    "end": 359,
-    "range": [
-      309,
-      359
-    ]
+    "end": 359
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 359,
-    "end": 360,
-    "range": [
-      359,
-      360
-    ]
+    "end": 360
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 360,
-    "end": 361,
-    "range": [
-      360,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 362,
-    "end": 368,
-    "range": [
-      362,
-      368
-    ]
+    "end": 368
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 368,
-    "end": 369,
-    "range": [
-      368,
-      369
-    ]
+    "end": 369
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 369,
-    "end": 378,
-    "range": [
-      369,
-      378
-    ]
+    "end": 378
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 378,
-    "end": 379,
-    "range": [
-      378,
-      379
-    ]
+    "end": 379
   },
   {
     "type": "Identifier",
     "value": "Number",
     "start": 379,
-    "end": 385,
-    "range": [
-      379,
-      385
-    ]
+    "end": 385
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 385,
-    "end": 386,
-    "range": [
-      385,
-      386
-    ]
+    "end": 386
   },
   {
     "type": "Identifier",
     "value": "length",
     "start": 386,
-    "end": 392,
-    "range": [
-      386,
-      392
-    ]
+    "end": 392
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 392,
-    "end": 393,
-    "range": [
-      392,
-      393
-    ]
+    "end": 393
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 394,
-    "end": 395,
-    "range": [
-      394,
-      395
-    ]
+    "end": 395
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 395,
-    "end": 396,
-    "range": [
-      395,
-      396
-    ]
+    "end": 396
   },
   {
     "type": "String",
     "value": "'The value of Number.length is expected to be 1'",
     "start": 397,
-    "end": 445,
-    "range": [
-      397,
-      445
-    ]
+    "end": 445
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 445,
-    "end": 446,
-    "range": [
-      445,
-      446
-    ]
+    "end": 446
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 446,
-    "end": 447,
-    "range": [
-      446,
-      447
-    ]
+    "end": 447
   }
 ]

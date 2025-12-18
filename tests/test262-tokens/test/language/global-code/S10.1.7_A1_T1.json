@@ -3,140 +3,84 @@
     "type": "Keyword",
     "value": "if",
     "start": 293,
-    "end": 295,
-    "range": [
-      293,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 296,
-    "end": 297,
-    "range": [
-      296,
-      297
-    ]
+    "end": 297
   },
   {
     "type": "Keyword",
     "value": "delete",
     "start": 297,
-    "end": 303,
-    "range": [
-      297,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 304,
-    "end": 308,
-    "range": [
-      304,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 309,
-    "end": 312,
-    "range": [
-      309,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 313,
-    "end": 317,
-    "range": [
-      313,
-      317
-    ]
+    "end": 317
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 317,
-    "end": 318,
-    "range": [
-      317,
-      318
-    ]
+    "end": 318
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 321,
-    "end": 326,
-    "range": [
-      321,
-      326
-    ]
+    "end": 326
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 327,
-    "end": 330,
-    "range": [
-      327,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 331,
-    "end": 343,
-    "range": [
-      331,
-      343
-    ]
+    "end": 343
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 343,
-    "end": 344,
-    "range": [
-      343,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "String",
     "value": "'#1: The this value associated with an executioncontext is immutable. Actual: this was deleted'",
     "start": 344,
-    "end": 439,
-    "range": [
-      344,
-      439
-    ]
+    "end": 439
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 439,
-    "end": 440,
-    "range": [
-      439,
-      440
-    ]
+    "end": 440
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 440,
-    "end": 441,
-    "range": [
-      440,
-      441
-    ]
+    "end": 441
   }
 ]

@@ -3,160 +3,96 @@
     "type": "Identifier",
     "value": "assert",
     "start": 239,
-    "end": 245,
-    "range": [
-      239,
-      245
-    ]
+    "end": 245
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 245,
-    "end": 246,
-    "range": [
-      245,
-      246
-    ]
+    "end": 246
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 246,
-    "end": 255,
-    "range": [
-      246,
-      255
-    ]
+    "end": 255
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 255,
-    "end": 256,
-    "range": [
-      255,
-      256
-    ]
+    "end": 256
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 256,
-    "end": 262,
-    "range": [
-      256,
-      262
-    ]
+    "end": 262
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 262,
-    "end": 263,
-    "range": [
-      262,
-      263
-    ]
+    "end": 263
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 263,
-    "end": 269,
-    "range": [
-      263,
-      269
-    ]
+    "end": 269
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 269,
-    "end": 270,
-    "range": [
-      269,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Identifier",
     "value": "getOwnPropertyDescriptor",
     "start": 270,
-    "end": 294,
-    "range": [
-      270,
-      294
-    ]
+    "end": 294
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 294,
-    "end": 295,
-    "range": [
-      294,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 295,
-    "end": 296,
-    "range": [
-      295,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "String",
     "value": "\"function\"",
     "start": 297,
-    "end": 307,
-    "range": [
-      297,
-      307
-    ]
+    "end": 307
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 307,
-    "end": 308,
-    "range": [
-      307,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "String",
     "value": "'typeof(Object.getOwnPropertyDescriptor)'",
     "start": 309,
-    "end": 350,
-    "range": [
-      309,
-      350
-    ]
+    "end": 350
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 350,
-    "end": 351,
-    "range": [
-      350,
-      351
-    ]
+    "end": 351
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 351,
-    "end": 352,
-    "range": [
-      351,
-      352
-    ]
+    "end": 352
   }
 ]

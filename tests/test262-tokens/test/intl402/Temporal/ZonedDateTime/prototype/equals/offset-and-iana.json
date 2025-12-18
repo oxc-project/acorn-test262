@@ -3,1330 +3,798 @@
     "type": "Keyword",
     "value": "const",
     "start": 271,
-    "end": 276,
-    "range": [
-      271,
-      276
-    ]
+    "end": 276
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 277,
-    "end": 280,
-    "range": [
-      277,
-      280
-    ]
+    "end": 280
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 281,
-    "end": 282,
-    "range": [
-      281,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 283,
-    "end": 286,
-    "range": [
-      283,
-      286
-    ]
+    "end": 286
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 287,
-    "end": 295,
-    "range": [
-      287,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 295,
-    "end": 296,
-    "range": [
-      295,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 296,
-    "end": 309,
-    "range": [
-      296,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 309,
-    "end": 310,
-    "range": [
-      309,
-      310
-    ]
+    "end": 310
   },
   {
     "type": "Numeric",
     "value": "0n",
     "start": 310,
-    "end": 312,
-    "range": [
-      310,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 312,
-    "end": 313,
-    "range": [
-      312,
-      313
-    ]
+    "end": 313
   },
   {
     "type": "String",
     "value": "\"America/Los_Angeles\"",
     "start": 314,
-    "end": 335,
-    "range": [
-      314,
-      335
-    ]
+    "end": 335
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 335,
-    "end": 336,
-    "range": [
-      335,
-      336
-    ]
+    "end": 336
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 336,
-    "end": 337,
-    "range": [
-      336,
-      337
-    ]
+    "end": 337
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 338,
-    "end": 344,
-    "range": [
-      338,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 344,
-    "end": 345,
-    "range": [
-      344,
-      345
-    ]
+    "end": 345
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 345,
-    "end": 348,
-    "range": [
-      345,
-      348
-    ]
+    "end": 348
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 348,
-    "end": 349,
-    "range": [
-      348,
-      349
-    ]
+    "end": 349
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 349,
-    "end": 361,
-    "range": [
-      349,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 361,
-    "end": 362,
-    "range": [
-      361,
-      362
-    ]
+    "end": 362
   },
   {
     "type": "String",
     "value": "\"+05:30\"",
     "start": 362,
-    "end": 370,
-    "range": [
-      362,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 370,
-    "end": 371,
-    "range": [
-      370,
-      371
-    ]
+    "end": 371
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 371,
-    "end": 372,
-    "range": [
-      371,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "Identifier",
     "value": "equals",
     "start": 372,
-    "end": 378,
-    "range": [
-      372,
-      378
-    ]
+    "end": 378
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 378,
-    "end": 379,
-    "range": [
-      378,
-      379
-    ]
+    "end": 379
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 379,
-    "end": 382,
-    "range": [
-      379,
-      382
-    ]
+    "end": 382
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 382,
-    "end": 383,
-    "range": [
-      382,
-      383
-    ]
+    "end": 383
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 383,
-    "end": 395,
-    "range": [
-      383,
-      395
-    ]
+    "end": 395
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 395,
-    "end": 396,
-    "range": [
-      395,
-      396
-    ]
+    "end": 396
   },
   {
     "type": "String",
     "value": "\"+0530\"",
     "start": 396,
-    "end": 403,
-    "range": [
-      396,
-      403
-    ]
+    "end": 403
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 403,
-    "end": 404,
-    "range": [
-      403,
-      404
-    ]
+    "end": 404
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 404,
-    "end": 405,
-    "range": [
-      404,
-      405
-    ]
+    "end": 405
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 405,
-    "end": 406,
-    "range": [
-      405,
-      406
-    ]
+    "end": 406
   },
   {
     "type": "String",
     "value": "\"+05:30 = +0530\"",
     "start": 407,
-    "end": 423,
-    "range": [
-      407,
-      423
-    ]
+    "end": 423
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 423,
-    "end": 424,
-    "range": [
-      423,
-      424
-    ]
+    "end": 424
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 424,
-    "end": 425,
-    "range": [
-      424,
-      425
-    ]
+    "end": 425
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 426,
-    "end": 432,
-    "range": [
-      426,
-      432
-    ]
+    "end": 432
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 432,
-    "end": 433,
-    "range": [
-      432,
-      433
-    ]
+    "end": 433
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 433,
-    "end": 436,
-    "range": [
-      433,
-      436
-    ]
+    "end": 436
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 436,
-    "end": 437,
-    "range": [
-      436,
-      437
-    ]
+    "end": 437
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 437,
-    "end": 449,
-    "range": [
-      437,
-      449
-    ]
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 449,
-    "end": 450,
-    "range": [
-      449,
-      450
-    ]
+    "end": 450
   },
   {
     "type": "String",
     "value": "\"+0530\"",
     "start": 450,
-    "end": 457,
-    "range": [
-      450,
-      457
-    ]
+    "end": 457
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 457,
-    "end": 458,
-    "range": [
-      457,
-      458
-    ]
+    "end": 458
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 458,
-    "end": 459,
-    "range": [
-      458,
-      459
-    ]
+    "end": 459
   },
   {
     "type": "Identifier",
     "value": "equals",
     "start": 459,
-    "end": 465,
-    "range": [
-      459,
-      465
-    ]
+    "end": 465
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 465,
-    "end": 466,
-    "range": [
-      465,
-      466
-    ]
+    "end": 466
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 466,
-    "end": 469,
-    "range": [
-      466,
-      469
-    ]
+    "end": 469
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 469,
-    "end": 470,
-    "range": [
-      469,
-      470
-    ]
+    "end": 470
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 470,
-    "end": 482,
-    "range": [
-      470,
-      482
-    ]
+    "end": 482
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 482,
-    "end": 483,
-    "range": [
-      482,
-      483
-    ]
+    "end": 483
   },
   {
     "type": "String",
     "value": "\"+05:30\"",
     "start": 483,
-    "end": 491,
-    "range": [
-      483,
-      491
-    ]
+    "end": 491
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 491,
-    "end": 492,
-    "range": [
-      491,
-      492
-    ]
+    "end": 492
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 492,
-    "end": 493,
-    "range": [
-      492,
-      493
-    ]
+    "end": 493
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 493,
-    "end": 494,
-    "range": [
-      493,
-      494
-    ]
+    "end": 494
   },
   {
     "type": "String",
     "value": "\"+0530 = +05:30\"",
     "start": 495,
-    "end": 511,
-    "range": [
-      495,
-      511
-    ]
+    "end": 511
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 511,
-    "end": 512,
-    "range": [
-      511,
-      512
-    ]
+    "end": 512
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 512,
-    "end": 513,
-    "range": [
-      512,
-      513
-    ]
+    "end": 513
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 514,
-    "end": 520,
-    "range": [
-      514,
-      520
-    ]
+    "end": 520
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 520,
-    "end": 521,
-    "range": [
-      520,
-      521
-    ]
+    "end": 521
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 521,
-    "end": 524,
-    "range": [
-      521,
-      524
-    ]
+    "end": 524
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 524,
-    "end": 525,
-    "range": [
-      524,
-      525
-    ]
+    "end": 525
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 525,
-    "end": 537,
-    "range": [
-      525,
-      537
-    ]
+    "end": 537
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 537,
-    "end": 538,
-    "range": [
-      537,
-      538
-    ]
+    "end": 538
   },
   {
     "type": "String",
     "value": "\"+05:30\"",
     "start": 538,
-    "end": 546,
-    "range": [
-      538,
-      546
-    ]
+    "end": 546
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 546,
-    "end": 547,
-    "range": [
-      546,
-      547
-    ]
+    "end": 547
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 547,
-    "end": 548,
-    "range": [
-      547,
-      548
-    ]
+    "end": 548
   },
   {
     "type": "Identifier",
     "value": "equals",
     "start": 548,
-    "end": 554,
-    "range": [
-      548,
-      554
-    ]
+    "end": 554
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 554,
-    "end": 555,
-    "range": [
-      554,
-      555
-    ]
+    "end": 555
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 555,
-    "end": 558,
-    "range": [
-      555,
-      558
-    ]
+    "end": 558
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 558,
-    "end": 559,
-    "range": [
-      558,
-      559
-    ]
+    "end": 559
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 559,
-    "end": 571,
-    "range": [
-      559,
-      571
-    ]
+    "end": 571
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 571,
-    "end": 572,
-    "range": [
-      571,
-      572
-    ]
+    "end": 572
   },
   {
     "type": "String",
     "value": "\"+0530\"",
     "start": 572,
-    "end": 579,
-    "range": [
-      572,
-      579
-    ]
+    "end": 579
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 579,
-    "end": 580,
-    "range": [
-      579,
-      580
-    ]
+    "end": 580
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 580,
-    "end": 581,
-    "range": [
-      580,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 581,
-    "end": 589,
-    "range": [
-      581,
-      589
-    ]
+    "end": 589
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 589,
-    "end": 590,
-    "range": [
-      589,
-      590
-    ]
+    "end": 590
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 590,
-    "end": 591,
-    "range": [
-      590,
-      591
-    ]
+    "end": 591
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 591,
-    "end": 592,
-    "range": [
-      591,
-      592
-    ]
+    "end": 592
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 592,
-    "end": 593,
-    "range": [
-      592,
-      593
-    ]
+    "end": 593
   },
   {
     "type": "String",
     "value": "\"+05:30 = +0530 IXDTF string\"",
     "start": 594,
-    "end": 623,
-    "range": [
-      594,
-      623
-    ]
+    "end": 623
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 623,
-    "end": 624,
-    "range": [
-      623,
-      624
-    ]
+    "end": 624
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 624,
-    "end": 625,
-    "range": [
-      624,
-      625
-    ]
+    "end": 625
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 626,
-    "end": 632,
-    "range": [
-      626,
-      632
-    ]
+    "end": 632
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 632,
-    "end": 633,
-    "range": [
-      632,
-      633
-    ]
+    "end": 633
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 633,
-    "end": 634,
-    "range": [
-      633,
-      634
-    ]
+    "end": 634
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 634,
-    "end": 637,
-    "range": [
-      634,
-      637
-    ]
+    "end": 637
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 637,
-    "end": 638,
-    "range": [
-      637,
-      638
-    ]
+    "end": 638
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 638,
-    "end": 650,
-    "range": [
-      638,
-      650
-    ]
+    "end": 650
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 650,
-    "end": 651,
-    "range": [
-      650,
-      651
-    ]
+    "end": 651
   },
   {
     "type": "String",
     "value": "\"+05:30\"",
     "start": 651,
-    "end": 659,
-    "range": [
-      651,
-      659
-    ]
+    "end": 659
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 659,
-    "end": 660,
-    "range": [
-      659,
-      660
-    ]
+    "end": 660
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 660,
-    "end": 661,
-    "range": [
-      660,
-      661
-    ]
+    "end": 661
   },
   {
     "type": "Identifier",
     "value": "equals",
     "start": 661,
-    "end": 667,
-    "range": [
-      661,
-      667
-    ]
+    "end": 667
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 667,
-    "end": 668,
-    "range": [
-      667,
-      668
-    ]
+    "end": 668
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 668,
-    "end": 671,
-    "range": [
-      668,
-      671
-    ]
+    "end": 671
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 671,
-    "end": 672,
-    "range": [
-      671,
-      672
-    ]
+    "end": 672
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 672,
-    "end": 684,
-    "range": [
-      672,
-      684
-    ]
+    "end": 684
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 684,
-    "end": 685,
-    "range": [
-      684,
-      685
-    ]
+    "end": 685
   },
   {
     "type": "String",
     "value": "\"Asia/Kolkata\"",
     "start": 685,
-    "end": 699,
-    "range": [
-      685,
-      699
-    ]
+    "end": 699
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 699,
-    "end": 700,
-    "range": [
-      699,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 700,
-    "end": 701,
-    "range": [
-      700,
-      701
-    ]
+    "end": 701
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 701,
-    "end": 702,
-    "range": [
-      701,
-      702
-    ]
+    "end": 702
   },
   {
     "type": "String",
     "value": "\"+05:30 != Asia/Kolkata string ID\"",
     "start": 703,
-    "end": 737,
-    "range": [
-      703,
-      737
-    ]
+    "end": 737
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 737,
-    "end": 738,
-    "range": [
-      737,
-      738
-    ]
+    "end": 738
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 738,
-    "end": 739,
-    "range": [
-      738,
-      739
-    ]
+    "end": 739
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 740,
-    "end": 746,
-    "range": [
-      740,
-      746
-    ]
+    "end": 746
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 746,
-    "end": 747,
-    "range": [
-      746,
-      747
-    ]
+    "end": 747
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 747,
-    "end": 748,
-    "range": [
-      747,
-      748
-    ]
+    "end": 748
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 748,
-    "end": 751,
-    "range": [
-      748,
-      751
-    ]
+    "end": 751
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 751,
-    "end": 752,
-    "range": [
-      751,
-      752
-    ]
+    "end": 752
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 752,
-    "end": 764,
-    "range": [
-      752,
-      764
-    ]
+    "end": 764
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 764,
-    "end": 765,
-    "range": [
-      764,
-      765
-    ]
+    "end": 765
   },
   {
     "type": "String",
     "value": "\"+05:30\"",
     "start": 765,
-    "end": 773,
-    "range": [
-      765,
-      773
-    ]
+    "end": 773
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 773,
-    "end": 774,
-    "range": [
-      773,
-      774
-    ]
+    "end": 774
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 774,
-    "end": 775,
-    "range": [
-      774,
-      775
-    ]
+    "end": 775
   },
   {
     "type": "Identifier",
     "value": "equals",
     "start": 775,
-    "end": 781,
-    "range": [
-      775,
-      781
-    ]
+    "end": 781
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 781,
-    "end": 782,
-    "range": [
-      781,
-      782
-    ]
+    "end": 782
   },
   {
     "type": "Identifier",
     "value": "zdt",
     "start": 782,
-    "end": 785,
-    "range": [
-      782,
-      785
-    ]
+    "end": 785
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 785,
-    "end": 786,
-    "range": [
-      785,
-      786
-    ]
+    "end": 786
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
     "start": 786,
-    "end": 798,
-    "range": [
-      786,
-      798
-    ]
+    "end": 798
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 798,
-    "end": 799,
-    "range": [
-      798,
-      799
-    ]
+    "end": 799
   },
   {
     "type": "String",
     "value": "\"Asia/Kolkata\"",
     "start": 799,
-    "end": 813,
-    "range": [
-      799,
-      813
-    ]
+    "end": 813
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 813,
-    "end": 814,
-    "range": [
-      813,
-      814
-    ]
+    "end": 814
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 814,
-    "end": 815,
-    "range": [
-      814,
-      815
-    ]
+    "end": 815
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 815,
-    "end": 823,
-    "range": [
-      815,
-      823
-    ]
+    "end": 823
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 823,
-    "end": 824,
-    "range": [
-      823,
-      824
-    ]
+    "end": 824
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 824,
-    "end": 825,
-    "range": [
-      824,
-      825
-    ]
+    "end": 825
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 825,
-    "end": 826,
-    "range": [
-      825,
-      826
-    ]
+    "end": 826
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 826,
-    "end": 827,
-    "range": [
-      826,
-      827
-    ]
+    "end": 827
   },
   {
     "type": "String",
     "value": "\"+05:30 != Asia/Kolkata IXDTF string\"",
     "start": 828,
-    "end": 865,
-    "range": [
-      828,
-      865
-    ]
+    "end": 865
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 865,
-    "end": 866,
-    "range": [
-      865,
-      866
-    ]
+    "end": 866
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 866,
-    "end": 867,
-    "range": [
-      866,
-      867
-    ]
+    "end": 867
   }
 ]

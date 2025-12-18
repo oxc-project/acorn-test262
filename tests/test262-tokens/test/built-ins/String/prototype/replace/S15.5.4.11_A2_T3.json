@@ -3,81 +3,49 @@
     "type": "Keyword",
     "value": "var",
     "start": 412,
-    "end": 415,
-    "range": [
-      412,
-      415
-    ]
+    "end": 415
   },
   {
     "type": "Identifier",
     "value": "__str",
     "start": 416,
-    "end": 421,
-    "range": [
-      416,
-      421
-    ]
+    "end": 421
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 422,
-    "end": 423,
-    "range": [
-      422,
-      423
-    ]
+    "end": 423
   },
   {
     "type": "String",
     "value": "'She sells seashells by the seashore.'",
     "start": 424,
-    "end": 462,
-    "range": [
-      424,
-      462
-    ]
+    "end": 462
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 462,
-    "end": 463,
-    "range": [
-      462,
-      463
-    ]
+    "end": 463
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 464,
-    "end": 467,
-    "range": [
-      464,
-      467
-    ]
+    "end": 467
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 468,
-    "end": 472,
-    "range": [
-      468,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 473,
-    "end": 474,
-    "range": [
-      473,
-      474
-    ]
+    "end": 474
   },
   {
     "type": "RegularExpression",
@@ -87,370 +55,222 @@
       "pattern": "sh"
     },
     "start": 475,
-    "end": 480,
-    "range": [
-      475,
-      480
-    ]
+    "end": 480
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 480,
-    "end": 481,
-    "range": [
-      480,
-      481
-    ]
+    "end": 481
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 572,
-    "end": 574,
-    "range": [
-      572,
-      574
-    ]
+    "end": 574
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 575,
-    "end": 576,
-    "range": [
-      575,
-      576
-    ]
+    "end": 576
   },
   {
     "type": "Identifier",
     "value": "__str",
     "start": 576,
-    "end": 581,
-    "range": [
-      576,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 581,
-    "end": 582,
-    "range": [
-      581,
-      582
-    ]
+    "end": 582
   },
   {
     "type": "Identifier",
     "value": "replace",
     "start": 582,
-    "end": 589,
-    "range": [
-      582,
-      589
-    ]
+    "end": 589
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 589,
-    "end": 590,
-    "range": [
-      589,
-      590
-    ]
+    "end": 590
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 590,
-    "end": 594,
-    "range": [
-      590,
-      594
-    ]
+    "end": 594
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 594,
-    "end": 595,
-    "range": [
-      594,
-      595
-    ]
+    "end": 595
   },
   {
     "type": "String",
     "value": "\"$&\"",
     "start": 596,
-    "end": 600,
-    "range": [
-      596,
-      600
-    ]
+    "end": 600
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 601,
-    "end": 602,
-    "range": [
-      601,
-      602
-    ]
+    "end": 602
   },
   {
     "type": "String",
     "value": "'sch'",
     "start": 603,
-    "end": 608,
-    "range": [
-      603,
-      608
-    ]
+    "end": 608
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 608,
-    "end": 609,
-    "range": [
-      608,
-      609
-    ]
+    "end": 609
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 610,
-    "end": 613,
-    "range": [
-      610,
-      613
-    ]
+    "end": 613
   },
   {
     "type": "String",
     "value": "'She sells seashschells by the seashschore.'",
     "start": 614,
-    "end": 658,
-    "range": [
-      614,
-      658
-    ]
+    "end": 658
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 658,
-    "end": 659,
-    "range": [
-      658,
-      659
-    ]
+    "end": 659
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 660,
-    "end": 661,
-    "range": [
-      660,
-      661
-    ]
+    "end": 661
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 664,
-    "end": 669,
-    "range": [
-      664,
-      669
-    ]
+    "end": 669
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 670,
-    "end": 673,
-    "range": [
-      670,
-      673
-    ]
+    "end": 673
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 674,
-    "end": 686,
-    "range": [
-      674,
-      686
-    ]
+    "end": 686
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 686,
-    "end": 687,
-    "range": [
-      686,
-      687
-    ]
+    "end": 687
   },
   {
     "type": "String",
     "value": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/g; __str.replace(__re,\"$&\" + \\'sch\\')===\\'She sells seashschells by the seashschore.\\'. Actual: '",
     "start": 687,
-    "end": 858,
-    "range": [
-      687,
-      858
-    ]
+    "end": 858
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 859,
-    "end": 860,
-    "range": [
-      859,
-      860
-    ]
+    "end": 860
   },
   {
     "type": "Identifier",
     "value": "__str",
     "start": 861,
-    "end": 866,
-    "range": [
-      861,
-      866
-    ]
+    "end": 866
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 866,
-    "end": 867,
-    "range": [
-      866,
-      867
-    ]
+    "end": 867
   },
   {
     "type": "Identifier",
     "value": "replace",
     "start": 867,
-    "end": 874,
-    "range": [
-      867,
-      874
-    ]
+    "end": 874
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 874,
-    "end": 875,
-    "range": [
-      874,
-      875
-    ]
+    "end": 875
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 875,
-    "end": 879,
-    "range": [
-      875,
-      879
-    ]
+    "end": 879
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 879,
-    "end": 880,
-    "range": [
-      879,
-      880
-    ]
+    "end": 880
   },
   {
     "type": "String",
     "value": "\"$&\"",
     "start": 881,
-    "end": 885,
-    "range": [
-      881,
-      885
-    ]
+    "end": 885
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 886,
-    "end": 887,
-    "range": [
-      886,
-      887
-    ]
+    "end": 887
   },
   {
     "type": "String",
     "value": "'sch'",
     "start": 888,
-    "end": 893,
-    "range": [
-      888,
-      893
-    ]
+    "end": 893
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 893,
-    "end": 894,
-    "range": [
-      893,
-      894
-    ]
+    "end": 894
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 894,
-    "end": 895,
-    "range": [
-      894,
-      895
-    ]
+    "end": 895
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 895,
-    "end": 896,
-    "range": [
-      895,
-      896
-    ]
+    "end": 896
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 897,
-    "end": 898,
-    "range": [
-      897,
-      898
-    ]
+    "end": 898
   }
 ]

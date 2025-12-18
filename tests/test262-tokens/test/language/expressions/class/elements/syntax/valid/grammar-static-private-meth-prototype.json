@@ -3,130 +3,78 @@
     "type": "Keyword",
     "value": "var",
     "start": 582,
-    "end": 585,
-    "range": [
-      582,
-      585
-    ]
+    "end": 585
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 586,
-    "end": 587,
-    "range": [
-      586,
-      587
-    ]
+    "end": 587
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 588,
-    "end": 589,
-    "range": [
-      588,
-      589
-    ]
+    "end": 589
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 590,
-    "end": 595,
-    "range": [
-      590,
-      595
-    ]
+    "end": 595
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 596,
-    "end": 597,
-    "range": [
-      596,
-      597
-    ]
+    "end": 597
   },
   {
     "type": "Keyword",
     "value": "static",
     "start": 600,
-    "end": 606,
-    "range": [
-      600,
-      606
-    ]
+    "end": 606
   },
   {
     "type": "PrivateIdentifier",
     "value": "prototype",
     "start": 607,
-    "end": 617,
-    "range": [
-      607,
-      617
-    ]
+    "end": 617
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 617,
-    "end": 618,
-    "range": [
-      617,
-      618
-    ]
+    "end": 618
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 618,
-    "end": 619,
-    "range": [
-      618,
-      619
-    ]
+    "end": 619
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 620,
-    "end": 621,
-    "range": [
-      620,
-      621
-    ]
+    "end": 621
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 621,
-    "end": 622,
-    "range": [
-      621,
-      622
-    ]
+    "end": 622
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 623,
-    "end": 624,
-    "range": [
-      623,
-      624
-    ]
+    "end": 624
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 624,
-    "end": 625,
-    "range": [
-      624,
-      625
-    ]
+    "end": 625
   }
 ]

@@ -3,40 +3,24 @@
     "type": "Keyword",
     "value": "var",
     "start": 293,
-    "end": 296,
-    "range": [
-      293,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 299,
-    "end": 300,
-    "range": [
-      299,
-      300
-    ]
+    "end": 300
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 302,
-    "end": 303,
-    "range": [
-      302,
-      303
-    ]
+    "end": 303
   }
 ]

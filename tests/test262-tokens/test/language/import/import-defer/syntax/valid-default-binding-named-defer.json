@@ -3,160 +3,96 @@
     "type": "Keyword",
     "value": "import",
     "start": 578,
-    "end": 584,
-    "range": [
-      578,
-      584
-    ]
+    "end": 584
   },
   {
     "type": "Identifier",
     "value": "defer",
     "start": 585,
-    "end": 590,
-    "range": [
-      585,
-      590
-    ]
+    "end": 590
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 591,
-    "end": 595,
-    "range": [
-      591,
-      595
-    ]
+    "end": 595
   },
   {
     "type": "String",
     "value": "\"./dep_FIXTURE.js\"",
     "start": 596,
-    "end": 614,
-    "range": [
-      596,
-      614
-    ]
+    "end": 614
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 614,
-    "end": 615,
-    "range": [
-      614,
-      615
-    ]
+    "end": 615
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 617,
-    "end": 623,
-    "range": [
-      617,
-      623
-    ]
+    "end": 623
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 623,
-    "end": 624,
-    "range": [
-      623,
-      624
-    ]
+    "end": 624
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 624,
-    "end": 633,
-    "range": [
-      624,
-      633
-    ]
+    "end": 633
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 633,
-    "end": 634,
-    "range": [
-      633,
-      634
-    ]
+    "end": 634
   },
   {
     "type": "Identifier",
     "value": "defer",
     "start": 634,
-    "end": 639,
-    "range": [
-      634,
-      639
-    ]
+    "end": 639
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 639,
-    "end": 640,
-    "range": [
-      639,
-      640
-    ]
+    "end": 640
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 641,
-    "end": 642,
-    "range": [
-      641,
-      642
-    ]
+    "end": 642
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 642,
-    "end": 643,
-    "range": [
-      642,
-      643
-    ]
+    "end": 643
   },
   {
     "type": "String",
     "value": "\"`defer` is the default export binding\"",
     "start": 644,
-    "end": 683,
-    "range": [
-      644,
-      683
-    ]
+    "end": 683
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 683,
-    "end": 684,
-    "range": [
-      683,
-      684
-    ]
+    "end": 684
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 684,
-    "end": 685,
-    "range": [
-      684,
-      685
-    ]
+    "end": 685
   }
 ]

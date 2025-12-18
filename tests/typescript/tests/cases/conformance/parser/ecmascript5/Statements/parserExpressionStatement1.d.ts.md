@@ -40,41 +40,25 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "Foo",
     "start": 0,
-    "end": 3,
-    "range": [
-      0,
-      3
-    ]
+    "end": 3
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3,
-    "end": 4,
-    "range": [
-      3,
-      4
-    ]
+    "end": 4
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4,
-    "end": 5,
-    "range": [
-      4,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5,
-    "end": 6,
-    "range": [
-      5,
-      6
-    ]
+    "end": 6
   }
 ]
 ```

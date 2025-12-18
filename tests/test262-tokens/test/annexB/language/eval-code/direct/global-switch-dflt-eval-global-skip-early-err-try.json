@@ -3,110 +3,66 @@
     "type": "Identifier",
     "value": "eval",
     "start": 1158,
-    "end": 1162,
-    "range": [
-      1158,
-      1162
-    ]
+    "end": 1162
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1162,
-    "end": 1163,
-    "range": [
-      1162,
-      1163
-    ]
+    "end": 1163
   },
   {
     "type": "String",
     "value": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {switch (1) {'",
     "start": 1166,
-    "end": 1474,
-    "range": [
-      1166,
-      1474
-    ]
+    "end": 1474
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1475,
-    "end": 1476,
-    "range": [
-      1475,
-      1476
-    ]
+    "end": 1476
   },
   {
     "type": "String",
     "value": "'  default:'",
     "start": 1479,
-    "end": 1491,
-    "range": [
-      1479,
-      1491
-    ]
+    "end": 1491
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1492,
-    "end": 1493,
-    "range": [
-      1492,
-      1493
-    ]
+    "end": 1493
   },
   {
     "type": "String",
     "value": "'    function f() {  }'",
     "start": 1496,
-    "end": 1519,
-    "range": [
-      1496,
-      1519
-    ]
+    "end": 1519
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1520,
-    "end": 1521,
-    "range": [
-      1520,
-      1521
-    ]
+    "end": 1521
   },
   {
     "type": "String",
     "value": "'}\\\n  }\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'",
     "start": 1524,
-    "end": 1787,
-    "range": [
-      1524,
-      1787
-    ]
+    "end": 1787
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1788,
-    "end": 1789,
-    "range": [
-      1788,
-      1789
-    ]
+    "end": 1789
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1789,
-    "end": 1790,
-    "range": [
-      1789,
-      1790
-    ]
+    "end": 1790
   }
 ]

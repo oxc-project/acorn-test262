@@ -3,380 +3,228 @@
     "type": "Keyword",
     "value": "import",
     "start": 1146,
-    "end": 1152,
-    "range": [
-      1146,
-      1152
-    ]
+    "end": 1152
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 1153,
-    "end": 1154,
-    "range": [
-      1153,
-      1154
-    ]
+    "end": 1154
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 1155,
-    "end": 1157,
-    "range": [
-      1155,
-      1157
-    ]
+    "end": 1157
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 1158,
-    "end": 1160,
-    "range": [
-      1158,
-      1160
-    ]
+    "end": 1160
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 1161,
-    "end": 1165,
-    "range": [
-      1161,
-      1165
-    ]
+    "end": 1165
   },
   {
     "type": "String",
     "value": "'./omitted-from-namespace_FIXTURE.js'",
     "start": 1166,
-    "end": 1203,
-    "range": [
-      1166,
-      1203
-    ]
+    "end": 1203
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1203,
-    "end": 1204,
-    "range": [
-      1203,
-      1204
-    ]
+    "end": 1204
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1206,
-    "end": 1212,
-    "range": [
-      1206,
-      1212
-    ]
+    "end": 1212
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1212,
-    "end": 1213,
-    "range": [
-      1212,
-      1213
-    ]
+    "end": 1213
   },
   {
     "type": "String",
     "value": "'first'",
     "start": 1213,
-    "end": 1220,
-    "range": [
-      1213,
-      1220
-    ]
+    "end": 1220
   },
   {
     "type": "Keyword",
     "value": "in",
     "start": 1221,
-    "end": 1223,
-    "range": [
-      1221,
-      1223
-    ]
+    "end": 1223
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 1224,
-    "end": 1226,
-    "range": [
-      1224,
-      1226
-    ]
+    "end": 1226
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1226,
-    "end": 1227,
-    "range": [
-      1226,
-      1227
-    ]
+    "end": 1227
   },
   {
     "type": "String",
     "value": "'Non-ambiguous exports from first module are present'",
     "start": 1228,
-    "end": 1281,
-    "range": [
-      1228,
-      1281
-    ]
+    "end": 1281
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1281,
-    "end": 1282,
-    "range": [
-      1281,
-      1282
-    ]
+    "end": 1282
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1282,
-    "end": 1283,
-    "range": [
-      1282,
-      1283
-    ]
+    "end": 1283
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1284,
-    "end": 1290,
-    "range": [
-      1284,
-      1290
-    ]
+    "end": 1290
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1290,
-    "end": 1291,
-    "range": [
-      1290,
-      1291
-    ]
+    "end": 1291
   },
   {
     "type": "String",
     "value": "'second'",
     "start": 1291,
-    "end": 1299,
-    "range": [
-      1291,
-      1299
-    ]
+    "end": 1299
   },
   {
     "type": "Keyword",
     "value": "in",
     "start": 1300,
-    "end": 1302,
-    "range": [
-      1300,
-      1302
-    ]
+    "end": 1302
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 1303,
-    "end": 1305,
-    "range": [
-      1303,
-      1305
-    ]
+    "end": 1305
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1305,
-    "end": 1306,
-    "range": [
-      1305,
-      1306
-    ]
+    "end": 1306
   },
   {
     "type": "String",
     "value": "'Non-ambiguous exports from second module are present'",
     "start": 1307,
-    "end": 1361,
-    "range": [
-      1307,
-      1361
-    ]
+    "end": 1361
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1361,
-    "end": 1362,
-    "range": [
-      1361,
-      1362
-    ]
+    "end": 1362
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1362,
-    "end": 1363,
-    "range": [
-      1362,
-      1363
-    ]
+    "end": 1363
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1364,
-    "end": 1370,
-    "range": [
-      1364,
-      1370
-    ]
+    "end": 1370
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1370,
-    "end": 1371,
-    "range": [
-      1370,
-      1371
-    ]
+    "end": 1371
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1371,
-    "end": 1380,
-    "range": [
-      1371,
-      1380
-    ]
+    "end": 1380
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1380,
-    "end": 1381,
-    "range": [
-      1380,
-      1381
-    ]
+    "end": 1381
   },
   {
     "type": "String",
     "value": "'both'",
     "start": 1381,
-    "end": 1387,
-    "range": [
-      1381,
-      1387
-    ]
+    "end": 1387
   },
   {
     "type": "Keyword",
     "value": "in",
     "start": 1388,
-    "end": 1390,
-    "range": [
-      1388,
-      1390
-    ]
+    "end": 1390
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 1391,
-    "end": 1393,
-    "range": [
-      1391,
-      1393
-    ]
+    "end": 1393
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1393,
-    "end": 1394,
-    "range": [
-      1393,
-      1394
-    ]
+    "end": 1394
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 1395,
-    "end": 1400,
-    "range": [
-      1395,
-      1400
-    ]
+    "end": 1400
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1400,
-    "end": 1401,
-    "range": [
-      1400,
-      1401
-    ]
+    "end": 1401
   },
   {
     "type": "String",
     "value": "'Ambiguous export is not present'",
     "start": 1402,
-    "end": 1435,
-    "range": [
-      1402,
-      1435
-    ]
+    "end": 1435
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1435,
-    "end": 1436,
-    "range": [
-      1435,
-      1436
-    ]
+    "end": 1436
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1436,
-    "end": 1437,
-    "range": [
-      1436,
-      1437
-    ]
+    "end": 1437
   }
 ]

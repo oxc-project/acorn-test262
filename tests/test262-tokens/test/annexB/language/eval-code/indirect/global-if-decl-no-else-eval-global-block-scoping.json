@@ -3,550 +3,330 @@
     "type": "Keyword",
     "value": "var",
     "start": 1533,
-    "end": 1536,
-    "range": [
-      1533,
-      1536
-    ]
+    "end": 1536
   },
   {
     "type": "Identifier",
     "value": "initialBV",
     "start": 1537,
-    "end": 1546,
-    "range": [
-      1537,
-      1546
-    ]
+    "end": 1546
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1546,
-    "end": 1547,
-    "range": [
-      1546,
-      1547
-    ]
+    "end": 1547
   },
   {
     "type": "Identifier",
     "value": "currentBV",
     "start": 1548,
-    "end": 1557,
-    "range": [
-      1548,
-      1557
-    ]
+    "end": 1557
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1557,
-    "end": 1558,
-    "range": [
-      1557,
-      1558
-    ]
+    "end": 1558
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1560,
-    "end": 1561,
-    "range": [
-      1560,
-      1561
-    ]
+    "end": 1561
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1561,
-    "end": 1562,
-    "range": [
-      1561,
-      1562
-    ]
+    "end": 1562
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1562,
-    "end": 1563,
-    "range": [
-      1562,
-      1563
-    ]
+    "end": 1563
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1563,
-    "end": 1567,
-    "range": [
-      1563,
-      1567
-    ]
+    "end": 1567
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1567,
-    "end": 1568,
-    "range": [
-      1567,
-      1568
-    ]
+    "end": 1568
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1568,
-    "end": 1569,
-    "range": [
-      1568,
-      1569
-    ]
+    "end": 1569
   },
   {
     "type": "String",
     "value": "'if (true) function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'",
     "start": 1572,
-    "end": 1654,
-    "range": [
-      1572,
-      1654
-    ]
+    "end": 1654
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1655,
-    "end": 1656,
-    "range": [
-      1655,
-      1656
-    ]
+    "end": 1656
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1656,
-    "end": 1657,
-    "range": [
-      1656,
-      1657
-    ]
+    "end": 1657
   },
   {
     "type": "Identifier",
     "value": "f",
     "start": 1659,
-    "end": 1660,
-    "range": [
-      1659,
-      1660
-    ]
+    "end": 1660
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1660,
-    "end": 1661,
-    "range": [
-      1660,
-      1661
-    ]
+    "end": 1661
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1661,
-    "end": 1662,
-    "range": [
-      1661,
-      1662
-    ]
+    "end": 1662
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1662,
-    "end": 1663,
-    "range": [
-      1662,
-      1663
-    ]
+    "end": 1663
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1665,
-    "end": 1671,
-    "range": [
-      1665,
-      1671
-    ]
+    "end": 1671
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1671,
-    "end": 1672,
-    "range": [
-      1671,
-      1672
-    ]
+    "end": 1672
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1672,
-    "end": 1681,
-    "range": [
-      1672,
-      1681
-    ]
+    "end": 1681
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1681,
-    "end": 1682,
-    "range": [
-      1681,
-      1682
-    ]
+    "end": 1682
   },
   {
     "type": "Identifier",
     "value": "initialBV",
     "start": 1685,
-    "end": 1694,
-    "range": [
-      1685,
-      1694
-    ]
+    "end": 1694
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1694,
-    "end": 1695,
-    "range": [
-      1694,
-      1695
-    ]
+    "end": 1695
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1695,
-    "end": 1696,
-    "range": [
-      1695,
-      1696
-    ]
+    "end": 1696
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1696,
-    "end": 1697,
-    "range": [
-      1696,
-      1697
-    ]
+    "end": 1697
   },
   {
     "type": "String",
     "value": "'decl'",
     "start": 1700,
-    "end": 1706,
-    "range": [
-      1700,
-      1706
-    ]
+    "end": 1706
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1706,
-    "end": 1707,
-    "range": [
-      1706,
-      1707
-    ]
+    "end": 1707
   },
   {
     "type": "String",
     "value": "'Block-scoped binding value is function object at execution time'",
     "start": 1710,
-    "end": 1775,
-    "range": [
-      1710,
-      1775
-    ]
+    "end": 1775
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1776,
-    "end": 1777,
-    "range": [
-      1776,
-      1777
-    ]
+    "end": 1777
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1777,
-    "end": 1778,
-    "range": [
-      1777,
-      1778
-    ]
+    "end": 1778
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1779,
-    "end": 1785,
-    "range": [
-      1779,
-      1785
-    ]
+    "end": 1785
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1785,
-    "end": 1786,
-    "range": [
-      1785,
-      1786
-    ]
+    "end": 1786
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1786,
-    "end": 1795,
-    "range": [
-      1786,
-      1795
-    ]
+    "end": 1795
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1795,
-    "end": 1796,
-    "range": [
-      1795,
-      1796
-    ]
+    "end": 1796
   },
   {
     "type": "Identifier",
     "value": "currentBV",
     "start": 1796,
-    "end": 1805,
-    "range": [
-      1796,
-      1805
-    ]
+    "end": 1805
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1805,
-    "end": 1806,
-    "range": [
-      1805,
-      1806
-    ]
+    "end": 1806
   },
   {
     "type": "Numeric",
     "value": "123",
     "start": 1807,
-    "end": 1810,
-    "range": [
-      1807,
-      1810
-    ]
+    "end": 1810
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1810,
-    "end": 1811,
-    "range": [
-      1810,
-      1811
-    ]
+    "end": 1811
   },
   {
     "type": "String",
     "value": "'Block-scoped binding is mutable'",
     "start": 1812,
-    "end": 1845,
-    "range": [
-      1812,
-      1845
-    ]
+    "end": 1845
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1845,
-    "end": 1846,
-    "range": [
-      1845,
-      1846
-    ]
+    "end": 1846
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1846,
-    "end": 1847,
-    "range": [
-      1846,
-      1847
-    ]
+    "end": 1847
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1848,
-    "end": 1854,
-    "range": [
-      1848,
-      1854
-    ]
+    "end": 1854
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1854,
-    "end": 1855,
-    "range": [
-      1854,
-      1855
-    ]
+    "end": 1855
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1855,
-    "end": 1864,
-    "range": [
-      1855,
-      1864
-    ]
+    "end": 1864
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1864,
-    "end": 1865,
-    "range": [
-      1864,
-      1865
-    ]
+    "end": 1865
   },
   {
     "type": "Identifier",
     "value": "f",
     "start": 1868,
-    "end": 1869,
-    "range": [
-      1868,
-      1869
-    ]
+    "end": 1869
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1869,
-    "end": 1870,
-    "range": [
-      1869,
-      1870
-    ]
+    "end": 1870
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1870,
-    "end": 1871,
-    "range": [
-      1870,
-      1871
-    ]
+    "end": 1871
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1871,
-    "end": 1872,
-    "range": [
-      1871,
-      1872
-    ]
+    "end": 1872
   },
   {
     "type": "String",
     "value": "'decl'",
     "start": 1875,
-    "end": 1881,
-    "range": [
-      1875,
-      1881
-    ]
+    "end": 1881
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1881,
-    "end": 1882,
-    "range": [
-      1881,
-      1882
-    ]
+    "end": 1882
   },
   {
     "type": "String",
     "value": "'Block-scoped binding is independent of outer var-scoped binding'",
     "start": 1885,
-    "end": 1950,
-    "range": [
-      1885,
-      1950
-    ]
+    "end": 1950
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1951,
-    "end": 1952,
-    "range": [
-      1951,
-      1952
-    ]
+    "end": 1952
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1952,
-    "end": 1953,
-    "range": [
-      1952,
-      1953
-    ]
+    "end": 1953
   }
 ]

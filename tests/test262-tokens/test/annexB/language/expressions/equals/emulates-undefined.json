@@ -3,500 +3,300 @@
     "type": "Keyword",
     "value": "var",
     "start": 890,
-    "end": 893,
-    "range": [
-      890,
-      893
-    ]
+    "end": 893
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 894,
-    "end": 903,
-    "range": [
-      894,
-      903
-    ]
+    "end": 903
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 904,
-    "end": 905,
-    "range": [
-      904,
-      905
-    ]
+    "end": 905
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 906,
-    "end": 910,
-    "range": [
-      906,
-      910
-    ]
+    "end": 910
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 910,
-    "end": 911,
-    "range": [
-      910,
-      911
-    ]
+    "end": 911
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 911,
-    "end": 920,
-    "range": [
-      911,
-      920
-    ]
+    "end": 920
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 920,
-    "end": 921,
-    "range": [
-      920,
-      921
-    ]
+    "end": 921
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 923,
-    "end": 929,
-    "range": [
-      923,
-      929
-    ]
+    "end": 929
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 929,
-    "end": 930,
-    "range": [
-      929,
-      930
-    ]
+    "end": 930
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 930,
-    "end": 939,
-    "range": [
-      930,
-      939
-    ]
+    "end": 939
   },
   {
     "type": "Punctuator",
     "value": "==",
     "start": 940,
-    "end": 942,
-    "range": [
-      940,
-      942
-    ]
+    "end": 942
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 943,
-    "end": 952,
-    "range": [
-      943,
-      952
-    ]
+    "end": 952
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 952,
-    "end": 953,
-    "range": [
-      952,
-      953
-    ]
+    "end": 953
   },
   {
     "type": "String",
     "value": "\"== with `undefined`\"",
     "start": 954,
-    "end": 975,
-    "range": [
-      954,
-      975
-    ]
+    "end": 975
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 975,
-    "end": 976,
-    "range": [
-      975,
-      976
-    ]
+    "end": 976
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 976,
-    "end": 977,
-    "range": [
-      976,
-      977
-    ]
+    "end": 977
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 978,
-    "end": 984,
-    "range": [
-      978,
-      984
-    ]
+    "end": 984
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 984,
-    "end": 985,
-    "range": [
-      984,
-      985
-    ]
+    "end": 985
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 985,
-    "end": 994,
-    "range": [
-      985,
-      994
-    ]
+    "end": 994
   },
   {
     "type": "Punctuator",
     "value": "==",
     "start": 995,
-    "end": 997,
-    "range": [
-      995,
-      997
-    ]
+    "end": 997
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 998,
-    "end": 1007,
-    "range": [
-      998,
-      1007
-    ]
+    "end": 1007
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1007,
-    "end": 1008,
-    "range": [
-      1007,
-      1008
-    ]
+    "end": 1008
   },
   {
     "type": "String",
     "value": "\"== with `undefined`\"",
     "start": 1009,
-    "end": 1030,
-    "range": [
-      1009,
-      1030
-    ]
+    "end": 1030
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1030,
-    "end": 1031,
-    "range": [
-      1030,
-      1031
-    ]
+    "end": 1031
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1031,
-    "end": 1032,
-    "range": [
-      1031,
-      1032
-    ]
+    "end": 1032
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1034,
-    "end": 1040,
-    "range": [
-      1034,
-      1040
-    ]
+    "end": 1040
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1040,
-    "end": 1041,
-    "range": [
-      1040,
-      1041
-    ]
+    "end": 1041
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 1041,
-    "end": 1050,
-    "range": [
-      1041,
-      1050
-    ]
+    "end": 1050
   },
   {
     "type": "Punctuator",
     "value": "==",
     "start": 1051,
-    "end": 1053,
-    "range": [
-      1051,
-      1053
-    ]
+    "end": 1053
   },
   {
     "type": "Null",
     "value": "null",
     "start": 1054,
-    "end": 1058,
-    "range": [
-      1054,
-      1058
-    ]
+    "end": 1058
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1058,
-    "end": 1059,
-    "range": [
-      1058,
-      1059
-    ]
+    "end": 1059
   },
   {
     "type": "String",
     "value": "\"== with `null`\"",
     "start": 1060,
-    "end": 1076,
-    "range": [
-      1060,
-      1076
-    ]
+    "end": 1076
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1076,
-    "end": 1077,
-    "range": [
-      1076,
-      1077
-    ]
+    "end": 1077
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1077,
-    "end": 1078,
-    "range": [
-      1077,
-      1078
-    ]
+    "end": 1078
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1079,
-    "end": 1085,
-    "range": [
-      1079,
-      1085
-    ]
+    "end": 1085
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1085,
-    "end": 1086,
-    "range": [
-      1085,
-      1086
-    ]
+    "end": 1086
   },
   {
     "type": "Null",
     "value": "null",
     "start": 1086,
-    "end": 1090,
-    "range": [
-      1086,
-      1090
-    ]
+    "end": 1090
   },
   {
     "type": "Punctuator",
     "value": "==",
     "start": 1091,
-    "end": 1093,
-    "range": [
-      1091,
-      1093
-    ]
+    "end": 1093
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 1094,
-    "end": 1103,
-    "range": [
-      1094,
-      1103
-    ]
+    "end": 1103
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1103,
-    "end": 1104,
-    "range": [
-      1103,
-      1104
-    ]
+    "end": 1104
   },
   {
     "type": "String",
     "value": "\"== with `null`\"",
     "start": 1105,
-    "end": 1121,
-    "range": [
-      1105,
-      1121
-    ]
+    "end": 1121
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1121,
-    "end": 1122,
-    "range": [
-      1121,
-      1122
-    ]
+    "end": 1122
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1122,
-    "end": 1123,
-    "range": [
-      1122,
-      1123
-    ]
+    "end": 1123
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1125,
-    "end": 1131,
-    "range": [
-      1125,
-      1131
-    ]
+    "end": 1131
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1131,
-    "end": 1132,
-    "range": [
-      1131,
-      1132
-    ]
+    "end": 1132
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 1132,
-    "end": 1141,
-    "range": [
-      1132,
-      1141
-    ]
+    "end": 1141
   },
   {
     "type": "Punctuator",
     "value": "==",
     "start": 1142,
-    "end": 1144,
-    "range": [
-      1142,
-      1144
-    ]
+    "end": 1144
   },
   {
     "type": "Identifier",
     "value": "IsHTMLDDA",
     "start": 1145,
-    "end": 1154,
-    "range": [
-      1145,
-      1154
-    ]
+    "end": 1154
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1154,
-    "end": 1155,
-    "range": [
-      1154,
-      1155
-    ]
+    "end": 1155
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1155,
-    "end": 1156,
-    "range": [
-      1155,
-      1156
-    ]
+    "end": 1156
   }
 ]

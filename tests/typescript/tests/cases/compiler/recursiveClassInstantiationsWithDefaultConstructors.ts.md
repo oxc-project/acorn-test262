@@ -218,321 +218,193 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "namespace",
     "start": 0,
-    "end": 9,
-    "range": [
-      0,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Identifier",
     "value": "TypeScript2",
     "start": 10,
-    "end": 21,
-    "range": [
-      10,
-      21
-    ]
+    "end": 21
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 22,
-    "end": 23,
-    "range": [
-      22,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 28,
-    "end": 34,
-    "range": [
-      28,
-      34
-    ]
+    "end": 34
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 35,
-    "end": 40,
-    "range": [
-      35,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Identifier",
     "value": "MemberName",
     "start": 41,
-    "end": 51,
-    "range": [
-      41,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 52,
-    "end": 53,
-    "range": [
-      52,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Keyword",
     "value": "public",
     "start": 62,
-    "end": 68,
-    "range": [
-      62,
-      68
-    ]
+    "end": 68
   },
   {
     "type": "Identifier",
     "value": "prefix",
     "start": 69,
-    "end": 75,
-    "range": [
-      69,
-      75
-    ]
+    "end": 75
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 75,
-    "end": 76,
-    "range": [
-      75,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 77,
-    "end": 83,
-    "range": [
-      77,
-      83
-    ]
+    "end": 83
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 84,
-    "end": 85,
-    "range": [
-      84,
-      85
-    ]
+    "end": 85
   },
   {
     "type": "String",
     "value": "\"\"",
     "start": 86,
-    "end": 88,
-    "range": [
-      86,
-      88
-    ]
+    "end": 88
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 88,
-    "end": 89,
-    "range": [
-      88,
-      89
-    ]
+    "end": 89
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 94,
-    "end": 95,
-    "range": [
-      94,
-      95
-    ]
+    "end": 95
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 100,
-    "end": 106,
-    "range": [
-      100,
-      106
-    ]
+    "end": 106
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 107,
-    "end": 112,
-    "range": [
-      107,
-      112
-    ]
+    "end": 112
   },
   {
     "type": "Identifier",
     "value": "MemberNameArray",
     "start": 113,
-    "end": 128,
-    "range": [
-      113,
-      128
-    ]
+    "end": 128
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 129,
-    "end": 136,
-    "range": [
-      129,
-      136
-    ]
+    "end": 136
   },
   {
     "type": "Identifier",
     "value": "MemberName",
     "start": 137,
-    "end": 147,
-    "range": [
-      137,
-      147
-    ]
+    "end": 147
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 148,
-    "end": 149,
-    "range": [
-      148,
-      149
-    ]
+    "end": 149
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 154,
-    "end": 155,
-    "range": [
-      154,
-      155
-    ]
+    "end": 155
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 156,
-    "end": 157,
-    "range": [
-      156,
-      157
-    ]
+    "end": 157
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 159,
-    "end": 162,
-    "range": [
-      159,
-      162
-    ]
+    "end": 162
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 163,
-    "end": 164,
-    "range": [
-      163,
-      164
-    ]
+    "end": 164
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 165,
-    "end": 166,
-    "range": [
-      165,
-      166
-    ]
+    "end": 166
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 167,
-    "end": 170,
-    "range": [
-      167,
-      170
-    ]
+    "end": 170
   },
   {
     "type": "Identifier",
     "value": "TypeScript2",
     "start": 171,
-    "end": 182,
-    "range": [
-      171,
-      182
-    ]
+    "end": 182
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 182,
-    "end": 183,
-    "range": [
-      182,
-      183
-    ]
+    "end": 183
   },
   {
     "type": "Identifier",
     "value": "MemberNameArray",
     "start": 183,
-    "end": 198,
-    "range": [
-      183,
-      198
-    ]
+    "end": 198
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 198,
-    "end": 199,
-    "range": [
-      198,
-      199
-    ]
+    "end": 199
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 199,
-    "end": 200,
-    "range": [
-      199,
-      200
-    ]
+    "end": 200
   }
 ]
 ```

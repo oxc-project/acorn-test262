@@ -224,301 +224,181 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 37,
-    "end": 43,
-    "range": [
-      37,
-      43
-    ]
+    "end": 43
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 44,
-    "end": 49,
-    "range": [
-      44,
-      49
-    ]
+    "end": 49
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 50,
-    "end": 51,
-    "range": [
-      50,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 52,
-    "end": 53,
-    "range": [
-      52,
-      53
-    ]
+    "end": 53
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 54,
-    "end": 55,
-    "range": [
-      54,
-      55
-    ]
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 56,
-    "end": 57,
-    "range": [
-      56,
-      57
-    ]
+    "end": 57
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 58,
-    "end": 59,
-    "range": [
-      58,
-      59
-    ]
+    "end": 59
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 59,
-    "end": 60,
-    "range": [
-      59,
-      60
-    ]
+    "end": 60
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 60,
-    "end": 61,
-    "range": [
-      60,
-      61
-    ]
+    "end": 61
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 195,
-    "end": 201,
-    "range": [
-      195,
-      201
-    ]
+    "end": 201
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 202,
-    "end": 211,
-    "range": [
-      202,
-      211
-    ]
+    "end": 211
   },
   {
     "type": "Identifier",
     "value": "Aleph",
     "start": 212,
-    "end": 217,
-    "range": [
-      212,
-      217
-    ]
+    "end": 217
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 218,
-    "end": 219,
-    "range": [
-      218,
-      219
-    ]
+    "end": 219
   },
   {
     "type": "Identifier",
     "value": "q",
     "start": 224,
-    "end": 225,
-    "range": [
-      224,
-      225
-    ]
+    "end": 225
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 225,
-    "end": 226,
-    "range": [
-      225,
-      226
-    ]
+    "end": 226
   },
   {
     "type": "Identifier",
     "value": "number",
     "start": 227,
-    "end": 233,
-    "range": [
-      227,
-      233
-    ]
+    "end": 233
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 233,
-    "end": 234,
-    "range": [
-      233,
-      234
-    ]
+    "end": 234
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 235,
-    "end": 236,
-    "range": [
-      235,
-      236
-    ]
+    "end": 236
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 238,
-    "end": 244,
-    "range": [
-      238,
-      244
-    ]
+    "end": 244
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 245,
-    "end": 250,
-    "range": [
-      245,
-      250
-    ]
+    "end": 250
   },
   {
     "type": "Identifier",
     "value": "Bet",
     "start": 251,
-    "end": 254,
-    "range": [
-      251,
-      254
-    ]
+    "end": 254
   },
   {
     "type": "Keyword",
     "value": "implements",
     "start": 255,
-    "end": 265,
-    "range": [
-      255,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Identifier",
     "value": "Aleph",
     "start": 266,
-    "end": 271,
-    "range": [
-      266,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 272,
-    "end": 273,
-    "range": [
-      272,
-      273
-    ]
+    "end": 273
   },
   {
     "type": "Identifier",
     "value": "q",
     "start": 278,
-    "end": 279,
-    "range": [
-      278,
-      279
-    ]
+    "end": 279
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 279,
-    "end": 280,
-    "range": [
-      279,
-      280
-    ]
+    "end": 280
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 281,
-    "end": 287,
-    "range": [
-      281,
-      287
-    ]
+    "end": 287
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 288,
-    "end": 289,
-    "range": [
-      288,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "String",
     "value": "\"lol\"",
     "start": 290,
-    "end": 295,
-    "range": [
-      290,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 333,
-    "end": 334,
-    "range": [
-      333,
-      334
-    ]
+    "end": 334
   }
 ]
 ```

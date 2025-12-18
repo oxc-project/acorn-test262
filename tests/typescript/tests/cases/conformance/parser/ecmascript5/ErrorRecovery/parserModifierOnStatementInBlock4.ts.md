@@ -60,91 +60,55 @@ __ESTREE_TEST__:TOKENS:
     "type": "Punctuator",
     "value": "{",
     "start": 0,
-    "end": 1,
-    "range": [
-      0,
-      1
-    ]
+    "end": 1
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5,
-    "end": 11,
-    "range": [
-      5,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 12,
-    "end": 20,
-    "range": [
-      12,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "Identifier",
     "value": "bar",
     "start": 21,
-    "end": 24,
-    "range": [
-      21,
-      24
-    ]
+    "end": 24
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 24,
-    "end": 25,
-    "range": [
-      24,
-      25
-    ]
+    "end": 25
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 25,
-    "end": 26,
-    "range": [
-      25,
-      26
-    ]
+    "end": 26
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 27,
-    "end": 28,
-    "range": [
-      27,
-      28
-    ]
+    "end": 28
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 32,
-    "end": 33,
-    "range": [
-      32,
-      33
-    ]
+    "end": 33
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 34,
-    "end": 35,
-    "range": [
-      34,
-      35
-    ]
+    "end": 35
   }
 ]
 ```

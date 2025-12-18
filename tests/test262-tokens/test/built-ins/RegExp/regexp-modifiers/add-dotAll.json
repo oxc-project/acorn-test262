@@ -3,31 +3,19 @@
     "type": "Keyword",
     "value": "var",
     "start": 1656,
-    "end": 1659,
-    "range": [
-      1656,
-      1659
-    ]
+    "end": 1659
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1660,
-    "end": 1663,
-    "range": [
-      1660,
-      1663
-    ]
+    "end": 1663
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1664,
-    "end": 1665,
-    "range": [
-      1664,
-      1665
-    ]
+    "end": 1665
   },
   {
     "type": "RegularExpression",
@@ -37,3761 +25,2257 @@
       "pattern": "(?s:^.$)"
     },
     "start": 1666,
-    "end": 1676,
-    "range": [
-      1666,
-      1676
-    ]
+    "end": 1676
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1676,
-    "end": 1677,
-    "range": [
-      1676,
-      1677
-    ]
+    "end": 1677
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1678,
-    "end": 1684,
-    "range": [
-      1678,
-      1684
-    ]
+    "end": 1684
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1684,
-    "end": 1685,
-    "range": [
-      1684,
-      1685
-    ]
+    "end": 1685
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1685,
-    "end": 1688,
-    "range": [
-      1685,
-      1688
-    ]
+    "end": 1688
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1688,
-    "end": 1689,
-    "range": [
-      1688,
-      1689
-    ]
+    "end": 1689
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1689,
-    "end": 1693,
-    "range": [
-      1689,
-      1693
-    ]
+    "end": 1693
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1693,
-    "end": 1694,
-    "range": [
-      1693,
-      1694
-    ]
+    "end": 1694
   },
   {
     "type": "String",
     "value": "\"a\"",
     "start": 1694,
-    "end": 1697,
-    "range": [
-      1694,
-      1697
-    ]
+    "end": 1697
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1697,
-    "end": 1698,
-    "range": [
-      1697,
-      1698
-    ]
+    "end": 1698
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1698,
-    "end": 1699,
-    "range": [
-      1698,
-      1699
-    ]
+    "end": 1699
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 1700,
-    "end": 1775,
-    "range": [
-      1700,
-      1775
-    ]
+    "end": 1775
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1775,
-    "end": 1776,
-    "range": [
-      1775,
-      1776
-    ]
+    "end": 1776
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1776,
-    "end": 1777,
-    "range": [
-      1776,
-      1777
-    ]
+    "end": 1777
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1778,
-    "end": 1784,
-    "range": [
-      1778,
-      1784
-    ]
+    "end": 1784
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1784,
-    "end": 1785,
-    "range": [
-      1784,
-      1785
-    ]
+    "end": 1785
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1785,
-    "end": 1788,
-    "range": [
-      1785,
-      1788
-    ]
+    "end": 1788
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1788,
-    "end": 1789,
-    "range": [
-      1788,
-      1789
-    ]
+    "end": 1789
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1789,
-    "end": 1793,
-    "range": [
-      1789,
-      1793
-    ]
+    "end": 1793
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1793,
-    "end": 1794,
-    "range": [
-      1793,
-      1794
-    ]
+    "end": 1794
   },
   {
     "type": "String",
     "value": "\"3\"",
     "start": 1794,
-    "end": 1797,
-    "range": [
-      1794,
-      1797
-    ]
+    "end": 1797
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1797,
-    "end": 1798,
-    "range": [
-      1797,
-      1798
-    ]
+    "end": 1798
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1798,
-    "end": 1799,
-    "range": [
-      1798,
-      1799
-    ]
+    "end": 1799
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 1800,
-    "end": 1875,
-    "range": [
-      1800,
-      1875
-    ]
+    "end": 1875
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1875,
-    "end": 1876,
-    "range": [
-      1875,
-      1876
-    ]
+    "end": 1876
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1876,
-    "end": 1877,
-    "range": [
-      1876,
-      1877
-    ]
+    "end": 1877
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1878,
-    "end": 1884,
-    "range": [
-      1878,
-      1884
-    ]
+    "end": 1884
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1884,
-    "end": 1885,
-    "range": [
-      1884,
-      1885
-    ]
+    "end": 1885
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1885,
-    "end": 1888,
-    "range": [
-      1885,
-      1888
-    ]
+    "end": 1888
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1888,
-    "end": 1889,
-    "range": [
-      1888,
-      1889
-    ]
+    "end": 1889
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1889,
-    "end": 1893,
-    "range": [
-      1889,
-      1893
-    ]
+    "end": 1893
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1893,
-    "end": 1894,
-    "range": [
-      1893,
-      1894
-    ]
+    "end": 1894
   },
   {
     "type": "String",
     "value": "\"π\"",
     "start": 1894,
-    "end": 1897,
-    "range": [
-      1894,
-      1897
-    ]
+    "end": 1897
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1897,
-    "end": 1898,
-    "range": [
-      1897,
-      1898
-    ]
+    "end": 1898
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1898,
-    "end": 1899,
-    "range": [
-      1898,
-      1899
-    ]
+    "end": 1899
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 1900,
-    "end": 1975,
-    "range": [
-      1900,
-      1975
-    ]
+    "end": 1975
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1975,
-    "end": 1976,
-    "range": [
-      1975,
-      1976
-    ]
+    "end": 1976
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1976,
-    "end": 1977,
-    "range": [
-      1976,
-      1977
-    ]
+    "end": 1977
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1978,
-    "end": 1984,
-    "range": [
-      1978,
-      1984
-    ]
+    "end": 1984
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1984,
-    "end": 1985,
-    "range": [
-      1984,
-      1985
-    ]
+    "end": 1985
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1985,
-    "end": 1988,
-    "range": [
-      1985,
-      1988
-    ]
+    "end": 1988
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1988,
-    "end": 1989,
-    "range": [
-      1988,
-      1989
-    ]
+    "end": 1989
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1989,
-    "end": 1993,
-    "range": [
-      1989,
-      1993
-    ]
+    "end": 1993
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1993,
-    "end": 1994,
-    "range": [
-      1993,
-      1994
-    ]
+    "end": 1994
   },
   {
     "type": "String",
     "value": "\"\\u2027\"",
     "start": 1994,
-    "end": 2002,
-    "range": [
-      1994,
-      2002
-    ]
+    "end": 2002
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2002,
-    "end": 2003,
-    "range": [
-      2002,
-      2003
-    ]
+    "end": 2003
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2003,
-    "end": 2004,
-    "range": [
-      2003,
-      2004
-    ]
+    "end": 2004
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 2005,
-    "end": 2080,
-    "range": [
-      2005,
-      2080
-    ]
+    "end": 2080
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2080,
-    "end": 2081,
-    "range": [
-      2080,
-      2081
-    ]
+    "end": 2081
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2081,
-    "end": 2082,
-    "range": [
-      2081,
-      2082
-    ]
+    "end": 2082
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2083,
-    "end": 2089,
-    "range": [
-      2083,
-      2089
-    ]
+    "end": 2089
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2089,
-    "end": 2090,
-    "range": [
-      2089,
-      2090
-    ]
+    "end": 2090
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2090,
-    "end": 2093,
-    "range": [
-      2090,
-      2093
-    ]
+    "end": 2093
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2093,
-    "end": 2094,
-    "range": [
-      2093,
-      2094
-    ]
+    "end": 2094
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2094,
-    "end": 2098,
-    "range": [
-      2094,
-      2098
-    ]
+    "end": 2098
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2098,
-    "end": 2099,
-    "range": [
-      2098,
-      2099
-    ]
+    "end": 2099
   },
   {
     "type": "String",
     "value": "\"\\u0085\"",
     "start": 2099,
-    "end": 2107,
-    "range": [
-      2099,
-      2107
-    ]
+    "end": 2107
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2107,
-    "end": 2108,
-    "range": [
-      2107,
-      2108
-    ]
+    "end": 2108
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2108,
-    "end": 2109,
-    "range": [
-      2108,
-      2109
-    ]
+    "end": 2109
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 2110,
-    "end": 2185,
-    "range": [
-      2110,
-      2185
-    ]
+    "end": 2185
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2185,
-    "end": 2186,
-    "range": [
-      2185,
-      2186
-    ]
+    "end": 2186
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2186,
-    "end": 2187,
-    "range": [
-      2186,
-      2187
-    ]
+    "end": 2187
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2188,
-    "end": 2194,
-    "range": [
-      2188,
-      2194
-    ]
+    "end": 2194
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2194,
-    "end": 2195,
-    "range": [
-      2194,
-      2195
-    ]
+    "end": 2195
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2195,
-    "end": 2198,
-    "range": [
-      2195,
-      2198
-    ]
+    "end": 2198
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2198,
-    "end": 2199,
-    "range": [
-      2198,
-      2199
-    ]
+    "end": 2199
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2199,
-    "end": 2203,
-    "range": [
-      2199,
-      2203
-    ]
+    "end": 2203
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2203,
-    "end": 2204,
-    "range": [
-      2203,
-      2204
-    ]
+    "end": 2204
   },
   {
     "type": "String",
     "value": "\"\\v\"",
     "start": 2204,
-    "end": 2208,
-    "range": [
-      2204,
-      2208
-    ]
+    "end": 2208
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2208,
-    "end": 2209,
-    "range": [
-      2208,
-      2209
-    ]
+    "end": 2209
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2209,
-    "end": 2210,
-    "range": [
-      2209,
-      2210
-    ]
+    "end": 2210
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 2211,
-    "end": 2286,
-    "range": [
-      2211,
-      2286
-    ]
+    "end": 2286
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2286,
-    "end": 2287,
-    "range": [
-      2286,
-      2287
-    ]
+    "end": 2287
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2287,
-    "end": 2288,
-    "range": [
-      2287,
-      2288
-    ]
+    "end": 2288
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2289,
-    "end": 2295,
-    "range": [
-      2289,
-      2295
-    ]
+    "end": 2295
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2295,
-    "end": 2296,
-    "range": [
-      2295,
-      2296
-    ]
+    "end": 2296
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2296,
-    "end": 2299,
-    "range": [
-      2296,
-      2299
-    ]
+    "end": 2299
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2299,
-    "end": 2300,
-    "range": [
-      2299,
-      2300
-    ]
+    "end": 2300
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2300,
-    "end": 2304,
-    "range": [
-      2300,
-      2304
-    ]
+    "end": 2304
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2304,
-    "end": 2305,
-    "range": [
-      2304,
-      2305
-    ]
+    "end": 2305
   },
   {
     "type": "String",
     "value": "\"\\f\"",
     "start": 2305,
-    "end": 2309,
-    "range": [
-      2305,
-      2309
-    ]
+    "end": 2309
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2309,
-    "end": 2310,
-    "range": [
-      2309,
-      2310
-    ]
+    "end": 2310
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2310,
-    "end": 2311,
-    "range": [
-      2310,
-      2311
-    ]
+    "end": 2311
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 2312,
-    "end": 2387,
-    "range": [
-      2312,
-      2387
-    ]
+    "end": 2387
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2387,
-    "end": 2388,
-    "range": [
-      2387,
-      2388
-    ]
+    "end": 2388
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2388,
-    "end": 2389,
-    "range": [
-      2388,
-      2389
-    ]
+    "end": 2389
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2390,
-    "end": 2396,
-    "range": [
-      2390,
-      2396
-    ]
+    "end": 2396
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2396,
-    "end": 2397,
-    "range": [
-      2396,
-      2397
-    ]
+    "end": 2397
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2397,
-    "end": 2400,
-    "range": [
-      2397,
-      2400
-    ]
+    "end": 2400
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2400,
-    "end": 2401,
-    "range": [
-      2400,
-      2401
-    ]
+    "end": 2401
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2401,
-    "end": 2405,
-    "range": [
-      2401,
-      2405
-    ]
+    "end": 2405
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2405,
-    "end": 2406,
-    "range": [
-      2405,
-      2406
-    ]
+    "end": 2406
   },
   {
     "type": "String",
     "value": "\"\\u180E\"",
     "start": 2406,
-    "end": 2414,
-    "range": [
-      2406,
-      2414
-    ]
+    "end": 2414
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2414,
-    "end": 2415,
-    "range": [
-      2414,
-      2415
-    ]
+    "end": 2415
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2415,
-    "end": 2416,
-    "range": [
-      2415,
-      2416
-    ]
+    "end": 2416
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 2417,
-    "end": 2492,
-    "range": [
-      2417,
-      2492
-    ]
+    "end": 2492
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2492,
-    "end": 2493,
-    "range": [
-      2492,
-      2493
-    ]
+    "end": 2493
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2493,
-    "end": 2494,
-    "range": [
-      2493,
-      2494
-    ]
+    "end": 2494
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2495,
-    "end": 2501,
-    "range": [
-      2495,
-      2501
-    ]
+    "end": 2501
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2501,
-    "end": 2502,
-    "range": [
-      2501,
-      2502
-    ]
+    "end": 2502
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2502,
-    "end": 2503,
-    "range": [
-      2502,
-      2503
-    ]
+    "end": 2503
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2503,
-    "end": 2506,
-    "range": [
-      2503,
-      2506
-    ]
+    "end": 2506
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2506,
-    "end": 2507,
-    "range": [
-      2506,
-      2507
-    ]
+    "end": 2507
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2507,
-    "end": 2511,
-    "range": [
-      2507,
-      2511
-    ]
+    "end": 2511
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2511,
-    "end": 2512,
-    "range": [
-      2511,
-      2512
-    ]
+    "end": 2512
   },
   {
     "type": "String",
     "value": "\"\\u{10300}\"",
     "start": 2512,
-    "end": 2523,
-    "range": [
-      2512,
-      2523
-    ]
+    "end": 2523
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2523,
-    "end": 2524,
-    "range": [
-      2523,
-      2524
-    ]
+    "end": 2524
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2524,
-    "end": 2525,
-    "range": [
-      2524,
-      2525
-    ]
+    "end": 2525
   },
   {
     "type": "String",
     "value": "\"Supplementary plane not matched by a single .\"",
     "start": 2526,
-    "end": 2573,
-    "range": [
-      2526,
-      2573
-    ]
+    "end": 2573
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2573,
-    "end": 2574,
-    "range": [
-      2573,
-      2574
-    ]
+    "end": 2574
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2574,
-    "end": 2575,
-    "range": [
-      2574,
-      2575
-    ]
+    "end": 2575
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2576,
-    "end": 2582,
-    "range": [
-      2576,
-      2582
-    ]
+    "end": 2582
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2582,
-    "end": 2583,
-    "range": [
-      2582,
-      2583
-    ]
+    "end": 2583
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2583,
-    "end": 2586,
-    "range": [
-      2583,
-      2586
-    ]
+    "end": 2586
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2586,
-    "end": 2587,
-    "range": [
-      2586,
-      2587
-    ]
+    "end": 2587
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2587,
-    "end": 2591,
-    "range": [
-      2587,
-      2591
-    ]
+    "end": 2591
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2591,
-    "end": 2592,
-    "range": [
-      2591,
-      2592
-    ]
+    "end": 2592
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 2592,
-    "end": 2596,
-    "range": [
-      2592,
-      2596
-    ]
+    "end": 2596
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2596,
-    "end": 2597,
-    "range": [
-      2596,
-      2597
-    ]
+    "end": 2597
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2597,
-    "end": 2598,
-    "range": [
-      2597,
-      2598
-    ]
+    "end": 2598
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 2599,
-    "end": 2670,
-    "range": [
-      2599,
-      2670
-    ]
+    "end": 2670
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2670,
-    "end": 2671,
-    "range": [
-      2670,
-      2671
-    ]
+    "end": 2671
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2671,
-    "end": 2672,
-    "range": [
-      2671,
-      2672
-    ]
+    "end": 2672
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2673,
-    "end": 2679,
-    "range": [
-      2673,
-      2679
-    ]
+    "end": 2679
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2679,
-    "end": 2680,
-    "range": [
-      2679,
-      2680
-    ]
+    "end": 2680
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2680,
-    "end": 2683,
-    "range": [
-      2680,
-      2683
-    ]
+    "end": 2683
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2683,
-    "end": 2684,
-    "range": [
-      2683,
-      2684
-    ]
+    "end": 2684
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2684,
-    "end": 2688,
-    "range": [
-      2684,
-      2688
-    ]
+    "end": 2688
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2688,
-    "end": 2689,
-    "range": [
-      2688,
-      2689
-    ]
+    "end": 2689
   },
   {
     "type": "String",
     "value": "\"\\r\"",
     "start": 2689,
-    "end": 2693,
-    "range": [
-      2689,
-      2693
-    ]
+    "end": 2693
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2693,
-    "end": 2694,
-    "range": [
-      2693,
-      2694
-    ]
+    "end": 2694
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2694,
-    "end": 2695,
-    "range": [
-      2694,
-      2695
-    ]
+    "end": 2695
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 2696,
-    "end": 2767,
-    "range": [
-      2696,
-      2767
-    ]
+    "end": 2767
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2767,
-    "end": 2768,
-    "range": [
-      2767,
-      2768
-    ]
+    "end": 2768
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2768,
-    "end": 2769,
-    "range": [
-      2768,
-      2769
-    ]
+    "end": 2769
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2770,
-    "end": 2776,
-    "range": [
-      2770,
-      2776
-    ]
+    "end": 2776
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2776,
-    "end": 2777,
-    "range": [
-      2776,
-      2777
-    ]
+    "end": 2777
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2777,
-    "end": 2780,
-    "range": [
-      2777,
-      2780
-    ]
+    "end": 2780
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2780,
-    "end": 2781,
-    "range": [
-      2780,
-      2781
-    ]
+    "end": 2781
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2781,
-    "end": 2785,
-    "range": [
-      2781,
-      2785
-    ]
+    "end": 2785
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2785,
-    "end": 2786,
-    "range": [
-      2785,
-      2786
-    ]
+    "end": 2786
   },
   {
     "type": "String",
     "value": "\"\\u2028\"",
     "start": 2786,
-    "end": 2794,
-    "range": [
-      2786,
-      2794
-    ]
+    "end": 2794
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2794,
-    "end": 2795,
-    "range": [
-      2794,
-      2795
-    ]
+    "end": 2795
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2795,
-    "end": 2796,
-    "range": [
-      2795,
-      2796
-    ]
+    "end": 2796
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 2797,
-    "end": 2868,
-    "range": [
-      2797,
-      2868
-    ]
+    "end": 2868
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2868,
-    "end": 2869,
-    "range": [
-      2868,
-      2869
-    ]
+    "end": 2869
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2869,
-    "end": 2870,
-    "range": [
-      2869,
-      2870
-    ]
+    "end": 2870
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2871,
-    "end": 2877,
-    "range": [
-      2871,
-      2877
-    ]
+    "end": 2877
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2877,
-    "end": 2878,
-    "range": [
-      2877,
-      2878
-    ]
+    "end": 2878
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2878,
-    "end": 2881,
-    "range": [
-      2878,
-      2881
-    ]
+    "end": 2881
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2881,
-    "end": 2882,
-    "range": [
-      2881,
-      2882
-    ]
+    "end": 2882
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2882,
-    "end": 2886,
-    "range": [
-      2882,
-      2886
-    ]
+    "end": 2886
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2886,
-    "end": 2887,
-    "range": [
-      2886,
-      2887
-    ]
+    "end": 2887
   },
   {
     "type": "String",
     "value": "\"\\u2029\"",
     "start": 2887,
-    "end": 2895,
-    "range": [
-      2887,
-      2895
-    ]
+    "end": 2895
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2895,
-    "end": 2896,
-    "range": [
-      2895,
-      2896
-    ]
+    "end": 2896
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2896,
-    "end": 2897,
-    "range": [
-      2896,
-      2897
-    ]
+    "end": 2897
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 2898,
-    "end": 2969,
-    "range": [
-      2898,
-      2969
-    ]
+    "end": 2969
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2969,
-    "end": 2970,
-    "range": [
-      2969,
-      2970
-    ]
+    "end": 2970
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2970,
-    "end": 2971,
-    "range": [
-      2970,
-      2971
-    ]
+    "end": 2971
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2972,
-    "end": 2978,
-    "range": [
-      2972,
-      2978
-    ]
+    "end": 2978
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2978,
-    "end": 2979,
-    "range": [
-      2978,
-      2979
-    ]
+    "end": 2979
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2979,
-    "end": 2982,
-    "range": [
-      2979,
-      2982
-    ]
+    "end": 2982
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2982,
-    "end": 2983,
-    "range": [
-      2982,
-      2983
-    ]
+    "end": 2983
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2983,
-    "end": 2987,
-    "range": [
-      2983,
-      2987
-    ]
+    "end": 2987
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2987,
-    "end": 2988,
-    "range": [
-      2987,
-      2988
-    ]
+    "end": 2988
   },
   {
     "type": "String",
     "value": "\"\\uD800\"",
     "start": 2988,
-    "end": 2996,
-    "range": [
-      2988,
-      2996
-    ]
+    "end": 2996
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2996,
-    "end": 2997,
-    "range": [
-      2996,
-      2997
-    ]
+    "end": 2997
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2997,
-    "end": 2998,
-    "range": [
-      2997,
-      2998
-    ]
+    "end": 2998
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 2999,
-    "end": 3074,
-    "range": [
-      2999,
-      3074
-    ]
+    "end": 3074
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3074,
-    "end": 3075,
-    "range": [
-      3074,
-      3075
-    ]
+    "end": 3075
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3075,
-    "end": 3076,
-    "range": [
-      3075,
-      3076
-    ]
+    "end": 3076
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3077,
-    "end": 3083,
-    "range": [
-      3077,
-      3083
-    ]
+    "end": 3083
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3083,
-    "end": 3084,
-    "range": [
-      3083,
-      3084
-    ]
+    "end": 3084
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 3084,
-    "end": 3087,
-    "range": [
-      3084,
-      3087
-    ]
+    "end": 3087
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3087,
-    "end": 3088,
-    "range": [
-      3087,
-      3088
-    ]
+    "end": 3088
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3088,
-    "end": 3092,
-    "range": [
-      3088,
-      3092
-    ]
+    "end": 3092
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3092,
-    "end": 3093,
-    "range": [
-      3092,
-      3093
-    ]
+    "end": 3093
   },
   {
     "type": "String",
     "value": "\"\\uDFFF\"",
     "start": 3093,
-    "end": 3101,
-    "range": [
-      3093,
-      3101
-    ]
+    "end": 3101
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3101,
-    "end": 3102,
-    "range": [
-      3101,
-      3102
-    ]
+    "end": 3102
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3102,
-    "end": 3103,
-    "range": [
-      3102,
-      3103
-    ]
+    "end": 3103
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 3104,
-    "end": 3179,
-    "range": [
-      3104,
-      3179
-    ]
+    "end": 3179
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3179,
-    "end": 3180,
-    "range": [
-      3179,
-      3180
-    ]
+    "end": 3180
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3180,
-    "end": 3181,
-    "range": [
-      3180,
-      3181
-    ]
+    "end": 3181
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3183,
-    "end": 3186,
-    "range": [
-      3183,
-      3186
-    ]
+    "end": 3186
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3187,
-    "end": 3190,
-    "range": [
-      3187,
-      3190
-    ]
+    "end": 3190
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3191,
-    "end": 3192,
-    "range": [
-      3191,
-      3192
-    ]
+    "end": 3192
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 3193,
-    "end": 3196,
-    "range": [
-      3193,
-      3196
-    ]
+    "end": 3196
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 3197,
-    "end": 3203,
-    "range": [
-      3197,
-      3203
-    ]
+    "end": 3203
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3203,
-    "end": 3204,
-    "range": [
-      3203,
-      3204
-    ]
+    "end": 3204
   },
   {
     "type": "String",
     "value": "\"(?s:^.$)\"",
     "start": 3204,
-    "end": 3214,
-    "range": [
-      3204,
-      3214
-    ]
+    "end": 3214
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3214,
-    "end": 3215,
-    "range": [
-      3214,
-      3215
-    ]
+    "end": 3215
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3215,
-    "end": 3216,
-    "range": [
-      3215,
-      3216
-    ]
+    "end": 3216
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3217,
-    "end": 3223,
-    "range": [
-      3217,
-      3223
-    ]
+    "end": 3223
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3223,
-    "end": 3224,
-    "range": [
-      3223,
-      3224
-    ]
+    "end": 3224
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3224,
-    "end": 3227,
-    "range": [
-      3224,
-      3227
-    ]
+    "end": 3227
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3227,
-    "end": 3228,
-    "range": [
-      3227,
-      3228
-    ]
+    "end": 3228
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3228,
-    "end": 3232,
-    "range": [
-      3228,
-      3232
-    ]
+    "end": 3232
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3232,
-    "end": 3233,
-    "range": [
-      3232,
-      3233
-    ]
+    "end": 3233
   },
   {
     "type": "String",
     "value": "\"a\"",
     "start": 3233,
-    "end": 3236,
-    "range": [
-      3233,
-      3236
-    ]
+    "end": 3236
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3236,
-    "end": 3237,
-    "range": [
-      3236,
-      3237
-    ]
+    "end": 3237
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3237,
-    "end": 3238,
-    "range": [
-      3237,
-      3238
-    ]
+    "end": 3238
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 3239,
-    "end": 3314,
-    "range": [
-      3239,
-      3314
-    ]
+    "end": 3314
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3314,
-    "end": 3315,
-    "range": [
-      3314,
-      3315
-    ]
+    "end": 3315
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3315,
-    "end": 3316,
-    "range": [
-      3315,
-      3316
-    ]
+    "end": 3316
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3317,
-    "end": 3323,
-    "range": [
-      3317,
-      3323
-    ]
+    "end": 3323
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3323,
-    "end": 3324,
-    "range": [
-      3323,
-      3324
-    ]
+    "end": 3324
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3324,
-    "end": 3327,
-    "range": [
-      3324,
-      3327
-    ]
+    "end": 3327
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3327,
-    "end": 3328,
-    "range": [
-      3327,
-      3328
-    ]
+    "end": 3328
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3328,
-    "end": 3332,
-    "range": [
-      3328,
-      3332
-    ]
+    "end": 3332
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3332,
-    "end": 3333,
-    "range": [
-      3332,
-      3333
-    ]
+    "end": 3333
   },
   {
     "type": "String",
     "value": "\"3\"",
     "start": 3333,
-    "end": 3336,
-    "range": [
-      3333,
-      3336
-    ]
+    "end": 3336
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3336,
-    "end": 3337,
-    "range": [
-      3336,
-      3337
-    ]
+    "end": 3337
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3337,
-    "end": 3338,
-    "range": [
-      3337,
-      3338
-    ]
+    "end": 3338
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 3339,
-    "end": 3414,
-    "range": [
-      3339,
-      3414
-    ]
+    "end": 3414
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3414,
-    "end": 3415,
-    "range": [
-      3414,
-      3415
-    ]
+    "end": 3415
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3415,
-    "end": 3416,
-    "range": [
-      3415,
-      3416
-    ]
+    "end": 3416
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3417,
-    "end": 3423,
-    "range": [
-      3417,
-      3423
-    ]
+    "end": 3423
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3423,
-    "end": 3424,
-    "range": [
-      3423,
-      3424
-    ]
+    "end": 3424
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3424,
-    "end": 3427,
-    "range": [
-      3424,
-      3427
-    ]
+    "end": 3427
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3427,
-    "end": 3428,
-    "range": [
-      3427,
-      3428
-    ]
+    "end": 3428
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3428,
-    "end": 3432,
-    "range": [
-      3428,
-      3432
-    ]
+    "end": 3432
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3432,
-    "end": 3433,
-    "range": [
-      3432,
-      3433
-    ]
+    "end": 3433
   },
   {
     "type": "String",
     "value": "\"π\"",
     "start": 3433,
-    "end": 3436,
-    "range": [
-      3433,
-      3436
-    ]
+    "end": 3436
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3436,
-    "end": 3437,
-    "range": [
-      3436,
-      3437
-    ]
+    "end": 3437
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3437,
-    "end": 3438,
-    "range": [
-      3437,
-      3438
-    ]
+    "end": 3438
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 3439,
-    "end": 3514,
-    "range": [
-      3439,
-      3514
-    ]
+    "end": 3514
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3514,
-    "end": 3515,
-    "range": [
-      3514,
-      3515
-    ]
+    "end": 3515
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3515,
-    "end": 3516,
-    "range": [
-      3515,
-      3516
-    ]
+    "end": 3516
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3517,
-    "end": 3523,
-    "range": [
-      3517,
-      3523
-    ]
+    "end": 3523
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3523,
-    "end": 3524,
-    "range": [
-      3523,
-      3524
-    ]
+    "end": 3524
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3524,
-    "end": 3527,
-    "range": [
-      3524,
-      3527
-    ]
+    "end": 3527
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3527,
-    "end": 3528,
-    "range": [
-      3527,
-      3528
-    ]
+    "end": 3528
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3528,
-    "end": 3532,
-    "range": [
-      3528,
-      3532
-    ]
+    "end": 3532
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3532,
-    "end": 3533,
-    "range": [
-      3532,
-      3533
-    ]
+    "end": 3533
   },
   {
     "type": "String",
     "value": "\"\\u2027\"",
     "start": 3533,
-    "end": 3541,
-    "range": [
-      3533,
-      3541
-    ]
+    "end": 3541
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3541,
-    "end": 3542,
-    "range": [
-      3541,
-      3542
-    ]
+    "end": 3542
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3542,
-    "end": 3543,
-    "range": [
-      3542,
-      3543
-    ]
+    "end": 3543
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 3544,
-    "end": 3619,
-    "range": [
-      3544,
-      3619
-    ]
+    "end": 3619
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3619,
-    "end": 3620,
-    "range": [
-      3619,
-      3620
-    ]
+    "end": 3620
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3620,
-    "end": 3621,
-    "range": [
-      3620,
-      3621
-    ]
+    "end": 3621
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3622,
-    "end": 3628,
-    "range": [
-      3622,
-      3628
-    ]
+    "end": 3628
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3628,
-    "end": 3629,
-    "range": [
-      3628,
-      3629
-    ]
+    "end": 3629
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3629,
-    "end": 3632,
-    "range": [
-      3629,
-      3632
-    ]
+    "end": 3632
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3632,
-    "end": 3633,
-    "range": [
-      3632,
-      3633
-    ]
+    "end": 3633
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3633,
-    "end": 3637,
-    "range": [
-      3633,
-      3637
-    ]
+    "end": 3637
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3637,
-    "end": 3638,
-    "range": [
-      3637,
-      3638
-    ]
+    "end": 3638
   },
   {
     "type": "String",
     "value": "\"\\u0085\"",
     "start": 3638,
-    "end": 3646,
-    "range": [
-      3638,
-      3646
-    ]
+    "end": 3646
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3646,
-    "end": 3647,
-    "range": [
-      3646,
-      3647
-    ]
+    "end": 3647
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3647,
-    "end": 3648,
-    "range": [
-      3647,
-      3648
-    ]
+    "end": 3648
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 3649,
-    "end": 3724,
-    "range": [
-      3649,
-      3724
-    ]
+    "end": 3724
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3724,
-    "end": 3725,
-    "range": [
-      3724,
-      3725
-    ]
+    "end": 3725
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3725,
-    "end": 3726,
-    "range": [
-      3725,
-      3726
-    ]
+    "end": 3726
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3727,
-    "end": 3733,
-    "range": [
-      3727,
-      3733
-    ]
+    "end": 3733
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3733,
-    "end": 3734,
-    "range": [
-      3733,
-      3734
-    ]
+    "end": 3734
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3734,
-    "end": 3737,
-    "range": [
-      3734,
-      3737
-    ]
+    "end": 3737
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3737,
-    "end": 3738,
-    "range": [
-      3737,
-      3738
-    ]
+    "end": 3738
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3738,
-    "end": 3742,
-    "range": [
-      3738,
-      3742
-    ]
+    "end": 3742
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3742,
-    "end": 3743,
-    "range": [
-      3742,
-      3743
-    ]
+    "end": 3743
   },
   {
     "type": "String",
     "value": "\"\\v\"",
     "start": 3743,
-    "end": 3747,
-    "range": [
-      3743,
-      3747
-    ]
+    "end": 3747
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3747,
-    "end": 3748,
-    "range": [
-      3747,
-      3748
-    ]
+    "end": 3748
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3748,
-    "end": 3749,
-    "range": [
-      3748,
-      3749
-    ]
+    "end": 3749
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 3750,
-    "end": 3825,
-    "range": [
-      3750,
-      3825
-    ]
+    "end": 3825
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3825,
-    "end": 3826,
-    "range": [
-      3825,
-      3826
-    ]
+    "end": 3826
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3826,
-    "end": 3827,
-    "range": [
-      3826,
-      3827
-    ]
+    "end": 3827
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3828,
-    "end": 3834,
-    "range": [
-      3828,
-      3834
-    ]
+    "end": 3834
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3834,
-    "end": 3835,
-    "range": [
-      3834,
-      3835
-    ]
+    "end": 3835
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3835,
-    "end": 3838,
-    "range": [
-      3835,
-      3838
-    ]
+    "end": 3838
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3838,
-    "end": 3839,
-    "range": [
-      3838,
-      3839
-    ]
+    "end": 3839
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3839,
-    "end": 3843,
-    "range": [
-      3839,
-      3843
-    ]
+    "end": 3843
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3843,
-    "end": 3844,
-    "range": [
-      3843,
-      3844
-    ]
+    "end": 3844
   },
   {
     "type": "String",
     "value": "\"\\f\"",
     "start": 3844,
-    "end": 3848,
-    "range": [
-      3844,
-      3848
-    ]
+    "end": 3848
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3848,
-    "end": 3849,
-    "range": [
-      3848,
-      3849
-    ]
+    "end": 3849
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3849,
-    "end": 3850,
-    "range": [
-      3849,
-      3850
-    ]
+    "end": 3850
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 3851,
-    "end": 3926,
-    "range": [
-      3851,
-      3926
-    ]
+    "end": 3926
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3926,
-    "end": 3927,
-    "range": [
-      3926,
-      3927
-    ]
+    "end": 3927
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3927,
-    "end": 3928,
-    "range": [
-      3927,
-      3928
-    ]
+    "end": 3928
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3929,
-    "end": 3935,
-    "range": [
-      3929,
-      3935
-    ]
+    "end": 3935
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3935,
-    "end": 3936,
-    "range": [
-      3935,
-      3936
-    ]
+    "end": 3936
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 3936,
-    "end": 3939,
-    "range": [
-      3936,
-      3939
-    ]
+    "end": 3939
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3939,
-    "end": 3940,
-    "range": [
-      3939,
-      3940
-    ]
+    "end": 3940
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 3940,
-    "end": 3944,
-    "range": [
-      3940,
-      3944
-    ]
+    "end": 3944
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3944,
-    "end": 3945,
-    "range": [
-      3944,
-      3945
-    ]
+    "end": 3945
   },
   {
     "type": "String",
     "value": "\"\\u180E\"",
     "start": 3945,
-    "end": 3953,
-    "range": [
-      3945,
-      3953
-    ]
+    "end": 3953
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3953,
-    "end": 3954,
-    "range": [
-      3953,
-      3954
-    ]
+    "end": 3954
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3954,
-    "end": 3955,
-    "range": [
-      3954,
-      3955
-    ]
+    "end": 3955
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 3956,
-    "end": 4031,
-    "range": [
-      3956,
-      4031
-    ]
+    "end": 4031
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4031,
-    "end": 4032,
-    "range": [
-      4031,
-      4032
-    ]
+    "end": 4032
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4032,
-    "end": 4033,
-    "range": [
-      4032,
-      4033
-    ]
+    "end": 4033
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4034,
-    "end": 4040,
-    "range": [
-      4034,
-      4040
-    ]
+    "end": 4040
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4040,
-    "end": 4041,
-    "range": [
-      4040,
-      4041
-    ]
+    "end": 4041
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 4041,
-    "end": 4042,
-    "range": [
-      4041,
-      4042
-    ]
+    "end": 4042
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 4042,
-    "end": 4045,
-    "range": [
-      4042,
-      4045
-    ]
+    "end": 4045
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4045,
-    "end": 4046,
-    "range": [
-      4045,
-      4046
-    ]
+    "end": 4046
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4046,
-    "end": 4050,
-    "range": [
-      4046,
-      4050
-    ]
+    "end": 4050
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4050,
-    "end": 4051,
-    "range": [
-      4050,
-      4051
-    ]
+    "end": 4051
   },
   {
     "type": "String",
     "value": "\"\\u{10300}\"",
     "start": 4051,
-    "end": 4062,
-    "range": [
-      4051,
-      4062
-    ]
+    "end": 4062
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4062,
-    "end": 4063,
-    "range": [
-      4062,
-      4063
-    ]
+    "end": 4063
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4063,
-    "end": 4064,
-    "range": [
-      4063,
-      4064
-    ]
+    "end": 4064
   },
   {
     "type": "String",
     "value": "\"Supplementary plane not matched by a single .\"",
     "start": 4065,
-    "end": 4112,
-    "range": [
-      4065,
-      4112
-    ]
+    "end": 4112
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4112,
-    "end": 4113,
-    "range": [
-      4112,
-      4113
-    ]
+    "end": 4113
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4113,
-    "end": 4114,
-    "range": [
-      4113,
-      4114
-    ]
+    "end": 4114
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4115,
-    "end": 4121,
-    "range": [
-      4115,
-      4121
-    ]
+    "end": 4121
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4121,
-    "end": 4122,
-    "range": [
-      4121,
-      4122
-    ]
+    "end": 4122
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 4122,
-    "end": 4125,
-    "range": [
-      4122,
-      4125
-    ]
+    "end": 4125
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4125,
-    "end": 4126,
-    "range": [
-      4125,
-      4126
-    ]
+    "end": 4126
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4126,
-    "end": 4130,
-    "range": [
-      4126,
-      4130
-    ]
+    "end": 4130
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4130,
-    "end": 4131,
-    "range": [
-      4130,
-      4131
-    ]
+    "end": 4131
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 4131,
-    "end": 4135,
-    "range": [
-      4131,
-      4135
-    ]
+    "end": 4135
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4135,
-    "end": 4136,
-    "range": [
-      4135,
-      4136
-    ]
+    "end": 4136
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4136,
-    "end": 4137,
-    "range": [
-      4136,
-      4137
-    ]
+    "end": 4137
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 4138,
-    "end": 4209,
-    "range": [
-      4138,
-      4209
-    ]
+    "end": 4209
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4209,
-    "end": 4210,
-    "range": [
-      4209,
-      4210
-    ]
+    "end": 4210
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4210,
-    "end": 4211,
-    "range": [
-      4210,
-      4211
-    ]
+    "end": 4211
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4212,
-    "end": 4218,
-    "range": [
-      4212,
-      4218
-    ]
+    "end": 4218
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4218,
-    "end": 4219,
-    "range": [
-      4218,
-      4219
-    ]
+    "end": 4219
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 4219,
-    "end": 4222,
-    "range": [
-      4219,
-      4222
-    ]
+    "end": 4222
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4222,
-    "end": 4223,
-    "range": [
-      4222,
-      4223
-    ]
+    "end": 4223
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4223,
-    "end": 4227,
-    "range": [
-      4223,
-      4227
-    ]
+    "end": 4227
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4227,
-    "end": 4228,
-    "range": [
-      4227,
-      4228
-    ]
+    "end": 4228
   },
   {
     "type": "String",
     "value": "\"\\r\"",
     "start": 4228,
-    "end": 4232,
-    "range": [
-      4228,
-      4232
-    ]
+    "end": 4232
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4232,
-    "end": 4233,
-    "range": [
-      4232,
-      4233
-    ]
+    "end": 4233
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4233,
-    "end": 4234,
-    "range": [
-      4233,
-      4234
-    ]
+    "end": 4234
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 4235,
-    "end": 4306,
-    "range": [
-      4235,
-      4306
-    ]
+    "end": 4306
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4306,
-    "end": 4307,
-    "range": [
-      4306,
-      4307
-    ]
+    "end": 4307
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4307,
-    "end": 4308,
-    "range": [
-      4307,
-      4308
-    ]
+    "end": 4308
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4309,
-    "end": 4315,
-    "range": [
-      4309,
-      4315
-    ]
+    "end": 4315
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4315,
-    "end": 4316,
-    "range": [
-      4315,
-      4316
-    ]
+    "end": 4316
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 4316,
-    "end": 4319,
-    "range": [
-      4316,
-      4319
-    ]
+    "end": 4319
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4319,
-    "end": 4320,
-    "range": [
-      4319,
-      4320
-    ]
+    "end": 4320
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4320,
-    "end": 4324,
-    "range": [
-      4320,
-      4324
-    ]
+    "end": 4324
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4324,
-    "end": 4325,
-    "range": [
-      4324,
-      4325
-    ]
+    "end": 4325
   },
   {
     "type": "String",
     "value": "\"\\u2028\"",
     "start": 4325,
-    "end": 4333,
-    "range": [
-      4325,
-      4333
-    ]
+    "end": 4333
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4333,
-    "end": 4334,
-    "range": [
-      4333,
-      4334
-    ]
+    "end": 4334
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4334,
-    "end": 4335,
-    "range": [
-      4334,
-      4335
-    ]
+    "end": 4335
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 4336,
-    "end": 4407,
-    "range": [
-      4336,
-      4407
-    ]
+    "end": 4407
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4407,
-    "end": 4408,
-    "range": [
-      4407,
-      4408
-    ]
+    "end": 4408
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4408,
-    "end": 4409,
-    "range": [
-      4408,
-      4409
-    ]
+    "end": 4409
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4410,
-    "end": 4416,
-    "range": [
-      4410,
-      4416
-    ]
+    "end": 4416
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4416,
-    "end": 4417,
-    "range": [
-      4416,
-      4417
-    ]
+    "end": 4417
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 4417,
-    "end": 4420,
-    "range": [
-      4417,
-      4420
-    ]
+    "end": 4420
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4420,
-    "end": 4421,
-    "range": [
-      4420,
-      4421
-    ]
+    "end": 4421
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4421,
-    "end": 4425,
-    "range": [
-      4421,
-      4425
-    ]
+    "end": 4425
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4425,
-    "end": 4426,
-    "range": [
-      4425,
-      4426
-    ]
+    "end": 4426
   },
   {
     "type": "String",
     "value": "\"\\u2029\"",
     "start": 4426,
-    "end": 4434,
-    "range": [
-      4426,
-      4434
-    ]
+    "end": 4434
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4434,
-    "end": 4435,
-    "range": [
-      4434,
-      4435
-    ]
+    "end": 4435
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4435,
-    "end": 4436,
-    "range": [
-      4435,
-      4436
-    ]
+    "end": 4436
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 4437,
-    "end": 4508,
-    "range": [
-      4437,
-      4508
-    ]
+    "end": 4508
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4508,
-    "end": 4509,
-    "range": [
-      4508,
-      4509
-    ]
+    "end": 4509
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4509,
-    "end": 4510,
-    "range": [
-      4509,
-      4510
-    ]
+    "end": 4510
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4511,
-    "end": 4517,
-    "range": [
-      4511,
-      4517
-    ]
+    "end": 4517
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4517,
-    "end": 4518,
-    "range": [
-      4517,
-      4518
-    ]
+    "end": 4518
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 4518,
-    "end": 4521,
-    "range": [
-      4518,
-      4521
-    ]
+    "end": 4521
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4521,
-    "end": 4522,
-    "range": [
-      4521,
-      4522
-    ]
+    "end": 4522
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4522,
-    "end": 4526,
-    "range": [
-      4522,
-      4526
-    ]
+    "end": 4526
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4526,
-    "end": 4527,
-    "range": [
-      4526,
-      4527
-    ]
+    "end": 4527
   },
   {
     "type": "String",
     "value": "\"\\uD800\"",
     "start": 4527,
-    "end": 4535,
-    "range": [
-      4527,
-      4535
-    ]
+    "end": 4535
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4535,
-    "end": 4536,
-    "range": [
-      4535,
-      4536
-    ]
+    "end": 4536
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4536,
-    "end": 4537,
-    "range": [
-      4536,
-      4537
-    ]
+    "end": 4537
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 4538,
-    "end": 4613,
-    "range": [
-      4538,
-      4613
-    ]
+    "end": 4613
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4613,
-    "end": 4614,
-    "range": [
-      4613,
-      4614
-    ]
+    "end": 4614
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4614,
-    "end": 4615,
-    "range": [
-      4614,
-      4615
-    ]
+    "end": 4615
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4616,
-    "end": 4622,
-    "range": [
-      4616,
-      4622
-    ]
+    "end": 4622
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4622,
-    "end": 4623,
-    "range": [
-      4622,
-      4623
-    ]
+    "end": 4623
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 4623,
-    "end": 4626,
-    "range": [
-      4623,
-      4626
-    ]
+    "end": 4626
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4626,
-    "end": 4627,
-    "range": [
-      4626,
-      4627
-    ]
+    "end": 4627
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4627,
-    "end": 4631,
-    "range": [
-      4627,
-      4631
-    ]
+    "end": 4631
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4631,
-    "end": 4632,
-    "range": [
-      4631,
-      4632
-    ]
+    "end": 4632
   },
   {
     "type": "String",
     "value": "\"\\uDFFF\"",
     "start": 4632,
-    "end": 4640,
-    "range": [
-      4632,
-      4640
-    ]
+    "end": 4640
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4640,
-    "end": 4641,
-    "range": [
-      4640,
-      4641
-    ]
+    "end": 4641
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4641,
-    "end": 4642,
-    "range": [
-      4641,
-      4642
-    ]
+    "end": 4642
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 4643,
-    "end": 4718,
-    "range": [
-      4643,
-      4718
-    ]
+    "end": 4718
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4718,
-    "end": 4719,
-    "range": [
-      4718,
-      4719
-    ]
+    "end": 4719
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4719,
-    "end": 4720,
-    "range": [
-      4719,
-      4720
-    ]
+    "end": 4720
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4722,
-    "end": 4725,
-    "range": [
-      4722,
-      4725
-    ]
+    "end": 4725
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 4726,
-    "end": 4729,
-    "range": [
-      4726,
-      4729
-    ]
+    "end": 4729
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4730,
-    "end": 4731,
-    "range": [
-      4730,
-      4731
-    ]
+    "end": 4731
   },
   {
     "type": "RegularExpression",
@@ -3801,3761 +2285,2257 @@
       "pattern": "(?s-:^.$)"
     },
     "start": 4732,
-    "end": 4743,
-    "range": [
-      4732,
-      4743
-    ]
+    "end": 4743
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4743,
-    "end": 4744,
-    "range": [
-      4743,
-      4744
-    ]
+    "end": 4744
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4745,
-    "end": 4751,
-    "range": [
-      4745,
-      4751
-    ]
+    "end": 4751
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4751,
-    "end": 4752,
-    "range": [
-      4751,
-      4752
-    ]
+    "end": 4752
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 4752,
-    "end": 4755,
-    "range": [
-      4752,
-      4755
-    ]
+    "end": 4755
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4755,
-    "end": 4756,
-    "range": [
-      4755,
-      4756
-    ]
+    "end": 4756
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4756,
-    "end": 4760,
-    "range": [
-      4756,
-      4760
-    ]
+    "end": 4760
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4760,
-    "end": 4761,
-    "range": [
-      4760,
-      4761
-    ]
+    "end": 4761
   },
   {
     "type": "String",
     "value": "\"a\"",
     "start": 4761,
-    "end": 4764,
-    "range": [
-      4761,
-      4764
-    ]
+    "end": 4764
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4764,
-    "end": 4765,
-    "range": [
-      4764,
-      4765
-    ]
+    "end": 4765
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4765,
-    "end": 4766,
-    "range": [
-      4765,
-      4766
-    ]
+    "end": 4766
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 4767,
-    "end": 4842,
-    "range": [
-      4767,
-      4842
-    ]
+    "end": 4842
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4842,
-    "end": 4843,
-    "range": [
-      4842,
-      4843
-    ]
+    "end": 4843
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4843,
-    "end": 4844,
-    "range": [
-      4843,
-      4844
-    ]
+    "end": 4844
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4845,
-    "end": 4851,
-    "range": [
-      4845,
-      4851
-    ]
+    "end": 4851
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4851,
-    "end": 4852,
-    "range": [
-      4851,
-      4852
-    ]
+    "end": 4852
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 4852,
-    "end": 4855,
-    "range": [
-      4852,
-      4855
-    ]
+    "end": 4855
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4855,
-    "end": 4856,
-    "range": [
-      4855,
-      4856
-    ]
+    "end": 4856
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4856,
-    "end": 4860,
-    "range": [
-      4856,
-      4860
-    ]
+    "end": 4860
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4860,
-    "end": 4861,
-    "range": [
-      4860,
-      4861
-    ]
+    "end": 4861
   },
   {
     "type": "String",
     "value": "\"3\"",
     "start": 4861,
-    "end": 4864,
-    "range": [
-      4861,
-      4864
-    ]
+    "end": 4864
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4864,
-    "end": 4865,
-    "range": [
-      4864,
-      4865
-    ]
+    "end": 4865
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4865,
-    "end": 4866,
-    "range": [
-      4865,
-      4866
-    ]
+    "end": 4866
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 4867,
-    "end": 4942,
-    "range": [
-      4867,
-      4942
-    ]
+    "end": 4942
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4942,
-    "end": 4943,
-    "range": [
-      4942,
-      4943
-    ]
+    "end": 4943
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4943,
-    "end": 4944,
-    "range": [
-      4943,
-      4944
-    ]
+    "end": 4944
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4945,
-    "end": 4951,
-    "range": [
-      4945,
-      4951
-    ]
+    "end": 4951
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4951,
-    "end": 4952,
-    "range": [
-      4951,
-      4952
-    ]
+    "end": 4952
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 4952,
-    "end": 4955,
-    "range": [
-      4952,
-      4955
-    ]
+    "end": 4955
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4955,
-    "end": 4956,
-    "range": [
-      4955,
-      4956
-    ]
+    "end": 4956
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 4956,
-    "end": 4960,
-    "range": [
-      4956,
-      4960
-    ]
+    "end": 4960
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4960,
-    "end": 4961,
-    "range": [
-      4960,
-      4961
-    ]
+    "end": 4961
   },
   {
     "type": "String",
     "value": "\"π\"",
     "start": 4961,
-    "end": 4964,
-    "range": [
-      4961,
-      4964
-    ]
+    "end": 4964
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4964,
-    "end": 4965,
-    "range": [
-      4964,
-      4965
-    ]
+    "end": 4965
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4965,
-    "end": 4966,
-    "range": [
-      4965,
-      4966
-    ]
+    "end": 4966
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 4967,
-    "end": 5042,
-    "range": [
-      4967,
-      5042
-    ]
+    "end": 5042
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5042,
-    "end": 5043,
-    "range": [
-      5042,
-      5043
-    ]
+    "end": 5043
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5043,
-    "end": 5044,
-    "range": [
-      5043,
-      5044
-    ]
+    "end": 5044
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5045,
-    "end": 5051,
-    "range": [
-      5045,
-      5051
-    ]
+    "end": 5051
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5051,
-    "end": 5052,
-    "range": [
-      5051,
-      5052
-    ]
+    "end": 5052
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5052,
-    "end": 5055,
-    "range": [
-      5052,
-      5055
-    ]
+    "end": 5055
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5055,
-    "end": 5056,
-    "range": [
-      5055,
-      5056
-    ]
+    "end": 5056
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5056,
-    "end": 5060,
-    "range": [
-      5056,
-      5060
-    ]
+    "end": 5060
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5060,
-    "end": 5061,
-    "range": [
-      5060,
-      5061
-    ]
+    "end": 5061
   },
   {
     "type": "String",
     "value": "\"\\u2027\"",
     "start": 5061,
-    "end": 5069,
-    "range": [
-      5061,
-      5069
-    ]
+    "end": 5069
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5069,
-    "end": 5070,
-    "range": [
-      5069,
-      5070
-    ]
+    "end": 5070
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5070,
-    "end": 5071,
-    "range": [
-      5070,
-      5071
-    ]
+    "end": 5071
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 5072,
-    "end": 5147,
-    "range": [
-      5072,
-      5147
-    ]
+    "end": 5147
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5147,
-    "end": 5148,
-    "range": [
-      5147,
-      5148
-    ]
+    "end": 5148
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5148,
-    "end": 5149,
-    "range": [
-      5148,
-      5149
-    ]
+    "end": 5149
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5150,
-    "end": 5156,
-    "range": [
-      5150,
-      5156
-    ]
+    "end": 5156
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5156,
-    "end": 5157,
-    "range": [
-      5156,
-      5157
-    ]
+    "end": 5157
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5157,
-    "end": 5160,
-    "range": [
-      5157,
-      5160
-    ]
+    "end": 5160
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5160,
-    "end": 5161,
-    "range": [
-      5160,
-      5161
-    ]
+    "end": 5161
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5161,
-    "end": 5165,
-    "range": [
-      5161,
-      5165
-    ]
+    "end": 5165
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5165,
-    "end": 5166,
-    "range": [
-      5165,
-      5166
-    ]
+    "end": 5166
   },
   {
     "type": "String",
     "value": "\"\\u0085\"",
     "start": 5166,
-    "end": 5174,
-    "range": [
-      5166,
-      5174
-    ]
+    "end": 5174
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5174,
-    "end": 5175,
-    "range": [
-      5174,
-      5175
-    ]
+    "end": 5175
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5175,
-    "end": 5176,
-    "range": [
-      5175,
-      5176
-    ]
+    "end": 5176
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 5177,
-    "end": 5252,
-    "range": [
-      5177,
-      5252
-    ]
+    "end": 5252
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5252,
-    "end": 5253,
-    "range": [
-      5252,
-      5253
-    ]
+    "end": 5253
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5253,
-    "end": 5254,
-    "range": [
-      5253,
-      5254
-    ]
+    "end": 5254
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5255,
-    "end": 5261,
-    "range": [
-      5255,
-      5261
-    ]
+    "end": 5261
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5261,
-    "end": 5262,
-    "range": [
-      5261,
-      5262
-    ]
+    "end": 5262
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5262,
-    "end": 5265,
-    "range": [
-      5262,
-      5265
-    ]
+    "end": 5265
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5265,
-    "end": 5266,
-    "range": [
-      5265,
-      5266
-    ]
+    "end": 5266
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5266,
-    "end": 5270,
-    "range": [
-      5266,
-      5270
-    ]
+    "end": 5270
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5270,
-    "end": 5271,
-    "range": [
-      5270,
-      5271
-    ]
+    "end": 5271
   },
   {
     "type": "String",
     "value": "\"\\v\"",
     "start": 5271,
-    "end": 5275,
-    "range": [
-      5271,
-      5275
-    ]
+    "end": 5275
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5275,
-    "end": 5276,
-    "range": [
-      5275,
-      5276
-    ]
+    "end": 5276
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5276,
-    "end": 5277,
-    "range": [
-      5276,
-      5277
-    ]
+    "end": 5277
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 5278,
-    "end": 5353,
-    "range": [
-      5278,
-      5353
-    ]
+    "end": 5353
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5353,
-    "end": 5354,
-    "range": [
-      5353,
-      5354
-    ]
+    "end": 5354
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5354,
-    "end": 5355,
-    "range": [
-      5354,
-      5355
-    ]
+    "end": 5355
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5356,
-    "end": 5362,
-    "range": [
-      5356,
-      5362
-    ]
+    "end": 5362
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5362,
-    "end": 5363,
-    "range": [
-      5362,
-      5363
-    ]
+    "end": 5363
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5363,
-    "end": 5366,
-    "range": [
-      5363,
-      5366
-    ]
+    "end": 5366
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5366,
-    "end": 5367,
-    "range": [
-      5366,
-      5367
-    ]
+    "end": 5367
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5367,
-    "end": 5371,
-    "range": [
-      5367,
-      5371
-    ]
+    "end": 5371
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5371,
-    "end": 5372,
-    "range": [
-      5371,
-      5372
-    ]
+    "end": 5372
   },
   {
     "type": "String",
     "value": "\"\\f\"",
     "start": 5372,
-    "end": 5376,
-    "range": [
-      5372,
-      5376
-    ]
+    "end": 5376
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5376,
-    "end": 5377,
-    "range": [
-      5376,
-      5377
-    ]
+    "end": 5377
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5377,
-    "end": 5378,
-    "range": [
-      5377,
-      5378
-    ]
+    "end": 5378
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 5379,
-    "end": 5454,
-    "range": [
-      5379,
-      5454
-    ]
+    "end": 5454
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5454,
-    "end": 5455,
-    "range": [
-      5454,
-      5455
-    ]
+    "end": 5455
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5455,
-    "end": 5456,
-    "range": [
-      5455,
-      5456
-    ]
+    "end": 5456
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5457,
-    "end": 5463,
-    "range": [
-      5457,
-      5463
-    ]
+    "end": 5463
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5463,
-    "end": 5464,
-    "range": [
-      5463,
-      5464
-    ]
+    "end": 5464
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5464,
-    "end": 5467,
-    "range": [
-      5464,
-      5467
-    ]
+    "end": 5467
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5467,
-    "end": 5468,
-    "range": [
-      5467,
-      5468
-    ]
+    "end": 5468
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5468,
-    "end": 5472,
-    "range": [
-      5468,
-      5472
-    ]
+    "end": 5472
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5472,
-    "end": 5473,
-    "range": [
-      5472,
-      5473
-    ]
+    "end": 5473
   },
   {
     "type": "String",
     "value": "\"\\u180E\"",
     "start": 5473,
-    "end": 5481,
-    "range": [
-      5473,
-      5481
-    ]
+    "end": 5481
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5481,
-    "end": 5482,
-    "range": [
-      5481,
-      5482
-    ]
+    "end": 5482
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5482,
-    "end": 5483,
-    "range": [
-      5482,
-      5483
-    ]
+    "end": 5483
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 5484,
-    "end": 5559,
-    "range": [
-      5484,
-      5559
-    ]
+    "end": 5559
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5559,
-    "end": 5560,
-    "range": [
-      5559,
-      5560
-    ]
+    "end": 5560
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5560,
-    "end": 5561,
-    "range": [
-      5560,
-      5561
-    ]
+    "end": 5561
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5562,
-    "end": 5568,
-    "range": [
-      5562,
-      5568
-    ]
+    "end": 5568
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5568,
-    "end": 5569,
-    "range": [
-      5568,
-      5569
-    ]
+    "end": 5569
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 5569,
-    "end": 5570,
-    "range": [
-      5569,
-      5570
-    ]
+    "end": 5570
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5570,
-    "end": 5573,
-    "range": [
-      5570,
-      5573
-    ]
+    "end": 5573
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5573,
-    "end": 5574,
-    "range": [
-      5573,
-      5574
-    ]
+    "end": 5574
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5574,
-    "end": 5578,
-    "range": [
-      5574,
-      5578
-    ]
+    "end": 5578
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5578,
-    "end": 5579,
-    "range": [
-      5578,
-      5579
-    ]
+    "end": 5579
   },
   {
     "type": "String",
     "value": "\"\\u{10300}\"",
     "start": 5579,
-    "end": 5590,
-    "range": [
-      5579,
-      5590
-    ]
+    "end": 5590
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5590,
-    "end": 5591,
-    "range": [
-      5590,
-      5591
-    ]
+    "end": 5591
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5591,
-    "end": 5592,
-    "range": [
-      5591,
-      5592
-    ]
+    "end": 5592
   },
   {
     "type": "String",
     "value": "\"Supplementary plane not matched by a single .\"",
     "start": 5593,
-    "end": 5640,
-    "range": [
-      5593,
-      5640
-    ]
+    "end": 5640
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5640,
-    "end": 5641,
-    "range": [
-      5640,
-      5641
-    ]
+    "end": 5641
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5641,
-    "end": 5642,
-    "range": [
-      5641,
-      5642
-    ]
+    "end": 5642
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5643,
-    "end": 5649,
-    "range": [
-      5643,
-      5649
-    ]
+    "end": 5649
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5649,
-    "end": 5650,
-    "range": [
-      5649,
-      5650
-    ]
+    "end": 5650
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5650,
-    "end": 5653,
-    "range": [
-      5650,
-      5653
-    ]
+    "end": 5653
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5653,
-    "end": 5654,
-    "range": [
-      5653,
-      5654
-    ]
+    "end": 5654
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5654,
-    "end": 5658,
-    "range": [
-      5654,
-      5658
-    ]
+    "end": 5658
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5658,
-    "end": 5659,
-    "range": [
-      5658,
-      5659
-    ]
+    "end": 5659
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 5659,
-    "end": 5663,
-    "range": [
-      5659,
-      5663
-    ]
+    "end": 5663
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5663,
-    "end": 5664,
-    "range": [
-      5663,
-      5664
-    ]
+    "end": 5664
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5664,
-    "end": 5665,
-    "range": [
-      5664,
-      5665
-    ]
+    "end": 5665
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 5666,
-    "end": 5737,
-    "range": [
-      5666,
-      5737
-    ]
+    "end": 5737
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5737,
-    "end": 5738,
-    "range": [
-      5737,
-      5738
-    ]
+    "end": 5738
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5738,
-    "end": 5739,
-    "range": [
-      5738,
-      5739
-    ]
+    "end": 5739
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5740,
-    "end": 5746,
-    "range": [
-      5740,
-      5746
-    ]
+    "end": 5746
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5746,
-    "end": 5747,
-    "range": [
-      5746,
-      5747
-    ]
+    "end": 5747
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5747,
-    "end": 5750,
-    "range": [
-      5747,
-      5750
-    ]
+    "end": 5750
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5750,
-    "end": 5751,
-    "range": [
-      5750,
-      5751
-    ]
+    "end": 5751
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5751,
-    "end": 5755,
-    "range": [
-      5751,
-      5755
-    ]
+    "end": 5755
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5755,
-    "end": 5756,
-    "range": [
-      5755,
-      5756
-    ]
+    "end": 5756
   },
   {
     "type": "String",
     "value": "\"\\r\"",
     "start": 5756,
-    "end": 5760,
-    "range": [
-      5756,
-      5760
-    ]
+    "end": 5760
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5760,
-    "end": 5761,
-    "range": [
-      5760,
-      5761
-    ]
+    "end": 5761
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5761,
-    "end": 5762,
-    "range": [
-      5761,
-      5762
-    ]
+    "end": 5762
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 5763,
-    "end": 5834,
-    "range": [
-      5763,
-      5834
-    ]
+    "end": 5834
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5834,
-    "end": 5835,
-    "range": [
-      5834,
-      5835
-    ]
+    "end": 5835
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5835,
-    "end": 5836,
-    "range": [
-      5835,
-      5836
-    ]
+    "end": 5836
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5837,
-    "end": 5843,
-    "range": [
-      5837,
-      5843
-    ]
+    "end": 5843
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5843,
-    "end": 5844,
-    "range": [
-      5843,
-      5844
-    ]
+    "end": 5844
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5844,
-    "end": 5847,
-    "range": [
-      5844,
-      5847
-    ]
+    "end": 5847
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5847,
-    "end": 5848,
-    "range": [
-      5847,
-      5848
-    ]
+    "end": 5848
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5848,
-    "end": 5852,
-    "range": [
-      5848,
-      5852
-    ]
+    "end": 5852
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5852,
-    "end": 5853,
-    "range": [
-      5852,
-      5853
-    ]
+    "end": 5853
   },
   {
     "type": "String",
     "value": "\"\\u2028\"",
     "start": 5853,
-    "end": 5861,
-    "range": [
-      5853,
-      5861
-    ]
+    "end": 5861
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5861,
-    "end": 5862,
-    "range": [
-      5861,
-      5862
-    ]
+    "end": 5862
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5862,
-    "end": 5863,
-    "range": [
-      5862,
-      5863
-    ]
+    "end": 5863
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 5864,
-    "end": 5935,
-    "range": [
-      5864,
-      5935
-    ]
+    "end": 5935
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5935,
-    "end": 5936,
-    "range": [
-      5935,
-      5936
-    ]
+    "end": 5936
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5936,
-    "end": 5937,
-    "range": [
-      5936,
-      5937
-    ]
+    "end": 5937
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5938,
-    "end": 5944,
-    "range": [
-      5938,
-      5944
-    ]
+    "end": 5944
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5944,
-    "end": 5945,
-    "range": [
-      5944,
-      5945
-    ]
+    "end": 5945
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 5945,
-    "end": 5948,
-    "range": [
-      5945,
-      5948
-    ]
+    "end": 5948
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5948,
-    "end": 5949,
-    "range": [
-      5948,
-      5949
-    ]
+    "end": 5949
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 5949,
-    "end": 5953,
-    "range": [
-      5949,
-      5953
-    ]
+    "end": 5953
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5953,
-    "end": 5954,
-    "range": [
-      5953,
-      5954
-    ]
+    "end": 5954
   },
   {
     "type": "String",
     "value": "\"\\u2029\"",
     "start": 5954,
-    "end": 5962,
-    "range": [
-      5954,
-      5962
-    ]
+    "end": 5962
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5962,
-    "end": 5963,
-    "range": [
-      5962,
-      5963
-    ]
+    "end": 5963
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5963,
-    "end": 5964,
-    "range": [
-      5963,
-      5964
-    ]
+    "end": 5964
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 5965,
-    "end": 6036,
-    "range": [
-      5965,
-      6036
-    ]
+    "end": 6036
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6036,
-    "end": 6037,
-    "range": [
-      6036,
-      6037
-    ]
+    "end": 6037
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6037,
-    "end": 6038,
-    "range": [
-      6037,
-      6038
-    ]
+    "end": 6038
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6039,
-    "end": 6045,
-    "range": [
-      6039,
-      6045
-    ]
+    "end": 6045
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6045,
-    "end": 6046,
-    "range": [
-      6045,
-      6046
-    ]
+    "end": 6046
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 6046,
-    "end": 6049,
-    "range": [
-      6046,
-      6049
-    ]
+    "end": 6049
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6049,
-    "end": 6050,
-    "range": [
-      6049,
-      6050
-    ]
+    "end": 6050
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6050,
-    "end": 6054,
-    "range": [
-      6050,
-      6054
-    ]
+    "end": 6054
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6054,
-    "end": 6055,
-    "range": [
-      6054,
-      6055
-    ]
+    "end": 6055
   },
   {
     "type": "String",
     "value": "\"\\uD800\"",
     "start": 6055,
-    "end": 6063,
-    "range": [
-      6055,
-      6063
-    ]
+    "end": 6063
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6063,
-    "end": 6064,
-    "range": [
-      6063,
-      6064
-    ]
+    "end": 6064
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6064,
-    "end": 6065,
-    "range": [
-      6064,
-      6065
-    ]
+    "end": 6065
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 6066,
-    "end": 6141,
-    "range": [
-      6066,
-      6141
-    ]
+    "end": 6141
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6141,
-    "end": 6142,
-    "range": [
-      6141,
-      6142
-    ]
+    "end": 6142
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6142,
-    "end": 6143,
-    "range": [
-      6142,
-      6143
-    ]
+    "end": 6143
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6144,
-    "end": 6150,
-    "range": [
-      6144,
-      6150
-    ]
+    "end": 6150
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6150,
-    "end": 6151,
-    "range": [
-      6150,
-      6151
-    ]
+    "end": 6151
   },
   {
     "type": "Identifier",
     "value": "re3",
     "start": 6151,
-    "end": 6154,
-    "range": [
-      6151,
-      6154
-    ]
+    "end": 6154
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6154,
-    "end": 6155,
-    "range": [
-      6154,
-      6155
-    ]
+    "end": 6155
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6155,
-    "end": 6159,
-    "range": [
-      6155,
-      6159
-    ]
+    "end": 6159
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6159,
-    "end": 6160,
-    "range": [
-      6159,
-      6160
-    ]
+    "end": 6160
   },
   {
     "type": "String",
     "value": "\"\\uDFFF\"",
     "start": 6160,
-    "end": 6168,
-    "range": [
-      6160,
-      6168
-    ]
+    "end": 6168
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6168,
-    "end": 6169,
-    "range": [
-      6168,
-      6169
-    ]
+    "end": 6169
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6169,
-    "end": 6170,
-    "range": [
-      6169,
-      6170
-    ]
+    "end": 6170
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 6171,
-    "end": 6246,
-    "range": [
-      6171,
-      6246
-    ]
+    "end": 6246
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6246,
-    "end": 6247,
-    "range": [
-      6246,
-      6247
-    ]
+    "end": 6247
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6247,
-    "end": 6248,
-    "range": [
-      6247,
-      6248
-    ]
+    "end": 6248
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6250,
-    "end": 6253,
-    "range": [
-      6250,
-      6253
-    ]
+    "end": 6253
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6254,
-    "end": 6257,
-    "range": [
-      6254,
-      6257
-    ]
+    "end": 6257
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6258,
-    "end": 6259,
-    "range": [
-      6258,
-      6259
-    ]
+    "end": 6259
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 6260,
-    "end": 6263,
-    "range": [
-      6260,
-      6263
-    ]
+    "end": 6263
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 6264,
-    "end": 6270,
-    "range": [
-      6264,
-      6270
-    ]
+    "end": 6270
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6270,
-    "end": 6271,
-    "range": [
-      6270,
-      6271
-    ]
+    "end": 6271
   },
   {
     "type": "String",
     "value": "\"(?s-:^.$)\"",
     "start": 6271,
-    "end": 6282,
-    "range": [
-      6271,
-      6282
-    ]
+    "end": 6282
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6282,
-    "end": 6283,
-    "range": [
-      6282,
-      6283
-    ]
+    "end": 6283
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6283,
-    "end": 6284,
-    "range": [
-      6283,
-      6284
-    ]
+    "end": 6284
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6285,
-    "end": 6291,
-    "range": [
-      6285,
-      6291
-    ]
+    "end": 6291
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6291,
-    "end": 6292,
-    "range": [
-      6291,
-      6292
-    ]
+    "end": 6292
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6292,
-    "end": 6295,
-    "range": [
-      6292,
-      6295
-    ]
+    "end": 6295
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6295,
-    "end": 6296,
-    "range": [
-      6295,
-      6296
-    ]
+    "end": 6296
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6296,
-    "end": 6300,
-    "range": [
-      6296,
-      6300
-    ]
+    "end": 6300
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6300,
-    "end": 6301,
-    "range": [
-      6300,
-      6301
-    ]
+    "end": 6301
   },
   {
     "type": "String",
     "value": "\"a\"",
     "start": 6301,
-    "end": 6304,
-    "range": [
-      6301,
-      6304
-    ]
+    "end": 6304
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6304,
-    "end": 6305,
-    "range": [
-      6304,
-      6305
-    ]
+    "end": 6305
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6305,
-    "end": 6306,
-    "range": [
-      6305,
-      6306
-    ]
+    "end": 6306
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 6307,
-    "end": 6382,
-    "range": [
-      6307,
-      6382
-    ]
+    "end": 6382
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6382,
-    "end": 6383,
-    "range": [
-      6382,
-      6383
-    ]
+    "end": 6383
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6383,
-    "end": 6384,
-    "range": [
-      6383,
-      6384
-    ]
+    "end": 6384
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6385,
-    "end": 6391,
-    "range": [
-      6385,
-      6391
-    ]
+    "end": 6391
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6391,
-    "end": 6392,
-    "range": [
-      6391,
-      6392
-    ]
+    "end": 6392
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6392,
-    "end": 6395,
-    "range": [
-      6392,
-      6395
-    ]
+    "end": 6395
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6395,
-    "end": 6396,
-    "range": [
-      6395,
-      6396
-    ]
+    "end": 6396
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6396,
-    "end": 6400,
-    "range": [
-      6396,
-      6400
-    ]
+    "end": 6400
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6400,
-    "end": 6401,
-    "range": [
-      6400,
-      6401
-    ]
+    "end": 6401
   },
   {
     "type": "String",
     "value": "\"3\"",
     "start": 6401,
-    "end": 6404,
-    "range": [
-      6401,
-      6404
-    ]
+    "end": 6404
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6404,
-    "end": 6405,
-    "range": [
-      6404,
-      6405
-    ]
+    "end": 6405
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6405,
-    "end": 6406,
-    "range": [
-      6405,
-      6406
-    ]
+    "end": 6406
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 6407,
-    "end": 6482,
-    "range": [
-      6407,
-      6482
-    ]
+    "end": 6482
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6482,
-    "end": 6483,
-    "range": [
-      6482,
-      6483
-    ]
+    "end": 6483
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6483,
-    "end": 6484,
-    "range": [
-      6483,
-      6484
-    ]
+    "end": 6484
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6485,
-    "end": 6491,
-    "range": [
-      6485,
-      6491
-    ]
+    "end": 6491
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6491,
-    "end": 6492,
-    "range": [
-      6491,
-      6492
-    ]
+    "end": 6492
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6492,
-    "end": 6495,
-    "range": [
-      6492,
-      6495
-    ]
+    "end": 6495
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6495,
-    "end": 6496,
-    "range": [
-      6495,
-      6496
-    ]
+    "end": 6496
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6496,
-    "end": 6500,
-    "range": [
-      6496,
-      6500
-    ]
+    "end": 6500
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6500,
-    "end": 6501,
-    "range": [
-      6500,
-      6501
-    ]
+    "end": 6501
   },
   {
     "type": "String",
     "value": "\"π\"",
     "start": 6501,
-    "end": 6504,
-    "range": [
-      6501,
-      6504
-    ]
+    "end": 6504
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6504,
-    "end": 6505,
-    "range": [
-      6504,
-      6505
-    ]
+    "end": 6505
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6505,
-    "end": 6506,
-    "range": [
-      6505,
-      6506
-    ]
+    "end": 6506
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 6507,
-    "end": 6582,
-    "range": [
-      6507,
-      6582
-    ]
+    "end": 6582
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6582,
-    "end": 6583,
-    "range": [
-      6582,
-      6583
-    ]
+    "end": 6583
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6583,
-    "end": 6584,
-    "range": [
-      6583,
-      6584
-    ]
+    "end": 6584
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6585,
-    "end": 6591,
-    "range": [
-      6585,
-      6591
-    ]
+    "end": 6591
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6591,
-    "end": 6592,
-    "range": [
-      6591,
-      6592
-    ]
+    "end": 6592
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6592,
-    "end": 6595,
-    "range": [
-      6592,
-      6595
-    ]
+    "end": 6595
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6595,
-    "end": 6596,
-    "range": [
-      6595,
-      6596
-    ]
+    "end": 6596
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6596,
-    "end": 6600,
-    "range": [
-      6596,
-      6600
-    ]
+    "end": 6600
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6600,
-    "end": 6601,
-    "range": [
-      6600,
-      6601
-    ]
+    "end": 6601
   },
   {
     "type": "String",
     "value": "\"\\u2027\"",
     "start": 6601,
-    "end": 6609,
-    "range": [
-      6601,
-      6609
-    ]
+    "end": 6609
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6609,
-    "end": 6610,
-    "range": [
-      6609,
-      6610
-    ]
+    "end": 6610
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6610,
-    "end": 6611,
-    "range": [
-      6610,
-      6611
-    ]
+    "end": 6611
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 6612,
-    "end": 6687,
-    "range": [
-      6612,
-      6687
-    ]
+    "end": 6687
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6687,
-    "end": 6688,
-    "range": [
-      6687,
-      6688
-    ]
+    "end": 6688
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6688,
-    "end": 6689,
-    "range": [
-      6688,
-      6689
-    ]
+    "end": 6689
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6690,
-    "end": 6696,
-    "range": [
-      6690,
-      6696
-    ]
+    "end": 6696
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6696,
-    "end": 6697,
-    "range": [
-      6696,
-      6697
-    ]
+    "end": 6697
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6697,
-    "end": 6700,
-    "range": [
-      6697,
-      6700
-    ]
+    "end": 6700
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6700,
-    "end": 6701,
-    "range": [
-      6700,
-      6701
-    ]
+    "end": 6701
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6701,
-    "end": 6705,
-    "range": [
-      6701,
-      6705
-    ]
+    "end": 6705
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6705,
-    "end": 6706,
-    "range": [
-      6705,
-      6706
-    ]
+    "end": 6706
   },
   {
     "type": "String",
     "value": "\"\\u0085\"",
     "start": 6706,
-    "end": 6714,
-    "range": [
-      6706,
-      6714
-    ]
+    "end": 6714
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6714,
-    "end": 6715,
-    "range": [
-      6714,
-      6715
-    ]
+    "end": 6715
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6715,
-    "end": 6716,
-    "range": [
-      6715,
-      6716
-    ]
+    "end": 6716
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 6717,
-    "end": 6792,
-    "range": [
-      6717,
-      6792
-    ]
+    "end": 6792
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6792,
-    "end": 6793,
-    "range": [
-      6792,
-      6793
-    ]
+    "end": 6793
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6793,
-    "end": 6794,
-    "range": [
-      6793,
-      6794
-    ]
+    "end": 6794
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6795,
-    "end": 6801,
-    "range": [
-      6795,
-      6801
-    ]
+    "end": 6801
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6801,
-    "end": 6802,
-    "range": [
-      6801,
-      6802
-    ]
+    "end": 6802
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6802,
-    "end": 6805,
-    "range": [
-      6802,
-      6805
-    ]
+    "end": 6805
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6805,
-    "end": 6806,
-    "range": [
-      6805,
-      6806
-    ]
+    "end": 6806
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6806,
-    "end": 6810,
-    "range": [
-      6806,
-      6810
-    ]
+    "end": 6810
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6810,
-    "end": 6811,
-    "range": [
-      6810,
-      6811
-    ]
+    "end": 6811
   },
   {
     "type": "String",
     "value": "\"\\v\"",
     "start": 6811,
-    "end": 6815,
-    "range": [
-      6811,
-      6815
-    ]
+    "end": 6815
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6815,
-    "end": 6816,
-    "range": [
-      6815,
-      6816
-    ]
+    "end": 6816
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6816,
-    "end": 6817,
-    "range": [
-      6816,
-      6817
-    ]
+    "end": 6817
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 6818,
-    "end": 6893,
-    "range": [
-      6818,
-      6893
-    ]
+    "end": 6893
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6893,
-    "end": 6894,
-    "range": [
-      6893,
-      6894
-    ]
+    "end": 6894
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6894,
-    "end": 6895,
-    "range": [
-      6894,
-      6895
-    ]
+    "end": 6895
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6896,
-    "end": 6902,
-    "range": [
-      6896,
-      6902
-    ]
+    "end": 6902
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6902,
-    "end": 6903,
-    "range": [
-      6902,
-      6903
-    ]
+    "end": 6903
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 6903,
-    "end": 6906,
-    "range": [
-      6903,
-      6906
-    ]
+    "end": 6906
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6906,
-    "end": 6907,
-    "range": [
-      6906,
-      6907
-    ]
+    "end": 6907
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 6907,
-    "end": 6911,
-    "range": [
-      6907,
-      6911
-    ]
+    "end": 6911
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6911,
-    "end": 6912,
-    "range": [
-      6911,
-      6912
-    ]
+    "end": 6912
   },
   {
     "type": "String",
     "value": "\"\\f\"",
     "start": 6912,
-    "end": 6916,
-    "range": [
-      6912,
-      6916
-    ]
+    "end": 6916
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6916,
-    "end": 6917,
-    "range": [
-      6916,
-      6917
-    ]
+    "end": 6917
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6917,
-    "end": 6918,
-    "range": [
-      6917,
-      6918
-    ]
+    "end": 6918
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match mon-line terminators in modified group\"",
     "start": 6919,
-    "end": 6994,
-    "range": [
-      6919,
-      6994
-    ]
+    "end": 6994
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6994,
-    "end": 6995,
-    "range": [
-      6994,
-      6995
-    ]
+    "end": 6995
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6995,
-    "end": 6996,
-    "range": [
-      6995,
-      6996
-    ]
+    "end": 6996
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6997,
-    "end": 7003,
-    "range": [
-      6997,
-      7003
-    ]
+    "end": 7003
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7003,
-    "end": 7004,
-    "range": [
-      7003,
-      7004
-    ]
+    "end": 7004
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7004,
-    "end": 7007,
-    "range": [
-      7004,
-      7007
-    ]
+    "end": 7007
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7007,
-    "end": 7008,
-    "range": [
-      7007,
-      7008
-    ]
+    "end": 7008
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7008,
-    "end": 7012,
-    "range": [
-      7008,
-      7012
-    ]
+    "end": 7012
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7012,
-    "end": 7013,
-    "range": [
-      7012,
-      7013
-    ]
+    "end": 7013
   },
   {
     "type": "String",
     "value": "\"\\u180E\"",
     "start": 7013,
-    "end": 7021,
-    "range": [
-      7013,
-      7021
-    ]
+    "end": 7021
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7021,
-    "end": 7022,
-    "range": [
-      7021,
-      7022
-    ]
+    "end": 7022
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7022,
-    "end": 7023,
-    "range": [
-      7022,
-      7023
-    ]
+    "end": 7023
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 7024,
-    "end": 7099,
-    "range": [
-      7024,
-      7099
-    ]
+    "end": 7099
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7099,
-    "end": 7100,
-    "range": [
-      7099,
-      7100
-    ]
+    "end": 7100
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7100,
-    "end": 7101,
-    "range": [
-      7100,
-      7101
-    ]
+    "end": 7101
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7102,
-    "end": 7108,
-    "range": [
-      7102,
-      7108
-    ]
+    "end": 7108
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7108,
-    "end": 7109,
-    "range": [
-      7108,
-      7109
-    ]
+    "end": 7109
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 7109,
-    "end": 7110,
-    "range": [
-      7109,
-      7110
-    ]
+    "end": 7110
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7110,
-    "end": 7113,
-    "range": [
-      7110,
-      7113
-    ]
+    "end": 7113
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7113,
-    "end": 7114,
-    "range": [
-      7113,
-      7114
-    ]
+    "end": 7114
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7114,
-    "end": 7118,
-    "range": [
-      7114,
-      7118
-    ]
+    "end": 7118
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7118,
-    "end": 7119,
-    "range": [
-      7118,
-      7119
-    ]
+    "end": 7119
   },
   {
     "type": "String",
     "value": "\"\\u{10300}\"",
     "start": 7119,
-    "end": 7130,
-    "range": [
-      7119,
-      7130
-    ]
+    "end": 7130
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7130,
-    "end": 7131,
-    "range": [
-      7130,
-      7131
-    ]
+    "end": 7131
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7131,
-    "end": 7132,
-    "range": [
-      7131,
-      7132
-    ]
+    "end": 7132
   },
   {
     "type": "String",
     "value": "\"Supplementary plane not matched by a single .\"",
     "start": 7133,
-    "end": 7180,
-    "range": [
-      7133,
-      7180
-    ]
+    "end": 7180
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7180,
-    "end": 7181,
-    "range": [
-      7180,
-      7181
-    ]
+    "end": 7181
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7181,
-    "end": 7182,
-    "range": [
-      7181,
-      7182
-    ]
+    "end": 7182
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7183,
-    "end": 7189,
-    "range": [
-      7183,
-      7189
-    ]
+    "end": 7189
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7189,
-    "end": 7190,
-    "range": [
-      7189,
-      7190
-    ]
+    "end": 7190
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7190,
-    "end": 7193,
-    "range": [
-      7190,
-      7193
-    ]
+    "end": 7193
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7193,
-    "end": 7194,
-    "range": [
-      7193,
-      7194
-    ]
+    "end": 7194
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7194,
-    "end": 7198,
-    "range": [
-      7194,
-      7198
-    ]
+    "end": 7198
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7198,
-    "end": 7199,
-    "range": [
-      7198,
-      7199
-    ]
+    "end": 7199
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 7199,
-    "end": 7203,
-    "range": [
-      7199,
-      7203
-    ]
+    "end": 7203
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7203,
-    "end": 7204,
-    "range": [
-      7203,
-      7204
-    ]
+    "end": 7204
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7204,
-    "end": 7205,
-    "range": [
-      7204,
-      7205
-    ]
+    "end": 7205
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 7206,
-    "end": 7277,
-    "range": [
-      7206,
-      7277
-    ]
+    "end": 7277
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7277,
-    "end": 7278,
-    "range": [
-      7277,
-      7278
-    ]
+    "end": 7278
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7278,
-    "end": 7279,
-    "range": [
-      7278,
-      7279
-    ]
+    "end": 7279
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7280,
-    "end": 7286,
-    "range": [
-      7280,
-      7286
-    ]
+    "end": 7286
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7286,
-    "end": 7287,
-    "range": [
-      7286,
-      7287
-    ]
+    "end": 7287
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7287,
-    "end": 7290,
-    "range": [
-      7287,
-      7290
-    ]
+    "end": 7290
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7290,
-    "end": 7291,
-    "range": [
-      7290,
-      7291
-    ]
+    "end": 7291
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7291,
-    "end": 7295,
-    "range": [
-      7291,
-      7295
-    ]
+    "end": 7295
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7295,
-    "end": 7296,
-    "range": [
-      7295,
-      7296
-    ]
+    "end": 7296
   },
   {
     "type": "String",
     "value": "\"\\r\"",
     "start": 7296,
-    "end": 7300,
-    "range": [
-      7296,
-      7300
-    ]
+    "end": 7300
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7300,
-    "end": 7301,
-    "range": [
-      7300,
-      7301
-    ]
+    "end": 7301
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7301,
-    "end": 7302,
-    "range": [
-      7301,
-      7302
-    ]
+    "end": 7302
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 7303,
-    "end": 7374,
-    "range": [
-      7303,
-      7374
-    ]
+    "end": 7374
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7374,
-    "end": 7375,
-    "range": [
-      7374,
-      7375
-    ]
+    "end": 7375
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7375,
-    "end": 7376,
-    "range": [
-      7375,
-      7376
-    ]
+    "end": 7376
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7377,
-    "end": 7383,
-    "range": [
-      7377,
-      7383
-    ]
+    "end": 7383
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7383,
-    "end": 7384,
-    "range": [
-      7383,
-      7384
-    ]
+    "end": 7384
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7384,
-    "end": 7387,
-    "range": [
-      7384,
-      7387
-    ]
+    "end": 7387
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7387,
-    "end": 7388,
-    "range": [
-      7387,
-      7388
-    ]
+    "end": 7388
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7388,
-    "end": 7392,
-    "range": [
-      7388,
-      7392
-    ]
+    "end": 7392
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7392,
-    "end": 7393,
-    "range": [
-      7392,
-      7393
-    ]
+    "end": 7393
   },
   {
     "type": "String",
     "value": "\"\\u2028\"",
     "start": 7393,
-    "end": 7401,
-    "range": [
-      7393,
-      7401
-    ]
+    "end": 7401
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7401,
-    "end": 7402,
-    "range": [
-      7401,
-      7402
-    ]
+    "end": 7402
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7402,
-    "end": 7403,
-    "range": [
-      7402,
-      7403
-    ]
+    "end": 7403
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 7404,
-    "end": 7475,
-    "range": [
-      7404,
-      7475
-    ]
+    "end": 7475
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7475,
-    "end": 7476,
-    "range": [
-      7475,
-      7476
-    ]
+    "end": 7476
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7476,
-    "end": 7477,
-    "range": [
-      7476,
-      7477
-    ]
+    "end": 7477
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7478,
-    "end": 7484,
-    "range": [
-      7478,
-      7484
-    ]
+    "end": 7484
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7484,
-    "end": 7485,
-    "range": [
-      7484,
-      7485
-    ]
+    "end": 7485
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7485,
-    "end": 7488,
-    "range": [
-      7485,
-      7488
-    ]
+    "end": 7488
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7488,
-    "end": 7489,
-    "range": [
-      7488,
-      7489
-    ]
+    "end": 7489
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7489,
-    "end": 7493,
-    "range": [
-      7489,
-      7493
-    ]
+    "end": 7493
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7493,
-    "end": 7494,
-    "range": [
-      7493,
-      7494
-    ]
+    "end": 7494
   },
   {
     "type": "String",
     "value": "\"\\u2029\"",
     "start": 7494,
-    "end": 7502,
-    "range": [
-      7494,
-      7502
-    ]
+    "end": 7502
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7502,
-    "end": 7503,
-    "range": [
-      7502,
-      7503
-    ]
+    "end": 7503
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7503,
-    "end": 7504,
-    "range": [
-      7503,
-      7504
-    ]
+    "end": 7504
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 7505,
-    "end": 7576,
-    "range": [
-      7505,
-      7576
-    ]
+    "end": 7576
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7576,
-    "end": 7577,
-    "range": [
-      7576,
-      7577
-    ]
+    "end": 7577
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7577,
-    "end": 7578,
-    "range": [
-      7577,
-      7578
-    ]
+    "end": 7578
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7579,
-    "end": 7585,
-    "range": [
-      7579,
-      7585
-    ]
+    "end": 7585
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7585,
-    "end": 7586,
-    "range": [
-      7585,
-      7586
-    ]
+    "end": 7586
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7586,
-    "end": 7589,
-    "range": [
-      7586,
-      7589
-    ]
+    "end": 7589
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7589,
-    "end": 7590,
-    "range": [
-      7589,
-      7590
-    ]
+    "end": 7590
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7590,
-    "end": 7594,
-    "range": [
-      7590,
-      7594
-    ]
+    "end": 7594
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7594,
-    "end": 7595,
-    "range": [
-      7594,
-      7595
-    ]
+    "end": 7595
   },
   {
     "type": "String",
     "value": "\"\\uD800\"",
     "start": 7595,
-    "end": 7603,
-    "range": [
-      7595,
-      7603
-    ]
+    "end": 7603
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7603,
-    "end": 7604,
-    "range": [
-      7603,
-      7604
-    ]
+    "end": 7604
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7604,
-    "end": 7605,
-    "range": [
-      7604,
-      7605
-    ]
+    "end": 7605
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 7606,
-    "end": 7681,
-    "range": [
-      7606,
-      7681
-    ]
+    "end": 7681
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7681,
-    "end": 7682,
-    "range": [
-      7681,
-      7682
-    ]
+    "end": 7682
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7682,
-    "end": 7683,
-    "range": [
-      7682,
-      7683
-    ]
+    "end": 7683
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7684,
-    "end": 7690,
-    "range": [
-      7684,
-      7690
-    ]
+    "end": 7690
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7690,
-    "end": 7691,
-    "range": [
-      7690,
-      7691
-    ]
+    "end": 7691
   },
   {
     "type": "Identifier",
     "value": "re4",
     "start": 7691,
-    "end": 7694,
-    "range": [
-      7691,
-      7694
-    ]
+    "end": 7694
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7694,
-    "end": 7695,
-    "range": [
-      7694,
-      7695
-    ]
+    "end": 7695
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7695,
-    "end": 7699,
-    "range": [
-      7695,
-      7699
-    ]
+    "end": 7699
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7699,
-    "end": 7700,
-    "range": [
-      7699,
-      7700
-    ]
+    "end": 7700
   },
   {
     "type": "String",
     "value": "\"\\uDFFF\"",
     "start": 7700,
-    "end": 7708,
-    "range": [
-      7700,
-      7708
-    ]
+    "end": 7708
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7708,
-    "end": 7709,
-    "range": [
-      7708,
-      7709
-    ]
+    "end": 7709
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7709,
-    "end": 7710,
-    "range": [
-      7709,
-      7710
-    ]
+    "end": 7710
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 7711,
-    "end": 7786,
-    "range": [
-      7711,
-      7786
-    ]
+    "end": 7786
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7786,
-    "end": 7787,
-    "range": [
-      7786,
-      7787
-    ]
+    "end": 7787
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7787,
-    "end": 7788,
-    "range": [
-      7787,
-      7788
-    ]
+    "end": 7788
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 7790,
-    "end": 7793,
-    "range": [
-      7790,
-      7793
-    ]
+    "end": 7793
   },
   {
     "type": "Identifier",
     "value": "re5",
     "start": 7794,
-    "end": 7797,
-    "range": [
-      7794,
-      7797
-    ]
+    "end": 7797
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7798,
-    "end": 7799,
-    "range": [
-      7798,
-      7799
-    ]
+    "end": 7799
   },
   {
     "type": "RegularExpression",
@@ -7565,1370 +4545,822 @@
       "pattern": "a.(?s:b.b).c"
     },
     "start": 7800,
-    "end": 7814,
-    "range": [
-      7800,
-      7814
-    ]
+    "end": 7814
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7814,
-    "end": 7815,
-    "range": [
-      7814,
-      7815
-    ]
+    "end": 7815
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7816,
-    "end": 7822,
-    "range": [
-      7816,
-      7822
-    ]
+    "end": 7822
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7822,
-    "end": 7823,
-    "range": [
-      7822,
-      7823
-    ]
+    "end": 7823
   },
   {
     "type": "Identifier",
     "value": "re5",
     "start": 7823,
-    "end": 7826,
-    "range": [
-      7823,
-      7826
-    ]
+    "end": 7826
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7826,
-    "end": 7827,
-    "range": [
-      7826,
-      7827
-    ]
+    "end": 7827
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7827,
-    "end": 7831,
-    "range": [
-      7827,
-      7831
-    ]
+    "end": 7831
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7831,
-    "end": 7832,
-    "range": [
-      7831,
-      7832
-    ]
+    "end": 7832
   },
   {
     "type": "String",
     "value": "\"a,b,b,c\"",
     "start": 7832,
-    "end": 7841,
-    "range": [
-      7832,
-      7841
-    ]
+    "end": 7841
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7841,
-    "end": 7842,
-    "range": [
-      7841,
-      7842
-    ]
+    "end": 7842
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7842,
-    "end": 7843,
-    "range": [
-      7842,
-      7843
-    ]
+    "end": 7843
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 7844,
-    "end": 7919,
-    "range": [
-      7844,
-      7919
-    ]
+    "end": 7919
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7919,
-    "end": 7920,
-    "range": [
-      7919,
-      7920
-    ]
+    "end": 7920
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7920,
-    "end": 7921,
-    "range": [
-      7920,
-      7921
-    ]
+    "end": 7921
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7922,
-    "end": 7928,
-    "range": [
-      7922,
-      7928
-    ]
+    "end": 7928
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7928,
-    "end": 7929,
-    "range": [
-      7928,
-      7929
-    ]
+    "end": 7929
   },
   {
     "type": "Identifier",
     "value": "re5",
     "start": 7929,
-    "end": 7932,
-    "range": [
-      7929,
-      7932
-    ]
+    "end": 7932
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7932,
-    "end": 7933,
-    "range": [
-      7932,
-      7933
-    ]
+    "end": 7933
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 7933,
-    "end": 7937,
-    "range": [
-      7933,
-      7937
-    ]
+    "end": 7937
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7937,
-    "end": 7938,
-    "range": [
-      7937,
-      7938
-    ]
+    "end": 7938
   },
   {
     "type": "String",
     "value": "\"a,b\\nb,c\"",
     "start": 7938,
-    "end": 7948,
-    "range": [
-      7938,
-      7948
-    ]
+    "end": 7948
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7948,
-    "end": 7949,
-    "range": [
-      7948,
-      7949
-    ]
+    "end": 7949
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7949,
-    "end": 7950,
-    "range": [
-      7949,
-      7950
-    ]
+    "end": 7950
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 7951,
-    "end": 8022,
-    "range": [
-      7951,
-      8022
-    ]
+    "end": 8022
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8022,
-    "end": 8023,
-    "range": [
-      8022,
-      8023
-    ]
+    "end": 8023
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8023,
-    "end": 8024,
-    "range": [
-      8023,
-      8024
-    ]
+    "end": 8024
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8025,
-    "end": 8031,
-    "range": [
-      8025,
-      8031
-    ]
+    "end": 8031
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8031,
-    "end": 8032,
-    "range": [
-      8031,
-      8032
-    ]
+    "end": 8032
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 8032,
-    "end": 8033,
-    "range": [
-      8032,
-      8033
-    ]
+    "end": 8033
   },
   {
     "type": "Identifier",
     "value": "re5",
     "start": 8033,
-    "end": 8036,
-    "range": [
-      8033,
-      8036
-    ]
+    "end": 8036
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8036,
-    "end": 8037,
-    "range": [
-      8036,
-      8037
-    ]
+    "end": 8037
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8037,
-    "end": 8041,
-    "range": [
-      8037,
-      8041
-    ]
+    "end": 8041
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8041,
-    "end": 8042,
-    "range": [
-      8041,
-      8042
-    ]
+    "end": 8042
   },
   {
     "type": "String",
     "value": "\"a\\nb\\nb,c\"",
     "start": 8042,
-    "end": 8053,
-    "range": [
-      8042,
-      8053
-    ]
+    "end": 8053
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8053,
-    "end": 8054,
-    "range": [
-      8053,
-      8054
-    ]
+    "end": 8054
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8054,
-    "end": 8055,
-    "range": [
-      8054,
-      8055
-    ]
+    "end": 8055
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should not match line terminators outside modified group\"",
     "start": 8056,
-    "end": 8136,
-    "range": [
-      8056,
-      8136
-    ]
+    "end": 8136
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8136,
-    "end": 8137,
-    "range": [
-      8136,
-      8137
-    ]
+    "end": 8137
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8137,
-    "end": 8138,
-    "range": [
-      8137,
-      8138
-    ]
+    "end": 8138
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8139,
-    "end": 8145,
-    "range": [
-      8139,
-      8145
-    ]
+    "end": 8145
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8145,
-    "end": 8146,
-    "range": [
-      8145,
-      8146
-    ]
+    "end": 8146
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 8146,
-    "end": 8147,
-    "range": [
-      8146,
-      8147
-    ]
+    "end": 8147
   },
   {
     "type": "Identifier",
     "value": "re5",
     "start": 8147,
-    "end": 8150,
-    "range": [
-      8147,
-      8150
-    ]
+    "end": 8150
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8150,
-    "end": 8151,
-    "range": [
-      8150,
-      8151
-    ]
+    "end": 8151
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8151,
-    "end": 8155,
-    "range": [
-      8151,
-      8155
-    ]
+    "end": 8155
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8155,
-    "end": 8156,
-    "range": [
-      8155,
-      8156
-    ]
+    "end": 8156
   },
   {
     "type": "String",
     "value": "\"a,b\\nb\\nc\"",
     "start": 8156,
-    "end": 8167,
-    "range": [
-      8156,
-      8167
-    ]
+    "end": 8167
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8167,
-    "end": 8168,
-    "range": [
-      8167,
-      8168
-    ]
+    "end": 8168
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8168,
-    "end": 8169,
-    "range": [
-      8168,
-      8169
-    ]
+    "end": 8169
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should not match line terminators outside modified group\"",
     "start": 8170,
-    "end": 8250,
-    "range": [
-      8170,
-      8250
-    ]
+    "end": 8250
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8250,
-    "end": 8251,
-    "range": [
-      8250,
-      8251
-    ]
+    "end": 8251
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8251,
-    "end": 8252,
-    "range": [
-      8251,
-      8252
-    ]
+    "end": 8252
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8253,
-    "end": 8259,
-    "range": [
-      8253,
-      8259
-    ]
+    "end": 8259
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8259,
-    "end": 8260,
-    "range": [
-      8259,
-      8260
-    ]
+    "end": 8260
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 8260,
-    "end": 8261,
-    "range": [
-      8260,
-      8261
-    ]
+    "end": 8261
   },
   {
     "type": "Identifier",
     "value": "re5",
     "start": 8261,
-    "end": 8264,
-    "range": [
-      8261,
-      8264
-    ]
+    "end": 8264
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8264,
-    "end": 8265,
-    "range": [
-      8264,
-      8265
-    ]
+    "end": 8265
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8265,
-    "end": 8269,
-    "range": [
-      8265,
-      8269
-    ]
+    "end": 8269
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8269,
-    "end": 8270,
-    "range": [
-      8269,
-      8270
-    ]
+    "end": 8270
   },
   {
     "type": "String",
     "value": "\"a\\nb\\nb\\nc\"",
     "start": 8270,
-    "end": 8282,
-    "range": [
-      8270,
-      8282
-    ]
+    "end": 8282
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8282,
-    "end": 8283,
-    "range": [
-      8282,
-      8283
-    ]
+    "end": 8283
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8283,
-    "end": 8284,
-    "range": [
-      8283,
-      8284
-    ]
+    "end": 8284
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should not match line terminators outside modified group\"",
     "start": 8285,
-    "end": 8365,
-    "range": [
-      8285,
-      8365
-    ]
+    "end": 8365
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8365,
-    "end": 8366,
-    "range": [
-      8365,
-      8366
-    ]
+    "end": 8366
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8366,
-    "end": 8367,
-    "range": [
-      8366,
-      8367
-    ]
+    "end": 8367
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 8369,
-    "end": 8372,
-    "range": [
-      8369,
-      8372
-    ]
+    "end": 8372
   },
   {
     "type": "Identifier",
     "value": "re6",
     "start": 8373,
-    "end": 8376,
-    "range": [
-      8373,
-      8376
-    ]
+    "end": 8376
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8377,
-    "end": 8378,
-    "range": [
-      8377,
-      8378
-    ]
+    "end": 8378
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 8379,
-    "end": 8382,
-    "range": [
-      8379,
-      8382
-    ]
+    "end": 8382
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 8383,
-    "end": 8389,
-    "range": [
-      8383,
-      8389
-    ]
+    "end": 8389
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8389,
-    "end": 8390,
-    "range": [
-      8389,
-      8390
-    ]
+    "end": 8390
   },
   {
     "type": "String",
     "value": "\"a.(?s:b.b).c\"",
     "start": 8390,
-    "end": 8404,
-    "range": [
-      8390,
-      8404
-    ]
+    "end": 8404
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8404,
-    "end": 8405,
-    "range": [
-      8404,
-      8405
-    ]
+    "end": 8405
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8405,
-    "end": 8406,
-    "range": [
-      8405,
-      8406
-    ]
+    "end": 8406
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8407,
-    "end": 8413,
-    "range": [
-      8407,
-      8413
-    ]
+    "end": 8413
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8413,
-    "end": 8414,
-    "range": [
-      8413,
-      8414
-    ]
+    "end": 8414
   },
   {
     "type": "Identifier",
     "value": "re6",
     "start": 8414,
-    "end": 8417,
-    "range": [
-      8414,
-      8417
-    ]
+    "end": 8417
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8417,
-    "end": 8418,
-    "range": [
-      8417,
-      8418
-    ]
+    "end": 8418
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8418,
-    "end": 8422,
-    "range": [
-      8418,
-      8422
-    ]
+    "end": 8422
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8422,
-    "end": 8423,
-    "range": [
-      8422,
-      8423
-    ]
+    "end": 8423
   },
   {
     "type": "String",
     "value": "\"a,b,b,c\"",
     "start": 8423,
-    "end": 8432,
-    "range": [
-      8423,
-      8432
-    ]
+    "end": 8432
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8432,
-    "end": 8433,
-    "range": [
-      8432,
-      8433
-    ]
+    "end": 8433
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8433,
-    "end": 8434,
-    "range": [
-      8433,
-      8434
-    ]
+    "end": 8434
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match non-line terminators in modified group\"",
     "start": 8435,
-    "end": 8510,
-    "range": [
-      8435,
-      8510
-    ]
+    "end": 8510
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8510,
-    "end": 8511,
-    "range": [
-      8510,
-      8511
-    ]
+    "end": 8511
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8511,
-    "end": 8512,
-    "range": [
-      8511,
-      8512
-    ]
+    "end": 8512
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8513,
-    "end": 8519,
-    "range": [
-      8513,
-      8519
-    ]
+    "end": 8519
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8519,
-    "end": 8520,
-    "range": [
-      8519,
-      8520
-    ]
+    "end": 8520
   },
   {
     "type": "Identifier",
     "value": "re6",
     "start": 8520,
-    "end": 8523,
-    "range": [
-      8520,
-      8523
-    ]
+    "end": 8523
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8523,
-    "end": 8524,
-    "range": [
-      8523,
-      8524
-    ]
+    "end": 8524
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8524,
-    "end": 8528,
-    "range": [
-      8524,
-      8528
-    ]
+    "end": 8528
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8528,
-    "end": 8529,
-    "range": [
-      8528,
-      8529
-    ]
+    "end": 8529
   },
   {
     "type": "String",
     "value": "\"a,b\\nb,c\"",
     "start": 8529,
-    "end": 8539,
-    "range": [
-      8529,
-      8539
-    ]
+    "end": 8539
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8539,
-    "end": 8540,
-    "range": [
-      8539,
-      8540
-    ]
+    "end": 8540
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8540,
-    "end": 8541,
-    "range": [
-      8540,
-      8541
-    ]
+    "end": 8541
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should match line terminators in modified group\"",
     "start": 8542,
-    "end": 8613,
-    "range": [
-      8542,
-      8613
-    ]
+    "end": 8613
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8613,
-    "end": 8614,
-    "range": [
-      8613,
-      8614
-    ]
+    "end": 8614
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8614,
-    "end": 8615,
-    "range": [
-      8614,
-      8615
-    ]
+    "end": 8615
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8616,
-    "end": 8622,
-    "range": [
-      8616,
-      8622
-    ]
+    "end": 8622
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8622,
-    "end": 8623,
-    "range": [
-      8622,
-      8623
-    ]
+    "end": 8623
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 8623,
-    "end": 8624,
-    "range": [
-      8623,
-      8624
-    ]
+    "end": 8624
   },
   {
     "type": "Identifier",
     "value": "re6",
     "start": 8624,
-    "end": 8627,
-    "range": [
-      8624,
-      8627
-    ]
+    "end": 8627
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8627,
-    "end": 8628,
-    "range": [
-      8627,
-      8628
-    ]
+    "end": 8628
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8628,
-    "end": 8632,
-    "range": [
-      8628,
-      8632
-    ]
+    "end": 8632
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8632,
-    "end": 8633,
-    "range": [
-      8632,
-      8633
-    ]
+    "end": 8633
   },
   {
     "type": "String",
     "value": "\"a\\nb\\nb,c\"",
     "start": 8633,
-    "end": 8644,
-    "range": [
-      8633,
-      8644
-    ]
+    "end": 8644
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8644,
-    "end": 8645,
-    "range": [
-      8644,
-      8645
-    ]
+    "end": 8645
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8645,
-    "end": 8646,
-    "range": [
-      8645,
-      8646
-    ]
+    "end": 8646
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should not match line terminators outside modified group\"",
     "start": 8647,
-    "end": 8727,
-    "range": [
-      8647,
-      8727
-    ]
+    "end": 8727
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8727,
-    "end": 8728,
-    "range": [
-      8727,
-      8728
-    ]
+    "end": 8728
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8728,
-    "end": 8729,
-    "range": [
-      8728,
-      8729
-    ]
+    "end": 8729
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8730,
-    "end": 8736,
-    "range": [
-      8730,
-      8736
-    ]
+    "end": 8736
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8736,
-    "end": 8737,
-    "range": [
-      8736,
-      8737
-    ]
+    "end": 8737
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 8737,
-    "end": 8738,
-    "range": [
-      8737,
-      8738
-    ]
+    "end": 8738
   },
   {
     "type": "Identifier",
     "value": "re6",
     "start": 8738,
-    "end": 8741,
-    "range": [
-      8738,
-      8741
-    ]
+    "end": 8741
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8741,
-    "end": 8742,
-    "range": [
-      8741,
-      8742
-    ]
+    "end": 8742
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8742,
-    "end": 8746,
-    "range": [
-      8742,
-      8746
-    ]
+    "end": 8746
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8746,
-    "end": 8747,
-    "range": [
-      8746,
-      8747
-    ]
+    "end": 8747
   },
   {
     "type": "String",
     "value": "\"a,b\\nb\\nc\"",
     "start": 8747,
-    "end": 8758,
-    "range": [
-      8747,
-      8758
-    ]
+    "end": 8758
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8758,
-    "end": 8759,
-    "range": [
-      8758,
-      8759
-    ]
+    "end": 8759
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8759,
-    "end": 8760,
-    "range": [
-      8759,
-      8760
-    ]
+    "end": 8760
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should not match line terminators outside modified group\"",
     "start": 8761,
-    "end": 8841,
-    "range": [
-      8761,
-      8841
-    ]
+    "end": 8841
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8841,
-    "end": 8842,
-    "range": [
-      8841,
-      8842
-    ]
+    "end": 8842
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8842,
-    "end": 8843,
-    "range": [
-      8842,
-      8843
-    ]
+    "end": 8843
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8844,
-    "end": 8850,
-    "range": [
-      8844,
-      8850
-    ]
+    "end": 8850
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8850,
-    "end": 8851,
-    "range": [
-      8850,
-      8851
-    ]
+    "end": 8851
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 8851,
-    "end": 8852,
-    "range": [
-      8851,
-      8852
-    ]
+    "end": 8852
   },
   {
     "type": "Identifier",
     "value": "re6",
     "start": 8852,
-    "end": 8855,
-    "range": [
-      8852,
-      8855
-    ]
+    "end": 8855
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8855,
-    "end": 8856,
-    "range": [
-      8855,
-      8856
-    ]
+    "end": 8856
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 8856,
-    "end": 8860,
-    "range": [
-      8856,
-      8860
-    ]
+    "end": 8860
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8860,
-    "end": 8861,
-    "range": [
-      8860,
-      8861
-    ]
+    "end": 8861
   },
   {
     "type": "String",
     "value": "\"a\\nb\\nb\\nc\"",
     "start": 8861,
-    "end": 8873,
-    "range": [
-      8861,
-      8873
-    ]
+    "end": 8873
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8873,
-    "end": 8874,
-    "range": [
-      8873,
-      8874
-    ]
+    "end": 8874
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8874,
-    "end": 8875,
-    "range": [
-      8874,
-      8875
-    ]
+    "end": 8875
   },
   {
     "type": "String",
     "value": "\"Pattern character '.' should not match line terminators outside modified group\"",
     "start": 8876,
-    "end": 8956,
-    "range": [
-      8876,
-      8956
-    ]
+    "end": 8956
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8956,
-    "end": 8957,
-    "range": [
-      8956,
-      8957
-    ]
+    "end": 8957
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8957,
-    "end": 8958,
-    "range": [
-      8957,
-      8958
-    ]
+    "end": 8958
   }
 ]

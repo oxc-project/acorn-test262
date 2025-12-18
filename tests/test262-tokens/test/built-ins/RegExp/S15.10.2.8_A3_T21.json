@@ -3,31 +3,19 @@
     "type": "Keyword",
     "value": "var",
     "start": 607,
-    "end": 610,
-    "range": [
-      607,
-      610
-    ]
+    "end": 610
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 611,
-    "end": 621,
-    "range": [
-      611,
-      621
-    ]
+    "end": 621
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 622,
-    "end": 623,
-    "range": [
-      622,
-      623
-    ]
+    "end": 623
   },
   {
     "type": "RegularExpression",
@@ -37,1100 +25,660 @@
       "pattern": "^(A)?(A.*)$"
     },
     "start": 624,
-    "end": 637,
-    "range": [
-      624,
-      637
-    ]
+    "end": 637
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 637,
-    "end": 638,
-    "range": [
-      637,
-      638
-    ]
+    "end": 638
   },
   {
     "type": "Identifier",
     "value": "exec",
     "start": 638,
-    "end": 642,
-    "range": [
-      638,
-      642
-    ]
+    "end": 642
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 642,
-    "end": 643,
-    "range": [
-      642,
-      643
-    ]
+    "end": 643
   },
   {
     "type": "String",
     "value": "\"AA\"",
     "start": 643,
-    "end": 647,
-    "range": [
-      643,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 647,
-    "end": 648,
-    "range": [
-      647,
-      648
-    ]
+    "end": 648
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 648,
-    "end": 649,
-    "range": [
-      648,
-      649
-    ]
+    "end": 649
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 651,
-    "end": 654,
-    "range": [
-      651,
-      654
-    ]
+    "end": 654
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 655,
-    "end": 665,
-    "range": [
-      655,
-      665
-    ]
+    "end": 665
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 666,
-    "end": 667,
-    "range": [
-      666,
-      667
-    ]
+    "end": 667
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 668,
-    "end": 669,
-    "range": [
-      668,
-      669
-    ]
+    "end": 669
   },
   {
     "type": "String",
     "value": "\"AA\"",
     "start": 669,
-    "end": 673,
-    "range": [
-      669,
-      673
-    ]
+    "end": 673
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 673,
-    "end": 674,
-    "range": [
-      673,
-      674
-    ]
+    "end": 674
   },
   {
     "type": "String",
     "value": "\"A\"",
     "start": 674,
-    "end": 677,
-    "range": [
-      674,
-      677
-    ]
+    "end": 677
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 677,
-    "end": 678,
-    "range": [
-      677,
-      678
-    ]
+    "end": 678
   },
   {
     "type": "String",
     "value": "\"A\"",
     "start": 678,
-    "end": 681,
-    "range": [
-      678,
-      681
-    ]
+    "end": 681
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 681,
-    "end": 682,
-    "range": [
-      681,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 682,
-    "end": 683,
-    "range": [
-      682,
-      683
-    ]
+    "end": 683
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 684,
-    "end": 694,
-    "range": [
-      684,
-      694
-    ]
+    "end": 694
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 694,
-    "end": 695,
-    "range": [
-      694,
-      695
-    ]
+    "end": 695
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 695,
-    "end": 700,
-    "range": [
-      695,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 701,
-    "end": 702,
-    "range": [
-      701,
-      702
-    ]
+    "end": 702
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 703,
-    "end": 704,
-    "range": [
-      703,
-      704
-    ]
+    "end": 704
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 704,
-    "end": 705,
-    "range": [
-      704,
-      705
-    ]
+    "end": 705
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 706,
-    "end": 716,
-    "range": [
-      706,
-      716
-    ]
+    "end": 716
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 716,
-    "end": 717,
-    "range": [
-      716,
-      717
-    ]
+    "end": 717
   },
   {
     "type": "Identifier",
     "value": "input",
     "start": 717,
-    "end": 722,
-    "range": [
-      717,
-      722
-    ]
+    "end": 722
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 723,
-    "end": 724,
-    "range": [
-      723,
-      724
-    ]
+    "end": 724
   },
   {
     "type": "String",
     "value": "\"AA\"",
     "start": 725,
-    "end": 729,
-    "range": [
-      725,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 729,
-    "end": 730,
-    "range": [
-      729,
-      730
-    ]
+    "end": 730
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 732,
-    "end": 738,
-    "range": [
-      732,
-      738
-    ]
+    "end": 738
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 738,
-    "end": 739,
-    "range": [
-      738,
-      739
-    ]
+    "end": 739
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 739,
-    "end": 748,
-    "range": [
-      739,
-      748
-    ]
+    "end": 748
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 748,
-    "end": 749,
-    "range": [
-      748,
-      749
-    ]
+    "end": 749
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 752,
-    "end": 762,
-    "range": [
-      752,
-      762
-    ]
+    "end": 762
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 762,
-    "end": 763,
-    "range": [
-      762,
-      763
-    ]
+    "end": 763
   },
   {
     "type": "Identifier",
     "value": "length",
     "start": 763,
-    "end": 769,
-    "range": [
-      763,
-      769
-    ]
+    "end": 769
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 769,
-    "end": 770,
-    "range": [
-      769,
-      770
-    ]
+    "end": 770
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 773,
-    "end": 783,
-    "range": [
-      773,
-      783
-    ]
+    "end": 783
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 783,
-    "end": 784,
-    "range": [
-      783,
-      784
-    ]
+    "end": 784
   },
   {
     "type": "Identifier",
     "value": "length",
     "start": 784,
-    "end": 790,
-    "range": [
-      784,
-      790
-    ]
+    "end": 790
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 790,
-    "end": 791,
-    "range": [
-      790,
-      791
-    ]
+    "end": 791
   },
   {
     "type": "String",
     "value": "'The value of __executed.length is expected to equal the value of __expected.length'",
     "start": 794,
-    "end": 878,
-    "range": [
-      794,
-      878
-    ]
+    "end": 878
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 879,
-    "end": 880,
-    "range": [
-      879,
-      880
-    ]
+    "end": 880
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 880,
-    "end": 881,
-    "range": [
-      880,
-      881
-    ]
+    "end": 881
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 883,
-    "end": 889,
-    "range": [
-      883,
-      889
-    ]
+    "end": 889
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 889,
-    "end": 890,
-    "range": [
-      889,
-      890
-    ]
+    "end": 890
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 890,
-    "end": 899,
-    "range": [
-      890,
-      899
-    ]
+    "end": 899
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 899,
-    "end": 900,
-    "range": [
-      899,
-      900
-    ]
+    "end": 900
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 903,
-    "end": 913,
-    "range": [
-      903,
-      913
-    ]
+    "end": 913
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 913,
-    "end": 914,
-    "range": [
-      913,
-      914
-    ]
+    "end": 914
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 914,
-    "end": 919,
-    "range": [
-      914,
-      919
-    ]
+    "end": 919
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 919,
-    "end": 920,
-    "range": [
-      919,
-      920
-    ]
+    "end": 920
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 923,
-    "end": 933,
-    "range": [
-      923,
-      933
-    ]
+    "end": 933
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 933,
-    "end": 934,
-    "range": [
-      933,
-      934
-    ]
+    "end": 934
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 934,
-    "end": 939,
-    "range": [
-      934,
-      939
-    ]
+    "end": 939
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 939,
-    "end": 940,
-    "range": [
-      939,
-      940
-    ]
+    "end": 940
   },
   {
     "type": "String",
     "value": "'The value of __executed.index is expected to equal the value of __expected.index'",
     "start": 943,
-    "end": 1025,
-    "range": [
-      943,
-      1025
-    ]
+    "end": 1025
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1026,
-    "end": 1027,
-    "range": [
-      1026,
-      1027
-    ]
+    "end": 1027
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1027,
-    "end": 1028,
-    "range": [
-      1027,
-      1028
-    ]
+    "end": 1028
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1030,
-    "end": 1036,
-    "range": [
-      1030,
-      1036
-    ]
+    "end": 1036
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1036,
-    "end": 1037,
-    "range": [
-      1036,
-      1037
-    ]
+    "end": 1037
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1037,
-    "end": 1046,
-    "range": [
-      1037,
-      1046
-    ]
+    "end": 1046
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1046,
-    "end": 1047,
-    "range": [
-      1046,
-      1047
-    ]
+    "end": 1047
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 1050,
-    "end": 1060,
-    "range": [
-      1050,
-      1060
-    ]
+    "end": 1060
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1060,
-    "end": 1061,
-    "range": [
-      1060,
-      1061
-    ]
+    "end": 1061
   },
   {
     "type": "Identifier",
     "value": "input",
     "start": 1061,
-    "end": 1066,
-    "range": [
-      1061,
-      1066
-    ]
+    "end": 1066
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1066,
-    "end": 1067,
-    "range": [
-      1066,
-      1067
-    ]
+    "end": 1067
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 1070,
-    "end": 1080,
-    "range": [
-      1070,
-      1080
-    ]
+    "end": 1080
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1080,
-    "end": 1081,
-    "range": [
-      1080,
-      1081
-    ]
+    "end": 1081
   },
   {
     "type": "Identifier",
     "value": "input",
     "start": 1081,
-    "end": 1086,
-    "range": [
-      1081,
-      1086
-    ]
+    "end": 1086
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1086,
-    "end": 1087,
-    "range": [
-      1086,
-      1087
-    ]
+    "end": 1087
   },
   {
     "type": "String",
     "value": "'The value of __executed.input is expected to equal the value of __expected.input'",
     "start": 1090,
-    "end": 1172,
-    "range": [
-      1090,
-      1172
-    ]
+    "end": 1172
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1173,
-    "end": 1174,
-    "range": [
-      1173,
-      1174
-    ]
+    "end": 1174
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1174,
-    "end": 1175,
-    "range": [
-      1174,
-      1175
-    ]
+    "end": 1175
   },
   {
     "type": "Keyword",
     "value": "for",
     "start": 1177,
-    "end": 1180,
-    "range": [
-      1177,
-      1180
-    ]
+    "end": 1180
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1180,
-    "end": 1181,
-    "range": [
-      1180,
-      1181
-    ]
+    "end": 1181
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1181,
-    "end": 1184,
-    "range": [
-      1181,
-      1184
-    ]
+    "end": 1184
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 1185,
-    "end": 1190,
-    "range": [
-      1185,
-      1190
-    ]
+    "end": 1190
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1190,
-    "end": 1191,
-    "range": [
-      1190,
-      1191
-    ]
+    "end": 1191
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1191,
-    "end": 1192,
-    "range": [
-      1191,
-      1192
-    ]
+    "end": 1192
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1192,
-    "end": 1193,
-    "range": [
-      1192,
-      1193
-    ]
+    "end": 1193
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 1194,
-    "end": 1199,
-    "range": [
-      1194,
-      1199
-    ]
+    "end": 1199
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 1199,
-    "end": 1200,
-    "range": [
-      1199,
-      1200
-    ]
+    "end": 1200
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 1200,
-    "end": 1210,
-    "range": [
-      1200,
-      1210
-    ]
+    "end": 1210
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1210,
-    "end": 1211,
-    "range": [
-      1210,
-      1211
-    ]
+    "end": 1211
   },
   {
     "type": "Identifier",
     "value": "length",
     "start": 1211,
-    "end": 1217,
-    "range": [
-      1211,
-      1217
-    ]
+    "end": 1217
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1217,
-    "end": 1218,
-    "range": [
-      1217,
-      1218
-    ]
+    "end": 1218
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 1219,
-    "end": 1224,
-    "range": [
-      1219,
-      1224
-    ]
+    "end": 1224
   },
   {
     "type": "Punctuator",
     "value": "++",
     "start": 1224,
-    "end": 1226,
-    "range": [
-      1224,
-      1226
-    ]
+    "end": 1226
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1226,
-    "end": 1227,
-    "range": [
-      1226,
-      1227
-    ]
+    "end": 1227
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1228,
-    "end": 1229,
-    "range": [
-      1228,
-      1229
-    ]
+    "end": 1229
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1232,
-    "end": 1238,
-    "range": [
-      1232,
-      1238
-    ]
+    "end": 1238
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1238,
-    "end": 1239,
-    "range": [
-      1238,
-      1239
-    ]
+    "end": 1239
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1239,
-    "end": 1248,
-    "range": [
-      1239,
-      1248
-    ]
+    "end": 1248
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1248,
-    "end": 1249,
-    "range": [
-      1248,
-      1249
-    ]
+    "end": 1249
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 1254,
-    "end": 1264,
-    "range": [
-      1254,
-      1264
-    ]
+    "end": 1264
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1264,
-    "end": 1265,
-    "range": [
-      1264,
-      1265
-    ]
+    "end": 1265
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 1265,
-    "end": 1270,
-    "range": [
-      1265,
-      1270
-    ]
+    "end": 1270
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1270,
-    "end": 1271,
-    "range": [
-      1270,
-      1271
-    ]
+    "end": 1271
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1271,
-    "end": 1272,
-    "range": [
-      1271,
-      1272
-    ]
+    "end": 1272
   },
   {
     "type": "Identifier",
     "value": "__expected",
     "start": 1277,
-    "end": 1287,
-    "range": [
-      1277,
-      1287
-    ]
+    "end": 1287
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1287,
-    "end": 1288,
-    "range": [
-      1287,
-      1288
-    ]
+    "end": 1288
   },
   {
     "type": "Identifier",
     "value": "index",
     "start": 1288,
-    "end": 1293,
-    "range": [
-      1288,
-      1293
-    ]
+    "end": 1293
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1293,
-    "end": 1294,
-    "range": [
-      1293,
-      1294
-    ]
+    "end": 1294
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1294,
-    "end": 1295,
-    "range": [
-      1294,
-      1295
-    ]
+    "end": 1295
   },
   {
     "type": "String",
     "value": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
     "start": 1300,
-    "end": 1384,
-    "range": [
-      1300,
-      1384
-    ]
+    "end": 1384
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1387,
-    "end": 1388,
-    "range": [
-      1387,
-      1388
-    ]
+    "end": 1388
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1388,
-    "end": 1389,
-    "range": [
-      1388,
-      1389
-    ]
+    "end": 1389
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1390,
-    "end": 1391,
-    "range": [
-      1390,
-      1391
-    ]
+    "end": 1391
   }
 ]

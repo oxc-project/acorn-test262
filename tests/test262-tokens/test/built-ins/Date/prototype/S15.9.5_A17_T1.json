@@ -3,180 +3,108 @@
     "type": "Identifier",
     "value": "assert",
     "start": 310,
-    "end": 316,
-    "range": [
-      310,
-      316
-    ]
+    "end": 316
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 316,
-    "end": 317,
-    "range": [
-      316,
-      317
-    ]
+    "end": 317
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 317,
-    "end": 326,
-    "range": [
-      317,
-      326
-    ]
+    "end": 326
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 326,
-    "end": 327,
-    "range": [
-      326,
-      327
-    ]
+    "end": 327
   },
   {
     "type": "Identifier",
     "value": "Date",
     "start": 330,
-    "end": 334,
-    "range": [
-      330,
-      334
-    ]
+    "end": 334
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 334,
-    "end": 335,
-    "range": [
-      334,
-      335
-    ]
+    "end": 335
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 335,
-    "end": 344,
-    "range": [
-      335,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 344,
-    "end": 345,
-    "range": [
-      344,
-      345
-    ]
+    "end": 345
   },
   {
     "type": "Identifier",
     "value": "hasOwnProperty",
     "start": 345,
-    "end": 359,
-    "range": [
-      345,
-      359
-    ]
+    "end": 359
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 359,
-    "end": 360,
-    "range": [
-      359,
-      360
-    ]
+    "end": 360
   },
   {
     "type": "String",
     "value": "\"getUTCDay\"",
     "start": 360,
-    "end": 371,
-    "range": [
-      360,
-      371
-    ]
+    "end": 371
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 371,
-    "end": 372,
-    "range": [
-      371,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 372,
-    "end": 373,
-    "range": [
-      372,
-      373
-    ]
+    "end": 373
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 376,
-    "end": 380,
-    "range": [
-      376,
-      380
-    ]
+    "end": 380
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 380,
-    "end": 381,
-    "range": [
-      380,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "String",
     "value": "'Date.prototype.hasOwnProperty(\"getUTCDay\") must return true'",
     "start": 384,
-    "end": 445,
-    "range": [
-      384,
-      445
-    ]
+    "end": 445
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 446,
-    "end": 447,
-    "range": [
-      446,
-      447
-    ]
+    "end": 447
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 447,
-    "end": 448,
-    "range": [
-      447,
-      448
-    ]
+    "end": 448
   }
 ]

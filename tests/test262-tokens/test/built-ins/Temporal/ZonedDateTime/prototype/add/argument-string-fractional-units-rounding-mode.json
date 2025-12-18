@@ -3,500 +3,300 @@
     "type": "Keyword",
     "value": "const",
     "start": 304,
-    "end": 309,
-    "range": [
-      304,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "Identifier",
     "value": "epoch",
     "start": 310,
-    "end": 315,
-    "range": [
-      310,
-      315
-    ]
+    "end": 315
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 316,
-    "end": 317,
-    "range": [
-      316,
-      317
-    ]
+    "end": 317
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 318,
-    "end": 321,
-    "range": [
-      318,
-      321
-    ]
+    "end": 321
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 322,
-    "end": 330,
-    "range": [
-      322,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 330,
-    "end": 331,
-    "range": [
-      330,
-      331
-    ]
+    "end": 331
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 331,
-    "end": 344,
-    "range": [
-      331,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 344,
-    "end": 345,
-    "range": [
-      344,
-      345
-    ]
+    "end": 345
   },
   {
     "type": "Numeric",
     "value": "0n",
     "start": 345,
-    "end": 347,
-    "range": [
-      345,
-      347
-    ]
+    "end": 347
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 347,
-    "end": 348,
-    "range": [
-      347,
-      348
-    ]
+    "end": 348
   },
   {
     "type": "String",
     "value": "\"UTC\"",
     "start": 349,
-    "end": 354,
-    "range": [
-      349,
-      354
-    ]
+    "end": 354
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 354,
-    "end": 355,
-    "range": [
-      354,
-      355
-    ]
+    "end": 355
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 355,
-    "end": 356,
-    "range": [
-      355,
-      356
-    ]
+    "end": 356
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 358,
-    "end": 364,
-    "range": [
-      358,
-      364
-    ]
+    "end": 364
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 364,
-    "end": 365,
-    "range": [
-      364,
-      365
-    ]
+    "end": 365
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 365,
-    "end": 374,
-    "range": [
-      365,
-      374
-    ]
+    "end": 374
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 374,
-    "end": 375,
-    "range": [
-      374,
-      375
-    ]
+    "end": 375
   },
   {
     "type": "Identifier",
     "value": "epoch",
     "start": 375,
-    "end": 380,
-    "range": [
-      375,
-      380
-    ]
+    "end": 380
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 380,
-    "end": 381,
-    "range": [
-      380,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "Identifier",
     "value": "add",
     "start": 381,
-    "end": 384,
-    "range": [
-      381,
-      384
-    ]
+    "end": 384
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 384,
-    "end": 385,
-    "range": [
-      384,
-      385
-    ]
+    "end": 385
   },
   {
     "type": "String",
     "value": "\"PT1.03125H\"",
     "start": 385,
-    "end": 397,
-    "range": [
-      385,
-      397
-    ]
+    "end": 397
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 397,
-    "end": 398,
-    "range": [
-      397,
-      398
-    ]
+    "end": 398
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 398,
-    "end": 399,
-    "range": [
-      398,
-      399
-    ]
+    "end": 399
   },
   {
     "type": "Identifier",
     "value": "epochNanoseconds",
     "start": 399,
-    "end": 415,
-    "range": [
-      399,
-      415
-    ]
+    "end": 415
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 415,
-    "end": 416,
-    "range": [
-      415,
-      416
-    ]
+    "end": 416
   },
   {
     "type": "Numeric",
     "value": "3712_500_000_000n",
     "start": 417,
-    "end": 434,
-    "range": [
-      417,
-      434
-    ]
+    "end": 434
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 434,
-    "end": 435,
-    "range": [
-      434,
-      435
-    ]
+    "end": 435
   },
   {
     "type": "String",
     "value": "\"positive fractional units rounded with correct rounding mode\"",
     "start": 438,
-    "end": 500,
-    "range": [
-      438,
-      500
-    ]
+    "end": 500
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 500,
-    "end": 501,
-    "range": [
-      500,
-      501
-    ]
+    "end": 501
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 501,
-    "end": 502,
-    "range": [
-      501,
-      502
-    ]
+    "end": 502
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 503,
-    "end": 509,
-    "range": [
-      503,
-      509
-    ]
+    "end": 509
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 509,
-    "end": 510,
-    "range": [
-      509,
-      510
-    ]
+    "end": 510
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 510,
-    "end": 519,
-    "range": [
-      510,
-      519
-    ]
+    "end": 519
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 519,
-    "end": 520,
-    "range": [
-      519,
-      520
-    ]
+    "end": 520
   },
   {
     "type": "Identifier",
     "value": "epoch",
     "start": 520,
-    "end": 525,
-    "range": [
-      520,
-      525
-    ]
+    "end": 525
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 525,
-    "end": 526,
-    "range": [
-      525,
-      526
-    ]
+    "end": 526
   },
   {
     "type": "Identifier",
     "value": "add",
     "start": 526,
-    "end": 529,
-    "range": [
-      526,
-      529
-    ]
+    "end": 529
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 529,
-    "end": 530,
-    "range": [
-      529,
-      530
-    ]
+    "end": 530
   },
   {
     "type": "String",
     "value": "\"-PT1.03125H\"",
     "start": 530,
-    "end": 543,
-    "range": [
-      530,
-      543
-    ]
+    "end": 543
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 543,
-    "end": 544,
-    "range": [
-      543,
-      544
-    ]
+    "end": 544
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 544,
-    "end": 545,
-    "range": [
-      544,
-      545
-    ]
+    "end": 545
   },
   {
     "type": "Identifier",
     "value": "epochNanoseconds",
     "start": 545,
-    "end": 561,
-    "range": [
-      545,
-      561
-    ]
+    "end": 561
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 561,
-    "end": 562,
-    "range": [
-      561,
-      562
-    ]
+    "end": 562
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 563,
-    "end": 564,
-    "range": [
-      563,
-      564
-    ]
+    "end": 564
   },
   {
     "type": "Numeric",
     "value": "3712_500_000_000n",
     "start": 564,
-    "end": 581,
-    "range": [
-      564,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 581,
-    "end": 582,
-    "range": [
-      581,
-      582
-    ]
+    "end": 582
   },
   {
     "type": "String",
     "value": "\"negative fractional units rounded with correct rounding mode\"",
     "start": 585,
-    "end": 647,
-    "range": [
-      585,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 647,
-    "end": 648,
-    "range": [
-      647,
-      648
-    ]
+    "end": 648
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 648,
-    "end": 649,
-    "range": [
-      648,
-      649
-    ]
+    "end": 649
   }
 ]

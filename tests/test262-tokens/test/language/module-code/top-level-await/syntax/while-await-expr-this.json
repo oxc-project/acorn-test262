@@ -3,90 +3,54 @@
     "type": "Keyword",
     "value": "while",
     "start": 1218,
-    "end": 1223,
-    "range": [
-      1218,
-      1223
-    ]
+    "end": 1223
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1224,
-    "end": 1225,
-    "range": [
-      1224,
-      1225
-    ]
+    "end": 1225
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1225,
-    "end": 1230,
-    "range": [
-      1225,
-      1230
-    ]
+    "end": 1230
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 1231,
-    "end": 1235,
-    "range": [
-      1231,
-      1235
-    ]
+    "end": 1235
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1235,
-    "end": 1236,
-    "range": [
-      1235,
-      1236
-    ]
+    "end": 1236
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1237,
-    "end": 1238,
-    "range": [
-      1237,
-      1238
-    ]
+    "end": 1238
   },
   {
     "type": "Keyword",
     "value": "break",
     "start": 1239,
-    "end": 1244,
-    "range": [
-      1239,
-      1244
-    ]
+    "end": 1244
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1244,
-    "end": 1245,
-    "range": [
-      1244,
-      1245
-    ]
+    "end": 1245
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1246,
-    "end": 1247,
-    "range": [
-      1246,
-      1247
-    ]
+    "end": 1247
   }
 ]

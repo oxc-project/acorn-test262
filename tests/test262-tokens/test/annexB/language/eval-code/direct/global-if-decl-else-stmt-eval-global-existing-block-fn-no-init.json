@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "eval",
     "start": 1054,
-    "end": 1058,
-    "range": [
-      1054,
-      1058
-    ]
+    "end": 1058
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1058,
-    "end": 1059,
-    "range": [
-      1058,
-      1059
-    ]
+    "end": 1059
   },
   {
     "type": "String",
     "value": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }if (true) function f() {  } else ;'",
     "start": 1062,
-    "end": 1164,
-    "range": [
-      1062,
-      1164
-    ]
+    "end": 1164
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1165,
-    "end": 1166,
-    "range": [
-      1165,
-      1166
-    ]
+    "end": 1166
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1166,
-    "end": 1167,
-    "range": [
-      1166,
-      1167
-    ]
+    "end": 1167
   }
 ]

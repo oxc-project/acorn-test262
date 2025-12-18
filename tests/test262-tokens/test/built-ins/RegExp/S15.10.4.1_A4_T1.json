@@ -3,640 +3,384 @@
     "type": "Keyword",
     "value": "var",
     "start": 268,
-    "end": 271,
-    "range": [
-      268,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 272,
-    "end": 276,
-    "range": [
-      272,
-      276
-    ]
+    "end": 276
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 277,
-    "end": 278,
-    "range": [
-      277,
-      278
-    ]
+    "end": 278
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 279,
-    "end": 282,
-    "range": [
-      279,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 283,
-    "end": 289,
-    "range": [
-      283,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Null",
     "value": "null",
     "start": 290,
-    "end": 294,
-    "range": [
-      290,
-      294
-    ]
+    "end": 294
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 294,
-    "end": 295,
-    "range": [
-      294,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Keyword",
     "value": "void",
     "start": 296,
-    "end": 300,
-    "range": [
-      296,
-      300
-    ]
+    "end": 300
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 301,
-    "end": 302,
-    "range": [
-      301,
-      302
-    ]
+    "end": 302
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 302,
-    "end": 303,
-    "range": [
-      302,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 303,
-    "end": 304,
-    "range": [
-      303,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 306,
-    "end": 312,
-    "range": [
-      306,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 312,
-    "end": 313,
-    "range": [
-      312,
-      313
-    ]
+    "end": 313
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 313,
-    "end": 322,
-    "range": [
-      313,
-      322
-    ]
+    "end": 322
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 322,
-    "end": 323,
-    "range": [
-      322,
-      323
-    ]
+    "end": 323
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 323,
-    "end": 327,
-    "range": [
-      323,
-      327
-    ]
+    "end": 327
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 327,
-    "end": 328,
-    "range": [
-      327,
-      328
-    ]
+    "end": 328
   },
   {
     "type": "Identifier",
     "value": "source",
     "start": 328,
-    "end": 334,
-    "range": [
-      328,
-      334
-    ]
+    "end": 334
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 334,
-    "end": 335,
-    "range": [
-      334,
-      335
-    ]
+    "end": 335
   },
   {
     "type": "String",
     "value": "\"null\"",
     "start": 336,
-    "end": 342,
-    "range": [
-      336,
-      342
-    ]
+    "end": 342
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 342,
-    "end": 343,
-    "range": [
-      342,
-      343
-    ]
+    "end": 343
   },
   {
     "type": "String",
     "value": "'The value of __re.source is expected to be \"null\"'",
     "start": 344,
-    "end": 395,
-    "range": [
-      344,
-      395
-    ]
+    "end": 395
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 395,
-    "end": 396,
-    "range": [
-      395,
-      396
-    ]
+    "end": 396
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 396,
-    "end": 397,
-    "range": [
-      396,
-      397
-    ]
+    "end": 397
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 398,
-    "end": 404,
-    "range": [
-      398,
-      404
-    ]
+    "end": 404
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 404,
-    "end": 405,
-    "range": [
-      404,
-      405
-    ]
+    "end": 405
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 405,
-    "end": 414,
-    "range": [
-      405,
-      414
-    ]
+    "end": 414
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 414,
-    "end": 415,
-    "range": [
-      414,
-      415
-    ]
+    "end": 415
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 415,
-    "end": 419,
-    "range": [
-      415,
-      419
-    ]
+    "end": 419
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 419,
-    "end": 420,
-    "range": [
-      419,
-      420
-    ]
+    "end": 420
   },
   {
     "type": "Identifier",
     "value": "multiline",
     "start": 420,
-    "end": 429,
-    "range": [
-      420,
-      429
-    ]
+    "end": 429
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 429,
-    "end": 430,
-    "range": [
-      429,
-      430
-    ]
+    "end": 430
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 431,
-    "end": 436,
-    "range": [
-      431,
-      436
-    ]
+    "end": 436
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 436,
-    "end": 437,
-    "range": [
-      436,
-      437
-    ]
+    "end": 437
   },
   {
     "type": "String",
     "value": "'The value of __re.multiline is expected to be false'",
     "start": 438,
-    "end": 491,
-    "range": [
-      438,
-      491
-    ]
+    "end": 491
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 491,
-    "end": 492,
-    "range": [
-      491,
-      492
-    ]
+    "end": 492
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 492,
-    "end": 493,
-    "range": [
-      492,
-      493
-    ]
+    "end": 493
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 494,
-    "end": 500,
-    "range": [
-      494,
-      500
-    ]
+    "end": 500
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 500,
-    "end": 501,
-    "range": [
-      500,
-      501
-    ]
+    "end": 501
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 501,
-    "end": 510,
-    "range": [
-      501,
-      510
-    ]
+    "end": 510
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 510,
-    "end": 511,
-    "range": [
-      510,
-      511
-    ]
+    "end": 511
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 511,
-    "end": 515,
-    "range": [
-      511,
-      515
-    ]
+    "end": 515
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 515,
-    "end": 516,
-    "range": [
-      515,
-      516
-    ]
+    "end": 516
   },
   {
     "type": "Identifier",
     "value": "global",
     "start": 516,
-    "end": 522,
-    "range": [
-      516,
-      522
-    ]
+    "end": 522
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 522,
-    "end": 523,
-    "range": [
-      522,
-      523
-    ]
+    "end": 523
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 524,
-    "end": 529,
-    "range": [
-      524,
-      529
-    ]
+    "end": 529
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 529,
-    "end": 530,
-    "range": [
-      529,
-      530
-    ]
+    "end": 530
   },
   {
     "type": "String",
     "value": "'The value of __re.global is expected to be false'",
     "start": 531,
-    "end": 581,
-    "range": [
-      531,
-      581
-    ]
+    "end": 581
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 581,
-    "end": 582,
-    "range": [
-      581,
-      582
-    ]
+    "end": 582
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 582,
-    "end": 583,
-    "range": [
-      582,
-      583
-    ]
+    "end": 583
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 584,
-    "end": 590,
-    "range": [
-      584,
-      590
-    ]
+    "end": 590
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 590,
-    "end": 591,
-    "range": [
-      590,
-      591
-    ]
+    "end": 591
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 591,
-    "end": 600,
-    "range": [
-      591,
-      600
-    ]
+    "end": 600
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 600,
-    "end": 601,
-    "range": [
-      600,
-      601
-    ]
+    "end": 601
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 601,
-    "end": 605,
-    "range": [
-      601,
-      605
-    ]
+    "end": 605
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 605,
-    "end": 606,
-    "range": [
-      605,
-      606
-    ]
+    "end": 606
   },
   {
     "type": "Identifier",
     "value": "ignoreCase",
     "start": 606,
-    "end": 616,
-    "range": [
-      606,
-      616
-    ]
+    "end": 616
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 616,
-    "end": 617,
-    "range": [
-      616,
-      617
-    ]
+    "end": 617
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 618,
-    "end": 623,
-    "range": [
-      618,
-      623
-    ]
+    "end": 623
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 623,
-    "end": 624,
-    "range": [
-      623,
-      624
-    ]
+    "end": 624
   },
   {
     "type": "String",
     "value": "'The value of __re.ignoreCase is expected to be false'",
     "start": 625,
-    "end": 679,
-    "range": [
-      625,
-      679
-    ]
+    "end": 679
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 679,
-    "end": 680,
-    "range": [
-      679,
-      680
-    ]
+    "end": 680
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 680,
-    "end": 681,
-    "range": [
-      680,
-      681
-    ]
+    "end": 681
   }
 ]

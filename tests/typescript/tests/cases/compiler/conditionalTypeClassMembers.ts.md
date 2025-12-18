@@ -443,641 +443,385 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "declare",
     "start": 0,
-    "end": 7,
-    "range": [
-      0,
-      7
-    ]
+    "end": 7
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 8,
-    "end": 13,
-    "range": [
-      8,
-      13
-    ]
+    "end": 13
   },
   {
     "type": "Identifier",
     "value": "MyRecord",
     "start": 14,
-    "end": 22,
-    "range": [
-      14,
-      22
-    ]
+    "end": 22
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 23,
-    "end": 24,
-    "range": [
-      23,
-      24
-    ]
+    "end": 24
   },
   {
     "type": "Keyword",
     "value": "private",
     "start": 29,
-    "end": 36,
-    "range": [
-      29,
-      36
-    ]
+    "end": 36
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 37,
-    "end": 38,
-    "range": [
-      37,
-      38
-    ]
+    "end": 38
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 38,
-    "end": 39,
-    "range": [
-      38,
-      39
-    ]
+    "end": 39
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 39,
-    "end": 40,
-    "range": [
-      39,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 40,
-    "end": 41,
-    "range": [
-      40,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Identifier",
     "value": "b",
     "start": 46,
-    "end": 47,
-    "range": [
-      46,
-      47
-    ]
+    "end": 47
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 47,
-    "end": 48,
-    "range": [
-      47,
-      48
-    ]
+    "end": 48
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 48,
-    "end": 49,
-    "range": [
-      48,
-      49
-    ]
+    "end": 49
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 49,
-    "end": 50,
-    "range": [
-      49,
-      50
-    ]
+    "end": 50
   },
   {
     "type": "Identifier",
     "value": "unknown",
     "start": 51,
-    "end": 58,
-    "range": [
-      51,
-      58
-    ]
+    "end": 58
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 58,
-    "end": 59,
-    "range": [
-      58,
-      59
-    ]
+    "end": 59
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 60,
-    "end": 61,
-    "range": [
-      60,
-      61
-    ]
+    "end": 61
   },
   {
     "type": "Identifier",
     "value": "declare",
     "start": 63,
-    "end": 70,
-    "range": [
-      63,
-      70
-    ]
+    "end": 70
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 71,
-    "end": 76,
-    "range": [
-      71,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "Identifier",
     "value": "MySet",
     "start": 77,
-    "end": 82,
-    "range": [
-      77,
-      82
-    ]
+    "end": 82
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 82,
-    "end": 83,
-    "range": [
-      82,
-      83
-    ]
+    "end": 83
   },
   {
     "type": "Identifier",
     "value": "TSet",
     "start": 83,
-    "end": 87,
-    "range": [
-      83,
-      87
-    ]
+    "end": 87
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 88,
-    "end": 95,
-    "range": [
-      88,
-      95
-    ]
+    "end": 95
   },
   {
     "type": "Identifier",
     "value": "MyRecord",
     "start": 96,
-    "end": 104,
-    "range": [
-      96,
-      104
-    ]
+    "end": 104
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 104,
-    "end": 105,
-    "range": [
-      104,
-      105
-    ]
+    "end": 105
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 106,
-    "end": 107,
-    "range": [
-      106,
-      107
-    ]
+    "end": 107
   },
   {
     "type": "Keyword",
     "value": "public",
     "start": 112,
-    "end": 118,
-    "range": [
-      112,
-      118
-    ]
+    "end": 118
   },
   {
     "type": "Identifier",
     "value": "item",
     "start": 119,
-    "end": 123,
-    "range": [
-      119,
-      123
-    ]
+    "end": 123
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 123,
-    "end": 124,
-    "range": [
-      123,
-      124
-    ]
+    "end": 124
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 124,
-    "end": 125,
-    "range": [
-      124,
-      125
-    ]
+    "end": 125
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 125,
-    "end": 126,
-    "range": [
-      125,
-      126
-    ]
+    "end": 126
   },
   {
     "type": "Identifier",
     "value": "TSet",
     "start": 127,
-    "end": 131,
-    "range": [
-      127,
-      131
-    ]
+    "end": 131
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 131,
-    "end": 132,
-    "range": [
-      131,
-      132
-    ]
+    "end": 132
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 133,
-    "end": 134,
-    "range": [
-      133,
-      134
-    ]
+    "end": 134
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 136,
-    "end": 140,
-    "range": [
-      136,
-      140
-    ]
+    "end": 140
   },
   {
     "type": "Identifier",
     "value": "DS",
     "start": 141,
-    "end": 143,
-    "range": [
-      141,
-      143
-    ]
+    "end": 143
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 143,
-    "end": 144,
-    "range": [
-      143,
-      144
-    ]
+    "end": 144
   },
   {
     "type": "Identifier",
     "value": "TRec",
     "start": 144,
-    "end": 148,
-    "range": [
-      144,
-      148
-    ]
+    "end": 148
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 149,
-    "end": 156,
-    "range": [
-      149,
-      156
-    ]
+    "end": 156
   },
   {
     "type": "Identifier",
     "value": "MyRecord",
     "start": 157,
-    "end": 165,
-    "range": [
-      157,
-      165
-    ]
+    "end": 165
   },
   {
     "type": "Punctuator",
     "value": "|",
     "start": 166,
-    "end": 167,
-    "range": [
-      166,
-      167
-    ]
+    "end": 167
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 168,
-    "end": 169,
-    "range": [
-      168,
-      169
-    ]
+    "end": 169
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 170,
-    "end": 171,
-    "range": [
-      170,
-      171
-    ]
+    "end": 171
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 171,
-    "end": 174,
-    "range": [
-      171,
-      174
-    ]
+    "end": 174
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 174,
-    "end": 175,
-    "range": [
-      174,
-      175
-    ]
+    "end": 175
   },
   {
     "type": "Identifier",
     "value": "string",
     "start": 176,
-    "end": 182,
-    "range": [
-      176,
-      182
-    ]
+    "end": 182
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 182,
-    "end": 183,
-    "range": [
-      182,
-      183
-    ]
+    "end": 183
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 183,
-    "end": 184,
-    "range": [
-      183,
-      184
-    ]
+    "end": 184
   },
   {
     "type": "Identifier",
     "value": "unknown",
     "start": 185,
-    "end": 192,
-    "range": [
-      185,
-      192
-    ]
+    "end": 192
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 193,
-    "end": 194,
-    "range": [
-      193,
-      194
-    ]
+    "end": 194
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 194,
-    "end": 195,
-    "range": [
-      194,
-      195
-    ]
+    "end": 195
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 196,
-    "end": 197,
-    "range": [
-      196,
-      197
-    ]
+    "end": 197
   },
   {
     "type": "Identifier",
     "value": "TRec",
     "start": 198,
-    "end": 202,
-    "range": [
-      198,
-      202
-    ]
+    "end": 202
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 203,
-    "end": 210,
-    "range": [
-      203,
-      210
-    ]
+    "end": 210
   },
   {
     "type": "Identifier",
     "value": "MyRecord",
     "start": 211,
-    "end": 219,
-    "range": [
-      211,
-      219
-    ]
+    "end": 219
   },
   {
     "type": "Punctuator",
     "value": "?",
     "start": 220,
-    "end": 221,
-    "range": [
-      220,
-      221
-    ]
+    "end": 221
   },
   {
     "type": "Identifier",
     "value": "MySet",
     "start": 222,
-    "end": 227,
-    "range": [
-      222,
-      227
-    ]
+    "end": 227
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 227,
-    "end": 228,
-    "range": [
-      227,
-      228
-    ]
+    "end": 228
   },
   {
     "type": "Identifier",
     "value": "TRec",
     "start": 228,
-    "end": 232,
-    "range": [
-      228,
-      232
-    ]
+    "end": 232
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 232,
-    "end": 233,
-    "range": [
-      232,
-      233
-    ]
+    "end": 233
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 234,
-    "end": 235,
-    "range": [
-      234,
-      235
-    ]
+    "end": 235
   },
   {
     "type": "Identifier",
     "value": "TRec",
     "start": 236,
-    "end": 240,
-    "range": [
-      236,
-      240
-    ]
+    "end": 240
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 240,
-    "end": 241,
-    "range": [
-      240,
-      241
-    ]
+    "end": 241
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 241,
-    "end": 242,
-    "range": [
-      241,
-      242
-    ]
+    "end": 242
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 242,
-    "end": 243,
-    "range": [
-      242,
-      243
-    ]
+    "end": 243
   }
 ]
 ```

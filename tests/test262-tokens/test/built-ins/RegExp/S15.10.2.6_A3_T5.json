@@ -3,31 +3,19 @@
     "type": "Keyword",
     "value": "var",
     "start": 422,
-    "end": 425,
-    "range": [
-      422,
-      425
-    ]
+    "end": 425
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 426,
-    "end": 436,
-    "range": [
-      426,
-      436
-    ]
+    "end": 436
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 437,
-    "end": 438,
-    "range": [
-      437,
-      438
-    ]
+    "end": 438
   },
   {
     "type": "RegularExpression",
@@ -37,150 +25,90 @@
       "pattern": "so\\b"
     },
     "start": 439,
-    "end": 445,
-    "range": [
-      439,
-      445
-    ]
+    "end": 445
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 445,
-    "end": 446,
-    "range": [
-      445,
-      446
-    ]
+    "end": 446
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 446,
-    "end": 450,
-    "range": [
-      446,
-      450
-    ]
+    "end": 450
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 450,
-    "end": 451,
-    "range": [
-      450,
-      451
-    ]
+    "end": 451
   },
   {
     "type": "String",
     "value": "\"pilot\\nsoviet robot\\topenoffice\"",
     "start": 451,
-    "end": 484,
-    "range": [
-      451,
-      484
-    ]
+    "end": 484
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 484,
-    "end": 485,
-    "range": [
-      484,
-      485
-    ]
+    "end": 485
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 485,
-    "end": 486,
-    "range": [
-      485,
-      486
-    ]
+    "end": 486
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 488,
-    "end": 494,
-    "range": [
-      488,
-      494
-    ]
+    "end": 494
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 494,
-    "end": 495,
-    "range": [
-      494,
-      495
-    ]
+    "end": 495
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 495,
-    "end": 496,
-    "range": [
-      495,
-      496
-    ]
+    "end": 496
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 496,
-    "end": 506,
-    "range": [
-      496,
-      506
-    ]
+    "end": 506
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 506,
-    "end": 507,
-    "range": [
-      506,
-      507
-    ]
+    "end": 507
   },
   {
     "type": "String",
     "value": "'The value of !__executed is expected to be true'",
     "start": 508,
-    "end": 557,
-    "range": [
-      508,
-      557
-    ]
+    "end": 557
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 557,
-    "end": 558,
-    "range": [
-      557,
-      558
-    ]
+    "end": 558
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 558,
-    "end": 559,
-    "range": [
-      558,
-      559
-    ]
+    "end": 559
   }
 ]

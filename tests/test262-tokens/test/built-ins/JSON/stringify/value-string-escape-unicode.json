@@ -3,1920 +3,1152 @@
     "type": "Identifier",
     "value": "assert",
     "start": 288,
-    "end": 294,
-    "range": [
-      288,
-      294
-    ]
+    "end": 294
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 294,
-    "end": 295,
-    "range": [
-      294,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 295,
-    "end": 304,
-    "range": [
-      295,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 304,
-    "end": 305,
-    "range": [
-      304,
-      305
-    ]
+    "end": 305
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 305,
-    "end": 309,
-    "range": [
-      305,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 309,
-    "end": 310,
-    "range": [
-      309,
-      310
-    ]
+    "end": 310
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 310,
-    "end": 319,
-    "range": [
-      310,
-      319
-    ]
+    "end": 319
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 319,
-    "end": 320,
-    "range": [
-      319,
-      320
-    ]
+    "end": 320
   },
   {
     "type": "String",
     "value": "\"\\uD834\"",
     "start": 320,
-    "end": 328,
-    "range": [
-      320,
-      328
-    ]
+    "end": 328
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 328,
-    "end": 329,
-    "range": [
-      328,
-      329
-    ]
+    "end": 329
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 329,
-    "end": 330,
-    "range": [
-      329,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "String",
     "value": "'\"\\\\ud834\"'",
     "start": 331,
-    "end": 342,
-    "range": [
-      331,
-      342
-    ]
+    "end": 342
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 342,
-    "end": 343,
-    "range": [
-      342,
-      343
-    ]
+    "end": 343
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uD834\")'",
     "start": 346,
-    "end": 373,
-    "range": [
-      346,
-      373
-    ]
+    "end": 373
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 373,
-    "end": 374,
-    "range": [
-      373,
-      374
-    ]
+    "end": 374
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 374,
-    "end": 375,
-    "range": [
-      374,
-      375
-    ]
+    "end": 375
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 376,
-    "end": 382,
-    "range": [
-      376,
-      382
-    ]
+    "end": 382
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 382,
-    "end": 383,
-    "range": [
-      382,
-      383
-    ]
+    "end": 383
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 383,
-    "end": 392,
-    "range": [
-      383,
-      392
-    ]
+    "end": 392
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 392,
-    "end": 393,
-    "range": [
-      392,
-      393
-    ]
+    "end": 393
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 393,
-    "end": 397,
-    "range": [
-      393,
-      397
-    ]
+    "end": 397
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 397,
-    "end": 398,
-    "range": [
-      397,
-      398
-    ]
+    "end": 398
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 398,
-    "end": 407,
-    "range": [
-      398,
-      407
-    ]
+    "end": 407
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 407,
-    "end": 408,
-    "range": [
-      407,
-      408
-    ]
+    "end": 408
   },
   {
     "type": "String",
     "value": "\"\\uDF06\"",
     "start": 408,
-    "end": 416,
-    "range": [
-      408,
-      416
-    ]
+    "end": 416
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 416,
-    "end": 417,
-    "range": [
-      416,
-      417
-    ]
+    "end": 417
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 417,
-    "end": 418,
-    "range": [
-      417,
-      418
-    ]
+    "end": 418
   },
   {
     "type": "String",
     "value": "'\"\\\\udf06\"'",
     "start": 419,
-    "end": 430,
-    "range": [
-      419,
-      430
-    ]
+    "end": 430
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 430,
-    "end": 431,
-    "range": [
-      430,
-      431
-    ]
+    "end": 431
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uDF06\")'",
     "start": 434,
-    "end": 461,
-    "range": [
-      434,
-      461
-    ]
+    "end": 461
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 461,
-    "end": 462,
-    "range": [
-      461,
-      462
-    ]
+    "end": 462
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 462,
-    "end": 463,
-    "range": [
-      462,
-      463
-    ]
+    "end": 463
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 465,
-    "end": 471,
-    "range": [
-      465,
-      471
-    ]
+    "end": 471
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 471,
-    "end": 472,
-    "range": [
-      471,
-      472
-    ]
+    "end": 472
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 472,
-    "end": 481,
-    "range": [
-      472,
-      481
-    ]
+    "end": 481
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 481,
-    "end": 482,
-    "range": [
-      481,
-      482
-    ]
+    "end": 482
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 482,
-    "end": 486,
-    "range": [
-      482,
-      486
-    ]
+    "end": 486
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 486,
-    "end": 487,
-    "range": [
-      486,
-      487
-    ]
+    "end": 487
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 487,
-    "end": 496,
-    "range": [
-      487,
-      496
-    ]
+    "end": 496
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 496,
-    "end": 497,
-    "range": [
-      496,
-      497
-    ]
+    "end": 497
   },
   {
     "type": "String",
     "value": "\"\\uD834\\uDF06\"",
     "start": 497,
-    "end": 511,
-    "range": [
-      497,
-      511
-    ]
+    "end": 511
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 511,
-    "end": 512,
-    "range": [
-      511,
-      512
-    ]
+    "end": 512
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 512,
-    "end": 513,
-    "range": [
-      512,
-      513
-    ]
+    "end": 513
   },
   {
     "type": "String",
     "value": "'\"𝌆\"'",
     "start": 514,
-    "end": 520,
-    "range": [
-      514,
-      520
-    ]
+    "end": 520
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 520,
-    "end": 521,
-    "range": [
-      520,
-      521
-    ]
+    "end": 521
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uD834\\\\uDF06\")'",
     "start": 524,
-    "end": 558,
-    "range": [
-      524,
-      558
-    ]
+    "end": 558
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 558,
-    "end": 559,
-    "range": [
-      558,
-      559
-    ]
+    "end": 559
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 559,
-    "end": 560,
-    "range": [
-      559,
-      560
-    ]
+    "end": 560
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 561,
-    "end": 567,
-    "range": [
-      561,
-      567
-    ]
+    "end": 567
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 567,
-    "end": 568,
-    "range": [
-      567,
-      568
-    ]
+    "end": 568
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 568,
-    "end": 577,
-    "range": [
-      568,
-      577
-    ]
+    "end": 577
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 577,
-    "end": 578,
-    "range": [
-      577,
-      578
-    ]
+    "end": 578
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 578,
-    "end": 582,
-    "range": [
-      578,
-      582
-    ]
+    "end": 582
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 582,
-    "end": 583,
-    "range": [
-      582,
-      583
-    ]
+    "end": 583
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 583,
-    "end": 592,
-    "range": [
-      583,
-      592
-    ]
+    "end": 592
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 592,
-    "end": 593,
-    "range": [
-      592,
-      593
-    ]
+    "end": 593
   },
   {
     "type": "String",
     "value": "\"\\uD834\\uD834\\uDF06\\uD834\"",
     "start": 593,
-    "end": 619,
-    "range": [
-      593,
-      619
-    ]
+    "end": 619
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 619,
-    "end": 620,
-    "range": [
-      619,
-      620
-    ]
+    "end": 620
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 620,
-    "end": 621,
-    "range": [
-      620,
-      621
-    ]
+    "end": 621
   },
   {
     "type": "String",
     "value": "'\"\\\\ud834𝌆\\\\ud834\"'",
     "start": 622,
-    "end": 642,
-    "range": [
-      622,
-      642
-    ]
+    "end": 642
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 642,
-    "end": 643,
-    "range": [
-      642,
-      643
-    ]
+    "end": 643
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uD834\")'",
     "start": 646,
-    "end": 694,
-    "range": [
-      646,
-      694
-    ]
+    "end": 694
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 694,
-    "end": 695,
-    "range": [
-      694,
-      695
-    ]
+    "end": 695
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 695,
-    "end": 696,
-    "range": [
-      695,
-      696
-    ]
+    "end": 696
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 697,
-    "end": 703,
-    "range": [
-      697,
-      703
-    ]
+    "end": 703
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 703,
-    "end": 704,
-    "range": [
-      703,
-      704
-    ]
+    "end": 704
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 704,
-    "end": 713,
-    "range": [
-      704,
-      713
-    ]
+    "end": 713
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 713,
-    "end": 714,
-    "range": [
-      713,
-      714
-    ]
+    "end": 714
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 714,
-    "end": 718,
-    "range": [
-      714,
-      718
-    ]
+    "end": 718
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 718,
-    "end": 719,
-    "range": [
-      718,
-      719
-    ]
+    "end": 719
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 719,
-    "end": 728,
-    "range": [
-      719,
-      728
-    ]
+    "end": 728
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 728,
-    "end": 729,
-    "range": [
-      728,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "String",
     "value": "\"\\uD834\\uD834\\uDF06\\uDF06\"",
     "start": 729,
-    "end": 755,
-    "range": [
-      729,
-      755
-    ]
+    "end": 755
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 755,
-    "end": 756,
-    "range": [
-      755,
-      756
-    ]
+    "end": 756
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 756,
-    "end": 757,
-    "range": [
-      756,
-      757
-    ]
+    "end": 757
   },
   {
     "type": "String",
     "value": "'\"\\\\ud834𝌆\\\\udf06\"'",
     "start": 758,
-    "end": 778,
-    "range": [
-      758,
-      778
-    ]
+    "end": 778
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 778,
-    "end": 779,
-    "range": [
-      778,
-      779
-    ]
+    "end": 779
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uDF06\")'",
     "start": 782,
-    "end": 830,
-    "range": [
-      782,
-      830
-    ]
+    "end": 830
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 830,
-    "end": 831,
-    "range": [
-      830,
-      831
-    ]
+    "end": 831
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 831,
-    "end": 832,
-    "range": [
-      831,
-      832
-    ]
+    "end": 832
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 833,
-    "end": 839,
-    "range": [
-      833,
-      839
-    ]
+    "end": 839
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 839,
-    "end": 840,
-    "range": [
-      839,
-      840
-    ]
+    "end": 840
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 840,
-    "end": 849,
-    "range": [
-      840,
-      849
-    ]
+    "end": 849
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 849,
-    "end": 850,
-    "range": [
-      849,
-      850
-    ]
+    "end": 850
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 850,
-    "end": 854,
-    "range": [
-      850,
-      854
-    ]
+    "end": 854
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 854,
-    "end": 855,
-    "range": [
-      854,
-      855
-    ]
+    "end": 855
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 855,
-    "end": 864,
-    "range": [
-      855,
-      864
-    ]
+    "end": 864
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 864,
-    "end": 865,
-    "range": [
-      864,
-      865
-    ]
+    "end": 865
   },
   {
     "type": "String",
     "value": "\"\\uDF06\\uD834\\uDF06\\uD834\"",
     "start": 865,
-    "end": 891,
-    "range": [
-      865,
-      891
-    ]
+    "end": 891
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 891,
-    "end": 892,
-    "range": [
-      891,
-      892
-    ]
+    "end": 892
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 892,
-    "end": 893,
-    "range": [
-      892,
-      893
-    ]
+    "end": 893
   },
   {
     "type": "String",
     "value": "'\"\\\\udf06𝌆\\\\ud834\"'",
     "start": 894,
-    "end": 914,
-    "range": [
-      894,
-      914
-    ]
+    "end": 914
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 914,
-    "end": 915,
-    "range": [
-      914,
-      915
-    ]
+    "end": 915
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uD834\")'",
     "start": 918,
-    "end": 966,
-    "range": [
-      918,
-      966
-    ]
+    "end": 966
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 966,
-    "end": 967,
-    "range": [
-      966,
-      967
-    ]
+    "end": 967
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 967,
-    "end": 968,
-    "range": [
-      967,
-      968
-    ]
+    "end": 968
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 969,
-    "end": 975,
-    "range": [
-      969,
-      975
-    ]
+    "end": 975
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 975,
-    "end": 976,
-    "range": [
-      975,
-      976
-    ]
+    "end": 976
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 976,
-    "end": 985,
-    "range": [
-      976,
-      985
-    ]
+    "end": 985
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 985,
-    "end": 986,
-    "range": [
-      985,
-      986
-    ]
+    "end": 986
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 986,
-    "end": 990,
-    "range": [
-      986,
-      990
-    ]
+    "end": 990
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 990,
-    "end": 991,
-    "range": [
-      990,
-      991
-    ]
+    "end": 991
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 991,
-    "end": 1000,
-    "range": [
-      991,
-      1000
-    ]
+    "end": 1000
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1000,
-    "end": 1001,
-    "range": [
-      1000,
-      1001
-    ]
+    "end": 1001
   },
   {
     "type": "String",
     "value": "\"\\uDF06\\uD834\\uDF06\\uDF06\"",
     "start": 1001,
-    "end": 1027,
-    "range": [
-      1001,
-      1027
-    ]
+    "end": 1027
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1027,
-    "end": 1028,
-    "range": [
-      1027,
-      1028
-    ]
+    "end": 1028
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1028,
-    "end": 1029,
-    "range": [
-      1028,
-      1029
-    ]
+    "end": 1029
   },
   {
     "type": "String",
     "value": "'\"\\\\udf06𝌆\\\\udf06\"'",
     "start": 1030,
-    "end": 1050,
-    "range": [
-      1030,
-      1050
-    ]
+    "end": 1050
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1050,
-    "end": 1051,
-    "range": [
-      1050,
-      1051
-    ]
+    "end": 1051
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uDF06\")'",
     "start": 1054,
-    "end": 1102,
-    "range": [
-      1054,
-      1102
-    ]
+    "end": 1102
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1102,
-    "end": 1103,
-    "range": [
-      1102,
-      1103
-    ]
+    "end": 1103
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1103,
-    "end": 1104,
-    "range": [
-      1103,
-      1104
-    ]
+    "end": 1104
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1106,
-    "end": 1112,
-    "range": [
-      1106,
-      1112
-    ]
+    "end": 1112
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1112,
-    "end": 1113,
-    "range": [
-      1112,
-      1113
-    ]
+    "end": 1113
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1113,
-    "end": 1122,
-    "range": [
-      1113,
-      1122
-    ]
+    "end": 1122
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1122,
-    "end": 1123,
-    "range": [
-      1122,
-      1123
-    ]
+    "end": 1123
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1123,
-    "end": 1127,
-    "range": [
-      1123,
-      1127
-    ]
+    "end": 1127
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1127,
-    "end": 1128,
-    "range": [
-      1127,
-      1128
-    ]
+    "end": 1128
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 1128,
-    "end": 1137,
-    "range": [
-      1128,
-      1137
-    ]
+    "end": 1137
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1137,
-    "end": 1138,
-    "range": [
-      1137,
-      1138
-    ]
+    "end": 1138
   },
   {
     "type": "String",
     "value": "\"\\uDF06\\uD834\"",
     "start": 1138,
-    "end": 1152,
-    "range": [
-      1138,
-      1152
-    ]
+    "end": 1152
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1152,
-    "end": 1153,
-    "range": [
-      1152,
-      1153
-    ]
+    "end": 1153
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1153,
-    "end": 1154,
-    "range": [
-      1153,
-      1154
-    ]
+    "end": 1154
   },
   {
     "type": "String",
     "value": "'\"\\\\udf06\\\\ud834\"'",
     "start": 1155,
-    "end": 1173,
-    "range": [
-      1155,
-      1173
-    ]
+    "end": 1173
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1173,
-    "end": 1174,
-    "range": [
-      1173,
-      1174
-    ]
+    "end": 1174
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uDF06\\\\uD834\")'",
     "start": 1177,
-    "end": 1211,
-    "range": [
-      1177,
-      1211
-    ]
+    "end": 1211
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1211,
-    "end": 1212,
-    "range": [
-      1211,
-      1212
-    ]
+    "end": 1212
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1212,
-    "end": 1213,
-    "range": [
-      1212,
-      1213
-    ]
+    "end": 1213
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1214,
-    "end": 1220,
-    "range": [
-      1214,
-      1220
-    ]
+    "end": 1220
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1220,
-    "end": 1221,
-    "range": [
-      1220,
-      1221
-    ]
+    "end": 1221
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1221,
-    "end": 1230,
-    "range": [
-      1221,
-      1230
-    ]
+    "end": 1230
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1230,
-    "end": 1231,
-    "range": [
-      1230,
-      1231
-    ]
+    "end": 1231
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1231,
-    "end": 1235,
-    "range": [
-      1231,
-      1235
-    ]
+    "end": 1235
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1235,
-    "end": 1236,
-    "range": [
-      1235,
-      1236
-    ]
+    "end": 1236
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 1236,
-    "end": 1245,
-    "range": [
-      1236,
-      1245
-    ]
+    "end": 1245
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1245,
-    "end": 1246,
-    "range": [
-      1245,
-      1246
-    ]
+    "end": 1246
   },
   {
     "type": "String",
     "value": "\"\\uD834\\uDF06\\uD834\\uD834\"",
     "start": 1246,
-    "end": 1272,
-    "range": [
-      1246,
-      1272
-    ]
+    "end": 1272
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1272,
-    "end": 1273,
-    "range": [
-      1272,
-      1273
-    ]
+    "end": 1273
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1273,
-    "end": 1274,
-    "range": [
-      1273,
-      1274
-    ]
+    "end": 1274
   },
   {
     "type": "String",
     "value": "'\"𝌆\\\\ud834\\\\ud834\"'",
     "start": 1275,
-    "end": 1295,
-    "range": [
-      1275,
-      1295
-    ]
+    "end": 1295
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1295,
-    "end": 1296,
-    "range": [
-      1295,
-      1296
-    ]
+    "end": 1296
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uD834\")'",
     "start": 1299,
-    "end": 1347,
-    "range": [
-      1299,
-      1347
-    ]
+    "end": 1347
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1347,
-    "end": 1348,
-    "range": [
-      1347,
-      1348
-    ]
+    "end": 1348
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1348,
-    "end": 1349,
-    "range": [
-      1348,
-      1349
-    ]
+    "end": 1349
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1350,
-    "end": 1356,
-    "range": [
-      1350,
-      1356
-    ]
+    "end": 1356
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1356,
-    "end": 1357,
-    "range": [
-      1356,
-      1357
-    ]
+    "end": 1357
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1357,
-    "end": 1366,
-    "range": [
-      1357,
-      1366
-    ]
+    "end": 1366
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1366,
-    "end": 1367,
-    "range": [
-      1366,
-      1367
-    ]
+    "end": 1367
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1367,
-    "end": 1371,
-    "range": [
-      1367,
-      1371
-    ]
+    "end": 1371
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1371,
-    "end": 1372,
-    "range": [
-      1371,
-      1372
-    ]
+    "end": 1372
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 1372,
-    "end": 1381,
-    "range": [
-      1372,
-      1381
-    ]
+    "end": 1381
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1381,
-    "end": 1382,
-    "range": [
-      1381,
-      1382
-    ]
+    "end": 1382
   },
   {
     "type": "String",
     "value": "\"\\uD834\\uDF06\\uD834\\uDF06\"",
     "start": 1382,
-    "end": 1408,
-    "range": [
-      1382,
-      1408
-    ]
+    "end": 1408
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1408,
-    "end": 1409,
-    "range": [
-      1408,
-      1409
-    ]
+    "end": 1409
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1409,
-    "end": 1410,
-    "range": [
-      1409,
-      1410
-    ]
+    "end": 1410
   },
   {
     "type": "String",
     "value": "'\"𝌆𝌆\"'",
     "start": 1411,
-    "end": 1419,
-    "range": [
-      1411,
-      1419
-    ]
+    "end": 1419
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1419,
-    "end": 1420,
-    "range": [
-      1419,
-      1420
-    ]
+    "end": 1420
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uDF06\")'",
     "start": 1423,
-    "end": 1471,
-    "range": [
-      1423,
-      1471
-    ]
+    "end": 1471
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1471,
-    "end": 1472,
-    "range": [
-      1471,
-      1472
-    ]
+    "end": 1472
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1472,
-    "end": 1473,
-    "range": [
-      1472,
-      1473
-    ]
+    "end": 1473
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1474,
-    "end": 1480,
-    "range": [
-      1474,
-      1480
-    ]
+    "end": 1480
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1480,
-    "end": 1481,
-    "range": [
-      1480,
-      1481
-    ]
+    "end": 1481
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1481,
-    "end": 1490,
-    "range": [
-      1481,
-      1490
-    ]
+    "end": 1490
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1490,
-    "end": 1491,
-    "range": [
-      1490,
-      1491
-    ]
+    "end": 1491
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1491,
-    "end": 1495,
-    "range": [
-      1491,
-      1495
-    ]
+    "end": 1495
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1495,
-    "end": 1496,
-    "range": [
-      1495,
-      1496
-    ]
+    "end": 1496
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 1496,
-    "end": 1505,
-    "range": [
-      1496,
-      1505
-    ]
+    "end": 1505
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1505,
-    "end": 1506,
-    "range": [
-      1505,
-      1506
-    ]
+    "end": 1506
   },
   {
     "type": "String",
     "value": "\"\\uDF06\\uDF06\\uD834\\uD834\"",
     "start": 1506,
-    "end": 1532,
-    "range": [
-      1506,
-      1532
-    ]
+    "end": 1532
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1532,
-    "end": 1533,
-    "range": [
-      1532,
-      1533
-    ]
+    "end": 1533
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1533,
-    "end": 1534,
-    "range": [
-      1533,
-      1534
-    ]
+    "end": 1534
   },
   {
     "type": "String",
     "value": "'\"\\\\udf06\\\\udf06\\\\ud834\\\\ud834\"'",
     "start": 1535,
-    "end": 1567,
-    "range": [
-      1535,
-      1567
-    ]
+    "end": 1567
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1567,
-    "end": 1568,
-    "range": [
-      1567,
-      1568
-    ]
+    "end": 1568
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uD834\")'",
     "start": 1571,
-    "end": 1619,
-    "range": [
-      1571,
-      1619
-    ]
+    "end": 1619
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1619,
-    "end": 1620,
-    "range": [
-      1619,
-      1620
-    ]
+    "end": 1620
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1620,
-    "end": 1621,
-    "range": [
-      1620,
-      1621
-    ]
+    "end": 1621
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1622,
-    "end": 1628,
-    "range": [
-      1622,
-      1628
-    ]
+    "end": 1628
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1628,
-    "end": 1629,
-    "range": [
-      1628,
-      1629
-    ]
+    "end": 1629
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1629,
-    "end": 1638,
-    "range": [
-      1629,
-      1638
-    ]
+    "end": 1638
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1638,
-    "end": 1639,
-    "range": [
-      1638,
-      1639
-    ]
+    "end": 1639
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1639,
-    "end": 1643,
-    "range": [
-      1639,
-      1643
-    ]
+    "end": 1643
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1643,
-    "end": 1644,
-    "range": [
-      1643,
-      1644
-    ]
+    "end": 1644
   },
   {
     "type": "Identifier",
     "value": "stringify",
     "start": 1644,
-    "end": 1653,
-    "range": [
-      1644,
-      1653
-    ]
+    "end": 1653
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1653,
-    "end": 1654,
-    "range": [
-      1653,
-      1654
-    ]
+    "end": 1654
   },
   {
     "type": "String",
     "value": "\"\\uDF06\\uDF06\\uD834\\uDF06\"",
     "start": 1654,
-    "end": 1680,
-    "range": [
-      1654,
-      1680
-    ]
+    "end": 1680
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1680,
-    "end": 1681,
-    "range": [
-      1680,
-      1681
-    ]
+    "end": 1681
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1681,
-    "end": 1682,
-    "range": [
-      1681,
-      1682
-    ]
+    "end": 1682
   },
   {
     "type": "String",
     "value": "'\"\\\\udf06\\\\udf06𝌆\"'",
     "start": 1683,
-    "end": 1703,
-    "range": [
-      1683,
-      1703
-    ]
+    "end": 1703
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1703,
-    "end": 1704,
-    "range": [
-      1703,
-      1704
-    ]
+    "end": 1704
   },
   {
     "type": "String",
     "value": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uDF06\")'",
     "start": 1707,
-    "end": 1755,
-    "range": [
-      1707,
-      1755
-    ]
+    "end": 1755
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1755,
-    "end": 1756,
-    "range": [
-      1755,
-      1756
-    ]
+    "end": 1756
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1756,
-    "end": 1757,
-    "range": [
-      1756,
-      1757
-    ]
+    "end": 1757
   }
 ]

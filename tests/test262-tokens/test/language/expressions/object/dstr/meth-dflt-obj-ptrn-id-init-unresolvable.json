@@ -3,380 +3,228 @@
     "type": "Keyword",
     "value": "var",
     "start": 1954,
-    "end": 1957,
-    "range": [
-      1954,
-      1957
-    ]
+    "end": 1957
   },
   {
     "type": "Identifier",
     "value": "obj",
     "start": 1958,
-    "end": 1961,
-    "range": [
-      1958,
-      1961
-    ]
+    "end": 1961
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1962,
-    "end": 1963,
-    "range": [
-      1962,
-      1963
-    ]
+    "end": 1963
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1964,
-    "end": 1965,
-    "range": [
-      1964,
-      1965
-    ]
+    "end": 1965
   },
   {
     "type": "Identifier",
     "value": "method",
     "start": 1968,
-    "end": 1974,
-    "range": [
-      1968,
-      1974
-    ]
+    "end": 1974
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1974,
-    "end": 1975,
-    "range": [
-      1974,
-      1975
-    ]
+    "end": 1975
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1975,
-    "end": 1976,
-    "range": [
-      1975,
-      1976
-    ]
+    "end": 1976
   },
   {
     "type": "Identifier",
     "value": "x",
     "start": 1977,
-    "end": 1978,
-    "range": [
-      1977,
-      1978
-    ]
+    "end": 1978
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1979,
-    "end": 1980,
-    "range": [
-      1979,
-      1980
-    ]
+    "end": 1980
   },
   {
     "type": "Identifier",
     "value": "unresolvableReference",
     "start": 1981,
-    "end": 2002,
-    "range": [
-      1981,
-      2002
-    ]
+    "end": 2002
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2003,
-    "end": 2004,
-    "range": [
-      2003,
-      2004
-    ]
+    "end": 2004
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2005,
-    "end": 2006,
-    "range": [
-      2005,
-      2006
-    ]
+    "end": 2006
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2007,
-    "end": 2008,
-    "range": [
-      2007,
-      2008
-    ]
+    "end": 2008
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2008,
-    "end": 2009,
-    "range": [
-      2008,
-      2009
-    ]
+    "end": 2009
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2009,
-    "end": 2010,
-    "range": [
-      2009,
-      2010
-    ]
+    "end": 2010
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2011,
-    "end": 2012,
-    "range": [
-      2011,
-      2012
-    ]
+    "end": 2012
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2012,
-    "end": 2013,
-    "range": [
-      2012,
-      2013
-    ]
+    "end": 2013
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2014,
-    "end": 2015,
-    "range": [
-      2014,
-      2015
-    ]
+    "end": 2015
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2015,
-    "end": 2016,
-    "range": [
-      2015,
-      2016
-    ]
+    "end": 2016
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2018,
-    "end": 2024,
-    "range": [
-      2018,
-      2024
-    ]
+    "end": 2024
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2024,
-    "end": 2025,
-    "range": [
-      2024,
-      2025
-    ]
+    "end": 2025
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 2025,
-    "end": 2031,
-    "range": [
-      2025,
-      2031
-    ]
+    "end": 2031
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2031,
-    "end": 2032,
-    "range": [
-      2031,
-      2032
-    ]
+    "end": 2032
   },
   {
     "type": "Identifier",
     "value": "ReferenceError",
     "start": 2032,
-    "end": 2046,
-    "range": [
-      2032,
-      2046
-    ]
+    "end": 2046
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2046,
-    "end": 2047,
-    "range": [
-      2046,
-      2047
-    ]
+    "end": 2047
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 2048,
-    "end": 2056,
-    "range": [
-      2048,
-      2056
-    ]
+    "end": 2056
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2056,
-    "end": 2057,
-    "range": [
-      2056,
-      2057
-    ]
+    "end": 2057
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2057,
-    "end": 2058,
-    "range": [
-      2057,
-      2058
-    ]
+    "end": 2058
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2059,
-    "end": 2060,
-    "range": [
-      2059,
-      2060
-    ]
+    "end": 2060
   },
   {
     "type": "Identifier",
     "value": "obj",
     "start": 2063,
-    "end": 2066,
-    "range": [
-      2063,
-      2066
-    ]
+    "end": 2066
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2066,
-    "end": 2067,
-    "range": [
-      2066,
-      2067
-    ]
+    "end": 2067
   },
   {
     "type": "Identifier",
     "value": "method",
     "start": 2067,
-    "end": 2073,
-    "range": [
-      2067,
-      2073
-    ]
+    "end": 2073
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2073,
-    "end": 2074,
-    "range": [
-      2073,
-      2074
-    ]
+    "end": 2074
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2074,
-    "end": 2075,
-    "range": [
-      2074,
-      2075
-    ]
+    "end": 2075
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2075,
-    "end": 2076,
-    "range": [
-      2075,
-      2076
-    ]
+    "end": 2076
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2077,
-    "end": 2078,
-    "range": [
-      2077,
-      2078
-    ]
+    "end": 2078
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2078,
-    "end": 2079,
-    "range": [
-      2078,
-      2079
-    ]
+    "end": 2079
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2079,
-    "end": 2080,
-    "range": [
-      2079,
-      2080
-    ]
+    "end": 2080
   }
 ]

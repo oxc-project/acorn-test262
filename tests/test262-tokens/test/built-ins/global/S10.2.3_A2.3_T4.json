@@ -3,200 +3,120 @@
     "type": "Keyword",
     "value": "var",
     "start": 285,
-    "end": 288,
-    "range": [
-      285,
-      288
-    ]
+    "end": 288
   },
   {
     "type": "Identifier",
     "value": "evalStr",
     "start": 289,
-    "end": 296,
-    "range": [
-      289,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "String",
     "value": "'//CHECK#1\\n'",
     "start": 299,
-    "end": 312,
-    "range": [
-      299,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 312,
-    "end": 313,
-    "range": [
-      312,
-      313
-    ]
+    "end": 313
   },
   {
     "type": "String",
     "value": "'for (var x in this) {\\n'",
     "start": 314,
-    "end": 339,
-    "range": [
-      314,
-      339
-    ]
+    "end": 339
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 339,
-    "end": 340,
-    "range": [
-      339,
-      340
-    ]
+    "end": 340
   },
   {
     "type": "String",
     "value": "'  if ( x === \\'Math\\' ) {\\n'",
     "start": 341,
-    "end": 370,
-    "range": [
-      341,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 370,
-    "end": 371,
-    "range": [
-      370,
-      371
-    ]
+    "end": 371
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'Math\\' have attribute DontEnum\");\\n'",
     "start": 372,
-    "end": 443,
-    "range": [
-      372,
-      443
-    ]
+    "end": 443
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 443,
-    "end": 444,
-    "range": [
-      443,
-      444
-    ]
+    "end": 444
   },
   {
     "type": "String",
     "value": "'  }\\n'",
     "start": 445,
-    "end": 452,
-    "range": [
-      445,
-      452
-    ]
+    "end": 452
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 452,
-    "end": 453,
-    "range": [
-      452,
-      453
-    ]
+    "end": 453
   },
   {
     "type": "String",
     "value": "'}\\n'",
     "start": 454,
-    "end": 459,
-    "range": [
-      454,
-      459
-    ]
+    "end": 459
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 459,
-    "end": 460,
-    "range": [
-      459,
-      460
-    ]
+    "end": 460
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 462,
-    "end": 466,
-    "range": [
-      462,
-      466
-    ]
+    "end": 466
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 466,
-    "end": 467,
-    "range": [
-      466,
-      467
-    ]
+    "end": 467
   },
   {
     "type": "Identifier",
     "value": "evalStr",
     "start": 467,
-    "end": 474,
-    "range": [
-      467,
-      474
-    ]
+    "end": 474
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 474,
-    "end": 475,
-    "range": [
-      474,
-      475
-    ]
+    "end": 475
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 475,
-    "end": 476,
-    "range": [
-      475,
-      476
-    ]
+    "end": 476
   }
 ]

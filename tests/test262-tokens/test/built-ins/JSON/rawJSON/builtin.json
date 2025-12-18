@@ -3,680 +3,408 @@
     "type": "Identifier",
     "value": "assert",
     "start": 1233,
-    "end": 1239,
-    "range": [
-      1233,
-      1239
-    ]
+    "end": 1239
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1239,
-    "end": 1240,
-    "range": [
-      1239,
-      1240
-    ]
+    "end": 1240
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 1240,
-    "end": 1246,
-    "range": [
-      1240,
-      1246
-    ]
+    "end": 1246
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1246,
-    "end": 1247,
-    "range": [
-      1246,
-      1247
-    ]
+    "end": 1247
   },
   {
     "type": "Identifier",
     "value": "isExtensible",
     "start": 1247,
-    "end": 1259,
-    "range": [
-      1247,
-      1259
-    ]
+    "end": 1259
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1259,
-    "end": 1260,
-    "range": [
-      1259,
-      1260
-    ]
+    "end": 1260
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1260,
-    "end": 1264,
-    "range": [
-      1260,
-      1264
-    ]
+    "end": 1264
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1264,
-    "end": 1265,
-    "range": [
-      1264,
-      1265
-    ]
+    "end": 1265
   },
   {
     "type": "Identifier",
     "value": "rawJSON",
     "start": 1265,
-    "end": 1272,
-    "range": [
-      1265,
-      1272
-    ]
+    "end": 1272
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1272,
-    "end": 1273,
-    "range": [
-      1272,
-      1273
-    ]
+    "end": 1273
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1273,
-    "end": 1274,
-    "range": [
-      1273,
-      1274
-    ]
+    "end": 1274
   },
   {
     "type": "String",
     "value": "\"JSON.rawJSON is extensible\"",
     "start": 1275,
-    "end": 1303,
-    "range": [
-      1275,
-      1303
-    ]
+    "end": 1303
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1303,
-    "end": 1304,
-    "range": [
-      1303,
-      1304
-    ]
+    "end": 1304
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1304,
-    "end": 1305,
-    "range": [
-      1304,
-      1305
-    ]
+    "end": 1305
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1306,
-    "end": 1312,
-    "range": [
-      1306,
-      1312
-    ]
+    "end": 1312
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1312,
-    "end": 1313,
-    "range": [
-      1312,
-      1313
-    ]
+    "end": 1313
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1313,
-    "end": 1322,
-    "range": [
-      1313,
-      1322
-    ]
+    "end": 1322
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1322,
-    "end": 1323,
-    "range": [
-      1322,
-      1323
-    ]
+    "end": 1323
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 1326,
-    "end": 1332,
-    "range": [
-      1326,
-      1332
-    ]
+    "end": 1332
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1333,
-    "end": 1337,
-    "range": [
-      1333,
-      1337
-    ]
+    "end": 1337
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1337,
-    "end": 1338,
-    "range": [
-      1337,
-      1338
-    ]
+    "end": 1338
   },
   {
     "type": "Identifier",
     "value": "rawJSON",
     "start": 1338,
-    "end": 1345,
-    "range": [
-      1338,
-      1345
-    ]
+    "end": 1345
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1345,
-    "end": 1346,
-    "range": [
-      1345,
-      1346
-    ]
+    "end": 1346
   },
   {
     "type": "String",
     "value": "'function'",
     "start": 1349,
-    "end": 1359,
-    "range": [
-      1349,
-      1359
-    ]
+    "end": 1359
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1359,
-    "end": 1360,
-    "range": [
-      1359,
-      1360
-    ]
+    "end": 1360
   },
   {
     "type": "String",
     "value": "'The value of `typeof JSON.rawJSON` is \"function\"'",
     "start": 1363,
-    "end": 1413,
-    "range": [
-      1363,
-      1413
-    ]
+    "end": 1413
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1414,
-    "end": 1415,
-    "range": [
-      1414,
-      1415
-    ]
+    "end": 1415
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1415,
-    "end": 1416,
-    "range": [
-      1415,
-      1416
-    ]
+    "end": 1416
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1418,
-    "end": 1424,
-    "range": [
-      1418,
-      1424
-    ]
+    "end": 1424
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1424,
-    "end": 1425,
-    "range": [
-      1424,
-      1425
-    ]
+    "end": 1425
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1425,
-    "end": 1434,
-    "range": [
-      1425,
-      1434
-    ]
+    "end": 1434
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1434,
-    "end": 1435,
-    "range": [
-      1434,
-      1435
-    ]
+    "end": 1435
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 1438,
-    "end": 1444,
-    "range": [
-      1438,
-      1444
-    ]
+    "end": 1444
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1444,
-    "end": 1445,
-    "range": [
-      1444,
-      1445
-    ]
+    "end": 1445
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 1445,
-    "end": 1459,
-    "range": [
-      1445,
-      1459
-    ]
+    "end": 1459
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1459,
-    "end": 1460,
-    "range": [
-      1459,
-      1460
-    ]
+    "end": 1460
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1460,
-    "end": 1464,
-    "range": [
-      1460,
-      1464
-    ]
+    "end": 1464
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1464,
-    "end": 1465,
-    "range": [
-      1464,
-      1465
-    ]
+    "end": 1465
   },
   {
     "type": "Identifier",
     "value": "rawJSON",
     "start": 1465,
-    "end": 1472,
-    "range": [
-      1465,
-      1472
-    ]
+    "end": 1472
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1472,
-    "end": 1473,
-    "range": [
-      1472,
-      1473
-    ]
+    "end": 1473
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1473,
-    "end": 1474,
-    "range": [
-      1473,
-      1474
-    ]
+    "end": 1474
   },
   {
     "type": "Identifier",
     "value": "Function",
     "start": 1477,
-    "end": 1485,
-    "range": [
-      1477,
-      1485
-    ]
+    "end": 1485
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1485,
-    "end": 1486,
-    "range": [
-      1485,
-      1486
-    ]
+    "end": 1486
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 1486,
-    "end": 1495,
-    "range": [
-      1486,
-      1495
-    ]
+    "end": 1495
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1495,
-    "end": 1496,
-    "range": [
-      1495,
-      1496
-    ]
+    "end": 1496
   },
   {
     "type": "String",
     "value": "\"Prototype of JSON.rawJSON is Function.prototype\"",
     "start": 1499,
-    "end": 1548,
-    "range": [
-      1499,
-      1548
-    ]
+    "end": 1548
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1549,
-    "end": 1550,
-    "range": [
-      1549,
-      1550
-    ]
+    "end": 1550
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1550,
-    "end": 1551,
-    "range": [
-      1550,
-      1551
-    ]
+    "end": 1551
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1553,
-    "end": 1559,
-    "range": [
-      1553,
-      1559
-    ]
+    "end": 1559
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1559,
-    "end": 1560,
-    "range": [
-      1559,
-      1560
-    ]
+    "end": 1560
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1560,
-    "end": 1569,
-    "range": [
-      1560,
-      1569
-    ]
+    "end": 1569
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1569,
-    "end": 1570,
-    "range": [
-      1569,
-      1570
-    ]
+    "end": 1570
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 1573,
-    "end": 1579,
-    "range": [
-      1573,
-      1579
-    ]
+    "end": 1579
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1579,
-    "end": 1580,
-    "range": [
-      1579,
-      1580
-    ]
+    "end": 1580
   },
   {
     "type": "Identifier",
     "value": "getOwnPropertyDescriptor",
     "start": 1580,
-    "end": 1604,
-    "range": [
-      1580,
-      1604
-    ]
+    "end": 1604
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1604,
-    "end": 1605,
-    "range": [
-      1604,
-      1605
-    ]
+    "end": 1605
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 1605,
-    "end": 1609,
-    "range": [
-      1605,
-      1609
-    ]
+    "end": 1609
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1609,
-    "end": 1610,
-    "range": [
-      1609,
-      1610
-    ]
+    "end": 1610
   },
   {
     "type": "Identifier",
     "value": "rawJSON",
     "start": 1610,
-    "end": 1617,
-    "range": [
-      1610,
-      1617
-    ]
+    "end": 1617
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1617,
-    "end": 1618,
-    "range": [
-      1617,
-      1618
-    ]
+    "end": 1618
   },
   {
     "type": "String",
     "value": "\"prototype\"",
     "start": 1619,
-    "end": 1630,
-    "range": [
-      1619,
-      1630
-    ]
+    "end": 1630
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1630,
-    "end": 1631,
-    "range": [
-      1630,
-      1631
-    ]
+    "end": 1631
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1631,
-    "end": 1632,
-    "range": [
-      1631,
-      1632
-    ]
+    "end": 1632
   },
   {
     "type": "Identifier",
     "value": "undefined",
     "start": 1635,
-    "end": 1644,
-    "range": [
-      1635,
-      1644
-    ]
+    "end": 1644
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1644,
-    "end": 1645,
-    "range": [
-      1644,
-      1645
-    ]
+    "end": 1645
   },
   {
     "type": "String",
     "value": "\"JSON.rawJSON has no own prototype property\"",
     "start": 1648,
-    "end": 1692,
-    "range": [
-      1648,
-      1692
-    ]
+    "end": 1692
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1693,
-    "end": 1694,
-    "range": [
-      1693,
-      1694
-    ]
+    "end": 1694
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1694,
-    "end": 1695,
-    "range": [
-      1694,
-      1695
-    ]
+    "end": 1695
   }
 ]

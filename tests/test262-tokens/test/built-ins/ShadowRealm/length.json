@@ -3,260 +3,156 @@
     "type": "Identifier",
     "value": "verifyProperty",
     "start": 851,
-    "end": 865,
-    "range": [
-      851,
-      865
-    ]
+    "end": 865
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 865,
-    "end": 866,
-    "range": [
-      865,
-      866
-    ]
+    "end": 866
   },
   {
     "type": "Identifier",
     "value": "ShadowRealm",
     "start": 866,
-    "end": 877,
-    "range": [
-      866,
-      877
-    ]
+    "end": 877
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 877,
-    "end": 878,
-    "range": [
-      877,
-      878
-    ]
+    "end": 878
   },
   {
     "type": "String",
     "value": "\"length\"",
     "start": 879,
-    "end": 887,
-    "range": [
-      879,
-      887
-    ]
+    "end": 887
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 887,
-    "end": 888,
-    "range": [
-      887,
-      888
-    ]
+    "end": 888
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 889,
-    "end": 890,
-    "range": [
-      889,
-      890
-    ]
+    "end": 890
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 893,
-    "end": 898,
-    "range": [
-      893,
-      898
-    ]
+    "end": 898
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 898,
-    "end": 899,
-    "range": [
-      898,
-      899
-    ]
+    "end": 899
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 900,
-    "end": 901,
-    "range": [
-      900,
-      901
-    ]
+    "end": 901
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 901,
-    "end": 902,
-    "range": [
-      901,
-      902
-    ]
+    "end": 902
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 905,
-    "end": 915,
-    "range": [
-      905,
-      915
-    ]
+    "end": 915
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 915,
-    "end": 916,
-    "range": [
-      915,
-      916
-    ]
+    "end": 916
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 917,
-    "end": 922,
-    "range": [
-      917,
-      922
-    ]
+    "end": 922
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 922,
-    "end": 923,
-    "range": [
-      922,
-      923
-    ]
+    "end": 923
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 926,
-    "end": 934,
-    "range": [
-      926,
-      934
-    ]
+    "end": 934
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 934,
-    "end": 935,
-    "range": [
-      934,
-      935
-    ]
+    "end": 935
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 936,
-    "end": 941,
-    "range": [
-      936,
-      941
-    ]
+    "end": 941
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 941,
-    "end": 942,
-    "range": [
-      941,
-      942
-    ]
+    "end": 942
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 945,
-    "end": 957,
-    "range": [
-      945,
-      957
-    ]
+    "end": 957
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 957,
-    "end": 958,
-    "range": [
-      957,
-      958
-    ]
+    "end": 958
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 959,
-    "end": 963,
-    "range": [
-      959,
-      963
-    ]
+    "end": 963
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 963,
-    "end": 964,
-    "range": [
-      963,
-      964
-    ]
+    "end": 964
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 965,
-    "end": 966,
-    "range": [
-      965,
-      966
-    ]
+    "end": 966
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 966,
-    "end": 967,
-    "range": [
-      966,
-      967
-    ]
+    "end": 967
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 967,
-    "end": 968,
-    "range": [
-      967,
-      968
-    ]
+    "end": 968
   }
 ]

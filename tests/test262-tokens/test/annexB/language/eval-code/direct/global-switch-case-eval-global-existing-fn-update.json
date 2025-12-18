@@ -3,110 +3,66 @@
     "type": "Identifier",
     "value": "eval",
     "start": 1094,
-    "end": 1098,
-    "range": [
-      1094,
-      1098
-    ]
+    "end": 1098
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1098,
-    "end": 1099,
-    "range": [
-      1098,
-      1099
-    ]
+    "end": 1099
   },
   {
     "type": "String",
     "value": "'switch (1) {'",
     "start": 1102,
-    "end": 1116,
-    "range": [
-      1102,
-      1116
-    ]
+    "end": 1116
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1117,
-    "end": 1118,
-    "range": [
-      1117,
-      1118
-    ]
+    "end": 1118
   },
   {
     "type": "String",
     "value": "'  case 1:'",
     "start": 1121,
-    "end": 1132,
-    "range": [
-      1121,
-      1132
-    ]
+    "end": 1132
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1133,
-    "end": 1134,
-    "range": [
-      1133,
-      1134
-    ]
+    "end": 1134
   },
   {
     "type": "String",
     "value": "'    function f() { return \"inner declaration\"; }'",
     "start": 1137,
-    "end": 1187,
-    "range": [
-      1137,
-      1187
-    ]
+    "end": 1187
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1188,
-    "end": 1189,
-    "range": [
-      1188,
-      1189
-    ]
+    "end": 1189
   },
   {
     "type": "String",
     "value": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
     "start": 1192,
-    "end": 1345,
-    "range": [
-      1192,
-      1345
-    ]
+    "end": 1345
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1346,
-    "end": 1347,
-    "range": [
-      1346,
-      1347
-    ]
+    "end": 1347
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1347,
-    "end": 1348,
-    "range": [
-      1347,
-      1348
-    ]
+    "end": 1348
   }
 ]

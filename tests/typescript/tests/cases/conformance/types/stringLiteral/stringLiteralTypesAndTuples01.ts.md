@@ -501,931 +501,559 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "let",
     "start": 26,
-    "end": 29,
-    "range": [
-      26,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 30,
-    "end": 31,
-    "range": [
-      30,
-      31
-    ]
+    "end": 31
   },
   {
     "type": "Identifier",
     "value": "hello",
     "start": 31,
-    "end": 36,
-    "range": [
-      31,
-      36
-    ]
+    "end": 36
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 36,
-    "end": 37,
-    "range": [
-      36,
-      37
-    ]
+    "end": 37
   },
   {
     "type": "Identifier",
     "value": "brave",
     "start": 38,
-    "end": 43,
-    "range": [
-      38,
-      43
-    ]
+    "end": 43
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 43,
-    "end": 44,
-    "range": [
-      43,
-      44
-    ]
+    "end": 44
   },
   {
     "type": "Identifier",
     "value": "newish",
     "start": 45,
-    "end": 51,
-    "range": [
-      45,
-      51
-    ]
+    "end": 51
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 51,
-    "end": 52,
-    "range": [
-      51,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Identifier",
     "value": "world",
     "start": 53,
-    "end": 58,
-    "range": [
-      53,
-      58
-    ]
+    "end": 58
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 58,
-    "end": 59,
-    "range": [
-      58,
-      59
-    ]
+    "end": 59
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 60,
-    "end": 61,
-    "range": [
-      60,
-      61
-    ]
+    "end": 61
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 62,
-    "end": 63,
-    "range": [
-      62,
-      63
-    ]
+    "end": 63
   },
   {
     "type": "String",
     "value": "\"Hello\"",
     "start": 63,
-    "end": 70,
-    "range": [
-      63,
-      70
-    ]
+    "end": 70
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 70,
-    "end": 71,
-    "range": [
-      70,
-      71
-    ]
+    "end": 71
   },
   {
     "type": "String",
     "value": "\"Brave\"",
     "start": 72,
-    "end": 79,
-    "range": [
-      72,
-      79
-    ]
+    "end": 79
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 79,
-    "end": 80,
-    "range": [
-      79,
-      80
-    ]
+    "end": 80
   },
   {
     "type": "String",
     "value": "\"New\"",
     "start": 81,
-    "end": 86,
-    "range": [
-      81,
-      86
-    ]
+    "end": 86
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 86,
-    "end": 87,
-    "range": [
-      86,
-      87
-    ]
+    "end": 87
   },
   {
     "type": "String",
     "value": "\"World\"",
     "start": 88,
-    "end": 95,
-    "range": [
-      88,
-      95
-    ]
+    "end": 95
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 95,
-    "end": 96,
-    "range": [
-      95,
-      96
-    ]
+    "end": 96
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 96,
-    "end": 97,
-    "range": [
-      96,
-      97
-    ]
+    "end": 97
   },
   {
     "type": "Identifier",
     "value": "type",
     "start": 99,
-    "end": 103,
-    "range": [
-      99,
-      103
-    ]
+    "end": 103
   },
   {
     "type": "Identifier",
     "value": "RexOrRaptor",
     "start": 104,
-    "end": 115,
-    "range": [
-      104,
-      115
-    ]
+    "end": 115
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 116,
-    "end": 117,
-    "range": [
-      116,
-      117
-    ]
+    "end": 117
   },
   {
     "type": "String",
     "value": "\"t-rex\"",
     "start": 118,
-    "end": 125,
-    "range": [
-      118,
-      125
-    ]
+    "end": 125
   },
   {
     "type": "Punctuator",
     "value": "|",
     "start": 126,
-    "end": 127,
-    "range": [
-      126,
-      127
-    ]
+    "end": 127
   },
   {
     "type": "String",
     "value": "\"raptor\"",
     "start": 128,
-    "end": 136,
-    "range": [
-      128,
-      136
-    ]
+    "end": 136
   },
   {
     "type": "Keyword",
     "value": "let",
     "start": 137,
-    "end": 140,
-    "range": [
-      137,
-      140
-    ]
+    "end": 140
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 141,
-    "end": 142,
-    "range": [
-      141,
-      142
-    ]
+    "end": 142
   },
   {
     "type": "Identifier",
     "value": "im",
     "start": 142,
-    "end": 144,
-    "range": [
-      142,
-      144
-    ]
+    "end": 144
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 144,
-    "end": 145,
-    "range": [
-      144,
-      145
-    ]
+    "end": 145
   },
   {
     "type": "Identifier",
     "value": "a",
     "start": 146,
-    "end": 147,
-    "range": [
-      146,
-      147
-    ]
+    "end": 147
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 147,
-    "end": 148,
-    "range": [
-      147,
-      148
-    ]
+    "end": 148
   },
   {
     "type": "Identifier",
     "value": "dinosaur",
     "start": 149,
-    "end": 157,
-    "range": [
-      149,
-      157
-    ]
+    "end": 157
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 157,
-    "end": 158,
-    "range": [
-      157,
-      158
-    ]
+    "end": 158
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 158,
-    "end": 159,
-    "range": [
-      158,
-      159
-    ]
+    "end": 159
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 160,
-    "end": 161,
-    "range": [
-      160,
-      161
-    ]
+    "end": 161
   },
   {
     "type": "String",
     "value": "\"I'm\"",
     "start": 161,
-    "end": 166,
-    "range": [
-      161,
-      166
-    ]
+    "end": 166
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 166,
-    "end": 167,
-    "range": [
-      166,
-      167
-    ]
+    "end": 167
   },
   {
     "type": "String",
     "value": "\"a\"",
     "start": 168,
-    "end": 171,
-    "range": [
-      168,
-      171
-    ]
+    "end": 171
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 171,
-    "end": 172,
-    "range": [
-      171,
-      172
-    ]
+    "end": 172
   },
   {
     "type": "Identifier",
     "value": "RexOrRaptor",
     "start": 173,
-    "end": 184,
-    "range": [
-      173,
-      184
-    ]
+    "end": 184
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 184,
-    "end": 185,
-    "range": [
-      184,
-      185
-    ]
+    "end": 185
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 186,
-    "end": 187,
-    "range": [
-      186,
-      187
-    ]
+    "end": 187
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 188,
-    "end": 189,
-    "range": [
-      188,
-      189
-    ]
+    "end": 189
   },
   {
     "type": "String",
     "value": "'I\\'m'",
     "start": 189,
-    "end": 195,
-    "range": [
-      189,
-      195
-    ]
+    "end": 195
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 195,
-    "end": 196,
-    "range": [
-      195,
-      196
-    ]
+    "end": 196
   },
   {
     "type": "String",
     "value": "'a'",
     "start": 197,
-    "end": 200,
-    "range": [
-      197,
-      200
-    ]
+    "end": 200
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 200,
-    "end": 201,
-    "range": [
-      200,
-      201
-    ]
+    "end": 201
   },
   {
     "type": "String",
     "value": "'t-rex'",
     "start": 202,
-    "end": 209,
-    "range": [
-      202,
-      209
-    ]
+    "end": 209
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 209,
-    "end": 210,
-    "range": [
-      209,
-      210
-    ]
+    "end": 210
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 210,
-    "end": 211,
-    "range": [
-      210,
-      211
-    ]
+    "end": 211
   },
   {
     "type": "Identifier",
     "value": "rawr",
     "start": 213,
-    "end": 217,
-    "range": [
-      213,
-      217
-    ]
+    "end": 217
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 217,
-    "end": 218,
-    "range": [
-      217,
-      218
-    ]
+    "end": 218
   },
   {
     "type": "Identifier",
     "value": "dinosaur",
     "start": 218,
-    "end": 226,
-    "range": [
-      218,
-      226
-    ]
+    "end": 226
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 226,
-    "end": 227,
-    "range": [
-      226,
-      227
-    ]
+    "end": 227
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 227,
-    "end": 228,
-    "range": [
-      227,
-      228
-    ]
+    "end": 228
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 230,
-    "end": 238,
-    "range": [
-      230,
-      238
-    ]
+    "end": 238
   },
   {
     "type": "Identifier",
     "value": "rawr",
     "start": 239,
-    "end": 243,
-    "range": [
-      239,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 243,
-    "end": 244,
-    "range": [
-      243,
-      244
-    ]
+    "end": 244
   },
   {
     "type": "Identifier",
     "value": "dino",
     "start": 244,
-    "end": 248,
-    "range": [
-      244,
-      248
-    ]
+    "end": 248
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 248,
-    "end": 249,
-    "range": [
-      248,
-      249
-    ]
+    "end": 249
   },
   {
     "type": "Identifier",
     "value": "RexOrRaptor",
     "start": 250,
-    "end": 261,
-    "range": [
-      250,
-      261
-    ]
+    "end": 261
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 261,
-    "end": 262,
-    "range": [
-      261,
-      262
-    ]
+    "end": 262
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 263,
-    "end": 264,
-    "range": [
-      263,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 269,
-    "end": 271,
-    "range": [
-      269,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 272,
-    "end": 273,
-    "range": [
-      272,
-      273
-    ]
+    "end": 273
   },
   {
     "type": "Identifier",
     "value": "dino",
     "start": 273,
-    "end": 277,
-    "range": [
-      273,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Punctuator",
     "value": "===",
     "start": 278,
-    "end": 281,
-    "range": [
-      278,
-      281
-    ]
+    "end": 281
   },
   {
     "type": "String",
     "value": "\"t-rex\"",
     "start": 282,
-    "end": 289,
-    "range": [
-      282,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 291,
-    "end": 292,
-    "range": [
-      291,
-      292
-    ]
+    "end": 292
   },
   {
     "type": "Keyword",
     "value": "return",
     "start": 301,
-    "end": 307,
-    "range": [
-      301,
-      307
-    ]
+    "end": 307
   },
   {
     "type": "String",
     "value": "\"ROAAAAR!\"",
     "start": 308,
-    "end": 318,
-    "range": [
-      308,
-      318
-    ]
+    "end": 318
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 318,
-    "end": 319,
-    "range": [
-      318,
-      319
-    ]
+    "end": 319
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 324,
-    "end": 325,
-    "range": [
-      324,
-      325
-    ]
+    "end": 325
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 330,
-    "end": 332,
-    "range": [
-      330,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 333,
-    "end": 334,
-    "range": [
-      333,
-      334
-    ]
+    "end": 334
   },
   {
     "type": "Identifier",
     "value": "dino",
     "start": 334,
-    "end": 338,
-    "range": [
-      334,
-      338
-    ]
+    "end": 338
   },
   {
     "type": "Punctuator",
     "value": "===",
     "start": 339,
-    "end": 342,
-    "range": [
-      339,
-      342
-    ]
+    "end": 342
   },
   {
     "type": "String",
     "value": "\"raptor\"",
     "start": 343,
-    "end": 351,
-    "range": [
-      343,
-      351
-    ]
+    "end": 351
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 351,
-    "end": 352,
-    "range": [
-      351,
-      352
-    ]
+    "end": 352
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 353,
-    "end": 354,
-    "range": [
-      353,
-      354
-    ]
+    "end": 354
   },
   {
     "type": "Keyword",
     "value": "return",
     "start": 363,
-    "end": 369,
-    "range": [
-      363,
-      369
-    ]
+    "end": 369
   },
   {
     "type": "String",
     "value": "\"yip yip!\"",
     "start": 370,
-    "end": 380,
-    "range": [
-      370,
-      380
-    ]
+    "end": 380
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 380,
-    "end": 381,
-    "range": [
-      380,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 386,
-    "end": 387,
-    "range": [
-      386,
-      387
-    ]
+    "end": 387
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 393,
-    "end": 398,
-    "range": [
-      393,
-      398
-    ]
+    "end": 398
   },
   {
     "type": "String",
     "value": "\"Unexpected \"",
     "start": 399,
-    "end": 412,
-    "range": [
-      399,
-      412
-    ]
+    "end": 412
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 413,
-    "end": 414,
-    "range": [
-      413,
-      414
-    ]
+    "end": 414
   },
   {
     "type": "Identifier",
     "value": "dino",
     "start": 415,
-    "end": 419,
-    "range": [
-      415,
-      419
-    ]
+    "end": 419
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 419,
-    "end": 420,
-    "range": [
-      419,
-      420
-    ]
+    "end": 420
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 421,
-    "end": 422,
-    "range": [
-      421,
-      422
-    ]
+    "end": 422
   }
 ]
 ```

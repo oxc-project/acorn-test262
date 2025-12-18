@@ -3,31 +3,19 @@
     "type": "Keyword",
     "value": "var",
     "start": 1722,
-    "end": 1725,
-    "range": [
-      1722,
-      1725
-    ]
+    "end": 1725
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1726,
-    "end": 1729,
-    "range": [
-      1726,
-      1729
-    ]
+    "end": 1729
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1730,
-    "end": 1731,
-    "range": [
-      1730,
-      1731
-    ]
+    "end": 1731
   },
   {
     "type": "RegularExpression",
@@ -37,630 +25,378 @@
       "pattern": "(?m:^(?-i:a)$)"
     },
     "start": 1732,
-    "end": 1749,
-    "range": [
-      1732,
-      1749
-    ]
+    "end": 1749
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1749,
-    "end": 1750,
-    "range": [
-      1749,
-      1750
-    ]
+    "end": 1750
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1751,
-    "end": 1757,
-    "range": [
-      1751,
-      1757
-    ]
+    "end": 1757
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1757,
-    "end": 1758,
-    "range": [
-      1757,
-      1758
-    ]
+    "end": 1758
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 1758,
-    "end": 1759,
-    "range": [
-      1758,
-      1759
-    ]
+    "end": 1759
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1759,
-    "end": 1762,
-    "range": [
-      1759,
-      1762
-    ]
+    "end": 1762
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1762,
-    "end": 1763,
-    "range": [
-      1762,
-      1763
-    ]
+    "end": 1763
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1763,
-    "end": 1767,
-    "range": [
-      1763,
-      1767
-    ]
+    "end": 1767
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1767,
-    "end": 1768,
-    "range": [
-      1767,
-      1768
-    ]
+    "end": 1768
   },
   {
     "type": "String",
     "value": "\"A\\n\"",
     "start": 1768,
-    "end": 1773,
-    "range": [
-      1768,
-      1773
-    ]
+    "end": 1773
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1773,
-    "end": 1774,
-    "range": [
-      1773,
-      1774
-    ]
+    "end": 1774
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1774,
-    "end": 1775,
-    "range": [
-      1774,
-      1775
-    ]
+    "end": 1775
   },
   {
     "type": "String",
     "value": "\"Should not match 'A\\\\n'\"",
     "start": 1776,
-    "end": 1801,
-    "range": [
-      1776,
-      1801
-    ]
+    "end": 1801
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1801,
-    "end": 1802,
-    "range": [
-      1801,
-      1802
-    ]
+    "end": 1802
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1802,
-    "end": 1803,
-    "range": [
-      1802,
-      1803
-    ]
+    "end": 1803
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1804,
-    "end": 1810,
-    "range": [
-      1804,
-      1810
-    ]
+    "end": 1810
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1810,
-    "end": 1811,
-    "range": [
-      1810,
-      1811
-    ]
+    "end": 1811
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 1811,
-    "end": 1814,
-    "range": [
-      1811,
-      1814
-    ]
+    "end": 1814
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1814,
-    "end": 1815,
-    "range": [
-      1814,
-      1815
-    ]
+    "end": 1815
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1815,
-    "end": 1819,
-    "range": [
-      1815,
-      1819
-    ]
+    "end": 1819
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1819,
-    "end": 1820,
-    "range": [
-      1819,
-      1820
-    ]
+    "end": 1820
   },
   {
     "type": "String",
     "value": "\"a\\n\"",
     "start": 1820,
-    "end": 1825,
-    "range": [
-      1820,
-      1825
-    ]
+    "end": 1825
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1825,
-    "end": 1826,
-    "range": [
-      1825,
-      1826
-    ]
+    "end": 1826
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1826,
-    "end": 1827,
-    "range": [
-      1826,
-      1827
-    ]
+    "end": 1827
   },
   {
     "type": "String",
     "value": "\"Should match 'a\\\\n'\"",
     "start": 1828,
-    "end": 1849,
-    "range": [
-      1828,
-      1849
-    ]
+    "end": 1849
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1849,
-    "end": 1850,
-    "range": [
-      1849,
-      1850
-    ]
+    "end": 1850
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1850,
-    "end": 1851,
-    "range": [
-      1850,
-      1851
-    ]
+    "end": 1851
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1853,
-    "end": 1856,
-    "range": [
-      1853,
-      1856
-    ]
+    "end": 1856
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 1857,
-    "end": 1860,
-    "range": [
-      1857,
-      1860
-    ]
+    "end": 1860
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1861,
-    "end": 1862,
-    "range": [
-      1861,
-      1862
-    ]
+    "end": 1862
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1863,
-    "end": 1866,
-    "range": [
-      1863,
-      1866
-    ]
+    "end": 1866
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 1867,
-    "end": 1873,
-    "range": [
-      1867,
-      1873
-    ]
+    "end": 1873
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1873,
-    "end": 1874,
-    "range": [
-      1873,
-      1874
-    ]
+    "end": 1874
   },
   {
     "type": "String",
     "value": "\"(?m:^(?-i:a)$)\"",
     "start": 1874,
-    "end": 1890,
-    "range": [
-      1874,
-      1890
-    ]
+    "end": 1890
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1890,
-    "end": 1891,
-    "range": [
-      1890,
-      1891
-    ]
+    "end": 1891
   },
   {
     "type": "String",
     "value": "\"i\"",
     "start": 1892,
-    "end": 1895,
-    "range": [
-      1892,
-      1895
-    ]
+    "end": 1895
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1895,
-    "end": 1896,
-    "range": [
-      1895,
-      1896
-    ]
+    "end": 1896
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1896,
-    "end": 1897,
-    "range": [
-      1896,
-      1897
-    ]
+    "end": 1897
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1898,
-    "end": 1904,
-    "range": [
-      1898,
-      1904
-    ]
+    "end": 1904
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1904,
-    "end": 1905,
-    "range": [
-      1904,
-      1905
-    ]
+    "end": 1905
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 1905,
-    "end": 1906,
-    "range": [
-      1905,
-      1906
-    ]
+    "end": 1906
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 1906,
-    "end": 1909,
-    "range": [
-      1906,
-      1909
-    ]
+    "end": 1909
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1909,
-    "end": 1910,
-    "range": [
-      1909,
-      1910
-    ]
+    "end": 1910
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1910,
-    "end": 1914,
-    "range": [
-      1910,
-      1914
-    ]
+    "end": 1914
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1914,
-    "end": 1915,
-    "range": [
-      1914,
-      1915
-    ]
+    "end": 1915
   },
   {
     "type": "String",
     "value": "\"A\\n\"",
     "start": 1915,
-    "end": 1920,
-    "range": [
-      1915,
-      1920
-    ]
+    "end": 1920
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1920,
-    "end": 1921,
-    "range": [
-      1920,
-      1921
-    ]
+    "end": 1921
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1921,
-    "end": 1922,
-    "range": [
-      1921,
-      1922
-    ]
+    "end": 1922
   },
   {
     "type": "String",
     "value": "\"Should not match 'A\\\\n'\"",
     "start": 1923,
-    "end": 1948,
-    "range": [
-      1923,
-      1948
-    ]
+    "end": 1948
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1948,
-    "end": 1949,
-    "range": [
-      1948,
-      1949
-    ]
+    "end": 1949
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1949,
-    "end": 1950,
-    "range": [
-      1949,
-      1950
-    ]
+    "end": 1950
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1951,
-    "end": 1957,
-    "range": [
-      1951,
-      1957
-    ]
+    "end": 1957
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1957,
-    "end": 1958,
-    "range": [
-      1957,
-      1958
-    ]
+    "end": 1958
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 1958,
-    "end": 1961,
-    "range": [
-      1958,
-      1961
-    ]
+    "end": 1961
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1961,
-    "end": 1962,
-    "range": [
-      1961,
-      1962
-    ]
+    "end": 1962
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 1962,
-    "end": 1966,
-    "range": [
-      1962,
-      1966
-    ]
+    "end": 1966
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1966,
-    "end": 1967,
-    "range": [
-      1966,
-      1967
-    ]
+    "end": 1967
   },
   {
     "type": "String",
     "value": "\"a\\n\"",
     "start": 1967,
-    "end": 1972,
-    "range": [
-      1967,
-      1972
-    ]
+    "end": 1972
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1972,
-    "end": 1973,
-    "range": [
-      1972,
-      1973
-    ]
+    "end": 1973
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1973,
-    "end": 1974,
-    "range": [
-      1973,
-      1974
-    ]
+    "end": 1974
   },
   {
     "type": "String",
     "value": "\"Should match 'a\\\\n'\"",
     "start": 1975,
-    "end": 1996,
-    "range": [
-      1975,
-      1996
-    ]
+    "end": 1996
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1996,
-    "end": 1997,
-    "range": [
-      1996,
-      1997
-    ]
+    "end": 1997
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1997,
-    "end": 1998,
-    "range": [
-      1997,
-      1998
-    ]
+    "end": 1998
   }
 ]

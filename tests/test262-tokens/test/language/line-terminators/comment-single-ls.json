@@ -3,60 +3,36 @@
     "type": "Keyword",
     "value": "throw",
     "start": 825,
-    "end": 830,
-    "range": [
-      825,
-      830
-    ]
+    "end": 830
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 831,
-    "end": 834,
-    "range": [
-      831,
-      834
-    ]
+    "end": 834
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 835,
-    "end": 847,
-    "range": [
-      835,
-      847
-    ]
+    "end": 847
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 847,
-    "end": 848,
-    "range": [
-      847,
-      848
-    ]
+    "end": 848
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 848,
-    "end": 849,
-    "range": [
-      848,
-      849
-    ]
+    "end": 849
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 849,
-    "end": 850,
-    "range": [
-      849,
-      850
-    ]
+    "end": 850
   }
 ]

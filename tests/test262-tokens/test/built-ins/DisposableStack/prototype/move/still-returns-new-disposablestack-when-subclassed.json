@@ -3,440 +3,264 @@
     "type": "Keyword",
     "value": "class",
     "start": 1024,
-    "end": 1029,
-    "range": [
-      1024,
-      1029
-    ]
+    "end": 1029
   },
   {
     "type": "Identifier",
     "value": "MyDisposableStack",
     "start": 1030,
-    "end": 1047,
-    "range": [
-      1030,
-      1047
-    ]
+    "end": 1047
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 1048,
-    "end": 1055,
-    "range": [
-      1048,
-      1055
-    ]
+    "end": 1055
   },
   {
     "type": "Identifier",
     "value": "DisposableStack",
     "start": 1056,
-    "end": 1071,
-    "range": [
-      1056,
-      1071
-    ]
+    "end": 1071
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1072,
-    "end": 1073,
-    "range": [
-      1072,
-      1073
-    ]
+    "end": 1073
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1073,
-    "end": 1074,
-    "range": [
-      1073,
-      1074
-    ]
+    "end": 1074
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1076,
-    "end": 1079,
-    "range": [
-      1076,
-      1079
-    ]
+    "end": 1079
   },
   {
     "type": "Identifier",
     "value": "stack1",
     "start": 1080,
-    "end": 1086,
-    "range": [
-      1080,
-      1086
-    ]
+    "end": 1086
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1087,
-    "end": 1088,
-    "range": [
-      1087,
-      1088
-    ]
+    "end": 1088
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1089,
-    "end": 1092,
-    "range": [
-      1089,
-      1092
-    ]
+    "end": 1092
   },
   {
     "type": "Identifier",
     "value": "MyDisposableStack",
     "start": 1093,
-    "end": 1110,
-    "range": [
-      1093,
-      1110
-    ]
+    "end": 1110
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1110,
-    "end": 1111,
-    "range": [
-      1110,
-      1111
-    ]
+    "end": 1111
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1111,
-    "end": 1112,
-    "range": [
-      1111,
-      1112
-    ]
+    "end": 1112
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1112,
-    "end": 1113,
-    "range": [
-      1112,
-      1113
-    ]
+    "end": 1113
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1114,
-    "end": 1117,
-    "range": [
-      1114,
-      1117
-    ]
+    "end": 1117
   },
   {
     "type": "Identifier",
     "value": "stack2",
     "start": 1118,
-    "end": 1124,
-    "range": [
-      1118,
-      1124
-    ]
+    "end": 1124
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1125,
-    "end": 1126,
-    "range": [
-      1125,
-      1126
-    ]
+    "end": 1126
   },
   {
     "type": "Identifier",
     "value": "stack1",
     "start": 1127,
-    "end": 1133,
-    "range": [
-      1127,
-      1133
-    ]
+    "end": 1133
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1133,
-    "end": 1134,
-    "range": [
-      1133,
-      1134
-    ]
+    "end": 1134
   },
   {
     "type": "Identifier",
     "value": "move",
     "start": 1134,
-    "end": 1138,
-    "range": [
-      1134,
-      1138
-    ]
+    "end": 1138
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1138,
-    "end": 1139,
-    "range": [
-      1138,
-      1139
-    ]
+    "end": 1139
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1139,
-    "end": 1140,
-    "range": [
-      1139,
-      1140
-    ]
+    "end": 1140
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1140,
-    "end": 1141,
-    "range": [
-      1140,
-      1141
-    ]
+    "end": 1141
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1142,
-    "end": 1148,
-    "range": [
-      1142,
-      1148
-    ]
+    "end": 1148
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1148,
-    "end": 1149,
-    "range": [
-      1148,
-      1149
-    ]
+    "end": 1149
   },
   {
     "type": "Identifier",
     "value": "stack2",
     "start": 1149,
-    "end": 1155,
-    "range": [
-      1149,
-      1155
-    ]
+    "end": 1155
   },
   {
     "type": "Keyword",
     "value": "instanceof",
     "start": 1156,
-    "end": 1166,
-    "range": [
-      1156,
-      1166
-    ]
+    "end": 1166
   },
   {
     "type": "Identifier",
     "value": "DisposableStack",
     "start": 1167,
-    "end": 1182,
-    "range": [
-      1167,
-      1182
-    ]
+    "end": 1182
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1182,
-    "end": 1183,
-    "range": [
-      1182,
-      1183
-    ]
+    "end": 1183
   },
   {
     "type": "String",
     "value": "'Expected stack2 to be an instance of DisposableStack'",
     "start": 1184,
-    "end": 1238,
-    "range": [
-      1184,
-      1238
-    ]
+    "end": 1238
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1238,
-    "end": 1239,
-    "range": [
-      1238,
-      1239
-    ]
+    "end": 1239
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1239,
-    "end": 1240,
-    "range": [
-      1239,
-      1240
-    ]
+    "end": 1240
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1241,
-    "end": 1247,
-    "range": [
-      1241,
-      1247
-    ]
+    "end": 1247
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1247,
-    "end": 1248,
-    "range": [
-      1247,
-      1248
-    ]
+    "end": 1248
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 1248,
-    "end": 1249,
-    "range": [
-      1248,
-      1249
-    ]
+    "end": 1249
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1249,
-    "end": 1250,
-    "range": [
-      1249,
-      1250
-    ]
+    "end": 1250
   },
   {
     "type": "Identifier",
     "value": "stack2",
     "start": 1250,
-    "end": 1256,
-    "range": [
-      1250,
-      1256
-    ]
+    "end": 1256
   },
   {
     "type": "Keyword",
     "value": "instanceof",
     "start": 1257,
-    "end": 1267,
-    "range": [
-      1257,
-      1267
-    ]
+    "end": 1267
   },
   {
     "type": "Identifier",
     "value": "MyDisposableStack",
     "start": 1268,
-    "end": 1285,
-    "range": [
-      1268,
-      1285
-    ]
+    "end": 1285
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1285,
-    "end": 1286,
-    "range": [
-      1285,
-      1286
-    ]
+    "end": 1286
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1286,
-    "end": 1287,
-    "range": [
-      1286,
-      1287
-    ]
+    "end": 1287
   },
   {
     "type": "String",
     "value": "'Expected stack2 to not be an instance of MyDisposableStack'",
     "start": 1288,
-    "end": 1348,
-    "range": [
-      1288,
-      1348
-    ]
+    "end": 1348
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1348,
-    "end": 1349,
-    "range": [
-      1348,
-      1349
-    ]
+    "end": 1349
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1349,
-    "end": 1350,
-    "range": [
-      1349,
-      1350
-    ]
+    "end": 1350
   }
 ]

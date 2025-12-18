@@ -3,150 +3,90 @@
     "type": "Punctuator",
     "value": "(",
     "start": 560,
-    "end": 561,
-    "range": [
-      560,
-      561
-    ]
+    "end": 561
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 561,
-    "end": 562,
-    "range": [
-      561,
-      562
-    ]
+    "end": 562
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 562,
-    "end": 563,
-    "range": [
-      562,
-      563
-    ]
+    "end": 563
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 563,
-    "end": 567,
-    "range": [
-      563,
-      567
-    ]
+    "end": 567
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 567,
-    "end": 568,
-    "range": [
-      567,
-      568
-    ]
+    "end": 568
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 568,
-    "end": 569,
-    "range": [
-      568,
-      569
-    ]
+    "end": 569
   },
   {
     "type": "String",
     "value": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'",
     "start": 572,
-    "end": 629,
-    "range": [
-      572,
-      629
-    ]
+    "end": 629
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 630,
-    "end": 631,
-    "range": [
-      630,
-      631
-    ]
+    "end": 631
   },
   {
     "type": "String",
     "value": "'  case 1:'",
     "start": 634,
-    "end": 645,
-    "range": [
-      634,
-      645
-    ]
+    "end": 645
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 646,
-    "end": 647,
-    "range": [
-      646,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "String",
     "value": "'    function f() { return \"inner declaration\"; }'",
     "start": 650,
-    "end": 700,
-    "range": [
-      650,
-      700
-    ]
+    "end": 700
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 701,
-    "end": 702,
-    "range": [
-      701,
-      702
-    ]
+    "end": 702
   },
   {
     "type": "String",
     "value": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
     "start": 705,
-    "end": 764,
-    "range": [
-      705,
-      764
-    ]
+    "end": 764
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 765,
-    "end": 766,
-    "range": [
-      765,
-      766
-    ]
+    "end": 766
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 766,
-    "end": 767,
-    "range": [
-      766,
-      767
-    ]
+    "end": 767
   }
 ]

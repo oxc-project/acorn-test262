@@ -3,160 +3,96 @@
     "type": "Keyword",
     "value": "var",
     "start": 238,
-    "end": 241,
-    "range": [
-      238,
-      241
-    ]
+    "end": 241
   },
   {
     "type": "Identifier",
     "value": "Implements",
     "start": 242,
-    "end": 252,
-    "range": [
-      242,
-      252
-    ]
+    "end": 252
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 253,
-    "end": 254,
-    "range": [
-      253,
-      254
-    ]
+    "end": 254
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 255,
-    "end": 256,
-    "range": [
-      255,
-      256
-    ]
+    "end": 256
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 256,
-    "end": 257,
-    "range": [
-      256,
-      257
-    ]
+    "end": 257
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 259,
-    "end": 265,
-    "range": [
-      259,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 265,
-    "end": 266,
-    "range": [
-      265,
-      266
-    ]
+    "end": 266
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 266,
-    "end": 275,
-    "range": [
-      266,
-      275
-    ]
+    "end": 275
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 275,
-    "end": 276,
-    "range": [
-      275,
-      276
-    ]
+    "end": 276
   },
   {
     "type": "Identifier",
     "value": "Implements",
     "start": 276,
-    "end": 286,
-    "range": [
-      276,
-      286
-    ]
+    "end": 286
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 286,
-    "end": 287,
-    "range": [
-      286,
-      287
-    ]
+    "end": 287
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 288,
-    "end": 289,
-    "range": [
-      288,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "String",
     "value": "'Implements'",
     "start": 291,
-    "end": 303,
-    "range": [
-      291,
-      303
-    ]
+    "end": 303
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 303,
-    "end": 304,
-    "range": [
-      303,
-      304
-    ]
+    "end": 304
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 304,
-    "end": 305,
-    "range": [
-      304,
-      305
-    ]
+    "end": 305
   }
 ]

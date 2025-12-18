@@ -3,880 +3,528 @@
     "type": "Keyword",
     "value": "var",
     "start": 2175,
-    "end": 2178,
-    "range": [
-      2175,
-      2178
-    ]
+    "end": 2178
   },
   {
     "type": "Identifier",
     "value": "str",
     "start": 2179,
-    "end": 2182,
-    "range": [
-      2179,
-      2182
-    ]
+    "end": 2182
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2183,
-    "end": 2184,
-    "range": [
-      2183,
-      2184
-    ]
+    "end": 2184
   },
   {
     "type": "String",
     "value": "'Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.'",
     "start": 2185,
-    "end": 2252,
-    "range": [
-      2185,
-      2252
-    ]
+    "end": 2252
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2252,
-    "end": 2253,
-    "range": [
-      2252,
-      2253
-    ]
+    "end": 2253
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2255,
-    "end": 2258,
-    "range": [
-      2255,
-      2258
-    ]
+    "end": 2258
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2259,
-    "end": 2265,
-    "range": [
-      2259,
-      2265
-    ]
+    "end": 2265
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2265,
-    "end": 2266,
-    "range": [
-      2265,
-      2266
-    ]
+    "end": 2266
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2268,
-    "end": 2274,
-    "range": [
-      2268,
-      2274
-    ]
+    "end": 2274
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2275,
-    "end": 2276,
-    "range": [
-      2275,
-      2276
-    ]
+    "end": 2276
   },
   {
     "type": "Identifier",
     "value": "str",
     "start": 2277,
-    "end": 2280,
-    "range": [
-      2277,
-      2280
-    ]
+    "end": 2280
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2280,
-    "end": 2281,
-    "range": [
-      2280,
-      2281
-    ]
+    "end": 2281
   },
   {
     "type": "Identifier",
     "value": "replaceAll",
     "start": 2281,
-    "end": 2291,
-    "range": [
-      2281,
-      2291
-    ]
+    "end": 2291
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2291,
-    "end": 2292,
-    "range": [
-      2291,
-      2292
-    ]
+    "end": 2292
   },
   {
     "type": "String",
     "value": "'ninguém'",
     "start": 2292,
-    "end": 2301,
-    "range": [
-      2292,
-      2301
-    ]
+    "end": 2301
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2301,
-    "end": 2302,
-    "range": [
-      2301,
-      2302
-    ]
+    "end": 2302
   },
   {
     "type": "String",
     "value": "'$\\''",
     "start": 2303,
-    "end": 2308,
-    "range": [
-      2303,
-      2308
-    ]
+    "end": 2308
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2308,
-    "end": 2309,
-    "range": [
-      2308,
-      2309
-    ]
+    "end": 2309
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2309,
-    "end": 2310,
-    "range": [
-      2309,
-      2310
-    ]
+    "end": 2310
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2311,
-    "end": 2317,
-    "range": [
-      2311,
-      2317
-    ]
+    "end": 2317
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2317,
-    "end": 2318,
-    "range": [
-      2317,
-      2318
-    ]
+    "end": 2318
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2318,
-    "end": 2327,
-    "range": [
-      2318,
-      2327
-    ]
+    "end": 2327
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2327,
-    "end": 2328,
-    "range": [
-      2327,
-      2328
-    ]
+    "end": 2328
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2328,
-    "end": 2334,
-    "range": [
-      2328,
-      2334
-    ]
+    "end": 2334
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2334,
-    "end": 2335,
-    "range": [
-      2334,
-      2335
-    ]
+    "end": 2335
   },
   {
     "type": "String",
     "value": "'Ninguém é igual a . Todo o ser humano é um estranho ímpar.. Todo o ser humano é um estranho ímpar.'",
     "start": 2336,
-    "end": 2436,
-    "range": [
-      2336,
-      2436
-    ]
+    "end": 2436
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2436,
-    "end": 2437,
-    "range": [
-      2436,
-      2437
-    ]
+    "end": 2437
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2437,
-    "end": 2438,
-    "range": [
-      2437,
-      2438
-    ]
+    "end": 2438
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2440,
-    "end": 2446,
-    "range": [
-      2440,
-      2446
-    ]
+    "end": 2446
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2447,
-    "end": 2448,
-    "range": [
-      2447,
-      2448
-    ]
+    "end": 2448
   },
   {
     "type": "Identifier",
     "value": "str",
     "start": 2449,
-    "end": 2452,
-    "range": [
-      2449,
-      2452
-    ]
+    "end": 2452
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2452,
-    "end": 2453,
-    "range": [
-      2452,
-      2453
-    ]
+    "end": 2453
   },
   {
     "type": "Identifier",
     "value": "replaceAll",
     "start": 2453,
-    "end": 2463,
-    "range": [
-      2453,
-      2463
-    ]
+    "end": 2463
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2463,
-    "end": 2464,
-    "range": [
-      2463,
-      2464
-    ]
+    "end": 2464
   },
   {
     "type": "String",
     "value": "'.'",
     "start": 2464,
-    "end": 2467,
-    "range": [
-      2464,
-      2467
-    ]
+    "end": 2467
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2467,
-    "end": 2468,
-    "range": [
-      2467,
-      2468
-    ]
+    "end": 2468
   },
   {
     "type": "String",
     "value": "'--- $\\''",
     "start": 2469,
-    "end": 2478,
-    "range": [
-      2469,
-      2478
-    ]
+    "end": 2478
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2478,
-    "end": 2479,
-    "range": [
-      2478,
-      2479
-    ]
+    "end": 2479
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2479,
-    "end": 2480,
-    "range": [
-      2479,
-      2480
-    ]
+    "end": 2480
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2481,
-    "end": 2487,
-    "range": [
-      2481,
-      2487
-    ]
+    "end": 2487
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2487,
-    "end": 2488,
-    "range": [
-      2487,
-      2488
-    ]
+    "end": 2488
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2488,
-    "end": 2497,
-    "range": [
-      2488,
-      2497
-    ]
+    "end": 2497
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2497,
-    "end": 2498,
-    "range": [
-      2497,
-      2498
-    ]
+    "end": 2498
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2498,
-    "end": 2504,
-    "range": [
-      2498,
-      2504
-    ]
+    "end": 2504
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2504,
-    "end": 2505,
-    "range": [
-      2504,
-      2505
-    ]
+    "end": 2505
   },
   {
     "type": "String",
     "value": "'Ninguém é igual a ninguém---  Todo o ser humano é um estranho ímpar. Todo o ser humano é um estranho ímpar--- '",
     "start": 2506,
-    "end": 2618,
-    "range": [
-      2506,
-      2618
-    ]
+    "end": 2618
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2618,
-    "end": 2619,
-    "range": [
-      2618,
-      2619
-    ]
+    "end": 2619
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2619,
-    "end": 2620,
-    "range": [
-      2619,
-      2620
-    ]
+    "end": 2620
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2622,
-    "end": 2628,
-    "range": [
-      2622,
-      2628
-    ]
+    "end": 2628
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2629,
-    "end": 2630,
-    "range": [
-      2629,
-      2630
-    ]
+    "end": 2630
   },
   {
     "type": "Identifier",
     "value": "str",
     "start": 2631,
-    "end": 2634,
-    "range": [
-      2631,
-      2634
-    ]
+    "end": 2634
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2634,
-    "end": 2635,
-    "range": [
-      2634,
-      2635
-    ]
+    "end": 2635
   },
   {
     "type": "Identifier",
     "value": "replaceAll",
     "start": 2635,
-    "end": 2645,
-    "range": [
-      2635,
-      2645
-    ]
+    "end": 2645
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2645,
-    "end": 2646,
-    "range": [
-      2645,
-      2646
-    ]
+    "end": 2646
   },
   {
     "type": "String",
     "value": "'é'",
     "start": 2646,
-    "end": 2649,
-    "range": [
-      2646,
-      2649
-    ]
+    "end": 2649
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2649,
-    "end": 2650,
-    "range": [
-      2649,
-      2650
-    ]
+    "end": 2650
   },
   {
     "type": "String",
     "value": "'($\\')'",
     "start": 2651,
-    "end": 2658,
-    "range": [
-      2651,
-      2658
-    ]
+    "end": 2658
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2658,
-    "end": 2659,
-    "range": [
-      2658,
-      2659
-    ]
+    "end": 2659
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2659,
-    "end": 2660,
-    "range": [
-      2659,
-      2660
-    ]
+    "end": 2660
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2661,
-    "end": 2667,
-    "range": [
-      2661,
-      2667
-    ]
+    "end": 2667
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2667,
-    "end": 2668,
-    "range": [
-      2667,
-      2668
-    ]
+    "end": 2668
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2668,
-    "end": 2677,
-    "range": [
-      2668,
-      2677
-    ]
+    "end": 2677
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2677,
-    "end": 2678,
-    "range": [
-      2677,
-      2678
-    ]
+    "end": 2678
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2678,
-    "end": 2684,
-    "range": [
-      2678,
-      2684
-    ]
+    "end": 2684
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2684,
-    "end": 2685,
-    "range": [
-      2684,
-      2685
-    ]
+    "end": 2685
   },
   {
     "type": "String",
     "value": "'Ningu(m é igual a ninguém. Todo o ser humano é um estranho ímpar.)m ( igual a ninguém. Todo o ser humano é um estranho ímpar.) igual a ningu(m. Todo o ser humano é um estranho ímpar.)m. Todo o ser humano ( um estranho ímpar.) um estranho ímpar.'",
     "start": 2686,
-    "end": 2932,
-    "range": [
-      2686,
-      2932
-    ]
+    "end": 2932
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2932,
-    "end": 2933,
-    "range": [
-      2932,
-      2933
-    ]
+    "end": 2933
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2933,
-    "end": 2934,
-    "range": [
-      2933,
-      2934
-    ]
+    "end": 2934
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2936,
-    "end": 2942,
-    "range": [
-      2936,
-      2942
-    ]
+    "end": 2942
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2943,
-    "end": 2944,
-    "range": [
-      2943,
-      2944
-    ]
+    "end": 2944
   },
   {
     "type": "Identifier",
     "value": "str",
     "start": 2945,
-    "end": 2948,
-    "range": [
-      2945,
-      2948
-    ]
+    "end": 2948
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2948,
-    "end": 2949,
-    "range": [
-      2948,
-      2949
-    ]
+    "end": 2949
   },
   {
     "type": "Identifier",
     "value": "replaceAll",
     "start": 2949,
-    "end": 2959,
-    "range": [
-      2949,
-      2959
-    ]
+    "end": 2959
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2959,
-    "end": 2960,
-    "range": [
-      2959,
-      2960
-    ]
+    "end": 2960
   },
   {
     "type": "String",
     "value": "'é'",
     "start": 2960,
-    "end": 2963,
-    "range": [
-      2960,
-      2963
-    ]
+    "end": 2963
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2963,
-    "end": 2964,
-    "range": [
-      2963,
-      2964
-    ]
+    "end": 2964
   },
   {
     "type": "String",
     "value": "'($\\') $\\''",
     "start": 2965,
-    "end": 2976,
-    "range": [
-      2965,
-      2976
-    ]
+    "end": 2976
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2976,
-    "end": 2977,
-    "range": [
-      2976,
-      2977
-    ]
+    "end": 2977
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2977,
-    "end": 2978,
-    "range": [
-      2977,
-      2978
-    ]
+    "end": 2978
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2979,
-    "end": 2985,
-    "range": [
-      2979,
-      2985
-    ]
+    "end": 2985
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2985,
-    "end": 2986,
-    "range": [
-      2985,
-      2986
-    ]
+    "end": 2986
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2986,
-    "end": 2995,
-    "range": [
-      2986,
-      2995
-    ]
+    "end": 2995
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2995,
-    "end": 2996,
-    "range": [
-      2995,
-      2996
-    ]
+    "end": 2996
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 2996,
-    "end": 3002,
-    "range": [
-      2996,
-      3002
-    ]
+    "end": 3002
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3002,
-    "end": 3003,
-    "range": [
-      3002,
-      3003
-    ]
+    "end": 3003
   },
   {
     "type": "String",
     "value": "'Ningu(m é igual a ninguém. Todo o ser humano é um estranho ímpar.) m é igual a ninguém. Todo o ser humano é um estranho ímpar.m ( igual a ninguém. Todo o ser humano é um estranho ímpar.)  igual a ninguém. Todo o ser humano é um estranho ímpar. igual a ningu(m. Todo o ser humano é um estranho ímpar.) m. Todo o ser humano é um estranho ímpar.m. Todo o ser humano ( um estranho ímpar.)  um estranho ímpar. um estranho ímpar.'",
     "start": 3004,
-    "end": 3429,
-    "range": [
-      3004,
-      3429
-    ]
+    "end": 3429
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3429,
-    "end": 3430,
-    "range": [
-      3429,
-      3430
-    ]
+    "end": 3430
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3430,
-    "end": 3431,
-    "range": [
-      3430,
-      3431
-    ]
+    "end": 3431
   }
 ]

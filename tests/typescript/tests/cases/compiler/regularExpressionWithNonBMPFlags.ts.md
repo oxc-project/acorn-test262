@@ -52,31 +52,19 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "const",
     "start": 359,
-    "end": 364,
-    "range": [
-      359,
-      364
-    ]
+    "end": 364
   },
   {
     "type": "Identifier",
     "value": "𝘳𝘦𝘨𝘦𝘹",
     "start": 365,
-    "end": 375,
-    "range": [
-      365,
-      375
-    ]
+    "end": 375
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 376,
-    "end": 377,
-    "range": [
-      376,
-      377
-    ]
+    "end": 377
   },
   {
     "type": "RegularExpression",
@@ -86,21 +74,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "(?𝘴𝘪-𝘮:^𝘧𝘰𝘰.)"
     },
     "start": 378,
-    "end": 405,
-    "range": [
-      378,
-      405
-    ]
+    "end": 405
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 405,
-    "end": 406,
-    "range": [
-      405,
-      406
-    ]
+    "end": 406
   }
 ]
 ```

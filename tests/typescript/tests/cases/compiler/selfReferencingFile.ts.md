@@ -44,41 +44,25 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "class",
     "start": 47,
-    "end": 52,
-    "range": [
-      47,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Identifier",
     "value": "selfReferencingFile",
     "start": 53,
-    "end": 72,
-    "range": [
-      53,
-      72
-    ]
+    "end": 72
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 73,
-    "end": 74,
-    "range": [
-      73,
-      74
-    ]
+    "end": 74
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 76,
-    "end": 77,
-    "range": [
-      76,
-      77
-    ]
+    "end": 77
   }
 ]
 ```

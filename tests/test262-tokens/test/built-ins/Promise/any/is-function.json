@@ -3,120 +3,72 @@
     "type": "Identifier",
     "value": "assert",
     "start": 227,
-    "end": 233,
-    "range": [
-      227,
-      233
-    ]
+    "end": 233
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 233,
-    "end": 234,
-    "range": [
-      233,
-      234
-    ]
+    "end": 234
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 234,
-    "end": 243,
-    "range": [
-      234,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 243,
-    "end": 244,
-    "range": [
-      243,
-      244
-    ]
+    "end": 244
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 244,
-    "end": 250,
-    "range": [
-      244,
-      250
-    ]
+    "end": 250
   },
   {
     "type": "Identifier",
     "value": "Promise",
     "start": 251,
-    "end": 258,
-    "range": [
-      251,
-      258
-    ]
+    "end": 258
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 258,
-    "end": 259,
-    "range": [
-      258,
-      259
-    ]
+    "end": 259
   },
   {
     "type": "Identifier",
     "value": "any",
     "start": 259,
-    "end": 262,
-    "range": [
-      259,
-      262
-    ]
+    "end": 262
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 262,
-    "end": 263,
-    "range": [
-      262,
-      263
-    ]
+    "end": 263
   },
   {
     "type": "String",
     "value": "'function'",
     "start": 264,
-    "end": 274,
-    "range": [
-      264,
-      274
-    ]
+    "end": 274
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 274,
-    "end": 275,
-    "range": [
-      274,
-      275
-    ]
+    "end": 275
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 275,
-    "end": 276,
-    "range": [
-      275,
-      276
-    ]
+    "end": 276
   }
 ]

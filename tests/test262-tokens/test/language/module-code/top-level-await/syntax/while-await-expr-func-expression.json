@@ -3,130 +3,78 @@
     "type": "Keyword",
     "value": "while",
     "start": 1419,
-    "end": 1424,
-    "range": [
-      1419,
-      1424
-    ]
+    "end": 1424
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1425,
-    "end": 1426,
-    "range": [
-      1425,
-      1426
-    ]
+    "end": 1426
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1426,
-    "end": 1431,
-    "range": [
-      1426,
-      1431
-    ]
+    "end": 1431
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 1432,
-    "end": 1440,
-    "range": [
-      1432,
-      1440
-    ]
+    "end": 1440
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1440,
-    "end": 1441,
-    "range": [
-      1440,
-      1441
-    ]
+    "end": 1441
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1441,
-    "end": 1442,
-    "range": [
-      1441,
-      1442
-    ]
+    "end": 1442
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1443,
-    "end": 1444,
-    "range": [
-      1443,
-      1444
-    ]
+    "end": 1444
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1444,
-    "end": 1445,
-    "range": [
-      1444,
-      1445
-    ]
+    "end": 1445
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1445,
-    "end": 1446,
-    "range": [
-      1445,
-      1446
-    ]
+    "end": 1446
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1447,
-    "end": 1448,
-    "range": [
-      1447,
-      1448
-    ]
+    "end": 1448
   },
   {
     "type": "Keyword",
     "value": "break",
     "start": 1449,
-    "end": 1454,
-    "range": [
-      1449,
-      1454
-    ]
+    "end": 1454
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1454,
-    "end": 1455,
-    "range": [
-      1454,
-      1455
-    ]
+    "end": 1455
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1456,
-    "end": 1457,
-    "range": [
-      1456,
-      1457
-    ]
+    "end": 1457
   }
 ]

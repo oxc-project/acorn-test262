@@ -3,30 +3,18 @@
     "type": "Punctuator",
     "value": "++",
     "start": 770,
-    "end": 772,
-    "range": [
-      770,
-      772
-    ]
+    "end": 772
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 772,
-    "end": 776,
-    "range": [
-      772,
-      776
-    ]
+    "end": 776
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 776,
-    "end": 777,
-    "range": [
-      776,
-      777
-    ]
+    "end": 777
   }
 ]

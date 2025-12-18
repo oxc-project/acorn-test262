@@ -41,21 +41,13 @@ __ESTREE_TEST__:TOKENS:
     "type": "Template",
     "value": "`\\t\\n\\v\\f\\r`",
     "start": 0,
-    "end": 12,
-    "range": [
-      0,
-      12
-    ]
+    "end": 12
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 12,
-    "end": 13,
-    "range": [
-      12,
-      13
-    ]
+    "end": 13
   }
 ]
 ```

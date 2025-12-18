@@ -3,160 +3,96 @@
     "type": "Identifier",
     "value": "assert",
     "start": 248,
-    "end": 254,
-    "range": [
-      248,
-      254
-    ]
+    "end": 254
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 254,
-    "end": 255,
-    "range": [
-      254,
-      255
-    ]
+    "end": 255
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 255,
-    "end": 264,
-    "range": [
-      255,
-      264
-    ]
+    "end": 264
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 264,
-    "end": 265,
-    "range": [
-      264,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Identifier",
     "value": "Array",
     "start": 265,
-    "end": 270,
-    "range": [
-      265,
-      270
-    ]
+    "end": 270
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 270,
-    "end": 271,
-    "range": [
-      270,
-      271
-    ]
+    "end": 271
   },
   {
     "type": "Identifier",
     "value": "isArray",
     "start": 271,
-    "end": 278,
-    "range": [
-      271,
-      278
-    ]
+    "end": 278
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 278,
-    "end": 279,
-    "range": [
-      278,
-      279
-    ]
+    "end": 279
   },
   {
     "type": "Identifier",
     "value": "JSON",
     "start": 279,
-    "end": 283,
-    "range": [
-      279,
-      283
-    ]
+    "end": 283
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 283,
-    "end": 284,
-    "range": [
-      283,
-      284
-    ]
+    "end": 284
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 284,
-    "end": 285,
-    "range": [
-      284,
-      285
-    ]
+    "end": 285
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 286,
-    "end": 291,
-    "range": [
-      286,
-      291
-    ]
+    "end": 291
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 291,
-    "end": 292,
-    "range": [
-      291,
-      292
-    ]
+    "end": 292
   },
   {
     "type": "String",
     "value": "'Array.isArray(JSON) must return false'",
     "start": 293,
-    "end": 332,
-    "range": [
-      293,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 332,
-    "end": 333,
-    "range": [
-      332,
-      333
-    ]
+    "end": 333
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 333,
-    "end": 334,
-    "range": [
-      333,
-      334
-    ]
+    "end": 334
   }
 ]

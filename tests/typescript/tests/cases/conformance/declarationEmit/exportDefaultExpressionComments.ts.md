@@ -30,31 +30,19 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "export",
     "start": 26,
-    "end": 32,
-    "range": [
-      26,
-      32
-    ]
+    "end": 32
   },
   {
     "type": "Keyword",
     "value": "default",
     "start": 33,
-    "end": 40,
-    "range": [
-      33,
-      40
-    ]
+    "end": 40
   },
   {
     "type": "Null",
     "value": "null",
     "start": 41,
-    "end": 45,
-    "range": [
-      41,
-      45
-    ]
+    "end": 45
   }
 ]
 ```

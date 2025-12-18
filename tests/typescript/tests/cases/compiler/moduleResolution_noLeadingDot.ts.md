@@ -30,21 +30,13 @@ __ESTREE_TEST__:TOKENS:
     "type": "Boolean",
     "value": "true",
     "start": 0,
-    "end": 4,
-    "range": [
-      0,
-      4
-    ]
+    "end": 4
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4,
-    "end": 5,
-    "range": [
-      4,
-      5
-    ]
+    "end": 5
   }
 ]
 ```

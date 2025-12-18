@@ -3,30 +3,18 @@
     "type": "Keyword",
     "value": "var",
     "start": 240,
-    "end": 243,
-    "range": [
-      240,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Identifier",
     "value": "Infinity",
     "start": 244,
-    "end": 252,
-    "range": [
-      244,
-      252
-    ]
+    "end": 252
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 252,
-    "end": 253,
-    "range": [
-      252,
-      253
-    ]
+    "end": 253
   }
 ]

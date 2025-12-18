@@ -3,110 +3,66 @@
     "type": "Identifier",
     "value": "eval",
     "start": 580,
-    "end": 584,
-    "range": [
-      580,
-      584
-    ]
+    "end": 584
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 584,
-    "end": 585,
-    "range": [
-      584,
-      585
-    ]
+    "end": 585
   },
   {
     "type": "String",
     "value": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'",
     "start": 588,
-    "end": 645,
-    "range": [
-      588,
-      645
-    ]
+    "end": 645
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 646,
-    "end": 647,
-    "range": [
-      646,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "String",
     "value": "'  default:'",
     "start": 650,
-    "end": 662,
-    "range": [
-      650,
-      662
-    ]
+    "end": 662
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 663,
-    "end": 664,
-    "range": [
-      663,
-      664
-    ]
+    "end": 664
   },
   {
     "type": "String",
     "value": "'    function f() { return \"inner declaration\"; }'",
     "start": 667,
-    "end": 717,
-    "range": [
-      667,
-      717
-    ]
+    "end": 717
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 718,
-    "end": 719,
-    "range": [
-      718,
-      719
-    ]
+    "end": 719
   },
   {
     "type": "String",
     "value": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
     "start": 722,
-    "end": 781,
-    "range": [
-      722,
-      781
-    ]
+    "end": 781
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 782,
-    "end": 783,
-    "range": [
-      782,
-      783
-    ]
+    "end": 783
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 783,
-    "end": 784,
-    "range": [
-      783,
-      784
-    ]
+    "end": 784
   }
 ]

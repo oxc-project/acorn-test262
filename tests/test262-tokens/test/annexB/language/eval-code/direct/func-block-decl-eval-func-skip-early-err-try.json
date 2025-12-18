@@ -3,150 +3,90 @@
     "type": "Punctuator",
     "value": "(",
     "start": 1110,
-    "end": 1111,
-    "range": [
-      1110,
-      1111
-    ]
+    "end": 1111
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 1111,
-    "end": 1119,
-    "range": [
-      1111,
-      1119
-    ]
+    "end": 1119
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1119,
-    "end": 1120,
-    "range": [
-      1119,
-      1120
-    ]
+    "end": 1120
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1120,
-    "end": 1121,
-    "range": [
-      1120,
-      1121
-    ]
+    "end": 1121
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1122,
-    "end": 1123,
-    "range": [
-      1122,
-      1123
-    ]
+    "end": 1123
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1126,
-    "end": 1130,
-    "range": [
-      1126,
-      1130
-    ]
+    "end": 1130
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1130,
-    "end": 1131,
-    "range": [
-      1130,
-      1131
-    ]
+    "end": 1131
   },
   {
     "type": "String",
     "value": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    try {\\\n      throw {};\\\n    } catch ({ f }) {{ function f() {  } }}\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'",
     "start": 1136,
-    "end": 1749,
-    "range": [
-      1136,
-      1749
-    ]
+    "end": 1749
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1752,
-    "end": 1753,
-    "range": [
-      1752,
-      1753
-    ]
+    "end": 1753
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1753,
-    "end": 1754,
-    "range": [
-      1753,
-      1754
-    ]
+    "end": 1754
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1755,
-    "end": 1756,
-    "range": [
-      1755,
-      1756
-    ]
+    "end": 1756
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1756,
-    "end": 1757,
-    "range": [
-      1756,
-      1757
-    ]
+    "end": 1757
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1757,
-    "end": 1758,
-    "range": [
-      1757,
-      1758
-    ]
+    "end": 1758
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1758,
-    "end": 1759,
-    "range": [
-      1758,
-      1759
-    ]
+    "end": 1759
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1759,
-    "end": 1760,
-    "range": [
-      1759,
-      1760
-    ]
+    "end": 1760
   }
 ]

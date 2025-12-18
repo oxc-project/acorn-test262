@@ -3,2040 +3,1224 @@
     "type": "Identifier",
     "value": "assert",
     "start": 915,
-    "end": 921,
-    "range": [
-      915,
-      921
-    ]
+    "end": 921
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 921,
-    "end": 922,
-    "range": [
-      921,
-      922
-    ]
+    "end": 922
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 922,
-    "end": 931,
-    "range": [
-      922,
-      931
-    ]
+    "end": 931
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 931,
-    "end": 932,
-    "range": [
-      931,
-      932
-    ]
+    "end": 932
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 935,
-    "end": 941,
-    "range": [
-      935,
-      941
-    ]
+    "end": 941
   },
   {
     "type": "Identifier",
     "value": "ShadowRealm",
     "start": 942,
-    "end": 953,
-    "range": [
-      942,
-      953
-    ]
+    "end": 953
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 953,
-    "end": 954,
-    "range": [
-      953,
-      954
-    ]
+    "end": 954
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 954,
-    "end": 963,
-    "range": [
-      954,
-      963
-    ]
+    "end": 963
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 963,
-    "end": 964,
-    "range": [
-      963,
-      964
-    ]
+    "end": 964
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 964,
-    "end": 972,
-    "range": [
-      964,
-      972
-    ]
+    "end": 972
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 972,
-    "end": 973,
-    "range": [
-      972,
-      973
-    ]
+    "end": 973
   },
   {
     "type": "String",
     "value": "'function'",
     "start": 976,
-    "end": 986,
-    "range": [
-      976,
-      986
-    ]
+    "end": 986
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 986,
-    "end": 987,
-    "range": [
-      986,
-      987
-    ]
+    "end": 987
   },
   {
     "type": "String",
     "value": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
     "start": 990,
-    "end": 1063,
-    "range": [
-      990,
-      1063
-    ]
+    "end": 1063
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1064,
-    "end": 1065,
-    "range": [
-      1064,
-      1065
-    ]
+    "end": 1065
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1065,
-    "end": 1066,
-    "range": [
-      1065,
-      1066
-    ]
+    "end": 1066
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1068,
-    "end": 1071,
-    "range": [
-      1068,
-      1071
-    ]
+    "end": 1071
   },
   {
     "type": "Identifier",
     "value": "other",
     "start": 1072,
-    "end": 1077,
-    "range": [
-      1072,
-      1077
-    ]
+    "end": 1077
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1078,
-    "end": 1079,
-    "range": [
-      1078,
-      1079
-    ]
+    "end": 1079
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 1080,
-    "end": 1084,
-    "range": [
-      1080,
-      1084
-    ]
+    "end": 1084
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1084,
-    "end": 1085,
-    "range": [
-      1084,
-      1085
-    ]
+    "end": 1085
   },
   {
     "type": "Identifier",
     "value": "createRealm",
     "start": 1085,
-    "end": 1096,
-    "range": [
-      1085,
-      1096
-    ]
+    "end": 1096
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1096,
-    "end": 1097,
-    "range": [
-      1096,
-      1097
-    ]
+    "end": 1097
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1097,
-    "end": 1098,
-    "range": [
-      1097,
-      1098
-    ]
+    "end": 1098
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1098,
-    "end": 1099,
-    "range": [
-      1098,
-      1099
-    ]
+    "end": 1099
   },
   {
     "type": "Identifier",
     "value": "global",
     "start": 1099,
-    "end": 1105,
-    "range": [
-      1099,
-      1105
-    ]
+    "end": 1105
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1105,
-    "end": 1106,
-    "range": [
-      1105,
-      1106
-    ]
+    "end": 1106
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1107,
-    "end": 1110,
-    "range": [
-      1107,
-      1110
-    ]
+    "end": 1110
   },
   {
     "type": "Identifier",
     "value": "OtherShadowRealm",
     "start": 1111,
-    "end": 1127,
-    "range": [
-      1111,
-      1127
-    ]
+    "end": 1127
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1128,
-    "end": 1129,
-    "range": [
-      1128,
-      1129
-    ]
+    "end": 1129
   },
   {
     "type": "Identifier",
     "value": "other",
     "start": 1130,
-    "end": 1135,
-    "range": [
-      1130,
-      1135
-    ]
+    "end": 1135
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1135,
-    "end": 1136,
-    "range": [
-      1135,
-      1136
-    ]
+    "end": 1136
   },
   {
     "type": "Identifier",
     "value": "ShadowRealm",
     "start": 1136,
-    "end": 1147,
-    "range": [
-      1136,
-      1147
-    ]
+    "end": 1147
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1147,
-    "end": 1148,
-    "range": [
-      1147,
-      1148
-    ]
+    "end": 1148
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1149,
-    "end": 1152,
-    "range": [
-      1149,
-      1152
-    ]
+    "end": 1152
   },
   {
     "type": "Identifier",
     "value": "OtherFunctionPrototype",
     "start": 1153,
-    "end": 1175,
-    "range": [
-      1153,
-      1175
-    ]
+    "end": 1175
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1176,
-    "end": 1177,
-    "range": [
-      1176,
-      1177
-    ]
+    "end": 1177
   },
   {
     "type": "Identifier",
     "value": "other",
     "start": 1178,
-    "end": 1183,
-    "range": [
-      1178,
-      1183
-    ]
+    "end": 1183
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1183,
-    "end": 1184,
-    "range": [
-      1183,
-      1184
-    ]
+    "end": 1184
   },
   {
     "type": "Identifier",
     "value": "Function",
     "start": 1184,
-    "end": 1192,
-    "range": [
-      1184,
-      1192
-    ]
+    "end": 1192
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1192,
-    "end": 1193,
-    "range": [
-      1192,
-      1193
-    ]
+    "end": 1193
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 1193,
-    "end": 1202,
-    "range": [
-      1193,
-      1202
-    ]
+    "end": 1202
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1202,
-    "end": 1203,
-    "range": [
-      1202,
-      1203
-    ]
+    "end": 1203
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1205,
-    "end": 1208,
-    "range": [
-      1205,
-      1208
-    ]
+    "end": 1208
   },
   {
     "type": "Identifier",
     "value": "yetAnother",
     "start": 1209,
-    "end": 1219,
-    "range": [
-      1209,
-      1219
-    ]
+    "end": 1219
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1220,
-    "end": 1221,
-    "range": [
-      1220,
-      1221
-    ]
+    "end": 1221
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 1222,
-    "end": 1226,
-    "range": [
-      1222,
-      1226
-    ]
+    "end": 1226
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1226,
-    "end": 1227,
-    "range": [
-      1226,
-      1227
-    ]
+    "end": 1227
   },
   {
     "type": "Identifier",
     "value": "createRealm",
     "start": 1227,
-    "end": 1238,
-    "range": [
-      1227,
-      1238
-    ]
+    "end": 1238
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1238,
-    "end": 1239,
-    "range": [
-      1238,
-      1239
-    ]
+    "end": 1239
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1239,
-    "end": 1240,
-    "range": [
-      1239,
-      1240
-    ]
+    "end": 1240
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1240,
-    "end": 1241,
-    "range": [
-      1240,
-      1241
-    ]
+    "end": 1241
   },
   {
     "type": "Identifier",
     "value": "global",
     "start": 1241,
-    "end": 1247,
-    "range": [
-      1241,
-      1247
-    ]
+    "end": 1247
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1247,
-    "end": 1248,
-    "range": [
-      1247,
-      1248
-    ]
+    "end": 1248
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1249,
-    "end": 1252,
-    "range": [
-      1249,
-      1252
-    ]
+    "end": 1252
   },
   {
     "type": "Identifier",
     "value": "YetAnotherShadowRealm",
     "start": 1253,
-    "end": 1274,
-    "range": [
-      1253,
-      1274
-    ]
+    "end": 1274
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1275,
-    "end": 1276,
-    "range": [
-      1275,
-      1276
-    ]
+    "end": 1276
   },
   {
     "type": "Identifier",
     "value": "yetAnother",
     "start": 1277,
-    "end": 1287,
-    "range": [
-      1277,
-      1287
-    ]
+    "end": 1287
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1287,
-    "end": 1288,
-    "range": [
-      1287,
-      1288
-    ]
+    "end": 1288
   },
   {
     "type": "Identifier",
     "value": "ShadowRealm",
     "start": 1288,
-    "end": 1299,
-    "range": [
-      1288,
-      1299
-    ]
+    "end": 1299
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1299,
-    "end": 1300,
-    "range": [
-      1299,
-      1300
-    ]
+    "end": 1300
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1301,
-    "end": 1304,
-    "range": [
-      1301,
-      1304
-    ]
+    "end": 1304
   },
   {
     "type": "Identifier",
     "value": "YetAnotherFunctionPrototype",
     "start": 1305,
-    "end": 1332,
-    "range": [
-      1305,
-      1332
-    ]
+    "end": 1332
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1333,
-    "end": 1334,
-    "range": [
-      1333,
-      1334
-    ]
+    "end": 1334
   },
   {
     "type": "Identifier",
     "value": "yetAnother",
     "start": 1335,
-    "end": 1345,
-    "range": [
-      1335,
-      1345
-    ]
+    "end": 1345
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1345,
-    "end": 1346,
-    "range": [
-      1345,
-      1346
-    ]
+    "end": 1346
   },
   {
     "type": "Identifier",
     "value": "Function",
     "start": 1346,
-    "end": 1354,
-    "range": [
-      1346,
-      1354
-    ]
+    "end": 1354
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1354,
-    "end": 1355,
-    "range": [
-      1354,
-      1355
-    ]
+    "end": 1355
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 1355,
-    "end": 1364,
-    "range": [
-      1355,
-      1364
-    ]
+    "end": 1364
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1364,
-    "end": 1365,
-    "range": [
-      1364,
-      1365
-    ]
+    "end": 1365
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1367,
-    "end": 1370,
-    "range": [
-      1367,
-      1370
-    ]
+    "end": 1370
   },
   {
     "type": "Identifier",
     "value": "realm",
     "start": 1371,
-    "end": 1376,
-    "range": [
-      1371,
-      1376
-    ]
+    "end": 1376
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1377,
-    "end": 1378,
-    "range": [
-      1377,
-      1378
-    ]
+    "end": 1378
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 1379,
-    "end": 1386,
-    "range": [
-      1379,
-      1386
-    ]
+    "end": 1386
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1386,
-    "end": 1387,
-    "range": [
-      1386,
-      1387
-    ]
+    "end": 1387
   },
   {
     "type": "Identifier",
     "value": "construct",
     "start": 1387,
-    "end": 1396,
-    "range": [
-      1387,
-      1396
-    ]
+    "end": 1396
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1396,
-    "end": 1397,
-    "range": [
-      1396,
-      1397
-    ]
+    "end": 1397
   },
   {
     "type": "Identifier",
     "value": "OtherShadowRealm",
     "start": 1397,
-    "end": 1413,
-    "range": [
-      1397,
-      1413
-    ]
+    "end": 1413
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1413,
-    "end": 1414,
-    "range": [
-      1413,
-      1414
-    ]
+    "end": 1414
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1415,
-    "end": 1416,
-    "range": [
-      1415,
-      1416
-    ]
+    "end": 1416
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1416,
-    "end": 1417,
-    "range": [
-      1416,
-      1417
-    ]
+    "end": 1417
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1417,
-    "end": 1418,
-    "range": [
-      1417,
-      1418
-    ]
+    "end": 1418
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1418,
-    "end": 1419,
-    "range": [
-      1418,
-      1419
-    ]
+    "end": 1419
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1421,
-    "end": 1424,
-    "range": [
-      1421,
-      1424
-    ]
+    "end": 1424
   },
   {
     "type": "Identifier",
     "value": "checkArgWrapperFn",
     "start": 1425,
-    "end": 1442,
-    "range": [
-      1425,
-      1442
-    ]
+    "end": 1442
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1443,
-    "end": 1444,
-    "range": [
-      1443,
-      1444
-    ]
+    "end": 1444
   },
   {
     "type": "Identifier",
     "value": "realm",
     "start": 1445,
-    "end": 1450,
-    "range": [
-      1445,
-      1450
-    ]
+    "end": 1450
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1450,
-    "end": 1451,
-    "range": [
-      1450,
-      1451
-    ]
+    "end": 1451
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 1451,
-    "end": 1459,
-    "range": [
-      1451,
-      1459
-    ]
+    "end": 1459
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1459,
-    "end": 1460,
-    "range": [
-      1459,
-      1460
-    ]
+    "end": 1460
   },
   {
     "type": "String",
     "value": "'(x) => { return Object.getPrototypeOf(x) === Function.prototype }'",
     "start": 1460,
-    "end": 1527,
-    "range": [
-      1460,
-      1527
-    ]
+    "end": 1527
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1527,
-    "end": 1528,
-    "range": [
-      1527,
-      1528
-    ]
+    "end": 1528
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1529,
-    "end": 1535,
-    "range": [
-      1529,
-      1535
-    ]
+    "end": 1535
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1535,
-    "end": 1536,
-    "range": [
-      1535,
-      1536
-    ]
+    "end": 1536
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1536,
-    "end": 1545,
-    "range": [
-      1536,
-      1545
-    ]
+    "end": 1545
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1545,
-    "end": 1546,
-    "range": [
-      1545,
-      1546
-    ]
+    "end": 1546
   },
   {
     "type": "Identifier",
     "value": "checkArgWrapperFn",
     "start": 1546,
-    "end": 1563,
-    "range": [
-      1546,
-      1563
-    ]
+    "end": 1563
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1563,
-    "end": 1564,
-    "range": [
-      1563,
-      1564
-    ]
+    "end": 1564
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1564,
-    "end": 1565,
-    "range": [
-      1564,
-      1565
-    ]
+    "end": 1565
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1565,
-    "end": 1566,
-    "range": [
-      1565,
-      1566
-    ]
+    "end": 1566
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 1567,
-    "end": 1569,
-    "range": [
-      1567,
-      1569
-    ]
+    "end": 1569
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1570,
-    "end": 1571,
-    "range": [
-      1570,
-      1571
-    ]
+    "end": 1571
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1571,
-    "end": 1572,
-    "range": [
-      1571,
-      1572
-    ]
+    "end": 1572
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1572,
-    "end": 1573,
-    "range": [
-      1572,
-      1573
-    ]
+    "end": 1573
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1573,
-    "end": 1574,
-    "range": [
-      1573,
-      1574
-    ]
+    "end": 1574
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 1575,
-    "end": 1579,
-    "range": [
-      1575,
-      1579
-    ]
+    "end": 1579
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1579,
-    "end": 1580,
-    "range": [
-      1579,
-      1580
-    ]
+    "end": 1580
   },
   {
     "type": "String",
     "value": "'callable arguments passed into WrappedFunction should be wrapped in target realm'",
     "start": 1581,
-    "end": 1663,
-    "range": [
-      1581,
-      1663
-    ]
+    "end": 1663
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1663,
-    "end": 1664,
-    "range": [
-      1663,
-      1664
-    ]
+    "end": 1664
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1664,
-    "end": 1665,
-    "range": [
-      1664,
-      1665
-    ]
+    "end": 1665
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1667,
-    "end": 1670,
-    "range": [
-      1667,
-      1670
-    ]
+    "end": 1670
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 1671,
-    "end": 1673,
-    "range": [
-      1671,
-      1673
-    ]
+    "end": 1673
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1674,
-    "end": 1675,
-    "range": [
-      1674,
-      1675
-    ]
+    "end": 1675
   },
   {
     "type": "Identifier",
     "value": "realm",
     "start": 1676,
-    "end": 1681,
-    "range": [
-      1676,
-      1681
-    ]
+    "end": 1681
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1681,
-    "end": 1682,
-    "range": [
-      1681,
-      1682
-    ]
+    "end": 1682
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 1682,
-    "end": 1690,
-    "range": [
-      1682,
-      1690
-    ]
+    "end": 1690
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1690,
-    "end": 1691,
-    "range": [
-      1690,
-      1691
-    ]
+    "end": 1691
   },
   {
     "type": "String",
     "value": "'() => { return () => { return 1 } }'",
     "start": 1691,
-    "end": 1728,
-    "range": [
-      1691,
-      1728
-    ]
+    "end": 1728
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1728,
-    "end": 1729,
-    "range": [
-      1728,
-      1729
-    ]
+    "end": 1729
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1729,
-    "end": 1730,
-    "range": [
-      1729,
-      1730
-    ]
+    "end": 1730
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1731,
-    "end": 1737,
-    "range": [
-      1731,
-      1737
-    ]
+    "end": 1737
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1737,
-    "end": 1738,
-    "range": [
-      1737,
-      1738
-    ]
+    "end": 1738
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1738,
-    "end": 1747,
-    "range": [
-      1738,
-      1747
-    ]
+    "end": 1747
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1747,
-    "end": 1748,
-    "range": [
-      1747,
-      1748
-    ]
+    "end": 1748
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 1748,
-    "end": 1754,
-    "range": [
-      1748,
-      1754
-    ]
+    "end": 1754
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1754,
-    "end": 1755,
-    "range": [
-      1754,
-      1755
-    ]
+    "end": 1755
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 1755,
-    "end": 1769,
-    "range": [
-      1755,
-      1769
-    ]
+    "end": 1769
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1769,
-    "end": 1770,
-    "range": [
-      1769,
-      1770
-    ]
+    "end": 1770
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 1770,
-    "end": 1772,
-    "range": [
-      1770,
-      1772
-    ]
+    "end": 1772
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1772,
-    "end": 1773,
-    "range": [
-      1772,
-      1773
-    ]
+    "end": 1773
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1773,
-    "end": 1774,
-    "range": [
-      1773,
-      1774
-    ]
+    "end": 1774
   },
   {
     "type": "Identifier",
     "value": "OtherFunctionPrototype",
     "start": 1775,
-    "end": 1797,
-    "range": [
-      1775,
-      1797
-    ]
+    "end": 1797
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1797,
-    "end": 1798,
-    "range": [
-      1797,
-      1798
-    ]
+    "end": 1798
   },
   {
     "type": "String",
     "value": "'WrappedFunction should be derived from the caller realm'",
     "start": 1799,
-    "end": 1856,
-    "range": [
-      1799,
-      1856
-    ]
+    "end": 1856
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1856,
-    "end": 1857,
-    "range": [
-      1856,
-      1857
-    ]
+    "end": 1857
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1857,
-    "end": 1858,
-    "range": [
-      1857,
-      1858
-    ]
+    "end": 1858
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1859,
-    "end": 1865,
-    "range": [
-      1859,
-      1865
-    ]
+    "end": 1865
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1865,
-    "end": 1866,
-    "range": [
-      1865,
-      1866
-    ]
+    "end": 1866
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1866,
-    "end": 1875,
-    "range": [
-      1866,
-      1875
-    ]
+    "end": 1875
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1875,
-    "end": 1876,
-    "range": [
-      1875,
-      1876
-    ]
+    "end": 1876
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 1876,
-    "end": 1882,
-    "range": [
-      1876,
-      1882
-    ]
+    "end": 1882
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1882,
-    "end": 1883,
-    "range": [
-      1882,
-      1883
-    ]
+    "end": 1883
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 1883,
-    "end": 1897,
-    "range": [
-      1883,
-      1897
-    ]
+    "end": 1897
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1897,
-    "end": 1898,
-    "range": [
-      1897,
-      1898
-    ]
+    "end": 1898
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 1898,
-    "end": 1900,
-    "range": [
-      1898,
-      1900
-    ]
+    "end": 1900
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1900,
-    "end": 1901,
-    "range": [
-      1900,
-      1901
-    ]
+    "end": 1901
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1901,
-    "end": 1902,
-    "range": [
-      1901,
-      1902
-    ]
+    "end": 1902
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1902,
-    "end": 1903,
-    "range": [
-      1902,
-      1903
-    ]
+    "end": 1903
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1903,
-    "end": 1904,
-    "range": [
-      1903,
-      1904
-    ]
+    "end": 1904
   },
   {
     "type": "Identifier",
     "value": "OtherFunctionPrototype",
     "start": 1905,
-    "end": 1927,
-    "range": [
-      1905,
-      1927
-    ]
+    "end": 1927
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1927,
-    "end": 1928,
-    "range": [
-      1927,
-      1928
-    ]
+    "end": 1928
   },
   {
     "type": "String",
     "value": "'callable results from WrappedFunction should be wrapped in caller realm'",
     "start": 1929,
-    "end": 2002,
-    "range": [
-      1929,
-      2002
-    ]
+    "end": 2002
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2002,
-    "end": 2003,
-    "range": [
-      2002,
-      2003
-    ]
+    "end": 2003
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2003,
-    "end": 2004,
-    "range": [
-      2003,
-      2004
-    ]
+    "end": 2004
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2006,
-    "end": 2009,
-    "range": [
-      2006,
-      2009
-    ]
+    "end": 2009
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 2010,
-    "end": 2012,
-    "range": [
-      2010,
-      2012
-    ]
+    "end": 2012
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2013,
-    "end": 2014,
-    "range": [
-      2013,
-      2014
-    ]
+    "end": 2014
   },
   {
     "type": "Identifier",
     "value": "YetAnotherShadowRealm",
     "start": 2015,
-    "end": 2036,
-    "range": [
-      2015,
-      2036
-    ]
+    "end": 2036
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2036,
-    "end": 2037,
-    "range": [
-      2036,
-      2037
-    ]
+    "end": 2037
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 2037,
-    "end": 2046,
-    "range": [
-      2037,
-      2046
-    ]
+    "end": 2046
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2046,
-    "end": 2047,
-    "range": [
-      2046,
-      2047
-    ]
+    "end": 2047
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 2047,
-    "end": 2055,
-    "range": [
-      2047,
-      2055
-    ]
+    "end": 2055
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2055,
-    "end": 2056,
-    "range": [
-      2055,
-      2056
-    ]
+    "end": 2056
   },
   {
     "type": "Identifier",
     "value": "call",
     "start": 2056,
-    "end": 2060,
-    "range": [
-      2056,
-      2060
-    ]
+    "end": 2060
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2060,
-    "end": 2061,
-    "range": [
-      2060,
-      2061
-    ]
+    "end": 2061
   },
   {
     "type": "Identifier",
     "value": "realm",
     "start": 2061,
-    "end": 2066,
-    "range": [
-      2061,
-      2066
-    ]
+    "end": 2066
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2066,
-    "end": 2067,
-    "range": [
-      2066,
-      2067
-    ]
+    "end": 2067
   },
   {
     "type": "String",
     "value": "'() => { return () => { return 1 } }'",
     "start": 2068,
-    "end": 2105,
-    "range": [
-      2068,
-      2105
-    ]
+    "end": 2105
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2105,
-    "end": 2106,
-    "range": [
-      2105,
-      2106
-    ]
+    "end": 2106
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2106,
-    "end": 2107,
-    "range": [
-      2106,
-      2107
-    ]
+    "end": 2107
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2108,
-    "end": 2114,
-    "range": [
-      2108,
-      2114
-    ]
+    "end": 2114
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2114,
-    "end": 2115,
-    "range": [
-      2114,
-      2115
-    ]
+    "end": 2115
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2115,
-    "end": 2124,
-    "range": [
-      2115,
-      2124
-    ]
+    "end": 2124
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2124,
-    "end": 2125,
-    "range": [
-      2124,
-      2125
-    ]
+    "end": 2125
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 2125,
-    "end": 2131,
-    "range": [
-      2125,
-      2131
-    ]
+    "end": 2131
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2131,
-    "end": 2132,
-    "range": [
-      2131,
-      2132
-    ]
+    "end": 2132
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 2132,
-    "end": 2146,
-    "range": [
-      2132,
-      2146
-    ]
+    "end": 2146
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2146,
-    "end": 2147,
-    "range": [
-      2146,
-      2147
-    ]
+    "end": 2147
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 2147,
-    "end": 2149,
-    "range": [
-      2147,
-      2149
-    ]
+    "end": 2149
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2149,
-    "end": 2150,
-    "range": [
-      2149,
-      2150
-    ]
+    "end": 2150
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2150,
-    "end": 2151,
-    "range": [
-      2150,
-      2151
-    ]
+    "end": 2151
   },
   {
     "type": "Identifier",
     "value": "YetAnotherFunctionPrototype",
     "start": 2152,
-    "end": 2179,
-    "range": [
-      2152,
-      2179
-    ]
+    "end": 2179
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2179,
-    "end": 2180,
-    "range": [
-      2179,
-      2180
-    ]
+    "end": 2180
   },
   {
     "type": "String",
     "value": "'WrappedFunction should be derived from the caller realm'",
     "start": 2181,
-    "end": 2238,
-    "range": [
-      2181,
-      2238
-    ]
+    "end": 2238
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2238,
-    "end": 2239,
-    "range": [
-      2238,
-      2239
-    ]
+    "end": 2239
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2239,
-    "end": 2240,
-    "range": [
-      2239,
-      2240
-    ]
+    "end": 2240
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2241,
-    "end": 2247,
-    "range": [
-      2241,
-      2247
-    ]
+    "end": 2247
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2247,
-    "end": 2248,
-    "range": [
-      2247,
-      2248
-    ]
+    "end": 2248
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2248,
-    "end": 2257,
-    "range": [
-      2248,
-      2257
-    ]
+    "end": 2257
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2257,
-    "end": 2258,
-    "range": [
-      2257,
-      2258
-    ]
+    "end": 2258
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 2258,
-    "end": 2264,
-    "range": [
-      2258,
-      2264
-    ]
+    "end": 2264
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2264,
-    "end": 2265,
-    "range": [
-      2264,
-      2265
-    ]
+    "end": 2265
   },
   {
     "type": "Identifier",
     "value": "getPrototypeOf",
     "start": 2265,
-    "end": 2279,
-    "range": [
-      2265,
-      2279
-    ]
+    "end": 2279
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2279,
-    "end": 2280,
-    "range": [
-      2279,
-      2280
-    ]
+    "end": 2280
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 2280,
-    "end": 2282,
-    "range": [
-      2280,
-      2282
-    ]
+    "end": 2282
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2282,
-    "end": 2283,
-    "range": [
-      2282,
-      2283
-    ]
+    "end": 2283
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2283,
-    "end": 2284,
-    "range": [
-      2283,
-      2284
-    ]
+    "end": 2284
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2284,
-    "end": 2285,
-    "range": [
-      2284,
-      2285
-    ]
+    "end": 2285
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2285,
-    "end": 2286,
-    "range": [
-      2285,
-      2286
-    ]
+    "end": 2286
   },
   {
     "type": "Identifier",
     "value": "YetAnotherFunctionPrototype",
     "start": 2287,
-    "end": 2314,
-    "range": [
-      2287,
-      2314
-    ]
+    "end": 2314
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2314,
-    "end": 2315,
-    "range": [
-      2314,
-      2315
-    ]
+    "end": 2315
   },
   {
     "type": "String",
     "value": "'callable results from WrappedFunction should be wrapped in caller realm'",
     "start": 2316,
-    "end": 2389,
-    "range": [
-      2316,
-      2389
-    ]
+    "end": 2389
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2389,
-    "end": 2390,
-    "range": [
-      2389,
-      2390
-    ]
+    "end": 2390
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2390,
-    "end": 2391,
-    "range": [
-      2390,
-      2391
-    ]
+    "end": 2391
   }
 ]

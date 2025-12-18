@@ -3,120 +3,72 @@
     "type": "Keyword",
     "value": "import",
     "start": 2638,
-    "end": 2644,
-    "range": [
-      2638,
-      2644
-    ]
+    "end": 2644
   },
   {
     "type": "Identifier",
     "value": "foo",
     "start": 2645,
-    "end": 2648,
-    "range": [
-      2645,
-      2648
-    ]
+    "end": 2648
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 2649,
-    "end": 2653,
-    "range": [
-      2649,
-      2653
-    ]
+    "end": 2653
   },
   {
     "type": "String",
     "value": "'./module-import-rejection-body_FIXTURE.js'",
     "start": 2654,
-    "end": 2697,
-    "range": [
-      2654,
-      2697
-    ]
+    "end": 2697
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2697,
-    "end": 2698,
-    "range": [
-      2697,
-      2698
-    ]
+    "end": 2698
   },
   {
     "type": "Keyword",
     "value": "throw",
     "start": 2700,
-    "end": 2705,
-    "range": [
-      2700,
-      2705
-    ]
+    "end": 2705
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 2706,
-    "end": 2709,
-    "range": [
-      2706,
-      2709
-    ]
+    "end": 2709
   },
   {
     "type": "Identifier",
     "value": "Test262Error",
     "start": 2710,
-    "end": 2722,
-    "range": [
-      2710,
-      2722
-    ]
+    "end": 2722
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2722,
-    "end": 2723,
-    "range": [
-      2722,
-      2723
-    ]
+    "end": 2723
   },
   {
     "type": "String",
     "value": "'this should be unreachable'",
     "start": 2723,
-    "end": 2751,
-    "range": [
-      2723,
-      2751
-    ]
+    "end": 2751
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2751,
-    "end": 2752,
-    "range": [
-      2751,
-      2752
-    ]
+    "end": 2752
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2752,
-    "end": 2753,
-    "range": [
-      2752,
-      2753
-    ]
+    "end": 2753
   }
 ]

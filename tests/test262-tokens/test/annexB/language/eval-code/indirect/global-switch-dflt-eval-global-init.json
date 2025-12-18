@@ -3,150 +3,90 @@
     "type": "Punctuator",
     "value": "(",
     "start": 711,
-    "end": 712,
-    "range": [
-      711,
-      712
-    ]
+    "end": 712
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 712,
-    "end": 713,
-    "range": [
-      712,
-      713
-    ]
+    "end": 713
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 713,
-    "end": 714,
-    "range": [
-      713,
-      714
-    ]
+    "end": 714
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 714,
-    "end": 718,
-    "range": [
-      714,
-      718
-    ]
+    "end": 718
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 718,
-    "end": 719,
-    "range": [
-      718,
-      719
-    ]
+    "end": 719
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 719,
-    "end": 720,
-    "range": [
-      719,
-      720
-    ]
+    "end": 720
   },
   {
     "type": "String",
     "value": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });switch (1) {'",
     "start": 723,
-    "end": 955,
-    "range": [
-      723,
-      955
-    ]
+    "end": 955
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 956,
-    "end": 957,
-    "range": [
-      956,
-      957
-    ]
+    "end": 957
   },
   {
     "type": "String",
     "value": "'  default:'",
     "start": 960,
-    "end": 972,
-    "range": [
-      960,
-      972
-    ]
+    "end": 972
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 973,
-    "end": 974,
-    "range": [
-      973,
-      974
-    ]
+    "end": 974
   },
   {
     "type": "String",
     "value": "'    function f() {  }'",
     "start": 977,
-    "end": 1000,
-    "range": [
-      977,
-      1000
-    ]
+    "end": 1000
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1001,
-    "end": 1002,
-    "range": [
-      1001,
-      1002
-    ]
+    "end": 1002
   },
   {
     "type": "String",
     "value": "'}\\\n  '",
     "start": 1005,
-    "end": 1012,
-    "range": [
-      1005,
-      1012
-    ]
+    "end": 1012
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1013,
-    "end": 1014,
-    "range": [
-      1013,
-      1014
-    ]
+    "end": 1014
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1014,
-    "end": 1015,
-    "range": [
-      1014,
-      1015
-    ]
+    "end": 1015
   }
 ]

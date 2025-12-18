@@ -3,130 +3,78 @@
     "type": "Keyword",
     "value": "var",
     "start": 979,
-    "end": 982,
-    "range": [
-      979,
-      982
-    ]
+    "end": 982
   },
   {
     "type": "Identifier",
     "value": "result",
     "start": 983,
-    "end": 989,
-    "range": [
-      983,
-      989
-    ]
+    "end": 989
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 990,
-    "end": 991,
-    "range": [
-      990,
-      991
-    ]
+    "end": 991
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 992,
-    "end": 996,
-    "range": [
-      992,
-      996
-    ]
+    "end": 996
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 996,
-    "end": 997,
-    "range": [
-      996,
-      997
-    ]
+    "end": 997
   },
   {
     "type": "String",
     "value": "'{length: 3000}[];'",
     "start": 997,
-    "end": 1016,
-    "range": [
-      997,
-      1016
-    ]
+    "end": 1016
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1016,
-    "end": 1017,
-    "range": [
-      1016,
-      1017
-    ]
+    "end": 1017
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1017,
-    "end": 1018,
-    "range": [
-      1017,
-      1018
-    ]
+    "end": 1018
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1073,
-    "end": 1076,
-    "range": [
-      1073,
-      1076
-    ]
+    "end": 1076
   },
   {
     "type": "Identifier",
     "value": "expected",
     "start": 1077,
-    "end": 1085,
-    "range": [
-      1077,
-      1085
-    ]
+    "end": 1085
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1086,
-    "end": 1087,
-    "range": [
-      1086,
-      1087
-    ]
+    "end": 1087
   },
   {
     "type": "Numeric",
     "value": "3000",
     "start": 1088,
-    "end": 1092,
-    "range": [
-      1088,
-      1092
-    ]
+    "end": 1092
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1092,
-    "end": 1093,
-    "range": [
-      1092,
-      1093
-    ]
+    "end": 1093
   }
 ]

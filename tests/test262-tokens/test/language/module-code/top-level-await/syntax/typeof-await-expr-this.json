@@ -3,40 +3,24 @@
     "type": "Keyword",
     "value": "typeof",
     "start": 1117,
-    "end": 1123,
-    "range": [
-      1117,
-      1123
-    ]
+    "end": 1123
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1124,
-    "end": 1129,
-    "range": [
-      1124,
-      1129
-    ]
+    "end": 1129
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 1130,
-    "end": 1134,
-    "range": [
-      1130,
-      1134
-    ]
+    "end": 1134
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1134,
-    "end": 1135,
-    "range": [
-      1134,
-      1135
-    ]
+    "end": 1135
   }
 ]

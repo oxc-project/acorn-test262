@@ -3,31 +3,19 @@
     "type": "Keyword",
     "value": "var",
     "start": 2691,
-    "end": 2694,
-    "range": [
-      2691,
-      2694
-    ]
+    "end": 2694
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2695,
-    "end": 2698,
-    "range": [
-      2695,
-      2698
-    ]
+    "end": 2698
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2699,
-    "end": 2700,
-    "range": [
-      2699,
-      2700
-    ]
+    "end": 2700
   },
   {
     "type": "RegularExpression",
@@ -37,280 +25,168 @@
       "pattern": "(?-i:\\b)"
     },
     "start": 2701,
-    "end": 2713,
-    "range": [
-      2701,
-      2713
-    ]
+    "end": 2713
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2713,
-    "end": 2714,
-    "range": [
-      2713,
-      2714
-    ]
+    "end": 2714
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2715,
-    "end": 2721,
-    "range": [
-      2715,
-      2721
-    ]
+    "end": 2721
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2721,
-    "end": 2722,
-    "range": [
-      2721,
-      2722
-    ]
+    "end": 2722
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2722,
-    "end": 2723,
-    "range": [
-      2722,
-      2723
-    ]
+    "end": 2723
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2723,
-    "end": 2726,
-    "range": [
-      2723,
-      2726
-    ]
+    "end": 2726
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2726,
-    "end": 2727,
-    "range": [
-      2726,
-      2727
-    ]
+    "end": 2727
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2727,
-    "end": 2731,
-    "range": [
-      2727,
-      2731
-    ]
+    "end": 2731
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2731,
-    "end": 2732,
-    "range": [
-      2731,
-      2732
-    ]
+    "end": 2732
   },
   {
     "type": "String",
     "value": "\"\\u017f\"",
     "start": 2732,
-    "end": 2740,
-    "range": [
-      2732,
-      2740
-    ]
+    "end": 2740
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2740,
-    "end": 2741,
-    "range": [
-      2740,
-      2741
-    ]
+    "end": 2741
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2741,
-    "end": 2742,
-    "range": [
-      2741,
-      2742
-    ]
+    "end": 2742
   },
   {
     "type": "String",
     "value": "\"\\\\b should not match after \\u017f\"",
     "start": 2743,
-    "end": 2778,
-    "range": [
-      2743,
-      2778
-    ]
+    "end": 2778
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2778,
-    "end": 2779,
-    "range": [
-      2778,
-      2779
-    ]
+    "end": 2779
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2779,
-    "end": 2780,
-    "range": [
-      2779,
-      2780
-    ]
+    "end": 2780
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2781,
-    "end": 2787,
-    "range": [
-      2781,
-      2787
-    ]
+    "end": 2787
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2787,
-    "end": 2788,
-    "range": [
-      2787,
-      2788
-    ]
+    "end": 2788
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2788,
-    "end": 2789,
-    "range": [
-      2788,
-      2789
-    ]
+    "end": 2789
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2789,
-    "end": 2792,
-    "range": [
-      2789,
-      2792
-    ]
+    "end": 2792
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2792,
-    "end": 2793,
-    "range": [
-      2792,
-      2793
-    ]
+    "end": 2793
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2793,
-    "end": 2797,
-    "range": [
-      2793,
-      2797
-    ]
+    "end": 2797
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2797,
-    "end": 2798,
-    "range": [
-      2797,
-      2798
-    ]
+    "end": 2798
   },
   {
     "type": "String",
     "value": "\"\\u212a\"",
     "start": 2798,
-    "end": 2806,
-    "range": [
-      2798,
-      2806
-    ]
+    "end": 2806
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2806,
-    "end": 2807,
-    "range": [
-      2806,
-      2807
-    ]
+    "end": 2807
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2807,
-    "end": 2808,
-    "range": [
-      2807,
-      2808
-    ]
+    "end": 2808
   },
   {
     "type": "String",
     "value": "\"\\\\b should not match after \\u212a\"",
     "start": 2809,
-    "end": 2844,
-    "range": [
-      2809,
-      2844
-    ]
+    "end": 2844
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2844,
-    "end": 2845,
-    "range": [
-      2844,
-      2845
-    ]
+    "end": 2845
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2845,
-    "end": 2846,
-    "range": [
-      2845,
-      2846
-    ]
+    "end": 2846
   }
 ]

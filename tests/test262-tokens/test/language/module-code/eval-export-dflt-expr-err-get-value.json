@@ -3,40 +3,24 @@
     "type": "Keyword",
     "value": "export",
     "start": 879,
-    "end": 885,
-    "range": [
-      879,
-      885
-    ]
+    "end": 885
   },
   {
     "type": "Keyword",
     "value": "default",
     "start": 886,
-    "end": 893,
-    "range": [
-      886,
-      893
-    ]
+    "end": 893
   },
   {
     "type": "Identifier",
     "value": "unresolvable",
     "start": 894,
-    "end": 906,
-    "range": [
-      894,
-      906
-    ]
+    "end": 906
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 906,
-    "end": 907,
-    "range": [
-      906,
-      907
-    ]
+    "end": 907
   }
 ]

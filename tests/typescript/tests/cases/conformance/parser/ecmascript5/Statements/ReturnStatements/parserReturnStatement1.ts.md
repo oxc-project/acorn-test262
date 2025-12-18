@@ -23,21 +23,13 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "return",
     "start": 0,
-    "end": 6,
-    "range": [
-      0,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6,
-    "end": 7,
-    "range": [
-      6,
-      7
-    ]
+    "end": 7
   }
 ]
 ```

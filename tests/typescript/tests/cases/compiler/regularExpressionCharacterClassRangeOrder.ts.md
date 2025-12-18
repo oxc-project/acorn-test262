@@ -171,81 +171,49 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "const",
     "start": 307,
-    "end": 312,
-    "range": [
-      307,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Identifier",
     "value": "regexes",
     "start": 313,
-    "end": 320,
-    "range": [
-      313,
-      320
-    ]
+    "end": 320
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 320,
-    "end": 321,
-    "range": [
-      320,
-      321
-    ]
+    "end": 321
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 322,
-    "end": 328,
-    "range": [
-      322,
-      328
-    ]
+    "end": 328
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 328,
-    "end": 329,
-    "range": [
-      328,
-      329
-    ]
+    "end": 329
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 329,
-    "end": 330,
-    "range": [
-      329,
-      330
-    ]
+    "end": 330
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 331,
-    "end": 332,
-    "range": [
-      331,
-      332
-    ]
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 333,
-    "end": 334,
-    "range": [
-      333,
-      334
-    ]
+    "end": 334
   },
   {
     "type": "RegularExpression",
@@ -255,21 +223,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[𝘈-𝘡][𝘡-𝘈]"
     },
     "start": 336,
-    "end": 352,
-    "range": [
-      336,
-      352
-    ]
+    "end": 352
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 352,
-    "end": 353,
-    "range": [
-      352,
-      353
-    ]
+    "end": 353
   },
   {
     "type": "RegularExpression",
@@ -279,21 +239,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[𝘈-𝘡][𝘡-𝘈]"
     },
     "start": 355,
-    "end": 372,
-    "range": [
-      355,
-      372
-    ]
+    "end": 372
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 372,
-    "end": 373,
-    "range": [
-      372,
-      373
-    ]
+    "end": 373
   },
   {
     "type": "RegularExpression",
@@ -303,21 +255,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[𝘈-𝘡][𝘡-𝘈]"
     },
     "start": 375,
-    "end": 392,
-    "range": [
-      375,
-      392
-    ]
+    "end": 392
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 392,
-    "end": 393,
-    "range": [
-      392,
-      393
-    ]
+    "end": 393
   },
   {
     "type": "RegularExpression",
@@ -327,21 +271,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
     },
     "start": 396,
-    "end": 440,
-    "range": [
-      396,
-      440
-    ]
+    "end": 440
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 440,
-    "end": 441,
-    "range": [
-      440,
-      441
-    ]
+    "end": 441
   },
   {
     "type": "RegularExpression",
@@ -351,21 +287,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
     },
     "start": 443,
-    "end": 488,
-    "range": [
-      443,
-      488
-    ]
+    "end": 488
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 488,
-    "end": 489,
-    "range": [
-      488,
-      489
-    ]
+    "end": 489
   },
   {
     "type": "RegularExpression",
@@ -375,21 +303,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
     },
     "start": 491,
-    "end": 536,
-    "range": [
-      491,
-      536
-    ]
+    "end": 536
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 536,
-    "end": 537,
-    "range": [
-      536,
-      537
-    ]
+    "end": 537
   },
   {
     "type": "RegularExpression",
@@ -399,21 +319,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
     },
     "start": 540,
-    "end": 596,
-    "range": [
-      540,
-      596
-    ]
+    "end": 596
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 596,
-    "end": 597,
-    "range": [
-      596,
-      597
-    ]
+    "end": 597
   },
   {
     "type": "RegularExpression",
@@ -423,21 +335,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
     },
     "start": 599,
-    "end": 656,
-    "range": [
-      599,
-      656
-    ]
+    "end": 656
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 656,
-    "end": 657,
-    "range": [
-      656,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "RegularExpression",
@@ -447,41 +351,25 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
     },
     "start": 659,
-    "end": 716,
-    "range": [
-      659,
-      716
-    ]
+    "end": 716
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 716,
-    "end": 717,
-    "range": [
-      716,
-      717
-    ]
+    "end": 717
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 718,
-    "end": 719,
-    "range": [
-      718,
-      719
-    ]
+    "end": 719
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 719,
-    "end": 720,
-    "range": [
-      719,
-      720
-    ]
+    "end": 720
   }
 ]
 ```

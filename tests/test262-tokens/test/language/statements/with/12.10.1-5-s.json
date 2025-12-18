@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "Function",
     "start": 299,
-    "end": 307,
-    "range": [
-      299,
-      307
-    ]
+    "end": 307
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 307,
-    "end": 308,
-    "range": [
-      307,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "String",
     "value": "\"\\'use strict\\'; var f1 = Function( \\\"var o = {}; with (o) {};\\\")\"",
     "start": 308,
-    "end": 374,
-    "range": [
-      308,
-      374
-    ]
+    "end": 374
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 374,
-    "end": 375,
-    "range": [
-      374,
-      375
-    ]
+    "end": 375
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 375,
-    "end": 376,
-    "range": [
-      375,
-      376
-    ]
+    "end": 376
   }
 ]

@@ -3,2561 +3,1537 @@
     "type": "Keyword",
     "value": "var",
     "start": 455,
-    "end": 458,
-    "range": [
-      455,
-      458
-    ]
+    "end": 458
   },
   {
     "type": "Identifier",
     "value": "__the__raven",
     "start": 459,
-    "end": 471,
-    "range": [
-      459,
-      471
-    ]
+    "end": 471
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 472,
-    "end": 473,
-    "range": [
-      472,
-      473
-    ]
+    "end": 473
   },
   {
     "type": "String",
     "value": "\"\tOnce upon a midnight dreary, while I pondered weak and weary,\"",
     "start": 474,
-    "end": 538,
-    "range": [
-      474,
-      538
-    ]
+    "end": 538
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 539,
-    "end": 540,
-    "range": [
-      539,
-      540
-    ]
+    "end": 540
   },
   {
     "type": "String",
     "value": "\"Over many a quaint and curious volume of forgotten lore,\"",
     "start": 549,
-    "end": 607,
-    "range": [
-      549,
-      607
-    ]
+    "end": 607
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 608,
-    "end": 609,
-    "range": [
-      608,
-      609
-    ]
+    "end": 609
   },
   {
     "type": "String",
     "value": "\"While I nodded, nearly napping, suddenly there came a tapping,\"",
     "start": 618,
-    "end": 682,
-    "range": [
-      618,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 683,
-    "end": 684,
-    "range": [
-      683,
-      684
-    ]
+    "end": 684
   },
   {
     "type": "String",
     "value": "\"As of some one gently rapping, rapping at my chamber door.\"",
     "start": 693,
-    "end": 753,
-    "range": [
-      693,
-      753
-    ]
+    "end": 753
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 754,
-    "end": 755,
-    "range": [
-      754,
-      755
-    ]
+    "end": 755
   },
   {
     "type": "String",
     "value": "\"`'Tis some visitor,' I muttered, `tapping at my chamber door -\"",
     "start": 764,
-    "end": 828,
-    "range": [
-      764,
-      828
-    ]
+    "end": 828
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 829,
-    "end": 830,
-    "range": [
-      829,
-      830
-    ]
+    "end": 830
   },
   {
     "type": "String",
     "value": "\"Only this, and nothing more.'\"",
     "start": 839,
-    "end": 870,
-    "range": [
-      839,
-      870
-    ]
+    "end": 870
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 871,
-    "end": 872,
-    "range": [
-      871,
-      872
-    ]
+    "end": 872
   },
   {
     "type": "String",
     "value": "\"Ah, distinctly I remember it was in the bleak December,\"",
     "start": 881,
-    "end": 938,
-    "range": [
-      881,
-      938
-    ]
+    "end": 938
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 939,
-    "end": 940,
-    "range": [
-      939,
-      940
-    ]
+    "end": 940
   },
   {
     "type": "String",
     "value": "\"And each separate dying ember wrought its ghost upon the floor.\"",
     "start": 949,
-    "end": 1014,
-    "range": [
-      949,
-      1014
-    ]
+    "end": 1014
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1015,
-    "end": 1016,
-    "range": [
-      1015,
-      1016
-    ]
+    "end": 1016
   },
   {
     "type": "String",
     "value": "\"Eagerly I wished the morrow; - vainly I had sought to borrow\"",
     "start": 1025,
-    "end": 1087,
-    "range": [
-      1025,
-      1087
-    ]
+    "end": 1087
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1088,
-    "end": 1089,
-    "range": [
-      1088,
-      1089
-    ]
+    "end": 1089
   },
   {
     "type": "String",
     "value": "\"From my books surcease of sorrow - sorrow for the lost Lenore -\"",
     "start": 1098,
-    "end": 1163,
-    "range": [
-      1098,
-      1163
-    ]
+    "end": 1163
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1164,
-    "end": 1165,
-    "range": [
-      1164,
-      1165
-    ]
+    "end": 1165
   },
   {
     "type": "String",
     "value": "\"For the rare and radiant maiden whom the angels named Lenore -\"",
     "start": 1174,
-    "end": 1238,
-    "range": [
-      1174,
-      1238
-    ]
+    "end": 1238
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1239,
-    "end": 1240,
-    "range": [
-      1239,
-      1240
-    ]
+    "end": 1240
   },
   {
     "type": "String",
     "value": "\"Nameless here for evermore.\"",
     "start": 1249,
-    "end": 1278,
-    "range": [
-      1249,
-      1278
-    ]
+    "end": 1278
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1279,
-    "end": 1280,
-    "range": [
-      1279,
-      1280
-    ]
+    "end": 1280
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 1289,
-    "end": 1293,
-    "range": [
-      1289,
-      1293
-    ]
+    "end": 1293
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1294,
-    "end": 1295,
-    "range": [
-      1294,
-      1295
-    ]
+    "end": 1295
   },
   {
     "type": "String",
     "value": "\"And the silken sad uncertain rustling of each purple curtain\"",
     "start": 1304,
-    "end": 1366,
-    "range": [
-      1304,
-      1366
-    ]
+    "end": 1366
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1367,
-    "end": 1368,
-    "range": [
-      1367,
-      1368
-    ]
+    "end": 1368
   },
   {
     "type": "String",
     "value": "\"Thrilled me - filled me with fantastic terrors never felt before;\"",
     "start": 1377,
-    "end": 1444,
-    "range": [
-      1377,
-      1444
-    ]
+    "end": 1444
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1445,
-    "end": 1446,
-    "range": [
-      1445,
-      1446
-    ]
+    "end": 1446
   },
   {
     "type": "String",
     "value": "\"So that now, to still the beating of my heart, I stood repeating\"",
     "start": 1455,
-    "end": 1521,
-    "range": [
-      1455,
-      1521
-    ]
+    "end": 1521
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1522,
-    "end": 1523,
-    "range": [
-      1522,
-      1523
-    ]
+    "end": 1523
   },
   {
     "type": "String",
     "value": "\"`'Tis some visitor entreating entrance at my chamber door -\"",
     "start": 1532,
-    "end": 1593,
-    "range": [
-      1532,
-      1593
-    ]
+    "end": 1593
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1594,
-    "end": 1595,
-    "range": [
-      1594,
-      1595
-    ]
+    "end": 1595
   },
   {
     "type": "String",
     "value": "\"Some late visitor entreating entrance at my chamber door; -\"",
     "start": 1604,
-    "end": 1665,
-    "range": [
-      1604,
-      1665
-    ]
+    "end": 1665
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1666,
-    "end": 1667,
-    "range": [
-      1666,
-      1667
-    ]
+    "end": 1667
   },
   {
     "type": "String",
     "value": "\"This it is, and nothing more,'\"",
     "start": 1676,
-    "end": 1708,
-    "range": [
-      1676,
-      1708
-    ]
+    "end": 1708
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1709,
-    "end": 1710,
-    "range": [
-      1709,
-      1710
-    ]
+    "end": 1710
   },
   {
     "type": "String",
     "value": "\"Presently my soul grew stronger; hesitating then no longer,\"",
     "start": 1719,
-    "end": 1780,
-    "range": [
-      1719,
-      1780
-    ]
+    "end": 1780
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1781,
-    "end": 1782,
-    "range": [
-      1781,
-      1782
-    ]
+    "end": 1782
   },
   {
     "type": "String",
     "value": "\"`Sir,' said I, `or Madam, truly your forgiveness I implore;\"",
     "start": 1791,
-    "end": 1852,
-    "range": [
-      1791,
-      1852
-    ]
+    "end": 1852
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1853,
-    "end": 1854,
-    "range": [
-      1853,
-      1854
-    ]
+    "end": 1854
   },
   {
     "type": "String",
     "value": "\"But the fact is I was napping, and so gently you came rapping,\"",
     "start": 1863,
-    "end": 1927,
-    "range": [
-      1863,
-      1927
-    ]
+    "end": 1927
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 1928,
-    "end": 1929,
-    "range": [
-      1928,
-      1929
-    ]
+    "end": 1929
   },
   {
     "type": "String",
     "value": "\"And so faintly you came tapping, tapping at my chamber door,\"",
     "start": 1938,
-    "end": 2000,
-    "range": [
-      1938,
-      2000
-    ]
+    "end": 2000
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2001,
-    "end": 2002,
-    "range": [
-      2001,
-      2002
-    ]
+    "end": 2002
   },
   {
     "type": "String",
     "value": "\"That I scarce was sure I heard you' - here I opened wide the door; -\"",
     "start": 2011,
-    "end": 2081,
-    "range": [
-      2011,
-      2081
-    ]
+    "end": 2081
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2082,
-    "end": 2083,
-    "range": [
-      2082,
-      2083
-    ]
+    "end": 2083
   },
   {
     "type": "String",
     "value": "\"Darkness there, and nothing more.\"",
     "start": 2092,
-    "end": 2127,
-    "range": [
-      2092,
-      2127
-    ]
+    "end": 2127
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2128,
-    "end": 2129,
-    "range": [
-      2128,
-      2129
-    ]
+    "end": 2129
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 2138,
-    "end": 2142,
-    "range": [
-      2138,
-      2142
-    ]
+    "end": 2142
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2143,
-    "end": 2144,
-    "range": [
-      2143,
-      2144
-    ]
+    "end": 2144
   },
   {
     "type": "String",
     "value": "\"Deep into that darkness peering, long I stood there wondering, fearing,\"",
     "start": 2153,
-    "end": 2226,
-    "range": [
-      2153,
-      2226
-    ]
+    "end": 2226
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2227,
-    "end": 2228,
-    "range": [
-      2227,
-      2228
-    ]
+    "end": 2228
   },
   {
     "type": "String",
     "value": "\"Doubting, dreaming dreams no mortal ever dared to dream before\"",
     "start": 2237,
-    "end": 2301,
-    "range": [
-      2237,
-      2301
-    ]
+    "end": 2301
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2302,
-    "end": 2303,
-    "range": [
-      2302,
-      2303
-    ]
+    "end": 2303
   },
   {
     "type": "String",
     "value": "\"But the silence was unbroken, and the darkness gave no token,\"",
     "start": 2312,
-    "end": 2375,
-    "range": [
-      2312,
-      2375
-    ]
+    "end": 2375
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2376,
-    "end": 2377,
-    "range": [
-      2376,
-      2377
-    ]
+    "end": 2377
   },
   {
     "type": "String",
     "value": "\"And the only word there spoken was the whispered word, `Lenore!'\"",
     "start": 2386,
-    "end": 2452,
-    "range": [
-      2386,
-      2452
-    ]
+    "end": 2452
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2453,
-    "end": 2454,
-    "range": [
-      2453,
-      2454
-    ]
+    "end": 2454
   },
   {
     "type": "String",
     "value": "\"This I whispered, and an echo murmured back the word, `Lenore!'\"",
     "start": 2463,
-    "end": 2528,
-    "range": [
-      2463,
-      2528
-    ]
+    "end": 2528
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2529,
-    "end": 2530,
-    "range": [
-      2529,
-      2530
-    ]
+    "end": 2530
   },
   {
     "type": "String",
     "value": "\"Merely this and nothing more.\"",
     "start": 2539,
-    "end": 2570,
-    "range": [
-      2539,
-      2570
-    ]
+    "end": 2570
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2571,
-    "end": 2572,
-    "range": [
-      2571,
-      2572
-    ]
+    "end": 2572
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 2581,
-    "end": 2585,
-    "range": [
-      2581,
-      2585
-    ]
+    "end": 2585
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2586,
-    "end": 2587,
-    "range": [
-      2586,
-      2587
-    ]
+    "end": 2587
   },
   {
     "type": "String",
     "value": "\"Back into the chamber turning, all my soul within me burning,\"",
     "start": 2596,
-    "end": 2659,
-    "range": [
-      2596,
-      2659
-    ]
+    "end": 2659
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2660,
-    "end": 2661,
-    "range": [
-      2660,
-      2661
-    ]
+    "end": 2661
   },
   {
     "type": "String",
     "value": "\"Soon again I heard a tapping somewhat louder than before.\"",
     "start": 2670,
-    "end": 2729,
-    "range": [
-      2670,
-      2729
-    ]
+    "end": 2729
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2730,
-    "end": 2731,
-    "range": [
-      2730,
-      2731
-    ]
+    "end": 2731
   },
   {
     "type": "String",
     "value": "\"`Surely,' said I, `surely that is something at my window lattice;\"",
     "start": 2740,
-    "end": 2807,
-    "range": [
-      2740,
-      2807
-    ]
+    "end": 2807
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2808,
-    "end": 2809,
-    "range": [
-      2808,
-      2809
-    ]
+    "end": 2809
   },
   {
     "type": "String",
     "value": "\"Let me see then, what thereat is, and this mystery explore -\"",
     "start": 2818,
-    "end": 2880,
-    "range": [
-      2818,
-      2880
-    ]
+    "end": 2880
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2881,
-    "end": 2882,
-    "range": [
-      2881,
-      2882
-    ]
+    "end": 2882
   },
   {
     "type": "String",
     "value": "\"Let my heart be still a moment and this mystery explore; -\"",
     "start": 2891,
-    "end": 2951,
-    "range": [
-      2891,
-      2951
-    ]
+    "end": 2951
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2952,
-    "end": 2953,
-    "range": [
-      2952,
-      2953
-    ]
+    "end": 2953
   },
   {
     "type": "String",
     "value": "\"'Tis the wind and nothing more!'\"",
     "start": 2962,
-    "end": 2996,
-    "range": [
-      2962,
-      2996
-    ]
+    "end": 2996
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 2997,
-    "end": 2998,
-    "range": [
-      2997,
-      2998
-    ]
+    "end": 2998
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 3007,
-    "end": 3011,
-    "range": [
-      3007,
-      3011
-    ]
+    "end": 3011
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3012,
-    "end": 3013,
-    "range": [
-      3012,
-      3013
-    ]
+    "end": 3013
   },
   {
     "type": "String",
     "value": "\"Open here I flung the shutter, when, with many a flirt and flutter,\"",
     "start": 3022,
-    "end": 3091,
-    "range": [
-      3022,
-      3091
-    ]
+    "end": 3091
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3092,
-    "end": 3093,
-    "range": [
-      3092,
-      3093
-    ]
+    "end": 3093
   },
   {
     "type": "String",
     "value": "\"In there stepped a stately raven of the saintly days of yore.\"",
     "start": 3102,
-    "end": 3165,
-    "range": [
-      3102,
-      3165
-    ]
+    "end": 3165
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3166,
-    "end": 3167,
-    "range": [
-      3166,
-      3167
-    ]
+    "end": 3167
   },
   {
     "type": "String",
     "value": "\"Not the least obeisance made he; not a minute stopped or stayed he;\"",
     "start": 3176,
-    "end": 3245,
-    "range": [
-      3176,
-      3245
-    ]
+    "end": 3245
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3246,
-    "end": 3247,
-    "range": [
-      3246,
-      3247
-    ]
+    "end": 3247
   },
   {
     "type": "String",
     "value": "\"But, with mien of lord or lady, perched above my chamber door -\"",
     "start": 3256,
-    "end": 3321,
-    "range": [
-      3256,
-      3321
-    ]
+    "end": 3321
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3322,
-    "end": 3323,
-    "range": [
-      3322,
-      3323
-    ]
+    "end": 3323
   },
   {
     "type": "String",
     "value": "\"Perched upon a bust of Pallas just above my chamber door -\"",
     "start": 3332,
-    "end": 3392,
-    "range": [
-      3332,
-      3392
-    ]
+    "end": 3392
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3393,
-    "end": 3394,
-    "range": [
-      3393,
-      3394
-    ]
+    "end": 3394
   },
   {
     "type": "String",
     "value": "\"Perched, and sat, and nothing more.\"",
     "start": 3403,
-    "end": 3440,
-    "range": [
-      3403,
-      3440
-    ]
+    "end": 3440
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3441,
-    "end": 3442,
-    "range": [
-      3441,
-      3442
-    ]
+    "end": 3442
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 3451,
-    "end": 3455,
-    "range": [
-      3451,
-      3455
-    ]
+    "end": 3455
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3456,
-    "end": 3457,
-    "range": [
-      3456,
-      3457
-    ]
+    "end": 3457
   },
   {
     "type": "String",
     "value": "\"Then this ebony bird beguiling my sad fancy into smiling,\"",
     "start": 3466,
-    "end": 3525,
-    "range": [
-      3466,
-      3525
-    ]
+    "end": 3525
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3526,
-    "end": 3527,
-    "range": [
-      3526,
-      3527
-    ]
+    "end": 3527
   },
   {
     "type": "String",
     "value": "\"By the grave and stern decorum of the countenance it wore,\"",
     "start": 3536,
-    "end": 3596,
-    "range": [
-      3536,
-      3596
-    ]
+    "end": 3596
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3597,
-    "end": 3598,
-    "range": [
-      3597,
-      3598
-    ]
+    "end": 3598
   },
   {
     "type": "String",
     "value": "\"`Though thy crest be shorn and shaven, thou,' I said, `art sure no craven.\"",
     "start": 3607,
-    "end": 3683,
-    "range": [
-      3607,
-      3683
-    ]
+    "end": 3683
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3684,
-    "end": 3685,
-    "range": [
-      3684,
-      3685
-    ]
+    "end": 3685
   },
   {
     "type": "String",
     "value": "\"Ghastly grim and ancient raven wandering from the nightly shore -\"",
     "start": 3694,
-    "end": 3761,
-    "range": [
-      3694,
-      3761
-    ]
+    "end": 3761
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3762,
-    "end": 3763,
-    "range": [
-      3762,
-      3763
-    ]
+    "end": 3763
   },
   {
     "type": "String",
     "value": "\"Tell me what thy lordly name is on the Night's Plutonian shore!'\"",
     "start": 3772,
-    "end": 3838,
-    "range": [
-      3772,
-      3838
-    ]
+    "end": 3838
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3839,
-    "end": 3840,
-    "range": [
-      3839,
-      3840
-    ]
+    "end": 3840
   },
   {
     "type": "String",
     "value": "\"Quoth the raven, `Nevermore.'\"",
     "start": 3849,
-    "end": 3880,
-    "range": [
-      3849,
-      3880
-    ]
+    "end": 3880
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3881,
-    "end": 3882,
-    "range": [
-      3881,
-      3882
-    ]
+    "end": 3882
   },
   {
     "type": "String",
     "value": "\"-n\"",
     "start": 3891,
-    "end": 3895,
-    "range": [
-      3891,
-      3895
-    ]
+    "end": 3895
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3896,
-    "end": 3897,
-    "range": [
-      3896,
-      3897
-    ]
+    "end": 3897
   },
   {
     "type": "String",
     "value": "\"Much I marvelled this ungainly fowl to hear discourse so plainly,\"",
     "start": 3906,
-    "end": 3973,
-    "range": [
-      3906,
-      3973
-    ]
+    "end": 3973
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 3974,
-    "end": 3975,
-    "range": [
-      3974,
-      3975
-    ]
+    "end": 3975
   },
   {
     "type": "String",
     "value": "\"Though its answer little meaning - little relevancy bore;\"",
     "start": 3984,
-    "end": 4043,
-    "range": [
-      3984,
-      4043
-    ]
+    "end": 4043
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4044,
-    "end": 4045,
-    "range": [
-      4044,
-      4045
-    ]
+    "end": 4045
   },
   {
     "type": "String",
     "value": "\"For we cannot help agreeing that no living human being\"",
     "start": 4054,
-    "end": 4110,
-    "range": [
-      4054,
-      4110
-    ]
+    "end": 4110
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4111,
-    "end": 4112,
-    "range": [
-      4111,
-      4112
-    ]
+    "end": 4112
   },
   {
     "type": "String",
     "value": "\"Ever yet was blessed with seeing bird above his chamber door -\"",
     "start": 4121,
-    "end": 4185,
-    "range": [
-      4121,
-      4185
-    ]
+    "end": 4185
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4186,
-    "end": 4187,
-    "range": [
-      4186,
-      4187
-    ]
+    "end": 4187
   },
   {
     "type": "String",
     "value": "\"Bird or beast above the sculptured bust above his chamber door,\"",
     "start": 4196,
-    "end": 4261,
-    "range": [
-      4196,
-      4261
-    ]
+    "end": 4261
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4262,
-    "end": 4263,
-    "range": [
-      4262,
-      4263
-    ]
+    "end": 4263
   },
   {
     "type": "String",
     "value": "\"With such name as `Nevermore.'\"",
     "start": 4272,
-    "end": 4304,
-    "range": [
-      4272,
-      4304
-    ]
+    "end": 4304
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4305,
-    "end": 4306,
-    "range": [
-      4305,
-      4306
-    ]
+    "end": 4306
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 4315,
-    "end": 4319,
-    "range": [
-      4315,
-      4319
-    ]
+    "end": 4319
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4320,
-    "end": 4321,
-    "range": [
-      4320,
-      4321
-    ]
+    "end": 4321
   },
   {
     "type": "String",
     "value": "\"But the raven, sitting lonely on the placid bust, spoke only,\"",
     "start": 4330,
-    "end": 4393,
-    "range": [
-      4330,
-      4393
-    ]
+    "end": 4393
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4394,
-    "end": 4395,
-    "range": [
-      4394,
-      4395
-    ]
+    "end": 4395
   },
   {
     "type": "String",
     "value": "\"That one word, as if his soul in that one word he did outpour.\"",
     "start": 4404,
-    "end": 4468,
-    "range": [
-      4404,
-      4468
-    ]
+    "end": 4468
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4469,
-    "end": 4470,
-    "range": [
-      4469,
-      4470
-    ]
+    "end": 4470
   },
   {
     "type": "String",
     "value": "\"Nothing further then he uttered - not a feather then he fluttered -\"",
     "start": 4479,
-    "end": 4548,
-    "range": [
-      4479,
-      4548
-    ]
+    "end": 4548
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4549,
-    "end": 4550,
-    "range": [
-      4549,
-      4550
-    ]
+    "end": 4550
   },
   {
     "type": "String",
     "value": "\"Till I scarcely more than muttered `Other friends have flown before -\"",
     "start": 4559,
-    "end": 4630,
-    "range": [
-      4559,
-      4630
-    ]
+    "end": 4630
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4631,
-    "end": 4632,
-    "range": [
-      4631,
-      4632
-    ]
+    "end": 4632
   },
   {
     "type": "String",
     "value": "\"On the morrow he will leave me, as my hopes have flown before.'\"",
     "start": 4641,
-    "end": 4706,
-    "range": [
-      4641,
-      4706
-    ]
+    "end": 4706
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4707,
-    "end": 4708,
-    "range": [
-      4707,
-      4708
-    ]
+    "end": 4708
   },
   {
     "type": "String",
     "value": "\"Then the bird said, `Nevermore.'\"",
     "start": 4717,
-    "end": 4751,
-    "range": [
-      4717,
-      4751
-    ]
+    "end": 4751
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4752,
-    "end": 4753,
-    "range": [
-      4752,
-      4753
-    ]
+    "end": 4753
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 4762,
-    "end": 4766,
-    "range": [
-      4762,
-      4766
-    ]
+    "end": 4766
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4767,
-    "end": 4768,
-    "range": [
-      4767,
-      4768
-    ]
+    "end": 4768
   },
   {
     "type": "String",
     "value": "\"Startled at the stillness broken by reply so aptly spoken,\"",
     "start": 4777,
-    "end": 4837,
-    "range": [
-      4777,
-      4837
-    ]
+    "end": 4837
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4838,
-    "end": 4839,
-    "range": [
-      4838,
-      4839
-    ]
+    "end": 4839
   },
   {
     "type": "String",
     "value": "\"`Doubtless,' said I, `what it utters is its only stock and store,\"",
     "start": 4848,
-    "end": 4915,
-    "range": [
-      4848,
-      4915
-    ]
+    "end": 4915
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4916,
-    "end": 4917,
-    "range": [
-      4916,
-      4917
-    ]
+    "end": 4917
   },
   {
     "type": "String",
     "value": "\"Caught from some unhappy master whom unmerciful disaster\"",
     "start": 4926,
-    "end": 4984,
-    "range": [
-      4926,
-      4984
-    ]
+    "end": 4984
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4985,
-    "end": 4986,
-    "range": [
-      4985,
-      4986
-    ]
+    "end": 4986
   },
   {
     "type": "String",
     "value": "\"Followed fast and followed faster till his songs one burden bore -\"",
     "start": 4995,
-    "end": 5063,
-    "range": [
-      4995,
-      5063
-    ]
+    "end": 5063
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5064,
-    "end": 5065,
-    "range": [
-      5064,
-      5065
-    ]
+    "end": 5065
   },
   {
     "type": "String",
     "value": "\"Till the dirges of his hope that melancholy burden bore\"",
     "start": 5074,
-    "end": 5131,
-    "range": [
-      5074,
-      5131
-    ]
+    "end": 5131
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5132,
-    "end": 5133,
-    "range": [
-      5132,
-      5133
-    ]
+    "end": 5133
   },
   {
     "type": "String",
     "value": "\"Of \\\"Never-nevermore.\\\"'\"",
     "start": 5142,
-    "end": 5168,
-    "range": [
-      5142,
-      5168
-    ]
+    "end": 5168
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5169,
-    "end": 5170,
-    "range": [
-      5169,
-      5170
-    ]
+    "end": 5170
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 5179,
-    "end": 5183,
-    "range": [
-      5179,
-      5183
-    ]
+    "end": 5183
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5184,
-    "end": 5185,
-    "range": [
-      5184,
-      5185
-    ]
+    "end": 5185
   },
   {
     "type": "String",
     "value": "\"But the raven still beguiling all my sad soul into smiling,\"",
     "start": 5194,
-    "end": 5255,
-    "range": [
-      5194,
-      5255
-    ]
+    "end": 5255
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5256,
-    "end": 5257,
-    "range": [
-      5256,
-      5257
-    ]
+    "end": 5257
   },
   {
     "type": "String",
     "value": "\"Straight I wheeled a cushioned seat in front of bird and bust and door;\"",
     "start": 5266,
-    "end": 5339,
-    "range": [
-      5266,
-      5339
-    ]
+    "end": 5339
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5340,
-    "end": 5341,
-    "range": [
-      5340,
-      5341
-    ]
+    "end": 5341
   },
   {
     "type": "String",
     "value": "\"Then, upon the velvet sinking, I betook myself to linking\"",
     "start": 5350,
-    "end": 5409,
-    "range": [
-      5350,
-      5409
-    ]
+    "end": 5409
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5410,
-    "end": 5411,
-    "range": [
-      5410,
-      5411
-    ]
+    "end": 5411
   },
   {
     "type": "String",
     "value": "\"Fancy unto fancy, thinking what this ominous bird of yore -\"",
     "start": 5420,
-    "end": 5481,
-    "range": [
-      5420,
-      5481
-    ]
+    "end": 5481
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5482,
-    "end": 5483,
-    "range": [
-      5482,
-      5483
-    ]
+    "end": 5483
   },
   {
     "type": "String",
     "value": "\"What this grim, ungainly, ghastly, gaunt, and ominous bird of yore\"",
     "start": 5492,
-    "end": 5560,
-    "range": [
-      5492,
-      5560
-    ]
+    "end": 5560
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5561,
-    "end": 5562,
-    "range": [
-      5561,
-      5562
-    ]
+    "end": 5562
   },
   {
     "type": "String",
     "value": "\"Meant in croaking `Nevermore.'\"",
     "start": 5571,
-    "end": 5603,
-    "range": [
-      5571,
-      5603
-    ]
+    "end": 5603
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5604,
-    "end": 5605,
-    "range": [
-      5604,
-      5605
-    ]
+    "end": 5605
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 5614,
-    "end": 5618,
-    "range": [
-      5614,
-      5618
-    ]
+    "end": 5618
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5619,
-    "end": 5620,
-    "range": [
-      5619,
-      5620
-    ]
+    "end": 5620
   },
   {
     "type": "String",
     "value": "\"This I sat engaged in guessing, but no syllable expressing\"",
     "start": 5629,
-    "end": 5689,
-    "range": [
-      5629,
-      5689
-    ]
+    "end": 5689
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5690,
-    "end": 5691,
-    "range": [
-      5690,
-      5691
-    ]
+    "end": 5691
   },
   {
     "type": "String",
     "value": "\"To the fowl whose fiery eyes now burned into my bosom's core;\"",
     "start": 5700,
-    "end": 5763,
-    "range": [
-      5700,
-      5763
-    ]
+    "end": 5763
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5764,
-    "end": 5765,
-    "range": [
-      5764,
-      5765
-    ]
+    "end": 5765
   },
   {
     "type": "String",
     "value": "\"This and more I sat divining, with my head at ease reclining\"",
     "start": 5774,
-    "end": 5836,
-    "range": [
-      5774,
-      5836
-    ]
+    "end": 5836
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5837,
-    "end": 5838,
-    "range": [
-      5837,
-      5838
-    ]
+    "end": 5838
   },
   {
     "type": "String",
     "value": "\"On the cushion's velvet lining that the lamp-light gloated o'er,\"",
     "start": 5847,
-    "end": 5913,
-    "range": [
-      5847,
-      5913
-    ]
+    "end": 5913
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5914,
-    "end": 5915,
-    "range": [
-      5914,
-      5915
-    ]
+    "end": 5915
   },
   {
     "type": "String",
     "value": "\"But whose velvet violet lining with the lamp-light gloating o'er,\"",
     "start": 5924,
-    "end": 5991,
-    "range": [
-      5924,
-      5991
-    ]
+    "end": 5991
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 5992,
-    "end": 5993,
-    "range": [
-      5992,
-      5993
-    ]
+    "end": 5993
   },
   {
     "type": "String",
     "value": "\"She shall press, ah, nevermore!\"",
     "start": 6002,
-    "end": 6035,
-    "range": [
-      6002,
-      6035
-    ]
+    "end": 6035
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6036,
-    "end": 6037,
-    "range": [
-      6036,
-      6037
-    ]
+    "end": 6037
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 6046,
-    "end": 6050,
-    "range": [
-      6046,
-      6050
-    ]
+    "end": 6050
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6051,
-    "end": 6052,
-    "range": [
-      6051,
-      6052
-    ]
+    "end": 6052
   },
   {
     "type": "String",
     "value": "\"Then, methought, the air grew denser, perfumed from an unseen censer\"",
     "start": 6061,
-    "end": 6131,
-    "range": [
-      6061,
-      6131
-    ]
+    "end": 6131
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6132,
-    "end": 6133,
-    "range": [
-      6132,
-      6133
-    ]
+    "end": 6133
   },
   {
     "type": "String",
     "value": "\"Swung by Seraphim whose foot-falls tinkled on the tufted floor.\"",
     "start": 6142,
-    "end": 6207,
-    "range": [
-      6142,
-      6207
-    ]
+    "end": 6207
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6208,
-    "end": 6209,
-    "range": [
-      6208,
-      6209
-    ]
+    "end": 6209
   },
   {
     "type": "String",
     "value": "\"`Wretch,' I cried, `thy God hath lent thee - by these angels he has sent thee\"",
     "start": 6218,
-    "end": 6297,
-    "range": [
-      6218,
-      6297
-    ]
+    "end": 6297
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6298,
-    "end": 6299,
-    "range": [
-      6298,
-      6299
-    ]
+    "end": 6299
   },
   {
     "type": "String",
     "value": "\"Respite - respite and nepenthe from thy memories of Lenore!\"",
     "start": 6308,
-    "end": 6369,
-    "range": [
-      6308,
-      6369
-    ]
+    "end": 6369
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6370,
-    "end": 6371,
-    "range": [
-      6370,
-      6371
-    ]
+    "end": 6371
   },
   {
     "type": "String",
     "value": "\"Quaff, oh quaff this kind nepenthe, and forget this lost Lenore!'\"",
     "start": 6380,
-    "end": 6447,
-    "range": [
-      6380,
-      6447
-    ]
+    "end": 6447
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6448,
-    "end": 6449,
-    "range": [
-      6448,
-      6449
-    ]
+    "end": 6449
   },
   {
     "type": "String",
     "value": "\"Quoth the raven, `Nevermore.'\"",
     "start": 6458,
-    "end": 6489,
-    "range": [
-      6458,
-      6489
-    ]
+    "end": 6489
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6490,
-    "end": 6491,
-    "range": [
-      6490,
-      6491
-    ]
+    "end": 6491
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 6500,
-    "end": 6504,
-    "range": [
-      6500,
-      6504
-    ]
+    "end": 6504
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6505,
-    "end": 6506,
-    "range": [
-      6505,
-      6506
-    ]
+    "end": 6506
   },
   {
     "type": "String",
     "value": "\"`Prophet!' said I, `thing of evil! - prophet still, if bird or devil! -\"",
     "start": 6515,
-    "end": 6588,
-    "range": [
-      6515,
-      6588
-    ]
+    "end": 6588
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6589,
-    "end": 6590,
-    "range": [
-      6589,
-      6590
-    ]
+    "end": 6590
   },
   {
     "type": "String",
     "value": "\"Whether tempter sent, or whether tempest tossed thee here ashore,\"",
     "start": 6599,
-    "end": 6666,
-    "range": [
-      6599,
-      6666
-    ]
+    "end": 6666
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6667,
-    "end": 6668,
-    "range": [
-      6667,
-      6668
-    ]
+    "end": 6668
   },
   {
     "type": "String",
     "value": "\"Desolate yet all undaunted, on this desert land enchanted -\"",
     "start": 6677,
-    "end": 6738,
-    "range": [
-      6677,
-      6738
-    ]
+    "end": 6738
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6739,
-    "end": 6740,
-    "range": [
-      6739,
-      6740
-    ]
+    "end": 6740
   },
   {
     "type": "String",
     "value": "\"On this home by horror haunted - tell me truly, I implore -\"",
     "start": 6749,
-    "end": 6810,
-    "range": [
-      6749,
-      6810
-    ]
+    "end": 6810
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6811,
-    "end": 6812,
-    "range": [
-      6811,
-      6812
-    ]
+    "end": 6812
   },
   {
     "type": "String",
     "value": "\"Is there - is there balm in Gilead? - tell me - tell me, I implore!'\"",
     "start": 6821,
-    "end": 6891,
-    "range": [
-      6821,
-      6891
-    ]
+    "end": 6891
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6892,
-    "end": 6893,
-    "range": [
-      6892,
-      6893
-    ]
+    "end": 6893
   },
   {
     "type": "String",
     "value": "\"Quoth the raven, `Nevermore.'\"",
     "start": 6902,
-    "end": 6933,
-    "range": [
-      6902,
-      6933
-    ]
+    "end": 6933
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6934,
-    "end": 6935,
-    "range": [
-      6934,
-      6935
-    ]
+    "end": 6935
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 6944,
-    "end": 6948,
-    "range": [
-      6944,
-      6948
-    ]
+    "end": 6948
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 6949,
-    "end": 6950,
-    "range": [
-      6949,
-      6950
-    ]
+    "end": 6950
   },
   {
     "type": "String",
     "value": "\"`Prophet!' said I, `thing of evil! - prophet still, if bird or devil!\"",
     "start": 6959,
-    "end": 7030,
-    "range": [
-      6959,
-      7030
-    ]
+    "end": 7030
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7031,
-    "end": 7032,
-    "range": [
-      7031,
-      7032
-    ]
+    "end": 7032
   },
   {
     "type": "String",
     "value": "\"By that Heaven that bends above us - by that God we both adore -\"",
     "start": 7041,
-    "end": 7107,
-    "range": [
-      7041,
-      7107
-    ]
+    "end": 7107
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7108,
-    "end": 7109,
-    "range": [
-      7108,
-      7109
-    ]
+    "end": 7109
   },
   {
     "type": "String",
     "value": "\"Tell this soul with sorrow laden if, within the distant Aidenn,\"",
     "start": 7118,
-    "end": 7183,
-    "range": [
-      7118,
-      7183
-    ]
+    "end": 7183
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7184,
-    "end": 7185,
-    "range": [
-      7184,
-      7185
-    ]
+    "end": 7185
   },
   {
     "type": "String",
     "value": "\"It shall clasp a sainted maiden whom the angels named Lenore -\"",
     "start": 7194,
-    "end": 7258,
-    "range": [
-      7194,
-      7258
-    ]
+    "end": 7258
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7259,
-    "end": 7260,
-    "range": [
-      7259,
-      7260
-    ]
+    "end": 7260
   },
   {
     "type": "String",
     "value": "\"Clasp a rare and radiant maiden, whom the angels named Lenore?'\"",
     "start": 7269,
-    "end": 7334,
-    "range": [
-      7269,
-      7334
-    ]
+    "end": 7334
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7335,
-    "end": 7336,
-    "range": [
-      7335,
-      7336
-    ]
+    "end": 7336
   },
   {
     "type": "String",
     "value": "\"Quoth the raven, `Nevermore.'\"",
     "start": 7345,
-    "end": 7376,
-    "range": [
-      7345,
-      7376
-    ]
+    "end": 7376
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7377,
-    "end": 7378,
-    "range": [
-      7377,
-      7378
-    ]
+    "end": 7378
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 7387,
-    "end": 7391,
-    "range": [
-      7387,
-      7391
-    ]
+    "end": 7391
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7392,
-    "end": 7393,
-    "range": [
-      7392,
-      7393
-    ]
+    "end": 7393
   },
   {
     "type": "String",
     "value": "\"`Be that word our sign of parting, bird or fiend!' I shrieked upstarting -\"",
     "start": 7402,
-    "end": 7478,
-    "range": [
-      7402,
-      7478
-    ]
+    "end": 7478
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7479,
-    "end": 7480,
-    "range": [
-      7479,
-      7480
-    ]
+    "end": 7480
   },
   {
     "type": "String",
     "value": "\"`Get thee back into the tempest and the Night's Plutonian shore!\"",
     "start": 7489,
-    "end": 7555,
-    "range": [
-      7489,
-      7555
-    ]
+    "end": 7555
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7556,
-    "end": 7557,
-    "range": [
-      7556,
-      7557
-    ]
+    "end": 7557
   },
   {
     "type": "String",
     "value": "\"Leave no black plume as a token of that lie thy soul hath spoken!\"",
     "start": 7566,
-    "end": 7633,
-    "range": [
-      7566,
-      7633
-    ]
+    "end": 7633
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7634,
-    "end": 7635,
-    "range": [
-      7634,
-      7635
-    ]
+    "end": 7635
   },
   {
     "type": "String",
     "value": "\"Leave my loneliness unbroken! - quit the bust above my door!\"",
     "start": 7644,
-    "end": 7706,
-    "range": [
-      7644,
-      7706
-    ]
+    "end": 7706
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7707,
-    "end": 7708,
-    "range": [
-      7707,
-      7708
-    ]
+    "end": 7708
   },
   {
     "type": "String",
     "value": "\"Take thy beak from out my heart, and take thy form from off my door!'\"",
     "start": 7717,
-    "end": 7788,
-    "range": [
-      7717,
-      7788
-    ]
+    "end": 7788
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7789,
-    "end": 7790,
-    "range": [
-      7789,
-      7790
-    ]
+    "end": 7790
   },
   {
     "type": "String",
     "value": "\"Quoth the raven, `Nevermore.'\"",
     "start": 7799,
-    "end": 7830,
-    "range": [
-      7799,
-      7830
-    ]
+    "end": 7830
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7831,
-    "end": 7832,
-    "range": [
-      7831,
-      7832
-    ]
+    "end": 7832
   },
   {
     "type": "String",
     "value": "\"\\n\"",
     "start": 7841,
-    "end": 7845,
-    "range": [
-      7841,
-      7845
-    ]
+    "end": 7845
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7846,
-    "end": 7847,
-    "range": [
-      7846,
-      7847
-    ]
+    "end": 7847
   },
   {
     "type": "String",
     "value": "\"And the raven, never flitting, still is sitting, still is sitting\"",
     "start": 7856,
-    "end": 7923,
-    "range": [
-      7856,
-      7923
-    ]
+    "end": 7923
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7924,
-    "end": 7925,
-    "range": [
-      7924,
-      7925
-    ]
+    "end": 7925
   },
   {
     "type": "String",
     "value": "\"On the pallid bust of Pallas just above my chamber door;\"",
     "start": 7934,
-    "end": 7992,
-    "range": [
-      7934,
-      7992
-    ]
+    "end": 7992
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 7993,
-    "end": 7994,
-    "range": [
-      7993,
-      7994
-    ]
+    "end": 7994
   },
   {
     "type": "String",
     "value": "\"And his eyes have all the seeming of a demon's that is dreaming,\"",
     "start": 8003,
-    "end": 8069,
-    "range": [
-      8003,
-      8069
-    ]
+    "end": 8069
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 8070,
-    "end": 8071,
-    "range": [
-      8070,
-      8071
-    ]
+    "end": 8071
   },
   {
     "type": "String",
     "value": "\"And the lamp-light o'er him streaming throws his shadow on the floor;\"",
     "start": 8080,
-    "end": 8151,
-    "range": [
-      8080,
-      8151
-    ]
+    "end": 8151
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 8152,
-    "end": 8153,
-    "range": [
-      8152,
-      8153
-    ]
+    "end": 8153
   },
   {
     "type": "String",
     "value": "\"And my soul from out that shadow that lies floating on the floor\"",
     "start": 8162,
-    "end": 8228,
-    "range": [
-      8162,
-      8228
-    ]
+    "end": 8228
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 8229,
-    "end": 8230,
-    "range": [
-      8229,
-      8230
-    ]
+    "end": 8230
   },
   {
     "type": "String",
     "value": "\"Shall be lifted - nevermore!\"",
     "start": 8239,
-    "end": 8269,
-    "range": [
-      8239,
-      8269
-    ]
+    "end": 8269
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 8271,
-    "end": 8274,
-    "range": [
-      8271,
-      8274
-    ]
+    "end": 8274
   },
   {
     "type": "Identifier",
     "value": "NEVERMORE",
     "start": 8275,
-    "end": 8284,
-    "range": [
-      8275,
-      8284
-    ]
+    "end": 8284
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8284,
-    "end": 8285,
-    "range": [
-      8284,
-      8285
-    ]
+    "end": 8285
   },
   {
     "type": "Numeric",
     "value": "11",
     "start": 8285,
-    "end": 8287,
-    "range": [
-      8285,
-      8287
-    ]
+    "end": 8287
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8287,
-    "end": 8288,
-    "range": [
-      8287,
-      8288
-    ]
+    "end": 8288
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 8290,
-    "end": 8293,
-    "range": [
-      8290,
-      8293
-    ]
+    "end": 8293
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 8294,
-    "end": 8298,
-    "range": [
-      8294,
-      8298
-    ]
+    "end": 8298
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8299,
-    "end": 8300,
-    "range": [
-      8299,
-      8300
-    ]
+    "end": 8300
   },
   {
     "type": "RegularExpression",
@@ -2567,520 +1543,312 @@
       "pattern": "[Nn]evermore"
     },
     "start": 8301,
-    "end": 8316,
-    "range": [
-      8301,
-      8316
-    ]
+    "end": 8316
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8316,
-    "end": 8317,
-    "range": [
-      8316,
-      8317
-    ]
+    "end": 8317
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 8318,
-    "end": 8321,
-    "range": [
-      8318,
-      8321
-    ]
+    "end": 8321
   },
   {
     "type": "Identifier",
     "value": "__matched",
     "start": 8322,
-    "end": 8331,
-    "range": [
-      8322,
-      8331
-    ]
+    "end": 8331
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8331,
-    "end": 8332,
-    "range": [
-      8331,
-      8332
-    ]
+    "end": 8332
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 8332,
-    "end": 8333,
-    "range": [
-      8332,
-      8333
-    ]
+    "end": 8333
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8333,
-    "end": 8334,
-    "range": [
-      8333,
-      8334
-    ]
+    "end": 8334
   },
   {
     "type": "Keyword",
     "value": "do",
     "start": 8336,
-    "end": 8338,
-    "range": [
-      8336,
-      8338
-    ]
+    "end": 8338
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 8338,
-    "end": 8339,
-    "range": [
-      8338,
-      8339
-    ]
+    "end": 8339
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 8344,
-    "end": 8347,
-    "range": [
-      8344,
-      8347
-    ]
+    "end": 8347
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 8348,
-    "end": 8358,
-    "range": [
-      8348,
-      8358
-    ]
+    "end": 8358
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8359,
-    "end": 8360,
-    "range": [
-      8359,
-      8360
-    ]
+    "end": 8360
   },
   {
     "type": "Identifier",
     "value": "__re",
     "start": 8361,
-    "end": 8365,
-    "range": [
-      8361,
-      8365
-    ]
+    "end": 8365
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8365,
-    "end": 8366,
-    "range": [
-      8365,
-      8366
-    ]
+    "end": 8366
   },
   {
     "type": "Identifier",
     "value": "exec",
     "start": 8366,
-    "end": 8370,
-    "range": [
-      8366,
-      8370
-    ]
+    "end": 8370
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8370,
-    "end": 8371,
-    "range": [
-      8370,
-      8371
-    ]
+    "end": 8371
   },
   {
     "type": "Identifier",
     "value": "__the__raven",
     "start": 8371,
-    "end": 8383,
-    "range": [
-      8371,
-      8383
-    ]
+    "end": 8383
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8383,
-    "end": 8384,
-    "range": [
-      8383,
-      8384
-    ]
+    "end": 8384
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8384,
-    "end": 8385,
-    "range": [
-      8384,
-      8385
-    ]
+    "end": 8385
   },
   {
     "type": "Keyword",
     "value": "if",
     "start": 8390,
-    "end": 8392,
-    "range": [
-      8390,
-      8392
-    ]
+    "end": 8392
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8393,
-    "end": 8394,
-    "range": [
-      8393,
-      8394
-    ]
+    "end": 8394
   },
   {
     "type": "Identifier",
     "value": "__executed",
     "start": 8394,
-    "end": 8404,
-    "range": [
-      8394,
-      8404
-    ]
+    "end": 8404
   },
   {
     "type": "Punctuator",
     "value": "!==",
     "start": 8405,
-    "end": 8408,
-    "range": [
-      8405,
-      8408
-    ]
+    "end": 8408
   },
   {
     "type": "Null",
     "value": "null",
     "start": 8409,
-    "end": 8413,
-    "range": [
-      8409,
-      8413
-    ]
+    "end": 8413
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8413,
-    "end": 8414,
-    "range": [
-      8413,
-      8414
-    ]
+    "end": 8414
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 8415,
-    "end": 8416,
-    "range": [
-      8415,
-      8416
-    ]
+    "end": 8416
   },
   {
     "type": "Identifier",
     "value": "__matched",
     "start": 8425,
-    "end": 8434,
-    "range": [
-      8425,
-      8434
-    ]
+    "end": 8434
   },
   {
     "type": "Punctuator",
     "value": "++",
     "start": 8434,
-    "end": 8436,
-    "range": [
-      8434,
-      8436
-    ]
+    "end": 8436
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8436,
-    "end": 8437,
-    "range": [
-      8436,
-      8437
-    ]
+    "end": 8437
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 8442,
-    "end": 8443,
-    "range": [
-      8442,
-      8443
-    ]
+    "end": 8443
   },
   {
     "type": "Keyword",
     "value": "else",
     "start": 8444,
-    "end": 8448,
-    "range": [
-      8444,
-      8448
-    ]
+    "end": 8448
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 8449,
-    "end": 8450,
-    "range": [
-      8449,
-      8450
-    ]
+    "end": 8450
   },
   {
     "type": "Keyword",
     "value": "break",
     "start": 8459,
-    "end": 8464,
-    "range": [
-      8459,
-      8464
-    ]
+    "end": 8464
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8464,
-    "end": 8465,
-    "range": [
-      8464,
-      8465
-    ]
+    "end": 8465
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 8470,
-    "end": 8471,
-    "range": [
-      8470,
-      8471
-    ]
+    "end": 8471
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 8472,
-    "end": 8473,
-    "range": [
-      8472,
-      8473
-    ]
+    "end": 8473
   },
   {
     "type": "Keyword",
     "value": "while",
     "start": 8473,
-    "end": 8478,
-    "range": [
-      8473,
-      8478
-    ]
+    "end": 8478
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8478,
-    "end": 8479,
-    "range": [
-      8478,
-      8479
-    ]
+    "end": 8479
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 8479,
-    "end": 8480,
-    "range": [
-      8479,
-      8480
-    ]
+    "end": 8480
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8480,
-    "end": 8481,
-    "range": [
-      8480,
-      8481
-    ]
+    "end": 8481
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8481,
-    "end": 8482,
-    "range": [
-      8481,
-      8482
-    ]
+    "end": 8482
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8484,
-    "end": 8490,
-    "range": [
-      8484,
-      8490
-    ]
+    "end": 8490
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8490,
-    "end": 8491,
-    "range": [
-      8490,
-      8491
-    ]
+    "end": 8491
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 8491,
-    "end": 8500,
-    "range": [
-      8491,
-      8500
-    ]
+    "end": 8500
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8500,
-    "end": 8501,
-    "range": [
-      8500,
-      8501
-    ]
+    "end": 8501
   },
   {
     "type": "Identifier",
     "value": "__matched",
     "start": 8501,
-    "end": 8510,
-    "range": [
-      8501,
-      8510
-    ]
+    "end": 8510
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8510,
-    "end": 8511,
-    "range": [
-      8510,
-      8511
-    ]
+    "end": 8511
   },
   {
     "type": "Identifier",
     "value": "NEVERMORE",
     "start": 8512,
-    "end": 8521,
-    "range": [
-      8512,
-      8521
-    ]
+    "end": 8521
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 8521,
-    "end": 8522,
-    "range": [
-      8521,
-      8522
-    ]
+    "end": 8522
   },
   {
     "type": "String",
     "value": "'The value of __matched is expected to equal the value of NEVERMORE'",
     "start": 8523,
-    "end": 8591,
-    "range": [
-      8523,
-      8591
-    ]
+    "end": 8591
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 8591,
-    "end": 8592,
-    "range": [
-      8591,
-      8592
-    ]
+    "end": 8592
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8592,
-    "end": 8593,
-    "range": [
-      8592,
-      8593
-    ]
+    "end": 8593
   }
 ]

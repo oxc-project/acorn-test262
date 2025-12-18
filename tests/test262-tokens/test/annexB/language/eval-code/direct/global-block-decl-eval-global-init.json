@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "eval",
     "start": 665,
-    "end": 669,
-    "range": [
-      665,
-      669
-    ]
+    "end": 669
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 669,
-    "end": 670,
-    "range": [
-      669,
-      670
-    ]
+    "end": 670
   },
   {
     "type": "String",
     "value": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });{ function f() {  } }'",
     "start": 673,
-    "end": 914,
-    "range": [
-      673,
-      914
-    ]
+    "end": 914
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 915,
-    "end": 916,
-    "range": [
-      915,
-      916
-    ]
+    "end": 916
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 916,
-    "end": 917,
-    "range": [
-      916,
-      917
-    ]
+    "end": 917
   }
 ]

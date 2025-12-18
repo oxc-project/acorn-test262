@@ -3,30 +3,18 @@
     "type": "Keyword",
     "value": "var",
     "start": 248,
-    "end": 251,
-    "range": [
-      248,
-      251
-    ]
+    "end": 251
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 252,
-    "end": 256,
-    "range": [
-      252,
-      256
-    ]
+    "end": 256
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 256,
-    "end": 257,
-    "range": [
-      256,
-      257
-    ]
+    "end": 257
   }
 ]

@@ -3,110 +3,66 @@
     "type": "Identifier",
     "value": "$DONOTEVALUATE",
     "start": 992,
-    "end": 1006,
-    "range": [
-      992,
-      1006
-    ]
+    "end": 1006
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1006,
-    "end": 1007,
-    "range": [
-      1006,
-      1007
-    ]
+    "end": 1007
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1007,
-    "end": 1008,
-    "range": [
-      1007,
-      1008
-    ]
+    "end": 1008
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1008,
-    "end": 1009,
-    "range": [
-      1008,
-      1009
-    ]
+    "end": 1009
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1011,
-    "end": 1017,
-    "range": [
-      1011,
-      1017
-    ]
+    "end": 1017
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 1018,
-    "end": 1019,
-    "range": [
-      1018,
-      1019
-    ]
+    "end": 1019
   },
   {
     "type": "Identifier",
     "value": "as",
     "start": 1020,
-    "end": 1022,
-    "range": [
-      1020,
-      1022
-    ]
+    "end": 1022
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 1023,
-    "end": 1025,
-    "range": [
-      1023,
-      1025
-    ]
+    "end": 1025
   },
   {
     "type": "Identifier",
     "value": "from",
     "start": 1026,
-    "end": 1030,
-    "range": [
-      1026,
-      1030
-    ]
+    "end": 1030
   },
   {
     "type": "String",
     "value": "'./instn-star-err-not-found-faulty_FIXTURE.js'",
     "start": 1031,
-    "end": 1077,
-    "range": [
-      1031,
-      1077
-    ]
+    "end": 1077
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1077,
-    "end": 1078,
-    "range": [
-      1077,
-      1078
-    ]
+    "end": 1078
   }
 ]

@@ -52,61 +52,37 @@ __ESTREE_TEST__:TOKENS:
     "type": "Keyword",
     "value": "class",
     "start": 106,
-    "end": 111,
-    "range": [
-      106,
-      111
-    ]
+    "end": 111
   },
   {
     "type": "Identifier",
     "value": "My",
     "start": 112,
-    "end": 114,
-    "range": [
-      112,
-      114
-    ]
+    "end": 114
   },
   {
     "type": "Keyword",
     "value": "extends",
     "start": 115,
-    "end": 122,
-    "range": [
-      115,
-      122
-    ]
+    "end": 122
   },
   {
     "type": "Identifier",
     "value": "Set",
     "start": 123,
-    "end": 126,
-    "range": [
-      123,
-      126
-    ]
+    "end": 126
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 127,
-    "end": 128,
-    "range": [
-      127,
-      128
-    ]
+    "end": 128
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 128,
-    "end": 129,
-    "range": [
-      128,
-      129
-    ]
+    "end": 129
   }
 ]
 ```

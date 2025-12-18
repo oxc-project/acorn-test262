@@ -3,5780 +3,3452 @@
     "type": "Keyword",
     "value": "var",
     "start": 3815,
-    "end": 3818,
-    "range": [
-      3815,
-      3818
-    ]
+    "end": 3818
   },
   {
     "type": "Identifier",
     "value": "sym",
     "start": 3819,
-    "end": 3822,
-    "range": [
-      3819,
-      3822
-    ]
+    "end": 3822
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3823,
-    "end": 3824,
-    "range": [
-      3823,
-      3824
-    ]
+    "end": 3824
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 3825,
-    "end": 3831,
-    "range": [
-      3825,
-      3831
-    ]
+    "end": 3831
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3831,
-    "end": 3832,
-    "range": [
-      3831,
-      3832
-    ]
+    "end": 3832
   },
   {
     "type": "String",
     "value": "'test262'",
     "start": 3832,
-    "end": 3841,
-    "range": [
-      3832,
-      3841
-    ]
+    "end": 3841
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3841,
-    "end": 3842,
-    "range": [
-      3841,
-      3842
-    ]
+    "end": 3842
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3842,
-    "end": 3843,
-    "range": [
-      3842,
-      3843
-    ]
+    "end": 3843
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 3845,
-    "end": 3850,
-    "range": [
-      3845,
-      3850
-    ]
+    "end": 3850
   },
   {
     "type": "Identifier",
     "value": "exported",
     "start": 3851,
-    "end": 3859,
-    "range": [
-      3851,
-      3859
-    ]
+    "end": 3859
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3860,
-    "end": 3861,
-    "range": [
-      3860,
-      3861
-    ]
+    "end": 3861
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3862,
-    "end": 3863,
-    "range": [
-      3862,
-      3863
-    ]
+    "end": 3863
   },
   {
     "type": "String",
     "value": "'local1'",
     "start": 3863,
-    "end": 3871,
-    "range": [
-      3863,
-      3871
-    ]
+    "end": 3871
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3871,
-    "end": 3872,
-    "range": [
-      3871,
-      3872
-    ]
+    "end": 3872
   },
   {
     "type": "String",
     "value": "'renamed'",
     "start": 3873,
-    "end": 3882,
-    "range": [
-      3873,
-      3882
-    ]
+    "end": 3882
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3882,
-    "end": 3883,
-    "range": [
-      3882,
-      3883
-    ]
+    "end": 3883
   },
   {
     "type": "String",
     "value": "'indirect'",
     "start": 3884,
-    "end": 3894,
-    "range": [
-      3884,
-      3894
-    ]
+    "end": 3894
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3894,
-    "end": 3895,
-    "range": [
-      3894,
-      3895
-    ]
+    "end": 3895
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3895,
-    "end": 3896,
-    "range": [
-      3895,
-      3896
-    ]
+    "end": 3896
   },
   {
     "type": "Identifier",
     "value": "async",
     "start": 3899,
-    "end": 3904,
-    "range": [
-      3899,
-      3904
-    ]
+    "end": 3904
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 3905,
-    "end": 3913,
-    "range": [
-      3905,
-      3913
-    ]
+    "end": 3913
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 3914,
-    "end": 3916,
-    "range": [
-      3914,
-      3916
-    ]
+    "end": 3916
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3916,
-    "end": 3917,
-    "range": [
-      3916,
-      3917
-    ]
+    "end": 3917
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3917,
-    "end": 3918,
-    "range": [
-      3917,
-      3918
-    ]
+    "end": 3918
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3919,
-    "end": 3920,
-    "range": [
-      3919,
-      3920
-    ]
+    "end": 3920
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 3925,
-    "end": 3930,
-    "range": [
-      3925,
-      3930
-    ]
+    "end": 3930
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 3931,
-    "end": 3933,
-    "range": [
-      3931,
-      3933
-    ]
+    "end": 3933
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3934,
-    "end": 3935,
-    "range": [
-      3934,
-      3935
-    ]
+    "end": 3935
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 3936,
-    "end": 3941,
-    "range": [
-      3936,
-      3941
-    ]
+    "end": 3941
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 3942,
-    "end": 3948,
-    "range": [
-      3942,
-      3948
-    ]
+    "end": 3948
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3948,
-    "end": 3949,
-    "range": [
-      3948,
-      3949
-    ]
+    "end": 3949
   },
   {
     "type": "String",
     "value": "'./define-own-property_FIXTURE.js'",
     "start": 3949,
-    "end": 3983,
-    "range": [
-      3949,
-      3983
-    ]
+    "end": 3983
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3983,
-    "end": 3984,
-    "range": [
-      3983,
-      3984
-    ]
+    "end": 3984
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3984,
-    "end": 3985,
-    "range": [
-      3984,
-      3985
-    ]
+    "end": 3985
   },
   {
     "type": "Keyword",
     "value": "for",
     "start": 4024,
-    "end": 4027,
-    "range": [
-      4024,
-      4027
-    ]
+    "end": 4027
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4028,
-    "end": 4029,
-    "range": [
-      4028,
-      4029
-    ]
+    "end": 4029
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 4029,
-    "end": 4034,
-    "range": [
-      4029,
-      4034
-    ]
+    "end": 4034
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4035,
-    "end": 4038,
-    "range": [
-      4035,
-      4038
-    ]
+    "end": 4038
   },
   {
     "type": "Identifier",
     "value": "of",
     "start": 4039,
-    "end": 4041,
-    "range": [
-      4039,
-      4041
-    ]
+    "end": 4041
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 4042,
-    "end": 4043,
-    "range": [
-      4042,
-      4043
-    ]
+    "end": 4043
   },
   {
     "type": "String",
     "value": "'local2'",
     "start": 4043,
-    "end": 4051,
-    "range": [
-      4043,
-      4051
-    ]
+    "end": 4051
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4051,
-    "end": 4052,
-    "range": [
-      4051,
-      4052
-    ]
+    "end": 4052
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 4053,
-    "end": 4054,
-    "range": [
-      4053,
-      4054
-    ]
+    "end": 4054
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4054,
-    "end": 4055,
-    "range": [
-      4054,
-      4055
-    ]
+    "end": 4055
   },
   {
     "type": "Identifier",
     "value": "sym",
     "start": 4056,
-    "end": 4059,
-    "range": [
-      4056,
-      4059
-    ]
+    "end": 4059
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4059,
-    "end": 4060,
-    "range": [
-      4059,
-      4060
-    ]
+    "end": 4060
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 4061,
-    "end": 4067,
-    "range": [
-      4061,
-      4067
-    ]
+    "end": 4067
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4067,
-    "end": 4068,
-    "range": [
-      4067,
-      4068
-    ]
+    "end": 4068
   },
   {
     "type": "Identifier",
     "value": "iterator",
     "start": 4068,
-    "end": 4076,
-    "range": [
-      4068,
-      4076
-    ]
+    "end": 4076
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 4076,
-    "end": 4077,
-    "range": [
-      4076,
-      4077
-    ]
+    "end": 4077
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4077,
-    "end": 4078,
-    "range": [
-      4077,
-      4078
-    ]
+    "end": 4078
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4079,
-    "end": 4080,
-    "range": [
-      4079,
-      4080
-    ]
+    "end": 4080
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4087,
-    "end": 4093,
-    "range": [
-      4087,
-      4093
-    ]
+    "end": 4093
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4093,
-    "end": 4094,
-    "range": [
-      4093,
-      4094
-    ]
+    "end": 4094
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4094,
-    "end": 4103,
-    "range": [
-      4094,
-      4103
-    ]
+    "end": 4103
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4103,
-    "end": 4104,
-    "range": [
-      4103,
-      4104
-    ]
+    "end": 4104
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 4113,
-    "end": 4120,
-    "range": [
-      4113,
-      4120
-    ]
+    "end": 4120
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4120,
-    "end": 4121,
-    "range": [
-      4120,
-      4121
-    ]
+    "end": 4121
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 4121,
-    "end": 4135,
-    "range": [
-      4121,
-      4135
-    ]
+    "end": 4135
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4135,
-    "end": 4136,
-    "range": [
-      4135,
-      4136
-    ]
+    "end": 4136
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 4136,
-    "end": 4138,
-    "range": [
-      4136,
-      4138
-    ]
+    "end": 4138
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4138,
-    "end": 4139,
-    "range": [
-      4138,
-      4139
-    ]
+    "end": 4139
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4140,
-    "end": 4143,
-    "range": [
-      4140,
-      4143
-    ]
+    "end": 4143
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4143,
-    "end": 4144,
-    "range": [
-      4143,
-      4144
-    ]
+    "end": 4144
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4145,
-    "end": 4146,
-    "range": [
-      4145,
-      4146
-    ]
+    "end": 4146
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4146,
-    "end": 4147,
-    "range": [
-      4146,
-      4147
-    ]
+    "end": 4147
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4147,
-    "end": 4148,
-    "range": [
-      4147,
-      4148
-    ]
+    "end": 4148
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4148,
-    "end": 4149,
-    "range": [
-      4148,
-      4149
-    ]
+    "end": 4149
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 4158,
-    "end": 4163,
-    "range": [
-      4158,
-      4163
-    ]
+    "end": 4163
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4163,
-    "end": 4164,
-    "range": [
-      4163,
-      4164
-    ]
+    "end": 4164
   },
   {
     "type": "String",
     "value": "'Reflect.defineProperty: '",
     "start": 4173,
-    "end": 4199,
-    "range": [
-      4173,
-      4199
-    ]
+    "end": 4199
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4200,
-    "end": 4201,
-    "range": [
-      4200,
-      4201
-    ]
+    "end": 4201
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4202,
-    "end": 4205,
-    "range": [
-      4202,
-      4205
-    ]
+    "end": 4205
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4205,
-    "end": 4206,
-    "range": [
-      4205,
-      4206
-    ]
+    "end": 4206
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 4206,
-    "end": 4214,
-    "range": [
-      4206,
-      4214
-    ]
+    "end": 4214
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4214,
-    "end": 4215,
-    "range": [
-      4214,
-      4215
-    ]
+    "end": 4215
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4215,
-    "end": 4216,
-    "range": [
-      4215,
-      4216
-    ]
+    "end": 4216
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4223,
-    "end": 4224,
-    "range": [
-      4223,
-      4224
-    ]
+    "end": 4224
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4224,
-    "end": 4225,
-    "range": [
-      4224,
-      4225
-    ]
+    "end": 4225
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4232,
-    "end": 4238,
-    "range": [
-      4232,
-      4238
-    ]
+    "end": 4238
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4238,
-    "end": 4239,
-    "range": [
-      4238,
-      4239
-    ]
+    "end": 4239
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 4239,
-    "end": 4245,
-    "range": [
-      4239,
-      4245
-    ]
+    "end": 4245
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4245,
-    "end": 4246,
-    "range": [
-      4245,
-      4246
-    ]
+    "end": 4246
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 4246,
-    "end": 4255,
-    "range": [
-      4246,
-      4255
-    ]
+    "end": 4255
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4255,
-    "end": 4256,
-    "range": [
-      4255,
-      4256
-    ]
+    "end": 4256
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 4257,
-    "end": 4265,
-    "range": [
-      4257,
-      4265
-    ]
+    "end": 4265
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4265,
-    "end": 4266,
-    "range": [
-      4265,
-      4266
-    ]
+    "end": 4266
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4266,
-    "end": 4267,
-    "range": [
-      4266,
-      4267
-    ]
+    "end": 4267
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4268,
-    "end": 4269,
-    "range": [
-      4268,
-      4269
-    ]
+    "end": 4269
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 4278,
-    "end": 4284,
-    "range": [
-      4278,
-      4284
-    ]
+    "end": 4284
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4284,
-    "end": 4285,
-    "range": [
-      4284,
-      4285
-    ]
+    "end": 4285
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 4285,
-    "end": 4299,
-    "range": [
-      4285,
-      4299
-    ]
+    "end": 4299
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4299,
-    "end": 4300,
-    "range": [
-      4299,
-      4300
-    ]
+    "end": 4300
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 4300,
-    "end": 4302,
-    "range": [
-      4300,
-      4302
-    ]
+    "end": 4302
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4302,
-    "end": 4303,
-    "range": [
-      4302,
-      4303
-    ]
+    "end": 4303
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4304,
-    "end": 4307,
-    "range": [
-      4304,
-      4307
-    ]
+    "end": 4307
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4307,
-    "end": 4308,
-    "range": [
-      4307,
-      4308
-    ]
+    "end": 4308
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4309,
-    "end": 4310,
-    "range": [
-      4309,
-      4310
-    ]
+    "end": 4310
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4310,
-    "end": 4311,
-    "range": [
-      4310,
-      4311
-    ]
+    "end": 4311
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4311,
-    "end": 4312,
-    "range": [
-      4311,
-      4312
-    ]
+    "end": 4312
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4312,
-    "end": 4313,
-    "range": [
-      4312,
-      4313
-    ]
+    "end": 4313
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4320,
-    "end": 4321,
-    "range": [
-      4320,
-      4321
-    ]
+    "end": 4321
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4321,
-    "end": 4322,
-    "range": [
-      4321,
-      4322
-    ]
+    "end": 4322
   },
   {
     "type": "String",
     "value": "'Object.defineProperty: '",
     "start": 4323,
-    "end": 4348,
-    "range": [
-      4323,
-      4348
-    ]
+    "end": 4348
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 4349,
-    "end": 4350,
-    "range": [
-      4349,
-      4350
-    ]
+    "end": 4350
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4351,
-    "end": 4354,
-    "range": [
-      4351,
-      4354
-    ]
+    "end": 4354
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4354,
-    "end": 4355,
-    "range": [
-      4354,
-      4355
-    ]
+    "end": 4355
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 4355,
-    "end": 4363,
-    "range": [
-      4355,
-      4363
-    ]
+    "end": 4363
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4363,
-    "end": 4364,
-    "range": [
-      4363,
-      4364
-    ]
+    "end": 4364
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4364,
-    "end": 4365,
-    "range": [
-      4364,
-      4365
-    ]
+    "end": 4365
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4365,
-    "end": 4366,
-    "range": [
-      4365,
-      4366
-    ]
+    "end": 4366
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4366,
-    "end": 4367,
-    "range": [
-      4366,
-      4367
-    ]
+    "end": 4367
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4372,
-    "end": 4373,
-    "range": [
-      4372,
-      4373
-    ]
+    "end": 4373
   },
   {
     "type": "Keyword",
     "value": "for",
     "start": 4424,
-    "end": 4427,
-    "range": [
-      4424,
-      4427
-    ]
+    "end": 4427
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4428,
-    "end": 4429,
-    "range": [
-      4428,
-      4429
-    ]
+    "end": 4429
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 4429,
-    "end": 4434,
-    "range": [
-      4429,
-      4434
-    ]
+    "end": 4434
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4435,
-    "end": 4438,
-    "range": [
-      4435,
-      4438
-    ]
+    "end": 4438
   },
   {
     "type": "Identifier",
     "value": "of",
     "start": 4439,
-    "end": 4441,
-    "range": [
-      4439,
-      4441
-    ]
+    "end": 4441
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4442,
-    "end": 4443,
-    "range": [
-      4442,
-      4443
-    ]
+    "end": 4443
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 4443,
-    "end": 4444,
-    "range": [
-      4443,
-      4444
-    ]
+    "end": 4444
   },
   {
     "type": "Punctuator",
     "value": "...",
     "start": 4444,
-    "end": 4447,
-    "range": [
-      4444,
-      4447
-    ]
+    "end": 4447
   },
   {
     "type": "Identifier",
     "value": "exported",
     "start": 4447,
-    "end": 4455,
-    "range": [
-      4447,
-      4455
-    ]
+    "end": 4455
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4455,
-    "end": 4456,
-    "range": [
-      4455,
-      4456
-    ]
+    "end": 4456
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 4457,
-    "end": 4463,
-    "range": [
-      4457,
-      4463
-    ]
+    "end": 4463
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4463,
-    "end": 4464,
-    "range": [
-      4463,
-      4464
-    ]
+    "end": 4464
   },
   {
     "type": "Identifier",
     "value": "toStringTag",
     "start": 4464,
-    "end": 4475,
-    "range": [
-      4464,
-      4475
-    ]
+    "end": 4475
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 4475,
-    "end": 4476,
-    "range": [
-      4475,
-      4476
-    ]
+    "end": 4476
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4476,
-    "end": 4477,
-    "range": [
-      4476,
-      4477
-    ]
+    "end": 4477
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4477,
-    "end": 4478,
-    "range": [
-      4477,
-      4478
-    ]
+    "end": 4478
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4479,
-    "end": 4480,
-    "range": [
-      4479,
-      4480
-    ]
+    "end": 4480
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4487,
-    "end": 4493,
-    "range": [
-      4487,
-      4493
-    ]
+    "end": 4493
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4493,
-    "end": 4494,
-    "range": [
-      4493,
-      4494
-    ]
+    "end": 4494
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4494,
-    "end": 4503,
-    "range": [
-      4494,
-      4503
-    ]
+    "end": 4503
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4503,
-    "end": 4504,
-    "range": [
-      4503,
-      4504
-    ]
+    "end": 4504
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 4513,
-    "end": 4520,
-    "range": [
-      4513,
-      4520
-    ]
+    "end": 4520
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4520,
-    "end": 4521,
-    "range": [
-      4520,
-      4521
-    ]
+    "end": 4521
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 4521,
-    "end": 4535,
-    "range": [
-      4521,
-      4535
-    ]
+    "end": 4535
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4535,
-    "end": 4536,
-    "range": [
-      4535,
-      4536
-    ]
+    "end": 4536
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 4536,
-    "end": 4538,
-    "range": [
-      4536,
-      4538
-    ]
+    "end": 4538
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4538,
-    "end": 4539,
-    "range": [
-      4538,
-      4539
-    ]
+    "end": 4539
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4540,
-    "end": 4543,
-    "range": [
-      4540,
-      4543
-    ]
+    "end": 4543
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4543,
-    "end": 4544,
-    "range": [
-      4543,
-      4544
-    ]
+    "end": 4544
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4545,
-    "end": 4546,
-    "range": [
-      4545,
-      4546
-    ]
+    "end": 4546
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4546,
-    "end": 4547,
-    "range": [
-      4546,
-      4547
-    ]
+    "end": 4547
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4547,
-    "end": 4548,
-    "range": [
-      4547,
-      4548
-    ]
+    "end": 4548
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4548,
-    "end": 4549,
-    "range": [
-      4548,
-      4549
-    ]
+    "end": 4549
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 4558,
-    "end": 4562,
-    "range": [
-      4558,
-      4562
-    ]
+    "end": 4562
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4562,
-    "end": 4563,
-    "range": [
-      4562,
-      4563
-    ]
+    "end": 4563
   },
   {
     "type": "Template",
-    "value": "`No change requested, Reflect.defineProperty: ${",
-    "start": 4572,
-    "end": 4620,
-    "range": [
-      4572,
-      4620
-    ]
+    "value": "`No change requested, Reflect.defineProperty: ${"
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4620,
-    "end": 4623,
-    "range": [
-      4620,
-      4623
-    ]
+    "end": 4623
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4623,
-    "end": 4624,
-    "range": [
-      4623,
-      4624
-    ]
+    "end": 4624
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 4624,
-    "end": 4632,
-    "range": [
-      4624,
-      4632
-    ]
+    "end": 4632
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4632,
-    "end": 4633,
-    "range": [
-      4632,
-      4633
-    ]
+    "end": 4633
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4633,
-    "end": 4634,
-    "range": [
-      4633,
-      4634
-    ]
+    "end": 4634
   },
   {
     "type": "Template",
-    "value": "}`",
-    "start": 4634,
-    "end": 4636,
-    "range": [
-      4634,
-      4636
-    ]
+    "value": "}`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4643,
-    "end": 4644,
-    "range": [
-      4643,
-      4644
-    ]
+    "end": 4644
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4644,
-    "end": 4645,
-    "range": [
-      4644,
-      4645
-    ]
+    "end": 4645
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4652,
-    "end": 4658,
-    "range": [
-      4652,
-      4658
-    ]
+    "end": 4658
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4658,
-    "end": 4659,
-    "range": [
-      4658,
-      4659
-    ]
+    "end": 4659
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4659,
-    "end": 4668,
-    "range": [
-      4659,
-      4668
-    ]
+    "end": 4668
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4668,
-    "end": 4669,
-    "range": [
-      4668,
-      4669
-    ]
+    "end": 4669
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 4678,
-    "end": 4684,
-    "range": [
-      4678,
-      4684
-    ]
+    "end": 4684
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4684,
-    "end": 4685,
-    "range": [
-      4684,
-      4685
-    ]
+    "end": 4685
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 4685,
-    "end": 4699,
-    "range": [
-      4685,
-      4699
-    ]
+    "end": 4699
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4699,
-    "end": 4700,
-    "range": [
-      4699,
-      4700
-    ]
+    "end": 4700
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 4700,
-    "end": 4702,
-    "range": [
-      4700,
-      4702
-    ]
+    "end": 4702
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4702,
-    "end": 4703,
-    "range": [
-      4702,
-      4703
-    ]
+    "end": 4703
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4704,
-    "end": 4707,
-    "range": [
-      4704,
-      4707
-    ]
+    "end": 4707
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4707,
-    "end": 4708,
-    "range": [
-      4707,
-      4708
-    ]
+    "end": 4708
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4709,
-    "end": 4710,
-    "range": [
-      4709,
-      4710
-    ]
+    "end": 4710
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4710,
-    "end": 4711,
-    "range": [
-      4710,
-      4711
-    ]
+    "end": 4711
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4711,
-    "end": 4712,
-    "range": [
-      4711,
-      4712
-    ]
+    "end": 4712
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4712,
-    "end": 4713,
-    "range": [
-      4712,
-      4713
-    ]
+    "end": 4713
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 4722,
-    "end": 4724,
-    "range": [
-      4722,
-      4724
-    ]
+    "end": 4724
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4724,
-    "end": 4725,
-    "range": [
-      4724,
-      4725
-    ]
+    "end": 4725
   },
   {
     "type": "Template",
-    "value": "`No change requested, Object.defineProperty: ${",
-    "start": 4734,
-    "end": 4781,
-    "range": [
-      4734,
-      4781
-    ]
+    "value": "`No change requested, Object.defineProperty: ${"
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 4781,
-    "end": 4784,
-    "range": [
-      4781,
-      4784
-    ]
+    "end": 4784
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4784,
-    "end": 4785,
-    "range": [
-      4784,
-      4785
-    ]
+    "end": 4785
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 4785,
-    "end": 4793,
-    "range": [
-      4785,
-      4793
-    ]
+    "end": 4793
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4793,
-    "end": 4794,
-    "range": [
-      4793,
-      4794
-    ]
+    "end": 4794
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4794,
-    "end": 4795,
-    "range": [
-      4794,
-      4795
-    ]
+    "end": 4795
   },
   {
     "type": "Template",
-    "value": "}`",
-    "start": 4795,
-    "end": 4797,
-    "range": [
-      4795,
-      4797
-    ]
+    "value": "}`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4804,
-    "end": 4805,
-    "range": [
-      4804,
-      4805
-    ]
+    "end": 4805
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4805,
-    "end": 4806,
-    "range": [
-      4805,
-      4806
-    ]
+    "end": 4806
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4812,
-    "end": 4813,
-    "range": [
-      4812,
-      4813
-    ]
+    "end": 4813
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4819,
-    "end": 4825,
-    "range": [
-      4819,
-      4825
-    ]
+    "end": 4825
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4825,
-    "end": 4826,
-    "range": [
-      4825,
-      4826
-    ]
+    "end": 4826
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4826,
-    "end": 4835,
-    "range": [
-      4826,
-      4835
-    ]
+    "end": 4835
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4835,
-    "end": 4836,
-    "range": [
-      4835,
-      4836
-    ]
+    "end": 4836
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 4843,
-    "end": 4850,
-    "range": [
-      4843,
-      4850
-    ]
+    "end": 4850
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4850,
-    "end": 4851,
-    "range": [
-      4850,
-      4851
-    ]
+    "end": 4851
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 4851,
-    "end": 4865,
-    "range": [
-      4851,
-      4865
-    ]
+    "end": 4865
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4865,
-    "end": 4866,
-    "range": [
-      4865,
-      4866
-    ]
+    "end": 4866
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 4866,
-    "end": 4868,
-    "range": [
-      4866,
-      4868
-    ]
+    "end": 4868
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4868,
-    "end": 4869,
-    "range": [
-      4868,
-      4869
-    ]
+    "end": 4869
   },
   {
     "type": "String",
     "value": "'indirect'",
     "start": 4870,
-    "end": 4880,
-    "range": [
-      4870,
-      4880
-    ]
+    "end": 4880
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4880,
-    "end": 4881,
-    "range": [
-      4880,
-      4881
-    ]
+    "end": 4881
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 4892,
-    "end": 4893,
-    "range": [
-      4892,
-      4893
-    ]
+    "end": 4893
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 4893,
-    "end": 4901,
-    "range": [
-      4893,
-      4901
-    ]
+    "end": 4901
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 4901,
-    "end": 4902,
-    "range": [
-      4901,
-      4902
-    ]
+    "end": 4902
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 4903,
-    "end": 4907,
-    "range": [
-      4903,
-      4907
-    ]
+    "end": 4907
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4907,
-    "end": 4908,
-    "range": [
-      4907,
-      4908
-    ]
+    "end": 4908
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 4909,
-    "end": 4919,
-    "range": [
-      4909,
-      4919
-    ]
+    "end": 4919
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 4919,
-    "end": 4920,
-    "range": [
-      4919,
-      4920
-    ]
+    "end": 4920
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 4921,
-    "end": 4925,
-    "range": [
-      4921,
-      4925
-    ]
+    "end": 4925
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4925,
-    "end": 4926,
-    "range": [
-      4925,
-      4926
-    ]
+    "end": 4926
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 4927,
-    "end": 4939,
-    "range": [
-      4927,
-      4939
-    ]
+    "end": 4939
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 4939,
-    "end": 4940,
-    "range": [
-      4939,
-      4940
-    ]
+    "end": 4940
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 4941,
-    "end": 4946,
-    "range": [
-      4941,
-      4946
-    ]
+    "end": 4946
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4946,
-    "end": 4947,
-    "range": [
-      4946,
-      4947
-    ]
+    "end": 4947
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4947,
-    "end": 4948,
-    "range": [
-      4947,
-      4948
-    ]
+    "end": 4948
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4948,
-    "end": 4949,
-    "range": [
-      4948,
-      4949
-    ]
+    "end": 4949
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 4956,
-    "end": 4960,
-    "range": [
-      4956,
-      4960
-    ]
+    "end": 4960
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4960,
-    "end": 4961,
-    "range": [
-      4960,
-      4961
-    ]
+    "end": 4961
   },
   {
     "type": "String",
     "value": "'Reflect.defineProperty: indirect'",
     "start": 4968,
-    "end": 5002,
-    "range": [
-      4968,
-      5002
-    ]
+    "end": 5002
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5007,
-    "end": 5008,
-    "range": [
-      5007,
-      5008
-    ]
+    "end": 5008
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5008,
-    "end": 5009,
-    "range": [
-      5008,
-      5009
-    ]
+    "end": 5009
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5014,
-    "end": 5020,
-    "range": [
-      5014,
-      5020
-    ]
+    "end": 5020
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5020,
-    "end": 5021,
-    "range": [
-      5020,
-      5021
-    ]
+    "end": 5021
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5021,
-    "end": 5030,
-    "range": [
-      5021,
-      5030
-    ]
+    "end": 5030
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5030,
-    "end": 5031,
-    "range": [
-      5030,
-      5031
-    ]
+    "end": 5031
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 5038,
-    "end": 5044,
-    "range": [
-      5038,
-      5044
-    ]
+    "end": 5044
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5044,
-    "end": 5045,
-    "range": [
-      5044,
-      5045
-    ]
+    "end": 5045
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 5045,
-    "end": 5059,
-    "range": [
-      5045,
-      5059
-    ]
+    "end": 5059
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5059,
-    "end": 5060,
-    "range": [
-      5059,
-      5060
-    ]
+    "end": 5060
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 5060,
-    "end": 5062,
-    "range": [
-      5060,
-      5062
-    ]
+    "end": 5062
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5062,
-    "end": 5063,
-    "range": [
-      5062,
-      5063
-    ]
+    "end": 5063
   },
   {
     "type": "String",
     "value": "'indirect'",
     "start": 5064,
-    "end": 5074,
-    "range": [
-      5064,
-      5074
-    ]
+    "end": 5074
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5074,
-    "end": 5075,
-    "range": [
-      5074,
-      5075
-    ]
+    "end": 5075
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 5086,
-    "end": 5087,
-    "range": [
-      5086,
-      5087
-    ]
+    "end": 5087
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 5087,
-    "end": 5095,
-    "range": [
-      5087,
-      5095
-    ]
+    "end": 5095
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5095,
-    "end": 5096,
-    "range": [
-      5095,
-      5096
-    ]
+    "end": 5096
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 5097,
-    "end": 5101,
-    "range": [
-      5097,
-      5101
-    ]
+    "end": 5101
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5101,
-    "end": 5102,
-    "range": [
-      5101,
-      5102
-    ]
+    "end": 5102
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 5103,
-    "end": 5113,
-    "range": [
-      5103,
-      5113
-    ]
+    "end": 5113
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5113,
-    "end": 5114,
-    "range": [
-      5113,
-      5114
-    ]
+    "end": 5114
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 5115,
-    "end": 5119,
-    "range": [
-      5115,
-      5119
-    ]
+    "end": 5119
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5119,
-    "end": 5120,
-    "range": [
-      5119,
-      5120
-    ]
+    "end": 5120
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 5121,
-    "end": 5133,
-    "range": [
-      5121,
-      5133
-    ]
+    "end": 5133
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5133,
-    "end": 5134,
-    "range": [
-      5133,
-      5134
-    ]
+    "end": 5134
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5135,
-    "end": 5140,
-    "range": [
-      5135,
-      5140
-    ]
+    "end": 5140
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 5140,
-    "end": 5141,
-    "range": [
-      5140,
-      5141
-    ]
+    "end": 5141
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5141,
-    "end": 5142,
-    "range": [
-      5141,
-      5142
-    ]
+    "end": 5142
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5142,
-    "end": 5143,
-    "range": [
-      5142,
-      5143
-    ]
+    "end": 5143
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 5150,
-    "end": 5152,
-    "range": [
-      5150,
-      5152
-    ]
+    "end": 5152
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5152,
-    "end": 5153,
-    "range": [
-      5152,
-      5153
-    ]
+    "end": 5153
   },
   {
     "type": "String",
     "value": "'Object.defineProperty: indirect'",
     "start": 5160,
-    "end": 5193,
-    "range": [
-      5160,
-      5193
-    ]
+    "end": 5193
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5198,
-    "end": 5199,
-    "range": [
-      5198,
-      5199
-    ]
+    "end": 5199
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5199,
-    "end": 5200,
-    "range": [
-      5199,
-      5200
-    ]
+    "end": 5200
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5206,
-    "end": 5212,
-    "range": [
-      5206,
-      5212
-    ]
+    "end": 5212
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5212,
-    "end": 5213,
-    "range": [
-      5212,
-      5213
-    ]
+    "end": 5213
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5213,
-    "end": 5222,
-    "range": [
-      5213,
-      5222
-    ]
+    "end": 5222
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5222,
-    "end": 5223,
-    "range": [
-      5222,
-      5223
-    ]
+    "end": 5223
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 5230,
-    "end": 5237,
-    "range": [
-      5230,
-      5237
-    ]
+    "end": 5237
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5237,
-    "end": 5238,
-    "range": [
-      5237,
-      5238
-    ]
+    "end": 5238
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 5238,
-    "end": 5252,
-    "range": [
-      5238,
-      5252
-    ]
+    "end": 5252
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5252,
-    "end": 5253,
-    "range": [
-      5252,
-      5253
-    ]
+    "end": 5253
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 5253,
-    "end": 5255,
-    "range": [
-      5253,
-      5255
-    ]
+    "end": 5255
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5255,
-    "end": 5256,
-    "range": [
-      5255,
-      5256
-    ]
+    "end": 5256
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 5257,
-    "end": 5263,
-    "range": [
-      5257,
-      5263
-    ]
+    "end": 5263
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5263,
-    "end": 5264,
-    "range": [
-      5263,
-      5264
-    ]
+    "end": 5264
   },
   {
     "type": "Identifier",
     "value": "toStringTag",
     "start": 5264,
-    "end": 5275,
-    "range": [
-      5264,
-      5275
-    ]
+    "end": 5275
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5275,
-    "end": 5276,
-    "range": [
-      5275,
-      5276
-    ]
+    "end": 5276
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 5287,
-    "end": 5288,
-    "range": [
-      5287,
-      5288
-    ]
+    "end": 5288
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 5288,
-    "end": 5293,
-    "range": [
-      5288,
-      5293
-    ]
+    "end": 5293
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5293,
-    "end": 5294,
-    "range": [
-      5293,
-      5294
-    ]
+    "end": 5294
   },
   {
     "type": "String",
     "value": "\"Module\"",
     "start": 5295,
-    "end": 5303,
-    "range": [
-      5295,
-      5303
-    ]
+    "end": 5303
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5303,
-    "end": 5304,
-    "range": [
-      5303,
-      5304
-    ]
+    "end": 5304
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 5305,
-    "end": 5313,
-    "range": [
-      5305,
-      5313
-    ]
+    "end": 5313
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5313,
-    "end": 5314,
-    "range": [
-      5313,
-      5314
-    ]
+    "end": 5314
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5315,
-    "end": 5320,
-    "range": [
-      5315,
-      5320
-    ]
+    "end": 5320
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5320,
-    "end": 5321,
-    "range": [
-      5320,
-      5321
-    ]
+    "end": 5321
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 5322,
-    "end": 5332,
-    "range": [
-      5322,
-      5332
-    ]
+    "end": 5332
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5332,
-    "end": 5333,
-    "range": [
-      5332,
-      5333
-    ]
+    "end": 5333
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5334,
-    "end": 5339,
-    "range": [
-      5334,
-      5339
-    ]
+    "end": 5339
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5339,
-    "end": 5340,
-    "range": [
-      5339,
-      5340
-    ]
+    "end": 5340
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 5352,
-    "end": 5364,
-    "range": [
-      5352,
-      5364
-    ]
+    "end": 5364
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5364,
-    "end": 5365,
-    "range": [
-      5364,
-      5365
-    ]
+    "end": 5365
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5366,
-    "end": 5371,
-    "range": [
-      5366,
-      5371
-    ]
+    "end": 5371
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 5371,
-    "end": 5372,
-    "range": [
-      5371,
-      5372
-    ]
+    "end": 5372
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5372,
-    "end": 5373,
-    "range": [
-      5372,
-      5373
-    ]
+    "end": 5373
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5373,
-    "end": 5374,
-    "range": [
-      5373,
-      5374
-    ]
+    "end": 5374
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 5381,
-    "end": 5385,
-    "range": [
-      5381,
-      5385
-    ]
+    "end": 5385
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5385,
-    "end": 5386,
-    "range": [
-      5385,
-      5386
-    ]
+    "end": 5386
   },
   {
     "type": "String",
     "value": "'Reflect.defineProperty: Symbol.toStringTag'",
     "start": 5393,
-    "end": 5437,
-    "range": [
-      5393,
-      5437
-    ]
+    "end": 5437
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5442,
-    "end": 5443,
-    "range": [
-      5442,
-      5443
-    ]
+    "end": 5443
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5443,
-    "end": 5444,
-    "range": [
-      5443,
-      5444
-    ]
+    "end": 5444
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5449,
-    "end": 5455,
-    "range": [
-      5449,
-      5455
-    ]
+    "end": 5455
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5455,
-    "end": 5456,
-    "range": [
-      5455,
-      5456
-    ]
+    "end": 5456
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5456,
-    "end": 5465,
-    "range": [
-      5456,
-      5465
-    ]
+    "end": 5465
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5465,
-    "end": 5466,
-    "range": [
-      5465,
-      5466
-    ]
+    "end": 5466
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 5473,
-    "end": 5479,
-    "range": [
-      5473,
-      5479
-    ]
+    "end": 5479
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5479,
-    "end": 5480,
-    "range": [
-      5479,
-      5480
-    ]
+    "end": 5480
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 5480,
-    "end": 5494,
-    "range": [
-      5480,
-      5494
-    ]
+    "end": 5494
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5494,
-    "end": 5495,
-    "range": [
-      5494,
-      5495
-    ]
+    "end": 5495
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 5495,
-    "end": 5497,
-    "range": [
-      5495,
-      5497
-    ]
+    "end": 5497
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5497,
-    "end": 5498,
-    "range": [
-      5497,
-      5498
-    ]
+    "end": 5498
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 5499,
-    "end": 5505,
-    "range": [
-      5499,
-      5505
-    ]
+    "end": 5505
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5505,
-    "end": 5506,
-    "range": [
-      5505,
-      5506
-    ]
+    "end": 5506
   },
   {
     "type": "Identifier",
     "value": "toStringTag",
     "start": 5506,
-    "end": 5517,
-    "range": [
-      5506,
-      5517
-    ]
+    "end": 5517
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5517,
-    "end": 5518,
-    "range": [
-      5517,
-      5518
-    ]
+    "end": 5518
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 5529,
-    "end": 5530,
-    "range": [
-      5529,
-      5530
-    ]
+    "end": 5530
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 5530,
-    "end": 5535,
-    "range": [
-      5530,
-      5535
-    ]
+    "end": 5535
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5535,
-    "end": 5536,
-    "range": [
-      5535,
-      5536
-    ]
+    "end": 5536
   },
   {
     "type": "String",
     "value": "\"Module\"",
     "start": 5537,
-    "end": 5545,
-    "range": [
-      5537,
-      5545
-    ]
+    "end": 5545
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5545,
-    "end": 5546,
-    "range": [
-      5545,
-      5546
-    ]
+    "end": 5546
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 5547,
-    "end": 5555,
-    "range": [
-      5547,
-      5555
-    ]
+    "end": 5555
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5555,
-    "end": 5556,
-    "range": [
-      5555,
-      5556
-    ]
+    "end": 5556
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5557,
-    "end": 5562,
-    "range": [
-      5557,
-      5562
-    ]
+    "end": 5562
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5562,
-    "end": 5563,
-    "range": [
-      5562,
-      5563
-    ]
+    "end": 5563
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 5564,
-    "end": 5574,
-    "range": [
-      5564,
-      5574
-    ]
+    "end": 5574
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5574,
-    "end": 5575,
-    "range": [
-      5574,
-      5575
-    ]
+    "end": 5575
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5576,
-    "end": 5581,
-    "range": [
-      5576,
-      5581
-    ]
+    "end": 5581
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5581,
-    "end": 5582,
-    "range": [
-      5581,
-      5582
-    ]
+    "end": 5582
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 5594,
-    "end": 5606,
-    "range": [
-      5594,
-      5606
-    ]
+    "end": 5606
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5606,
-    "end": 5607,
-    "range": [
-      5606,
-      5607
-    ]
+    "end": 5607
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5608,
-    "end": 5613,
-    "range": [
-      5608,
-      5613
-    ]
+    "end": 5613
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 5613,
-    "end": 5614,
-    "range": [
-      5613,
-      5614
-    ]
+    "end": 5614
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5614,
-    "end": 5615,
-    "range": [
-      5614,
-      5615
-    ]
+    "end": 5615
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5615,
-    "end": 5616,
-    "range": [
-      5615,
-      5616
-    ]
+    "end": 5616
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 5623,
-    "end": 5625,
-    "range": [
-      5623,
-      5625
-    ]
+    "end": 5625
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5625,
-    "end": 5626,
-    "range": [
-      5625,
-      5626
-    ]
+    "end": 5626
   },
   {
     "type": "String",
     "value": "'Object.defineProperty: Symbol.toStringTag'",
     "start": 5633,
-    "end": 5676,
-    "range": [
-      5633,
-      5676
-    ]
+    "end": 5676
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5681,
-    "end": 5682,
-    "range": [
-      5681,
-      5682
-    ]
+    "end": 5682
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5682,
-    "end": 5683,
-    "range": [
-      5682,
-      5683
-    ]
+    "end": 5683
   },
   {
     "type": "Keyword",
     "value": "for",
     "start": 5732,
-    "end": 5735,
-    "range": [
-      5732,
-      5735
-    ]
+    "end": 5735
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5736,
-    "end": 5737,
-    "range": [
-      5736,
-      5737
-    ]
+    "end": 5737
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 5737,
-    "end": 5742,
-    "range": [
-      5737,
-      5742
-    ]
+    "end": 5742
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 5743,
-    "end": 5746,
-    "range": [
-      5743,
-      5746
-    ]
+    "end": 5746
   },
   {
     "type": "Identifier",
     "value": "of",
     "start": 5747,
-    "end": 5749,
-    "range": [
-      5747,
-      5749
-    ]
+    "end": 5749
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5750,
-    "end": 5751,
-    "range": [
-      5750,
-      5751
-    ]
+    "end": 5751
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 5751,
-    "end": 5752,
-    "range": [
-      5751,
-      5752
-    ]
+    "end": 5752
   },
   {
     "type": "Punctuator",
     "value": "...",
     "start": 5752,
-    "end": 5755,
-    "range": [
-      5752,
-      5755
-    ]
+    "end": 5755
   },
   {
     "type": "Identifier",
     "value": "exported",
     "start": 5755,
-    "end": 5763,
-    "range": [
-      5755,
-      5763
-    ]
+    "end": 5763
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5763,
-    "end": 5764,
-    "range": [
-      5763,
-      5764
-    ]
+    "end": 5764
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 5765,
-    "end": 5771,
-    "range": [
-      5765,
-      5771
-    ]
+    "end": 5771
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5771,
-    "end": 5772,
-    "range": [
-      5771,
-      5772
-    ]
+    "end": 5772
   },
   {
     "type": "Identifier",
     "value": "toStringTag",
     "start": 5772,
-    "end": 5783,
-    "range": [
-      5772,
-      5783
-    ]
+    "end": 5783
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 5783,
-    "end": 5784,
-    "range": [
-      5783,
-      5784
-    ]
+    "end": 5784
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5784,
-    "end": 5785,
-    "range": [
-      5784,
-      5785
-    ]
+    "end": 5785
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5785,
-    "end": 5786,
-    "range": [
-      5785,
-      5786
-    ]
+    "end": 5786
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 5787,
-    "end": 5788,
-    "range": [
-      5787,
-      5788
-    ]
+    "end": 5788
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5795,
-    "end": 5801,
-    "range": [
-      5795,
-      5801
-    ]
+    "end": 5801
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5801,
-    "end": 5802,
-    "range": [
-      5801,
-      5802
-    ]
+    "end": 5802
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5802,
-    "end": 5811,
-    "range": [
-      5802,
-      5811
-    ]
+    "end": 5811
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5811,
-    "end": 5812,
-    "range": [
-      5811,
-      5812
-    ]
+    "end": 5812
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 5821,
-    "end": 5828,
-    "range": [
-      5821,
-      5828
-    ]
+    "end": 5828
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5828,
-    "end": 5829,
-    "range": [
-      5828,
-      5829
-    ]
+    "end": 5829
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 5829,
-    "end": 5843,
-    "range": [
-      5829,
-      5843
-    ]
+    "end": 5843
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5843,
-    "end": 5844,
-    "range": [
-      5843,
-      5844
-    ]
+    "end": 5844
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 5844,
-    "end": 5846,
-    "range": [
-      5844,
-      5846
-    ]
+    "end": 5846
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5846,
-    "end": 5847,
-    "range": [
-      5846,
-      5847
-    ]
+    "end": 5847
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 5848,
-    "end": 5851,
-    "range": [
-      5848,
-      5851
-    ]
+    "end": 5851
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5851,
-    "end": 5852,
-    "range": [
-      5851,
-      5852
-    ]
+    "end": 5852
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 5853,
-    "end": 5854,
-    "range": [
-      5853,
-      5854
-    ]
+    "end": 5854
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 5854,
-    "end": 5859,
-    "range": [
-      5854,
-      5859
-    ]
+    "end": 5859
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5859,
-    "end": 5860,
-    "range": [
-      5859,
-      5860
-    ]
+    "end": 5860
   },
   {
     "type": "Numeric",
     "value": "123",
     "start": 5861,
-    "end": 5864,
-    "range": [
-      5861,
-      5864
-    ]
+    "end": 5864
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 5864,
-    "end": 5865,
-    "range": [
-      5864,
-      5865
-    ]
+    "end": 5865
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5865,
-    "end": 5866,
-    "range": [
-      5865,
-      5866
-    ]
+    "end": 5866
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5866,
-    "end": 5867,
-    "range": [
-      5866,
-      5867
-    ]
+    "end": 5867
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 5876,
-    "end": 5881,
-    "range": [
-      5876,
-      5881
-    ]
+    "end": 5881
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5881,
-    "end": 5882,
-    "range": [
-      5881,
-      5882
-    ]
+    "end": 5882
   },
   {
     "type": "Template",
-    "value": "`Change requested, Reflect.defineProperty: ${",
-    "start": 5891,
-    "end": 5936,
-    "range": [
-      5891,
-      5936
-    ]
+    "value": "`Change requested, Reflect.defineProperty: ${"
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 5936,
-    "end": 5939,
-    "range": [
-      5936,
-      5939
-    ]
+    "end": 5939
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5939,
-    "end": 5940,
-    "range": [
-      5939,
-      5940
-    ]
+    "end": 5940
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 5940,
-    "end": 5948,
-    "range": [
-      5940,
-      5948
-    ]
+    "end": 5948
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5948,
-    "end": 5949,
-    "range": [
-      5948,
-      5949
-    ]
+    "end": 5949
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5949,
-    "end": 5950,
-    "range": [
-      5949,
-      5950
-    ]
+    "end": 5950
   },
   {
     "type": "Template",
-    "value": "}`",
-    "start": 5950,
-    "end": 5952,
-    "range": [
-      5950,
-      5952
-    ]
+    "value": "}`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5959,
-    "end": 5960,
-    "range": [
-      5959,
-      5960
-    ]
+    "end": 5960
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5960,
-    "end": 5961,
-    "range": [
-      5960,
-      5961
-    ]
+    "end": 5961
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5968,
-    "end": 5974,
-    "range": [
-      5968,
-      5974
-    ]
+    "end": 5974
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5974,
-    "end": 5975,
-    "range": [
-      5974,
-      5975
-    ]
+    "end": 5975
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 5975,
-    "end": 5981,
-    "range": [
-      5975,
-      5981
-    ]
+    "end": 5981
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5981,
-    "end": 5982,
-    "range": [
-      5981,
-      5982
-    ]
+    "end": 5982
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 5982,
-    "end": 5991,
-    "range": [
-      5982,
-      5991
-    ]
+    "end": 5991
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5991,
-    "end": 5992,
-    "range": [
-      5991,
-      5992
-    ]
+    "end": 5992
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 5993,
-    "end": 6001,
-    "range": [
-      5993,
-      6001
-    ]
+    "end": 6001
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6001,
-    "end": 6002,
-    "range": [
-      6001,
-      6002
-    ]
+    "end": 6002
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6002,
-    "end": 6003,
-    "range": [
-      6002,
-      6003
-    ]
+    "end": 6003
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6004,
-    "end": 6005,
-    "range": [
-      6004,
-      6005
-    ]
+    "end": 6005
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 6014,
-    "end": 6020,
-    "range": [
-      6014,
-      6020
-    ]
+    "end": 6020
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6020,
-    "end": 6021,
-    "range": [
-      6020,
-      6021
-    ]
+    "end": 6021
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 6021,
-    "end": 6035,
-    "range": [
-      6021,
-      6035
-    ]
+    "end": 6035
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6035,
-    "end": 6036,
-    "range": [
-      6035,
-      6036
-    ]
+    "end": 6036
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 6036,
-    "end": 6038,
-    "range": [
-      6036,
-      6038
-    ]
+    "end": 6038
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6038,
-    "end": 6039,
-    "range": [
-      6038,
-      6039
-    ]
+    "end": 6039
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 6040,
-    "end": 6043,
-    "range": [
-      6040,
-      6043
-    ]
+    "end": 6043
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6043,
-    "end": 6044,
-    "range": [
-      6043,
-      6044
-    ]
+    "end": 6044
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6045,
-    "end": 6046,
-    "range": [
-      6045,
-      6046
-    ]
+    "end": 6046
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 6046,
-    "end": 6051,
-    "range": [
-      6046,
-      6051
-    ]
+    "end": 6051
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6051,
-    "end": 6052,
-    "range": [
-      6051,
-      6052
-    ]
+    "end": 6052
   },
   {
     "type": "Numeric",
     "value": "123",
     "start": 6053,
-    "end": 6056,
-    "range": [
-      6053,
-      6056
-    ]
+    "end": 6056
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6056,
-    "end": 6057,
-    "range": [
-      6056,
-      6057
-    ]
+    "end": 6057
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6057,
-    "end": 6058,
-    "range": [
-      6057,
-      6058
-    ]
+    "end": 6058
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6058,
-    "end": 6059,
-    "range": [
-      6058,
-      6059
-    ]
+    "end": 6059
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6066,
-    "end": 6067,
-    "range": [
-      6066,
-      6067
-    ]
+    "end": 6067
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6067,
-    "end": 6068,
-    "range": [
-      6067,
-      6068
-    ]
+    "end": 6068
   },
   {
     "type": "Template",
-    "value": "`Change requested, Object.defineProperty: ${",
-    "start": 6069,
-    "end": 6113,
-    "range": [
-      6069,
-      6113
-    ]
+    "value": "`Change requested, Object.defineProperty: ${"
   },
   {
     "type": "Identifier",
     "value": "key",
     "start": 6113,
-    "end": 6116,
-    "range": [
-      6113,
-      6116
-    ]
+    "end": 6116
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6116,
-    "end": 6117,
-    "range": [
-      6116,
-      6117
-    ]
+    "end": 6117
   },
   {
     "type": "Identifier",
     "value": "toString",
     "start": 6117,
-    "end": 6125,
-    "range": [
-      6117,
-      6125
-    ]
+    "end": 6125
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6125,
-    "end": 6126,
-    "range": [
-      6125,
-      6126
-    ]
+    "end": 6126
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6126,
-    "end": 6127,
-    "range": [
-      6126,
-      6127
-    ]
+    "end": 6127
   },
   {
     "type": "Template",
-    "value": "}`",
-    "start": 6127,
-    "end": 6129,
-    "range": [
-      6127,
-      6129
-    ]
+    "value": "}`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6129,
-    "end": 6130,
-    "range": [
-      6129,
-      6130
-    ]
+    "end": 6130
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6130,
-    "end": 6131,
-    "range": [
-      6130,
-      6131
-    ]
+    "end": 6131
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6136,
-    "end": 6137,
-    "range": [
-      6136,
-      6137
-    ]
+    "end": 6137
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6143,
-    "end": 6149,
-    "range": [
-      6143,
-      6149
-    ]
+    "end": 6149
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6149,
-    "end": 6150,
-    "range": [
-      6149,
-      6150
-    ]
+    "end": 6150
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6150,
-    "end": 6159,
-    "range": [
-      6150,
-      6159
-    ]
+    "end": 6159
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6159,
-    "end": 6160,
-    "range": [
-      6159,
-      6160
-    ]
+    "end": 6160
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 6167,
-    "end": 6174,
-    "range": [
-      6167,
-      6174
-    ]
+    "end": 6174
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6174,
-    "end": 6175,
-    "range": [
-      6174,
-      6175
-    ]
+    "end": 6175
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 6175,
-    "end": 6189,
-    "range": [
-      6175,
-      6189
-    ]
+    "end": 6189
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6189,
-    "end": 6190,
-    "range": [
-      6189,
-      6190
-    ]
+    "end": 6190
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 6190,
-    "end": 6192,
-    "range": [
-      6190,
-      6192
-    ]
+    "end": 6192
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6192,
-    "end": 6193,
-    "range": [
-      6192,
-      6193
-    ]
+    "end": 6193
   },
   {
     "type": "String",
     "value": "'indirect'",
     "start": 6194,
-    "end": 6204,
-    "range": [
-      6194,
-      6204
-    ]
+    "end": 6204
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6204,
-    "end": 6205,
-    "range": [
-      6204,
-      6205
-    ]
+    "end": 6205
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6216,
-    "end": 6217,
-    "range": [
-      6216,
-      6217
-    ]
+    "end": 6217
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 6217,
-    "end": 6225,
-    "range": [
-      6217,
-      6225
-    ]
+    "end": 6225
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6225,
-    "end": 6226,
-    "range": [
-      6225,
-      6226
-    ]
+    "end": 6226
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 6227,
-    "end": 6231,
-    "range": [
-      6227,
-      6231
-    ]
+    "end": 6231
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6231,
-    "end": 6232,
-    "range": [
-      6231,
-      6232
-    ]
+    "end": 6232
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 6233,
-    "end": 6243,
-    "range": [
-      6233,
-      6243
-    ]
+    "end": 6243
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6243,
-    "end": 6244,
-    "range": [
-      6243,
-      6244
-    ]
+    "end": 6244
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 6245,
-    "end": 6249,
-    "range": [
-      6245,
-      6249
-    ]
+    "end": 6249
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6249,
-    "end": 6250,
-    "range": [
-      6249,
-      6250
-    ]
+    "end": 6250
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 6251,
-    "end": 6263,
-    "range": [
-      6251,
-      6263
-    ]
+    "end": 6263
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6263,
-    "end": 6264,
-    "range": [
-      6263,
-      6264
-    ]
+    "end": 6264
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 6265,
-    "end": 6269,
-    "range": [
-      6265,
-      6269
-    ]
+    "end": 6269
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6269,
-    "end": 6270,
-    "range": [
-      6269,
-      6270
-    ]
+    "end": 6270
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6270,
-    "end": 6271,
-    "range": [
-      6270,
-      6271
-    ]
+    "end": 6271
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6271,
-    "end": 6272,
-    "range": [
-      6271,
-      6272
-    ]
+    "end": 6272
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6279,
-    "end": 6284,
-    "range": [
-      6279,
-      6284
-    ]
+    "end": 6284
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6284,
-    "end": 6285,
-    "range": [
-      6284,
-      6285
-    ]
+    "end": 6285
   },
   {
     "type": "String",
     "value": "'Reflect.defineProperty: indirect'",
     "start": 6292,
-    "end": 6326,
-    "range": [
-      6292,
-      6326
-    ]
+    "end": 6326
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6331,
-    "end": 6332,
-    "range": [
-      6331,
-      6332
-    ]
+    "end": 6332
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6332,
-    "end": 6333,
-    "range": [
-      6332,
-      6333
-    ]
+    "end": 6333
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6338,
-    "end": 6344,
-    "range": [
-      6338,
-      6344
-    ]
+    "end": 6344
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6344,
-    "end": 6345,
-    "range": [
-      6344,
-      6345
-    ]
+    "end": 6345
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 6345,
-    "end": 6351,
-    "range": [
-      6345,
-      6351
-    ]
+    "end": 6351
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6351,
-    "end": 6352,
-    "range": [
-      6351,
-      6352
-    ]
+    "end": 6352
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 6352,
-    "end": 6361,
-    "range": [
-      6352,
-      6361
-    ]
+    "end": 6361
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6361,
-    "end": 6362,
-    "range": [
-      6361,
-      6362
-    ]
+    "end": 6362
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 6363,
-    "end": 6371,
-    "range": [
-      6363,
-      6371
-    ]
+    "end": 6371
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6371,
-    "end": 6372,
-    "range": [
-      6371,
-      6372
-    ]
+    "end": 6372
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6372,
-    "end": 6373,
-    "range": [
-      6372,
-      6373
-    ]
+    "end": 6373
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6374,
-    "end": 6375,
-    "range": [
-      6374,
-      6375
-    ]
+    "end": 6375
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 6382,
-    "end": 6388,
-    "range": [
-      6382,
-      6388
-    ]
+    "end": 6388
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6388,
-    "end": 6389,
-    "range": [
-      6388,
-      6389
-    ]
+    "end": 6389
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 6389,
-    "end": 6403,
-    "range": [
-      6389,
-      6403
-    ]
+    "end": 6403
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6403,
-    "end": 6404,
-    "range": [
-      6403,
-      6404
-    ]
+    "end": 6404
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 6404,
-    "end": 6406,
-    "range": [
-      6404,
-      6406
-    ]
+    "end": 6406
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6406,
-    "end": 6407,
-    "range": [
-      6406,
-      6407
-    ]
+    "end": 6407
   },
   {
     "type": "String",
     "value": "'indirect'",
     "start": 6408,
-    "end": 6418,
-    "range": [
-      6408,
-      6418
-    ]
+    "end": 6418
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6418,
-    "end": 6419,
-    "range": [
-      6418,
-      6419
-    ]
+    "end": 6419
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6430,
-    "end": 6431,
-    "range": [
-      6430,
-      6431
-    ]
+    "end": 6431
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 6431,
-    "end": 6439,
-    "range": [
-      6431,
-      6439
-    ]
+    "end": 6439
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6439,
-    "end": 6440,
-    "range": [
-      6439,
-      6440
-    ]
+    "end": 6440
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 6441,
-    "end": 6445,
-    "range": [
-      6441,
-      6445
-    ]
+    "end": 6445
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6445,
-    "end": 6446,
-    "range": [
-      6445,
-      6446
-    ]
+    "end": 6446
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 6447,
-    "end": 6457,
-    "range": [
-      6447,
-      6457
-    ]
+    "end": 6457
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6457,
-    "end": 6458,
-    "range": [
-      6457,
-      6458
-    ]
+    "end": 6458
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 6459,
-    "end": 6463,
-    "range": [
-      6459,
-      6463
-    ]
+    "end": 6463
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6463,
-    "end": 6464,
-    "range": [
-      6463,
-      6464
-    ]
+    "end": 6464
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 6465,
-    "end": 6477,
-    "range": [
-      6465,
-      6477
-    ]
+    "end": 6477
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6477,
-    "end": 6478,
-    "range": [
-      6477,
-      6478
-    ]
+    "end": 6478
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 6479,
-    "end": 6483,
-    "range": [
-      6479,
-      6483
-    ]
+    "end": 6483
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6483,
-    "end": 6484,
-    "range": [
-      6483,
-      6484
-    ]
+    "end": 6484
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6484,
-    "end": 6485,
-    "range": [
-      6484,
-      6485
-    ]
+    "end": 6485
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6485,
-    "end": 6486,
-    "range": [
-      6485,
-      6486
-    ]
+    "end": 6486
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6491,
-    "end": 6492,
-    "range": [
-      6491,
-      6492
-    ]
+    "end": 6492
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6492,
-    "end": 6493,
-    "range": [
-      6492,
-      6493
-    ]
+    "end": 6493
   },
   {
     "type": "String",
     "value": "'Object.defineProperty: indirect'",
     "start": 6494,
-    "end": 6527,
-    "range": [
-      6494,
-      6527
-    ]
+    "end": 6527
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6527,
-    "end": 6528,
-    "range": [
-      6527,
-      6528
-    ]
+    "end": 6528
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6528,
-    "end": 6529,
-    "range": [
-      6528,
-      6529
-    ]
+    "end": 6529
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6535,
-    "end": 6541,
-    "range": [
-      6535,
-      6541
-    ]
+    "end": 6541
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6541,
-    "end": 6542,
-    "range": [
-      6541,
-      6542
-    ]
+    "end": 6542
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6542,
-    "end": 6551,
-    "range": [
-      6542,
-      6551
-    ]
+    "end": 6551
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6551,
-    "end": 6552,
-    "range": [
-      6551,
-      6552
-    ]
+    "end": 6552
   },
   {
     "type": "Identifier",
     "value": "Reflect",
     "start": 6559,
-    "end": 6566,
-    "range": [
-      6559,
-      6566
-    ]
+    "end": 6566
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6566,
-    "end": 6567,
-    "range": [
-      6566,
-      6567
-    ]
+    "end": 6567
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 6567,
-    "end": 6581,
-    "range": [
-      6567,
-      6581
-    ]
+    "end": 6581
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6581,
-    "end": 6582,
-    "range": [
-      6581,
-      6582
-    ]
+    "end": 6582
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 6582,
-    "end": 6584,
-    "range": [
-      6582,
-      6584
-    ]
+    "end": 6584
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6584,
-    "end": 6585,
-    "range": [
-      6584,
-      6585
-    ]
+    "end": 6585
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 6586,
-    "end": 6592,
-    "range": [
-      6586,
-      6592
-    ]
+    "end": 6592
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6592,
-    "end": 6593,
-    "range": [
-      6592,
-      6593
-    ]
+    "end": 6593
   },
   {
     "type": "Identifier",
     "value": "toStringTag",
     "start": 6593,
-    "end": 6604,
-    "range": [
-      6593,
-      6604
-    ]
+    "end": 6604
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6604,
-    "end": 6605,
-    "range": [
-      6604,
-      6605
-    ]
+    "end": 6605
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6616,
-    "end": 6617,
-    "range": [
-      6616,
-      6617
-    ]
+    "end": 6617
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 6617,
-    "end": 6622,
-    "range": [
-      6617,
-      6622
-    ]
+    "end": 6622
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6622,
-    "end": 6623,
-    "range": [
-      6622,
-      6623
-    ]
+    "end": 6623
   },
   {
     "type": "String",
     "value": "\"module\"",
     "start": 6624,
-    "end": 6632,
-    "range": [
-      6624,
-      6632
-    ]
+    "end": 6632
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6632,
-    "end": 6633,
-    "range": [
-      6632,
-      6633
-    ]
+    "end": 6633
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 6634,
-    "end": 6642,
-    "range": [
-      6634,
-      6642
-    ]
+    "end": 6642
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6642,
-    "end": 6643,
-    "range": [
-      6642,
-      6643
-    ]
+    "end": 6643
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6644,
-    "end": 6649,
-    "range": [
-      6644,
-      6649
-    ]
+    "end": 6649
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6649,
-    "end": 6650,
-    "range": [
-      6649,
-      6650
-    ]
+    "end": 6650
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 6651,
-    "end": 6661,
-    "range": [
-      6651,
-      6661
-    ]
+    "end": 6661
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6661,
-    "end": 6662,
-    "range": [
-      6661,
-      6662
-    ]
+    "end": 6662
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6663,
-    "end": 6668,
-    "range": [
-      6663,
-      6668
-    ]
+    "end": 6668
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6668,
-    "end": 6669,
-    "range": [
-      6668,
-      6669
-    ]
+    "end": 6669
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 6681,
-    "end": 6693,
-    "range": [
-      6681,
-      6693
-    ]
+    "end": 6693
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6693,
-    "end": 6694,
-    "range": [
-      6693,
-      6694
-    ]
+    "end": 6694
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6695,
-    "end": 6700,
-    "range": [
-      6695,
-      6700
-    ]
+    "end": 6700
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6700,
-    "end": 6701,
-    "range": [
-      6700,
-      6701
-    ]
+    "end": 6701
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6701,
-    "end": 6702,
-    "range": [
-      6701,
-      6702
-    ]
+    "end": 6702
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6702,
-    "end": 6703,
-    "range": [
-      6702,
-      6703
-    ]
+    "end": 6703
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6710,
-    "end": 6715,
-    "range": [
-      6710,
-      6715
-    ]
+    "end": 6715
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6715,
-    "end": 6716,
-    "range": [
-      6715,
-      6716
-    ]
+    "end": 6716
   },
   {
     "type": "String",
     "value": "'Reflect.defineProperty: Symbol.toStringTag'",
     "start": 6723,
-    "end": 6767,
-    "range": [
-      6723,
-      6767
-    ]
+    "end": 6767
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6772,
-    "end": 6773,
-    "range": [
-      6772,
-      6773
-    ]
+    "end": 6773
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6773,
-    "end": 6774,
-    "range": [
-      6773,
-      6774
-    ]
+    "end": 6774
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6779,
-    "end": 6785,
-    "range": [
-      6779,
-      6785
-    ]
+    "end": 6785
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6785,
-    "end": 6786,
-    "range": [
-      6785,
-      6786
-    ]
+    "end": 6786
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 6786,
-    "end": 6792,
-    "range": [
-      6786,
-      6792
-    ]
+    "end": 6792
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6792,
-    "end": 6793,
-    "range": [
-      6792,
-      6793
-    ]
+    "end": 6793
   },
   {
     "type": "Identifier",
     "value": "TypeError",
     "start": 6793,
-    "end": 6802,
-    "range": [
-      6793,
-      6802
-    ]
+    "end": 6802
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6802,
-    "end": 6803,
-    "range": [
-      6802,
-      6803
-    ]
+    "end": 6803
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 6804,
-    "end": 6812,
-    "range": [
-      6804,
-      6812
-    ]
+    "end": 6812
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6812,
-    "end": 6813,
-    "range": [
-      6812,
-      6813
-    ]
+    "end": 6813
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6813,
-    "end": 6814,
-    "range": [
-      6813,
-      6814
-    ]
+    "end": 6814
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6815,
-    "end": 6816,
-    "range": [
-      6815,
-      6816
-    ]
+    "end": 6816
   },
   {
     "type": "Identifier",
     "value": "Object",
     "start": 6823,
-    "end": 6829,
-    "range": [
-      6823,
-      6829
-    ]
+    "end": 6829
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6829,
-    "end": 6830,
-    "range": [
-      6829,
-      6830
-    ]
+    "end": 6830
   },
   {
     "type": "Identifier",
     "value": "defineProperty",
     "start": 6830,
-    "end": 6844,
-    "range": [
-      6830,
-      6844
-    ]
+    "end": 6844
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6844,
-    "end": 6845,
-    "range": [
-      6844,
-      6845
-    ]
+    "end": 6845
   },
   {
     "type": "Identifier",
     "value": "ns",
     "start": 6845,
-    "end": 6847,
-    "range": [
-      6845,
-      6847
-    ]
+    "end": 6847
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6847,
-    "end": 6848,
-    "range": [
-      6847,
-      6848
-    ]
+    "end": 6848
   },
   {
     "type": "Identifier",
     "value": "Symbol",
     "start": 6849,
-    "end": 6855,
-    "range": [
-      6849,
-      6855
-    ]
+    "end": 6855
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6855,
-    "end": 6856,
-    "range": [
-      6855,
-      6856
-    ]
+    "end": 6856
   },
   {
     "type": "Identifier",
     "value": "toStringTag",
     "start": 6856,
-    "end": 6867,
-    "range": [
-      6856,
-      6867
-    ]
+    "end": 6867
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6867,
-    "end": 6868,
-    "range": [
-      6867,
-      6868
-    ]
+    "end": 6868
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 6879,
-    "end": 6880,
-    "range": [
-      6879,
-      6880
-    ]
+    "end": 6880
   },
   {
     "type": "Identifier",
     "value": "value",
     "start": 6880,
-    "end": 6885,
-    "range": [
-      6880,
-      6885
-    ]
+    "end": 6885
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6885,
-    "end": 6886,
-    "range": [
-      6885,
-      6886
-    ]
+    "end": 6886
   },
   {
     "type": "String",
     "value": "\"module\"",
     "start": 6887,
-    "end": 6895,
-    "range": [
-      6887,
-      6895
-    ]
+    "end": 6895
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6895,
-    "end": 6896,
-    "range": [
-      6895,
-      6896
-    ]
+    "end": 6896
   },
   {
     "type": "Identifier",
     "value": "writable",
     "start": 6897,
-    "end": 6905,
-    "range": [
-      6897,
-      6905
-    ]
+    "end": 6905
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6905,
-    "end": 6906,
-    "range": [
-      6905,
-      6906
-    ]
+    "end": 6906
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6907,
-    "end": 6912,
-    "range": [
-      6907,
-      6912
-    ]
+    "end": 6912
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6912,
-    "end": 6913,
-    "range": [
-      6912,
-      6913
-    ]
+    "end": 6913
   },
   {
     "type": "Identifier",
     "value": "enumerable",
     "start": 6914,
-    "end": 6924,
-    "range": [
-      6914,
-      6924
-    ]
+    "end": 6924
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6924,
-    "end": 6925,
-    "range": [
-      6924,
-      6925
-    ]
+    "end": 6925
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6926,
-    "end": 6931,
-    "range": [
-      6926,
-      6931
-    ]
+    "end": 6931
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6931,
-    "end": 6932,
-    "range": [
-      6931,
-      6932
-    ]
+    "end": 6932
   },
   {
     "type": "Identifier",
     "value": "configurable",
     "start": 6944,
-    "end": 6956,
-    "range": [
-      6944,
-      6956
-    ]
+    "end": 6956
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6956,
-    "end": 6957,
-    "range": [
-      6956,
-      6957
-    ]
+    "end": 6957
   },
   {
     "type": "Boolean",
     "value": "false",
     "start": 6958,
-    "end": 6963,
-    "range": [
-      6958,
-      6963
-    ]
+    "end": 6963
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6963,
-    "end": 6964,
-    "range": [
-      6963,
-      6964
-    ]
+    "end": 6964
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6964,
-    "end": 6965,
-    "range": [
-      6964,
-      6965
-    ]
+    "end": 6965
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6965,
-    "end": 6966,
-    "range": [
-      6965,
-      6966
-    ]
+    "end": 6966
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6971,
-    "end": 6972,
-    "range": [
-      6971,
-      6972
-    ]
+    "end": 6972
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6972,
-    "end": 6973,
-    "range": [
-      6972,
-      6973
-    ]
+    "end": 6973
   },
   {
     "type": "String",
     "value": "'Object.defineProperty: Symbol.toStringTag'",
     "start": 6974,
-    "end": 7017,
-    "range": [
-      6974,
-      7017
-    ]
+    "end": 7017
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7017,
-    "end": 7018,
-    "range": [
-      7017,
-      7018
-    ]
+    "end": 7018
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7018,
-    "end": 7019,
-    "range": [
-      7018,
-      7019
-    ]
+    "end": 7019
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 7020,
-    "end": 7021,
-    "range": [
-      7020,
-      7021
-    ]
+    "end": 7021
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 7023,
-    "end": 7025,
-    "range": [
-      7023,
-      7025
-    ]
+    "end": 7025
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7025,
-    "end": 7026,
-    "range": [
-      7025,
-      7026
-    ]
+    "end": 7026
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7026,
-    "end": 7027,
-    "range": [
-      7026,
-      7027
-    ]
+    "end": 7027
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7027,
-    "end": 7028,
-    "range": [
-      7027,
-      7028
-    ]
+    "end": 7028
   },
   {
     "type": "Identifier",
     "value": "then",
     "start": 7028,
-    "end": 7032,
-    "range": [
-      7028,
-      7032
-    ]
+    "end": 7032
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7032,
-    "end": 7033,
-    "range": [
-      7032,
-      7033
-    ]
+    "end": 7033
   },
   {
     "type": "Identifier",
     "value": "$DONE",
     "start": 7033,
-    "end": 7038,
-    "range": [
-      7033,
-      7038
-    ]
+    "end": 7038
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7038,
-    "end": 7039,
-    "range": [
-      7038,
-      7039
-    ]
+    "end": 7039
   },
   {
     "type": "Identifier",
     "value": "$DONE",
     "start": 7040,
-    "end": 7045,
-    "range": [
-      7040,
-      7045
-    ]
+    "end": 7045
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7045,
-    "end": 7046,
-    "range": [
-      7045,
-      7046
-    ]
+    "end": 7046
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7046,
-    "end": 7047,
-    "range": [
-      7046,
-      7047
-    ]
+    "end": 7047
   },
   {
     "type": "Identifier",
     "value": "catch",
     "start": 7047,
-    "end": 7052,
-    "range": [
-      7047,
-      7052
-    ]
+    "end": 7052
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7052,
-    "end": 7053,
-    "range": [
-      7052,
-      7053
-    ]
+    "end": 7053
   },
   {
     "type": "Identifier",
     "value": "$DONE",
     "start": 7053,
-    "end": 7058,
-    "range": [
-      7053,
-      7058
-    ]
+    "end": 7058
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7058,
-    "end": 7059,
-    "range": [
-      7058,
-      7059
-    ]
+    "end": 7059
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7059,
-    "end": 7060,
-    "range": [
-      7059,
-      7060
-    ]
+    "end": 7060
   }
 ]

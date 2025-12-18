@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "eval",
     "start": 1568,
-    "end": 1572,
-    "range": [
-      1568,
-      1572
-    ]
+    "end": 1572
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1572,
-    "end": 1573,
-    "range": [
-      1572,
-      1573
-    ]
+    "end": 1573
   },
   {
     "type": "String",
     "value": "'if (true) function f() { return \"inner declaration\"; } else function _f() {}assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
     "start": 1576,
-    "end": 1800,
-    "range": [
-      1576,
-      1800
-    ]
+    "end": 1800
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1801,
-    "end": 1802,
-    "range": [
-      1801,
-      1802
-    ]
+    "end": 1802
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1802,
-    "end": 1803,
-    "range": [
-      1802,
-      1803
-    ]
+    "end": 1803
   }
 ]

@@ -3,61 +3,37 @@
     "type": "Keyword",
     "value": "function",
     "start": 1003,
-    "end": 1011,
-    "range": [
-      1003,
-      1011
-    ]
+    "end": 1011
   },
   {
     "type": "Identifier",
     "value": "fn",
     "start": 1012,
-    "end": 1014,
-    "range": [
-      1012,
-      1014
-    ]
+    "end": 1014
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1014,
-    "end": 1015,
-    "range": [
-      1014,
-      1015
-    ]
+    "end": 1015
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1015,
-    "end": 1016,
-    "range": [
-      1015,
-      1016
-    ]
+    "end": 1016
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1017,
-    "end": 1018,
-    "range": [
-      1017,
-      1018
-    ]
+    "end": 1018
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1018,
-    "end": 1019,
-    "range": [
-      1018,
-      1019
-    ]
+    "end": 1019
   },
   {
     "type": "RegularExpression",
@@ -67,20 +43,12 @@
       "pattern": "1"
     },
     "start": 1019,
-    "end": 1023,
-    "range": [
-      1019,
-      1023
-    ]
+    "end": 1023
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1023,
-    "end": 1024,
-    "range": [
-      1023,
-      1024
-    ]
+    "end": 1024
   }
 ]

@@ -3,1040 +3,620 @@
     "type": "Identifier",
     "value": "assert",
     "start": 1398,
-    "end": 1404,
-    "range": [
-      1398,
-      1404
-    ]
+    "end": 1404
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1404,
-    "end": 1405,
-    "range": [
-      1404,
-      1405
-    ]
+    "end": 1405
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1405,
-    "end": 1414,
-    "range": [
-      1405,
-      1414
-    ]
+    "end": 1414
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1414,
-    "end": 1415,
-    "range": [
-      1414,
-      1415
-    ]
+    "end": 1415
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 1418,
-    "end": 1424,
-    "range": [
-      1418,
-      1424
-    ]
+    "end": 1424
   },
   {
     "type": "Identifier",
     "value": "ShadowRealm",
     "start": 1425,
-    "end": 1436,
-    "range": [
-      1425,
-      1436
-    ]
+    "end": 1436
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1436,
-    "end": 1437,
-    "range": [
-      1436,
-      1437
-    ]
+    "end": 1437
   },
   {
     "type": "Identifier",
     "value": "prototype",
     "start": 1437,
-    "end": 1446,
-    "range": [
-      1437,
-      1446
-    ]
+    "end": 1446
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1446,
-    "end": 1447,
-    "range": [
-      1446,
-      1447
-    ]
+    "end": 1447
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 1447,
-    "end": 1455,
-    "range": [
-      1447,
-      1455
-    ]
+    "end": 1455
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1455,
-    "end": 1456,
-    "range": [
-      1455,
-      1456
-    ]
+    "end": 1456
   },
   {
     "type": "String",
     "value": "'function'",
     "start": 1459,
-    "end": 1469,
-    "range": [
-      1459,
-      1469
-    ]
+    "end": 1469
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1469,
-    "end": 1470,
-    "range": [
-      1469,
-      1470
-    ]
+    "end": 1470
   },
   {
     "type": "String",
     "value": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
     "start": 1473,
-    "end": 1546,
-    "range": [
-      1473,
-      1546
-    ]
+    "end": 1546
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1547,
-    "end": 1548,
-    "range": [
-      1547,
-      1548
-    ]
+    "end": 1548
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1548,
-    "end": 1549,
-    "range": [
-      1548,
-      1549
-    ]
+    "end": 1549
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1551,
-    "end": 1556,
-    "range": [
-      1551,
-      1556
-    ]
+    "end": 1556
   },
   {
     "type": "Identifier",
     "value": "r",
     "start": 1557,
-    "end": 1558,
-    "range": [
-      1557,
-      1558
-    ]
+    "end": 1558
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1559,
-    "end": 1560,
-    "range": [
-      1559,
-      1560
-    ]
+    "end": 1560
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1561,
-    "end": 1564,
-    "range": [
-      1561,
-      1564
-    ]
+    "end": 1564
   },
   {
     "type": "Identifier",
     "value": "ShadowRealm",
     "start": 1565,
-    "end": 1576,
-    "range": [
-      1565,
-      1576
-    ]
+    "end": 1576
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1576,
-    "end": 1577,
-    "range": [
-      1576,
-      1577
-    ]
+    "end": 1577
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1577,
-    "end": 1578,
-    "range": [
-      1577,
-      1578
-    ]
+    "end": 1578
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1578,
-    "end": 1579,
-    "range": [
-      1578,
-      1579
-    ]
+    "end": 1579
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1581,
-    "end": 1587,
-    "range": [
-      1581,
-      1587
-    ]
+    "end": 1587
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1587,
-    "end": 1588,
-    "range": [
-      1587,
-      1588
-    ]
+    "end": 1588
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1588,
-    "end": 1597,
-    "range": [
-      1588,
-      1597
-    ]
+    "end": 1597
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1597,
-    "end": 1598,
-    "range": [
-      1597,
-      1598
-    ]
+    "end": 1598
   },
   {
     "type": "Identifier",
     "value": "r",
     "start": 1601,
-    "end": 1602,
-    "range": [
-      1601,
-      1602
-    ]
+    "end": 1602
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1602,
-    "end": 1603,
-    "range": [
-      1602,
-      1603
-    ]
+    "end": 1603
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 1603,
-    "end": 1611,
-    "range": [
-      1603,
-      1611
-    ]
+    "end": 1611
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1611,
-    "end": 1612,
-    "range": [
-      1611,
-      1612
-    ]
+    "end": 1612
   },
   {
     "type": "String",
     "value": "'Object.getPrototypeOf(globalThis) === Object.prototype'",
     "start": 1612,
-    "end": 1668,
-    "range": [
-      1612,
-      1668
-    ]
+    "end": 1668
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1668,
-    "end": 1669,
-    "range": [
-      1668,
-      1669
-    ]
+    "end": 1669
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1669,
-    "end": 1670,
-    "range": [
-      1669,
-      1670
-    ]
+    "end": 1670
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 1673,
-    "end": 1677,
-    "range": [
-      1673,
-      1677
-    ]
+    "end": 1677
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1677,
-    "end": 1678,
-    "range": [
-      1677,
-      1678
-    ]
+    "end": 1678
   },
   {
     "type": "String",
     "value": "'The [[Prototype]] of globalThis is Object.prototype'",
     "start": 1681,
-    "end": 1734,
-    "range": [
-      1681,
-      1734
-    ]
+    "end": 1734
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1735,
-    "end": 1736,
-    "range": [
-      1735,
-      1736
-    ]
+    "end": 1736
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1736,
-    "end": 1737,
-    "range": [
-      1736,
-      1737
-    ]
+    "end": 1737
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1739,
-    "end": 1745,
-    "range": [
-      1739,
-      1745
-    ]
+    "end": 1745
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1745,
-    "end": 1746,
-    "range": [
-      1745,
-      1746
-    ]
+    "end": 1746
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1746,
-    "end": 1755,
-    "range": [
-      1746,
-      1755
-    ]
+    "end": 1755
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1755,
-    "end": 1756,
-    "range": [
-      1755,
-      1756
-    ]
+    "end": 1756
   },
   {
     "type": "Identifier",
     "value": "r",
     "start": 1759,
-    "end": 1760,
-    "range": [
-      1759,
-      1760
-    ]
+    "end": 1760
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1760,
-    "end": 1761,
-    "range": [
-      1760,
-      1761
-    ]
+    "end": 1761
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 1761,
-    "end": 1769,
-    "range": [
-      1761,
-      1769
-    ]
+    "end": 1769
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1769,
-    "end": 1770,
-    "range": [
-      1769,
-      1770
-    ]
+    "end": 1770
   },
   {
     "type": "String",
     "value": "'Object.isExtensible(globalThis)'",
     "start": 1770,
-    "end": 1803,
-    "range": [
-      1770,
-      1803
-    ]
+    "end": 1803
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1803,
-    "end": 1804,
-    "range": [
-      1803,
-      1804
-    ]
+    "end": 1804
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1804,
-    "end": 1805,
-    "range": [
-      1804,
-      1805
-    ]
+    "end": 1805
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 1808,
-    "end": 1812,
-    "range": [
-      1808,
-      1812
-    ]
+    "end": 1812
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1812,
-    "end": 1813,
-    "range": [
-      1812,
-      1813
-    ]
+    "end": 1813
   },
   {
     "type": "String",
     "value": "'globalThis is extensible'",
     "start": 1816,
-    "end": 1842,
-    "range": [
-      1816,
-      1842
-    ]
+    "end": 1842
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1843,
-    "end": 1844,
-    "range": [
-      1843,
-      1844
-    ]
+    "end": 1844
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1844,
-    "end": 1845,
-    "range": [
-      1844,
-      1845
-    ]
+    "end": 1845
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1847,
-    "end": 1853,
-    "range": [
-      1847,
-      1853
-    ]
+    "end": 1853
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1853,
-    "end": 1854,
-    "range": [
-      1853,
-      1854
-    ]
+    "end": 1854
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1854,
-    "end": 1863,
-    "range": [
-      1854,
-      1863
-    ]
+    "end": 1863
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1863,
-    "end": 1864,
-    "range": [
-      1863,
-      1864
-    ]
+    "end": 1864
   },
   {
     "type": "Identifier",
     "value": "r",
     "start": 1867,
-    "end": 1868,
-    "range": [
-      1867,
-      1868
-    ]
+    "end": 1868
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1868,
-    "end": 1869,
-    "range": [
-      1868,
-      1869
-    ]
+    "end": 1869
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 1869,
-    "end": 1877,
-    "range": [
-      1869,
-      1877
-    ]
+    "end": 1877
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1877,
-    "end": 1878,
-    "range": [
-      1877,
-      1878
-    ]
+    "end": 1878
   },
   {
     "type": "String",
     "value": "'globalThis.constructor === Object'",
     "start": 1878,
-    "end": 1913,
-    "range": [
-      1878,
-      1913
-    ]
+    "end": 1913
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1913,
-    "end": 1914,
-    "range": [
-      1913,
-      1914
-    ]
+    "end": 1914
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1914,
-    "end": 1915,
-    "range": [
-      1914,
-      1915
-    ]
+    "end": 1915
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 1918,
-    "end": 1922,
-    "range": [
-      1918,
-      1922
-    ]
+    "end": 1922
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1922,
-    "end": 1923,
-    "range": [
-      1922,
-      1923
-    ]
+    "end": 1923
   },
   {
     "type": "String",
     "value": "'globalThis.constructor is Object'",
     "start": 1926,
-    "end": 1960,
-    "range": [
-      1926,
-      1960
-    ]
+    "end": 1960
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1961,
-    "end": 1962,
-    "range": [
-      1961,
-      1962
-    ]
+    "end": 1962
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1962,
-    "end": 1963,
-    "range": [
-      1962,
-      1963
-    ]
+    "end": 1963
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1965,
-    "end": 1971,
-    "range": [
-      1965,
-      1971
-    ]
+    "end": 1971
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1971,
-    "end": 1972,
-    "range": [
-      1971,
-      1972
-    ]
+    "end": 1972
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1972,
-    "end": 1981,
-    "range": [
-      1972,
-      1981
-    ]
+    "end": 1981
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1981,
-    "end": 1982,
-    "range": [
-      1981,
-      1982
-    ]
+    "end": 1982
   },
   {
     "type": "Identifier",
     "value": "r",
     "start": 1985,
-    "end": 1986,
-    "range": [
-      1985,
-      1986
-    ]
+    "end": 1986
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1986,
-    "end": 1987,
-    "range": [
-      1986,
-      1987
-    ]
+    "end": 1987
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 1987,
-    "end": 1995,
-    "range": [
-      1987,
-      1995
-    ]
+    "end": 1995
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1995,
-    "end": 1996,
-    "range": [
-      1995,
-      1996
-    ]
+    "end": 1996
   },
   {
     "type": "Template",
-    "value": "`\n    let result;\n    try {\n      globalThis.__proto__ = {x: 2};\n      result = true;\n    } catch (e) {\n      result = false;\n    }\n    result;\n  `",
-    "start": 1996,
-    "end": 2143,
-    "range": [
-      1996,
-      2143
-    ]
+    "value": "`\n    let result;\n    try {\n      globalThis.__proto__ = {x: 2};\n      result = true;\n    } catch (e) {\n      result = false;\n    }\n    result;\n  `"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2143,
-    "end": 2144,
-    "range": [
-      2143,
-      2144
-    ]
+    "end": 2144
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2144,
-    "end": 2145,
-    "range": [
-      2144,
-      2145
-    ]
+    "end": 2145
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 2148,
-    "end": 2152,
-    "range": [
-      2148,
-      2152
-    ]
+    "end": 2152
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2152,
-    "end": 2153,
-    "range": [
-      2152,
-      2153
-    ]
+    "end": 2153
   },
   {
     "type": "String",
     "value": "'Can assign to globalThis.__proto__ directly'",
     "start": 2156,
-    "end": 2201,
-    "range": [
-      2156,
-      2201
-    ]
+    "end": 2201
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2202,
-    "end": 2203,
-    "range": [
-      2202,
-      2203
-    ]
+    "end": 2203
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2203,
-    "end": 2204,
-    "range": [
-      2203,
-      2204
-    ]
+    "end": 2204
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2206,
-    "end": 2212,
-    "range": [
-      2206,
-      2212
-    ]
+    "end": 2212
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2212,
-    "end": 2213,
-    "range": [
-      2212,
-      2213
-    ]
+    "end": 2213
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2213,
-    "end": 2222,
-    "range": [
-      2213,
-      2222
-    ]
+    "end": 2222
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2222,
-    "end": 2223,
-    "range": [
-      2222,
-      2223
-    ]
+    "end": 2223
   },
   {
     "type": "Identifier",
     "value": "r",
     "start": 2226,
-    "end": 2227,
-    "range": [
-      2226,
-      2227
-    ]
+    "end": 2227
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2227,
-    "end": 2228,
-    "range": [
-      2227,
-      2228
-    ]
+    "end": 2228
   },
   {
     "type": "Identifier",
     "value": "evaluate",
     "start": 2228,
-    "end": 2236,
-    "range": [
-      2228,
-      2236
-    ]
+    "end": 2236
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2236,
-    "end": 2237,
-    "range": [
-      2236,
-      2237
-    ]
+    "end": 2237
   },
   {
     "type": "Template",
-    "value": "`\n    Reflect.set(globalThis, '__proto__', {x: 1}) &&\n    Reflect.setPrototypeOf(globalThis.__proto__, {x: 2});\n  `",
-    "start": 2237,
-    "end": 2352,
-    "range": [
-      2237,
-      2352
-    ]
+    "value": "`\n    Reflect.set(globalThis, '__proto__', {x: 1}) &&\n    Reflect.setPrototypeOf(globalThis.__proto__, {x: 2});\n  `"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2352,
-    "end": 2353,
-    "range": [
-      2352,
-      2353
-    ]
+    "end": 2353
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2353,
-    "end": 2354,
-    "range": [
-      2353,
-      2354
-    ]
+    "end": 2354
   },
   {
     "type": "Boolean",
     "value": "true",
     "start": 2357,
-    "end": 2361,
-    "range": [
-      2357,
-      2361
-    ]
+    "end": 2361
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2361,
-    "end": 2362,
-    "range": [
-      2361,
-      2362
-    ]
+    "end": 2362
   },
   {
     "type": "String",
     "value": "'Can set an ordinary globalThis.__proto__'",
     "start": 2365,
-    "end": 2407,
-    "range": [
-      2365,
-      2407
-    ]
+    "end": 2407
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2408,
-    "end": 2409,
-    "range": [
-      2408,
-      2409
-    ]
+    "end": 2409
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2409,
-    "end": 2410,
-    "range": [
-      2409,
-      2410
-    ]
+    "end": 2410
   }
 ]

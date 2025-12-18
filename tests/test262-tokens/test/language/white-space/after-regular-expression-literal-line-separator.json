@@ -7,20 +7,12 @@
       "pattern": "x"
     },
     "start": 1684,
-    "end": 1688,
-    "range": [
-      1684,
-      1688
-    ]
+    "end": 1688
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1689,
-    "end": 1690,
-    "range": [
-      1689,
-      1690
-    ]
+    "end": 1690
   }
 ]

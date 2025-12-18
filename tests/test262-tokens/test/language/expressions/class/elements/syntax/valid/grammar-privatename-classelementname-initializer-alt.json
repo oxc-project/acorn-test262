@@ -3,310 +3,186 @@
     "type": "Keyword",
     "value": "var",
     "start": 1387,
-    "end": 1390,
-    "range": [
-      1387,
-      1390
-    ]
+    "end": 1390
   },
   {
     "type": "Identifier",
     "value": "C",
     "start": 1391,
-    "end": 1392,
-    "range": [
-      1391,
-      1392
-    ]
+    "end": 1392
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1393,
-    "end": 1394,
-    "range": [
-      1393,
-      1394
-    ]
+    "end": 1394
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 1395,
-    "end": 1400,
-    "range": [
-      1395,
-      1400
-    ]
+    "end": 1400
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1401,
-    "end": 1402,
-    "range": [
-      1401,
-      1402
-    ]
+    "end": 1402
   },
   {
     "type": "PrivateIdentifier",
     "value": "$",
     "start": 1405,
-    "end": 1407,
-    "range": [
-      1405,
-      1407
-    ]
+    "end": 1407
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1408,
-    "end": 1409,
-    "range": [
-      1408,
-      1409
-    ]
+    "end": 1409
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 1410,
-    "end": 1411,
-    "range": [
-      1410,
-      1411
-    ]
+    "end": 1411
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1411,
-    "end": 1412,
-    "range": [
-      1411,
-      1412
-    ]
+    "end": 1412
   },
   {
     "type": "PrivateIdentifier",
     "value": "_",
     "start": 1415,
-    "end": 1417,
-    "range": [
-      1415,
-      1417
-    ]
+    "end": 1417
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1418,
-    "end": 1419,
-    "range": [
-      1418,
-      1419
-    ]
+    "end": 1419
   },
   {
     "type": "Numeric",
     "value": "2",
     "start": 1420,
-    "end": 1421,
-    "range": [
-      1420,
-      1421
-    ]
+    "end": 1421
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1421,
-    "end": 1422,
-    "range": [
-      1421,
-      1422
-    ]
+    "end": 1422
   },
   {
     "type": "PrivateIdentifier",
     "value": "o",
     "start": 1425,
-    "end": 1432,
-    "range": [
-      1425,
-      1432
-    ]
+    "end": 1432
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1433,
-    "end": 1434,
-    "range": [
-      1433,
-      1434
-    ]
+    "end": 1434
   },
   {
     "type": "Numeric",
     "value": "3",
     "start": 1435,
-    "end": 1436,
-    "range": [
-      1435,
-      1436
-    ]
+    "end": 1436
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1436,
-    "end": 1437,
-    "range": [
-      1436,
-      1437
-    ]
+    "end": 1437
   },
   {
     "type": "PrivateIdentifier",
     "value": "℘",
     "start": 1440,
-    "end": 1442,
-    "range": [
-      1440,
-      1442
-    ]
+    "end": 1442
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1443,
-    "end": 1444,
-    "range": [
-      1443,
-      1444
-    ]
+    "end": 1444
   },
   {
     "type": "Numeric",
     "value": "4",
     "start": 1445,
-    "end": 1446,
-    "range": [
-      1445,
-      1446
-    ]
+    "end": 1446
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1446,
-    "end": 1447,
-    "range": [
-      1446,
-      1447
-    ]
+    "end": 1447
   },
   {
     "type": "PrivateIdentifier",
     "value": "ZW_‌_NJ",
     "start": 1495,
-    "end": 1503,
-    "range": [
-      1495,
-      1503
-    ]
+    "end": 1503
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1504,
-    "end": 1505,
-    "range": [
-      1504,
-      1505
-    ]
+    "end": 1505
   },
   {
     "type": "Numeric",
     "value": "5",
     "start": 1506,
-    "end": 1507,
-    "range": [
-      1506,
-      1507
-    ]
+    "end": 1507
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1507,
-    "end": 1508,
-    "range": [
-      1507,
-      1508
-    ]
+    "end": 1508
   },
   {
     "type": "PrivateIdentifier",
     "value": "ZW_‍_J",
     "start": 1551,
-    "end": 1558,
-    "range": [
-      1551,
-      1558
-    ]
+    "end": 1558
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1559,
-    "end": 1560,
-    "range": [
-      1559,
-      1560
-    ]
+    "end": 1560
   },
   {
     "type": "Numeric",
     "value": "6",
     "start": 1561,
-    "end": 1562,
-    "range": [
-      1561,
-      1562
-    ]
+    "end": 1562
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1562,
-    "end": 1563,
-    "range": [
-      1562,
-      1563
-    ]
+    "end": 1563
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1605,
-    "end": 1606,
-    "range": [
-      1605,
-      1606
-    ]
+    "end": 1606
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1606,
-    "end": 1607,
-    "range": [
-      1606,
-      1607
-    ]
+    "end": 1607
   }
 ]

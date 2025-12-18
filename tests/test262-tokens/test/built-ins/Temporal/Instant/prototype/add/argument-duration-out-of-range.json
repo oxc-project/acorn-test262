@@ -3,4980 +3,2984 @@
     "type": "Keyword",
     "value": "const",
     "start": 260,
-    "end": 265,
-    "range": [
-      260,
-      265
-    ]
+    "end": 265
   },
   {
     "type": "Identifier",
     "value": "instance",
     "start": 266,
-    "end": 274,
-    "range": [
-      266,
-      274
-    ]
+    "end": 274
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 275,
-    "end": 276,
-    "range": [
-      275,
-      276
-    ]
+    "end": 276
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 277,
-    "end": 280,
-    "range": [
-      277,
-      280
-    ]
+    "end": 280
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 281,
-    "end": 289,
-    "range": [
-      281,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 289,
-    "end": 290,
-    "range": [
-      289,
-      290
-    ]
+    "end": 290
   },
   {
     "type": "Identifier",
     "value": "Instant",
     "start": 290,
-    "end": 297,
-    "range": [
-      290,
-      297
-    ]
+    "end": 297
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "Numeric",
     "value": "0n",
     "start": 298,
-    "end": 300,
-    "range": [
-      298,
-      300
-    ]
+    "end": 300
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 300,
-    "end": 301,
-    "range": [
-      300,
-      301
-    ]
+    "end": 301
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 301,
-    "end": 302,
-    "range": [
-      301,
-      302
-    ]
+    "end": 302
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 304,
-    "end": 309,
-    "range": [
-      304,
-      309
-    ]
+    "end": 309
   },
   {
     "type": "Identifier",
     "value": "cases",
     "start": 310,
-    "end": 315,
-    "range": [
-      310,
-      315
-    ]
+    "end": 315
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 316,
-    "end": 317,
-    "range": [
-      316,
-      317
-    ]
+    "end": 317
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 318,
-    "end": 319,
-    "range": [
-      318,
-      319
-    ]
+    "end": 319
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 345,
-    "end": 346,
-    "range": [
-      345,
-      346
-    ]
+    "end": 346
   },
   {
     "type": "String",
     "value": "\"P4294967296Y\"",
     "start": 346,
-    "end": 360,
-    "range": [
-      346,
-      360
-    ]
+    "end": 360
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 360,
-    "end": 361,
-    "range": [
-      360,
-      361
-    ]
+    "end": 361
   },
   {
     "type": "String",
     "value": "\"string with years > max\"",
     "start": 362,
-    "end": 387,
-    "range": [
-      362,
-      387
-    ]
+    "end": 387
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 387,
-    "end": 388,
-    "range": [
-      387,
-      388
-    ]
+    "end": 388
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 388,
-    "end": 389,
-    "range": [
-      388,
-      389
-    ]
+    "end": 389
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 392,
-    "end": 393,
-    "range": [
-      392,
-      393
-    ]
+    "end": 393
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 393,
-    "end": 394,
-    "range": [
-      393,
-      394
-    ]
+    "end": 394
   },
   {
     "type": "Identifier",
     "value": "years",
     "start": 395,
-    "end": 400,
-    "range": [
-      395,
-      400
-    ]
+    "end": 400
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 400,
-    "end": 401,
-    "range": [
-      400,
-      401
-    ]
+    "end": 401
   },
   {
     "type": "Numeric",
     "value": "4294967296",
     "start": 402,
-    "end": 412,
-    "range": [
-      402,
-      412
-    ]
+    "end": 412
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 413,
-    "end": 414,
-    "range": [
-      413,
-      414
-    ]
+    "end": 414
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 414,
-    "end": 415,
-    "range": [
-      414,
-      415
-    ]
+    "end": 415
   },
   {
     "type": "String",
     "value": "\"property bag with years > max\"",
     "start": 416,
-    "end": 447,
-    "range": [
-      416,
-      447
-    ]
+    "end": 447
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 447,
-    "end": 448,
-    "range": [
-      447,
-      448
-    ]
+    "end": 448
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 448,
-    "end": 449,
-    "range": [
-      448,
-      449
-    ]
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 452,
-    "end": 453,
-    "range": [
-      452,
-      453
-    ]
+    "end": 453
   },
   {
     "type": "String",
     "value": "\"-P4294967296Y\"",
     "start": 453,
-    "end": 468,
-    "range": [
-      453,
-      468
-    ]
+    "end": 468
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 468,
-    "end": 469,
-    "range": [
-      468,
-      469
-    ]
+    "end": 469
   },
   {
     "type": "String",
     "value": "\"string with years < min\"",
     "start": 470,
-    "end": 495,
-    "range": [
-      470,
-      495
-    ]
+    "end": 495
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 495,
-    "end": 496,
-    "range": [
-      495,
-      496
-    ]
+    "end": 496
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 496,
-    "end": 497,
-    "range": [
-      496,
-      497
-    ]
+    "end": 497
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 500,
-    "end": 501,
-    "range": [
-      500,
-      501
-    ]
+    "end": 501
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 501,
-    "end": 502,
-    "range": [
-      501,
-      502
-    ]
+    "end": 502
   },
   {
     "type": "Identifier",
     "value": "years",
     "start": 503,
-    "end": 508,
-    "range": [
-      503,
-      508
-    ]
+    "end": 508
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 508,
-    "end": 509,
-    "range": [
-      508,
-      509
-    ]
+    "end": 509
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 510,
-    "end": 511,
-    "range": [
-      510,
-      511
-    ]
+    "end": 511
   },
   {
     "type": "Numeric",
     "value": "4294967296",
     "start": 511,
-    "end": 521,
-    "range": [
-      511,
-      521
-    ]
+    "end": 521
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 522,
-    "end": 523,
-    "range": [
-      522,
-      523
-    ]
+    "end": 523
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 523,
-    "end": 524,
-    "range": [
-      523,
-      524
-    ]
+    "end": 524
   },
   {
     "type": "String",
     "value": "\"property bag with years < min\"",
     "start": 525,
-    "end": 556,
-    "range": [
-      525,
-      556
-    ]
+    "end": 556
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 556,
-    "end": 557,
-    "range": [
-      556,
-      557
-    ]
+    "end": 557
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 557,
-    "end": 558,
-    "range": [
-      557,
-      558
-    ]
+    "end": 558
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 561,
-    "end": 562,
-    "range": [
-      561,
-      562
-    ]
+    "end": 562
   },
   {
     "type": "String",
     "value": "\"P4294967296M\"",
     "start": 562,
-    "end": 576,
-    "range": [
-      562,
-      576
-    ]
+    "end": 576
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 576,
-    "end": 577,
-    "range": [
-      576,
-      577
-    ]
+    "end": 577
   },
   {
     "type": "String",
     "value": "\"string with months > max\"",
     "start": 578,
-    "end": 604,
-    "range": [
-      578,
-      604
-    ]
+    "end": 604
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 604,
-    "end": 605,
-    "range": [
-      604,
-      605
-    ]
+    "end": 605
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 605,
-    "end": 606,
-    "range": [
-      605,
-      606
-    ]
+    "end": 606
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 609,
-    "end": 610,
-    "range": [
-      609,
-      610
-    ]
+    "end": 610
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 610,
-    "end": 611,
-    "range": [
-      610,
-      611
-    ]
+    "end": 611
   },
   {
     "type": "Identifier",
     "value": "months",
     "start": 612,
-    "end": 618,
-    "range": [
-      612,
-      618
-    ]
+    "end": 618
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 618,
-    "end": 619,
-    "range": [
-      618,
-      619
-    ]
+    "end": 619
   },
   {
     "type": "Numeric",
     "value": "4294967296",
     "start": 620,
-    "end": 630,
-    "range": [
-      620,
-      630
-    ]
+    "end": 630
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 631,
-    "end": 632,
-    "range": [
-      631,
-      632
-    ]
+    "end": 632
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 632,
-    "end": 633,
-    "range": [
-      632,
-      633
-    ]
+    "end": 633
   },
   {
     "type": "String",
     "value": "\"property bag with months > max\"",
     "start": 634,
-    "end": 666,
-    "range": [
-      634,
-      666
-    ]
+    "end": 666
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 666,
-    "end": 667,
-    "range": [
-      666,
-      667
-    ]
+    "end": 667
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 667,
-    "end": 668,
-    "range": [
-      667,
-      668
-    ]
+    "end": 668
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 671,
-    "end": 672,
-    "range": [
-      671,
-      672
-    ]
+    "end": 672
   },
   {
     "type": "String",
     "value": "\"-P4294967296M\"",
     "start": 672,
-    "end": 687,
-    "range": [
-      672,
-      687
-    ]
+    "end": 687
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 687,
-    "end": 688,
-    "range": [
-      687,
-      688
-    ]
+    "end": 688
   },
   {
     "type": "String",
     "value": "\"string with months < min\"",
     "start": 689,
-    "end": 715,
-    "range": [
-      689,
-      715
-    ]
+    "end": 715
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 715,
-    "end": 716,
-    "range": [
-      715,
-      716
-    ]
+    "end": 716
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 716,
-    "end": 717,
-    "range": [
-      716,
-      717
-    ]
+    "end": 717
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 720,
-    "end": 721,
-    "range": [
-      720,
-      721
-    ]
+    "end": 721
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 721,
-    "end": 722,
-    "range": [
-      721,
-      722
-    ]
+    "end": 722
   },
   {
     "type": "Identifier",
     "value": "months",
     "start": 723,
-    "end": 729,
-    "range": [
-      723,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 729,
-    "end": 730,
-    "range": [
-      729,
-      730
-    ]
+    "end": 730
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 731,
-    "end": 732,
-    "range": [
-      731,
-      732
-    ]
+    "end": 732
   },
   {
     "type": "Numeric",
     "value": "4294967296",
     "start": 732,
-    "end": 742,
-    "range": [
-      732,
-      742
-    ]
+    "end": 742
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 743,
-    "end": 744,
-    "range": [
-      743,
-      744
-    ]
+    "end": 744
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 744,
-    "end": 745,
-    "range": [
-      744,
-      745
-    ]
+    "end": 745
   },
   {
     "type": "String",
     "value": "\"property bag with months < min\"",
     "start": 746,
-    "end": 778,
-    "range": [
-      746,
-      778
-    ]
+    "end": 778
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 778,
-    "end": 779,
-    "range": [
-      778,
-      779
-    ]
+    "end": 779
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 779,
-    "end": 780,
-    "range": [
-      779,
-      780
-    ]
+    "end": 780
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 783,
-    "end": 784,
-    "range": [
-      783,
-      784
-    ]
+    "end": 784
   },
   {
     "type": "String",
     "value": "\"P4294967296W\"",
     "start": 784,
-    "end": 798,
-    "range": [
-      784,
-      798
-    ]
+    "end": 798
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 798,
-    "end": 799,
-    "range": [
-      798,
-      799
-    ]
+    "end": 799
   },
   {
     "type": "String",
     "value": "\"string with weeks > max\"",
     "start": 800,
-    "end": 825,
-    "range": [
-      800,
-      825
-    ]
+    "end": 825
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 825,
-    "end": 826,
-    "range": [
-      825,
-      826
-    ]
+    "end": 826
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 826,
-    "end": 827,
-    "range": [
-      826,
-      827
-    ]
+    "end": 827
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 830,
-    "end": 831,
-    "range": [
-      830,
-      831
-    ]
+    "end": 831
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 831,
-    "end": 832,
-    "range": [
-      831,
-      832
-    ]
+    "end": 832
   },
   {
     "type": "Identifier",
     "value": "weeks",
     "start": 833,
-    "end": 838,
-    "range": [
-      833,
-      838
-    ]
+    "end": 838
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 838,
-    "end": 839,
-    "range": [
-      838,
-      839
-    ]
+    "end": 839
   },
   {
     "type": "Numeric",
     "value": "4294967296",
     "start": 840,
-    "end": 850,
-    "range": [
-      840,
-      850
-    ]
+    "end": 850
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 851,
-    "end": 852,
-    "range": [
-      851,
-      852
-    ]
+    "end": 852
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 852,
-    "end": 853,
-    "range": [
-      852,
-      853
-    ]
+    "end": 853
   },
   {
     "type": "String",
     "value": "\"property bag with weeks > max\"",
     "start": 854,
-    "end": 885,
-    "range": [
-      854,
-      885
-    ]
+    "end": 885
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 885,
-    "end": 886,
-    "range": [
-      885,
-      886
-    ]
+    "end": 886
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 886,
-    "end": 887,
-    "range": [
-      886,
-      887
-    ]
+    "end": 887
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 890,
-    "end": 891,
-    "range": [
-      890,
-      891
-    ]
+    "end": 891
   },
   {
     "type": "String",
     "value": "\"-P4294967296W\"",
     "start": 891,
-    "end": 906,
-    "range": [
-      891,
-      906
-    ]
+    "end": 906
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 906,
-    "end": 907,
-    "range": [
-      906,
-      907
-    ]
+    "end": 907
   },
   {
     "type": "String",
     "value": "\"string with weeks < min\"",
     "start": 908,
-    "end": 933,
-    "range": [
-      908,
-      933
-    ]
+    "end": 933
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 933,
-    "end": 934,
-    "range": [
-      933,
-      934
-    ]
+    "end": 934
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 934,
-    "end": 935,
-    "range": [
-      934,
-      935
-    ]
+    "end": 935
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 938,
-    "end": 939,
-    "range": [
-      938,
-      939
-    ]
+    "end": 939
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 939,
-    "end": 940,
-    "range": [
-      939,
-      940
-    ]
+    "end": 940
   },
   {
     "type": "Identifier",
     "value": "weeks",
     "start": 941,
-    "end": 946,
-    "range": [
-      941,
-      946
-    ]
+    "end": 946
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 946,
-    "end": 947,
-    "range": [
-      946,
-      947
-    ]
+    "end": 947
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 948,
-    "end": 949,
-    "range": [
-      948,
-      949
-    ]
+    "end": 949
   },
   {
     "type": "Numeric",
     "value": "4294967296",
     "start": 949,
-    "end": 959,
-    "range": [
-      949,
-      959
-    ]
+    "end": 959
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 960,
-    "end": 961,
-    "range": [
-      960,
-      961
-    ]
+    "end": 961
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 961,
-    "end": 962,
-    "range": [
-      961,
-      962
-    ]
+    "end": 962
   },
   {
     "type": "String",
     "value": "\"property bag with weeks < min\"",
     "start": 963,
-    "end": 994,
-    "range": [
-      963,
-      994
-    ]
+    "end": 994
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 994,
-    "end": 995,
-    "range": [
-      994,
-      995
-    ]
+    "end": 995
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 995,
-    "end": 996,
-    "range": [
-      995,
-      996
-    ]
+    "end": 996
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1051,
-    "end": 1052,
-    "range": [
-      1051,
-      1052
-    ]
+    "end": 1052
   },
   {
     "type": "String",
     "value": "\"P104249991375D\"",
     "start": 1052,
-    "end": 1068,
-    "range": [
-      1052,
-      1068
-    ]
+    "end": 1068
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1068,
-    "end": 1069,
-    "range": [
-      1068,
-      1069
-    ]
+    "end": 1069
   },
   {
     "type": "String",
     "value": "\"string with days > max\"",
     "start": 1070,
-    "end": 1094,
-    "range": [
-      1070,
-      1094
-    ]
+    "end": 1094
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1094,
-    "end": 1095,
-    "range": [
-      1094,
-      1095
-    ]
+    "end": 1095
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1095,
-    "end": 1096,
-    "range": [
-      1095,
-      1096
-    ]
+    "end": 1096
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1099,
-    "end": 1100,
-    "range": [
-      1099,
-      1100
-    ]
+    "end": 1100
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1100,
-    "end": 1101,
-    "range": [
-      1100,
-      1101
-    ]
+    "end": 1101
   },
   {
     "type": "Identifier",
     "value": "days",
     "start": 1102,
-    "end": 1106,
-    "range": [
-      1102,
-      1106
-    ]
+    "end": 1106
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1106,
-    "end": 1107,
-    "range": [
-      1106,
-      1107
-    ]
+    "end": 1107
   },
   {
     "type": "Numeric",
     "value": "104249991375",
     "start": 1108,
-    "end": 1120,
-    "range": [
-      1108,
-      1120
-    ]
+    "end": 1120
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1121,
-    "end": 1122,
-    "range": [
-      1121,
-      1122
-    ]
+    "end": 1122
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1122,
-    "end": 1123,
-    "range": [
-      1122,
-      1123
-    ]
+    "end": 1123
   },
   {
     "type": "String",
     "value": "\"property bag with days > max\"",
     "start": 1124,
-    "end": 1154,
-    "range": [
-      1124,
-      1154
-    ]
+    "end": 1154
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1154,
-    "end": 1155,
-    "range": [
-      1154,
-      1155
-    ]
+    "end": 1155
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1155,
-    "end": 1156,
-    "range": [
-      1155,
-      1156
-    ]
+    "end": 1156
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1159,
-    "end": 1160,
-    "range": [
-      1159,
-      1160
-    ]
+    "end": 1160
   },
   {
     "type": "String",
     "value": "\"P104249991374DT24H\"",
     "start": 1160,
-    "end": 1180,
-    "range": [
-      1160,
-      1180
-    ]
+    "end": 1180
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1180,
-    "end": 1181,
-    "range": [
-      1180,
-      1181
-    ]
+    "end": 1181
   },
   {
     "type": "String",
     "value": "\"string where hours balance into days > max\"",
     "start": 1182,
-    "end": 1226,
-    "range": [
-      1182,
-      1226
-    ]
+    "end": 1226
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1226,
-    "end": 1227,
-    "range": [
-      1226,
-      1227
-    ]
+    "end": 1227
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1227,
-    "end": 1228,
-    "range": [
-      1227,
-      1228
-    ]
+    "end": 1228
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1231,
-    "end": 1232,
-    "range": [
-      1231,
-      1232
-    ]
+    "end": 1232
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1232,
-    "end": 1233,
-    "range": [
-      1232,
-      1233
-    ]
+    "end": 1233
   },
   {
     "type": "Identifier",
     "value": "days",
     "start": 1234,
-    "end": 1238,
-    "range": [
-      1234,
-      1238
-    ]
+    "end": 1238
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1238,
-    "end": 1239,
-    "range": [
-      1238,
-      1239
-    ]
+    "end": 1239
   },
   {
     "type": "Numeric",
     "value": "104249991374",
     "start": 1240,
-    "end": 1252,
-    "range": [
-      1240,
-      1252
-    ]
+    "end": 1252
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1252,
-    "end": 1253,
-    "range": [
-      1252,
-      1253
-    ]
+    "end": 1253
   },
   {
     "type": "Identifier",
     "value": "hours",
     "start": 1254,
-    "end": 1259,
-    "range": [
-      1254,
-      1259
-    ]
+    "end": 1259
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1259,
-    "end": 1260,
-    "range": [
-      1259,
-      1260
-    ]
+    "end": 1260
   },
   {
     "type": "Numeric",
     "value": "24",
     "start": 1261,
-    "end": 1263,
-    "range": [
-      1261,
-      1263
-    ]
+    "end": 1263
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1264,
-    "end": 1265,
-    "range": [
-      1264,
-      1265
-    ]
+    "end": 1265
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1265,
-    "end": 1266,
-    "range": [
-      1265,
-      1266
-    ]
+    "end": 1266
   },
   {
     "type": "String",
     "value": "\"property bag where hours balance into days > max\"",
     "start": 1267,
-    "end": 1317,
-    "range": [
-      1267,
-      1317
-    ]
+    "end": 1317
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1317,
-    "end": 1318,
-    "range": [
-      1317,
-      1318
-    ]
+    "end": 1318
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1318,
-    "end": 1319,
-    "range": [
-      1318,
-      1319
-    ]
+    "end": 1319
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1322,
-    "end": 1323,
-    "range": [
-      1322,
-      1323
-    ]
+    "end": 1323
   },
   {
     "type": "String",
     "value": "\"-P104249991375D\"",
     "start": 1323,
-    "end": 1340,
-    "range": [
-      1323,
-      1340
-    ]
+    "end": 1340
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1340,
-    "end": 1341,
-    "range": [
-      1340,
-      1341
-    ]
+    "end": 1341
   },
   {
     "type": "String",
     "value": "\"string with days < min\"",
     "start": 1342,
-    "end": 1366,
-    "range": [
-      1342,
-      1366
-    ]
+    "end": 1366
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1366,
-    "end": 1367,
-    "range": [
-      1366,
-      1367
-    ]
+    "end": 1367
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1367,
-    "end": 1368,
-    "range": [
-      1367,
-      1368
-    ]
+    "end": 1368
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1371,
-    "end": 1372,
-    "range": [
-      1371,
-      1372
-    ]
+    "end": 1372
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1372,
-    "end": 1373,
-    "range": [
-      1372,
-      1373
-    ]
+    "end": 1373
   },
   {
     "type": "Identifier",
     "value": "days",
     "start": 1374,
-    "end": 1378,
-    "range": [
-      1374,
-      1378
-    ]
+    "end": 1378
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1378,
-    "end": 1379,
-    "range": [
-      1378,
-      1379
-    ]
+    "end": 1379
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 1380,
-    "end": 1381,
-    "range": [
-      1380,
-      1381
-    ]
+    "end": 1381
   },
   {
     "type": "Numeric",
     "value": "104249991375",
     "start": 1381,
-    "end": 1393,
-    "range": [
-      1381,
-      1393
-    ]
+    "end": 1393
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1394,
-    "end": 1395,
-    "range": [
-      1394,
-      1395
-    ]
+    "end": 1395
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1395,
-    "end": 1396,
-    "range": [
-      1395,
-      1396
-    ]
+    "end": 1396
   },
   {
     "type": "String",
     "value": "\"property bag with days < min\"",
     "start": 1397,
-    "end": 1427,
-    "range": [
-      1397,
-      1427
-    ]
+    "end": 1427
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1427,
-    "end": 1428,
-    "range": [
-      1427,
-      1428
-    ]
+    "end": 1428
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1428,
-    "end": 1429,
-    "range": [
-      1428,
-      1429
-    ]
+    "end": 1429
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1432,
-    "end": 1433,
-    "range": [
-      1432,
-      1433
-    ]
+    "end": 1433
   },
   {
     "type": "String",
     "value": "\"-P104249991374DT24H\"",
     "start": 1433,
-    "end": 1454,
-    "range": [
-      1433,
-      1454
-    ]
+    "end": 1454
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1454,
-    "end": 1455,
-    "range": [
-      1454,
-      1455
-    ]
+    "end": 1455
   },
   {
     "type": "String",
     "value": "\"string where hours balance into days < min\"",
     "start": 1456,
-    "end": 1500,
-    "range": [
-      1456,
-      1500
-    ]
+    "end": 1500
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1500,
-    "end": 1501,
-    "range": [
-      1500,
-      1501
-    ]
+    "end": 1501
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1501,
-    "end": 1502,
-    "range": [
-      1501,
-      1502
-    ]
+    "end": 1502
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1505,
-    "end": 1506,
-    "range": [
-      1505,
-      1506
-    ]
+    "end": 1506
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1506,
-    "end": 1507,
-    "range": [
-      1506,
-      1507
-    ]
+    "end": 1507
   },
   {
     "type": "Identifier",
     "value": "days",
     "start": 1508,
-    "end": 1512,
-    "range": [
-      1508,
-      1512
-    ]
+    "end": 1512
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1512,
-    "end": 1513,
-    "range": [
-      1512,
-      1513
-    ]
+    "end": 1513
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 1514,
-    "end": 1515,
-    "range": [
-      1514,
-      1515
-    ]
+    "end": 1515
   },
   {
     "type": "Numeric",
     "value": "104249991374",
     "start": 1515,
-    "end": 1527,
-    "range": [
-      1515,
-      1527
-    ]
+    "end": 1527
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1527,
-    "end": 1528,
-    "range": [
-      1527,
-      1528
-    ]
+    "end": 1528
   },
   {
     "type": "Identifier",
     "value": "hours",
     "start": 1529,
-    "end": 1534,
-    "range": [
-      1529,
-      1534
-    ]
+    "end": 1534
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1534,
-    "end": 1535,
-    "range": [
-      1534,
-      1535
-    ]
+    "end": 1535
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 1536,
-    "end": 1537,
-    "range": [
-      1536,
-      1537
-    ]
+    "end": 1537
   },
   {
     "type": "Numeric",
     "value": "24",
     "start": 1537,
-    "end": 1539,
-    "range": [
-      1537,
-      1539
-    ]
+    "end": 1539
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1540,
-    "end": 1541,
-    "range": [
-      1540,
-      1541
-    ]
+    "end": 1541
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1541,
-    "end": 1542,
-    "range": [
-      1541,
-      1542
-    ]
+    "end": 1542
   },
   {
     "type": "String",
     "value": "\"property bag where hours balance into days < min\"",
     "start": 1543,
-    "end": 1593,
-    "range": [
-      1543,
-      1593
-    ]
+    "end": 1593
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1593,
-    "end": 1594,
-    "range": [
-      1593,
-      1594
-    ]
+    "end": 1594
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1594,
-    "end": 1595,
-    "range": [
-      1594,
-      1595
-    ]
+    "end": 1595
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1650,
-    "end": 1651,
-    "range": [
-      1650,
-      1651
-    ]
+    "end": 1651
   },
   {
     "type": "String",
     "value": "\"PT2501999792984H\"",
     "start": 1651,
-    "end": 1669,
-    "range": [
-      1651,
-      1669
-    ]
+    "end": 1669
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1669,
-    "end": 1670,
-    "range": [
-      1669,
-      1670
-    ]
+    "end": 1670
   },
   {
     "type": "String",
     "value": "\"string with hours > max\"",
     "start": 1671,
-    "end": 1696,
-    "range": [
-      1671,
-      1696
-    ]
+    "end": 1696
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1696,
-    "end": 1697,
-    "range": [
-      1696,
-      1697
-    ]
+    "end": 1697
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1697,
-    "end": 1698,
-    "range": [
-      1697,
-      1698
-    ]
+    "end": 1698
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1701,
-    "end": 1702,
-    "range": [
-      1701,
-      1702
-    ]
+    "end": 1702
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1702,
-    "end": 1703,
-    "range": [
-      1702,
-      1703
-    ]
+    "end": 1703
   },
   {
     "type": "Identifier",
     "value": "hours",
     "start": 1704,
-    "end": 1709,
-    "range": [
-      1704,
-      1709
-    ]
+    "end": 1709
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1709,
-    "end": 1710,
-    "range": [
-      1709,
-      1710
-    ]
+    "end": 1710
   },
   {
     "type": "Numeric",
     "value": "2501999792984",
     "start": 1711,
-    "end": 1724,
-    "range": [
-      1711,
-      1724
-    ]
+    "end": 1724
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1725,
-    "end": 1726,
-    "range": [
-      1725,
-      1726
-    ]
+    "end": 1726
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1726,
-    "end": 1727,
-    "range": [
-      1726,
-      1727
-    ]
+    "end": 1727
   },
   {
     "type": "String",
     "value": "\"property bag with hours > max\"",
     "start": 1728,
-    "end": 1759,
-    "range": [
-      1728,
-      1759
-    ]
+    "end": 1759
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1759,
-    "end": 1760,
-    "range": [
-      1759,
-      1760
-    ]
+    "end": 1760
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1760,
-    "end": 1761,
-    "range": [
-      1760,
-      1761
-    ]
+    "end": 1761
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1764,
-    "end": 1765,
-    "range": [
-      1764,
-      1765
-    ]
+    "end": 1765
   },
   {
     "type": "String",
     "value": "\"PT2501999792983H60M\"",
     "start": 1765,
-    "end": 1786,
-    "range": [
-      1765,
-      1786
-    ]
+    "end": 1786
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1786,
-    "end": 1787,
-    "range": [
-      1786,
-      1787
-    ]
+    "end": 1787
   },
   {
     "type": "String",
     "value": "\"string where minutes balance into hours > max\"",
     "start": 1788,
-    "end": 1835,
-    "range": [
-      1788,
-      1835
-    ]
+    "end": 1835
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1835,
-    "end": 1836,
-    "range": [
-      1835,
-      1836
-    ]
+    "end": 1836
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1836,
-    "end": 1837,
-    "range": [
-      1836,
-      1837
-    ]
+    "end": 1837
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1840,
-    "end": 1841,
-    "range": [
-      1840,
-      1841
-    ]
+    "end": 1841
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1841,
-    "end": 1842,
-    "range": [
-      1841,
-      1842
-    ]
+    "end": 1842
   },
   {
     "type": "Identifier",
     "value": "hours",
     "start": 1843,
-    "end": 1848,
-    "range": [
-      1843,
-      1848
-    ]
+    "end": 1848
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1848,
-    "end": 1849,
-    "range": [
-      1848,
-      1849
-    ]
+    "end": 1849
   },
   {
     "type": "Numeric",
     "value": "2501999792983",
     "start": 1850,
-    "end": 1863,
-    "range": [
-      1850,
-      1863
-    ]
+    "end": 1863
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1863,
-    "end": 1864,
-    "range": [
-      1863,
-      1864
-    ]
+    "end": 1864
   },
   {
     "type": "Identifier",
     "value": "minutes",
     "start": 1865,
-    "end": 1872,
-    "range": [
-      1865,
-      1872
-    ]
+    "end": 1872
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1872,
-    "end": 1873,
-    "range": [
-      1872,
-      1873
-    ]
+    "end": 1873
   },
   {
     "type": "Numeric",
     "value": "60",
     "start": 1874,
-    "end": 1876,
-    "range": [
-      1874,
-      1876
-    ]
+    "end": 1876
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1877,
-    "end": 1878,
-    "range": [
-      1877,
-      1878
-    ]
+    "end": 1878
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1878,
-    "end": 1879,
-    "range": [
-      1878,
-      1879
-    ]
+    "end": 1879
   },
   {
     "type": "String",
     "value": "\"property bag where minutes balance into hours > max\"",
     "start": 1880,
-    "end": 1933,
-    "range": [
-      1880,
-      1933
-    ]
+    "end": 1933
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1933,
-    "end": 1934,
-    "range": [
-      1933,
-      1934
-    ]
+    "end": 1934
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1934,
-    "end": 1935,
-    "range": [
-      1934,
-      1935
-    ]
+    "end": 1935
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1938,
-    "end": 1939,
-    "range": [
-      1938,
-      1939
-    ]
+    "end": 1939
   },
   {
     "type": "String",
     "value": "\"-PT2501999792984H\"",
     "start": 1939,
-    "end": 1958,
-    "range": [
-      1939,
-      1958
-    ]
+    "end": 1958
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1958,
-    "end": 1959,
-    "range": [
-      1958,
-      1959
-    ]
+    "end": 1959
   },
   {
     "type": "String",
     "value": "\"string with hours < min\"",
     "start": 1960,
-    "end": 1985,
-    "range": [
-      1960,
-      1985
-    ]
+    "end": 1985
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1985,
-    "end": 1986,
-    "range": [
-      1985,
-      1986
-    ]
+    "end": 1986
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1986,
-    "end": 1987,
-    "range": [
-      1986,
-      1987
-    ]
+    "end": 1987
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 1990,
-    "end": 1991,
-    "range": [
-      1990,
-      1991
-    ]
+    "end": 1991
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1991,
-    "end": 1992,
-    "range": [
-      1991,
-      1992
-    ]
+    "end": 1992
   },
   {
     "type": "Identifier",
     "value": "hours",
     "start": 1993,
-    "end": 1998,
-    "range": [
-      1993,
-      1998
-    ]
+    "end": 1998
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 1998,
-    "end": 1999,
-    "range": [
-      1998,
-      1999
-    ]
+    "end": 1999
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 2000,
-    "end": 2001,
-    "range": [
-      2000,
-      2001
-    ]
+    "end": 2001
   },
   {
     "type": "Numeric",
     "value": "2501999792984",
     "start": 2001,
-    "end": 2014,
-    "range": [
-      2001,
-      2014
-    ]
+    "end": 2014
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2015,
-    "end": 2016,
-    "range": [
-      2015,
-      2016
-    ]
+    "end": 2016
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2016,
-    "end": 2017,
-    "range": [
-      2016,
-      2017
-    ]
+    "end": 2017
   },
   {
     "type": "String",
     "value": "\"property bag with hours < min\"",
     "start": 2018,
-    "end": 2049,
-    "range": [
-      2018,
-      2049
-    ]
+    "end": 2049
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2049,
-    "end": 2050,
-    "range": [
-      2049,
-      2050
-    ]
+    "end": 2050
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2050,
-    "end": 2051,
-    "range": [
-      2050,
-      2051
-    ]
+    "end": 2051
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2054,
-    "end": 2055,
-    "range": [
-      2054,
-      2055
-    ]
+    "end": 2055
   },
   {
     "type": "String",
     "value": "\"-PT2501999792983H60M\"",
     "start": 2055,
-    "end": 2077,
-    "range": [
-      2055,
-      2077
-    ]
+    "end": 2077
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2077,
-    "end": 2078,
-    "range": [
-      2077,
-      2078
-    ]
+    "end": 2078
   },
   {
     "type": "String",
     "value": "\"string where minutes balance into hours < min\"",
     "start": 2079,
-    "end": 2126,
-    "range": [
-      2079,
-      2126
-    ]
+    "end": 2126
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2126,
-    "end": 2127,
-    "range": [
-      2126,
-      2127
-    ]
+    "end": 2127
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2127,
-    "end": 2128,
-    "range": [
-      2127,
-      2128
-    ]
+    "end": 2128
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2131,
-    "end": 2132,
-    "range": [
-      2131,
-      2132
-    ]
+    "end": 2132
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2132,
-    "end": 2133,
-    "range": [
-      2132,
-      2133
-    ]
+    "end": 2133
   },
   {
     "type": "Identifier",
     "value": "hours",
     "start": 2134,
-    "end": 2139,
-    "range": [
-      2134,
-      2139
-    ]
+    "end": 2139
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2139,
-    "end": 2140,
-    "range": [
-      2139,
-      2140
-    ]
+    "end": 2140
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 2141,
-    "end": 2142,
-    "range": [
-      2141,
-      2142
-    ]
+    "end": 2142
   },
   {
     "type": "Numeric",
     "value": "2501999792983",
     "start": 2142,
-    "end": 2155,
-    "range": [
-      2142,
-      2155
-    ]
+    "end": 2155
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2155,
-    "end": 2156,
-    "range": [
-      2155,
-      2156
-    ]
+    "end": 2156
   },
   {
     "type": "Identifier",
     "value": "minutes",
     "start": 2157,
-    "end": 2164,
-    "range": [
-      2157,
-      2164
-    ]
+    "end": 2164
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2164,
-    "end": 2165,
-    "range": [
-      2164,
-      2165
-    ]
+    "end": 2165
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 2166,
-    "end": 2167,
-    "range": [
-      2166,
-      2167
-    ]
+    "end": 2167
   },
   {
     "type": "Numeric",
     "value": "60",
     "start": 2167,
-    "end": 2169,
-    "range": [
-      2167,
-      2169
-    ]
+    "end": 2169
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2170,
-    "end": 2171,
-    "range": [
-      2170,
-      2171
-    ]
+    "end": 2171
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2171,
-    "end": 2172,
-    "range": [
-      2171,
-      2172
-    ]
+    "end": 2172
   },
   {
     "type": "String",
     "value": "\"property bag where minutes balance into hours < min\"",
     "start": 2173,
-    "end": 2226,
-    "range": [
-      2173,
-      2226
-    ]
+    "end": 2226
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2226,
-    "end": 2227,
-    "range": [
-      2226,
-      2227
-    ]
+    "end": 2227
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2227,
-    "end": 2228,
-    "range": [
-      2227,
-      2228
-    ]
+    "end": 2228
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2283,
-    "end": 2284,
-    "range": [
-      2283,
-      2284
-    ]
+    "end": 2284
   },
   {
     "type": "String",
     "value": "\"PT150119987579017M\"",
     "start": 2284,
-    "end": 2304,
-    "range": [
-      2284,
-      2304
-    ]
+    "end": 2304
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2304,
-    "end": 2305,
-    "range": [
-      2304,
-      2305
-    ]
+    "end": 2305
   },
   {
     "type": "String",
     "value": "\"string with minutes > max\"",
     "start": 2306,
-    "end": 2333,
-    "range": [
-      2306,
-      2333
-    ]
+    "end": 2333
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2333,
-    "end": 2334,
-    "range": [
-      2333,
-      2334
-    ]
+    "end": 2334
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2334,
-    "end": 2335,
-    "range": [
-      2334,
-      2335
-    ]
+    "end": 2335
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2338,
-    "end": 2339,
-    "range": [
-      2338,
-      2339
-    ]
+    "end": 2339
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2339,
-    "end": 2340,
-    "range": [
-      2339,
-      2340
-    ]
+    "end": 2340
   },
   {
     "type": "Identifier",
     "value": "minutes",
     "start": 2341,
-    "end": 2348,
-    "range": [
-      2341,
-      2348
-    ]
+    "end": 2348
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2348,
-    "end": 2349,
-    "range": [
-      2348,
-      2349
-    ]
+    "end": 2349
   },
   {
     "type": "Numeric",
     "value": "150119987579017",
     "start": 2350,
-    "end": 2365,
-    "range": [
-      2350,
-      2365
-    ]
+    "end": 2365
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2366,
-    "end": 2367,
-    "range": [
-      2366,
-      2367
-    ]
+    "end": 2367
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2367,
-    "end": 2368,
-    "range": [
-      2367,
-      2368
-    ]
+    "end": 2368
   },
   {
     "type": "String",
     "value": "\"property bag with minutes > max\"",
     "start": 2369,
-    "end": 2402,
-    "range": [
-      2369,
-      2402
-    ]
+    "end": 2402
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2402,
-    "end": 2403,
-    "range": [
-      2402,
-      2403
-    ]
+    "end": 2403
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2403,
-    "end": 2404,
-    "range": [
-      2403,
-      2404
-    ]
+    "end": 2404
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2407,
-    "end": 2408,
-    "range": [
-      2407,
-      2408
-    ]
+    "end": 2408
   },
   {
     "type": "String",
     "value": "\"PT150119987579016M60S\"",
     "start": 2408,
-    "end": 2431,
-    "range": [
-      2408,
-      2431
-    ]
+    "end": 2431
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2431,
-    "end": 2432,
-    "range": [
-      2431,
-      2432
-    ]
+    "end": 2432
   },
   {
     "type": "String",
     "value": "\"string where seconds balance into minutes > max\"",
     "start": 2433,
-    "end": 2482,
-    "range": [
-      2433,
-      2482
-    ]
+    "end": 2482
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2482,
-    "end": 2483,
-    "range": [
-      2482,
-      2483
-    ]
+    "end": 2483
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2483,
-    "end": 2484,
-    "range": [
-      2483,
-      2484
-    ]
+    "end": 2484
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2487,
-    "end": 2488,
-    "range": [
-      2487,
-      2488
-    ]
+    "end": 2488
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2488,
-    "end": 2489,
-    "range": [
-      2488,
-      2489
-    ]
+    "end": 2489
   },
   {
     "type": "Identifier",
     "value": "minutes",
     "start": 2490,
-    "end": 2497,
-    "range": [
-      2490,
-      2497
-    ]
+    "end": 2497
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2497,
-    "end": 2498,
-    "range": [
-      2497,
-      2498
-    ]
+    "end": 2498
   },
   {
     "type": "Numeric",
     "value": "150119987579016",
     "start": 2499,
-    "end": 2514,
-    "range": [
-      2499,
-      2514
-    ]
+    "end": 2514
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2514,
-    "end": 2515,
-    "range": [
-      2514,
-      2515
-    ]
+    "end": 2515
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 2516,
-    "end": 2523,
-    "range": [
-      2516,
-      2523
-    ]
+    "end": 2523
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2523,
-    "end": 2524,
-    "range": [
-      2523,
-      2524
-    ]
+    "end": 2524
   },
   {
     "type": "Numeric",
     "value": "60",
     "start": 2525,
-    "end": 2527,
-    "range": [
-      2525,
-      2527
-    ]
+    "end": 2527
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2528,
-    "end": 2529,
-    "range": [
-      2528,
-      2529
-    ]
+    "end": 2529
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2529,
-    "end": 2530,
-    "range": [
-      2529,
-      2530
-    ]
+    "end": 2530
   },
   {
     "type": "String",
     "value": "\"property bag where seconds balance into minutes > max\"",
     "start": 2531,
-    "end": 2586,
-    "range": [
-      2531,
-      2586
-    ]
+    "end": 2586
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2586,
-    "end": 2587,
-    "range": [
-      2586,
-      2587
-    ]
+    "end": 2587
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2587,
-    "end": 2588,
-    "range": [
-      2587,
-      2588
-    ]
+    "end": 2588
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2591,
-    "end": 2592,
-    "range": [
-      2591,
-      2592
-    ]
+    "end": 2592
   },
   {
     "type": "String",
     "value": "\"-PT150119987579017M\"",
     "start": 2592,
-    "end": 2613,
-    "range": [
-      2592,
-      2613
-    ]
+    "end": 2613
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2613,
-    "end": 2614,
-    "range": [
-      2613,
-      2614
-    ]
+    "end": 2614
   },
   {
     "type": "String",
     "value": "\"string with minutes < min\"",
     "start": 2615,
-    "end": 2642,
-    "range": [
-      2615,
-      2642
-    ]
+    "end": 2642
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2642,
-    "end": 2643,
-    "range": [
-      2642,
-      2643
-    ]
+    "end": 2643
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2643,
-    "end": 2644,
-    "range": [
-      2643,
-      2644
-    ]
+    "end": 2644
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2647,
-    "end": 2648,
-    "range": [
-      2647,
-      2648
-    ]
+    "end": 2648
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2648,
-    "end": 2649,
-    "range": [
-      2648,
-      2649
-    ]
+    "end": 2649
   },
   {
     "type": "Identifier",
     "value": "minutes",
     "start": 2650,
-    "end": 2657,
-    "range": [
-      2650,
-      2657
-    ]
+    "end": 2657
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2657,
-    "end": 2658,
-    "range": [
-      2657,
-      2658
-    ]
+    "end": 2658
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 2659,
-    "end": 2660,
-    "range": [
-      2659,
-      2660
-    ]
+    "end": 2660
   },
   {
     "type": "Numeric",
     "value": "150119987579017",
     "start": 2660,
-    "end": 2675,
-    "range": [
-      2660,
-      2675
-    ]
+    "end": 2675
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2676,
-    "end": 2677,
-    "range": [
-      2676,
-      2677
-    ]
+    "end": 2677
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2677,
-    "end": 2678,
-    "range": [
-      2677,
-      2678
-    ]
+    "end": 2678
   },
   {
     "type": "String",
     "value": "\"property bag with minutes < min\"",
     "start": 2679,
-    "end": 2712,
-    "range": [
-      2679,
-      2712
-    ]
+    "end": 2712
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2712,
-    "end": 2713,
-    "range": [
-      2712,
-      2713
-    ]
+    "end": 2713
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2713,
-    "end": 2714,
-    "range": [
-      2713,
-      2714
-    ]
+    "end": 2714
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2717,
-    "end": 2718,
-    "range": [
-      2717,
-      2718
-    ]
+    "end": 2718
   },
   {
     "type": "String",
     "value": "\"-PT150119987579016M60S\"",
     "start": 2718,
-    "end": 2742,
-    "range": [
-      2718,
-      2742
-    ]
+    "end": 2742
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2742,
-    "end": 2743,
-    "range": [
-      2742,
-      2743
-    ]
+    "end": 2743
   },
   {
     "type": "String",
     "value": "\"string where seconds balance into minutes < min\"",
     "start": 2744,
-    "end": 2793,
-    "range": [
-      2744,
-      2793
-    ]
+    "end": 2793
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2793,
-    "end": 2794,
-    "range": [
-      2793,
-      2794
-    ]
+    "end": 2794
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2794,
-    "end": 2795,
-    "range": [
-      2794,
-      2795
-    ]
+    "end": 2795
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2798,
-    "end": 2799,
-    "range": [
-      2798,
-      2799
-    ]
+    "end": 2799
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2799,
-    "end": 2800,
-    "range": [
-      2799,
-      2800
-    ]
+    "end": 2800
   },
   {
     "type": "Identifier",
     "value": "minutes",
     "start": 2801,
-    "end": 2808,
-    "range": [
-      2801,
-      2808
-    ]
+    "end": 2808
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2808,
-    "end": 2809,
-    "range": [
-      2808,
-      2809
-    ]
+    "end": 2809
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 2810,
-    "end": 2811,
-    "range": [
-      2810,
-      2811
-    ]
+    "end": 2811
   },
   {
     "type": "Numeric",
     "value": "150119987579016",
     "start": 2811,
-    "end": 2826,
-    "range": [
-      2811,
-      2826
-    ]
+    "end": 2826
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2826,
-    "end": 2827,
-    "range": [
-      2826,
-      2827
-    ]
+    "end": 2827
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 2828,
-    "end": 2835,
-    "range": [
-      2828,
-      2835
-    ]
+    "end": 2835
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2835,
-    "end": 2836,
-    "range": [
-      2835,
-      2836
-    ]
+    "end": 2836
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 2837,
-    "end": 2838,
-    "range": [
-      2837,
-      2838
-    ]
+    "end": 2838
   },
   {
     "type": "Numeric",
     "value": "60",
     "start": 2838,
-    "end": 2840,
-    "range": [
-      2838,
-      2840
-    ]
+    "end": 2840
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2841,
-    "end": 2842,
-    "range": [
-      2841,
-      2842
-    ]
+    "end": 2842
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2842,
-    "end": 2843,
-    "range": [
-      2842,
-      2843
-    ]
+    "end": 2843
   },
   {
     "type": "String",
     "value": "\"property bag where seconds balance into minutes < min\"",
     "start": 2844,
-    "end": 2899,
-    "range": [
-      2844,
-      2899
-    ]
+    "end": 2899
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2899,
-    "end": 2900,
-    "range": [
-      2899,
-      2900
-    ]
+    "end": 2900
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2900,
-    "end": 2901,
-    "range": [
-      2900,
-      2901
-    ]
+    "end": 2901
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2934,
-    "end": 2935,
-    "range": [
-      2934,
-      2935
-    ]
+    "end": 2935
   },
   {
     "type": "String",
     "value": "\"PT9007199254740992S\"",
     "start": 2935,
-    "end": 2956,
-    "range": [
-      2935,
-      2956
-    ]
+    "end": 2956
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2956,
-    "end": 2957,
-    "range": [
-      2956,
-      2957
-    ]
+    "end": 2957
   },
   {
     "type": "String",
     "value": "\"string with seconds > max\"",
     "start": 2958,
-    "end": 2985,
-    "range": [
-      2958,
-      2985
-    ]
+    "end": 2985
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 2985,
-    "end": 2986,
-    "range": [
-      2985,
-      2986
-    ]
+    "end": 2986
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2986,
-    "end": 2987,
-    "range": [
-      2986,
-      2987
-    ]
+    "end": 2987
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 2990,
-    "end": 2991,
-    "range": [
-      2990,
-      2991
-    ]
+    "end": 2991
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 2991,
-    "end": 2992,
-    "range": [
-      2991,
-      2992
-    ]
+    "end": 2992
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 2993,
-    "end": 3000,
-    "range": [
-      2993,
-      3000
-    ]
+    "end": 3000
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3000,
-    "end": 3001,
-    "range": [
-      3000,
-      3001
-    ]
+    "end": 3001
   },
   {
     "type": "Numeric",
     "value": "9007199254740992",
     "start": 3002,
-    "end": 3018,
-    "range": [
-      3002,
-      3018
-    ]
+    "end": 3018
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3019,
-    "end": 3020,
-    "range": [
-      3019,
-      3020
-    ]
+    "end": 3020
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3020,
-    "end": 3021,
-    "range": [
-      3020,
-      3021
-    ]
+    "end": 3021
   },
   {
     "type": "String",
     "value": "\"property bag with seconds > max\"",
     "start": 3022,
-    "end": 3055,
-    "range": [
-      3022,
-      3055
-    ]
+    "end": 3055
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3055,
-    "end": 3056,
-    "range": [
-      3055,
-      3056
-    ]
+    "end": 3056
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3056,
-    "end": 3057,
-    "range": [
-      3056,
-      3057
-    ]
+    "end": 3057
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3060,
-    "end": 3061,
-    "range": [
-      3060,
-      3061
-    ]
+    "end": 3061
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3061,
-    "end": 3062,
-    "range": [
-      3061,
-      3062
-    ]
+    "end": 3062
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 3063,
-    "end": 3070,
-    "range": [
-      3063,
-      3070
-    ]
+    "end": 3070
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3070,
-    "end": 3071,
-    "range": [
-      3070,
-      3071
-    ]
+    "end": 3071
   },
   {
     "type": "Numeric",
     "value": "9007199254740991",
     "start": 3072,
-    "end": 3088,
-    "range": [
-      3072,
-      3088
-    ]
+    "end": 3088
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3088,
-    "end": 3089,
-    "range": [
-      3088,
-      3089
-    ]
+    "end": 3089
   },
   {
     "type": "Identifier",
     "value": "milliseconds",
     "start": 3090,
-    "end": 3102,
-    "range": [
-      3090,
-      3102
-    ]
+    "end": 3102
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3102,
-    "end": 3103,
-    "range": [
-      3102,
-      3103
-    ]
+    "end": 3103
   },
   {
     "type": "Numeric",
     "value": "1000",
     "start": 3104,
-    "end": 3108,
-    "range": [
-      3104,
-      3108
-    ]
+    "end": 3108
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3109,
-    "end": 3110,
-    "range": [
-      3109,
-      3110
-    ]
+    "end": 3110
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3110,
-    "end": 3111,
-    "range": [
-      3110,
-      3111
-    ]
+    "end": 3111
   },
   {
     "type": "String",
     "value": "\"property bag where milliseconds balance into seconds > max\"",
     "start": 3112,
-    "end": 3172,
-    "range": [
-      3112,
-      3172
-    ]
+    "end": 3172
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3172,
-    "end": 3173,
-    "range": [
-      3172,
-      3173
-    ]
+    "end": 3173
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3173,
-    "end": 3174,
-    "range": [
-      3173,
-      3174
-    ]
+    "end": 3174
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3177,
-    "end": 3178,
-    "range": [
-      3177,
-      3178
-    ]
+    "end": 3178
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3178,
-    "end": 3179,
-    "range": [
-      3178,
-      3179
-    ]
+    "end": 3179
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 3180,
-    "end": 3187,
-    "range": [
-      3180,
-      3187
-    ]
+    "end": 3187
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3187,
-    "end": 3188,
-    "range": [
-      3187,
-      3188
-    ]
+    "end": 3188
   },
   {
     "type": "Numeric",
     "value": "9007199254740991",
     "start": 3189,
-    "end": 3205,
-    "range": [
-      3189,
-      3205
-    ]
+    "end": 3205
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3205,
-    "end": 3206,
-    "range": [
-      3205,
-      3206
-    ]
+    "end": 3206
   },
   {
     "type": "Identifier",
     "value": "microseconds",
     "start": 3207,
-    "end": 3219,
-    "range": [
-      3207,
-      3219
-    ]
+    "end": 3219
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3219,
-    "end": 3220,
-    "range": [
-      3219,
-      3220
-    ]
+    "end": 3220
   },
   {
     "type": "Numeric",
     "value": "1000000",
     "start": 3221,
-    "end": 3228,
-    "range": [
-      3221,
-      3228
-    ]
+    "end": 3228
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3229,
-    "end": 3230,
-    "range": [
-      3229,
-      3230
-    ]
+    "end": 3230
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3230,
-    "end": 3231,
-    "range": [
-      3230,
-      3231
-    ]
+    "end": 3231
   },
   {
     "type": "String",
     "value": "\"property bag where microseconds balance into seconds > max\"",
     "start": 3232,
-    "end": 3292,
-    "range": [
-      3232,
-      3292
-    ]
+    "end": 3292
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3292,
-    "end": 3293,
-    "range": [
-      3292,
-      3293
-    ]
+    "end": 3293
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3293,
-    "end": 3294,
-    "range": [
-      3293,
-      3294
-    ]
+    "end": 3294
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3297,
-    "end": 3298,
-    "range": [
-      3297,
-      3298
-    ]
+    "end": 3298
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3298,
-    "end": 3299,
-    "range": [
-      3298,
-      3299
-    ]
+    "end": 3299
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 3300,
-    "end": 3307,
-    "range": [
-      3300,
-      3307
-    ]
+    "end": 3307
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3307,
-    "end": 3308,
-    "range": [
-      3307,
-      3308
-    ]
+    "end": 3308
   },
   {
     "type": "Numeric",
     "value": "9007199254740991",
     "start": 3309,
-    "end": 3325,
-    "range": [
-      3309,
-      3325
-    ]
+    "end": 3325
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3325,
-    "end": 3326,
-    "range": [
-      3325,
-      3326
-    ]
+    "end": 3326
   },
   {
     "type": "Identifier",
     "value": "nanoseconds",
     "start": 3327,
-    "end": 3338,
-    "range": [
-      3327,
-      3338
-    ]
+    "end": 3338
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3338,
-    "end": 3339,
-    "range": [
-      3338,
-      3339
-    ]
+    "end": 3339
   },
   {
     "type": "Numeric",
     "value": "1000000000",
     "start": 3340,
-    "end": 3350,
-    "range": [
-      3340,
-      3350
-    ]
+    "end": 3350
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3351,
-    "end": 3352,
-    "range": [
-      3351,
-      3352
-    ]
+    "end": 3352
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3352,
-    "end": 3353,
-    "range": [
-      3352,
-      3353
-    ]
+    "end": 3353
   },
   {
     "type": "String",
     "value": "\"property bag where nanoseconds balance into seconds > max\"",
     "start": 3354,
-    "end": 3413,
-    "range": [
-      3354,
-      3413
-    ]
+    "end": 3413
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3413,
-    "end": 3414,
-    "range": [
-      3413,
-      3414
-    ]
+    "end": 3414
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3414,
-    "end": 3415,
-    "range": [
-      3414,
-      3415
-    ]
+    "end": 3415
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3418,
-    "end": 3419,
-    "range": [
-      3418,
-      3419
-    ]
+    "end": 3419
   },
   {
     "type": "String",
     "value": "\"-PT9007199254740992S\"",
     "start": 3419,
-    "end": 3441,
-    "range": [
-      3419,
-      3441
-    ]
+    "end": 3441
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3441,
-    "end": 3442,
-    "range": [
-      3441,
-      3442
-    ]
+    "end": 3442
   },
   {
     "type": "String",
     "value": "\"string with seconds < min\"",
     "start": 3443,
-    "end": 3470,
-    "range": [
-      3443,
-      3470
-    ]
+    "end": 3470
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3470,
-    "end": 3471,
-    "range": [
-      3470,
-      3471
-    ]
+    "end": 3471
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3471,
-    "end": 3472,
-    "range": [
-      3471,
-      3472
-    ]
+    "end": 3472
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3475,
-    "end": 3476,
-    "range": [
-      3475,
-      3476
-    ]
+    "end": 3476
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3476,
-    "end": 3477,
-    "range": [
-      3476,
-      3477
-    ]
+    "end": 3477
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 3478,
-    "end": 3485,
-    "range": [
-      3478,
-      3485
-    ]
+    "end": 3485
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3485,
-    "end": 3486,
-    "range": [
-      3485,
-      3486
-    ]
+    "end": 3486
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 3487,
-    "end": 3488,
-    "range": [
-      3487,
-      3488
-    ]
+    "end": 3488
   },
   {
     "type": "Numeric",
     "value": "9007199254740992",
     "start": 3488,
-    "end": 3504,
-    "range": [
-      3488,
-      3504
-    ]
+    "end": 3504
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3505,
-    "end": 3506,
-    "range": [
-      3505,
-      3506
-    ]
+    "end": 3506
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3506,
-    "end": 3507,
-    "range": [
-      3506,
-      3507
-    ]
+    "end": 3507
   },
   {
     "type": "String",
     "value": "\"property bag with seconds < min\"",
     "start": 3508,
-    "end": 3541,
-    "range": [
-      3508,
-      3541
-    ]
+    "end": 3541
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3541,
-    "end": 3542,
-    "range": [
-      3541,
-      3542
-    ]
+    "end": 3542
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3542,
-    "end": 3543,
-    "range": [
-      3542,
-      3543
-    ]
+    "end": 3543
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3546,
-    "end": 3547,
-    "range": [
-      3546,
-      3547
-    ]
+    "end": 3547
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3547,
-    "end": 3548,
-    "range": [
-      3547,
-      3548
-    ]
+    "end": 3548
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 3549,
-    "end": 3556,
-    "range": [
-      3549,
-      3556
-    ]
+    "end": 3556
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3556,
-    "end": 3557,
-    "range": [
-      3556,
-      3557
-    ]
+    "end": 3557
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 3558,
-    "end": 3559,
-    "range": [
-      3558,
-      3559
-    ]
+    "end": 3559
   },
   {
     "type": "Numeric",
     "value": "9007199254740991",
     "start": 3559,
-    "end": 3575,
-    "range": [
-      3559,
-      3575
-    ]
+    "end": 3575
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3575,
-    "end": 3576,
-    "range": [
-      3575,
-      3576
-    ]
+    "end": 3576
   },
   {
     "type": "Identifier",
     "value": "milliseconds",
     "start": 3577,
-    "end": 3589,
-    "range": [
-      3577,
-      3589
-    ]
+    "end": 3589
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3589,
-    "end": 3590,
-    "range": [
-      3589,
-      3590
-    ]
+    "end": 3590
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 3591,
-    "end": 3592,
-    "range": [
-      3591,
-      3592
-    ]
+    "end": 3592
   },
   {
     "type": "Numeric",
     "value": "1000",
     "start": 3592,
-    "end": 3596,
-    "range": [
-      3592,
-      3596
-    ]
+    "end": 3596
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3597,
-    "end": 3598,
-    "range": [
-      3597,
-      3598
-    ]
+    "end": 3598
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3598,
-    "end": 3599,
-    "range": [
-      3598,
-      3599
-    ]
+    "end": 3599
   },
   {
     "type": "String",
     "value": "\"property bag where milliseconds balance into seconds < min\"",
     "start": 3600,
-    "end": 3660,
-    "range": [
-      3600,
-      3660
-    ]
+    "end": 3660
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3660,
-    "end": 3661,
-    "range": [
-      3660,
-      3661
-    ]
+    "end": 3661
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3661,
-    "end": 3662,
-    "range": [
-      3661,
-      3662
-    ]
+    "end": 3662
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3665,
-    "end": 3666,
-    "range": [
-      3665,
-      3666
-    ]
+    "end": 3666
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3666,
-    "end": 3667,
-    "range": [
-      3666,
-      3667
-    ]
+    "end": 3667
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 3668,
-    "end": 3675,
-    "range": [
-      3668,
-      3675
-    ]
+    "end": 3675
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3675,
-    "end": 3676,
-    "range": [
-      3675,
-      3676
-    ]
+    "end": 3676
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 3677,
-    "end": 3678,
-    "range": [
-      3677,
-      3678
-    ]
+    "end": 3678
   },
   {
     "type": "Numeric",
     "value": "9007199254740991",
     "start": 3678,
-    "end": 3694,
-    "range": [
-      3678,
-      3694
-    ]
+    "end": 3694
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3694,
-    "end": 3695,
-    "range": [
-      3694,
-      3695
-    ]
+    "end": 3695
   },
   {
     "type": "Identifier",
     "value": "microseconds",
     "start": 3696,
-    "end": 3708,
-    "range": [
-      3696,
-      3708
-    ]
+    "end": 3708
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3708,
-    "end": 3709,
-    "range": [
-      3708,
-      3709
-    ]
+    "end": 3709
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 3710,
-    "end": 3711,
-    "range": [
-      3710,
-      3711
-    ]
+    "end": 3711
   },
   {
     "type": "Numeric",
     "value": "1000000",
     "start": 3711,
-    "end": 3718,
-    "range": [
-      3711,
-      3718
-    ]
+    "end": 3718
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3719,
-    "end": 3720,
-    "range": [
-      3719,
-      3720
-    ]
+    "end": 3720
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3720,
-    "end": 3721,
-    "range": [
-      3720,
-      3721
-    ]
+    "end": 3721
   },
   {
     "type": "String",
     "value": "\"property bag where microseconds balance into seconds < min\"",
     "start": 3722,
-    "end": 3782,
-    "range": [
-      3722,
-      3782
-    ]
+    "end": 3782
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3782,
-    "end": 3783,
-    "range": [
-      3782,
-      3783
-    ]
+    "end": 3783
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3783,
-    "end": 3784,
-    "range": [
-      3783,
-      3784
-    ]
+    "end": 3784
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3787,
-    "end": 3788,
-    "range": [
-      3787,
-      3788
-    ]
+    "end": 3788
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3788,
-    "end": 3789,
-    "range": [
-      3788,
-      3789
-    ]
+    "end": 3789
   },
   {
     "type": "Identifier",
     "value": "seconds",
     "start": 3790,
-    "end": 3797,
-    "range": [
-      3790,
-      3797
-    ]
+    "end": 3797
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3797,
-    "end": 3798,
-    "range": [
-      3797,
-      3798
-    ]
+    "end": 3798
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 3799,
-    "end": 3800,
-    "range": [
-      3799,
-      3800
-    ]
+    "end": 3800
   },
   {
     "type": "Numeric",
     "value": "9007199254740991",
     "start": 3800,
-    "end": 3816,
-    "range": [
-      3800,
-      3816
-    ]
+    "end": 3816
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3816,
-    "end": 3817,
-    "range": [
-      3816,
-      3817
-    ]
+    "end": 3817
   },
   {
     "type": "Identifier",
     "value": "nanoseconds",
     "start": 3818,
-    "end": 3829,
-    "range": [
-      3818,
-      3829
-    ]
+    "end": 3829
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3829,
-    "end": 3830,
-    "range": [
-      3829,
-      3830
-    ]
+    "end": 3830
   },
   {
     "type": "Punctuator",
     "value": "-",
     "start": 3831,
-    "end": 3832,
-    "range": [
-      3831,
-      3832
-    ]
+    "end": 3832
   },
   {
     "type": "Numeric",
     "value": "1000000000",
     "start": 3832,
-    "end": 3842,
-    "range": [
-      3832,
-      3842
-    ]
+    "end": 3842
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3843,
-    "end": 3844,
-    "range": [
-      3843,
-      3844
-    ]
+    "end": 3844
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3844,
-    "end": 3845,
-    "range": [
-      3844,
-      3845
-    ]
+    "end": 3845
   },
   {
     "type": "String",
     "value": "\"property bag where nanoseconds balance into seconds < min\"",
     "start": 3846,
-    "end": 3905,
-    "range": [
-      3846,
-      3905
-    ]
+    "end": 3905
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3905,
-    "end": 3906,
-    "range": [
-      3905,
-      3906
-    ]
+    "end": 3906
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3906,
-    "end": 3907,
-    "range": [
-      3906,
-      3907
-    ]
+    "end": 3907
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3908,
-    "end": 3909,
-    "range": [
-      3908,
-      3909
-    ]
+    "end": 3909
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3909,
-    "end": 3910,
-    "range": [
-      3909,
-      3910
-    ]
+    "end": 3910
   },
   {
     "type": "Keyword",
     "value": "for",
     "start": 3912,
-    "end": 3915,
-    "range": [
-      3912,
-      3915
-    ]
+    "end": 3915
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3916,
-    "end": 3917,
-    "range": [
-      3916,
-      3917
-    ]
+    "end": 3917
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 3917,
-    "end": 3922,
-    "range": [
-      3917,
-      3922
-    ]
+    "end": 3922
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 3923,
-    "end": 3924,
-    "range": [
-      3923,
-      3924
-    ]
+    "end": 3924
   },
   {
     "type": "Identifier",
     "value": "arg",
     "start": 3924,
-    "end": 3927,
-    "range": [
-      3924,
-      3927
-    ]
+    "end": 3927
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3927,
-    "end": 3928,
-    "range": [
-      3927,
-      3928
-    ]
+    "end": 3928
   },
   {
     "type": "Identifier",
     "value": "descr",
     "start": 3929,
-    "end": 3934,
-    "range": [
-      3929,
-      3934
-    ]
+    "end": 3934
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 3934,
-    "end": 3935,
-    "range": [
-      3934,
-      3935
-    ]
+    "end": 3935
   },
   {
     "type": "Identifier",
     "value": "of",
     "start": 3936,
-    "end": 3938,
-    "range": [
-      3936,
-      3938
-    ]
+    "end": 3938
   },
   {
     "type": "Identifier",
     "value": "cases",
     "start": 3939,
-    "end": 3944,
-    "range": [
-      3939,
-      3944
-    ]
+    "end": 3944
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3944,
-    "end": 3945,
-    "range": [
-      3944,
-      3945
-    ]
+    "end": 3945
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3946,
-    "end": 3947,
-    "range": [
-      3946,
-      3947
-    ]
+    "end": 3947
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3950,
-    "end": 3956,
-    "range": [
-      3950,
-      3956
-    ]
+    "end": 3956
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3956,
-    "end": 3957,
-    "range": [
-      3956,
-      3957
-    ]
+    "end": 3957
   },
   {
     "type": "Identifier",
     "value": "throws",
     "start": 3957,
-    "end": 3963,
-    "range": [
-      3957,
-      3963
-    ]
+    "end": 3963
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3963,
-    "end": 3964,
-    "range": [
-      3963,
-      3964
-    ]
+    "end": 3964
   },
   {
     "type": "Identifier",
     "value": "RangeError",
     "start": 3964,
-    "end": 3974,
-    "range": [
-      3964,
-      3974
-    ]
+    "end": 3974
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3974,
-    "end": 3975,
-    "range": [
-      3974,
-      3975
-    ]
+    "end": 3975
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3976,
-    "end": 3977,
-    "range": [
-      3976,
-      3977
-    ]
+    "end": 3977
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3977,
-    "end": 3978,
-    "range": [
-      3977,
-      3978
-    ]
+    "end": 3978
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 3979,
-    "end": 3981,
-    "range": [
-      3979,
-      3981
-    ]
+    "end": 3981
   },
   {
     "type": "Identifier",
     "value": "instance",
     "start": 3982,
-    "end": 3990,
-    "range": [
-      3982,
-      3990
-    ]
+    "end": 3990
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3990,
-    "end": 3991,
-    "range": [
-      3990,
-      3991
-    ]
+    "end": 3991
   },
   {
     "type": "Identifier",
     "value": "add",
     "start": 3991,
-    "end": 3994,
-    "range": [
-      3991,
-      3994
-    ]
+    "end": 3994
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3994,
-    "end": 3995,
-    "range": [
-      3994,
-      3995
-    ]
+    "end": 3995
   },
   {
     "type": "Identifier",
     "value": "arg",
     "start": 3995,
-    "end": 3998,
-    "range": [
-      3995,
-      3998
-    ]
+    "end": 3998
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3998,
-    "end": 3999,
-    "range": [
-      3998,
-      3999
-    ]
+    "end": 3999
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3999,
-    "end": 4000,
-    "range": [
-      3999,
-      4000
-    ]
+    "end": 4000
   },
   {
     "type": "Template",
-    "value": "`${",
-    "start": 4001,
-    "end": 4004,
-    "range": [
-      4001,
-      4004
-    ]
+    "value": "`${"
   },
   {
     "type": "Identifier",
     "value": "descr",
     "start": 4004,
-    "end": 4009,
-    "range": [
-      4004,
-      4009
-    ]
+    "end": 4009
   },
   {
     "type": "Template",
-    "value": "} is out of range`",
-    "start": 4009,
-    "end": 4027,
-    "range": [
-      4009,
-      4027
-    ]
+    "value": "} is out of range`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4027,
-    "end": 4028,
-    "range": [
-      4027,
-      4028
-    ]
+    "end": 4028
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4028,
-    "end": 4029,
-    "range": [
-      4028,
-      4029
-    ]
+    "end": 4029
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 4030,
-    "end": 4031,
-    "range": [
-      4030,
-      4031
-    ]
+    "end": 4031
   }
 ]

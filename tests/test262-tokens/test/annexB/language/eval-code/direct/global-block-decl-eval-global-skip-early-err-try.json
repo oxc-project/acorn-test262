@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "eval",
     "start": 1114,
-    "end": 1118,
-    "range": [
-      1114,
-      1118
-    ]
+    "end": 1118
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1118,
-    "end": 1119,
-    "range": [
-      1118,
-      1119
-    ]
+    "end": 1119
   },
   {
     "type": "String",
     "value": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {{ function f() {  } }}\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'",
     "start": 1122,
-    "end": 1695,
-    "range": [
-      1122,
-      1695
-    ]
+    "end": 1695
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1696,
-    "end": 1697,
-    "range": [
-      1696,
-      1697
-    ]
+    "end": 1697
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1697,
-    "end": 1698,
-    "range": [
-      1697,
-      1698
-    ]
+    "end": 1698
   }
 ]

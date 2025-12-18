@@ -32,21 +32,13 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "yield",
     "start": 0,
-    "end": 5,
-    "range": [
-      0,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5,
-    "end": 6,
-    "range": [
-      5,
-      6
-    ]
+    "end": 6
   }
 ]
 ```

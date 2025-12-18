@@ -3,1600 +3,960 @@
     "type": "Identifier",
     "value": "assert",
     "start": 712,
-    "end": 718,
-    "range": [
-      712,
-      718
-    ]
+    "end": 718
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 718,
-    "end": 719,
-    "range": [
-      718,
-      719
-    ]
+    "end": 719
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 719,
-    "end": 728,
-    "range": [
-      719,
-      728
-    ]
+    "end": 728
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 728,
-    "end": 729,
-    "range": [
-      728,
-      729
-    ]
+    "end": 729
   },
   {
     "type": "String",
     "value": "\"\\u0130\"",
     "start": 732,
-    "end": 740,
-    "range": [
-      732,
-      740
-    ]
+    "end": 740
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 740,
-    "end": 741,
-    "range": [
-      740,
-      741
-    ]
+    "end": 741
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 741,
-    "end": 758,
-    "range": [
-      741,
-      758
-    ]
+    "end": 758
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 758,
-    "end": 759,
-    "range": [
-      758,
-      759
-    ]
+    "end": 759
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 759,
-    "end": 763,
-    "range": [
-      759,
-      763
-    ]
+    "end": 763
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 763,
-    "end": 764,
-    "range": [
-      763,
-      764
-    ]
+    "end": 764
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 764,
-    "end": 765,
-    "range": [
-      764,
-      765
-    ]
+    "end": 765
   },
   {
     "type": "String",
     "value": "\"i\"",
     "start": 768,
-    "end": 771,
-    "range": [
-      768,
-      771
-    ]
+    "end": 771
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 771,
-    "end": 772,
-    "range": [
-      771,
-      772
-    ]
+    "end": 772
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\"",
     "start": 775,
-    "end": 814,
-    "range": [
-      775,
-      814
-    ]
+    "end": 814
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 815,
-    "end": 816,
-    "range": [
-      815,
-      816
-    ]
+    "end": 816
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 816,
-    "end": 817,
-    "range": [
-      816,
-      817
-    ]
+    "end": 817
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1070,
-    "end": 1076,
-    "range": [
-      1070,
-      1076
-    ]
+    "end": 1076
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1076,
-    "end": 1077,
-    "range": [
-      1076,
-      1077
-    ]
+    "end": 1077
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1077,
-    "end": 1086,
-    "range": [
-      1077,
-      1086
-    ]
+    "end": 1086
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1086,
-    "end": 1087,
-    "range": [
-      1086,
-      1087
-    ]
+    "end": 1087
   },
   {
     "type": "String",
     "value": "\"I\\u0307\"",
     "start": 1090,
-    "end": 1099,
-    "range": [
-      1090,
-      1099
-    ]
+    "end": 1099
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1099,
-    "end": 1100,
-    "range": [
-      1099,
-      1100
-    ]
+    "end": 1100
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 1100,
-    "end": 1117,
-    "range": [
-      1100,
-      1117
-    ]
+    "end": 1117
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1117,
-    "end": 1118,
-    "range": [
-      1117,
-      1118
-    ]
+    "end": 1118
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 1118,
-    "end": 1122,
-    "range": [
-      1118,
-      1122
-    ]
+    "end": 1122
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1122,
-    "end": 1123,
-    "range": [
-      1122,
-      1123
-    ]
+    "end": 1123
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1123,
-    "end": 1124,
-    "range": [
-      1123,
-      1124
-    ]
+    "end": 1124
   },
   {
     "type": "String",
     "value": "\"i\"",
     "start": 1127,
-    "end": 1130,
-    "range": [
-      1127,
-      1130
-    ]
+    "end": 1130
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1130,
-    "end": 1131,
-    "range": [
-      1130,
-      1131
-    ]
+    "end": 1131
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I followed by COMBINING DOT ABOVE\"",
     "start": 1134,
-    "end": 1190,
-    "range": [
-      1134,
-      1190
-    ]
+    "end": 1190
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1191,
-    "end": 1192,
-    "range": [
-      1191,
-      1192
-    ]
+    "end": 1192
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1192,
-    "end": 1193,
-    "range": [
-      1192,
-      1193
-    ]
+    "end": 1193
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1194,
-    "end": 1200,
-    "range": [
-      1194,
-      1200
-    ]
+    "end": 1200
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1200,
-    "end": 1201,
-    "range": [
-      1200,
-      1201
-    ]
+    "end": 1201
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1201,
-    "end": 1210,
-    "range": [
-      1201,
-      1210
-    ]
+    "end": 1210
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1210,
-    "end": 1211,
-    "range": [
-      1210,
-      1211
-    ]
+    "end": 1211
   },
   {
     "type": "String",
     "value": "\"I\\u0323\\u0307\"",
     "start": 1214,
-    "end": 1229,
-    "range": [
-      1214,
-      1229
-    ]
+    "end": 1229
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1229,
-    "end": 1230,
-    "range": [
-      1229,
-      1230
-    ]
+    "end": 1230
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 1230,
-    "end": 1247,
-    "range": [
-      1230,
-      1247
-    ]
+    "end": 1247
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1247,
-    "end": 1248,
-    "range": [
-      1247,
-      1248
-    ]
+    "end": 1248
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 1248,
-    "end": 1252,
-    "range": [
-      1248,
-      1252
-    ]
+    "end": 1252
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1252,
-    "end": 1253,
-    "range": [
-      1252,
-      1253
-    ]
+    "end": 1253
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1253,
-    "end": 1254,
-    "range": [
-      1253,
-      1254
-    ]
+    "end": 1254
   },
   {
     "type": "String",
     "value": "\"i\\u0323\"",
     "start": 1257,
-    "end": 1266,
-    "range": [
-      1257,
-      1266
-    ]
+    "end": 1266
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1266,
-    "end": 1267,
-    "range": [
-      1266,
-      1267
-    ]
+    "end": 1267
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I followed by COMBINING DOT BELOW, COMBINING DOT ABOVE\"",
     "start": 1270,
-    "end": 1347,
-    "range": [
-      1270,
-      1347
-    ]
+    "end": 1347
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1348,
-    "end": 1349,
-    "range": [
-      1348,
-      1349
-    ]
+    "end": 1349
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1349,
-    "end": 1350,
-    "range": [
-      1349,
-      1350
-    ]
+    "end": 1350
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1351,
-    "end": 1357,
-    "range": [
-      1351,
-      1357
-    ]
+    "end": 1357
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1357,
-    "end": 1358,
-    "range": [
-      1357,
-      1358
-    ]
+    "end": 1358
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1358,
-    "end": 1367,
-    "range": [
-      1358,
-      1367
-    ]
+    "end": 1367
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1367,
-    "end": 1368,
-    "range": [
-      1367,
-      1368
-    ]
+    "end": 1368
   },
   {
     "type": "String",
     "value": "\"I\\uD800\\uDDFD\\u0307\"",
     "start": 1371,
-    "end": 1392,
-    "range": [
-      1371,
-      1392
-    ]
+    "end": 1392
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1392,
-    "end": 1393,
-    "range": [
-      1392,
-      1393
-    ]
+    "end": 1393
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 1393,
-    "end": 1410,
-    "range": [
-      1393,
-      1410
-    ]
+    "end": 1410
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1410,
-    "end": 1411,
-    "range": [
-      1410,
-      1411
-    ]
+    "end": 1411
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 1411,
-    "end": 1415,
-    "range": [
-      1411,
-      1415
-    ]
+    "end": 1415
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1415,
-    "end": 1416,
-    "range": [
-      1415,
-      1416
-    ]
+    "end": 1416
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1416,
-    "end": 1417,
-    "range": [
-      1416,
-      1417
-    ]
+    "end": 1417
   },
   {
     "type": "String",
     "value": "\"i\\uD800\\uDDFD\"",
     "start": 1420,
-    "end": 1435,
-    "range": [
-      1420,
-      1435
-    ]
+    "end": 1435
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1435,
-    "end": 1436,
-    "range": [
-      1435,
-      1436
-    ]
+    "end": 1436
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING DOT ABOVE\"",
     "start": 1439,
-    "end": 1540,
-    "range": [
-      1439,
-      1540
-    ]
+    "end": 1540
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1541,
-    "end": 1542,
-    "range": [
-      1541,
-      1542
-    ]
+    "end": 1542
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1542,
-    "end": 1543,
-    "range": [
-      1542,
-      1543
-    ]
+    "end": 1543
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1654,
-    "end": 1660,
-    "range": [
-      1654,
-      1660
-    ]
+    "end": 1660
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1660,
-    "end": 1661,
-    "range": [
-      1660,
-      1661
-    ]
+    "end": 1661
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1661,
-    "end": 1670,
-    "range": [
-      1661,
-      1670
-    ]
+    "end": 1670
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1670,
-    "end": 1671,
-    "range": [
-      1670,
-      1671
-    ]
+    "end": 1671
   },
   {
     "type": "String",
     "value": "\"IA\\u0307\"",
     "start": 1674,
-    "end": 1684,
-    "range": [
-      1674,
-      1684
-    ]
+    "end": 1684
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1684,
-    "end": 1685,
-    "range": [
-      1684,
-      1685
-    ]
+    "end": 1685
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 1685,
-    "end": 1702,
-    "range": [
-      1685,
-      1702
-    ]
+    "end": 1702
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1702,
-    "end": 1703,
-    "range": [
-      1702,
-      1703
-    ]
+    "end": 1703
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 1703,
-    "end": 1707,
-    "range": [
-      1703,
-      1707
-    ]
+    "end": 1707
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1707,
-    "end": 1708,
-    "range": [
-      1707,
-      1708
-    ]
+    "end": 1708
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1708,
-    "end": 1709,
-    "range": [
-      1708,
-      1709
-    ]
+    "end": 1709
   },
   {
     "type": "String",
     "value": "\"\\u0131a\\u0307\"",
     "start": 1712,
-    "end": 1727,
-    "range": [
-      1712,
-      1727
-    ]
+    "end": 1727
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1727,
-    "end": 1728,
-    "range": [
-      1727,
-      1728
-    ]
+    "end": 1728
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, COMBINING DOT ABOVE\"",
     "start": 1731,
-    "end": 1811,
-    "range": [
-      1731,
-      1811
-    ]
+    "end": 1811
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1812,
-    "end": 1813,
-    "range": [
-      1812,
-      1813
-    ]
+    "end": 1813
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1813,
-    "end": 1814,
-    "range": [
-      1813,
-      1814
-    ]
+    "end": 1814
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2078,
-    "end": 2084,
-    "range": [
-      2078,
-      2084
-    ]
+    "end": 2084
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2084,
-    "end": 2085,
-    "range": [
-      2084,
-      2085
-    ]
+    "end": 2085
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2085,
-    "end": 2094,
-    "range": [
-      2085,
-      2094
-    ]
+    "end": 2094
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2094,
-    "end": 2095,
-    "range": [
-      2094,
-      2095
-    ]
+    "end": 2095
   },
   {
     "type": "String",
     "value": "\"I\\u0300\\u0307\"",
     "start": 2098,
-    "end": 2113,
-    "range": [
-      2098,
-      2113
-    ]
+    "end": 2113
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2113,
-    "end": 2114,
-    "range": [
-      2113,
-      2114
-    ]
+    "end": 2114
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 2114,
-    "end": 2131,
-    "range": [
-      2114,
-      2131
-    ]
+    "end": 2131
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2131,
-    "end": 2132,
-    "range": [
-      2131,
-      2132
-    ]
+    "end": 2132
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 2132,
-    "end": 2136,
-    "range": [
-      2132,
-      2136
-    ]
+    "end": 2136
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2136,
-    "end": 2137,
-    "range": [
-      2136,
-      2137
-    ]
+    "end": 2137
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2137,
-    "end": 2138,
-    "range": [
-      2137,
-      2138
-    ]
+    "end": 2138
   },
   {
     "type": "String",
     "value": "\"\\u0131\\u0300\\u0307\"",
     "start": 2141,
-    "end": 2161,
-    "range": [
-      2141,
-      2161
-    ]
+    "end": 2161
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2161,
-    "end": 2162,
-    "range": [
-      2161,
-      2162
-    ]
+    "end": 2162
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I followed by COMBINING GRAVE ACCENT, COMBINING DOT ABOVE\"",
     "start": 2165,
-    "end": 2245,
-    "range": [
-      2165,
-      2245
-    ]
+    "end": 2245
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2246,
-    "end": 2247,
-    "range": [
-      2246,
-      2247
-    ]
+    "end": 2247
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2247,
-    "end": 2248,
-    "range": [
-      2247,
-      2248
-    ]
+    "end": 2248
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2249,
-    "end": 2255,
-    "range": [
-      2249,
-      2255
-    ]
+    "end": 2255
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2255,
-    "end": 2256,
-    "range": [
-      2255,
-      2256
-    ]
+    "end": 2256
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2256,
-    "end": 2265,
-    "range": [
-      2256,
-      2265
-    ]
+    "end": 2265
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2265,
-    "end": 2266,
-    "range": [
-      2265,
-      2266
-    ]
+    "end": 2266
   },
   {
     "type": "String",
     "value": "\"I\\uD834\\uDD85\\u0307\"",
     "start": 2269,
-    "end": 2290,
-    "range": [
-      2269,
-      2290
-    ]
+    "end": 2290
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2290,
-    "end": 2291,
-    "range": [
-      2290,
-      2291
-    ]
+    "end": 2291
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 2291,
-    "end": 2308,
-    "range": [
-      2291,
-      2308
-    ]
+    "end": 2308
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2308,
-    "end": 2309,
-    "range": [
-      2308,
-      2309
-    ]
+    "end": 2309
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 2309,
-    "end": 2313,
-    "range": [
-      2309,
-      2313
-    ]
+    "end": 2313
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2313,
-    "end": 2314,
-    "range": [
-      2313,
-      2314
-    ]
+    "end": 2314
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2314,
-    "end": 2315,
-    "range": [
-      2314,
-      2315
-    ]
+    "end": 2315
   },
   {
     "type": "String",
     "value": "\"\\u0131\\uD834\\uDD85\\u0307\"",
     "start": 2318,
-    "end": 2344,
-    "range": [
-      2318,
-      2344
-    ]
+    "end": 2344
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2344,
-    "end": 2345,
-    "range": [
-      2344,
-      2345
-    ]
+    "end": 2345
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I followed by MUSICAL SYMBOL COMBINING DOIT, COMBINING DOT ABOVE\"",
     "start": 2348,
-    "end": 2435,
-    "range": [
-      2348,
-      2435
-    ]
+    "end": 2435
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2436,
-    "end": 2437,
-    "range": [
-      2436,
-      2437
-    ]
+    "end": 2437
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2437,
-    "end": 2438,
-    "range": [
-      2437,
-      2438
-    ]
+    "end": 2438
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2534,
-    "end": 2540,
-    "range": [
-      2534,
-      2540
-    ]
+    "end": 2540
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2540,
-    "end": 2541,
-    "range": [
-      2540,
-      2541
-    ]
+    "end": 2541
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2541,
-    "end": 2550,
-    "range": [
-      2541,
-      2550
-    ]
+    "end": 2550
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2550,
-    "end": 2551,
-    "range": [
-      2550,
-      2551
-    ]
+    "end": 2551
   },
   {
     "type": "String",
     "value": "\"I\"",
     "start": 2554,
-    "end": 2557,
-    "range": [
-      2554,
-      2557
-    ]
+    "end": 2557
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2557,
-    "end": 2558,
-    "range": [
-      2557,
-      2558
-    ]
+    "end": 2558
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 2558,
-    "end": 2575,
-    "range": [
-      2558,
-      2575
-    ]
+    "end": 2575
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2575,
-    "end": 2576,
-    "range": [
-      2575,
-      2576
-    ]
+    "end": 2576
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 2576,
-    "end": 2580,
-    "range": [
-      2576,
-      2580
-    ]
+    "end": 2580
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2580,
-    "end": 2581,
-    "range": [
-      2580,
-      2581
-    ]
+    "end": 2581
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2581,
-    "end": 2582,
-    "range": [
-      2581,
-      2582
-    ]
+    "end": 2582
   },
   {
     "type": "String",
     "value": "\"\\u0131\"",
     "start": 2585,
-    "end": 2593,
-    "range": [
-      2585,
-      2593
-    ]
+    "end": 2593
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2593,
-    "end": 2594,
-    "range": [
-      2593,
-      2594
-    ]
+    "end": 2594
   },
   {
     "type": "String",
     "value": "\"LATIN CAPITAL LETTER I\"",
     "start": 2597,
-    "end": 2621,
-    "range": [
-      2597,
-      2621
-    ]
+    "end": 2621
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2622,
-    "end": 2623,
-    "range": [
-      2622,
-      2623
-    ]
+    "end": 2623
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2623,
-    "end": 2624,
-    "range": [
-      2623,
-      2624
-    ]
+    "end": 2624
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2722,
-    "end": 2728,
-    "range": [
-      2722,
-      2728
-    ]
+    "end": 2728
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2728,
-    "end": 2729,
-    "range": [
-      2728,
-      2729
-    ]
+    "end": 2729
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2729,
-    "end": 2738,
-    "range": [
-      2729,
-      2738
-    ]
+    "end": 2738
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2738,
-    "end": 2739,
-    "range": [
-      2738,
-      2739
-    ]
+    "end": 2739
   },
   {
     "type": "String",
     "value": "\"i\"",
     "start": 2742,
-    "end": 2745,
-    "range": [
-      2742,
-      2745
-    ]
+    "end": 2745
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2745,
-    "end": 2746,
-    "range": [
-      2745,
-      2746
-    ]
+    "end": 2746
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 2746,
-    "end": 2763,
-    "range": [
-      2746,
-      2763
-    ]
+    "end": 2763
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2763,
-    "end": 2764,
-    "range": [
-      2763,
-      2764
-    ]
+    "end": 2764
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 2764,
-    "end": 2768,
-    "range": [
-      2764,
-      2768
-    ]
+    "end": 2768
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2768,
-    "end": 2769,
-    "range": [
-      2768,
-      2769
-    ]
+    "end": 2769
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2769,
-    "end": 2770,
-    "range": [
-      2769,
-      2770
-    ]
+    "end": 2770
   },
   {
     "type": "String",
     "value": "\"i\"",
     "start": 2773,
-    "end": 2776,
-    "range": [
-      2773,
-      2776
-    ]
+    "end": 2776
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2776,
-    "end": 2777,
-    "range": [
-      2776,
-      2777
-    ]
+    "end": 2777
   },
   {
     "type": "String",
     "value": "\"LATIN SMALL LETTER I\"",
     "start": 2780,
-    "end": 2802,
-    "range": [
-      2780,
-      2802
-    ]
+    "end": 2802
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2803,
-    "end": 2804,
-    "range": [
-      2803,
-      2804
-    ]
+    "end": 2804
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2804,
-    "end": 2805,
-    "range": [
-      2804,
-      2805
-    ]
+    "end": 2805
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2806,
-    "end": 2812,
-    "range": [
-      2806,
-      2812
-    ]
+    "end": 2812
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2812,
-    "end": 2813,
-    "range": [
-      2812,
-      2813
-    ]
+    "end": 2813
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2813,
-    "end": 2822,
-    "range": [
-      2813,
-      2822
-    ]
+    "end": 2822
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2822,
-    "end": 2823,
-    "range": [
-      2822,
-      2823
-    ]
+    "end": 2823
   },
   {
     "type": "String",
     "value": "\"\\u0131\"",
     "start": 2826,
-    "end": 2834,
-    "range": [
-      2826,
-      2834
-    ]
+    "end": 2834
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2834,
-    "end": 2835,
-    "range": [
-      2834,
-      2835
-    ]
+    "end": 2835
   },
   {
     "type": "Identifier",
     "value": "toLocaleLowerCase",
     "start": 2835,
-    "end": 2852,
-    "range": [
-      2835,
-      2852
-    ]
+    "end": 2852
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2852,
-    "end": 2853,
-    "range": [
-      2852,
-      2853
-    ]
+    "end": 2853
   },
   {
     "type": "String",
     "value": "\"az\"",
     "start": 2853,
-    "end": 2857,
-    "range": [
-      2853,
-      2857
-    ]
+    "end": 2857
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2857,
-    "end": 2858,
-    "range": [
-      2857,
-      2858
-    ]
+    "end": 2858
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2858,
-    "end": 2859,
-    "range": [
-      2858,
-      2859
-    ]
+    "end": 2859
   },
   {
     "type": "String",
     "value": "\"\\u0131\"",
     "start": 2862,
-    "end": 2870,
-    "range": [
-      2862,
-      2870
-    ]
+    "end": 2870
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2870,
-    "end": 2871,
-    "range": [
-      2870,
-      2871
-    ]
+    "end": 2871
   },
   {
     "type": "String",
     "value": "\"LATIN SMALL LETTER DOTLESS I\"",
     "start": 2874,
-    "end": 2904,
-    "range": [
-      2874,
-      2904
-    ]
+    "end": 2904
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2905,
-    "end": 2906,
-    "range": [
-      2905,
-      2906
-    ]
+    "end": 2906
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2906,
-    "end": 2907,
-    "range": [
-      2906,
-      2907
-    ]
+    "end": 2907
   }
 ]

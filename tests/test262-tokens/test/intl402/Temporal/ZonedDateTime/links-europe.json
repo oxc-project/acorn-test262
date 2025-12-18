@@ -3,710 +3,426 @@
     "type": "Keyword",
     "value": "const",
     "start": 291,
-    "end": 296,
-    "range": [
-      291,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Identifier",
     "value": "testCases",
     "start": 297,
-    "end": 306,
-    "range": [
-      297,
-      306
-    ]
+    "end": 306
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 307,
-    "end": 308,
-    "range": [
-      307,
-      308
-    ]
+    "end": 308
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 309,
-    "end": 310,
-    "range": [
-      309,
-      310
-    ]
+    "end": 310
   },
   {
     "type": "String",
     "value": "\"Europe/Jersey\"",
     "start": 313,
-    "end": 328,
-    "range": [
-      313,
-      328
-    ]
+    "end": 328
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 328,
-    "end": 329,
-    "range": [
-      328,
-      329
-    ]
+    "end": 329
   },
   {
     "type": "String",
     "value": "\"Europe/Guernsey\"",
     "start": 374,
-    "end": 391,
-    "range": [
-      374,
-      391
-    ]
+    "end": 391
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 391,
-    "end": 392,
-    "range": [
-      391,
-      392
-    ]
+    "end": 392
   },
   {
     "type": "String",
     "value": "\"Europe/Isle_of_Man\"",
     "start": 439,
-    "end": 459,
-    "range": [
-      439,
-      459
-    ]
+    "end": 459
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 459,
-    "end": 460,
-    "range": [
-      459,
-      460
-    ]
+    "end": 460
   },
   {
     "type": "String",
     "value": "\"Europe/Mariehamn\"",
     "start": 510,
-    "end": 528,
-    "range": [
-      510,
-      528
-    ]
+    "end": 528
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 528,
-    "end": 529,
-    "range": [
-      528,
-      529
-    ]
+    "end": 529
   },
   {
     "type": "String",
     "value": "\"Europe/Busingen\"",
     "start": 577,
-    "end": 594,
-    "range": [
-      577,
-      594
-    ]
+    "end": 594
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 594,
-    "end": 595,
-    "range": [
-      594,
-      595
-    ]
+    "end": 595
   },
   {
     "type": "String",
     "value": "\"Europe/Vatican\"",
     "start": 642,
-    "end": 658,
-    "range": [
-      642,
-      658
-    ]
+    "end": 658
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 658,
-    "end": 659,
-    "range": [
-      658,
-      659
-    ]
+    "end": 659
   },
   {
     "type": "String",
     "value": "\"Europe/San_Marino\"",
     "start": 705,
-    "end": 724,
-    "range": [
-      705,
-      724
-    ]
+    "end": 724
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 724,
-    "end": 725,
-    "range": [
-      724,
-      725
-    ]
+    "end": 725
   },
   {
     "type": "String",
     "value": "\"Europe/Vaduz\"",
     "start": 774,
-    "end": 788,
-    "range": [
-      774,
-      788
-    ]
+    "end": 788
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 788,
-    "end": 789,
-    "range": [
-      788,
-      789
-    ]
+    "end": 789
   },
   {
     "type": "String",
     "value": "\"Arctic/Longyearbyen\"",
     "start": 828,
-    "end": 849,
-    "range": [
-      828,
-      849
-    ]
+    "end": 849
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 849,
-    "end": 850,
-    "range": [
-      849,
-      850
-    ]
+    "end": 850
   },
   {
     "type": "String",
     "value": "\"Europe/Ljubljana\"",
     "start": 901,
-    "end": 919,
-    "range": [
-      901,
-      919
-    ]
+    "end": 919
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 919,
-    "end": 920,
-    "range": [
-      919,
-      920
-    ]
+    "end": 920
   },
   {
     "type": "String",
     "value": "\"Europe/Podgorica\"",
     "start": 978,
-    "end": 996,
-    "range": [
-      978,
-      996
-    ]
+    "end": 996
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 996,
-    "end": 997,
-    "range": [
-      996,
-      997
-    ]
+    "end": 997
   },
   {
     "type": "String",
     "value": "\"Europe/Sarajevo\"",
     "start": 1057,
-    "end": 1074,
-    "range": [
-      1057,
-      1074
-    ]
+    "end": 1074
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1074,
-    "end": 1075,
-    "range": [
-      1074,
-      1075
-    ]
+    "end": 1075
   },
   {
     "type": "String",
     "value": "\"Europe/Skopje\"",
     "start": 1147,
-    "end": 1162,
-    "range": [
-      1147,
-      1162
-    ]
+    "end": 1162
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1162,
-    "end": 1163,
-    "range": [
-      1162,
-      1163
-    ]
+    "end": 1163
   },
   {
     "type": "String",
     "value": "\"Europe/Zagreb\"",
     "start": 1228,
-    "end": 1243,
-    "range": [
-      1228,
-      1243
-    ]
+    "end": 1243
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1243,
-    "end": 1244,
-    "range": [
-      1243,
-      1244
-    ]
+    "end": 1244
   },
   {
     "type": "String",
     "value": "\"Europe/Bratislava\"",
     "start": 1301,
-    "end": 1320,
-    "range": [
-      1301,
-      1320
-    ]
+    "end": 1320
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1320,
-    "end": 1321,
-    "range": [
-      1320,
-      1321
-    ]
+    "end": 1321
   },
   {
     "type": "String",
     "value": "\"Asia/Istanbul\"",
     "start": 1365,
-    "end": 1380,
-    "range": [
-      1365,
-      1380
-    ]
+    "end": 1380
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1380,
-    "end": 1381,
-    "range": [
-      1380,
-      1381
-    ]
+    "end": 1381
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 1460,
-    "end": 1461,
-    "range": [
-      1460,
-      1461
-    ]
+    "end": 1461
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1461,
-    "end": 1462,
-    "range": [
-      1461,
-      1462
-    ]
+    "end": 1462
   },
   {
     "type": "Keyword",
     "value": "for",
     "start": 1464,
-    "end": 1467,
-    "range": [
-      1464,
-      1467
-    ]
+    "end": 1467
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1468,
-    "end": 1469,
-    "range": [
-      1468,
-      1469
-    ]
+    "end": 1469
   },
   {
     "type": "Keyword",
     "value": "let",
     "start": 1469,
-    "end": 1472,
-    "range": [
-      1469,
-      1472
-    ]
+    "end": 1472
   },
   {
     "type": "Identifier",
     "value": "id",
     "start": 1473,
-    "end": 1475,
-    "range": [
-      1473,
-      1475
-    ]
+    "end": 1475
   },
   {
     "type": "Identifier",
     "value": "of",
     "start": 1476,
-    "end": 1478,
-    "range": [
-      1476,
-      1478
-    ]
+    "end": 1478
   },
   {
     "type": "Identifier",
     "value": "testCases",
     "start": 1479,
-    "end": 1488,
-    "range": [
-      1479,
-      1488
-    ]
+    "end": 1488
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1488,
-    "end": 1489,
-    "range": [
-      1488,
-      1489
-    ]
+    "end": 1489
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1490,
-    "end": 1491,
-    "range": [
-      1490,
-      1491
-    ]
+    "end": 1491
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1494,
-    "end": 1499,
-    "range": [
-      1494,
-      1499
-    ]
+    "end": 1499
   },
   {
     "type": "Identifier",
     "value": "instance",
     "start": 1500,
-    "end": 1508,
-    "range": [
-      1500,
-      1508
-    ]
+    "end": 1508
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1509,
-    "end": 1510,
-    "range": [
-      1509,
-      1510
-    ]
+    "end": 1510
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1511,
-    "end": 1514,
-    "range": [
-      1511,
-      1514
-    ]
+    "end": 1514
   },
   {
     "type": "Identifier",
     "value": "Temporal",
     "start": 1515,
-    "end": 1523,
-    "range": [
-      1515,
-      1523
-    ]
+    "end": 1523
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1523,
-    "end": 1524,
-    "range": [
-      1523,
-      1524
-    ]
+    "end": 1524
   },
   {
     "type": "Identifier",
     "value": "ZonedDateTime",
     "start": 1524,
-    "end": 1537,
-    "range": [
-      1524,
-      1537
-    ]
+    "end": 1537
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1537,
-    "end": 1538,
-    "range": [
-      1537,
-      1538
-    ]
+    "end": 1538
   },
   {
     "type": "Numeric",
     "value": "0n",
     "start": 1538,
-    "end": 1540,
-    "range": [
-      1538,
-      1540
-    ]
+    "end": 1540
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1540,
-    "end": 1541,
-    "range": [
-      1540,
-      1541
-    ]
+    "end": 1541
   },
   {
     "type": "Identifier",
     "value": "id",
     "start": 1542,
-    "end": 1544,
-    "range": [
-      1542,
-      1544
-    ]
+    "end": 1544
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1544,
-    "end": 1545,
-    "range": [
-      1544,
-      1545
-    ]
+    "end": 1545
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1545,
-    "end": 1546,
-    "range": [
-      1545,
-      1546
-    ]
+    "end": 1546
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1549,
-    "end": 1555,
-    "range": [
-      1549,
-      1555
-    ]
+    "end": 1555
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1555,
-    "end": 1556,
-    "range": [
-      1555,
-      1556
-    ]
+    "end": 1556
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1556,
-    "end": 1565,
-    "range": [
-      1556,
-      1565
-    ]
+    "end": 1565
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1565,
-    "end": 1566,
-    "range": [
-      1565,
-      1566
-    ]
+    "end": 1566
   },
   {
     "type": "Identifier",
     "value": "instance",
     "start": 1566,
-    "end": 1574,
-    "range": [
-      1566,
-      1574
-    ]
+    "end": 1574
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1574,
-    "end": 1575,
-    "range": [
-      1574,
-      1575
-    ]
+    "end": 1575
   },
   {
     "type": "Identifier",
     "value": "timeZoneId",
     "start": 1575,
-    "end": 1585,
-    "range": [
-      1575,
-      1585
-    ]
+    "end": 1585
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1585,
-    "end": 1586,
-    "range": [
-      1585,
-      1586
-    ]
+    "end": 1586
   },
   {
     "type": "Identifier",
     "value": "id",
     "start": 1587,
-    "end": 1589,
-    "range": [
-      1587,
-      1589
-    ]
+    "end": 1589
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1589,
-    "end": 1590,
-    "range": [
-      1589,
-      1590
-    ]
+    "end": 1590
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1590,
-    "end": 1591,
-    "range": [
-      1590,
-      1591
-    ]
+    "end": 1591
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 1592,
-    "end": 1593,
-    "range": [
-      1592,
-      1593
-    ]
+    "end": 1593
   }
 ]

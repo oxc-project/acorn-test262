@@ -3,80 +3,48 @@
     "type": "Punctuator",
     "value": "<",
     "start": 0,
-    "end": 1,
-    "range": [
-      0,
-      1
-    ]
+    "end": 1
   },
   {
     "type": "JSXIdentifier",
     "value": "div",
     "start": 1,
-    "end": 4,
-    "range": [
-      1,
-      4
-    ]
+    "end": 4
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 4,
-    "end": 5,
-    "range": [
-      4,
-      5
-    ]
+    "end": 5
   },
   {
     "type": "JSXText",
     "value": "@test content",
     "start": 5,
-    "end": 18,
-    "range": [
-      5,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "Punctuator",
     "value": "<",
     "start": 18,
-    "end": 19,
-    "range": [
-      18,
-      19
-    ]
+    "end": 19
   },
   {
     "type": "Punctuator",
     "value": "/",
     "start": 19,
-    "end": 20,
-    "range": [
-      19,
-      20
-    ]
+    "end": 20
   },
   {
     "type": "JSXIdentifier",
     "value": "div",
     "start": 20,
-    "end": 23,
-    "range": [
-      20,
-      23
-    ]
+    "end": 23
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 23,
-    "end": 24,
-    "range": [
-      23,
-      24
-    ]
+    "end": 24
   }
 ]

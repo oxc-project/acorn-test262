@@ -3,150 +3,80 @@
     "type": "Identifier",
     "value": "assert",
     "start": 459,
-    "end": 465,
-    "range": [
-      459,
-      465
-    ]
+    "end": 465
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 465,
-    "end": 466,
-    "range": [
-      465,
-      466
-    ]
+    "end": 466
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 466,
-    "end": 475,
-    "range": [
-      466,
-      475
-    ]
+    "end": 475
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 475,
-    "end": 476,
-    "range": [
-      475,
-      476
-    ]
+    "end": 476
   },
   {
     "type": "Template",
-    "value": "`${",
-    "start": 476,
-    "end": 479,
-    "range": [
-      476,
-      479
-    ]
+    "value": "`${"
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 479,
-    "end": 480,
-    "range": [
-      479,
-      480
-    ]
+    "end": 480
   },
   {
     "type": "Template",
-    "value": "} ${",
-    "start": 480,
-    "end": 484,
-    "range": [
-      480,
-      484
-    ]
+    "value": "} ${"
   },
   {
     "type": "Template",
-    "value": "`bar ${",
-    "start": 484,
-    "end": 491,
-    "range": [
-      484,
-      491
-    ]
+    "value": "`bar ${"
   },
   {
     "type": "Numeric",
     "value": "5",
     "start": 491,
-    "end": 492,
-    "range": [
-      491,
-      492
-    ]
+    "end": 492
   },
   {
     "type": "Template",
-    "value": "} baz`",
-    "start": 492,
-    "end": 498,
-    "range": [
-      492,
-      498
-    ]
+    "value": "} baz`"
   },
   {
     "type": "Template",
-    "value": "} qux`",
-    "start": 498,
-    "end": 504,
-    "range": [
-      498,
-      504
-    ]
+    "value": "} qux`"
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 504,
-    "end": 505,
-    "range": [
-      504,
-      505
-    ]
+    "end": 505
   },
   {
     "type": "String",
     "value": "'0 bar 5 baz qux'",
     "start": 506,
-    "end": 523,
-    "range": [
-      506,
-      523
-    ]
+    "end": 523
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 523,
-    "end": 524,
-    "range": [
-      523,
-      524
-    ]
+    "end": 524
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 524,
-    "end": 525,
-    "range": [
-      524,
-      525
-    ]
+    "end": 525
   }
 ]

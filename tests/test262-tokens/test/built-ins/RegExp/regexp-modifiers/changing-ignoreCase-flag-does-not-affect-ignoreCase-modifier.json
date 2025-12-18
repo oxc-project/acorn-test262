@@ -3,61 +3,37 @@
     "type": "Keyword",
     "value": "var",
     "start": 2177,
-    "end": 2180,
-    "range": [
-      2177,
-      2180
-    ]
+    "end": 2180
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2181,
-    "end": 2184,
-    "range": [
-      2181,
-      2184
-    ]
+    "end": 2184
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2185,
-    "end": 2186,
-    "range": [
-      2185,
-      2186
-    ]
+    "end": 2186
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 2187,
-    "end": 2190,
-    "range": [
-      2187,
-      2190
-    ]
+    "end": 2190
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 2191,
-    "end": 2197,
-    "range": [
-      2191,
-      2197
-    ]
+    "end": 2197
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2197,
-    "end": 2198,
-    "range": [
-      2197,
-      2198
-    ]
+    "end": 2198
   },
   {
     "type": "RegularExpression",
@@ -67,591 +43,355 @@
       "pattern": "(?i:aB)"
     },
     "start": 2198,
-    "end": 2208,
-    "range": [
-      2198,
-      2208
-    ]
+    "end": 2208
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2208,
-    "end": 2209,
-    "range": [
-      2208,
-      2209
-    ]
+    "end": 2209
   },
   {
     "type": "String",
     "value": "\"\"",
     "start": 2210,
-    "end": 2212,
-    "range": [
-      2210,
-      2212
-    ]
+    "end": 2212
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2212,
-    "end": 2213,
-    "range": [
-      2212,
-      2213
-    ]
+    "end": 2213
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2213,
-    "end": 2214,
-    "range": [
-      2213,
-      2214
-    ]
+    "end": 2214
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2215,
-    "end": 2221,
-    "range": [
-      2215,
-      2221
-    ]
+    "end": 2221
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2221,
-    "end": 2222,
-    "range": [
-      2221,
-      2222
-    ]
+    "end": 2222
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2222,
-    "end": 2225,
-    "range": [
-      2222,
-      2225
-    ]
+    "end": 2225
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2225,
-    "end": 2226,
-    "range": [
-      2225,
-      2226
-    ]
+    "end": 2226
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2226,
-    "end": 2230,
-    "range": [
-      2226,
-      2230
-    ]
+    "end": 2230
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2230,
-    "end": 2231,
-    "range": [
-      2230,
-      2231
-    ]
+    "end": 2231
   },
   {
     "type": "String",
     "value": "\"AB\"",
     "start": 2231,
-    "end": 2235,
-    "range": [
-      2231,
-      2235
-    ]
+    "end": 2235
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2235,
-    "end": 2236,
-    "range": [
-      2235,
-      2236
-    ]
+    "end": 2236
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2236,
-    "end": 2237,
-    "range": [
-      2236,
-      2237
-    ]
+    "end": 2237
   },
   {
     "type": "String",
     "value": "\"still should ignore case in modified group\"",
     "start": 2238,
-    "end": 2282,
-    "range": [
-      2238,
-      2282
-    ]
+    "end": 2282
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2282,
-    "end": 2283,
-    "range": [
-      2282,
-      2283
-    ]
+    "end": 2283
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2283,
-    "end": 2284,
-    "range": [
-      2283,
-      2284
-    ]
+    "end": 2284
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2285,
-    "end": 2291,
-    "range": [
-      2285,
-      2291
-    ]
+    "end": 2291
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2291,
-    "end": 2292,
-    "range": [
-      2291,
-      2292
-    ]
+    "end": 2292
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2292,
-    "end": 2295,
-    "range": [
-      2292,
-      2295
-    ]
+    "end": 2295
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2295,
-    "end": 2296,
-    "range": [
-      2295,
-      2296
-    ]
+    "end": 2296
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2296,
-    "end": 2300,
-    "range": [
-      2296,
-      2300
-    ]
+    "end": 2300
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2300,
-    "end": 2301,
-    "range": [
-      2300,
-      2301
-    ]
+    "end": 2301
   },
   {
     "type": "String",
     "value": "\"Ab\"",
     "start": 2301,
-    "end": 2305,
-    "range": [
-      2301,
-      2305
-    ]
+    "end": 2305
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2305,
-    "end": 2306,
-    "range": [
-      2305,
-      2306
-    ]
+    "end": 2306
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2306,
-    "end": 2307,
-    "range": [
-      2306,
-      2307
-    ]
+    "end": 2307
   },
   {
     "type": "String",
     "value": "\"still should ignore case in modified group\"",
     "start": 2308,
-    "end": 2352,
-    "range": [
-      2308,
-      2352
-    ]
+    "end": 2352
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2352,
-    "end": 2353,
-    "range": [
-      2352,
-      2353
-    ]
+    "end": 2353
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2353,
-    "end": 2354,
-    "range": [
-      2353,
-      2354
-    ]
+    "end": 2354
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2355,
-    "end": 2361,
-    "range": [
-      2355,
-      2361
-    ]
+    "end": 2361
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2361,
-    "end": 2362,
-    "range": [
-      2361,
-      2362
-    ]
+    "end": 2362
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2362,
-    "end": 2365,
-    "range": [
-      2362,
-      2365
-    ]
+    "end": 2365
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2365,
-    "end": 2366,
-    "range": [
-      2365,
-      2366
-    ]
+    "end": 2366
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2366,
-    "end": 2370,
-    "range": [
-      2366,
-      2370
-    ]
+    "end": 2370
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2370,
-    "end": 2371,
-    "range": [
-      2370,
-      2371
-    ]
+    "end": 2371
   },
   {
     "type": "String",
     "value": "\"aB\"",
     "start": 2371,
-    "end": 2375,
-    "range": [
-      2371,
-      2375
-    ]
+    "end": 2375
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2375,
-    "end": 2376,
-    "range": [
-      2375,
-      2376
-    ]
+    "end": 2376
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2376,
-    "end": 2377,
-    "range": [
-      2376,
-      2377
-    ]
+    "end": 2377
   },
   {
     "type": "String",
     "value": "\"still should ignore case in modified group\"",
     "start": 2378,
-    "end": 2422,
-    "range": [
-      2378,
-      2422
-    ]
+    "end": 2422
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2422,
-    "end": 2423,
-    "range": [
-      2422,
-      2423
-    ]
+    "end": 2423
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2423,
-    "end": 2424,
-    "range": [
-      2423,
-      2424
-    ]
+    "end": 2424
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2425,
-    "end": 2431,
-    "range": [
-      2425,
-      2431
-    ]
+    "end": 2431
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2431,
-    "end": 2432,
-    "range": [
-      2431,
-      2432
-    ]
+    "end": 2432
   },
   {
     "type": "Identifier",
     "value": "re1",
     "start": 2432,
-    "end": 2435,
-    "range": [
-      2432,
-      2435
-    ]
+    "end": 2435
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2435,
-    "end": 2436,
-    "range": [
-      2435,
-      2436
-    ]
+    "end": 2436
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2436,
-    "end": 2440,
-    "range": [
-      2436,
-      2440
-    ]
+    "end": 2440
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2440,
-    "end": 2441,
-    "range": [
-      2440,
-      2441
-    ]
+    "end": 2441
   },
   {
     "type": "String",
     "value": "\"ab\"",
     "start": 2441,
-    "end": 2445,
-    "range": [
-      2441,
-      2445
-    ]
+    "end": 2445
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2445,
-    "end": 2446,
-    "range": [
-      2445,
-      2446
-    ]
+    "end": 2446
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2446,
-    "end": 2447,
-    "range": [
-      2446,
-      2447
-    ]
+    "end": 2447
   },
   {
     "type": "String",
     "value": "\"still should ignore case in modified group\"",
     "start": 2448,
-    "end": 2492,
-    "range": [
-      2448,
-      2492
-    ]
+    "end": 2492
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2492,
-    "end": 2493,
-    "range": [
-      2492,
-      2493
-    ]
+    "end": 2493
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2493,
-    "end": 2494,
-    "range": [
-      2493,
-      2494
-    ]
+    "end": 2494
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2496,
-    "end": 2499,
-    "range": [
-      2496,
-      2499
-    ]
+    "end": 2499
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 2500,
-    "end": 2503,
-    "range": [
-      2500,
-      2503
-    ]
+    "end": 2503
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2504,
-    "end": 2505,
-    "range": [
-      2504,
-      2505
-    ]
+    "end": 2505
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 2506,
-    "end": 2509,
-    "range": [
-      2506,
-      2509
-    ]
+    "end": 2509
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 2510,
-    "end": 2516,
-    "range": [
-      2510,
-      2516
-    ]
+    "end": 2516
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2516,
-    "end": 2517,
-    "range": [
-      2516,
-      2517
-    ]
+    "end": 2517
   },
   {
     "type": "RegularExpression",
@@ -661,560 +401,336 @@
       "pattern": "(?-i:aB)"
     },
     "start": 2517,
-    "end": 2527,
-    "range": [
-      2517,
-      2527
-    ]
+    "end": 2527
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2527,
-    "end": 2528,
-    "range": [
-      2527,
-      2528
-    ]
+    "end": 2528
   },
   {
     "type": "String",
     "value": "\"i\"",
     "start": 2529,
-    "end": 2532,
-    "range": [
-      2529,
-      2532
-    ]
+    "end": 2532
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2532,
-    "end": 2533,
-    "range": [
-      2532,
-      2533
-    ]
+    "end": 2533
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2533,
-    "end": 2534,
-    "range": [
-      2533,
-      2534
-    ]
+    "end": 2534
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2535,
-    "end": 2541,
-    "range": [
-      2535,
-      2541
-    ]
+    "end": 2541
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2541,
-    "end": 2542,
-    "range": [
-      2541,
-      2542
-    ]
+    "end": 2542
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2542,
-    "end": 2543,
-    "range": [
-      2542,
-      2543
-    ]
+    "end": 2543
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 2543,
-    "end": 2546,
-    "range": [
-      2543,
-      2546
-    ]
+    "end": 2546
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2546,
-    "end": 2547,
-    "range": [
-      2546,
-      2547
-    ]
+    "end": 2547
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2547,
-    "end": 2551,
-    "range": [
-      2547,
-      2551
-    ]
+    "end": 2551
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2551,
-    "end": 2552,
-    "range": [
-      2551,
-      2552
-    ]
+    "end": 2552
   },
   {
     "type": "String",
     "value": "\"AB\"",
     "start": 2552,
-    "end": 2556,
-    "range": [
-      2552,
-      2556
-    ]
+    "end": 2556
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2556,
-    "end": 2557,
-    "range": [
-      2556,
-      2557
-    ]
+    "end": 2557
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2557,
-    "end": 2558,
-    "range": [
-      2557,
-      2558
-    ]
+    "end": 2558
   },
   {
     "type": "String",
     "value": "\"still should preserve case in modified group\"",
     "start": 2559,
-    "end": 2605,
-    "range": [
-      2559,
-      2605
-    ]
+    "end": 2605
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2605,
-    "end": 2606,
-    "range": [
-      2605,
-      2606
-    ]
+    "end": 2606
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2606,
-    "end": 2607,
-    "range": [
-      2606,
-      2607
-    ]
+    "end": 2607
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2608,
-    "end": 2614,
-    "range": [
-      2608,
-      2614
-    ]
+    "end": 2614
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2614,
-    "end": 2615,
-    "range": [
-      2614,
-      2615
-    ]
+    "end": 2615
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2615,
-    "end": 2616,
-    "range": [
-      2615,
-      2616
-    ]
+    "end": 2616
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 2616,
-    "end": 2619,
-    "range": [
-      2616,
-      2619
-    ]
+    "end": 2619
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2619,
-    "end": 2620,
-    "range": [
-      2619,
-      2620
-    ]
+    "end": 2620
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2620,
-    "end": 2624,
-    "range": [
-      2620,
-      2624
-    ]
+    "end": 2624
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2624,
-    "end": 2625,
-    "range": [
-      2624,
-      2625
-    ]
+    "end": 2625
   },
   {
     "type": "String",
     "value": "\"Ab\"",
     "start": 2625,
-    "end": 2629,
-    "range": [
-      2625,
-      2629
-    ]
+    "end": 2629
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2629,
-    "end": 2630,
-    "range": [
-      2629,
-      2630
-    ]
+    "end": 2630
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2630,
-    "end": 2631,
-    "range": [
-      2630,
-      2631
-    ]
+    "end": 2631
   },
   {
     "type": "String",
     "value": "\"still should preserve case in modified group\"",
     "start": 2632,
-    "end": 2678,
-    "range": [
-      2632,
-      2678
-    ]
+    "end": 2678
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2678,
-    "end": 2679,
-    "range": [
-      2678,
-      2679
-    ]
+    "end": 2679
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2679,
-    "end": 2680,
-    "range": [
-      2679,
-      2680
-    ]
+    "end": 2680
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2681,
-    "end": 2687,
-    "range": [
-      2681,
-      2687
-    ]
+    "end": 2687
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2687,
-    "end": 2688,
-    "range": [
-      2687,
-      2688
-    ]
+    "end": 2688
   },
   {
     "type": "Punctuator",
     "value": "!",
     "start": 2688,
-    "end": 2689,
-    "range": [
-      2688,
-      2689
-    ]
+    "end": 2689
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 2689,
-    "end": 2692,
-    "range": [
-      2689,
-      2692
-    ]
+    "end": 2692
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2692,
-    "end": 2693,
-    "range": [
-      2692,
-      2693
-    ]
+    "end": 2693
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2693,
-    "end": 2697,
-    "range": [
-      2693,
-      2697
-    ]
+    "end": 2697
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2697,
-    "end": 2698,
-    "range": [
-      2697,
-      2698
-    ]
+    "end": 2698
   },
   {
     "type": "String",
     "value": "\"ab\"",
     "start": 2698,
-    "end": 2702,
-    "range": [
-      2698,
-      2702
-    ]
+    "end": 2702
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2702,
-    "end": 2703,
-    "range": [
-      2702,
-      2703
-    ]
+    "end": 2703
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2703,
-    "end": 2704,
-    "range": [
-      2703,
-      2704
-    ]
+    "end": 2704
   },
   {
     "type": "String",
     "value": "\"still should preserve case in modified group\"",
     "start": 2705,
-    "end": 2751,
-    "range": [
-      2705,
-      2751
-    ]
+    "end": 2751
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2751,
-    "end": 2752,
-    "range": [
-      2751,
-      2752
-    ]
+    "end": 2752
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2752,
-    "end": 2753,
-    "range": [
-      2752,
-      2753
-    ]
+    "end": 2753
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2754,
-    "end": 2760,
-    "range": [
-      2754,
-      2760
-    ]
+    "end": 2760
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2760,
-    "end": 2761,
-    "range": [
-      2760,
-      2761
-    ]
+    "end": 2761
   },
   {
     "type": "Identifier",
     "value": "re2",
     "start": 2761,
-    "end": 2764,
-    "range": [
-      2761,
-      2764
-    ]
+    "end": 2764
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2764,
-    "end": 2765,
-    "range": [
-      2764,
-      2765
-    ]
+    "end": 2765
   },
   {
     "type": "Identifier",
     "value": "test",
     "start": 2765,
-    "end": 2769,
-    "range": [
-      2765,
-      2769
-    ]
+    "end": 2769
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2769,
-    "end": 2770,
-    "range": [
-      2769,
-      2770
-    ]
+    "end": 2770
   },
   {
     "type": "String",
     "value": "\"aB\"",
     "start": 2770,
-    "end": 2774,
-    "range": [
-      2770,
-      2774
-    ]
+    "end": 2774
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2774,
-    "end": 2775,
-    "range": [
-      2774,
-      2775
-    ]
+    "end": 2775
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2775,
-    "end": 2776,
-    "range": [
-      2775,
-      2776
-    ]
+    "end": 2776
   },
   {
     "type": "String",
     "value": "\"still should preserve case in modified group\"",
     "start": 2777,
-    "end": 2823,
-    "range": [
-      2777,
-      2823
-    ]
+    "end": 2823
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2823,
-    "end": 2824,
-    "range": [
-      2823,
-      2824
-    ]
+    "end": 2824
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2824,
-    "end": 2825,
-    "range": [
-      2824,
-      2825
-    ]
+    "end": 2825
   }
 ]

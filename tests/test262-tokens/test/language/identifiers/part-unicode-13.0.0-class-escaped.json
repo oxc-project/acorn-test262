@@ -3,70 +3,42 @@
     "type": "Keyword",
     "value": "class",
     "start": 533,
-    "end": 538,
-    "range": [
-      533,
-      538
-    ]
+    "end": 538
   },
   {
     "type": "Identifier",
     "value": "_",
     "start": 539,
-    "end": 540,
-    "range": [
-      539,
-      540
-    ]
+    "end": 540
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 541,
-    "end": 542,
-    "range": [
-      541,
-      542
-    ]
+    "end": 542
   },
   {
     "type": "PrivateIdentifier",
     "value": "_୕ඁ꠬ᪿᫀ𐺫𐺬𑇎𑇏𑤰𑤱𑤲𑤳𑤴𑤵𑤷𑤸𑤻𑤼𑤽𑤾𑥀𑥂𑥃𑥐𑥑𑥒𑥓𑥔𑥕𑥖𑥗𑥘𑥙𖿤𖿰𖿱🯰🯱🯲🯳🯴🯵🯶🯷🯸🯹",
     "start": 545,
-    "end": 955,
-    "range": [
-      545,
-      955
-    ]
+    "end": 955
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 955,
-    "end": 956,
-    "range": [
-      955,
-      956
-    ]
+    "end": 956
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 957,
-    "end": 958,
-    "range": [
-      957,
-      958
-    ]
+    "end": 958
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 958,
-    "end": 959,
-    "range": [
-      958,
-      959
-    ]
+    "end": 959
   }
 ]

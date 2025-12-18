@@ -75,91 +75,55 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "Array",
     "start": 6,
-    "end": 11,
-    "range": [
-      6,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 17,
-    "end": 18,
-    "range": [
-      17,
-      18
-    ]
+    "end": 18
   },
   {
     "type": "String",
     "value": "\"toString\"",
     "start": 25,
-    "end": 35,
-    "range": [
-      25,
-      35
-    ]
+    "end": 35
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 42,
-    "end": 43,
-    "range": [
-      42,
-      43
-    ]
+    "end": 43
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 49,
-    "end": 50,
-    "range": [
-      49,
-      50
-    ]
+    "end": 50
   },
   {
     "type": "Identifier",
     "value": "Array",
     "start": 64,
-    "end": 69,
-    "range": [
-      64,
-      69
-    ]
+    "end": 69
   },
   {
     "type": "Punctuator",
     "value": "[",
     "start": 99,
-    "end": 100,
-    "range": [
-      99,
-      100
-    ]
+    "end": 100
   },
   {
     "type": "String",
     "value": "\"toString\"",
     "start": 107,
-    "end": 117,
-    "range": [
-      107,
-      117
-    ]
+    "end": 117
   },
   {
     "type": "Punctuator",
     "value": "]",
     "start": 147,
-    "end": 148,
-    "range": [
-      147,
-      148
-    ]
+    "end": 148
   }
 ]
 ```

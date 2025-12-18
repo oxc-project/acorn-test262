@@ -22,11 +22,7 @@ __ESTREE_TEST__:TOKENS:
     "type": "Punctuator",
     "value": ";",
     "start": 0,
-    "end": 1,
-    "range": [
-      0,
-      1
-    ]
+    "end": 1
   }
 ]
 ```

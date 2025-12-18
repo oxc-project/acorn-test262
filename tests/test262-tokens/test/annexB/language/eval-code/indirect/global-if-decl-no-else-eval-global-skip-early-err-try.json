@@ -3,90 +3,54 @@
     "type": "Punctuator",
     "value": "(",
     "start": 1584,
-    "end": 1585,
-    "range": [
-      1584,
-      1585
-    ]
+    "end": 1585
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1585,
-    "end": 1586,
-    "range": [
-      1585,
-      1586
-    ]
+    "end": 1586
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1586,
-    "end": 1587,
-    "range": [
-      1586,
-      1587
-    ]
+    "end": 1587
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1587,
-    "end": 1591,
-    "range": [
-      1587,
-      1591
-    ]
+    "end": 1591
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1591,
-    "end": 1592,
-    "range": [
-      1591,
-      1592
-    ]
+    "end": 1592
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1592,
-    "end": 1593,
-    "range": [
-      1592,
-      1593
-    ]
+    "end": 1593
   },
   {
     "type": "String",
     "value": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {if (true) function f() {  }}\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'",
     "start": 1596,
-    "end": 2175,
-    "range": [
-      1596,
-      2175
-    ]
+    "end": 2175
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2176,
-    "end": 2177,
-    "range": [
-      2176,
-      2177
-    ]
+    "end": 2177
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2177,
-    "end": 2178,
-    "range": [
-      2177,
-      2178
-    ]
+    "end": 2178
   }
 ]
