@@ -3,280 +3,168 @@
     "type": "Keyword",
     "value": "var",
     "start": 285,
-    "end": 288,
-    "range": [
-      285,
-      288
-    ]
+    "end": 288
   },
   {
     "type": "Identifier",
     "value": "evalStr",
     "start": 289,
-    "end": 296,
-    "range": [
-      289,
-      296
-    ]
+    "end": 296
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 297,
-    "end": 298,
-    "range": [
-      297,
-      298
-    ]
+    "end": 298
   },
   {
     "type": "String",
     "value": "'//CHECK#1\\n'",
     "start": 299,
-    "end": 312,
-    "range": [
-      299,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 312,
-    "end": 313,
-    "range": [
-      312,
-      313
-    ]
+    "end": 313
   },
   {
     "type": "String",
     "value": "'for (var x in this) {\\n'",
     "start": 314,
-    "end": 339,
-    "range": [
-      314,
-      339
-    ]
+    "end": 339
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 339,
-    "end": 340,
-    "range": [
-      339,
-      340
-    ]
+    "end": 340
   },
   {
     "type": "String",
     "value": "'  if ( x === \\'NaN\\' ) {\\n'",
     "start": 341,
-    "end": 369,
-    "range": [
-      341,
-      369
-    ]
+    "end": 369
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 369,
-    "end": 370,
-    "range": [
-      369,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'NaN\\' have attribute DontEnum\");\\n'",
     "start": 371,
-    "end": 441,
-    "range": [
-      371,
-      441
-    ]
+    "end": 441
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 441,
-    "end": 442,
-    "range": [
-      441,
-      442
-    ]
+    "end": 442
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'Infinity\\' ) {\\n'",
     "start": 443,
-    "end": 483,
-    "range": [
-      443,
-      483
-    ]
+    "end": 483
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 483,
-    "end": 484,
-    "range": [
-      483,
-      484
-    ]
+    "end": 484
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'Infinity\\' have attribute DontEnum\");\\n'",
     "start": 485,
-    "end": 560,
-    "range": [
-      485,
-      560
-    ]
+    "end": 560
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 560,
-    "end": 561,
-    "range": [
-      560,
-      561
-    ]
+    "end": 561
   },
   {
     "type": "String",
     "value": "'  } else if ( x === \\'undefined\\' ) {\\n'",
     "start": 562,
-    "end": 603,
-    "range": [
-      562,
-      603
-    ]
+    "end": 603
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 603,
-    "end": 604,
-    "range": [
-      603,
-      604
-    ]
+    "end": 604
   },
   {
     "type": "String",
     "value": "'    throw new Test262Error(\"#1: \\'undefined\\' have attribute DontEnum\");\\n'",
     "start": 605,
-    "end": 681,
-    "range": [
-      605,
-      681
-    ]
+    "end": 681
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 681,
-    "end": 682,
-    "range": [
-      681,
-      682
-    ]
+    "end": 682
   },
   {
     "type": "String",
     "value": "'  }\\n'",
     "start": 683,
-    "end": 690,
-    "range": [
-      683,
-      690
-    ]
+    "end": 690
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 690,
-    "end": 691,
-    "range": [
-      690,
-      691
-    ]
+    "end": 691
   },
   {
     "type": "String",
     "value": "'}\\n'",
     "start": 692,
-    "end": 697,
-    "range": [
-      692,
-      697
-    ]
+    "end": 697
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 697,
-    "end": 698,
-    "range": [
-      697,
-      698
-    ]
+    "end": 698
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 700,
-    "end": 704,
-    "range": [
-      700,
-      704
-    ]
+    "end": 704
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 704,
-    "end": 705,
-    "range": [
-      704,
-      705
-    ]
+    "end": 705
   },
   {
     "type": "Identifier",
     "value": "evalStr",
     "start": 705,
-    "end": 712,
-    "range": [
-      705,
-      712
-    ]
+    "end": 712
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 712,
-    "end": 713,
-    "range": [
-      712,
-      713
-    ]
+    "end": 713
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 713,
-    "end": 714,
-    "range": [
-      713,
-      714
-    ]
+    "end": 714
   }
 ]

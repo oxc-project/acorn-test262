@@ -7,21 +7,13 @@
       "pattern": "\\p{Script_Extensions=Unknown}"
     },
     "start": 429,
-    "end": 461,
-    "range": [
-      429,
-      461
-    ]
+    "end": 461
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 461,
-    "end": 462,
-    "range": [
-      461,
-      462
-    ]
+    "end": 462
   },
   {
     "type": "RegularExpression",
@@ -31,21 +23,13 @@
       "pattern": "\\p{Script_Extensions=Zzzz}"
     },
     "start": 463,
-    "end": 492,
-    "range": [
-      463,
-      492
-    ]
+    "end": 492
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 492,
-    "end": 493,
-    "range": [
-      492,
-      493
-    ]
+    "end": 493
   },
   {
     "type": "RegularExpression",
@@ -55,21 +39,13 @@
       "pattern": "\\p{scx=Unknown}"
     },
     "start": 494,
-    "end": 512,
-    "range": [
-      494,
-      512
-    ]
+    "end": 512
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 512,
-    "end": 513,
-    "range": [
-      512,
-      513
-    ]
+    "end": 513
   },
   {
     "type": "RegularExpression",
@@ -79,20 +55,12 @@
       "pattern": "\\p{scx=Zzzz}"
     },
     "start": 514,
-    "end": 529,
-    "range": [
-      514,
-      529
-    ]
+    "end": 529
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 529,
-    "end": 530,
-    "range": [
-      529,
-      530
-    ]
+    "end": 530
   }
 ]

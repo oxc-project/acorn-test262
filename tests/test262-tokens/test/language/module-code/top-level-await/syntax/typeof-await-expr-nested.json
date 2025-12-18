@@ -3,180 +3,108 @@
     "type": "Keyword",
     "value": "typeof",
     "start": 1119,
-    "end": 1125,
-    "range": [
-      1119,
-      1125
-    ]
+    "end": 1125
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1126,
-    "end": 1131,
-    "range": [
-      1126,
-      1131
-    ]
+    "end": 1131
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1132,
-    "end": 1137,
-    "range": [
-      1132,
-      1137
-    ]
+    "end": 1137
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1138,
-    "end": 1143,
-    "range": [
-      1138,
-      1143
-    ]
+    "end": 1143
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1144,
-    "end": 1149,
-    "range": [
-      1144,
-      1149
-    ]
+    "end": 1149
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1150,
-    "end": 1155,
-    "range": [
-      1150,
-      1155
-    ]
+    "end": 1155
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1156,
-    "end": 1161,
-    "range": [
-      1156,
-      1161
-    ]
+    "end": 1161
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1162,
-    "end": 1167,
-    "range": [
-      1162,
-      1167
-    ]
+    "end": 1167
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1168,
-    "end": 1173,
-    "range": [
-      1168,
-      1173
-    ]
+    "end": 1173
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1174,
-    "end": 1179,
-    "range": [
-      1174,
-      1179
-    ]
+    "end": 1179
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1180,
-    "end": 1185,
-    "range": [
-      1180,
-      1185
-    ]
+    "end": 1185
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1186,
-    "end": 1191,
-    "range": [
-      1186,
-      1191
-    ]
+    "end": 1191
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1192,
-    "end": 1197,
-    "range": [
-      1192,
-      1197
-    ]
+    "end": 1197
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1198,
-    "end": 1203,
-    "range": [
-      1198,
-      1203
-    ]
+    "end": 1203
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1204,
-    "end": 1209,
-    "range": [
-      1204,
-      1209
-    ]
+    "end": 1209
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1210,
-    "end": 1215,
-    "range": [
-      1210,
-      1215
-    ]
+    "end": 1215
   },
   {
     "type": "String",
     "value": "'await'",
     "start": 1216,
-    "end": 1223,
-    "range": [
-      1216,
-      1223
-    ]
+    "end": 1223
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1223,
-    "end": 1224,
-    "range": [
-      1223,
-      1224
-    ]
+    "end": 1224
   }
 ]

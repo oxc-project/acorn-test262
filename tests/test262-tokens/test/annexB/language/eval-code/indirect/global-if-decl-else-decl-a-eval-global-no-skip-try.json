@@ -3,90 +3,54 @@
     "type": "Punctuator",
     "value": "(",
     "start": 1605,
-    "end": 1606,
-    "range": [
-      1605,
-      1606
-    ]
+    "end": 1606
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 1606,
-    "end": 1607,
-    "range": [
-      1606,
-      1607
-    ]
+    "end": 1607
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1607,
-    "end": 1608,
-    "range": [
-      1607,
-      1608
-    ]
+    "end": 1608
   },
   {
     "type": "Identifier",
     "value": "eval",
     "start": 1608,
-    "end": 1612,
-    "range": [
-      1608,
-      1612
-    ]
+    "end": 1612
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1612,
-    "end": 1613,
-    "range": [
-      1612,
-      1613
-    ]
+    "end": 1613
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1613,
-    "end": 1614,
-    "range": [
-      1613,
-      1614
-    ]
+    "end": 1614
   },
   {
     "type": "String",
     "value": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {if (true) function f() { return 123; } else function _f() {}}\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'",
     "start": 1617,
-    "end": 1966,
-    "range": [
-      1617,
-      1966
-    ]
+    "end": 1966
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1967,
-    "end": 1968,
-    "range": [
-      1967,
-      1968
-    ]
+    "end": 1968
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1968,
-    "end": 1969,
-    "range": [
-      1968,
-      1969
-    ]
+    "end": 1969
   }
 ]

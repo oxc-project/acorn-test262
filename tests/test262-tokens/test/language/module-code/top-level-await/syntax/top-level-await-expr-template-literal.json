@@ -3,30 +3,16 @@
     "type": "Identifier",
     "value": "await",
     "start": 1069,
-    "end": 1074,
-    "range": [
-      1069,
-      1074
-    ]
+    "end": 1074
   },
   {
     "type": "Template",
-    "value": "``",
-    "start": 1075,
-    "end": 1077,
-    "range": [
-      1075,
-      1077
-    ]
+    "value": "``"
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1077,
-    "end": 1078,
-    "range": [
-      1077,
-      1078
-    ]
+    "end": 1078
   }
 ]

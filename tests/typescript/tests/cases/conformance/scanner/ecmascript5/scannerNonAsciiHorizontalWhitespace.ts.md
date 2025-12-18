@@ -43,21 +43,13 @@ __ESTREE_TEST__:TOKENS:
     "type": "String",
     "value": "\"  function f() {}\"",
     "start": 46,
-    "end": 65,
-    "range": [
-      46,
-      65
-    ]
+    "end": 65
   },
   {
     "type": "String",
     "value": "\"  function f() {}\"",
     "start": 113,
-    "end": 132,
-    "range": [
-      113,
-      132
-    ]
+    "end": 132
   }
 ]
 ```

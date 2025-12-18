@@ -77,18 +77,16 @@ await run({
         output += "__ESTREE_TEST__:AST:\n```json\n" + astJson + "\n```\n";
 
         // Conform tokens.
-        // * Remove `loc`
+        // * Remove `range` and `loc`
         // * Move `regex` field to after `value`
         // * Add `start` + `end`
-        // * Move `range` field to last
         for (let i = 0; i < tokens.length; i++) {
           let token, range, regex, _loc;
-          ({ range, regex, loc: _loc, ...token } = tokens[i]);
+          ({ regex, range, loc: _loc, ...token } = tokens[i]);
 
           if (regex !== undefined) token.regex = regex;
           token.start = range[0];
           token.end = range[1];
-          token.range = range;
 
           tokens[i] = token;
         }

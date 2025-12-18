@@ -3,2150 +3,1286 @@
     "type": "Identifier",
     "value": "assert",
     "start": 624,
-    "end": 630,
-    "range": [
-      624,
-      630
-    ]
+    "end": 630
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 630,
-    "end": 631,
-    "range": [
-      630,
-      631
-    ]
+    "end": 631
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 631,
-    "end": 640,
-    "range": [
-      631,
-      640
-    ]
+    "end": 640
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 640,
-    "end": 641,
-    "range": [
-      640,
-      641
-    ]
+    "end": 641
   },
   {
     "type": "Keyword",
     "value": "typeof",
     "start": 641,
-    "end": 647,
-    "range": [
-      641,
-      647
-    ]
+    "end": 647
   },
   {
     "type": "Identifier",
     "value": "Atomics",
     "start": 648,
-    "end": 655,
-    "range": [
-      648,
-      655
-    ]
+    "end": 655
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 655,
-    "end": 656,
-    "range": [
-      655,
-      656
-    ]
+    "end": 656
   },
   {
     "type": "Identifier",
     "value": "waitAsync",
     "start": 656,
-    "end": 665,
-    "range": [
-      656,
-      665
-    ]
+    "end": 665
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 665,
-    "end": 666,
-    "range": [
-      665,
-      666
-    ]
+    "end": 666
   },
   {
     "type": "String",
     "value": "'function'",
     "start": 667,
-    "end": 677,
-    "range": [
-      667,
-      677
-    ]
+    "end": 677
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 677,
-    "end": 678,
-    "range": [
-      677,
-      678
-    ]
+    "end": 678
   },
   {
     "type": "String",
     "value": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
     "start": 679,
-    "end": 734,
-    "range": [
-      679,
-      734
-    ]
+    "end": 734
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 734,
-    "end": 735,
-    "range": [
-      734,
-      735
-    ]
+    "end": 735
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 735,
-    "end": 736,
-    "range": [
-      735,
-      736
-    ]
+    "end": 736
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 738,
-    "end": 743,
-    "range": [
-      738,
-      743
-    ]
+    "end": 743
   },
   {
     "type": "Identifier",
     "value": "RUNNING",
     "start": 744,
-    "end": 751,
-    "range": [
-      744,
-      751
-    ]
+    "end": 751
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 752,
-    "end": 753,
-    "range": [
-      752,
-      753
-    ]
+    "end": 753
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 754,
-    "end": 755,
-    "range": [
-      754,
-      755
-    ]
+    "end": 755
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 755,
-    "end": 756,
-    "range": [
-      755,
-      756
-    ]
+    "end": 756
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 758,
-    "end": 762,
-    "range": [
-      758,
-      762
-    ]
+    "end": 762
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 762,
-    "end": 763,
-    "range": [
-      762,
-      763
-    ]
+    "end": 763
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 763,
-    "end": 768,
-    "range": [
-      763,
-      768
-    ]
+    "end": 768
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 768,
-    "end": 769,
-    "range": [
-      768,
-      769
-    ]
+    "end": 769
   },
   {
     "type": "Identifier",
     "value": "start",
     "start": 769,
-    "end": 774,
-    "range": [
-      769,
-      774
-    ]
+    "end": 774
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 774,
-    "end": 775,
-    "range": [
-      774,
-      775
-    ]
+    "end": 775
   },
   {
     "type": "Template",
-    "value": "`\n  const valueOf = {\n    valueOf() {\n      return null;\n    }\n  };\n\n  const toPrimitive = {\n    [Symbol.toPrimitive]() {\n      return null;\n    }\n  };\n\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
-    "start": 775,
-    "end": 1037,
-    "range": [
-      775,
-      1037
-    ]
+    "value": "`\n  const valueOf = {\n    valueOf() {\n      return null;\n    }\n  };\n\n  const toPrimitive = {\n    [Symbol.toPrimitive]() {\n      return null;\n    }\n  };\n\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
   },
   {
     "type": "Identifier",
     "value": "RUNNING",
     "start": 1037,
-    "end": 1044,
-    "range": [
-      1037,
-      1044
-    ]
+    "end": 1044
   },
   {
     "type": "Template",
-    "value": "}, 1);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, null).value);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, valueOf).value);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, toPrimitive).value);\n    $262.agent.report(Atomics.waitAsync(i32a, 0, 0, null).value);\n    $262.agent.report(Atomics.waitAsync(i32a, 0, 0, valueOf).value);\n    $262.agent.report(Atomics.waitAsync(i32a, 0, 0, toPrimitive).value);\n    $262.agent.leaving();\n  });\n`",
-    "start": 1044,
-    "end": 1518,
-    "range": [
-      1044,
-      1518
-    ]
+    "value": "}, 1);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, null).value);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, valueOf).value);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, toPrimitive).value);\n    $262.agent.report(Atomics.waitAsync(i32a, 0, 0, null).value);\n    $262.agent.report(Atomics.waitAsync(i32a, 0, 0, valueOf).value);\n    $262.agent.report(Atomics.waitAsync(i32a, 0, 0, toPrimitive).value);\n    $262.agent.leaving();\n  });\n`"
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1518,
-    "end": 1519,
-    "range": [
-      1518,
-      1519
-    ]
+    "end": 1519
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1519,
-    "end": 1520,
-    "range": [
-      1519,
-      1520
-    ]
+    "end": 1520
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1522,
-    "end": 1527,
-    "range": [
-      1522,
-      1527
-    ]
+    "end": 1527
   },
   {
     "type": "Identifier",
     "value": "i32a",
     "start": 1528,
-    "end": 1532,
-    "range": [
-      1528,
-      1532
-    ]
+    "end": 1532
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1533,
-    "end": 1534,
-    "range": [
-      1533,
-      1534
-    ]
+    "end": 1534
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1535,
-    "end": 1538,
-    "range": [
-      1535,
-      1538
-    ]
+    "end": 1538
   },
   {
     "type": "Identifier",
     "value": "Int32Array",
     "start": 1539,
-    "end": 1549,
-    "range": [
-      1539,
-      1549
-    ]
+    "end": 1549
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1549,
-    "end": 1550,
-    "range": [
-      1549,
-      1550
-    ]
+    "end": 1550
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1553,
-    "end": 1556,
-    "range": [
-      1553,
-      1556
-    ]
+    "end": 1556
   },
   {
     "type": "Identifier",
     "value": "SharedArrayBuffer",
     "start": 1557,
-    "end": 1574,
-    "range": [
-      1557,
-      1574
-    ]
+    "end": 1574
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1574,
-    "end": 1575,
-    "range": [
-      1574,
-      1575
-    ]
+    "end": 1575
   },
   {
     "type": "Identifier",
     "value": "Int32Array",
     "start": 1575,
-    "end": 1585,
-    "range": [
-      1575,
-      1585
-    ]
+    "end": 1585
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1585,
-    "end": 1586,
-    "range": [
-      1585,
-      1586
-    ]
+    "end": 1586
   },
   {
     "type": "Identifier",
     "value": "BYTES_PER_ELEMENT",
     "start": 1586,
-    "end": 1603,
-    "range": [
-      1586,
-      1603
-    ]
+    "end": 1603
   },
   {
     "type": "Punctuator",
     "value": "*",
     "start": 1604,
-    "end": 1605,
-    "range": [
-      1604,
-      1605
-    ]
+    "end": 1605
   },
   {
     "type": "Numeric",
     "value": "4",
     "start": 1606,
-    "end": 1607,
-    "range": [
-      1606,
-      1607
-    ]
+    "end": 1607
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1607,
-    "end": 1608,
-    "range": [
-      1607,
-      1608
-    ]
+    "end": 1608
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1609,
-    "end": 1610,
-    "range": [
-      1609,
-      1610
-    ]
+    "end": 1610
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1610,
-    "end": 1611,
-    "range": [
-      1610,
-      1611
-    ]
+    "end": 1611
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 1613,
-    "end": 1617,
-    "range": [
-      1613,
-      1617
-    ]
+    "end": 1617
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1617,
-    "end": 1618,
-    "range": [
-      1617,
-      1618
-    ]
+    "end": 1618
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 1618,
-    "end": 1623,
-    "range": [
-      1618,
-      1623
-    ]
+    "end": 1623
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1623,
-    "end": 1624,
-    "range": [
-      1623,
-      1624
-    ]
+    "end": 1624
   },
   {
     "type": "Identifier",
     "value": "safeBroadcastAsync",
     "start": 1624,
-    "end": 1642,
-    "range": [
-      1624,
-      1642
-    ]
+    "end": 1642
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1642,
-    "end": 1643,
-    "range": [
-      1642,
-      1643
-    ]
+    "end": 1643
   },
   {
     "type": "Identifier",
     "value": "i32a",
     "start": 1643,
-    "end": 1647,
-    "range": [
-      1643,
-      1647
-    ]
+    "end": 1647
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1647,
-    "end": 1648,
-    "range": [
-      1647,
-      1648
-    ]
+    "end": 1648
   },
   {
     "type": "Identifier",
     "value": "RUNNING",
     "start": 1649,
-    "end": 1656,
-    "range": [
-      1649,
-      1656
-    ]
+    "end": 1656
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1656,
-    "end": 1657,
-    "range": [
-      1656,
-      1657
-    ]
+    "end": 1657
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 1658,
-    "end": 1659,
-    "range": [
-      1658,
-      1659
-    ]
+    "end": 1659
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1659,
-    "end": 1660,
-    "range": [
-      1659,
-      1660
-    ]
+    "end": 1660
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1660,
-    "end": 1661,
-    "range": [
-      1660,
-      1661
-    ]
+    "end": 1661
   },
   {
     "type": "Identifier",
     "value": "then",
     "start": 1661,
-    "end": 1665,
-    "range": [
-      1661,
-      1665
-    ]
+    "end": 1665
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1665,
-    "end": 1666,
-    "range": [
-      1665,
-      1666
-    ]
+    "end": 1666
   },
   {
     "type": "Identifier",
     "value": "async",
     "start": 1666,
-    "end": 1671,
-    "range": [
-      1666,
-      1671
-    ]
+    "end": 1671
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1672,
-    "end": 1673,
-    "range": [
-      1672,
-      1673
-    ]
+    "end": 1673
   },
   {
     "type": "Identifier",
     "value": "agentCount",
     "start": 1673,
-    "end": 1683,
-    "range": [
-      1673,
-      1683
-    ]
+    "end": 1683
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1683,
-    "end": 1684,
-    "range": [
-      1683,
-      1684
-    ]
+    "end": 1684
   },
   {
     "type": "Punctuator",
     "value": "=>",
     "start": 1685,
-    "end": 1687,
-    "range": [
-      1685,
-      1687
-    ]
+    "end": 1687
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 1688,
-    "end": 1689,
-    "range": [
-      1688,
-      1689
-    ]
+    "end": 1689
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1692,
-    "end": 1698,
-    "range": [
-      1692,
-      1698
-    ]
+    "end": 1698
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1698,
-    "end": 1699,
-    "range": [
-      1698,
-      1699
-    ]
+    "end": 1699
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1699,
-    "end": 1708,
-    "range": [
-      1699,
-      1708
-    ]
+    "end": 1708
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1708,
-    "end": 1709,
-    "range": [
-      1708,
-      1709
-    ]
+    "end": 1709
   },
   {
     "type": "Identifier",
     "value": "agentCount",
     "start": 1709,
-    "end": 1719,
-    "range": [
-      1709,
-      1719
-    ]
+    "end": 1719
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1719,
-    "end": 1720,
-    "range": [
-      1719,
-      1720
-    ]
+    "end": 1720
   },
   {
     "type": "Numeric",
     "value": "1",
     "start": 1721,
-    "end": 1722,
-    "range": [
-      1721,
-      1722
-    ]
+    "end": 1722
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1722,
-    "end": 1723,
-    "range": [
-      1722,
-      1723
-    ]
+    "end": 1723
   },
   {
     "type": "String",
     "value": "'The value of `agentCount` is 1'",
     "start": 1724,
-    "end": 1756,
-    "range": [
-      1724,
-      1756
-    ]
+    "end": 1756
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1756,
-    "end": 1757,
-    "range": [
-      1756,
-      1757
-    ]
+    "end": 1757
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1757,
-    "end": 1758,
-    "range": [
-      1757,
-      1758
-    ]
+    "end": 1758
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1762,
-    "end": 1768,
-    "range": [
-      1762,
-      1768
-    ]
+    "end": 1768
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1768,
-    "end": 1769,
-    "range": [
-      1768,
-      1769
-    ]
+    "end": 1769
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1769,
-    "end": 1778,
-    "range": [
-      1769,
-      1778
-    ]
+    "end": 1778
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1778,
-    "end": 1779,
-    "range": [
-      1778,
-      1779
-    ]
+    "end": 1779
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1784,
-    "end": 1789,
-    "range": [
-      1784,
-      1789
-    ]
+    "end": 1789
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 1790,
-    "end": 1794,
-    "range": [
-      1790,
-      1794
-    ]
+    "end": 1794
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1794,
-    "end": 1795,
-    "range": [
-      1794,
-      1795
-    ]
+    "end": 1795
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 1795,
-    "end": 1800,
-    "range": [
-      1795,
-      1800
-    ]
+    "end": 1800
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1800,
-    "end": 1801,
-    "range": [
-      1800,
-      1801
-    ]
+    "end": 1801
   },
   {
     "type": "Identifier",
     "value": "getReportAsync",
     "start": 1801,
-    "end": 1815,
-    "range": [
-      1801,
-      1815
-    ]
+    "end": 1815
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1815,
-    "end": 1816,
-    "range": [
-      1815,
-      1816
-    ]
+    "end": 1816
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1816,
-    "end": 1817,
-    "range": [
-      1816,
-      1817
-    ]
+    "end": 1817
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1817,
-    "end": 1818,
-    "range": [
-      1817,
-      1818
-    ]
+    "end": 1818
   },
   {
     "type": "String",
     "value": "'timed-out'",
     "start": 1823,
-    "end": 1834,
-    "range": [
-      1823,
-      1834
-    ]
+    "end": 1834
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1834,
-    "end": 1835,
-    "range": [
-      1834,
-      1835
-    ]
+    "end": 1835
   },
   {
     "type": "String",
     "value": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
     "start": 1840,
-    "end": 1911,
-    "range": [
-      1840,
-      1911
-    ]
+    "end": 1911
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1914,
-    "end": 1915,
-    "range": [
-      1914,
-      1915
-    ]
+    "end": 1915
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1915,
-    "end": 1916,
-    "range": [
-      1915,
-      1916
-    ]
+    "end": 1916
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1919,
-    "end": 1925,
-    "range": [
-      1919,
-      1925
-    ]
+    "end": 1925
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1925,
-    "end": 1926,
-    "range": [
-      1925,
-      1926
-    ]
+    "end": 1926
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1926,
-    "end": 1935,
-    "range": [
-      1926,
-      1935
-    ]
+    "end": 1935
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1935,
-    "end": 1936,
-    "range": [
-      1935,
-      1936
-    ]
+    "end": 1936
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1941,
-    "end": 1946,
-    "range": [
-      1941,
-      1946
-    ]
+    "end": 1946
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 1947,
-    "end": 1951,
-    "range": [
-      1947,
-      1951
-    ]
+    "end": 1951
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1951,
-    "end": 1952,
-    "range": [
-      1951,
-      1952
-    ]
+    "end": 1952
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 1952,
-    "end": 1957,
-    "range": [
-      1952,
-      1957
-    ]
+    "end": 1957
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1957,
-    "end": 1958,
-    "range": [
-      1957,
-      1958
-    ]
+    "end": 1958
   },
   {
     "type": "Identifier",
     "value": "getReportAsync",
     "start": 1958,
-    "end": 1972,
-    "range": [
-      1958,
-      1972
-    ]
+    "end": 1972
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1972,
-    "end": 1973,
-    "range": [
-      1972,
-      1973
-    ]
+    "end": 1973
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1973,
-    "end": 1974,
-    "range": [
-      1973,
-      1974
-    ]
+    "end": 1974
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1974,
-    "end": 1975,
-    "range": [
-      1974,
-      1975
-    ]
+    "end": 1975
   },
   {
     "type": "String",
     "value": "'timed-out'",
     "start": 1980,
-    "end": 1991,
-    "range": [
-      1980,
-      1991
-    ]
+    "end": 1991
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1991,
-    "end": 1992,
-    "range": [
-      1991,
-      1992
-    ]
+    "end": 1992
   },
   {
     "type": "String",
     "value": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
     "start": 1997,
-    "end": 2068,
-    "range": [
-      1997,
-      2068
-    ]
+    "end": 2068
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2071,
-    "end": 2072,
-    "range": [
-      2071,
-      2072
-    ]
+    "end": 2072
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2072,
-    "end": 2073,
-    "range": [
-      2072,
-      2073
-    ]
+    "end": 2073
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2076,
-    "end": 2082,
-    "range": [
-      2076,
-      2082
-    ]
+    "end": 2082
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2082,
-    "end": 2083,
-    "range": [
-      2082,
-      2083
-    ]
+    "end": 2083
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2083,
-    "end": 2092,
-    "range": [
-      2083,
-      2092
-    ]
+    "end": 2092
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2092,
-    "end": 2093,
-    "range": [
-      2092,
-      2093
-    ]
+    "end": 2093
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 2098,
-    "end": 2103,
-    "range": [
-      2098,
-      2103
-    ]
+    "end": 2103
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 2104,
-    "end": 2108,
-    "range": [
-      2104,
-      2108
-    ]
+    "end": 2108
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2108,
-    "end": 2109,
-    "range": [
-      2108,
-      2109
-    ]
+    "end": 2109
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 2109,
-    "end": 2114,
-    "range": [
-      2109,
-      2114
-    ]
+    "end": 2114
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2114,
-    "end": 2115,
-    "range": [
-      2114,
-      2115
-    ]
+    "end": 2115
   },
   {
     "type": "Identifier",
     "value": "getReportAsync",
     "start": 2115,
-    "end": 2129,
-    "range": [
-      2115,
-      2129
-    ]
+    "end": 2129
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2129,
-    "end": 2130,
-    "range": [
-      2129,
-      2130
-    ]
+    "end": 2130
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2130,
-    "end": 2131,
-    "range": [
-      2130,
-      2131
-    ]
+    "end": 2131
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2131,
-    "end": 2132,
-    "range": [
-      2131,
-      2132
-    ]
+    "end": 2132
   },
   {
     "type": "String",
     "value": "'timed-out'",
     "start": 2137,
-    "end": 2148,
-    "range": [
-      2137,
-      2148
-    ]
+    "end": 2148
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2148,
-    "end": 2149,
-    "range": [
-      2148,
-      2149
-    ]
+    "end": 2149
   },
   {
     "type": "String",
     "value": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
     "start": 2154,
-    "end": 2225,
-    "range": [
-      2154,
-      2225
-    ]
+    "end": 2225
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2228,
-    "end": 2229,
-    "range": [
-      2228,
-      2229
-    ]
+    "end": 2229
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2229,
-    "end": 2230,
-    "range": [
-      2229,
-      2230
-    ]
+    "end": 2230
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2233,
-    "end": 2239,
-    "range": [
-      2233,
-      2239
-    ]
+    "end": 2239
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2239,
-    "end": 2240,
-    "range": [
-      2239,
-      2240
-    ]
+    "end": 2240
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2240,
-    "end": 2249,
-    "range": [
-      2240,
-      2249
-    ]
+    "end": 2249
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2249,
-    "end": 2250,
-    "range": [
-      2249,
-      2250
-    ]
+    "end": 2250
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 2255,
-    "end": 2260,
-    "range": [
-      2255,
-      2260
-    ]
+    "end": 2260
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 2261,
-    "end": 2265,
-    "range": [
-      2261,
-      2265
-    ]
+    "end": 2265
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2265,
-    "end": 2266,
-    "range": [
-      2265,
-      2266
-    ]
+    "end": 2266
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 2266,
-    "end": 2271,
-    "range": [
-      2266,
-      2271
-    ]
+    "end": 2271
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2271,
-    "end": 2272,
-    "range": [
-      2271,
-      2272
-    ]
+    "end": 2272
   },
   {
     "type": "Identifier",
     "value": "getReportAsync",
     "start": 2272,
-    "end": 2286,
-    "range": [
-      2272,
-      2286
-    ]
+    "end": 2286
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2286,
-    "end": 2287,
-    "range": [
-      2286,
-      2287
-    ]
+    "end": 2287
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2287,
-    "end": 2288,
-    "range": [
-      2287,
-      2288
-    ]
+    "end": 2288
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2288,
-    "end": 2289,
-    "range": [
-      2288,
-      2289
-    ]
+    "end": 2289
   },
   {
     "type": "String",
     "value": "'timed-out'",
     "start": 2294,
-    "end": 2305,
-    "range": [
-      2294,
-      2305
-    ]
+    "end": 2305
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2305,
-    "end": 2306,
-    "range": [
-      2305,
-      2306
-    ]
+    "end": 2306
   },
   {
     "type": "String",
     "value": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
     "start": 2311,
-    "end": 2382,
-    "range": [
-      2311,
-      2382
-    ]
+    "end": 2382
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2385,
-    "end": 2386,
-    "range": [
-      2385,
-      2386
-    ]
+    "end": 2386
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2386,
-    "end": 2387,
-    "range": [
-      2386,
-      2387
-    ]
+    "end": 2387
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2390,
-    "end": 2396,
-    "range": [
-      2390,
-      2396
-    ]
+    "end": 2396
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2396,
-    "end": 2397,
-    "range": [
-      2396,
-      2397
-    ]
+    "end": 2397
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2397,
-    "end": 2406,
-    "range": [
-      2397,
-      2406
-    ]
+    "end": 2406
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2406,
-    "end": 2407,
-    "range": [
-      2406,
-      2407
-    ]
+    "end": 2407
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 2412,
-    "end": 2417,
-    "range": [
-      2412,
-      2417
-    ]
+    "end": 2417
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 2418,
-    "end": 2422,
-    "range": [
-      2418,
-      2422
-    ]
+    "end": 2422
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2422,
-    "end": 2423,
-    "range": [
-      2422,
-      2423
-    ]
+    "end": 2423
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 2423,
-    "end": 2428,
-    "range": [
-      2423,
-      2428
-    ]
+    "end": 2428
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2428,
-    "end": 2429,
-    "range": [
-      2428,
-      2429
-    ]
+    "end": 2429
   },
   {
     "type": "Identifier",
     "value": "getReportAsync",
     "start": 2429,
-    "end": 2443,
-    "range": [
-      2429,
-      2443
-    ]
+    "end": 2443
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2443,
-    "end": 2444,
-    "range": [
-      2443,
-      2444
-    ]
+    "end": 2444
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2444,
-    "end": 2445,
-    "range": [
-      2444,
-      2445
-    ]
+    "end": 2445
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2445,
-    "end": 2446,
-    "range": [
-      2445,
-      2446
-    ]
+    "end": 2446
   },
   {
     "type": "String",
     "value": "'timed-out'",
     "start": 2451,
-    "end": 2462,
-    "range": [
-      2451,
-      2462
-    ]
+    "end": 2462
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2462,
-    "end": 2463,
-    "range": [
-      2462,
-      2463
-    ]
+    "end": 2463
   },
   {
     "type": "String",
     "value": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
     "start": 2468,
-    "end": 2539,
-    "range": [
-      2468,
-      2539
-    ]
+    "end": 2539
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2542,
-    "end": 2543,
-    "range": [
-      2542,
-      2543
-    ]
+    "end": 2543
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2543,
-    "end": 2544,
-    "range": [
-      2543,
-      2544
-    ]
+    "end": 2544
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2547,
-    "end": 2553,
-    "range": [
-      2547,
-      2553
-    ]
+    "end": 2553
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2553,
-    "end": 2554,
-    "range": [
-      2553,
-      2554
-    ]
+    "end": 2554
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2554,
-    "end": 2563,
-    "range": [
-      2554,
-      2563
-    ]
+    "end": 2563
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2563,
-    "end": 2564,
-    "range": [
-      2563,
-      2564
-    ]
+    "end": 2564
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 2569,
-    "end": 2574,
-    "range": [
-      2569,
-      2574
-    ]
+    "end": 2574
   },
   {
     "type": "Identifier",
     "value": "$262",
     "start": 2575,
-    "end": 2579,
-    "range": [
-      2575,
-      2579
-    ]
+    "end": 2579
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2579,
-    "end": 2580,
-    "range": [
-      2579,
-      2580
-    ]
+    "end": 2580
   },
   {
     "type": "Identifier",
     "value": "agent",
     "start": 2580,
-    "end": 2585,
-    "range": [
-      2580,
-      2585
-    ]
+    "end": 2585
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2585,
-    "end": 2586,
-    "range": [
-      2585,
-      2586
-    ]
+    "end": 2586
   },
   {
     "type": "Identifier",
     "value": "getReportAsync",
     "start": 2586,
-    "end": 2600,
-    "range": [
-      2586,
-      2600
-    ]
+    "end": 2600
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2600,
-    "end": 2601,
-    "range": [
-      2600,
-      2601
-    ]
+    "end": 2601
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2601,
-    "end": 2602,
-    "range": [
-      2601,
-      2602
-    ]
+    "end": 2602
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2602,
-    "end": 2603,
-    "range": [
-      2602,
-      2603
-    ]
+    "end": 2603
   },
   {
     "type": "String",
     "value": "'timed-out'",
     "start": 2608,
-    "end": 2619,
-    "range": [
-      2608,
-      2619
-    ]
+    "end": 2619
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2619,
-    "end": 2620,
-    "range": [
-      2619,
-      2620
-    ]
+    "end": 2620
   },
   {
     "type": "String",
     "value": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
     "start": 2625,
-    "end": 2696,
-    "range": [
-      2625,
-      2696
-    ]
+    "end": 2696
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2699,
-    "end": 2700,
-    "range": [
-      2699,
-      2700
-    ]
+    "end": 2700
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2700,
-    "end": 2701,
-    "range": [
-      2700,
-      2701
-    ]
+    "end": 2701
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2705,
-    "end": 2711,
-    "range": [
-      2705,
-      2711
-    ]
+    "end": 2711
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2711,
-    "end": 2712,
-    "range": [
-      2711,
-      2712
-    ]
+    "end": 2712
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2712,
-    "end": 2721,
-    "range": [
-      2712,
-      2721
-    ]
+    "end": 2721
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2721,
-    "end": 2722,
-    "range": [
-      2721,
-      2722
-    ]
+    "end": 2722
   },
   {
     "type": "Identifier",
     "value": "Atomics",
     "start": 2722,
-    "end": 2729,
-    "range": [
-      2722,
-      2729
-    ]
+    "end": 2729
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2729,
-    "end": 2730,
-    "range": [
-      2729,
-      2730
-    ]
+    "end": 2730
   },
   {
     "type": "Identifier",
     "value": "notify",
     "start": 2730,
-    "end": 2736,
-    "range": [
-      2730,
-      2736
-    ]
+    "end": 2736
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2736,
-    "end": 2737,
-    "range": [
-      2736,
-      2737
-    ]
+    "end": 2737
   },
   {
     "type": "Identifier",
     "value": "i32a",
     "start": 2737,
-    "end": 2741,
-    "range": [
-      2737,
-      2741
-    ]
+    "end": 2741
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2741,
-    "end": 2742,
-    "range": [
-      2741,
-      2742
-    ]
+    "end": 2742
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 2743,
-    "end": 2744,
-    "range": [
-      2743,
-      2744
-    ]
+    "end": 2744
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2744,
-    "end": 2745,
-    "range": [
-      2744,
-      2745
-    ]
+    "end": 2745
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2745,
-    "end": 2746,
-    "range": [
-      2745,
-      2746
-    ]
+    "end": 2746
   },
   {
     "type": "Numeric",
     "value": "0",
     "start": 2747,
-    "end": 2748,
-    "range": [
-      2747,
-      2748
-    ]
+    "end": 2748
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2748,
-    "end": 2749,
-    "range": [
-      2748,
-      2749
-    ]
+    "end": 2749
   },
   {
     "type": "String",
     "value": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'",
     "start": 2750,
-    "end": 2856,
-    "range": [
-      2750,
-      2856
-    ]
+    "end": 2856
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2856,
-    "end": 2857,
-    "range": [
-      2856,
-      2857
-    ]
+    "end": 2857
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2857,
-    "end": 2858,
-    "range": [
-      2857,
-      2858
-    ]
+    "end": 2858
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 2860,
-    "end": 2861,
-    "range": [
-      2860,
-      2861
-    ]
+    "end": 2861
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2861,
-    "end": 2862,
-    "range": [
-      2861,
-      2862
-    ]
+    "end": 2862
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2862,
-    "end": 2863,
-    "range": [
-      2862,
-      2863
-    ]
+    "end": 2863
   },
   {
     "type": "Identifier",
     "value": "then",
     "start": 2863,
-    "end": 2867,
-    "range": [
-      2863,
-      2867
-    ]
+    "end": 2867
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2867,
-    "end": 2868,
-    "range": [
-      2867,
-      2868
-    ]
+    "end": 2868
   },
   {
     "type": "Identifier",
     "value": "$DONE",
     "start": 2868,
-    "end": 2873,
-    "range": [
-      2868,
-      2873
-    ]
+    "end": 2873
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2873,
-    "end": 2874,
-    "range": [
-      2873,
-      2874
-    ]
+    "end": 2874
   },
   {
     "type": "Identifier",
     "value": "$DONE",
     "start": 2875,
-    "end": 2880,
-    "range": [
-      2875,
-      2880
-    ]
+    "end": 2880
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2880,
-    "end": 2881,
-    "range": [
-      2880,
-      2881
-    ]
+    "end": 2881
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2881,
-    "end": 2882,
-    "range": [
-      2881,
-      2882
-    ]
+    "end": 2882
   }
 ]

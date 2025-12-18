@@ -32,11 +32,7 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "let",
     "start": 0,
-    "end": 3,
-    "range": [
-      0,
-      3
-    ]
+    "end": 3
   }
 ]
 ```

@@ -3,21 +3,13 @@
     "type": "Keyword",
     "value": "void",
     "start": 1135,
-    "end": 1139,
-    "range": [
-      1135,
-      1139
-    ]
+    "end": 1139
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1140,
-    "end": 1145,
-    "range": [
-      1140,
-      1145
-    ]
+    "end": 1145
   },
   {
     "type": "RegularExpression",
@@ -27,20 +19,12 @@
       "pattern": "1"
     },
     "start": 1146,
-    "end": 1149,
-    "range": [
-      1146,
-      1149
-    ]
+    "end": 1149
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1149,
-    "end": 1150,
-    "range": [
-      1149,
-      1150
-    ]
+    "end": 1150
   }
 ]

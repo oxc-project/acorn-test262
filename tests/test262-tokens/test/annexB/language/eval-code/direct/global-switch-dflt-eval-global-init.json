@@ -3,110 +3,66 @@
     "type": "Identifier",
     "value": "eval",
     "start": 709,
-    "end": 713,
-    "range": [
-      709,
-      713
-    ]
+    "end": 713
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 713,
-    "end": 714,
-    "range": [
-      713,
-      714
-    ]
+    "end": 714
   },
   {
     "type": "String",
     "value": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });switch (1) {'",
     "start": 717,
-    "end": 949,
-    "range": [
-      717,
-      949
-    ]
+    "end": 949
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 950,
-    "end": 951,
-    "range": [
-      950,
-      951
-    ]
+    "end": 951
   },
   {
     "type": "String",
     "value": "'  default:'",
     "start": 954,
-    "end": 966,
-    "range": [
-      954,
-      966
-    ]
+    "end": 966
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 967,
-    "end": 968,
-    "range": [
-      967,
-      968
-    ]
+    "end": 968
   },
   {
     "type": "String",
     "value": "'    function f() {  }'",
     "start": 971,
-    "end": 994,
-    "range": [
-      971,
-      994
-    ]
+    "end": 994
   },
   {
     "type": "Punctuator",
     "value": "+",
     "start": 995,
-    "end": 996,
-    "range": [
-      995,
-      996
-    ]
+    "end": 996
   },
   {
     "type": "String",
     "value": "'}\\\n  '",
     "start": 999,
-    "end": 1006,
-    "range": [
-      999,
-      1006
-    ]
+    "end": 1006
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1007,
-    "end": 1008,
-    "range": [
-      1007,
-      1008
-    ]
+    "end": 1008
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1008,
-    "end": 1009,
-    "range": [
-      1008,
-      1009
-    ]
+    "end": 1009
   }
 ]

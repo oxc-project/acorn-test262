@@ -69,41 +69,25 @@ __ESTREE_TEST__:TOKENS:
     "type": "Numeric",
     "value": "1_000_000_000_000",
     "start": 0,
-    "end": 17,
-    "range": [
-      0,
-      17
-    ]
+    "end": 17
   },
   {
     "type": "Numeric",
     "value": "0b1010_0001_1000_0101",
     "start": 18,
-    "end": 39,
-    "range": [
-      18,
-      39
-    ]
+    "end": 39
   },
   {
     "type": "Numeric",
     "value": "0b1010_0001_1000_0101",
     "start": 40,
-    "end": 61,
-    "range": [
-      40,
-      61
-    ]
+    "end": 61
   },
   {
     "type": "Numeric",
     "value": "0xA0_B0_C0",
     "start": 62,
-    "end": 72,
-    "range": [
-      62,
-      72
-    ]
+    "end": 72
   }
 ]
 ```

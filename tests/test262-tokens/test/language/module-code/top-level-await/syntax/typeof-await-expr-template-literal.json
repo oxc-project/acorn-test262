@@ -3,40 +3,22 @@
     "type": "Keyword",
     "value": "typeof",
     "start": 1140,
-    "end": 1146,
-    "range": [
-      1140,
-      1146
-    ]
+    "end": 1146
   },
   {
     "type": "Identifier",
     "value": "await",
     "start": 1147,
-    "end": 1152,
-    "range": [
-      1147,
-      1152
-    ]
+    "end": 1152
   },
   {
     "type": "Template",
-    "value": "``",
-    "start": 1153,
-    "end": 1155,
-    "range": [
-      1153,
-      1155
-    ]
+    "value": "``"
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1155,
-    "end": 1156,
-    "range": [
-      1155,
-      1156
-    ]
+    "end": 1156
   }
 ]

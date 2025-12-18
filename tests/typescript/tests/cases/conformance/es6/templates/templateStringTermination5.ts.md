@@ -41,11 +41,7 @@ __ESTREE_TEST__:TOKENS:
     "type": "Template",
     "value": "`\\\\\\\\\\\\`",
     "start": 0,
-    "end": 8,
-    "range": [
-      0,
-      8
-    ]
+    "end": 8
   }
 ]
 ```

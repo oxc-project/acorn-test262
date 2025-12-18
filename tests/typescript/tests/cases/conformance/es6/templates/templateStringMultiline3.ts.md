@@ -41,11 +41,7 @@ __ESTREE_TEST__:TOKENS:
     "type": "Template",
     "value": "`\r\\\r`",
     "start": 23,
-    "end": 28,
-    "range": [
-      23,
-      28
-    ]
+    "end": 28
   }
 ]
 ```

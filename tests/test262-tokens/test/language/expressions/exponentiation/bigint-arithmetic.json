@@ -3,3250 +3,1950 @@
     "type": "Identifier",
     "value": "assert",
     "start": 276,
-    "end": 282,
-    "range": [
-      276,
-      282
-    ]
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 282,
-    "end": 283,
-    "range": [
-      282,
-      283
-    ]
+    "end": 283
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 283,
-    "end": 292,
-    "range": [
-      283,
-      292
-    ]
+    "end": 292
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 292,
-    "end": 293,
-    "range": [
-      292,
-      293
-    ]
+    "end": 293
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 296,
-    "end": 302,
-    "range": [
-      296,
-      302
-    ]
+    "end": 302
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 303,
-    "end": 305,
-    "range": [
-      303,
-      305
-    ]
+    "end": 305
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 306,
-    "end": 312,
-    "range": [
-      306,
-      312
-    ]
+    "end": 312
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 312,
-    "end": 313,
-    "range": [
-      312,
-      313
-    ]
+    "end": 313
   },
   {
     "type": "Numeric",
     "value": "0x37AA7FAA38F2F6026AABEFE979EA730BA9EA4CB99E2E3F645D515D3BBE2D84BCD89F8A034BADF3E3DC0CF417258371B31F4555DC0883DA96760AB157DB7DFFF5E3E97A3EAAB8328B2B178060B5A5E4C4DD8BC8D66B7F4D9F0E0B1AC3A566FDE0A15EBF8DBDBD0565C5FBDB7C123CF250E271DF5C38BC6746A1327F09C7FB4B96E0EDA45C429799CA80B1DB039692C70DFFE4E66F1D9CAB4270863B09A7918F774D686F685F560FEDC6B7B85CB45DE5EEEF6A5FE2FC8B5037FB421204641909347C91F2DC252F49B8F310E867E56D1CA2E81EE9A3AA568682C7B8B41D709A2E7F8D9A8D8C56D6BE78B6CA8365E362B81A64974C315FB8FA50CED4F7944F28FA3ECA77B8BCB56DC69814328F891E6065D108EEE7B8E695038090CCA10C0E68DD7A36CFAA1C26CDFEC369FBn",
     "start": 316,
-    "end": 915,
-    "range": [
-      316,
-      915
-    ]
+    "end": 915
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 915,
-    "end": 916,
-    "range": [
-      915,
-      916
-    ]
+    "end": 916
   },
   {
     "type": "String",
     "value": "'The result of (0x123n ** 0x123n) is 0x37AA7FAA38F2F6026AABEFE979EA730BA9EA4CB99E2E3F645D515D3BBE2D84BCD89F8A034BADF3E3DC0CF417258371B31F4555DC0883DA96760AB157DB7DFFF5E3E97A3EAAB8328B2B178060B5A5E4C4DD8BC8D66B7F4D9F0E0B1AC3A566FDE0A15EBF8DBDBD0565C5FBDB7C123CF250E271DF5C38BC6746A1327F09C7FB4B96E0EDA45C429799CA80B1DB039692C70DFFE4E66F1D9CAB4270863B09A7918F774D686F685F560FEDC6B7B85CB45DE5EEEF6A5FE2FC8B5037FB421204641909347C91F2DC252F49B8F310E867E56D1CA2E81EE9A3AA568682C7B8B41D709A2E7F8D9A8D8C56D6BE78B6CA8365E362B81A64974C315FB8FA50CED4F7944F28FA3ECA77B8BCB56DC69814328F891E6065D108EEE7B8E695038090CCA10C0E68DD7A36CFAA1C26CDFEC369FBn'",
     "start": 919,
-    "end": 1556,
-    "range": [
-      919,
-      1556
-    ]
+    "end": 1556
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1557,
-    "end": 1558,
-    "range": [
-      1557,
-      1558
-    ]
+    "end": 1558
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1558,
-    "end": 1559,
-    "range": [
-      1558,
-      1559
-    ]
+    "end": 1559
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1561,
-    "end": 1567,
-    "range": [
-      1561,
-      1567
-    ]
+    "end": 1567
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1567,
-    "end": 1568,
-    "range": [
-      1567,
-      1568
-    ]
+    "end": 1568
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1568,
-    "end": 1577,
-    "range": [
-      1568,
-      1577
-    ]
+    "end": 1577
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1577,
-    "end": 1578,
-    "range": [
-      1577,
-      1578
-    ]
+    "end": 1578
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 1581,
-    "end": 1587,
-    "range": [
-      1581,
-      1587
-    ]
+    "end": 1587
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 1588,
-    "end": 1590,
-    "range": [
-      1588,
-      1590
-    ]
+    "end": 1590
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 1591,
-    "end": 1596,
-    "range": [
-      1591,
-      1596
-    ]
+    "end": 1596
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1596,
-    "end": 1597,
-    "range": [
-      1596,
-      1597
-    ]
+    "end": 1597
   },
   {
     "type": "Numeric",
     "value": "0x8D5BB75861377EC967BF78FDF39CE51696FBD34722999943F8865938772B517167CD5ED775A78987F5106831F4978E0709032B26ED8F13F814699DB8AB3ACD5CF631F2D8B8B706FCF5EF441AAEE745A795EC5CB86A5E8D87D09F648EFC557B98F73E750FEC9AED061D47806F269CCCDFB6D513912A82AE79B171D76AF6D926BC4F4C4DA43A6EFB4D9D1672E356CC1F74A29AF80D53A8F27592F6191AB9B3D57FA2C435CB2CE8F18A3B3448F88F4BAD3606A9878DA9528B569BADAC0C1EC0B1A2B06CD4C64DEEC940807DFD05C56E3E17ADB1A88EDAF0D67C87C1F871BFB5C47CAE8365FE33538317EE2DF4EE52636CE1BDA9E41C7DA72826E4C097A53BD73D8D697E10D28Bn",
     "start": 1600,
-    "end": 2125,
-    "range": [
-      1600,
-      2125
-    ]
+    "end": 2125
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2125,
-    "end": 2126,
-    "range": [
-      2125,
-      2126
-    ]
+    "end": 2126
   },
   {
     "type": "String",
     "value": "'The result of (0x123n ** 0xFFn) is 0x8D5BB75861377EC967BF78FDF39CE51696FBD34722999943F8865938772B517167CD5ED775A78987F5106831F4978E0709032B26ED8F13F814699DB8AB3ACD5CF631F2D8B8B706FCF5EF441AAEE745A795EC5CB86A5E8D87D09F648EFC557B98F73E750FEC9AED061D47806F269CCCDFB6D513912A82AE79B171D76AF6D926BC4F4C4DA43A6EFB4D9D1672E356CC1F74A29AF80D53A8F27592F6191AB9B3D57FA2C435CB2CE8F18A3B3448F88F4BAD3606A9878DA9528B569BADAC0C1EC0B1A2B06CD4C64DEEC940807DFD05C56E3E17ADB1A88EDAF0D67C87C1F871BFB5C47CAE8365FE33538317EE2DF4EE52636CE1BDA9E41C7DA72826E4C097A53BD73D8D697E10D28Bn'",
     "start": 2129,
-    "end": 2691,
-    "range": [
-      2129,
-      2691
-    ]
+    "end": 2691
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2692,
-    "end": 2693,
-    "range": [
-      2692,
-      2693
-    ]
+    "end": 2693
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2693,
-    "end": 2694,
-    "range": [
-      2693,
-      2694
-    ]
+    "end": 2694
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2696,
-    "end": 2702,
-    "range": [
-      2696,
-      2702
-    ]
+    "end": 2702
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2702,
-    "end": 2703,
-    "range": [
-      2702,
-      2703
-    ]
+    "end": 2703
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2703,
-    "end": 2712,
-    "range": [
-      2703,
-      2712
-    ]
+    "end": 2712
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2712,
-    "end": 2713,
-    "range": [
-      2712,
-      2713
-    ]
+    "end": 2713
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 2713,
-    "end": 2719,
-    "range": [
-      2713,
-      2719
-    ]
+    "end": 2719
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 2720,
-    "end": 2722,
-    "range": [
-      2720,
-      2722
-    ]
+    "end": 2722
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 2723,
-    "end": 2727,
-    "range": [
-      2723,
-      2727
-    ]
+    "end": 2727
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2727,
-    "end": 2728,
-    "range": [
-      2727,
-      2728
-    ]
+    "end": 2728
   },
   {
     "type": "Numeric",
     "value": "0x178027Bn",
     "start": 2729,
-    "end": 2739,
-    "range": [
-      2729,
-      2739
-    ]
+    "end": 2739
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2739,
-    "end": 2740,
-    "range": [
-      2739,
-      2740
-    ]
+    "end": 2740
   },
   {
     "type": "String",
     "value": "'The result of (0x123n ** 0x3n) is 0x178027Bn'",
     "start": 2741,
-    "end": 2787,
-    "range": [
-      2741,
-      2787
-    ]
+    "end": 2787
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2787,
-    "end": 2788,
-    "range": [
-      2787,
-      2788
-    ]
+    "end": 2788
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2788,
-    "end": 2789,
-    "range": [
-      2788,
-      2789
-    ]
+    "end": 2789
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2790,
-    "end": 2796,
-    "range": [
-      2790,
-      2796
-    ]
+    "end": 2796
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2796,
-    "end": 2797,
-    "range": [
-      2796,
-      2797
-    ]
+    "end": 2797
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2797,
-    "end": 2806,
-    "range": [
-      2797,
-      2806
-    ]
+    "end": 2806
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2806,
-    "end": 2807,
-    "range": [
-      2806,
-      2807
-    ]
+    "end": 2807
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 2807,
-    "end": 2813,
-    "range": [
-      2807,
-      2813
-    ]
+    "end": 2813
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 2814,
-    "end": 2816,
-    "range": [
-      2814,
-      2816
-    ]
+    "end": 2816
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 2817,
-    "end": 2821,
-    "range": [
-      2817,
-      2821
-    ]
+    "end": 2821
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2821,
-    "end": 2822,
-    "range": [
-      2821,
-      2822
-    ]
+    "end": 2822
   },
   {
     "type": "Numeric",
     "value": "0x14AC9n",
     "start": 2823,
-    "end": 2831,
-    "range": [
-      2823,
-      2831
-    ]
+    "end": 2831
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2831,
-    "end": 2832,
-    "range": [
-      2831,
-      2832
-    ]
+    "end": 2832
   },
   {
     "type": "String",
     "value": "'The result of (0x123n ** 0x2n) is 0x14AC9n'",
     "start": 2833,
-    "end": 2877,
-    "range": [
-      2833,
-      2877
-    ]
+    "end": 2877
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2877,
-    "end": 2878,
-    "range": [
-      2877,
-      2878
-    ]
+    "end": 2878
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2878,
-    "end": 2879,
-    "range": [
-      2878,
-      2879
-    ]
+    "end": 2879
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2880,
-    "end": 2886,
-    "range": [
-      2880,
-      2886
-    ]
+    "end": 2886
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2886,
-    "end": 2887,
-    "range": [
-      2886,
-      2887
-    ]
+    "end": 2887
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2887,
-    "end": 2896,
-    "range": [
-      2887,
-      2896
-    ]
+    "end": 2896
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2896,
-    "end": 2897,
-    "range": [
-      2896,
-      2897
-    ]
+    "end": 2897
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 2897,
-    "end": 2903,
-    "range": [
-      2897,
-      2903
-    ]
+    "end": 2903
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 2904,
-    "end": 2906,
-    "range": [
-      2904,
-      2906
-    ]
+    "end": 2906
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 2907,
-    "end": 2911,
-    "range": [
-      2907,
-      2911
-    ]
+    "end": 2911
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2911,
-    "end": 2912,
-    "range": [
-      2911,
-      2912
-    ]
+    "end": 2912
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 2913,
-    "end": 2919,
-    "range": [
-      2913,
-      2919
-    ]
+    "end": 2919
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 2919,
-    "end": 2920,
-    "range": [
-      2919,
-      2920
-    ]
+    "end": 2920
   },
   {
     "type": "String",
     "value": "'The result of (0x123n ** 0x1n) is 0x123n'",
     "start": 2921,
-    "end": 2963,
-    "range": [
-      2921,
-      2963
-    ]
+    "end": 2963
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2963,
-    "end": 2964,
-    "range": [
-      2963,
-      2964
-    ]
+    "end": 2964
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2964,
-    "end": 2965,
-    "range": [
-      2964,
-      2965
-    ]
+    "end": 2965
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 2967,
-    "end": 2973,
-    "range": [
-      2967,
-      2973
-    ]
+    "end": 2973
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2973,
-    "end": 2974,
-    "range": [
-      2973,
-      2974
-    ]
+    "end": 2974
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 2974,
-    "end": 2983,
-    "range": [
-      2974,
-      2983
-    ]
+    "end": 2983
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2983,
-    "end": 2984,
-    "range": [
-      2983,
-      2984
-    ]
+    "end": 2984
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 2987,
-    "end": 2992,
-    "range": [
-      2987,
-      2992
-    ]
+    "end": 2992
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 2993,
-    "end": 2995,
-    "range": [
-      2993,
-      2995
-    ]
+    "end": 2995
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 2996,
-    "end": 3002,
-    "range": [
-      2996,
-      3002
-    ]
+    "end": 3002
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3002,
-    "end": 3003,
-    "range": [
-      3002,
-      3003
-    ]
+    "end": 3003
   },
   {
     "type": "Numeric",
     "value": "0x51F5CA2E1A36F5FF1ED3D393D76FBC3612B38EB64E00EDAC5E95ADE0D16D0B044C8E9F2B77B3F31AF9159F482205541E9D3BE9D248FF39CE6524874EBCA60E06302E8B505D11EEEEE869C7F801A82B9739C197E6D63A1EB2D29B5AD5EED4773C762106E9F66BFCB6C11450218973C69DED3FE51FF881AD0430675BF54320513EA766117C50C554E86E22A5ACFD8047D5470B4FCBCB9EFC86196CA77C58F1BEB09F76160D641B82E2481BEDAE089207D49FE0FB7DE14B6C4BC82E9C58140746AC8E74C3353AAF5F9CF47ED1F87C52F463C053DB63CD08CC9866EBA274D39B6B357ADADAD4D210167EF7363453D42BC225D90070336861F2D259489D78B7F04B05FE65E29151ADD2B8F4D318011988550CE590DBA4C868AC65AA325051DF613D6C2E22FFn",
     "start": 3006,
-    "end": 3591,
-    "range": [
-      3006,
-      3591
-    ]
+    "end": 3591
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3591,
-    "end": 3592,
-    "range": [
-      3591,
-      3592
-    ]
+    "end": 3592
   },
   {
     "type": "String",
     "value": "'The result of (0xFFn ** 0x123n) is 0x51F5CA2E1A36F5FF1ED3D393D76FBC3612B38EB64E00EDAC5E95ADE0D16D0B044C8E9F2B77B3F31AF9159F482205541E9D3BE9D248FF39CE6524874EBCA60E06302E8B505D11EEEEE869C7F801A82B9739C197E6D63A1EB2D29B5AD5EED4773C762106E9F66BFCB6C11450218973C69DED3FE51FF881AD0430675BF54320513EA766117C50C554E86E22A5ACFD8047D5470B4FCBCB9EFC86196CA77C58F1BEB09F76160D641B82E2481BEDAE089207D49FE0FB7DE14B6C4BC82E9C58140746AC8E74C3353AAF5F9CF47ED1F87C52F463C053DB63CD08CC9866EBA274D39B6B357ADADAD4D210167EF7363453D42BC225D90070336861F2D259489D78B7F04B05FE65E29151ADD2B8F4D318011988550CE590DBA4C868AC65AA325051DF613D6C2E22FFn'",
     "start": 3595,
-    "end": 4217,
-    "range": [
-      3595,
-      4217
-    ]
+    "end": 4217
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4218,
-    "end": 4219,
-    "range": [
-      4218,
-      4219
-    ]
+    "end": 4219
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4219,
-    "end": 4220,
-    "range": [
-      4219,
-      4220
-    ]
+    "end": 4220
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4222,
-    "end": 4228,
-    "range": [
-      4222,
-      4228
-    ]
+    "end": 4228
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4228,
-    "end": 4229,
-    "range": [
-      4228,
-      4229
-    ]
+    "end": 4229
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4229,
-    "end": 4238,
-    "range": [
-      4229,
-      4238
-    ]
+    "end": 4238
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4238,
-    "end": 4239,
-    "range": [
-      4238,
-      4239
-    ]
+    "end": 4239
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 4242,
-    "end": 4247,
-    "range": [
-      4242,
-      4247
-    ]
+    "end": 4247
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 4248,
-    "end": 4250,
-    "range": [
-      4248,
-      4250
-    ]
+    "end": 4250
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 4251,
-    "end": 4256,
-    "range": [
-      4251,
-      4256
-    ]
+    "end": 4256
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4256,
-    "end": 4257,
-    "range": [
-      4256,
-      4257
-    ]
+    "end": 4257
   },
   {
     "type": "Numeric",
     "value": "0x5E5C8B0EB95AB08F9D37EF127FC01BD0E33DE52647528396D78D5F8DA31989E67814F6BBA1FB0F0207010FF5F2347B19D5F6598FC91BF5A88F77DAA3D7B382FEC484F3D205C06A34445384C0E7AB0D883788C68C012CB433055EDDA746A48409444EA91147273B79FC3EABB70ECA552AF650C234BB01ED404427F17CDDDD71D08E39EF9C3982E3CE44E670456AA8154C1FDBD9C35947F494636A425C69BF89E9C75AD3B7A0A559AF0F5DA9947C8DEBA64417310713B23E7EF4DE50BB2A3E90BC2AC3DA5201CCA8D6E5DFEA887C4F7A4E92175D9F88BD2779B57F9EB35BE7528F965A06DA0AC41DCB3A34F1D8AB7D8FEE620A94FAA42C395997756B007FFEFFn",
     "start": 4260,
-    "end": 4773,
-    "range": [
-      4260,
-      4773
-    ]
+    "end": 4773
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4773,
-    "end": 4774,
-    "range": [
-      4773,
-      4774
-    ]
+    "end": 4774
   },
   {
     "type": "String",
     "value": "'The result of (0xFFn ** 0xFFn) is 0x5E5C8B0EB95AB08F9D37EF127FC01BD0E33DE52647528396D78D5F8DA31989E67814F6BBA1FB0F0207010FF5F2347B19D5F6598FC91BF5A88F77DAA3D7B382FEC484F3D205C06A34445384C0E7AB0D883788C68C012CB433055EDDA746A48409444EA91147273B79FC3EABB70ECA552AF650C234BB01ED404427F17CDDDD71D08E39EF9C3982E3CE44E670456AA8154C1FDBD9C35947F494636A425C69BF89E9C75AD3B7A0A559AF0F5DA9947C8DEBA64417310713B23E7EF4DE50BB2A3E90BC2AC3DA5201CCA8D6E5DFEA887C4F7A4E92175D9F88BD2779B57F9EB35BE7528F965A06DA0AC41DCB3A34F1D8AB7D8FEE620A94FAA42C395997756B007FFEFFn'",
     "start": 4777,
-    "end": 5326,
-    "range": [
-      4777,
-      5326
-    ]
+    "end": 5326
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5327,
-    "end": 5328,
-    "range": [
-      5327,
-      5328
-    ]
+    "end": 5328
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5328,
-    "end": 5329,
-    "range": [
-      5328,
-      5329
-    ]
+    "end": 5329
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5331,
-    "end": 5337,
-    "range": [
-      5331,
-      5337
-    ]
+    "end": 5337
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5337,
-    "end": 5338,
-    "range": [
-      5337,
-      5338
-    ]
+    "end": 5338
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5338,
-    "end": 5347,
-    "range": [
-      5338,
-      5347
-    ]
+    "end": 5347
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5347,
-    "end": 5348,
-    "range": [
-      5347,
-      5348
-    ]
+    "end": 5348
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 5348,
-    "end": 5353,
-    "range": [
-      5348,
-      5353
-    ]
+    "end": 5353
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 5354,
-    "end": 5356,
-    "range": [
-      5354,
-      5356
-    ]
+    "end": 5356
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 5357,
-    "end": 5361,
-    "range": [
-      5357,
-      5361
-    ]
+    "end": 5361
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5361,
-    "end": 5362,
-    "range": [
-      5361,
-      5362
-    ]
+    "end": 5362
   },
   {
     "type": "Numeric",
     "value": "0xFD02FFn",
     "start": 5363,
-    "end": 5372,
-    "range": [
-      5363,
-      5372
-    ]
+    "end": 5372
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5372,
-    "end": 5373,
-    "range": [
-      5372,
-      5373
-    ]
+    "end": 5373
   },
   {
     "type": "String",
     "value": "'The result of (0xFFn ** 0x3n) is 0xFD02FFn'",
     "start": 5374,
-    "end": 5418,
-    "range": [
-      5374,
-      5418
-    ]
+    "end": 5418
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5418,
-    "end": 5419,
-    "range": [
-      5418,
-      5419
-    ]
+    "end": 5419
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5419,
-    "end": 5420,
-    "range": [
-      5419,
-      5420
-    ]
+    "end": 5420
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5421,
-    "end": 5427,
-    "range": [
-      5421,
-      5427
-    ]
+    "end": 5427
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5427,
-    "end": 5428,
-    "range": [
-      5427,
-      5428
-    ]
+    "end": 5428
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5428,
-    "end": 5437,
-    "range": [
-      5428,
-      5437
-    ]
+    "end": 5437
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5437,
-    "end": 5438,
-    "range": [
-      5437,
-      5438
-    ]
+    "end": 5438
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 5438,
-    "end": 5443,
-    "range": [
-      5438,
-      5443
-    ]
+    "end": 5443
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 5444,
-    "end": 5446,
-    "range": [
-      5444,
-      5446
-    ]
+    "end": 5446
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 5447,
-    "end": 5451,
-    "range": [
-      5447,
-      5451
-    ]
+    "end": 5451
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5451,
-    "end": 5452,
-    "range": [
-      5451,
-      5452
-    ]
+    "end": 5452
   },
   {
     "type": "Numeric",
     "value": "0xFE01n",
     "start": 5453,
-    "end": 5460,
-    "range": [
-      5453,
-      5460
-    ]
+    "end": 5460
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5460,
-    "end": 5461,
-    "range": [
-      5460,
-      5461
-    ]
+    "end": 5461
   },
   {
     "type": "String",
     "value": "'The result of (0xFFn ** 0x2n) is 0xFE01n'",
     "start": 5462,
-    "end": 5504,
-    "range": [
-      5462,
-      5504
-    ]
+    "end": 5504
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5504,
-    "end": 5505,
-    "range": [
-      5504,
-      5505
-    ]
+    "end": 5505
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5505,
-    "end": 5506,
-    "range": [
-      5505,
-      5506
-    ]
+    "end": 5506
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5507,
-    "end": 5513,
-    "range": [
-      5507,
-      5513
-    ]
+    "end": 5513
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5513,
-    "end": 5514,
-    "range": [
-      5513,
-      5514
-    ]
+    "end": 5514
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5514,
-    "end": 5523,
-    "range": [
-      5514,
-      5523
-    ]
+    "end": 5523
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5523,
-    "end": 5524,
-    "range": [
-      5523,
-      5524
-    ]
+    "end": 5524
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 5524,
-    "end": 5529,
-    "range": [
-      5524,
-      5529
-    ]
+    "end": 5529
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 5530,
-    "end": 5532,
-    "range": [
-      5530,
-      5532
-    ]
+    "end": 5532
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 5533,
-    "end": 5537,
-    "range": [
-      5533,
-      5537
-    ]
+    "end": 5537
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5537,
-    "end": 5538,
-    "range": [
-      5537,
-      5538
-    ]
+    "end": 5538
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 5539,
-    "end": 5544,
-    "range": [
-      5539,
-      5544
-    ]
+    "end": 5544
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5544,
-    "end": 5545,
-    "range": [
-      5544,
-      5545
-    ]
+    "end": 5545
   },
   {
     "type": "String",
     "value": "'The result of (0xFFn ** 0x1n) is 0xFFn'",
     "start": 5546,
-    "end": 5586,
-    "range": [
-      5546,
-      5586
-    ]
+    "end": 5586
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5586,
-    "end": 5587,
-    "range": [
-      5586,
-      5587
-    ]
+    "end": 5587
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5587,
-    "end": 5588,
-    "range": [
-      5587,
-      5588
-    ]
+    "end": 5588
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5590,
-    "end": 5596,
-    "range": [
-      5590,
-      5596
-    ]
+    "end": 5596
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5596,
-    "end": 5597,
-    "range": [
-      5596,
-      5597
-    ]
+    "end": 5597
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5597,
-    "end": 5606,
-    "range": [
-      5597,
-      5606
-    ]
+    "end": 5606
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5606,
-    "end": 5607,
-    "range": [
-      5606,
-      5607
-    ]
+    "end": 5607
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 5610,
-    "end": 5614,
-    "range": [
-      5610,
-      5614
-    ]
+    "end": 5614
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 5615,
-    "end": 5617,
-    "range": [
-      5615,
-      5617
-    ]
+    "end": 5617
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 5618,
-    "end": 5624,
-    "range": [
-      5618,
-      5624
-    ]
+    "end": 5624
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5624,
-    "end": 5625,
-    "range": [
-      5624,
-      5625
-    ]
+    "end": 5625
   },
   {
     "type": "Numeric",
     "value": "0x25609213623D7D6219085CF49D306450BF6519835586C19D3A4F3A2C5F35B44A300C8A76E11708B5495B9C3EE756BBF19E3FD15CE625D3C0539Bn",
     "start": 5628,
-    "end": 5747,
-    "range": [
-      5628,
-      5747
-    ]
+    "end": 5747
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5747,
-    "end": 5748,
-    "range": [
-      5747,
-      5748
-    ]
+    "end": 5748
   },
   {
     "type": "String",
     "value": "'The result of (0x3n ** 0x123n) is 0x25609213623D7D6219085CF49D306450BF6519835586C19D3A4F3A2C5F35B44A300C8A76E11708B5495B9C3EE756BBF19E3FD15CE625D3C0539Bn'",
     "start": 5751,
-    "end": 5906,
-    "range": [
-      5751,
-      5906
-    ]
+    "end": 5906
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5907,
-    "end": 5908,
-    "range": [
-      5907,
-      5908
-    ]
+    "end": 5908
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5908,
-    "end": 5909,
-    "range": [
-      5908,
-      5909
-    ]
+    "end": 5909
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5911,
-    "end": 5917,
-    "range": [
-      5911,
-      5917
-    ]
+    "end": 5917
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5917,
-    "end": 5918,
-    "range": [
-      5917,
-      5918
-    ]
+    "end": 5918
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5918,
-    "end": 5927,
-    "range": [
-      5918,
-      5927
-    ]
+    "end": 5927
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5927,
-    "end": 5928,
-    "range": [
-      5927,
-      5928
-    ]
+    "end": 5928
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 5931,
-    "end": 5935,
-    "range": [
-      5931,
-      5935
-    ]
+    "end": 5935
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 5936,
-    "end": 5938,
-    "range": [
-      5936,
-      5938
-    ]
+    "end": 5938
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 5939,
-    "end": 5944,
-    "range": [
-      5939,
-      5944
-    ]
+    "end": 5944
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5944,
-    "end": 5945,
-    "range": [
-      5944,
-      5945
-    ]
+    "end": 5945
   },
   {
     "type": "Numeric",
     "value": "0x11F1B08E87EC42C5D83C3218FC83C41DCFD9F4428F4F92AF1AAA80AA46162B1F71E981273601F4AD1DD4709B5ACA650265A6ABn",
     "start": 5948,
-    "end": 6053,
-    "range": [
-      5948,
-      6053
-    ]
+    "end": 6053
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6053,
-    "end": 6054,
-    "range": [
-      6053,
-      6054
-    ]
+    "end": 6054
   },
   {
     "type": "String",
     "value": "'The result of (0x3n ** 0xFFn) is 0x11F1B08E87EC42C5D83C3218FC83C41DCFD9F4428F4F92AF1AAA80AA46162B1F71E981273601F4AD1DD4709B5ACA650265A6ABn'",
     "start": 6057,
-    "end": 6197,
-    "range": [
-      6057,
-      6197
-    ]
+    "end": 6197
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6198,
-    "end": 6199,
-    "range": [
-      6198,
-      6199
-    ]
+    "end": 6199
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6199,
-    "end": 6200,
-    "range": [
-      6199,
-      6200
-    ]
+    "end": 6200
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6202,
-    "end": 6208,
-    "range": [
-      6202,
-      6208
-    ]
+    "end": 6208
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6208,
-    "end": 6209,
-    "range": [
-      6208,
-      6209
-    ]
+    "end": 6209
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6209,
-    "end": 6218,
-    "range": [
-      6209,
-      6218
-    ]
+    "end": 6218
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6218,
-    "end": 6219,
-    "range": [
-      6218,
-      6219
-    ]
+    "end": 6219
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 6219,
-    "end": 6223,
-    "range": [
-      6219,
-      6223
-    ]
+    "end": 6223
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 6224,
-    "end": 6226,
-    "range": [
-      6224,
-      6226
-    ]
+    "end": 6226
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 6227,
-    "end": 6231,
-    "range": [
-      6227,
-      6231
-    ]
+    "end": 6231
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6231,
-    "end": 6232,
-    "range": [
-      6231,
-      6232
-    ]
+    "end": 6232
   },
   {
     "type": "Numeric",
     "value": "0x1Bn",
     "start": 6233,
-    "end": 6238,
-    "range": [
-      6233,
-      6238
-    ]
+    "end": 6238
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6238,
-    "end": 6239,
-    "range": [
-      6238,
-      6239
-    ]
+    "end": 6239
   },
   {
     "type": "String",
     "value": "'The result of (0x3n ** 0x3n) is 0x1Bn'",
     "start": 6240,
-    "end": 6279,
-    "range": [
-      6240,
-      6279
-    ]
+    "end": 6279
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6279,
-    "end": 6280,
-    "range": [
-      6279,
-      6280
-    ]
+    "end": 6280
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6280,
-    "end": 6281,
-    "range": [
-      6280,
-      6281
-    ]
+    "end": 6281
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6282,
-    "end": 6288,
-    "range": [
-      6282,
-      6288
-    ]
+    "end": 6288
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6288,
-    "end": 6289,
-    "range": [
-      6288,
-      6289
-    ]
+    "end": 6289
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6289,
-    "end": 6298,
-    "range": [
-      6289,
-      6298
-    ]
+    "end": 6298
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6298,
-    "end": 6299,
-    "range": [
-      6298,
-      6299
-    ]
+    "end": 6299
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 6299,
-    "end": 6303,
-    "range": [
-      6299,
-      6303
-    ]
+    "end": 6303
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 6304,
-    "end": 6306,
-    "range": [
-      6304,
-      6306
-    ]
+    "end": 6306
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 6307,
-    "end": 6311,
-    "range": [
-      6307,
-      6311
-    ]
+    "end": 6311
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6311,
-    "end": 6312,
-    "range": [
-      6311,
-      6312
-    ]
+    "end": 6312
   },
   {
     "type": "Numeric",
     "value": "0x9n",
     "start": 6313,
-    "end": 6317,
-    "range": [
-      6313,
-      6317
-    ]
+    "end": 6317
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6317,
-    "end": 6318,
-    "range": [
-      6317,
-      6318
-    ]
+    "end": 6318
   },
   {
     "type": "String",
     "value": "'The result of (0x3n ** 0x2n) is 0x9n'",
     "start": 6319,
-    "end": 6357,
-    "range": [
-      6319,
-      6357
-    ]
+    "end": 6357
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6357,
-    "end": 6358,
-    "range": [
-      6357,
-      6358
-    ]
+    "end": 6358
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6358,
-    "end": 6359,
-    "range": [
-      6358,
-      6359
-    ]
+    "end": 6359
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6360,
-    "end": 6366,
-    "range": [
-      6360,
-      6366
-    ]
+    "end": 6366
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6366,
-    "end": 6367,
-    "range": [
-      6366,
-      6367
-    ]
+    "end": 6367
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6367,
-    "end": 6376,
-    "range": [
-      6367,
-      6376
-    ]
+    "end": 6376
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6376,
-    "end": 6377,
-    "range": [
-      6376,
-      6377
-    ]
+    "end": 6377
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 6377,
-    "end": 6381,
-    "range": [
-      6377,
-      6381
-    ]
+    "end": 6381
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 6382,
-    "end": 6384,
-    "range": [
-      6382,
-      6384
-    ]
+    "end": 6384
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 6385,
-    "end": 6389,
-    "range": [
-      6385,
-      6389
-    ]
+    "end": 6389
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6389,
-    "end": 6390,
-    "range": [
-      6389,
-      6390
-    ]
+    "end": 6390
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 6391,
-    "end": 6395,
-    "range": [
-      6391,
-      6395
-    ]
+    "end": 6395
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6395,
-    "end": 6396,
-    "range": [
-      6395,
-      6396
-    ]
+    "end": 6396
   },
   {
     "type": "String",
     "value": "'The result of (0x3n ** 0x1n) is 0x3n'",
     "start": 6397,
-    "end": 6435,
-    "range": [
-      6397,
-      6435
-    ]
+    "end": 6435
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6435,
-    "end": 6436,
-    "range": [
-      6435,
-      6436
-    ]
+    "end": 6436
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6436,
-    "end": 6437,
-    "range": [
-      6436,
-      6437
-    ]
+    "end": 6437
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6439,
-    "end": 6445,
-    "range": [
-      6439,
-      6445
-    ]
+    "end": 6445
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6445,
-    "end": 6446,
-    "range": [
-      6445,
-      6446
-    ]
+    "end": 6446
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6446,
-    "end": 6455,
-    "range": [
-      6446,
-      6455
-    ]
+    "end": 6455
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6455,
-    "end": 6456,
-    "range": [
-      6455,
-      6456
-    ]
+    "end": 6456
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 6459,
-    "end": 6463,
-    "range": [
-      6459,
-      6463
-    ]
+    "end": 6463
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 6464,
-    "end": 6466,
-    "range": [
-      6464,
-      6466
-    ]
+    "end": 6466
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 6467,
-    "end": 6473,
-    "range": [
-      6467,
-      6473
-    ]
+    "end": 6473
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6473,
-    "end": 6474,
-    "range": [
-      6473,
-      6474
-    ]
+    "end": 6474
   },
   {
     "type": "Numeric",
     "value": "0x8000000000000000000000000000000000000000000000000000000000000000000000000n",
     "start": 6477,
-    "end": 6553,
-    "range": [
-      6477,
-      6553
-    ]
+    "end": 6553
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6553,
-    "end": 6554,
-    "range": [
-      6553,
-      6554
-    ]
+    "end": 6554
   },
   {
     "type": "String",
     "value": "'The result of (0x2n ** 0x123n) is 0x8000000000000000000000000000000000000000000000000000000000000000000000000n'",
     "start": 6557,
-    "end": 6669,
-    "range": [
-      6557,
-      6669
-    ]
+    "end": 6669
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6670,
-    "end": 6671,
-    "range": [
-      6670,
-      6671
-    ]
+    "end": 6671
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6671,
-    "end": 6672,
-    "range": [
-      6671,
-      6672
-    ]
+    "end": 6672
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6674,
-    "end": 6680,
-    "range": [
-      6674,
-      6680
-    ]
+    "end": 6680
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6680,
-    "end": 6681,
-    "range": [
-      6680,
-      6681
-    ]
+    "end": 6681
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6681,
-    "end": 6690,
-    "range": [
-      6681,
-      6690
-    ]
+    "end": 6690
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6690,
-    "end": 6691,
-    "range": [
-      6690,
-      6691
-    ]
+    "end": 6691
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 6694,
-    "end": 6698,
-    "range": [
-      6694,
-      6698
-    ]
+    "end": 6698
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 6699,
-    "end": 6701,
-    "range": [
-      6699,
-      6701
-    ]
+    "end": 6701
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 6702,
-    "end": 6707,
-    "range": [
-      6702,
-      6707
-    ]
+    "end": 6707
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6707,
-    "end": 6708,
-    "range": [
-      6707,
-      6708
-    ]
+    "end": 6708
   },
   {
     "type": "Numeric",
     "value": "0x8000000000000000000000000000000000000000000000000000000000000000n",
     "start": 6711,
-    "end": 6778,
-    "range": [
-      6711,
-      6778
-    ]
+    "end": 6778
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6778,
-    "end": 6779,
-    "range": [
-      6778,
-      6779
-    ]
+    "end": 6779
   },
   {
     "type": "String",
     "value": "'The result of (0x2n ** 0xFFn) is 0x8000000000000000000000000000000000000000000000000000000000000000n'",
     "start": 6782,
-    "end": 6884,
-    "range": [
-      6782,
-      6884
-    ]
+    "end": 6884
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6885,
-    "end": 6886,
-    "range": [
-      6885,
-      6886
-    ]
+    "end": 6886
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6886,
-    "end": 6887,
-    "range": [
-      6886,
-      6887
-    ]
+    "end": 6887
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6889,
-    "end": 6895,
-    "range": [
-      6889,
-      6895
-    ]
+    "end": 6895
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6895,
-    "end": 6896,
-    "range": [
-      6895,
-      6896
-    ]
+    "end": 6896
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6896,
-    "end": 6905,
-    "range": [
-      6896,
-      6905
-    ]
+    "end": 6905
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6905,
-    "end": 6906,
-    "range": [
-      6905,
-      6906
-    ]
+    "end": 6906
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 6906,
-    "end": 6910,
-    "range": [
-      6906,
-      6910
-    ]
+    "end": 6910
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 6911,
-    "end": 6913,
-    "range": [
-      6911,
-      6913
-    ]
+    "end": 6913
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 6914,
-    "end": 6918,
-    "range": [
-      6914,
-      6918
-    ]
+    "end": 6918
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6918,
-    "end": 6919,
-    "range": [
-      6918,
-      6919
-    ]
+    "end": 6919
   },
   {
     "type": "Numeric",
     "value": "0x8n",
     "start": 6920,
-    "end": 6924,
-    "range": [
-      6920,
-      6924
-    ]
+    "end": 6924
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6924,
-    "end": 6925,
-    "range": [
-      6924,
-      6925
-    ]
+    "end": 6925
   },
   {
     "type": "String",
     "value": "'The result of (0x2n ** 0x3n) is 0x8n'",
     "start": 6926,
-    "end": 6964,
-    "range": [
-      6926,
-      6964
-    ]
+    "end": 6964
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6964,
-    "end": 6965,
-    "range": [
-      6964,
-      6965
-    ]
+    "end": 6965
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6965,
-    "end": 6966,
-    "range": [
-      6965,
-      6966
-    ]
+    "end": 6966
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6967,
-    "end": 6973,
-    "range": [
-      6967,
-      6973
-    ]
+    "end": 6973
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6973,
-    "end": 6974,
-    "range": [
-      6973,
-      6974
-    ]
+    "end": 6974
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6974,
-    "end": 6983,
-    "range": [
-      6974,
-      6983
-    ]
+    "end": 6983
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6983,
-    "end": 6984,
-    "range": [
-      6983,
-      6984
-    ]
+    "end": 6984
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 6984,
-    "end": 6988,
-    "range": [
-      6984,
-      6988
-    ]
+    "end": 6988
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 6989,
-    "end": 6991,
-    "range": [
-      6989,
-      6991
-    ]
+    "end": 6991
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 6992,
-    "end": 6996,
-    "range": [
-      6992,
-      6996
-    ]
+    "end": 6996
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6996,
-    "end": 6997,
-    "range": [
-      6996,
-      6997
-    ]
+    "end": 6997
   },
   {
     "type": "Numeric",
     "value": "0x4n",
     "start": 6998,
-    "end": 7002,
-    "range": [
-      6998,
-      7002
-    ]
+    "end": 7002
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7002,
-    "end": 7003,
-    "range": [
-      7002,
-      7003
-    ]
+    "end": 7003
   },
   {
     "type": "String",
     "value": "'The result of (0x2n ** 0x2n) is 0x4n'",
     "start": 7004,
-    "end": 7042,
-    "range": [
-      7004,
-      7042
-    ]
+    "end": 7042
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7042,
-    "end": 7043,
-    "range": [
-      7042,
-      7043
-    ]
+    "end": 7043
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7043,
-    "end": 7044,
-    "range": [
-      7043,
-      7044
-    ]
+    "end": 7044
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7045,
-    "end": 7051,
-    "range": [
-      7045,
-      7051
-    ]
+    "end": 7051
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7051,
-    "end": 7052,
-    "range": [
-      7051,
-      7052
-    ]
+    "end": 7052
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 7052,
-    "end": 7061,
-    "range": [
-      7052,
-      7061
-    ]
+    "end": 7061
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7061,
-    "end": 7062,
-    "range": [
-      7061,
-      7062
-    ]
+    "end": 7062
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 7062,
-    "end": 7066,
-    "range": [
-      7062,
-      7066
-    ]
+    "end": 7066
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 7067,
-    "end": 7069,
-    "range": [
-      7067,
-      7069
-    ]
+    "end": 7069
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7070,
-    "end": 7074,
-    "range": [
-      7070,
-      7074
-    ]
+    "end": 7074
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7074,
-    "end": 7075,
-    "range": [
-      7074,
-      7075
-    ]
+    "end": 7075
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 7076,
-    "end": 7080,
-    "range": [
-      7076,
-      7080
-    ]
+    "end": 7080
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7080,
-    "end": 7081,
-    "range": [
-      7080,
-      7081
-    ]
+    "end": 7081
   },
   {
     "type": "String",
     "value": "'The result of (0x2n ** 0x1n) is 0x2n'",
     "start": 7082,
-    "end": 7120,
-    "range": [
-      7082,
-      7120
-    ]
+    "end": 7120
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7120,
-    "end": 7121,
-    "range": [
-      7120,
-      7121
-    ]
+    "end": 7121
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7121,
-    "end": 7122,
-    "range": [
-      7121,
-      7122
-    ]
+    "end": 7122
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7123,
-    "end": 7129,
-    "range": [
-      7123,
-      7129
-    ]
+    "end": 7129
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7129,
-    "end": 7130,
-    "range": [
-      7129,
-      7130
-    ]
+    "end": 7130
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 7130,
-    "end": 7139,
-    "range": [
-      7130,
-      7139
-    ]
+    "end": 7139
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7139,
-    "end": 7140,
-    "range": [
-      7139,
-      7140
-    ]
+    "end": 7140
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7140,
-    "end": 7144,
-    "range": [
-      7140,
-      7144
-    ]
+    "end": 7144
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 7145,
-    "end": 7147,
-    "range": [
-      7145,
-      7147
-    ]
+    "end": 7147
   },
   {
     "type": "Numeric",
     "value": "0x123n",
     "start": 7148,
-    "end": 7154,
-    "range": [
-      7148,
-      7154
-    ]
+    "end": 7154
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7154,
-    "end": 7155,
-    "range": [
-      7154,
-      7155
-    ]
+    "end": 7155
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7156,
-    "end": 7160,
-    "range": [
-      7156,
-      7160
-    ]
+    "end": 7160
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7160,
-    "end": 7161,
-    "range": [
-      7160,
-      7161
-    ]
+    "end": 7161
   },
   {
     "type": "String",
     "value": "'The result of (0x1n ** 0x123n) is 0x1n'",
     "start": 7162,
-    "end": 7202,
-    "range": [
-      7162,
-      7202
-    ]
+    "end": 7202
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7202,
-    "end": 7203,
-    "range": [
-      7202,
-      7203
-    ]
+    "end": 7203
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7203,
-    "end": 7204,
-    "range": [
-      7203,
-      7204
-    ]
+    "end": 7204
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7205,
-    "end": 7211,
-    "range": [
-      7205,
-      7211
-    ]
+    "end": 7211
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7211,
-    "end": 7212,
-    "range": [
-      7211,
-      7212
-    ]
+    "end": 7212
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 7212,
-    "end": 7221,
-    "range": [
-      7212,
-      7221
-    ]
+    "end": 7221
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7221,
-    "end": 7222,
-    "range": [
-      7221,
-      7222
-    ]
+    "end": 7222
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7222,
-    "end": 7226,
-    "range": [
-      7222,
-      7226
-    ]
+    "end": 7226
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 7227,
-    "end": 7229,
-    "range": [
-      7227,
-      7229
-    ]
+    "end": 7229
   },
   {
     "type": "Numeric",
     "value": "0xFFn",
     "start": 7230,
-    "end": 7235,
-    "range": [
-      7230,
-      7235
-    ]
+    "end": 7235
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7235,
-    "end": 7236,
-    "range": [
-      7235,
-      7236
-    ]
+    "end": 7236
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7237,
-    "end": 7241,
-    "range": [
-      7237,
-      7241
-    ]
+    "end": 7241
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7241,
-    "end": 7242,
-    "range": [
-      7241,
-      7242
-    ]
+    "end": 7242
   },
   {
     "type": "String",
     "value": "'The result of (0x1n ** 0xFFn) is 0x1n'",
     "start": 7243,
-    "end": 7282,
-    "range": [
-      7243,
-      7282
-    ]
+    "end": 7282
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7282,
-    "end": 7283,
-    "range": [
-      7282,
-      7283
-    ]
+    "end": 7283
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7283,
-    "end": 7284,
-    "range": [
-      7283,
-      7284
-    ]
+    "end": 7284
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7285,
-    "end": 7291,
-    "range": [
-      7285,
-      7291
-    ]
+    "end": 7291
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7291,
-    "end": 7292,
-    "range": [
-      7291,
-      7292
-    ]
+    "end": 7292
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 7292,
-    "end": 7301,
-    "range": [
-      7292,
-      7301
-    ]
+    "end": 7301
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7301,
-    "end": 7302,
-    "range": [
-      7301,
-      7302
-    ]
+    "end": 7302
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7302,
-    "end": 7306,
-    "range": [
-      7302,
-      7306
-    ]
+    "end": 7306
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 7307,
-    "end": 7309,
-    "range": [
-      7307,
-      7309
-    ]
+    "end": 7309
   },
   {
     "type": "Numeric",
     "value": "0x3n",
     "start": 7310,
-    "end": 7314,
-    "range": [
-      7310,
-      7314
-    ]
+    "end": 7314
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7314,
-    "end": 7315,
-    "range": [
-      7314,
-      7315
-    ]
+    "end": 7315
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7316,
-    "end": 7320,
-    "range": [
-      7316,
-      7320
-    ]
+    "end": 7320
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7320,
-    "end": 7321,
-    "range": [
-      7320,
-      7321
-    ]
+    "end": 7321
   },
   {
     "type": "String",
     "value": "'The result of (0x1n ** 0x3n) is 0x1n'",
     "start": 7322,
-    "end": 7360,
-    "range": [
-      7322,
-      7360
-    ]
+    "end": 7360
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7360,
-    "end": 7361,
-    "range": [
-      7360,
-      7361
-    ]
+    "end": 7361
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7361,
-    "end": 7362,
-    "range": [
-      7361,
-      7362
-    ]
+    "end": 7362
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7363,
-    "end": 7369,
-    "range": [
-      7363,
-      7369
-    ]
+    "end": 7369
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7369,
-    "end": 7370,
-    "range": [
-      7369,
-      7370
-    ]
+    "end": 7370
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 7370,
-    "end": 7379,
-    "range": [
-      7370,
-      7379
-    ]
+    "end": 7379
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7379,
-    "end": 7380,
-    "range": [
-      7379,
-      7380
-    ]
+    "end": 7380
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7380,
-    "end": 7384,
-    "range": [
-      7380,
-      7384
-    ]
+    "end": 7384
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 7385,
-    "end": 7387,
-    "range": [
-      7385,
-      7387
-    ]
+    "end": 7387
   },
   {
     "type": "Numeric",
     "value": "0x2n",
     "start": 7388,
-    "end": 7392,
-    "range": [
-      7388,
-      7392
-    ]
+    "end": 7392
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7392,
-    "end": 7393,
-    "range": [
-      7392,
-      7393
-    ]
+    "end": 7393
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7394,
-    "end": 7398,
-    "range": [
-      7394,
-      7398
-    ]
+    "end": 7398
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7398,
-    "end": 7399,
-    "range": [
-      7398,
-      7399
-    ]
+    "end": 7399
   },
   {
     "type": "String",
     "value": "'The result of (0x1n ** 0x2n) is 0x1n'",
     "start": 7400,
-    "end": 7438,
-    "range": [
-      7400,
-      7438
-    ]
+    "end": 7438
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7438,
-    "end": 7439,
-    "range": [
-      7438,
-      7439
-    ]
+    "end": 7439
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7439,
-    "end": 7440,
-    "range": [
-      7439,
-      7440
-    ]
+    "end": 7440
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 7441,
-    "end": 7447,
-    "range": [
-      7441,
-      7447
-    ]
+    "end": 7447
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 7447,
-    "end": 7448,
-    "range": [
-      7447,
-      7448
-    ]
+    "end": 7448
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 7448,
-    "end": 7457,
-    "range": [
-      7448,
-      7457
-    ]
+    "end": 7457
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 7457,
-    "end": 7458,
-    "range": [
-      7457,
-      7458
-    ]
+    "end": 7458
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7458,
-    "end": 7462,
-    "range": [
-      7458,
-      7462
-    ]
+    "end": 7462
   },
   {
     "type": "Punctuator",
     "value": "**",
     "start": 7463,
-    "end": 7465,
-    "range": [
-      7463,
-      7465
-    ]
+    "end": 7465
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7466,
-    "end": 7470,
-    "range": [
-      7466,
-      7470
-    ]
+    "end": 7470
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7470,
-    "end": 7471,
-    "range": [
-      7470,
-      7471
-    ]
+    "end": 7471
   },
   {
     "type": "Numeric",
     "value": "0x1n",
     "start": 7472,
-    "end": 7476,
-    "range": [
-      7472,
-      7476
-    ]
+    "end": 7476
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 7476,
-    "end": 7477,
-    "range": [
-      7476,
-      7477
-    ]
+    "end": 7477
   },
   {
     "type": "String",
     "value": "'The result of (0x1n ** 0x1n) is 0x1n'",
     "start": 7478,
-    "end": 7516,
-    "range": [
-      7478,
-      7516
-    ]
+    "end": 7516
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 7516,
-    "end": 7517,
-    "range": [
-      7516,
-      7517
-    ]
+    "end": 7517
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7517,
-    "end": 7518,
-    "range": [
-      7517,
-      7518
-    ]
+    "end": 7518
   }
 ]

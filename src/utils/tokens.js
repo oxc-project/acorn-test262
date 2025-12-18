@@ -16,7 +16,7 @@ export function parseEspreeTokens(code, isModule, jsx) {
       ecmaVersion: "latest",
       sourceType: isModule ? "module" : "script",
       tokens: true,
-      range: true,
+      range: false,
       ecmaFeatures: {
         jsx,
         globalReturn: true, // Allow top-level `return`
@@ -26,7 +26,7 @@ export function parseEspreeTokens(code, isModule, jsx) {
     return null;
   }
 
-  // Re-order fields to move `regex` to before `start`, `end`, and `range`
+  // Re-order fields to move `regex` to before `start` and `end`
   for (let i = 0; i < tokens.length; i++) {
     const token = tokens[i];
     if (token.regex) {

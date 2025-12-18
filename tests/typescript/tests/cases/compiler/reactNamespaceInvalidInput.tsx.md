@@ -57,61 +57,37 @@ __ESTREE_TEST__:TOKENS:
     "type": "Punctuator",
     "value": "<",
     "start": 0,
-    "end": 1,
-    "range": [
-      0,
-      1
-    ]
+    "end": 1
   },
   {
     "type": "JSXIdentifier",
     "value": "foo",
     "start": 1,
-    "end": 4,
-    "range": [
-      1,
-      4
-    ]
+    "end": 4
   },
   {
     "type": "JSXIdentifier",
     "value": "data",
     "start": 5,
-    "end": 9,
-    "range": [
-      5,
-      9
-    ]
+    "end": 9
   },
   {
     "type": "Punctuator",
     "value": "/",
     "start": 9,
-    "end": 10,
-    "range": [
-      9,
-      10
-    ]
+    "end": 10
   },
   {
     "type": "Punctuator",
     "value": ">",
     "start": 10,
-    "end": 11,
-    "range": [
-      10,
-      11
-    ]
+    "end": 11
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 11,
-    "end": 12,
-    "range": [
-      11,
-      12
-    ]
+    "end": 12
   }
 ]
 ```

@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "eval",
     "start": 1605,
-    "end": 1609,
-    "range": [
-      1605,
-      1609
-    ]
+    "end": 1609
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1609,
-    "end": 1610,
-    "range": [
-      1609,
-      1610
-    ]
+    "end": 1610
   },
   {
     "type": "String",
     "value": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {if (true) function f() { return 123; } else ;}\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'",
     "start": 1613,
-    "end": 1947,
-    "range": [
-      1613,
-      1947
-    ]
+    "end": 1947
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1948,
-    "end": 1949,
-    "range": [
-      1948,
-      1949
-    ]
+    "end": 1949
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1949,
-    "end": 1950,
-    "range": [
-      1949,
-      1950
-    ]
+    "end": 1950
   }
 ]

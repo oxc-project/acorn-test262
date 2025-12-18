@@ -3,30 +3,18 @@
     "type": "Identifier",
     "value": "await",
     "start": 1046,
-    "end": 1051,
-    "range": [
-      1046,
-      1051
-    ]
+    "end": 1051
   },
   {
     "type": "Keyword",
     "value": "this",
     "start": 1052,
-    "end": 1056,
-    "range": [
-      1052,
-      1056
-    ]
+    "end": 1056
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1056,
-    "end": 1057,
-    "range": [
-      1056,
-      1057
-    ]
+    "end": 1057
   }
 ]

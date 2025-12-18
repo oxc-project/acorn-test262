@@ -3,50 +3,30 @@
     "type": "Identifier",
     "value": "eval",
     "start": 1153,
-    "end": 1157,
-    "range": [
-      1153,
-      1157
-    ]
+    "end": 1157
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1157,
-    "end": 1158,
-    "range": [
-      1157,
-      1158
-    ]
+    "end": 1158
   },
   {
     "type": "String",
     "value": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");if (true) function f() {  }assert.sameValue(f, 123, \"value is not updated following evaluation\");'",
     "start": 1161,
-    "end": 1346,
-    "range": [
-      1161,
-      1346
-    ]
+    "end": 1346
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1347,
-    "end": 1348,
-    "range": [
-      1347,
-      1348
-    ]
+    "end": 1348
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1348,
-    "end": 1349,
-    "range": [
-      1348,
-      1349
-    ]
+    "end": 1349
   }
 ]

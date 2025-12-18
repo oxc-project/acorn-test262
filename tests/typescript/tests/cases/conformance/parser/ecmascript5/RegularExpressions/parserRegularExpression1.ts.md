@@ -38,21 +38,13 @@ __ESTREE_TEST__:TOKENS:
       "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)"
     },
     "start": 0,
-    "end": 37,
-    "range": [
-      0,
-      37
-    ]
+    "end": 37
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 37,
-    "end": 38,
-    "range": [
-      37,
-      38
-    ]
+    "end": 38
   }
 ]
 ```

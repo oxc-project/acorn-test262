@@ -3,7360 +3,4416 @@
     "type": "Identifier",
     "value": "assert",
     "start": 837,
-    "end": 843,
-    "range": [
-      837,
-      843
-    ]
+    "end": 843
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 843,
-    "end": 844,
-    "range": [
-      843,
-      844
-    ]
+    "end": 844
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 844,
-    "end": 853,
-    "range": [
-      844,
-      853
-    ]
+    "end": 853
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 853,
-    "end": 854,
-    "range": [
-      853,
-      854
-    ]
+    "end": 854
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 854,
-    "end": 860,
-    "range": [
-      854,
-      860
-    ]
+    "end": 860
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 860,
-    "end": 861,
-    "range": [
-      860,
-      861
-    ]
+    "end": 861
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 861,
-    "end": 867,
-    "range": [
-      861,
-      867
-    ]
+    "end": 867
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 867,
-    "end": 868,
-    "range": [
-      867,
-      868
-    ]
+    "end": 868
   },
   {
     "type": "String",
     "value": "'\\uD800'",
     "start": 868,
-    "end": 876,
-    "range": [
-      868,
-      876
-    ]
+    "end": 876
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 876,
-    "end": 877,
-    "range": [
-      876,
-      877
-    ]
+    "end": 877
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 877,
-    "end": 878,
-    "range": [
-      877,
-      878
-    ]
+    "end": 878
   },
   {
     "type": "String",
     "value": "'\\\\ud800'",
     "start": 879,
-    "end": 888,
-    "range": [
-      879,
-      888
-    ]
+    "end": 888
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 888,
-    "end": 889,
-    "range": [
-      888,
-      889
-    ]
+    "end": 889
   },
   {
     "type": "String",
     "value": "'High surrogate \\\\uD800 is correctly escaped'",
     "start": 890,
-    "end": 935,
-    "range": [
-      890,
-      935
-    ]
+    "end": 935
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 935,
-    "end": 936,
-    "range": [
-      935,
-      936
-    ]
+    "end": 936
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 936,
-    "end": 937,
-    "range": [
-      936,
-      937
-    ]
+    "end": 937
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 938,
-    "end": 944,
-    "range": [
-      938,
-      944
-    ]
+    "end": 944
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 944,
-    "end": 945,
-    "range": [
-      944,
-      945
-    ]
+    "end": 945
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 945,
-    "end": 954,
-    "range": [
-      945,
-      954
-    ]
+    "end": 954
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 954,
-    "end": 955,
-    "range": [
-      954,
-      955
-    ]
+    "end": 955
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 955,
-    "end": 961,
-    "range": [
-      955,
-      961
-    ]
+    "end": 961
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 961,
-    "end": 962,
-    "range": [
-      961,
-      962
-    ]
+    "end": 962
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 962,
-    "end": 968,
-    "range": [
-      962,
-      968
-    ]
+    "end": 968
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 968,
-    "end": 969,
-    "range": [
-      968,
-      969
-    ]
+    "end": 969
   },
   {
     "type": "String",
     "value": "'\\uDBFF'",
     "start": 969,
-    "end": 977,
-    "range": [
-      969,
-      977
-    ]
+    "end": 977
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 977,
-    "end": 978,
-    "range": [
-      977,
-      978
-    ]
+    "end": 978
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 978,
-    "end": 979,
-    "range": [
-      978,
-      979
-    ]
+    "end": 979
   },
   {
     "type": "String",
     "value": "'\\\\udbff'",
     "start": 980,
-    "end": 989,
-    "range": [
-      980,
-      989
-    ]
+    "end": 989
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 989,
-    "end": 990,
-    "range": [
-      989,
-      990
-    ]
+    "end": 990
   },
   {
     "type": "String",
     "value": "'High surrogate \\\\uDBFF is correctly escaped'",
     "start": 991,
-    "end": 1036,
-    "range": [
-      991,
-      1036
-    ]
+    "end": 1036
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1036,
-    "end": 1037,
-    "range": [
-      1036,
-      1037
-    ]
+    "end": 1037
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1037,
-    "end": 1038,
-    "range": [
-      1037,
-      1038
-    ]
+    "end": 1038
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1039,
-    "end": 1045,
-    "range": [
-      1039,
-      1045
-    ]
+    "end": 1045
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1045,
-    "end": 1046,
-    "range": [
-      1045,
-      1046
-    ]
+    "end": 1046
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1046,
-    "end": 1055,
-    "range": [
-      1046,
-      1055
-    ]
+    "end": 1055
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1055,
-    "end": 1056,
-    "range": [
-      1055,
-      1056
-    ]
+    "end": 1056
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 1056,
-    "end": 1062,
-    "range": [
-      1056,
-      1062
-    ]
+    "end": 1062
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1062,
-    "end": 1063,
-    "range": [
-      1062,
-      1063
-    ]
+    "end": 1063
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 1063,
-    "end": 1069,
-    "range": [
-      1063,
-      1069
-    ]
+    "end": 1069
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1069,
-    "end": 1070,
-    "range": [
-      1069,
-      1070
-    ]
+    "end": 1070
   },
   {
     "type": "String",
     "value": "'\\uDC00'",
     "start": 1070,
-    "end": 1078,
-    "range": [
-      1070,
-      1078
-    ]
+    "end": 1078
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1078,
-    "end": 1079,
-    "range": [
-      1078,
-      1079
-    ]
+    "end": 1079
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1079,
-    "end": 1080,
-    "range": [
-      1079,
-      1080
-    ]
+    "end": 1080
   },
   {
     "type": "String",
     "value": "'\\\\udc00'",
     "start": 1081,
-    "end": 1090,
-    "range": [
-      1081,
-      1090
-    ]
+    "end": 1090
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1090,
-    "end": 1091,
-    "range": [
-      1090,
-      1091
-    ]
+    "end": 1091
   },
   {
     "type": "String",
     "value": "'Low surrogate \\\\uDC00 is correctly escaped'",
     "start": 1092,
-    "end": 1136,
-    "range": [
-      1092,
-      1136
-    ]
+    "end": 1136
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1136,
-    "end": 1137,
-    "range": [
-      1136,
-      1137
-    ]
+    "end": 1137
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1137,
-    "end": 1138,
-    "range": [
-      1137,
-      1138
-    ]
+    "end": 1138
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 1139,
-    "end": 1145,
-    "range": [
-      1139,
-      1145
-    ]
+    "end": 1145
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1145,
-    "end": 1146,
-    "range": [
-      1145,
-      1146
-    ]
+    "end": 1146
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 1146,
-    "end": 1155,
-    "range": [
-      1146,
-      1155
-    ]
+    "end": 1155
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1155,
-    "end": 1156,
-    "range": [
-      1155,
-      1156
-    ]
+    "end": 1156
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 1156,
-    "end": 1162,
-    "range": [
-      1156,
-      1162
-    ]
+    "end": 1162
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1162,
-    "end": 1163,
-    "range": [
-      1162,
-      1163
-    ]
+    "end": 1163
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 1163,
-    "end": 1169,
-    "range": [
-      1163,
-      1169
-    ]
+    "end": 1169
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1169,
-    "end": 1170,
-    "range": [
-      1169,
-      1170
-    ]
+    "end": 1170
   },
   {
     "type": "String",
     "value": "'\\uDFFF'",
     "start": 1170,
-    "end": 1178,
-    "range": [
-      1170,
-      1178
-    ]
+    "end": 1178
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1178,
-    "end": 1179,
-    "range": [
-      1178,
-      1179
-    ]
+    "end": 1179
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1179,
-    "end": 1180,
-    "range": [
-      1179,
-      1180
-    ]
+    "end": 1180
   },
   {
     "type": "String",
     "value": "'\\\\udfff'",
     "start": 1181,
-    "end": 1190,
-    "range": [
-      1181,
-      1190
-    ]
+    "end": 1190
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 1190,
-    "end": 1191,
-    "range": [
-      1190,
-      1191
-    ]
+    "end": 1191
   },
   {
     "type": "String",
     "value": "'Low surrogate \\\\uDFFF is correctly escaped'",
     "start": 1192,
-    "end": 1236,
-    "range": [
-      1192,
-      1236
-    ]
+    "end": 1236
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1236,
-    "end": 1237,
-    "range": [
-      1236,
-      1237
-    ]
+    "end": 1237
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1237,
-    "end": 1238,
-    "range": [
-      1237,
-      1238
-    ]
+    "end": 1238
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1262,
-    "end": 1267,
-    "range": [
-      1262,
-      1267
-    ]
+    "end": 1267
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup1",
     "start": 1268,
-    "end": 1288,
-    "range": [
-      1268,
-      1288
-    ]
+    "end": 1288
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1289,
-    "end": 1290,
-    "range": [
-      1289,
-      1290
-    ]
+    "end": 1290
   },
   {
     "type": "String",
     "value": "'\\uD800\\uD801\\uD802\\uD803\\uD804\\uD805\\uD806\\uD807\\uD808\\uD809\\uD80A\\uD80B\\uD80C\\uD80D\\uD80E\\uD80F'",
     "start": 1291,
-    "end": 1389,
-    "range": [
-      1291,
-      1389
-    ]
+    "end": 1389
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1389,
-    "end": 1390,
-    "range": [
-      1389,
-      1390
-    ]
+    "end": 1390
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1391,
-    "end": 1396,
-    "range": [
-      1391,
-      1396
-    ]
+    "end": 1396
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup2",
     "start": 1397,
-    "end": 1417,
-    "range": [
-      1397,
-      1417
-    ]
+    "end": 1417
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1418,
-    "end": 1419,
-    "range": [
-      1418,
-      1419
-    ]
+    "end": 1419
   },
   {
     "type": "String",
     "value": "'\\uD810\\uD811\\uD812\\uD813\\uD814\\uD815\\uD816\\uD817\\uD818\\uD819\\uD81A\\uD81B\\uD81C\\uD81D\\uD81E\\uD81F'",
     "start": 1420,
-    "end": 1518,
-    "range": [
-      1420,
-      1518
-    ]
+    "end": 1518
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1518,
-    "end": 1519,
-    "range": [
-      1518,
-      1519
-    ]
+    "end": 1519
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1520,
-    "end": 1525,
-    "range": [
-      1520,
-      1525
-    ]
+    "end": 1525
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup3",
     "start": 1526,
-    "end": 1546,
-    "range": [
-      1526,
-      1546
-    ]
+    "end": 1546
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1547,
-    "end": 1548,
-    "range": [
-      1547,
-      1548
-    ]
+    "end": 1548
   },
   {
     "type": "String",
     "value": "'\\uD820\\uD821\\uD822\\uD823\\uD824\\uD825\\uD826\\uD827\\uD828\\uD829\\uD82A\\uD82B\\uD82C\\uD82D\\uD82E\\uD82F'",
     "start": 1549,
-    "end": 1647,
-    "range": [
-      1549,
-      1647
-    ]
+    "end": 1647
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1647,
-    "end": 1648,
-    "range": [
-      1647,
-      1648
-    ]
+    "end": 1648
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1649,
-    "end": 1654,
-    "range": [
-      1649,
-      1654
-    ]
+    "end": 1654
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup4",
     "start": 1655,
-    "end": 1675,
-    "range": [
-      1655,
-      1675
-    ]
+    "end": 1675
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1676,
-    "end": 1677,
-    "range": [
-      1676,
-      1677
-    ]
+    "end": 1677
   },
   {
     "type": "String",
     "value": "'\\uD830\\uD831\\uD832\\uD833\\uD834\\uD835\\uD836\\uD837\\uD838\\uD839\\uD83A\\uD83B\\uD83C\\uD83D\\uD83E\\uD83F'",
     "start": 1678,
-    "end": 1776,
-    "range": [
-      1678,
-      1776
-    ]
+    "end": 1776
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1776,
-    "end": 1777,
-    "range": [
-      1776,
-      1777
-    ]
+    "end": 1777
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1778,
-    "end": 1783,
-    "range": [
-      1778,
-      1783
-    ]
+    "end": 1783
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup5",
     "start": 1784,
-    "end": 1804,
-    "range": [
-      1784,
-      1804
-    ]
+    "end": 1804
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1805,
-    "end": 1806,
-    "range": [
-      1805,
-      1806
-    ]
+    "end": 1806
   },
   {
     "type": "String",
     "value": "'\\uD840\\uD841\\uD842\\uD843\\uD844\\uD845\\uD846\\uD847\\uD848\\uD849\\uD84A\\uD84B\\uD84C\\uD84D\\uD84E\\uD84F'",
     "start": 1807,
-    "end": 1905,
-    "range": [
-      1807,
-      1905
-    ]
+    "end": 1905
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1905,
-    "end": 1906,
-    "range": [
-      1905,
-      1906
-    ]
+    "end": 1906
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 1907,
-    "end": 1912,
-    "range": [
-      1907,
-      1912
-    ]
+    "end": 1912
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup6",
     "start": 1913,
-    "end": 1933,
-    "range": [
-      1913,
-      1933
-    ]
+    "end": 1933
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1934,
-    "end": 1935,
-    "range": [
-      1934,
-      1935
-    ]
+    "end": 1935
   },
   {
     "type": "String",
     "value": "'\\uD850\\uD851\\uD852\\uD853\\uD854\\uD855\\uD856\\uD857\\uD858\\uD859\\uD85A\\uD85B\\uD85C\\uD85D\\uD85E\\uD85F'",
     "start": 1936,
-    "end": 2034,
-    "range": [
-      1936,
-      2034
-    ]
+    "end": 2034
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2034,
-    "end": 2035,
-    "range": [
-      2034,
-      2035
-    ]
+    "end": 2035
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2036,
-    "end": 2041,
-    "range": [
-      2036,
-      2041
-    ]
+    "end": 2041
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup7",
     "start": 2042,
-    "end": 2062,
-    "range": [
-      2042,
-      2062
-    ]
+    "end": 2062
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2063,
-    "end": 2064,
-    "range": [
-      2063,
-      2064
-    ]
+    "end": 2064
   },
   {
     "type": "String",
     "value": "'\\uD860\\uD861\\uD862\\uD863\\uD864\\uD865\\uD866\\uD867\\uD868\\uD869\\uD86A\\uD86B\\uD86C\\uD86D\\uD86E\\uD86F'",
     "start": 2065,
-    "end": 2163,
-    "range": [
-      2065,
-      2163
-    ]
+    "end": 2163
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2163,
-    "end": 2164,
-    "range": [
-      2163,
-      2164
-    ]
+    "end": 2164
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2165,
-    "end": 2170,
-    "range": [
-      2165,
-      2170
-    ]
+    "end": 2170
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup8",
     "start": 2171,
-    "end": 2191,
-    "range": [
-      2171,
-      2191
-    ]
+    "end": 2191
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2192,
-    "end": 2193,
-    "range": [
-      2192,
-      2193
-    ]
+    "end": 2193
   },
   {
     "type": "String",
     "value": "'\\uD870\\uD871\\uD872\\uD873\\uD874\\uD875\\uD876\\uD877\\uD878\\uD879\\uD87A\\uD87B\\uD87C\\uD87D\\uD87E\\uD87F'",
     "start": 2194,
-    "end": 2292,
-    "range": [
-      2194,
-      2292
-    ]
+    "end": 2292
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2292,
-    "end": 2293,
-    "range": [
-      2292,
-      2293
-    ]
+    "end": 2293
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2294,
-    "end": 2299,
-    "range": [
-      2294,
-      2299
-    ]
+    "end": 2299
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup9",
     "start": 2300,
-    "end": 2320,
-    "range": [
-      2300,
-      2320
-    ]
+    "end": 2320
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2321,
-    "end": 2322,
-    "range": [
-      2321,
-      2322
-    ]
+    "end": 2322
   },
   {
     "type": "String",
     "value": "'\\uD880\\uD881\\uD882\\uD883\\uD884\\uD885\\uD886\\uD887\\uD888\\uD889\\uD88A\\uD88B\\uD88C\\uD88D\\uD88E\\uD88F'",
     "start": 2323,
-    "end": 2421,
-    "range": [
-      2323,
-      2421
-    ]
+    "end": 2421
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2421,
-    "end": 2422,
-    "range": [
-      2421,
-      2422
-    ]
+    "end": 2422
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2423,
-    "end": 2428,
-    "range": [
-      2423,
-      2428
-    ]
+    "end": 2428
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup10",
     "start": 2429,
-    "end": 2450,
-    "range": [
-      2429,
-      2450
-    ]
+    "end": 2450
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2451,
-    "end": 2452,
-    "range": [
-      2451,
-      2452
-    ]
+    "end": 2452
   },
   {
     "type": "String",
     "value": "'\\uD890\\uD891\\uD892\\uD893\\uD894\\uD895\\uD896\\uD897\\uD898\\uD899\\uD89A\\uD89B\\uD89C\\uD89D\\uD89E\\uD89F'",
     "start": 2453,
-    "end": 2551,
-    "range": [
-      2453,
-      2551
-    ]
+    "end": 2551
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2551,
-    "end": 2552,
-    "range": [
-      2551,
-      2552
-    ]
+    "end": 2552
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2553,
-    "end": 2558,
-    "range": [
-      2553,
-      2558
-    ]
+    "end": 2558
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup11",
     "start": 2559,
-    "end": 2580,
-    "range": [
-      2559,
-      2580
-    ]
+    "end": 2580
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2581,
-    "end": 2582,
-    "range": [
-      2581,
-      2582
-    ]
+    "end": 2582
   },
   {
     "type": "String",
     "value": "'\\uD8A0\\uD8A1\\uD8A2\\uD8A3\\uD8A4\\uD8A5\\uD8A6\\uD8A7\\uD8A8\\uD8A9\\uD8AA\\uD8AB\\uD8AC\\uD8AD\\uD8AE\\uD8AF'",
     "start": 2583,
-    "end": 2681,
-    "range": [
-      2583,
-      2681
-    ]
+    "end": 2681
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2681,
-    "end": 2682,
-    "range": [
-      2681,
-      2682
-    ]
+    "end": 2682
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2683,
-    "end": 2688,
-    "range": [
-      2683,
-      2688
-    ]
+    "end": 2688
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup12",
     "start": 2689,
-    "end": 2710,
-    "range": [
-      2689,
-      2710
-    ]
+    "end": 2710
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2711,
-    "end": 2712,
-    "range": [
-      2711,
-      2712
-    ]
+    "end": 2712
   },
   {
     "type": "String",
     "value": "'\\uD8B0\\uD8B1\\uD8B2\\uD8B3\\uD8B4\\uD8B5\\uD8B6\\uD8B7\\uD8B8\\uD8B9\\uD8BA\\uD8BB\\uD8BC\\uD8BD\\uD8BE\\uD8BF'",
     "start": 2713,
-    "end": 2811,
-    "range": [
-      2713,
-      2811
-    ]
+    "end": 2811
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2811,
-    "end": 2812,
-    "range": [
-      2811,
-      2812
-    ]
+    "end": 2812
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2813,
-    "end": 2818,
-    "range": [
-      2813,
-      2818
-    ]
+    "end": 2818
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup13",
     "start": 2819,
-    "end": 2840,
-    "range": [
-      2819,
-      2840
-    ]
+    "end": 2840
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2841,
-    "end": 2842,
-    "range": [
-      2841,
-      2842
-    ]
+    "end": 2842
   },
   {
     "type": "String",
     "value": "'\\uD8C0\\uD8C1\\uD8C2\\uD8C3\\uD8C4\\uD8C5\\uD8C6\\uD8C7\\uD8C8\\uD8C9\\uD8CA\\uD8CB\\uD8CC\\uD8CD\\uD8CE\\uD8CF'",
     "start": 2843,
-    "end": 2941,
-    "range": [
-      2843,
-      2941
-    ]
+    "end": 2941
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2941,
-    "end": 2942,
-    "range": [
-      2941,
-      2942
-    ]
+    "end": 2942
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 2943,
-    "end": 2948,
-    "range": [
-      2943,
-      2948
-    ]
+    "end": 2948
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup14",
     "start": 2949,
-    "end": 2970,
-    "range": [
-      2949,
-      2970
-    ]
+    "end": 2970
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2971,
-    "end": 2972,
-    "range": [
-      2971,
-      2972
-    ]
+    "end": 2972
   },
   {
     "type": "String",
     "value": "'\\uD8D0\\uD8D1\\uD8D2\\uD8D3\\uD8D4\\uD8D5\\uD8D6\\uD8D7\\uD8D8\\uD8D9\\uD8DA\\uD8DB\\uD8DC\\uD8DD\\uD8DE\\uD8DF'",
     "start": 2973,
-    "end": 3071,
-    "range": [
-      2973,
-      3071
-    ]
+    "end": 3071
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3071,
-    "end": 3072,
-    "range": [
-      3071,
-      3072
-    ]
+    "end": 3072
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 3073,
-    "end": 3078,
-    "range": [
-      3073,
-      3078
-    ]
+    "end": 3078
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup15",
     "start": 3079,
-    "end": 3100,
-    "range": [
-      3079,
-      3100
-    ]
+    "end": 3100
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3101,
-    "end": 3102,
-    "range": [
-      3101,
-      3102
-    ]
+    "end": 3102
   },
   {
     "type": "String",
     "value": "'\\uD8E0\\uD8E1\\uD8E2\\uD8E3\\uD8E4\\uD8E5\\uD8E6\\uD8E7\\uD8E8\\uD8E9\\uD8EA\\uD8EB\\uD8EC\\uD8ED\\uD8EE\\uD8EF'",
     "start": 3103,
-    "end": 3201,
-    "range": [
-      3103,
-      3201
-    ]
+    "end": 3201
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3201,
-    "end": 3202,
-    "range": [
-      3201,
-      3202
-    ]
+    "end": 3202
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 3203,
-    "end": 3208,
-    "range": [
-      3203,
-      3208
-    ]
+    "end": 3208
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup16",
     "start": 3209,
-    "end": 3230,
-    "range": [
-      3209,
-      3230
-    ]
+    "end": 3230
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3231,
-    "end": 3232,
-    "range": [
-      3231,
-      3232
-    ]
+    "end": 3232
   },
   {
     "type": "String",
     "value": "'\\uD8F0\\uD8F1\\uD8F2\\uD8F3\\uD8F4\\uD8F5\\uD8F6\\uD8F7\\uD8F8\\uD8F9\\uD8FA\\uD8FB\\uD8FC\\uD8FD\\uD8FE\\uD8FF'",
     "start": 3233,
-    "end": 3331,
-    "range": [
-      3233,
-      3331
-    ]
+    "end": 3331
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3331,
-    "end": 3332,
-    "range": [
-      3331,
-      3332
-    ]
+    "end": 3332
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3334,
-    "end": 3340,
-    "range": [
-      3334,
-      3340
-    ]
+    "end": 3340
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3340,
-    "end": 3341,
-    "range": [
-      3340,
-      3341
-    ]
+    "end": 3341
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3341,
-    "end": 3350,
-    "range": [
-      3341,
-      3350
-    ]
+    "end": 3350
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3350,
-    "end": 3351,
-    "range": [
-      3350,
-      3351
-    ]
+    "end": 3351
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 3351,
-    "end": 3357,
-    "range": [
-      3351,
-      3357
-    ]
+    "end": 3357
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3357,
-    "end": 3358,
-    "range": [
-      3357,
-      3358
-    ]
+    "end": 3358
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 3358,
-    "end": 3364,
-    "range": [
-      3358,
-      3364
-    ]
+    "end": 3364
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3364,
-    "end": 3365,
-    "range": [
-      3364,
-      3365
-    ]
+    "end": 3365
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup1",
     "start": 3365,
-    "end": 3385,
-    "range": [
-      3365,
-      3385
-    ]
+    "end": 3385
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3385,
-    "end": 3386,
-    "range": [
-      3385,
-      3386
-    ]
+    "end": 3386
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3386,
-    "end": 3387,
-    "range": [
-      3386,
-      3387
-    ]
+    "end": 3387
   },
   {
     "type": "String",
     "value": "'\\\\ud800\\\\ud801\\\\ud802\\\\ud803\\\\ud804\\\\ud805\\\\ud806\\\\ud807\\\\ud808\\\\ud809\\\\ud80a\\\\ud80b\\\\ud80c\\\\ud80d\\\\ud80e\\\\ud80f'",
     "start": 3389,
-    "end": 3503,
-    "range": [
-      3389,
-      3503
-    ]
+    "end": 3503
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3503,
-    "end": 3504,
-    "range": [
-      3503,
-      3504
-    ]
+    "end": 3504
   },
   {
     "type": "String",
     "value": "'High surrogates group 1 are correctly escaped'",
     "start": 3505,
-    "end": 3552,
-    "range": [
-      3505,
-      3552
-    ]
+    "end": 3552
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3552,
-    "end": 3553,
-    "range": [
-      3552,
-      3553
-    ]
+    "end": 3553
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3553,
-    "end": 3554,
-    "range": [
-      3553,
-      3554
-    ]
+    "end": 3554
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3555,
-    "end": 3561,
-    "range": [
-      3555,
-      3561
-    ]
+    "end": 3561
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3561,
-    "end": 3562,
-    "range": [
-      3561,
-      3562
-    ]
+    "end": 3562
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3562,
-    "end": 3571,
-    "range": [
-      3562,
-      3571
-    ]
+    "end": 3571
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3571,
-    "end": 3572,
-    "range": [
-      3571,
-      3572
-    ]
+    "end": 3572
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 3572,
-    "end": 3578,
-    "range": [
-      3572,
-      3578
-    ]
+    "end": 3578
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3578,
-    "end": 3579,
-    "range": [
-      3578,
-      3579
-    ]
+    "end": 3579
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 3579,
-    "end": 3585,
-    "range": [
-      3579,
-      3585
-    ]
+    "end": 3585
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3585,
-    "end": 3586,
-    "range": [
-      3585,
-      3586
-    ]
+    "end": 3586
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup2",
     "start": 3586,
-    "end": 3606,
-    "range": [
-      3586,
-      3606
-    ]
+    "end": 3606
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3606,
-    "end": 3607,
-    "range": [
-      3606,
-      3607
-    ]
+    "end": 3607
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3607,
-    "end": 3608,
-    "range": [
-      3607,
-      3608
-    ]
+    "end": 3608
   },
   {
     "type": "String",
     "value": "'\\\\ud810\\\\ud811\\\\ud812\\\\ud813\\\\ud814\\\\ud815\\\\ud816\\\\ud817\\\\ud818\\\\ud819\\\\ud81a\\\\ud81b\\\\ud81c\\\\ud81d\\\\ud81e\\\\ud81f'",
     "start": 3610,
-    "end": 3724,
-    "range": [
-      3610,
-      3724
-    ]
+    "end": 3724
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3724,
-    "end": 3725,
-    "range": [
-      3724,
-      3725
-    ]
+    "end": 3725
   },
   {
     "type": "String",
     "value": "'High surrogates group 2 are correctly escaped'",
     "start": 3726,
-    "end": 3773,
-    "range": [
-      3726,
-      3773
-    ]
+    "end": 3773
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3773,
-    "end": 3774,
-    "range": [
-      3773,
-      3774
-    ]
+    "end": 3774
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3774,
-    "end": 3775,
-    "range": [
-      3774,
-      3775
-    ]
+    "end": 3775
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3776,
-    "end": 3782,
-    "range": [
-      3776,
-      3782
-    ]
+    "end": 3782
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3782,
-    "end": 3783,
-    "range": [
-      3782,
-      3783
-    ]
+    "end": 3783
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 3783,
-    "end": 3792,
-    "range": [
-      3783,
-      3792
-    ]
+    "end": 3792
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3792,
-    "end": 3793,
-    "range": [
-      3792,
-      3793
-    ]
+    "end": 3793
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 3793,
-    "end": 3799,
-    "range": [
-      3793,
-      3799
-    ]
+    "end": 3799
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3799,
-    "end": 3800,
-    "range": [
-      3799,
-      3800
-    ]
+    "end": 3800
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 3800,
-    "end": 3806,
-    "range": [
-      3800,
-      3806
-    ]
+    "end": 3806
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3806,
-    "end": 3807,
-    "range": [
-      3806,
-      3807
-    ]
+    "end": 3807
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup3",
     "start": 3807,
-    "end": 3827,
-    "range": [
-      3807,
-      3827
-    ]
+    "end": 3827
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3827,
-    "end": 3828,
-    "range": [
-      3827,
-      3828
-    ]
+    "end": 3828
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3828,
-    "end": 3829,
-    "range": [
-      3828,
-      3829
-    ]
+    "end": 3829
   },
   {
     "type": "String",
     "value": "'\\\\ud820\\\\ud821\\\\ud822\\\\ud823\\\\ud824\\\\ud825\\\\ud826\\\\ud827\\\\ud828\\\\ud829\\\\ud82a\\\\ud82b\\\\ud82c\\\\ud82d\\\\ud82e\\\\ud82f'",
     "start": 3831,
-    "end": 3945,
-    "range": [
-      3831,
-      3945
-    ]
+    "end": 3945
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 3945,
-    "end": 3946,
-    "range": [
-      3945,
-      3946
-    ]
+    "end": 3946
   },
   {
     "type": "String",
     "value": "'High surrogates group 3 are correctly escaped'",
     "start": 3947,
-    "end": 3994,
-    "range": [
-      3947,
-      3994
-    ]
+    "end": 3994
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3994,
-    "end": 3995,
-    "range": [
-      3994,
-      3995
-    ]
+    "end": 3995
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3995,
-    "end": 3996,
-    "range": [
-      3995,
-      3996
-    ]
+    "end": 3996
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 3997,
-    "end": 4003,
-    "range": [
-      3997,
-      4003
-    ]
+    "end": 4003
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4003,
-    "end": 4004,
-    "range": [
-      4003,
-      4004
-    ]
+    "end": 4004
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4004,
-    "end": 4013,
-    "range": [
-      4004,
-      4013
-    ]
+    "end": 4013
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4013,
-    "end": 4014,
-    "range": [
-      4013,
-      4014
-    ]
+    "end": 4014
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 4014,
-    "end": 4020,
-    "range": [
-      4014,
-      4020
-    ]
+    "end": 4020
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4020,
-    "end": 4021,
-    "range": [
-      4020,
-      4021
-    ]
+    "end": 4021
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 4021,
-    "end": 4027,
-    "range": [
-      4021,
-      4027
-    ]
+    "end": 4027
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4027,
-    "end": 4028,
-    "range": [
-      4027,
-      4028
-    ]
+    "end": 4028
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup4",
     "start": 4028,
-    "end": 4048,
-    "range": [
-      4028,
-      4048
-    ]
+    "end": 4048
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4048,
-    "end": 4049,
-    "range": [
-      4048,
-      4049
-    ]
+    "end": 4049
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4049,
-    "end": 4050,
-    "range": [
-      4049,
-      4050
-    ]
+    "end": 4050
   },
   {
     "type": "String",
     "value": "'\\\\ud830\\\\ud831\\\\ud832\\\\ud833\\\\ud834\\\\ud835\\\\ud836\\\\ud837\\\\ud838\\\\ud839\\\\ud83a\\\\ud83b\\\\ud83c\\\\ud83d\\\\ud83e\\\\ud83f'",
     "start": 4052,
-    "end": 4166,
-    "range": [
-      4052,
-      4166
-    ]
+    "end": 4166
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4166,
-    "end": 4167,
-    "range": [
-      4166,
-      4167
-    ]
+    "end": 4167
   },
   {
     "type": "String",
     "value": "'High surrogates group 4 are correctly escaped'",
     "start": 4168,
-    "end": 4215,
-    "range": [
-      4168,
-      4215
-    ]
+    "end": 4215
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4215,
-    "end": 4216,
-    "range": [
-      4215,
-      4216
-    ]
+    "end": 4216
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4216,
-    "end": 4217,
-    "range": [
-      4216,
-      4217
-    ]
+    "end": 4217
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4218,
-    "end": 4224,
-    "range": [
-      4218,
-      4224
-    ]
+    "end": 4224
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4224,
-    "end": 4225,
-    "range": [
-      4224,
-      4225
-    ]
+    "end": 4225
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4225,
-    "end": 4234,
-    "range": [
-      4225,
-      4234
-    ]
+    "end": 4234
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4234,
-    "end": 4235,
-    "range": [
-      4234,
-      4235
-    ]
+    "end": 4235
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 4235,
-    "end": 4241,
-    "range": [
-      4235,
-      4241
-    ]
+    "end": 4241
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4241,
-    "end": 4242,
-    "range": [
-      4241,
-      4242
-    ]
+    "end": 4242
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 4242,
-    "end": 4248,
-    "range": [
-      4242,
-      4248
-    ]
+    "end": 4248
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4248,
-    "end": 4249,
-    "range": [
-      4248,
-      4249
-    ]
+    "end": 4249
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup5",
     "start": 4249,
-    "end": 4269,
-    "range": [
-      4249,
-      4269
-    ]
+    "end": 4269
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4269,
-    "end": 4270,
-    "range": [
-      4269,
-      4270
-    ]
+    "end": 4270
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4270,
-    "end": 4271,
-    "range": [
-      4270,
-      4271
-    ]
+    "end": 4271
   },
   {
     "type": "String",
     "value": "'\\\\ud840\\\\ud841\\\\ud842\\\\ud843\\\\ud844\\\\ud845\\\\ud846\\\\ud847\\\\ud848\\\\ud849\\\\ud84a\\\\ud84b\\\\ud84c\\\\ud84d\\\\ud84e\\\\ud84f'",
     "start": 4273,
-    "end": 4387,
-    "range": [
-      4273,
-      4387
-    ]
+    "end": 4387
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4387,
-    "end": 4388,
-    "range": [
-      4387,
-      4388
-    ]
+    "end": 4388
   },
   {
     "type": "String",
     "value": "'High surrogates group 5 are correctly escaped'",
     "start": 4389,
-    "end": 4436,
-    "range": [
-      4389,
-      4436
-    ]
+    "end": 4436
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4436,
-    "end": 4437,
-    "range": [
-      4436,
-      4437
-    ]
+    "end": 4437
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4437,
-    "end": 4438,
-    "range": [
-      4437,
-      4438
-    ]
+    "end": 4438
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4439,
-    "end": 4445,
-    "range": [
-      4439,
-      4445
-    ]
+    "end": 4445
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4445,
-    "end": 4446,
-    "range": [
-      4445,
-      4446
-    ]
+    "end": 4446
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4446,
-    "end": 4455,
-    "range": [
-      4446,
-      4455
-    ]
+    "end": 4455
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4455,
-    "end": 4456,
-    "range": [
-      4455,
-      4456
-    ]
+    "end": 4456
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 4456,
-    "end": 4462,
-    "range": [
-      4456,
-      4462
-    ]
+    "end": 4462
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4462,
-    "end": 4463,
-    "range": [
-      4462,
-      4463
-    ]
+    "end": 4463
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 4463,
-    "end": 4469,
-    "range": [
-      4463,
-      4469
-    ]
+    "end": 4469
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4469,
-    "end": 4470,
-    "range": [
-      4469,
-      4470
-    ]
+    "end": 4470
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup6",
     "start": 4470,
-    "end": 4490,
-    "range": [
-      4470,
-      4490
-    ]
+    "end": 4490
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4490,
-    "end": 4491,
-    "range": [
-      4490,
-      4491
-    ]
+    "end": 4491
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4491,
-    "end": 4492,
-    "range": [
-      4491,
-      4492
-    ]
+    "end": 4492
   },
   {
     "type": "String",
     "value": "'\\\\ud850\\\\ud851\\\\ud852\\\\ud853\\\\ud854\\\\ud855\\\\ud856\\\\ud857\\\\ud858\\\\ud859\\\\ud85a\\\\ud85b\\\\ud85c\\\\ud85d\\\\ud85e\\\\ud85f'",
     "start": 4494,
-    "end": 4608,
-    "range": [
-      4494,
-      4608
-    ]
+    "end": 4608
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4608,
-    "end": 4609,
-    "range": [
-      4608,
-      4609
-    ]
+    "end": 4609
   },
   {
     "type": "String",
     "value": "'High surrogates group 6 are correctly escaped'",
     "start": 4610,
-    "end": 4657,
-    "range": [
-      4610,
-      4657
-    ]
+    "end": 4657
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4657,
-    "end": 4658,
-    "range": [
-      4657,
-      4658
-    ]
+    "end": 4658
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4658,
-    "end": 4659,
-    "range": [
-      4658,
-      4659
-    ]
+    "end": 4659
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4660,
-    "end": 4666,
-    "range": [
-      4660,
-      4666
-    ]
+    "end": 4666
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4666,
-    "end": 4667,
-    "range": [
-      4666,
-      4667
-    ]
+    "end": 4667
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4667,
-    "end": 4676,
-    "range": [
-      4667,
-      4676
-    ]
+    "end": 4676
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4676,
-    "end": 4677,
-    "range": [
-      4676,
-      4677
-    ]
+    "end": 4677
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 4677,
-    "end": 4683,
-    "range": [
-      4677,
-      4683
-    ]
+    "end": 4683
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4683,
-    "end": 4684,
-    "range": [
-      4683,
-      4684
-    ]
+    "end": 4684
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 4684,
-    "end": 4690,
-    "range": [
-      4684,
-      4690
-    ]
+    "end": 4690
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4690,
-    "end": 4691,
-    "range": [
-      4690,
-      4691
-    ]
+    "end": 4691
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup7",
     "start": 4691,
-    "end": 4711,
-    "range": [
-      4691,
-      4711
-    ]
+    "end": 4711
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4711,
-    "end": 4712,
-    "range": [
-      4711,
-      4712
-    ]
+    "end": 4712
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4712,
-    "end": 4713,
-    "range": [
-      4712,
-      4713
-    ]
+    "end": 4713
   },
   {
     "type": "String",
     "value": "'\\\\ud860\\\\ud861\\\\ud862\\\\ud863\\\\ud864\\\\ud865\\\\ud866\\\\ud867\\\\ud868\\\\ud869\\\\ud86a\\\\ud86b\\\\ud86c\\\\ud86d\\\\ud86e\\\\ud86f'",
     "start": 4715,
-    "end": 4829,
-    "range": [
-      4715,
-      4829
-    ]
+    "end": 4829
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4829,
-    "end": 4830,
-    "range": [
-      4829,
-      4830
-    ]
+    "end": 4830
   },
   {
     "type": "String",
     "value": "'High surrogates group 7 are correctly escaped'",
     "start": 4831,
-    "end": 4878,
-    "range": [
-      4831,
-      4878
-    ]
+    "end": 4878
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4878,
-    "end": 4879,
-    "range": [
-      4878,
-      4879
-    ]
+    "end": 4879
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4879,
-    "end": 4880,
-    "range": [
-      4879,
-      4880
-    ]
+    "end": 4880
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 4881,
-    "end": 4887,
-    "range": [
-      4881,
-      4887
-    ]
+    "end": 4887
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4887,
-    "end": 4888,
-    "range": [
-      4887,
-      4888
-    ]
+    "end": 4888
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 4888,
-    "end": 4897,
-    "range": [
-      4888,
-      4897
-    ]
+    "end": 4897
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4897,
-    "end": 4898,
-    "range": [
-      4897,
-      4898
-    ]
+    "end": 4898
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 4898,
-    "end": 4904,
-    "range": [
-      4898,
-      4904
-    ]
+    "end": 4904
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4904,
-    "end": 4905,
-    "range": [
-      4904,
-      4905
-    ]
+    "end": 4905
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 4905,
-    "end": 4911,
-    "range": [
-      4905,
-      4911
-    ]
+    "end": 4911
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4911,
-    "end": 4912,
-    "range": [
-      4911,
-      4912
-    ]
+    "end": 4912
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup8",
     "start": 4912,
-    "end": 4932,
-    "range": [
-      4912,
-      4932
-    ]
+    "end": 4932
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4932,
-    "end": 4933,
-    "range": [
-      4932,
-      4933
-    ]
+    "end": 4933
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 4933,
-    "end": 4934,
-    "range": [
-      4933,
-      4934
-    ]
+    "end": 4934
   },
   {
     "type": "String",
     "value": "'\\\\ud870\\\\ud871\\\\ud872\\\\ud873\\\\ud874\\\\ud875\\\\ud876\\\\ud877\\\\ud878\\\\ud879\\\\ud87a\\\\ud87b\\\\ud87c\\\\ud87d\\\\ud87e\\\\ud87f'",
     "start": 4936,
-    "end": 5050,
-    "range": [
-      4936,
-      5050
-    ]
+    "end": 5050
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5050,
-    "end": 5051,
-    "range": [
-      5050,
-      5051
-    ]
+    "end": 5051
   },
   {
     "type": "String",
     "value": "'High surrogates group 8 are correctly escaped'",
     "start": 5052,
-    "end": 5099,
-    "range": [
-      5052,
-      5099
-    ]
+    "end": 5099
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5099,
-    "end": 5100,
-    "range": [
-      5099,
-      5100
-    ]
+    "end": 5100
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5100,
-    "end": 5101,
-    "range": [
-      5100,
-      5101
-    ]
+    "end": 5101
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5102,
-    "end": 5108,
-    "range": [
-      5102,
-      5108
-    ]
+    "end": 5108
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5108,
-    "end": 5109,
-    "range": [
-      5108,
-      5109
-    ]
+    "end": 5109
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5109,
-    "end": 5118,
-    "range": [
-      5109,
-      5118
-    ]
+    "end": 5118
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5118,
-    "end": 5119,
-    "range": [
-      5118,
-      5119
-    ]
+    "end": 5119
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 5119,
-    "end": 5125,
-    "range": [
-      5119,
-      5125
-    ]
+    "end": 5125
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5125,
-    "end": 5126,
-    "range": [
-      5125,
-      5126
-    ]
+    "end": 5126
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 5126,
-    "end": 5132,
-    "range": [
-      5126,
-      5132
-    ]
+    "end": 5132
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5132,
-    "end": 5133,
-    "range": [
-      5132,
-      5133
-    ]
+    "end": 5133
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup9",
     "start": 5133,
-    "end": 5153,
-    "range": [
-      5133,
-      5153
-    ]
+    "end": 5153
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5153,
-    "end": 5154,
-    "range": [
-      5153,
-      5154
-    ]
+    "end": 5154
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5154,
-    "end": 5155,
-    "range": [
-      5154,
-      5155
-    ]
+    "end": 5155
   },
   {
     "type": "String",
     "value": "'\\\\ud880\\\\ud881\\\\ud882\\\\ud883\\\\ud884\\\\ud885\\\\ud886\\\\ud887\\\\ud888\\\\ud889\\\\ud88a\\\\ud88b\\\\ud88c\\\\ud88d\\\\ud88e\\\\ud88f'",
     "start": 5157,
-    "end": 5271,
-    "range": [
-      5157,
-      5271
-    ]
+    "end": 5271
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5271,
-    "end": 5272,
-    "range": [
-      5271,
-      5272
-    ]
+    "end": 5272
   },
   {
     "type": "String",
     "value": "'High surrogates group 9 are correctly escaped'",
     "start": 5273,
-    "end": 5320,
-    "range": [
-      5273,
-      5320
-    ]
+    "end": 5320
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5320,
-    "end": 5321,
-    "range": [
-      5320,
-      5321
-    ]
+    "end": 5321
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5321,
-    "end": 5322,
-    "range": [
-      5321,
-      5322
-    ]
+    "end": 5322
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5323,
-    "end": 5329,
-    "range": [
-      5323,
-      5329
-    ]
+    "end": 5329
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5329,
-    "end": 5330,
-    "range": [
-      5329,
-      5330
-    ]
+    "end": 5330
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5330,
-    "end": 5339,
-    "range": [
-      5330,
-      5339
-    ]
+    "end": 5339
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5339,
-    "end": 5340,
-    "range": [
-      5339,
-      5340
-    ]
+    "end": 5340
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 5340,
-    "end": 5346,
-    "range": [
-      5340,
-      5346
-    ]
+    "end": 5346
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5346,
-    "end": 5347,
-    "range": [
-      5346,
-      5347
-    ]
+    "end": 5347
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 5347,
-    "end": 5353,
-    "range": [
-      5347,
-      5353
-    ]
+    "end": 5353
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5353,
-    "end": 5354,
-    "range": [
-      5353,
-      5354
-    ]
+    "end": 5354
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup10",
     "start": 5354,
-    "end": 5375,
-    "range": [
-      5354,
-      5375
-    ]
+    "end": 5375
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5375,
-    "end": 5376,
-    "range": [
-      5375,
-      5376
-    ]
+    "end": 5376
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5376,
-    "end": 5377,
-    "range": [
-      5376,
-      5377
-    ]
+    "end": 5377
   },
   {
     "type": "String",
     "value": "'\\\\ud890\\\\ud891\\\\ud892\\\\ud893\\\\ud894\\\\ud895\\\\ud896\\\\ud897\\\\ud898\\\\ud899\\\\ud89a\\\\ud89b\\\\ud89c\\\\ud89d\\\\ud89e\\\\ud89f'",
     "start": 5378,
-    "end": 5492,
-    "range": [
-      5378,
-      5492
-    ]
+    "end": 5492
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5492,
-    "end": 5493,
-    "range": [
-      5492,
-      5493
-    ]
+    "end": 5493
   },
   {
     "type": "String",
     "value": "'High surrogates group 10 are correctly escaped'",
     "start": 5494,
-    "end": 5542,
-    "range": [
-      5494,
-      5542
-    ]
+    "end": 5542
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5542,
-    "end": 5543,
-    "range": [
-      5542,
-      5543
-    ]
+    "end": 5543
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5543,
-    "end": 5544,
-    "range": [
-      5543,
-      5544
-    ]
+    "end": 5544
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5545,
-    "end": 5551,
-    "range": [
-      5545,
-      5551
-    ]
+    "end": 5551
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5551,
-    "end": 5552,
-    "range": [
-      5551,
-      5552
-    ]
+    "end": 5552
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5552,
-    "end": 5561,
-    "range": [
-      5552,
-      5561
-    ]
+    "end": 5561
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5561,
-    "end": 5562,
-    "range": [
-      5561,
-      5562
-    ]
+    "end": 5562
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 5562,
-    "end": 5568,
-    "range": [
-      5562,
-      5568
-    ]
+    "end": 5568
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5568,
-    "end": 5569,
-    "range": [
-      5568,
-      5569
-    ]
+    "end": 5569
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 5569,
-    "end": 5575,
-    "range": [
-      5569,
-      5575
-    ]
+    "end": 5575
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5575,
-    "end": 5576,
-    "range": [
-      5575,
-      5576
-    ]
+    "end": 5576
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup11",
     "start": 5576,
-    "end": 5597,
-    "range": [
-      5576,
-      5597
-    ]
+    "end": 5597
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5597,
-    "end": 5598,
-    "range": [
-      5597,
-      5598
-    ]
+    "end": 5598
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5598,
-    "end": 5599,
-    "range": [
-      5598,
-      5599
-    ]
+    "end": 5599
   },
   {
     "type": "String",
     "value": "'\\\\ud8a0\\\\ud8a1\\\\ud8a2\\\\ud8a3\\\\ud8a4\\\\ud8a5\\\\ud8a6\\\\ud8a7\\\\ud8a8\\\\ud8a9\\\\ud8aa\\\\ud8ab\\\\ud8ac\\\\ud8ad\\\\ud8ae\\\\ud8af'",
     "start": 5600,
-    "end": 5714,
-    "range": [
-      5600,
-      5714
-    ]
+    "end": 5714
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5714,
-    "end": 5715,
-    "range": [
-      5714,
-      5715
-    ]
+    "end": 5715
   },
   {
     "type": "String",
     "value": "'High surrogates group 11 are correctly escaped'",
     "start": 5716,
-    "end": 5764,
-    "range": [
-      5716,
-      5764
-    ]
+    "end": 5764
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5764,
-    "end": 5765,
-    "range": [
-      5764,
-      5765
-    ]
+    "end": 5765
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5765,
-    "end": 5766,
-    "range": [
-      5765,
-      5766
-    ]
+    "end": 5766
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5767,
-    "end": 5773,
-    "range": [
-      5767,
-      5773
-    ]
+    "end": 5773
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5773,
-    "end": 5774,
-    "range": [
-      5773,
-      5774
-    ]
+    "end": 5774
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5774,
-    "end": 5783,
-    "range": [
-      5774,
-      5783
-    ]
+    "end": 5783
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5783,
-    "end": 5784,
-    "range": [
-      5783,
-      5784
-    ]
+    "end": 5784
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 5784,
-    "end": 5790,
-    "range": [
-      5784,
-      5790
-    ]
+    "end": 5790
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5790,
-    "end": 5791,
-    "range": [
-      5790,
-      5791
-    ]
+    "end": 5791
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 5791,
-    "end": 5797,
-    "range": [
-      5791,
-      5797
-    ]
+    "end": 5797
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5797,
-    "end": 5798,
-    "range": [
-      5797,
-      5798
-    ]
+    "end": 5798
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup12",
     "start": 5798,
-    "end": 5819,
-    "range": [
-      5798,
-      5819
-    ]
+    "end": 5819
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5819,
-    "end": 5820,
-    "range": [
-      5819,
-      5820
-    ]
+    "end": 5820
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5820,
-    "end": 5821,
-    "range": [
-      5820,
-      5821
-    ]
+    "end": 5821
   },
   {
     "type": "String",
     "value": "'\\\\ud8b0\\\\ud8b1\\\\ud8b2\\\\ud8b3\\\\ud8b4\\\\ud8b5\\\\ud8b6\\\\ud8b7\\\\ud8b8\\\\ud8b9\\\\ud8ba\\\\ud8bb\\\\ud8bc\\\\ud8bd\\\\ud8be\\\\ud8bf'",
     "start": 5822,
-    "end": 5936,
-    "range": [
-      5822,
-      5936
-    ]
+    "end": 5936
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 5936,
-    "end": 5937,
-    "range": [
-      5936,
-      5937
-    ]
+    "end": 5937
   },
   {
     "type": "String",
     "value": "'High surrogates group 12 are correctly escaped'",
     "start": 5938,
-    "end": 5986,
-    "range": [
-      5938,
-      5986
-    ]
+    "end": 5986
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5986,
-    "end": 5987,
-    "range": [
-      5986,
-      5987
-    ]
+    "end": 5987
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5987,
-    "end": 5988,
-    "range": [
-      5987,
-      5988
-    ]
+    "end": 5988
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 5989,
-    "end": 5995,
-    "range": [
-      5989,
-      5995
-    ]
+    "end": 5995
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5995,
-    "end": 5996,
-    "range": [
-      5995,
-      5996
-    ]
+    "end": 5996
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 5996,
-    "end": 6005,
-    "range": [
-      5996,
-      6005
-    ]
+    "end": 6005
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6005,
-    "end": 6006,
-    "range": [
-      6005,
-      6006
-    ]
+    "end": 6006
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 6006,
-    "end": 6012,
-    "range": [
-      6006,
-      6012
-    ]
+    "end": 6012
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6012,
-    "end": 6013,
-    "range": [
-      6012,
-      6013
-    ]
+    "end": 6013
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 6013,
-    "end": 6019,
-    "range": [
-      6013,
-      6019
-    ]
+    "end": 6019
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6019,
-    "end": 6020,
-    "range": [
-      6019,
-      6020
-    ]
+    "end": 6020
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup13",
     "start": 6020,
-    "end": 6041,
-    "range": [
-      6020,
-      6041
-    ]
+    "end": 6041
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6041,
-    "end": 6042,
-    "range": [
-      6041,
-      6042
-    ]
+    "end": 6042
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6042,
-    "end": 6043,
-    "range": [
-      6042,
-      6043
-    ]
+    "end": 6043
   },
   {
     "type": "String",
     "value": "'\\\\ud8c0\\\\ud8c1\\\\ud8c2\\\\ud8c3\\\\ud8c4\\\\ud8c5\\\\ud8c6\\\\ud8c7\\\\ud8c8\\\\ud8c9\\\\ud8ca\\\\ud8cb\\\\ud8cc\\\\ud8cd\\\\ud8ce\\\\ud8cf'",
     "start": 6044,
-    "end": 6158,
-    "range": [
-      6044,
-      6158
-    ]
+    "end": 6158
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6158,
-    "end": 6159,
-    "range": [
-      6158,
-      6159
-    ]
+    "end": 6159
   },
   {
     "type": "String",
     "value": "'High surrogates group 13 are correctly escaped'",
     "start": 6160,
-    "end": 6208,
-    "range": [
-      6160,
-      6208
-    ]
+    "end": 6208
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6208,
-    "end": 6209,
-    "range": [
-      6208,
-      6209
-    ]
+    "end": 6209
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6209,
-    "end": 6210,
-    "range": [
-      6209,
-      6210
-    ]
+    "end": 6210
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6211,
-    "end": 6217,
-    "range": [
-      6211,
-      6217
-    ]
+    "end": 6217
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6217,
-    "end": 6218,
-    "range": [
-      6217,
-      6218
-    ]
+    "end": 6218
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6218,
-    "end": 6227,
-    "range": [
-      6218,
-      6227
-    ]
+    "end": 6227
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6227,
-    "end": 6228,
-    "range": [
-      6227,
-      6228
-    ]
+    "end": 6228
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 6228,
-    "end": 6234,
-    "range": [
-      6228,
-      6234
-    ]
+    "end": 6234
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6234,
-    "end": 6235,
-    "range": [
-      6234,
-      6235
-    ]
+    "end": 6235
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 6235,
-    "end": 6241,
-    "range": [
-      6235,
-      6241
-    ]
+    "end": 6241
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6241,
-    "end": 6242,
-    "range": [
-      6241,
-      6242
-    ]
+    "end": 6242
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup14",
     "start": 6242,
-    "end": 6263,
-    "range": [
-      6242,
-      6263
-    ]
+    "end": 6263
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6263,
-    "end": 6264,
-    "range": [
-      6263,
-      6264
-    ]
+    "end": 6264
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6264,
-    "end": 6265,
-    "range": [
-      6264,
-      6265
-    ]
+    "end": 6265
   },
   {
     "type": "String",
     "value": "'\\\\ud8d0\\\\ud8d1\\\\ud8d2\\\\ud8d3\\\\ud8d4\\\\ud8d5\\\\ud8d6\\\\ud8d7\\\\ud8d8\\\\ud8d9\\\\ud8da\\\\ud8db\\\\ud8dc\\\\ud8dd\\\\ud8de\\\\ud8df'",
     "start": 6266,
-    "end": 6380,
-    "range": [
-      6266,
-      6380
-    ]
+    "end": 6380
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6380,
-    "end": 6381,
-    "range": [
-      6380,
-      6381
-    ]
+    "end": 6381
   },
   {
     "type": "String",
     "value": "'High surrogates group 14 are correctly escaped'",
     "start": 6382,
-    "end": 6430,
-    "range": [
-      6382,
-      6430
-    ]
+    "end": 6430
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6430,
-    "end": 6431,
-    "range": [
-      6430,
-      6431
-    ]
+    "end": 6431
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6431,
-    "end": 6432,
-    "range": [
-      6431,
-      6432
-    ]
+    "end": 6432
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6433,
-    "end": 6439,
-    "range": [
-      6433,
-      6439
-    ]
+    "end": 6439
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6439,
-    "end": 6440,
-    "range": [
-      6439,
-      6440
-    ]
+    "end": 6440
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6440,
-    "end": 6449,
-    "range": [
-      6440,
-      6449
-    ]
+    "end": 6449
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6449,
-    "end": 6450,
-    "range": [
-      6449,
-      6450
-    ]
+    "end": 6450
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 6450,
-    "end": 6456,
-    "range": [
-      6450,
-      6456
-    ]
+    "end": 6456
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6456,
-    "end": 6457,
-    "range": [
-      6456,
-      6457
-    ]
+    "end": 6457
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 6457,
-    "end": 6463,
-    "range": [
-      6457,
-      6463
-    ]
+    "end": 6463
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6463,
-    "end": 6464,
-    "range": [
-      6463,
-      6464
-    ]
+    "end": 6464
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup15",
     "start": 6464,
-    "end": 6485,
-    "range": [
-      6464,
-      6485
-    ]
+    "end": 6485
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6485,
-    "end": 6486,
-    "range": [
-      6485,
-      6486
-    ]
+    "end": 6486
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6486,
-    "end": 6487,
-    "range": [
-      6486,
-      6487
-    ]
+    "end": 6487
   },
   {
     "type": "String",
     "value": "'\\\\ud8e0\\\\ud8e1\\\\ud8e2\\\\ud8e3\\\\ud8e4\\\\ud8e5\\\\ud8e6\\\\ud8e7\\\\ud8e8\\\\ud8e9\\\\ud8ea\\\\ud8eb\\\\ud8ec\\\\ud8ed\\\\ud8ee\\\\ud8ef'",
     "start": 6488,
-    "end": 6602,
-    "range": [
-      6488,
-      6602
-    ]
+    "end": 6602
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6602,
-    "end": 6603,
-    "range": [
-      6602,
-      6603
-    ]
+    "end": 6603
   },
   {
     "type": "String",
     "value": "'High surrogates group 15 are correctly escaped'",
     "start": 6604,
-    "end": 6652,
-    "range": [
-      6604,
-      6652
-    ]
+    "end": 6652
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6652,
-    "end": 6653,
-    "range": [
-      6652,
-      6653
-    ]
+    "end": 6653
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6653,
-    "end": 6654,
-    "range": [
-      6653,
-      6654
-    ]
+    "end": 6654
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 6655,
-    "end": 6661,
-    "range": [
-      6655,
-      6661
-    ]
+    "end": 6661
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6661,
-    "end": 6662,
-    "range": [
-      6661,
-      6662
-    ]
+    "end": 6662
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 6662,
-    "end": 6671,
-    "range": [
-      6662,
-      6671
-    ]
+    "end": 6671
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6671,
-    "end": 6672,
-    "range": [
-      6671,
-      6672
-    ]
+    "end": 6672
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 6672,
-    "end": 6678,
-    "range": [
-      6672,
-      6678
-    ]
+    "end": 6678
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6678,
-    "end": 6679,
-    "range": [
-      6678,
-      6679
-    ]
+    "end": 6679
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 6679,
-    "end": 6685,
-    "range": [
-      6679,
-      6685
-    ]
+    "end": 6685
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6685,
-    "end": 6686,
-    "range": [
-      6685,
-      6686
-    ]
+    "end": 6686
   },
   {
     "type": "Identifier",
     "value": "highSurrogatesGroup16",
     "start": 6686,
-    "end": 6707,
-    "range": [
-      6686,
-      6707
-    ]
+    "end": 6707
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6707,
-    "end": 6708,
-    "range": [
-      6707,
-      6708
-    ]
+    "end": 6708
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6708,
-    "end": 6709,
-    "range": [
-      6708,
-      6709
-    ]
+    "end": 6709
   },
   {
     "type": "String",
     "value": "'\\\\ud8f0\\\\ud8f1\\\\ud8f2\\\\ud8f3\\\\ud8f4\\\\ud8f5\\\\ud8f6\\\\ud8f7\\\\ud8f8\\\\ud8f9\\\\ud8fa\\\\ud8fb\\\\ud8fc\\\\ud8fd\\\\ud8fe\\\\ud8ff'",
     "start": 6710,
-    "end": 6824,
-    "range": [
-      6710,
-      6824
-    ]
+    "end": 6824
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 6824,
-    "end": 6825,
-    "range": [
-      6824,
-      6825
-    ]
+    "end": 6825
   },
   {
     "type": "String",
     "value": "'High surrogates group 16 are correctly escaped'",
     "start": 6826,
-    "end": 6874,
-    "range": [
-      6826,
-      6874
-    ]
+    "end": 6874
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6874,
-    "end": 6875,
-    "range": [
-      6874,
-      6875
-    ]
+    "end": 6875
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6875,
-    "end": 6876,
-    "range": [
-      6875,
-      6876
-    ]
+    "end": 6876
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 6901,
-    "end": 6906,
-    "range": [
-      6901,
-      6906
-    ]
+    "end": 6906
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup1",
     "start": 6907,
-    "end": 6926,
-    "range": [
-      6907,
-      6926
-    ]
+    "end": 6926
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6927,
-    "end": 6928,
-    "range": [
-      6927,
-      6928
-    ]
+    "end": 6928
   },
   {
     "type": "String",
     "value": "'\\uDC00\\uDC01\\uDC02\\uDC03\\uDC04\\uDC05\\uDC06\\uDC07\\uDC08\\uDC09\\uDC0A\\uDC0B\\uDC0C\\uDC0D\\uDC0E\\uDC0F'",
     "start": 6929,
-    "end": 7027,
-    "range": [
-      6929,
-      7027
-    ]
+    "end": 7027
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7027,
-    "end": 7028,
-    "range": [
-      7027,
-      7028
-    ]
+    "end": 7028
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7029,
-    "end": 7034,
-    "range": [
-      7029,
-      7034
-    ]
+    "end": 7034
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup2",
     "start": 7035,
-    "end": 7054,
-    "range": [
-      7035,
-      7054
-    ]
+    "end": 7054
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7055,
-    "end": 7056,
-    "range": [
-      7055,
-      7056
-    ]
+    "end": 7056
   },
   {
     "type": "String",
     "value": "'\\uDC10\\uDC11\\uDC12\\uDC13\\uDC14\\uDC15\\uDC16\\uDC17\\uDC18\\uDC19\\uDC1A\\uDC1B\\uDC1C\\uDC1D\\uDC1E\\uDC1F'",
     "start": 7057,
-    "end": 7155,
-    "range": [
-      7057,
-      7155
-    ]
+    "end": 7155
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7155,
-    "end": 7156,
-    "range": [
-      7155,
-      7156
-    ]
+    "end": 7156
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7157,
-    "end": 7162,
-    "range": [
-      7157,
-      7162
-    ]
+    "end": 7162
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup3",
     "start": 7163,
-    "end": 7182,
-    "range": [
-      7163,
-      7182
-    ]
+    "end": 7182
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7183,
-    "end": 7184,
-    "range": [
-      7183,
-      7184
-    ]
+    "end": 7184
   },
   {
     "type": "String",
     "value": "'\\uDC20\\uDC21\\uDC22\\uDC23\\uDC24\\uDC25\\uDC26\\uDC27\\uDC28\\uDC29\\uDC2A\\uDC2B\\uDC2C\\uDC2D\\uDC2E\\uDC2F'",
     "start": 7185,
-    "end": 7283,
-    "range": [
-      7185,
-      7283
-    ]
+    "end": 7283
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7283,
-    "end": 7284,
-    "range": [
-      7283,
-      7284
-    ]
+    "end": 7284
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7285,
-    "end": 7290,
-    "range": [
-      7285,
-      7290
-    ]
+    "end": 7290
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup4",
     "start": 7291,
-    "end": 7310,
-    "range": [
-      7291,
-      7310
-    ]
+    "end": 7310
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7311,
-    "end": 7312,
-    "range": [
-      7311,
-      7312
-    ]
+    "end": 7312
   },
   {
     "type": "String",
     "value": "'\\uDC30\\uDC31\\uDC32\\uDC33\\uDC34\\uDC35\\uDC36\\uDC37\\uDC38\\uDC39\\uDC3A\\uDC3B\\uDC3C\\uDC3D\\uDC3E\\uDC3F'",
     "start": 7313,
-    "end": 7411,
-    "range": [
-      7313,
-      7411
-    ]
+    "end": 7411
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7411,
-    "end": 7412,
-    "range": [
-      7411,
-      7412
-    ]
+    "end": 7412
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7413,
-    "end": 7418,
-    "range": [
-      7413,
-      7418
-    ]
+    "end": 7418
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup5",
     "start": 7419,
-    "end": 7438,
-    "range": [
-      7419,
-      7438
-    ]
+    "end": 7438
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7439,
-    "end": 7440,
-    "range": [
-      7439,
-      7440
-    ]
+    "end": 7440
   },
   {
     "type": "String",
     "value": "'\\uDC40\\uDC41\\uDC42\\uDC43\\uDC44\\uDC45\\uDC46\\uDC47\\uDC48\\uDC49\\uDC4A\\uDC4B\\uDC4C\\uDC4D\\uDC4E\\uDC4F'",
     "start": 7441,
-    "end": 7539,
-    "range": [
-      7441,
-      7539
-    ]
+    "end": 7539
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7539,
-    "end": 7540,
-    "range": [
-      7539,
-      7540
-    ]
+    "end": 7540
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7541,
-    "end": 7546,
-    "range": [
-      7541,
-      7546
-    ]
+    "end": 7546
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup6",
     "start": 7547,
-    "end": 7566,
-    "range": [
-      7547,
-      7566
-    ]
+    "end": 7566
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7567,
-    "end": 7568,
-    "range": [
-      7567,
-      7568
-    ]
+    "end": 7568
   },
   {
     "type": "String",
     "value": "'\\uDC50\\uDC51\\uDC52\\uDC53\\uDC54\\uDC55\\uDC56\\uDC57\\uDC58\\uDC59\\uDC5A\\uDC5B\\uDC5C\\uDC5D\\uDC5E\\uDC5F'",
     "start": 7569,
-    "end": 7667,
-    "range": [
-      7569,
-      7667
-    ]
+    "end": 7667
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7667,
-    "end": 7668,
-    "range": [
-      7667,
-      7668
-    ]
+    "end": 7668
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7669,
-    "end": 7674,
-    "range": [
-      7669,
-      7674
-    ]
+    "end": 7674
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup7",
     "start": 7675,
-    "end": 7694,
-    "range": [
-      7675,
-      7694
-    ]
+    "end": 7694
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7695,
-    "end": 7696,
-    "range": [
-      7695,
-      7696
-    ]
+    "end": 7696
   },
   {
     "type": "String",
     "value": "'\\uDC60\\uDC61\\uDC62\\uDC63\\uDC64\\uDC65\\uDC66\\uDC67\\uDC68\\uDC69\\uDC6A\\uDC6B\\uDC6C\\uDC6D\\uDC6E\\uDC6F'",
     "start": 7697,
-    "end": 7795,
-    "range": [
-      7697,
-      7795
-    ]
+    "end": 7795
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7795,
-    "end": 7796,
-    "range": [
-      7795,
-      7796
-    ]
+    "end": 7796
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7797,
-    "end": 7802,
-    "range": [
-      7797,
-      7802
-    ]
+    "end": 7802
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup8",
     "start": 7803,
-    "end": 7822,
-    "range": [
-      7803,
-      7822
-    ]
+    "end": 7822
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7823,
-    "end": 7824,
-    "range": [
-      7823,
-      7824
-    ]
+    "end": 7824
   },
   {
     "type": "String",
     "value": "'\\uDC70\\uDC71\\uDC72\\uDC73\\uDC74\\uDC75\\uDC76\\uDC77\\uDC78\\uDC79\\uDC7A\\uDC7B\\uDC7C\\uDC7D\\uDC7E\\uDC7F'",
     "start": 7825,
-    "end": 7923,
-    "range": [
-      7825,
-      7923
-    ]
+    "end": 7923
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 7923,
-    "end": 7924,
-    "range": [
-      7923,
-      7924
-    ]
+    "end": 7924
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 7925,
-    "end": 7930,
-    "range": [
-      7925,
-      7930
-    ]
+    "end": 7930
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup9",
     "start": 7931,
-    "end": 7950,
-    "range": [
-      7931,
-      7950
-    ]
+    "end": 7950
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 7951,
-    "end": 7952,
-    "range": [
-      7951,
-      7952
-    ]
+    "end": 7952
   },
   {
     "type": "String",
     "value": "'\\uDC80\\uDC81\\uDC82\\uDC83\\uDC84\\uDC85\\uDC86\\uDC87\\uDC88\\uDC89\\uDC8A\\uDC8B\\uDC8C\\uDC8D\\uDC8E\\uDC8F'",
     "start": 7953,
-    "end": 8051,
-    "range": [
-      7953,
-      8051
-    ]
+    "end": 8051
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8051,
-    "end": 8052,
-    "range": [
-      8051,
-      8052
-    ]
+    "end": 8052
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8053,
-    "end": 8058,
-    "range": [
-      8053,
-      8058
-    ]
+    "end": 8058
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup10",
     "start": 8059,
-    "end": 8079,
-    "range": [
-      8059,
-      8079
-    ]
+    "end": 8079
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8080,
-    "end": 8081,
-    "range": [
-      8080,
-      8081
-    ]
+    "end": 8081
   },
   {
     "type": "String",
     "value": "'\\uDC90\\uDC91\\uDC92\\uDC93\\uDC94\\uDC95\\uDC96\\uDC97\\uDC98\\uDC99\\uDC9A\\uDC9B\\uDC9C\\uDC9D\\uDC9E\\uDC9F'",
     "start": 8082,
-    "end": 8180,
-    "range": [
-      8082,
-      8180
-    ]
+    "end": 8180
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8180,
-    "end": 8181,
-    "range": [
-      8180,
-      8181
-    ]
+    "end": 8181
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8182,
-    "end": 8187,
-    "range": [
-      8182,
-      8187
-    ]
+    "end": 8187
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup11",
     "start": 8188,
-    "end": 8208,
-    "range": [
-      8188,
-      8208
-    ]
+    "end": 8208
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8209,
-    "end": 8210,
-    "range": [
-      8209,
-      8210
-    ]
+    "end": 8210
   },
   {
     "type": "String",
     "value": "'\\uDCA0\\uDCA1\\uDCA2\\uDCA3\\uDCA4\\uDCA5\\uDCA6\\uDCA7\\uDCA8\\uDCA9\\uDCAA\\uDCAB\\uDCAC\\uDCAD\\uDCAE\\uDCAF'",
     "start": 8211,
-    "end": 8309,
-    "range": [
-      8211,
-      8309
-    ]
+    "end": 8309
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8309,
-    "end": 8310,
-    "range": [
-      8309,
-      8310
-    ]
+    "end": 8310
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8311,
-    "end": 8316,
-    "range": [
-      8311,
-      8316
-    ]
+    "end": 8316
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup12",
     "start": 8317,
-    "end": 8337,
-    "range": [
-      8317,
-      8337
-    ]
+    "end": 8337
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8338,
-    "end": 8339,
-    "range": [
-      8338,
-      8339
-    ]
+    "end": 8339
   },
   {
     "type": "String",
     "value": "'\\uDCB0\\uDCB1\\uDCB2\\uDCB3\\uDCB4\\uDCB5\\uDCB6\\uDCB7\\uDCB8\\uDCB9\\uDCBA\\uDCBB\\uDCBC\\uDCBD\\uDCBE\\uDCBF'",
     "start": 8340,
-    "end": 8438,
-    "range": [
-      8340,
-      8438
-    ]
+    "end": 8438
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8438,
-    "end": 8439,
-    "range": [
-      8438,
-      8439
-    ]
+    "end": 8439
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8440,
-    "end": 8445,
-    "range": [
-      8440,
-      8445
-    ]
+    "end": 8445
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup13",
     "start": 8446,
-    "end": 8466,
-    "range": [
-      8446,
-      8466
-    ]
+    "end": 8466
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8467,
-    "end": 8468,
-    "range": [
-      8467,
-      8468
-    ]
+    "end": 8468
   },
   {
     "type": "String",
     "value": "'\\uDCC0\\uDCC1\\uDCC2\\uDCC3\\uDCC4\\uDCC5\\uDCC6\\uDCC7\\uDCC8\\uDCC9\\uDCCA\\uDCCB\\uDCCC\\uDCCD\\uDCCE\\uDCCF'",
     "start": 8469,
-    "end": 8567,
-    "range": [
-      8469,
-      8567
-    ]
+    "end": 8567
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8567,
-    "end": 8568,
-    "range": [
-      8567,
-      8568
-    ]
+    "end": 8568
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8569,
-    "end": 8574,
-    "range": [
-      8569,
-      8574
-    ]
+    "end": 8574
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup14",
     "start": 8575,
-    "end": 8595,
-    "range": [
-      8575,
-      8595
-    ]
+    "end": 8595
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8596,
-    "end": 8597,
-    "range": [
-      8596,
-      8597
-    ]
+    "end": 8597
   },
   {
     "type": "String",
     "value": "'\\uDCD0\\uDCD1\\uDCD2\\uDCD3\\uDCD4\\uDCD5\\uDCD6\\uDCD7\\uDCD8\\uDCD9\\uDCDA\\uDCDB\\uDCDC\\uDCDD\\uDCDE\\uDCDF'",
     "start": 8598,
-    "end": 8696,
-    "range": [
-      8598,
-      8696
-    ]
+    "end": 8696
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8696,
-    "end": 8697,
-    "range": [
-      8696,
-      8697
-    ]
+    "end": 8697
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8698,
-    "end": 8703,
-    "range": [
-      8698,
-      8703
-    ]
+    "end": 8703
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup15",
     "start": 8704,
-    "end": 8724,
-    "range": [
-      8704,
-      8724
-    ]
+    "end": 8724
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8725,
-    "end": 8726,
-    "range": [
-      8725,
-      8726
-    ]
+    "end": 8726
   },
   {
     "type": "String",
     "value": "'\\uDCE0\\uDCE1\\uDCE2\\uDCE3\\uDCE4\\uDCE5\\uDCE6\\uDCE7\\uDCE8\\uDCE9\\uDCEA\\uDCEB\\uDCEC\\uDCED\\uDCEE\\uDCEF'",
     "start": 8727,
-    "end": 8825,
-    "range": [
-      8727,
-      8825
-    ]
+    "end": 8825
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8825,
-    "end": 8826,
-    "range": [
-      8825,
-      8826
-    ]
+    "end": 8826
   },
   {
     "type": "Keyword",
     "value": "const",
     "start": 8827,
-    "end": 8832,
-    "range": [
-      8827,
-      8832
-    ]
+    "end": 8832
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup16",
     "start": 8833,
-    "end": 8853,
-    "range": [
-      8833,
-      8853
-    ]
+    "end": 8853
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 8854,
-    "end": 8855,
-    "range": [
-      8854,
-      8855
-    ]
+    "end": 8855
   },
   {
     "type": "String",
     "value": "'\\uDCF0\\uDCF1\\uDCF2\\uDCF3\\uDCF4\\uDCF5\\uDCF6\\uDCF7\\uDCF8\\uDCF9\\uDCFA\\uDCFB\\uDCFC\\uDCFD\\uDCFE\\uDCFF'",
     "start": 8856,
-    "end": 8954,
-    "range": [
-      8856,
-      8954
-    ]
+    "end": 8954
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 8954,
-    "end": 8955,
-    "range": [
-      8954,
-      8955
-    ]
+    "end": 8955
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 8957,
-    "end": 8963,
-    "range": [
-      8957,
-      8963
-    ]
+    "end": 8963
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8963,
-    "end": 8964,
-    "range": [
-      8963,
-      8964
-    ]
+    "end": 8964
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 8964,
-    "end": 8973,
-    "range": [
-      8964,
-      8973
-    ]
+    "end": 8973
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8973,
-    "end": 8974,
-    "range": [
-      8973,
-      8974
-    ]
+    "end": 8974
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 8974,
-    "end": 8980,
-    "range": [
-      8974,
-      8980
-    ]
+    "end": 8980
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 8980,
-    "end": 8981,
-    "range": [
-      8980,
-      8981
-    ]
+    "end": 8981
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 8981,
-    "end": 8987,
-    "range": [
-      8981,
-      8987
-    ]
+    "end": 8987
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 8987,
-    "end": 8988,
-    "range": [
-      8987,
-      8988
-    ]
+    "end": 8988
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup1",
     "start": 8988,
-    "end": 9007,
-    "range": [
-      8988,
-      9007
-    ]
+    "end": 9007
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9007,
-    "end": 9008,
-    "range": [
-      9007,
-      9008
-    ]
+    "end": 9008
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9008,
-    "end": 9009,
-    "range": [
-      9008,
-      9009
-    ]
+    "end": 9009
   },
   {
     "type": "String",
     "value": "'\\\\udc00\\\\udc01\\\\udc02\\\\udc03\\\\udc04\\\\udc05\\\\udc06\\\\udc07\\\\udc08\\\\udc09\\\\udc0a\\\\udc0b\\\\udc0c\\\\udc0d\\\\udc0e\\\\udc0f'",
     "start": 9011,
-    "end": 9125,
-    "range": [
-      9011,
-      9125
-    ]
+    "end": 9125
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9125,
-    "end": 9126,
-    "range": [
-      9125,
-      9126
-    ]
+    "end": 9126
   },
   {
     "type": "String",
     "value": "'Low surrogates group 1 are correctly escaped'",
     "start": 9127,
-    "end": 9173,
-    "range": [
-      9127,
-      9173
-    ]
+    "end": 9173
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9173,
-    "end": 9174,
-    "range": [
-      9173,
-      9174
-    ]
+    "end": 9174
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 9174,
-    "end": 9175,
-    "range": [
-      9174,
-      9175
-    ]
+    "end": 9175
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 9176,
-    "end": 9182,
-    "range": [
-      9176,
-      9182
-    ]
+    "end": 9182
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9182,
-    "end": 9183,
-    "range": [
-      9182,
-      9183
-    ]
+    "end": 9183
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 9183,
-    "end": 9192,
-    "range": [
-      9183,
-      9192
-    ]
+    "end": 9192
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9192,
-    "end": 9193,
-    "range": [
-      9192,
-      9193
-    ]
+    "end": 9193
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 9193,
-    "end": 9199,
-    "range": [
-      9193,
-      9199
-    ]
+    "end": 9199
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9199,
-    "end": 9200,
-    "range": [
-      9199,
-      9200
-    ]
+    "end": 9200
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 9200,
-    "end": 9206,
-    "range": [
-      9200,
-      9206
-    ]
+    "end": 9206
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9206,
-    "end": 9207,
-    "range": [
-      9206,
-      9207
-    ]
+    "end": 9207
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup2",
     "start": 9207,
-    "end": 9226,
-    "range": [
-      9207,
-      9226
-    ]
+    "end": 9226
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9226,
-    "end": 9227,
-    "range": [
-      9226,
-      9227
-    ]
+    "end": 9227
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9227,
-    "end": 9228,
-    "range": [
-      9227,
-      9228
-    ]
+    "end": 9228
   },
   {
     "type": "String",
     "value": "'\\\\udc10\\\\udc11\\\\udc12\\\\udc13\\\\udc14\\\\udc15\\\\udc16\\\\udc17\\\\udc18\\\\udc19\\\\udc1a\\\\udc1b\\\\udc1c\\\\udc1d\\\\udc1e\\\\udc1f'",
     "start": 9230,
-    "end": 9344,
-    "range": [
-      9230,
-      9344
-    ]
+    "end": 9344
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9344,
-    "end": 9345,
-    "range": [
-      9344,
-      9345
-    ]
+    "end": 9345
   },
   {
     "type": "String",
     "value": "'Low surrogates group 2 are correctly escaped'",
     "start": 9346,
-    "end": 9392,
-    "range": [
-      9346,
-      9392
-    ]
+    "end": 9392
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9392,
-    "end": 9393,
-    "range": [
-      9392,
-      9393
-    ]
+    "end": 9393
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 9393,
-    "end": 9394,
-    "range": [
-      9393,
-      9394
-    ]
+    "end": 9394
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 9395,
-    "end": 9401,
-    "range": [
-      9395,
-      9401
-    ]
+    "end": 9401
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9401,
-    "end": 9402,
-    "range": [
-      9401,
-      9402
-    ]
+    "end": 9402
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 9402,
-    "end": 9411,
-    "range": [
-      9402,
-      9411
-    ]
+    "end": 9411
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9411,
-    "end": 9412,
-    "range": [
-      9411,
-      9412
-    ]
+    "end": 9412
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 9412,
-    "end": 9418,
-    "range": [
-      9412,
-      9418
-    ]
+    "end": 9418
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9418,
-    "end": 9419,
-    "range": [
-      9418,
-      9419
-    ]
+    "end": 9419
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 9419,
-    "end": 9425,
-    "range": [
-      9419,
-      9425
-    ]
+    "end": 9425
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9425,
-    "end": 9426,
-    "range": [
-      9425,
-      9426
-    ]
+    "end": 9426
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup3",
     "start": 9426,
-    "end": 9445,
-    "range": [
-      9426,
-      9445
-    ]
+    "end": 9445
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9445,
-    "end": 9446,
-    "range": [
-      9445,
-      9446
-    ]
+    "end": 9446
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9446,
-    "end": 9447,
-    "range": [
-      9446,
-      9447
-    ]
+    "end": 9447
   },
   {
     "type": "String",
     "value": "'\\\\udc20\\\\udc21\\\\udc22\\\\udc23\\\\udc24\\\\udc25\\\\udc26\\\\udc27\\\\udc28\\\\udc29\\\\udc2a\\\\udc2b\\\\udc2c\\\\udc2d\\\\udc2e\\\\udc2f'",
     "start": 9449,
-    "end": 9563,
-    "range": [
-      9449,
-      9563
-    ]
+    "end": 9563
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9563,
-    "end": 9564,
-    "range": [
-      9563,
-      9564
-    ]
+    "end": 9564
   },
   {
     "type": "String",
     "value": "'Low surrogates group 3 are correctly escaped'",
     "start": 9565,
-    "end": 9611,
-    "range": [
-      9565,
-      9611
-    ]
+    "end": 9611
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9611,
-    "end": 9612,
-    "range": [
-      9611,
-      9612
-    ]
+    "end": 9612
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 9612,
-    "end": 9613,
-    "range": [
-      9612,
-      9613
-    ]
+    "end": 9613
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 9614,
-    "end": 9620,
-    "range": [
-      9614,
-      9620
-    ]
+    "end": 9620
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9620,
-    "end": 9621,
-    "range": [
-      9620,
-      9621
-    ]
+    "end": 9621
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 9621,
-    "end": 9630,
-    "range": [
-      9621,
-      9630
-    ]
+    "end": 9630
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9630,
-    "end": 9631,
-    "range": [
-      9630,
-      9631
-    ]
+    "end": 9631
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 9631,
-    "end": 9637,
-    "range": [
-      9631,
-      9637
-    ]
+    "end": 9637
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9637,
-    "end": 9638,
-    "range": [
-      9637,
-      9638
-    ]
+    "end": 9638
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 9638,
-    "end": 9644,
-    "range": [
-      9638,
-      9644
-    ]
+    "end": 9644
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9644,
-    "end": 9645,
-    "range": [
-      9644,
-      9645
-    ]
+    "end": 9645
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup4",
     "start": 9645,
-    "end": 9664,
-    "range": [
-      9645,
-      9664
-    ]
+    "end": 9664
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9664,
-    "end": 9665,
-    "range": [
-      9664,
-      9665
-    ]
+    "end": 9665
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9665,
-    "end": 9666,
-    "range": [
-      9665,
-      9666
-    ]
+    "end": 9666
   },
   {
     "type": "String",
     "value": "'\\\\udc30\\\\udc31\\\\udc32\\\\udc33\\\\udc34\\\\udc35\\\\udc36\\\\udc37\\\\udc38\\\\udc39\\\\udc3a\\\\udc3b\\\\udc3c\\\\udc3d\\\\udc3e\\\\udc3f'",
     "start": 9668,
-    "end": 9782,
-    "range": [
-      9668,
-      9782
-    ]
+    "end": 9782
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9782,
-    "end": 9783,
-    "range": [
-      9782,
-      9783
-    ]
+    "end": 9783
   },
   {
     "type": "String",
     "value": "'Low surrogates group 4 are correctly escaped'",
     "start": 9784,
-    "end": 9830,
-    "range": [
-      9784,
-      9830
-    ]
+    "end": 9830
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9830,
-    "end": 9831,
-    "range": [
-      9830,
-      9831
-    ]
+    "end": 9831
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 9831,
-    "end": 9832,
-    "range": [
-      9831,
-      9832
-    ]
+    "end": 9832
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 9833,
-    "end": 9839,
-    "range": [
-      9833,
-      9839
-    ]
+    "end": 9839
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9839,
-    "end": 9840,
-    "range": [
-      9839,
-      9840
-    ]
+    "end": 9840
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 9840,
-    "end": 9849,
-    "range": [
-      9840,
-      9849
-    ]
+    "end": 9849
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9849,
-    "end": 9850,
-    "range": [
-      9849,
-      9850
-    ]
+    "end": 9850
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 9850,
-    "end": 9856,
-    "range": [
-      9850,
-      9856
-    ]
+    "end": 9856
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 9856,
-    "end": 9857,
-    "range": [
-      9856,
-      9857
-    ]
+    "end": 9857
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 9857,
-    "end": 9863,
-    "range": [
-      9857,
-      9863
-    ]
+    "end": 9863
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 9863,
-    "end": 9864,
-    "range": [
-      9863,
-      9864
-    ]
+    "end": 9864
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup5",
     "start": 9864,
-    "end": 9883,
-    "range": [
-      9864,
-      9883
-    ]
+    "end": 9883
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 9883,
-    "end": 9884,
-    "range": [
-      9883,
-      9884
-    ]
+    "end": 9884
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 9884,
-    "end": 9885,
-    "range": [
-      9884,
-      9885
-    ]
+    "end": 9885
   },
   {
     "type": "String",
     "value": "'\\\\udc40\\\\udc41\\\\udc42\\\\udc43\\\\udc44\\\\udc45\\\\udc46\\\\udc47\\\\udc48\\\\udc49\\\\udc4a\\\\udc4b\\\\udc4c\\\\udc4d\\\\udc4e\\\\udc4f'",
     "start": 9887,
-    "end": 10001,
-    "range": [
-      9887,
-      10001
-    ]
+    "end": 10001
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10001,
-    "end": 10002,
-    "range": [
-      10001,
-      10002
-    ]
+    "end": 10002
   },
   {
     "type": "String",
     "value": "'Low surrogates group 5 are correctly escaped'",
     "start": 10003,
-    "end": 10049,
-    "range": [
-      10003,
-      10049
-    ]
+    "end": 10049
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10049,
-    "end": 10050,
-    "range": [
-      10049,
-      10050
-    ]
+    "end": 10050
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 10050,
-    "end": 10051,
-    "range": [
-      10050,
-      10051
-    ]
+    "end": 10051
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 10052,
-    "end": 10058,
-    "range": [
-      10052,
-      10058
-    ]
+    "end": 10058
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10058,
-    "end": 10059,
-    "range": [
-      10058,
-      10059
-    ]
+    "end": 10059
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 10059,
-    "end": 10068,
-    "range": [
-      10059,
-      10068
-    ]
+    "end": 10068
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10068,
-    "end": 10069,
-    "range": [
-      10068,
-      10069
-    ]
+    "end": 10069
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 10069,
-    "end": 10075,
-    "range": [
-      10069,
-      10075
-    ]
+    "end": 10075
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10075,
-    "end": 10076,
-    "range": [
-      10075,
-      10076
-    ]
+    "end": 10076
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 10076,
-    "end": 10082,
-    "range": [
-      10076,
-      10082
-    ]
+    "end": 10082
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10082,
-    "end": 10083,
-    "range": [
-      10082,
-      10083
-    ]
+    "end": 10083
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup6",
     "start": 10083,
-    "end": 10102,
-    "range": [
-      10083,
-      10102
-    ]
+    "end": 10102
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10102,
-    "end": 10103,
-    "range": [
-      10102,
-      10103
-    ]
+    "end": 10103
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10103,
-    "end": 10104,
-    "range": [
-      10103,
-      10104
-    ]
+    "end": 10104
   },
   {
     "type": "String",
     "value": "'\\\\udc50\\\\udc51\\\\udc52\\\\udc53\\\\udc54\\\\udc55\\\\udc56\\\\udc57\\\\udc58\\\\udc59\\\\udc5a\\\\udc5b\\\\udc5c\\\\udc5d\\\\udc5e\\\\udc5f'",
     "start": 10106,
-    "end": 10220,
-    "range": [
-      10106,
-      10220
-    ]
+    "end": 10220
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10220,
-    "end": 10221,
-    "range": [
-      10220,
-      10221
-    ]
+    "end": 10221
   },
   {
     "type": "String",
     "value": "'Low surrogates group 6 are correctly escaped'",
     "start": 10222,
-    "end": 10268,
-    "range": [
-      10222,
-      10268
-    ]
+    "end": 10268
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10268,
-    "end": 10269,
-    "range": [
-      10268,
-      10269
-    ]
+    "end": 10269
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 10269,
-    "end": 10270,
-    "range": [
-      10269,
-      10270
-    ]
+    "end": 10270
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 10271,
-    "end": 10277,
-    "range": [
-      10271,
-      10277
-    ]
+    "end": 10277
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10277,
-    "end": 10278,
-    "range": [
-      10277,
-      10278
-    ]
+    "end": 10278
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 10278,
-    "end": 10287,
-    "range": [
-      10278,
-      10287
-    ]
+    "end": 10287
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10287,
-    "end": 10288,
-    "range": [
-      10287,
-      10288
-    ]
+    "end": 10288
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 10288,
-    "end": 10294,
-    "range": [
-      10288,
-      10294
-    ]
+    "end": 10294
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10294,
-    "end": 10295,
-    "range": [
-      10294,
-      10295
-    ]
+    "end": 10295
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 10295,
-    "end": 10301,
-    "range": [
-      10295,
-      10301
-    ]
+    "end": 10301
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10301,
-    "end": 10302,
-    "range": [
-      10301,
-      10302
-    ]
+    "end": 10302
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup7",
     "start": 10302,
-    "end": 10321,
-    "range": [
-      10302,
-      10321
-    ]
+    "end": 10321
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10321,
-    "end": 10322,
-    "range": [
-      10321,
-      10322
-    ]
+    "end": 10322
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10322,
-    "end": 10323,
-    "range": [
-      10322,
-      10323
-    ]
+    "end": 10323
   },
   {
     "type": "String",
     "value": "'\\\\udc60\\\\udc61\\\\udc62\\\\udc63\\\\udc64\\\\udc65\\\\udc66\\\\udc67\\\\udc68\\\\udc69\\\\udc6a\\\\udc6b\\\\udc6c\\\\udc6d\\\\udc6e\\\\udc6f'",
     "start": 10325,
-    "end": 10439,
-    "range": [
-      10325,
-      10439
-    ]
+    "end": 10439
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10439,
-    "end": 10440,
-    "range": [
-      10439,
-      10440
-    ]
+    "end": 10440
   },
   {
     "type": "String",
     "value": "'Low surrogates group 7 are correctly escaped'",
     "start": 10441,
-    "end": 10487,
-    "range": [
-      10441,
-      10487
-    ]
+    "end": 10487
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10487,
-    "end": 10488,
-    "range": [
-      10487,
-      10488
-    ]
+    "end": 10488
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 10488,
-    "end": 10489,
-    "range": [
-      10488,
-      10489
-    ]
+    "end": 10489
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 10490,
-    "end": 10496,
-    "range": [
-      10490,
-      10496
-    ]
+    "end": 10496
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10496,
-    "end": 10497,
-    "range": [
-      10496,
-      10497
-    ]
+    "end": 10497
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 10497,
-    "end": 10506,
-    "range": [
-      10497,
-      10506
-    ]
+    "end": 10506
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10506,
-    "end": 10507,
-    "range": [
-      10506,
-      10507
-    ]
+    "end": 10507
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 10507,
-    "end": 10513,
-    "range": [
-      10507,
-      10513
-    ]
+    "end": 10513
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10513,
-    "end": 10514,
-    "range": [
-      10513,
-      10514
-    ]
+    "end": 10514
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 10514,
-    "end": 10520,
-    "range": [
-      10514,
-      10520
-    ]
+    "end": 10520
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10520,
-    "end": 10521,
-    "range": [
-      10520,
-      10521
-    ]
+    "end": 10521
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup8",
     "start": 10521,
-    "end": 10540,
-    "range": [
-      10521,
-      10540
-    ]
+    "end": 10540
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10540,
-    "end": 10541,
-    "range": [
-      10540,
-      10541
-    ]
+    "end": 10541
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10541,
-    "end": 10542,
-    "range": [
-      10541,
-      10542
-    ]
+    "end": 10542
   },
   {
     "type": "String",
     "value": "'\\\\udc70\\\\udc71\\\\udc72\\\\udc73\\\\udc74\\\\udc75\\\\udc76\\\\udc77\\\\udc78\\\\udc79\\\\udc7a\\\\udc7b\\\\udc7c\\\\udc7d\\\\udc7e\\\\udc7f'",
     "start": 10544,
-    "end": 10658,
-    "range": [
-      10544,
-      10658
-    ]
+    "end": 10658
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10658,
-    "end": 10659,
-    "range": [
-      10658,
-      10659
-    ]
+    "end": 10659
   },
   {
     "type": "String",
     "value": "'Low surrogates group 8 are correctly escaped'",
     "start": 10660,
-    "end": 10706,
-    "range": [
-      10660,
-      10706
-    ]
+    "end": 10706
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10706,
-    "end": 10707,
-    "range": [
-      10706,
-      10707
-    ]
+    "end": 10707
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 10707,
-    "end": 10708,
-    "range": [
-      10707,
-      10708
-    ]
+    "end": 10708
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 10709,
-    "end": 10715,
-    "range": [
-      10709,
-      10715
-    ]
+    "end": 10715
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10715,
-    "end": 10716,
-    "range": [
-      10715,
-      10716
-    ]
+    "end": 10716
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 10716,
-    "end": 10725,
-    "range": [
-      10716,
-      10725
-    ]
+    "end": 10725
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10725,
-    "end": 10726,
-    "range": [
-      10725,
-      10726
-    ]
+    "end": 10726
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 10726,
-    "end": 10732,
-    "range": [
-      10726,
-      10732
-    ]
+    "end": 10732
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10732,
-    "end": 10733,
-    "range": [
-      10732,
-      10733
-    ]
+    "end": 10733
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 10733,
-    "end": 10739,
-    "range": [
-      10733,
-      10739
-    ]
+    "end": 10739
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10739,
-    "end": 10740,
-    "range": [
-      10739,
-      10740
-    ]
+    "end": 10740
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup9",
     "start": 10740,
-    "end": 10759,
-    "range": [
-      10740,
-      10759
-    ]
+    "end": 10759
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10759,
-    "end": 10760,
-    "range": [
-      10759,
-      10760
-    ]
+    "end": 10760
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10760,
-    "end": 10761,
-    "range": [
-      10760,
-      10761
-    ]
+    "end": 10761
   },
   {
     "type": "String",
     "value": "'\\\\udc80\\\\udc81\\\\udc82\\\\udc83\\\\udc84\\\\udc85\\\\udc86\\\\udc87\\\\udc88\\\\udc89\\\\udc8a\\\\udc8b\\\\udc8c\\\\udc8d\\\\udc8e\\\\udc8f'",
     "start": 10763,
-    "end": 10877,
-    "range": [
-      10763,
-      10877
-    ]
+    "end": 10877
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10877,
-    "end": 10878,
-    "range": [
-      10877,
-      10878
-    ]
+    "end": 10878
   },
   {
     "type": "String",
     "value": "'Low surrogates group 9 are correctly escaped'",
     "start": 10879,
-    "end": 10925,
-    "range": [
-      10879,
-      10925
-    ]
+    "end": 10925
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10925,
-    "end": 10926,
-    "range": [
-      10925,
-      10926
-    ]
+    "end": 10926
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 10926,
-    "end": 10927,
-    "range": [
-      10926,
-      10927
-    ]
+    "end": 10927
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 10928,
-    "end": 10934,
-    "range": [
-      10928,
-      10934
-    ]
+    "end": 10934
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10934,
-    "end": 10935,
-    "range": [
-      10934,
-      10935
-    ]
+    "end": 10935
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 10935,
-    "end": 10944,
-    "range": [
-      10935,
-      10944
-    ]
+    "end": 10944
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10944,
-    "end": 10945,
-    "range": [
-      10944,
-      10945
-    ]
+    "end": 10945
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 10945,
-    "end": 10951,
-    "range": [
-      10945,
-      10951
-    ]
+    "end": 10951
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 10951,
-    "end": 10952,
-    "range": [
-      10951,
-      10952
-    ]
+    "end": 10952
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 10952,
-    "end": 10958,
-    "range": [
-      10952,
-      10958
-    ]
+    "end": 10958
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 10958,
-    "end": 10959,
-    "range": [
-      10958,
-      10959
-    ]
+    "end": 10959
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup10",
     "start": 10959,
-    "end": 10979,
-    "range": [
-      10959,
-      10979
-    ]
+    "end": 10979
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 10979,
-    "end": 10980,
-    "range": [
-      10979,
-      10980
-    ]
+    "end": 10980
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 10980,
-    "end": 10981,
-    "range": [
-      10980,
-      10981
-    ]
+    "end": 10981
   },
   {
     "type": "String",
     "value": "'\\\\udc90\\\\udc91\\\\udc92\\\\udc93\\\\udc94\\\\udc95\\\\udc96\\\\udc97\\\\udc98\\\\udc99\\\\udc9a\\\\udc9b\\\\udc9c\\\\udc9d\\\\udc9e\\\\udc9f'",
     "start": 10982,
-    "end": 11096,
-    "range": [
-      10982,
-      11096
-    ]
+    "end": 11096
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11096,
-    "end": 11097,
-    "range": [
-      11096,
-      11097
-    ]
+    "end": 11097
   },
   {
     "type": "String",
     "value": "'Low surrogates group 10 are correctly escaped'",
     "start": 11098,
-    "end": 11145,
-    "range": [
-      11098,
-      11145
-    ]
+    "end": 11145
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11145,
-    "end": 11146,
-    "range": [
-      11145,
-      11146
-    ]
+    "end": 11146
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 11146,
-    "end": 11147,
-    "range": [
-      11146,
-      11147
-    ]
+    "end": 11147
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 11148,
-    "end": 11154,
-    "range": [
-      11148,
-      11154
-    ]
+    "end": 11154
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11154,
-    "end": 11155,
-    "range": [
-      11154,
-      11155
-    ]
+    "end": 11155
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 11155,
-    "end": 11164,
-    "range": [
-      11155,
-      11164
-    ]
+    "end": 11164
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11164,
-    "end": 11165,
-    "range": [
-      11164,
-      11165
-    ]
+    "end": 11165
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 11165,
-    "end": 11171,
-    "range": [
-      11165,
-      11171
-    ]
+    "end": 11171
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11171,
-    "end": 11172,
-    "range": [
-      11171,
-      11172
-    ]
+    "end": 11172
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 11172,
-    "end": 11178,
-    "range": [
-      11172,
-      11178
-    ]
+    "end": 11178
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11178,
-    "end": 11179,
-    "range": [
-      11178,
-      11179
-    ]
+    "end": 11179
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup11",
     "start": 11179,
-    "end": 11199,
-    "range": [
-      11179,
-      11199
-    ]
+    "end": 11199
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11199,
-    "end": 11200,
-    "range": [
-      11199,
-      11200
-    ]
+    "end": 11200
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11200,
-    "end": 11201,
-    "range": [
-      11200,
-      11201
-    ]
+    "end": 11201
   },
   {
     "type": "String",
     "value": "'\\\\udca0\\\\udca1\\\\udca2\\\\udca3\\\\udca4\\\\udca5\\\\udca6\\\\udca7\\\\udca8\\\\udca9\\\\udcaa\\\\udcab\\\\udcac\\\\udcad\\\\udcae\\\\udcaf'",
     "start": 11202,
-    "end": 11316,
-    "range": [
-      11202,
-      11316
-    ]
+    "end": 11316
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11316,
-    "end": 11317,
-    "range": [
-      11316,
-      11317
-    ]
+    "end": 11317
   },
   {
     "type": "String",
     "value": "'Low surrogates group 11 are correctly escaped'",
     "start": 11318,
-    "end": 11365,
-    "range": [
-      11318,
-      11365
-    ]
+    "end": 11365
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11365,
-    "end": 11366,
-    "range": [
-      11365,
-      11366
-    ]
+    "end": 11366
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 11366,
-    "end": 11367,
-    "range": [
-      11366,
-      11367
-    ]
+    "end": 11367
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 11368,
-    "end": 11374,
-    "range": [
-      11368,
-      11374
-    ]
+    "end": 11374
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11374,
-    "end": 11375,
-    "range": [
-      11374,
-      11375
-    ]
+    "end": 11375
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 11375,
-    "end": 11384,
-    "range": [
-      11375,
-      11384
-    ]
+    "end": 11384
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11384,
-    "end": 11385,
-    "range": [
-      11384,
-      11385
-    ]
+    "end": 11385
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 11385,
-    "end": 11391,
-    "range": [
-      11385,
-      11391
-    ]
+    "end": 11391
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11391,
-    "end": 11392,
-    "range": [
-      11391,
-      11392
-    ]
+    "end": 11392
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 11392,
-    "end": 11398,
-    "range": [
-      11392,
-      11398
-    ]
+    "end": 11398
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11398,
-    "end": 11399,
-    "range": [
-      11398,
-      11399
-    ]
+    "end": 11399
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup12",
     "start": 11399,
-    "end": 11419,
-    "range": [
-      11399,
-      11419
-    ]
+    "end": 11419
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11419,
-    "end": 11420,
-    "range": [
-      11419,
-      11420
-    ]
+    "end": 11420
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11420,
-    "end": 11421,
-    "range": [
-      11420,
-      11421
-    ]
+    "end": 11421
   },
   {
     "type": "String",
     "value": "'\\\\udcb0\\\\udcb1\\\\udcb2\\\\udcb3\\\\udcb4\\\\udcb5\\\\udcb6\\\\udcb7\\\\udcb8\\\\udcb9\\\\udcba\\\\udcbb\\\\udcbc\\\\udcbd\\\\udcbe\\\\udcbf'",
     "start": 11422,
-    "end": 11536,
-    "range": [
-      11422,
-      11536
-    ]
+    "end": 11536
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11536,
-    "end": 11537,
-    "range": [
-      11536,
-      11537
-    ]
+    "end": 11537
   },
   {
     "type": "String",
     "value": "'Low surrogates group 12 are correctly escaped'",
     "start": 11538,
-    "end": 11585,
-    "range": [
-      11538,
-      11585
-    ]
+    "end": 11585
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11585,
-    "end": 11586,
-    "range": [
-      11585,
-      11586
-    ]
+    "end": 11586
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 11586,
-    "end": 11587,
-    "range": [
-      11586,
-      11587
-    ]
+    "end": 11587
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 11588,
-    "end": 11594,
-    "range": [
-      11588,
-      11594
-    ]
+    "end": 11594
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11594,
-    "end": 11595,
-    "range": [
-      11594,
-      11595
-    ]
+    "end": 11595
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 11595,
-    "end": 11604,
-    "range": [
-      11595,
-      11604
-    ]
+    "end": 11604
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11604,
-    "end": 11605,
-    "range": [
-      11604,
-      11605
-    ]
+    "end": 11605
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 11605,
-    "end": 11611,
-    "range": [
-      11605,
-      11611
-    ]
+    "end": 11611
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11611,
-    "end": 11612,
-    "range": [
-      11611,
-      11612
-    ]
+    "end": 11612
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 11612,
-    "end": 11618,
-    "range": [
-      11612,
-      11618
-    ]
+    "end": 11618
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11618,
-    "end": 11619,
-    "range": [
-      11618,
-      11619
-    ]
+    "end": 11619
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup13",
     "start": 11619,
-    "end": 11639,
-    "range": [
-      11619,
-      11639
-    ]
+    "end": 11639
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11639,
-    "end": 11640,
-    "range": [
-      11639,
-      11640
-    ]
+    "end": 11640
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11640,
-    "end": 11641,
-    "range": [
-      11640,
-      11641
-    ]
+    "end": 11641
   },
   {
     "type": "String",
     "value": "'\\\\udcc0\\\\udcc1\\\\udcc2\\\\udcc3\\\\udcc4\\\\udcc5\\\\udcc6\\\\udcc7\\\\udcc8\\\\udcc9\\\\udcca\\\\udccb\\\\udccc\\\\udccd\\\\udcce\\\\udccf'",
     "start": 11642,
-    "end": 11756,
-    "range": [
-      11642,
-      11756
-    ]
+    "end": 11756
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11756,
-    "end": 11757,
-    "range": [
-      11756,
-      11757
-    ]
+    "end": 11757
   },
   {
     "type": "String",
     "value": "'Low surrogates group 13 are correctly escaped'",
     "start": 11758,
-    "end": 11805,
-    "range": [
-      11758,
-      11805
-    ]
+    "end": 11805
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11805,
-    "end": 11806,
-    "range": [
-      11805,
-      11806
-    ]
+    "end": 11806
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 11806,
-    "end": 11807,
-    "range": [
-      11806,
-      11807
-    ]
+    "end": 11807
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 11808,
-    "end": 11814,
-    "range": [
-      11808,
-      11814
-    ]
+    "end": 11814
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11814,
-    "end": 11815,
-    "range": [
-      11814,
-      11815
-    ]
+    "end": 11815
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 11815,
-    "end": 11824,
-    "range": [
-      11815,
-      11824
-    ]
+    "end": 11824
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11824,
-    "end": 11825,
-    "range": [
-      11824,
-      11825
-    ]
+    "end": 11825
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 11825,
-    "end": 11831,
-    "range": [
-      11825,
-      11831
-    ]
+    "end": 11831
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 11831,
-    "end": 11832,
-    "range": [
-      11831,
-      11832
-    ]
+    "end": 11832
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 11832,
-    "end": 11838,
-    "range": [
-      11832,
-      11838
-    ]
+    "end": 11838
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 11838,
-    "end": 11839,
-    "range": [
-      11838,
-      11839
-    ]
+    "end": 11839
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup14",
     "start": 11839,
-    "end": 11859,
-    "range": [
-      11839,
-      11859
-    ]
+    "end": 11859
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 11859,
-    "end": 11860,
-    "range": [
-      11859,
-      11860
-    ]
+    "end": 11860
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11860,
-    "end": 11861,
-    "range": [
-      11860,
-      11861
-    ]
+    "end": 11861
   },
   {
     "type": "String",
     "value": "'\\\\udcd0\\\\udcd1\\\\udcd2\\\\udcd3\\\\udcd4\\\\udcd5\\\\udcd6\\\\udcd7\\\\udcd8\\\\udcd9\\\\udcda\\\\udcdb\\\\udcdc\\\\udcdd\\\\udcde\\\\udcdf'",
     "start": 11862,
-    "end": 11976,
-    "range": [
-      11862,
-      11976
-    ]
+    "end": 11976
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 11976,
-    "end": 11977,
-    "range": [
-      11976,
-      11977
-    ]
+    "end": 11977
   },
   {
     "type": "String",
     "value": "'Low surrogates group 14 are correctly escaped'",
     "start": 11978,
-    "end": 12025,
-    "range": [
-      11978,
-      12025
-    ]
+    "end": 12025
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 12025,
-    "end": 12026,
-    "range": [
-      12025,
-      12026
-    ]
+    "end": 12026
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 12026,
-    "end": 12027,
-    "range": [
-      12026,
-      12027
-    ]
+    "end": 12027
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 12028,
-    "end": 12034,
-    "range": [
-      12028,
-      12034
-    ]
+    "end": 12034
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 12034,
-    "end": 12035,
-    "range": [
-      12034,
-      12035
-    ]
+    "end": 12035
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 12035,
-    "end": 12044,
-    "range": [
-      12035,
-      12044
-    ]
+    "end": 12044
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 12044,
-    "end": 12045,
-    "range": [
-      12044,
-      12045
-    ]
+    "end": 12045
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 12045,
-    "end": 12051,
-    "range": [
-      12045,
-      12051
-    ]
+    "end": 12051
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 12051,
-    "end": 12052,
-    "range": [
-      12051,
-      12052
-    ]
+    "end": 12052
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 12052,
-    "end": 12058,
-    "range": [
-      12052,
-      12058
-    ]
+    "end": 12058
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 12058,
-    "end": 12059,
-    "range": [
-      12058,
-      12059
-    ]
+    "end": 12059
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup15",
     "start": 12059,
-    "end": 12079,
-    "range": [
-      12059,
-      12079
-    ]
+    "end": 12079
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 12079,
-    "end": 12080,
-    "range": [
-      12079,
-      12080
-    ]
+    "end": 12080
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 12080,
-    "end": 12081,
-    "range": [
-      12080,
-      12081
-    ]
+    "end": 12081
   },
   {
     "type": "String",
     "value": "'\\\\udce0\\\\udce1\\\\udce2\\\\udce3\\\\udce4\\\\udce5\\\\udce6\\\\udce7\\\\udce8\\\\udce9\\\\udcea\\\\udceb\\\\udcec\\\\udced\\\\udcee\\\\udcef'",
     "start": 12082,
-    "end": 12196,
-    "range": [
-      12082,
-      12196
-    ]
+    "end": 12196
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 12196,
-    "end": 12197,
-    "range": [
-      12196,
-      12197
-    ]
+    "end": 12197
   },
   {
     "type": "String",
     "value": "'Low surrogates group 15 are correctly escaped'",
     "start": 12198,
-    "end": 12245,
-    "range": [
-      12198,
-      12245
-    ]
+    "end": 12245
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 12245,
-    "end": 12246,
-    "range": [
-      12245,
-      12246
-    ]
+    "end": 12246
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 12246,
-    "end": 12247,
-    "range": [
-      12246,
-      12247
-    ]
+    "end": 12247
   },
   {
     "type": "Identifier",
     "value": "assert",
     "start": 12248,
-    "end": 12254,
-    "range": [
-      12248,
-      12254
-    ]
+    "end": 12254
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 12254,
-    "end": 12255,
-    "range": [
-      12254,
-      12255
-    ]
+    "end": 12255
   },
   {
     "type": "Identifier",
     "value": "sameValue",
     "start": 12255,
-    "end": 12264,
-    "range": [
-      12255,
-      12264
-    ]
+    "end": 12264
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 12264,
-    "end": 12265,
-    "range": [
-      12264,
-      12265
-    ]
+    "end": 12265
   },
   {
     "type": "Identifier",
     "value": "RegExp",
     "start": 12265,
-    "end": 12271,
-    "range": [
-      12265,
-      12271
-    ]
+    "end": 12271
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 12271,
-    "end": 12272,
-    "range": [
-      12271,
-      12272
-    ]
+    "end": 12272
   },
   {
     "type": "Identifier",
     "value": "escape",
     "start": 12272,
-    "end": 12278,
-    "range": [
-      12272,
-      12278
-    ]
+    "end": 12278
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 12278,
-    "end": 12279,
-    "range": [
-      12278,
-      12279
-    ]
+    "end": 12279
   },
   {
     "type": "Identifier",
     "value": "lowSurrogatesGroup16",
     "start": 12279,
-    "end": 12299,
-    "range": [
-      12279,
-      12299
-    ]
+    "end": 12299
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 12299,
-    "end": 12300,
-    "range": [
-      12299,
-      12300
-    ]
+    "end": 12300
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 12300,
-    "end": 12301,
-    "range": [
-      12300,
-      12301
-    ]
+    "end": 12301
   },
   {
     "type": "String",
     "value": "'\\\\udcf0\\\\udcf1\\\\udcf2\\\\udcf3\\\\udcf4\\\\udcf5\\\\udcf6\\\\udcf7\\\\udcf8\\\\udcf9\\\\udcfa\\\\udcfb\\\\udcfc\\\\udcfd\\\\udcfe\\\\udcff'",
     "start": 12302,
-    "end": 12416,
-    "range": [
-      12302,
-      12416
-    ]
+    "end": 12416
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 12416,
-    "end": 12417,
-    "range": [
-      12416,
-      12417
-    ]
+    "end": 12417
   },
   {
     "type": "String",
     "value": "'Low surrogates group 16 are correctly escaped'",
     "start": 12418,
-    "end": 12465,
-    "range": [
-      12418,
-      12465
-    ]
+    "end": 12465
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 12465,
-    "end": 12466,
-    "range": [
-      12465,
-      12466
-    ]
+    "end": 12466
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 12466,
-    "end": 12467,
-    "range": [
-      12466,
-      12467
-    ]
+    "end": 12467
   }
 ]

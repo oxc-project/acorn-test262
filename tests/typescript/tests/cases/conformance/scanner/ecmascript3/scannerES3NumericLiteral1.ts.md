@@ -30,11 +30,7 @@ __ESTREE_TEST__:TOKENS:
     "type": "Numeric",
     "value": "0",
     "start": 0,
-    "end": 1,
-    "range": [
-      0,
-      1
-    ]
+    "end": 1
   }
 ]
 ```

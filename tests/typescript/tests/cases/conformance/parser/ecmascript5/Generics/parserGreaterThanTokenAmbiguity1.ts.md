@@ -43,41 +43,25 @@ __ESTREE_TEST__:TOKENS:
     "type": "Numeric",
     "value": "1",
     "start": 0,
-    "end": 1,
-    "range": [
-      0,
-      1
-    ]
+    "end": 1
   },
   {
     "type": "Punctuator",
     "value": ">>",
     "start": 2,
-    "end": 4,
-    "range": [
-      2,
-      4
-    ]
+    "end": 4
   },
   {
     "type": "Numeric",
     "value": "2",
     "start": 5,
-    "end": 6,
-    "range": [
-      5,
-      6
-    ]
+    "end": 6
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6,
-    "end": 7,
-    "range": [
-      6,
-      7
-    ]
+    "end": 7
   }
 ]
 ```

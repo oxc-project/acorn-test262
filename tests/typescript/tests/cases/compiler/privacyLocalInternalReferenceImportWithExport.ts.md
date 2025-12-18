@@ -5004,7791 +5004,4675 @@ __ESTREE_TEST__:TOKENS:
     "type": "Identifier",
     "value": "namespace",
     "start": 20,
-    "end": 29,
-    "range": [
-      20,
-      29
-    ]
+    "end": 29
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 30,
-    "end": 39,
-    "range": [
-      30,
-      39
-    ]
+    "end": 39
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 40,
-    "end": 41,
-    "range": [
-      40,
-      41
-    ]
+    "end": 41
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 46,
-    "end": 52,
-    "range": [
-      46,
-      52
-    ]
+    "end": 52
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 53,
-    "end": 58,
-    "range": [
-      53,
-      58
-    ]
+    "end": 58
   },
   {
     "type": "Identifier",
     "value": "c_private",
     "start": 59,
-    "end": 68,
-    "range": [
-      59,
-      68
-    ]
+    "end": 68
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 69,
-    "end": 70,
-    "range": [
-      69,
-      70
-    ]
+    "end": 70
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 75,
-    "end": 76,
-    "range": [
-      75,
-      76
-    ]
+    "end": 76
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 81,
-    "end": 87,
-    "range": [
-      81,
-      87
-    ]
+    "end": 87
   },
   {
     "type": "Keyword",
     "value": "enum",
     "start": 88,
-    "end": 92,
-    "range": [
-      88,
-      92
-    ]
+    "end": 92
   },
   {
     "type": "Identifier",
     "value": "e_private",
     "start": 93,
-    "end": 102,
-    "range": [
-      93,
-      102
-    ]
+    "end": 102
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 103,
-    "end": 104,
-    "range": [
-      103,
-      104
-    ]
+    "end": 104
   },
   {
     "type": "Identifier",
     "value": "Happy",
     "start": 113,
-    "end": 118,
-    "range": [
-      113,
-      118
-    ]
+    "end": 118
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 118,
-    "end": 119,
-    "range": [
-      118,
-      119
-    ]
+    "end": 119
   },
   {
     "type": "Identifier",
     "value": "Grumpy",
     "start": 128,
-    "end": 134,
-    "range": [
-      128,
-      134
-    ]
+    "end": 134
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 139,
-    "end": 140,
-    "range": [
-      139,
-      140
-    ]
+    "end": 140
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 145,
-    "end": 151,
-    "range": [
-      145,
-      151
-    ]
+    "end": 151
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 152,
-    "end": 160,
-    "range": [
-      152,
-      160
-    ]
+    "end": 160
   },
   {
     "type": "Identifier",
     "value": "f_private",
     "start": 161,
-    "end": 170,
-    "range": [
-      161,
-      170
-    ]
+    "end": 170
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 170,
-    "end": 171,
-    "range": [
-      170,
-      171
-    ]
+    "end": 171
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 171,
-    "end": 172,
-    "range": [
-      171,
-      172
-    ]
+    "end": 172
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 173,
-    "end": 174,
-    "range": [
-      173,
-      174
-    ]
+    "end": 174
   },
   {
     "type": "Keyword",
     "value": "return",
     "start": 183,
-    "end": 189,
-    "range": [
-      183,
-      189
-    ]
+    "end": 189
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 190,
-    "end": 193,
-    "range": [
-      190,
-      193
-    ]
+    "end": 193
   },
   {
     "type": "Identifier",
     "value": "c_private",
     "start": 194,
-    "end": 203,
-    "range": [
-      194,
-      203
-    ]
+    "end": 203
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 203,
-    "end": 204,
-    "range": [
-      203,
-      204
-    ]
+    "end": 204
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 204,
-    "end": 205,
-    "range": [
-      204,
-      205
-    ]
+    "end": 205
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 205,
-    "end": 206,
-    "range": [
-      205,
-      206
-    ]
+    "end": 206
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 211,
-    "end": 212,
-    "range": [
-      211,
-      212
-    ]
+    "end": 212
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 217,
-    "end": 223,
-    "range": [
-      217,
-      223
-    ]
+    "end": 223
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 224,
-    "end": 227,
-    "range": [
-      224,
-      227
-    ]
+    "end": 227
   },
   {
     "type": "Identifier",
     "value": "v_private",
     "start": 228,
-    "end": 237,
-    "range": [
-      228,
-      237
-    ]
+    "end": 237
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 238,
-    "end": 239,
-    "range": [
-      238,
-      239
-    ]
+    "end": 239
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 240,
-    "end": 243,
-    "range": [
-      240,
-      243
-    ]
+    "end": 243
   },
   {
     "type": "Identifier",
     "value": "c_private",
     "start": 244,
-    "end": 253,
-    "range": [
-      244,
-      253
-    ]
+    "end": 253
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 253,
-    "end": 254,
-    "range": [
-      253,
-      254
-    ]
+    "end": 254
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 254,
-    "end": 255,
-    "range": [
-      254,
-      255
-    ]
+    "end": 255
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 255,
-    "end": 256,
-    "range": [
-      255,
-      256
-    ]
+    "end": 256
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 261,
-    "end": 267,
-    "range": [
-      261,
-      267
-    ]
+    "end": 267
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 268,
-    "end": 277,
-    "range": [
-      268,
-      277
-    ]
+    "end": 277
   },
   {
     "type": "Identifier",
     "value": "i_private",
     "start": 278,
-    "end": 287,
-    "range": [
-      278,
-      287
-    ]
+    "end": 287
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 288,
-    "end": 289,
-    "range": [
-      288,
-      289
-    ]
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 294,
-    "end": 295,
-    "range": [
-      294,
-      295
-    ]
+    "end": 295
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 300,
-    "end": 306,
-    "range": [
-      300,
-      306
-    ]
+    "end": 306
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 307,
-    "end": 316,
-    "range": [
-      307,
-      316
-    ]
+    "end": 316
   },
   {
     "type": "Identifier",
     "value": "mi_private",
     "start": 317,
-    "end": 327,
-    "range": [
-      317,
-      327
-    ]
+    "end": 327
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 328,
-    "end": 329,
-    "range": [
-      328,
-      329
-    ]
+    "end": 329
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 338,
-    "end": 344,
-    "range": [
-      338,
-      344
-    ]
+    "end": 344
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 345,
-    "end": 350,
-    "range": [
-      345,
-      350
-    ]
+    "end": 350
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 351,
-    "end": 352,
-    "range": [
-      351,
-      352
-    ]
+    "end": 352
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 353,
-    "end": 354,
-    "range": [
-      353,
-      354
-    ]
+    "end": 354
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 363,
-    "end": 364,
-    "range": [
-      363,
-      364
-    ]
+    "end": 364
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 369,
-    "end": 370,
-    "range": [
-      369,
-      370
-    ]
+    "end": 370
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 375,
-    "end": 381,
-    "range": [
-      375,
-      381
-    ]
+    "end": 381
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 382,
-    "end": 391,
-    "range": [
-      382,
-      391
-    ]
+    "end": 391
   },
   {
     "type": "Identifier",
     "value": "mu_private",
     "start": 392,
-    "end": 402,
-    "range": [
-      392,
-      402
-    ]
+    "end": 402
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 403,
-    "end": 404,
-    "range": [
-      403,
-      404
-    ]
+    "end": 404
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 413,
-    "end": 419,
-    "range": [
-      413,
-      419
-    ]
+    "end": 419
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 420,
-    "end": 429,
-    "range": [
-      420,
-      429
-    ]
+    "end": 429
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 430,
-    "end": 431,
-    "range": [
-      430,
-      431
-    ]
+    "end": 431
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 432,
-    "end": 433,
-    "range": [
-      432,
-      433
-    ]
+    "end": 433
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 442,
-    "end": 443,
-    "range": [
-      442,
-      443
-    ]
+    "end": 443
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 448,
-    "end": 449,
-    "range": [
-      448,
-      449
-    ]
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 450,
-    "end": 451,
-    "range": [
-      450,
-      451
-    ]
+    "end": 451
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 472,
-    "end": 478,
-    "range": [
-      472,
-      478
-    ]
+    "end": 478
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 479,
-    "end": 488,
-    "range": [
-      479,
-      488
-    ]
+    "end": 488
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 489,
-    "end": 497,
-    "range": [
-      489,
-      497
-    ]
+    "end": 497
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 498,
-    "end": 499,
-    "range": [
-      498,
-      499
-    ]
+    "end": 499
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 504,
-    "end": 510,
-    "range": [
-      504,
-      510
-    ]
+    "end": 510
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 511,
-    "end": 516,
-    "range": [
-      511,
-      516
-    ]
+    "end": 516
   },
   {
     "type": "Identifier",
     "value": "c_public",
     "start": 517,
-    "end": 525,
-    "range": [
-      517,
-      525
-    ]
+    "end": 525
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 526,
-    "end": 527,
-    "range": [
-      526,
-      527
-    ]
+    "end": 527
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 532,
-    "end": 533,
-    "range": [
-      532,
-      533
-    ]
+    "end": 533
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 538,
-    "end": 544,
-    "range": [
-      538,
-      544
-    ]
+    "end": 544
   },
   {
     "type": "Keyword",
     "value": "enum",
     "start": 545,
-    "end": 549,
-    "range": [
-      545,
-      549
-    ]
+    "end": 549
   },
   {
     "type": "Identifier",
     "value": "e_public",
     "start": 550,
-    "end": 558,
-    "range": [
-      550,
-      558
-    ]
+    "end": 558
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 559,
-    "end": 560,
-    "range": [
-      559,
-      560
-    ]
+    "end": 560
   },
   {
     "type": "Identifier",
     "value": "Happy",
     "start": 569,
-    "end": 574,
-    "range": [
-      569,
-      574
-    ]
+    "end": 574
   },
   {
     "type": "Punctuator",
     "value": ",",
     "start": 574,
-    "end": 575,
-    "range": [
-      574,
-      575
-    ]
+    "end": 575
   },
   {
     "type": "Identifier",
     "value": "Grumpy",
     "start": 584,
-    "end": 590,
-    "range": [
-      584,
-      590
-    ]
+    "end": 590
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 595,
-    "end": 596,
-    "range": [
-      595,
-      596
-    ]
+    "end": 596
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 601,
-    "end": 607,
-    "range": [
-      601,
-      607
-    ]
+    "end": 607
   },
   {
     "type": "Keyword",
     "value": "function",
     "start": 608,
-    "end": 616,
-    "range": [
-      608,
-      616
-    ]
+    "end": 616
   },
   {
     "type": "Identifier",
     "value": "f_public",
     "start": 617,
-    "end": 625,
-    "range": [
-      617,
-      625
-    ]
+    "end": 625
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 625,
-    "end": 626,
-    "range": [
-      625,
-      626
-    ]
+    "end": 626
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 626,
-    "end": 627,
-    "range": [
-      626,
-      627
-    ]
+    "end": 627
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 628,
-    "end": 629,
-    "range": [
-      628,
-      629
-    ]
+    "end": 629
   },
   {
     "type": "Keyword",
     "value": "return",
     "start": 638,
-    "end": 644,
-    "range": [
-      638,
-      644
-    ]
+    "end": 644
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 645,
-    "end": 648,
-    "range": [
-      645,
-      648
-    ]
+    "end": 648
   },
   {
     "type": "Identifier",
     "value": "c_public",
     "start": 649,
-    "end": 657,
-    "range": [
-      649,
-      657
-    ]
+    "end": 657
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 657,
-    "end": 658,
-    "range": [
-      657,
-      658
-    ]
+    "end": 658
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 658,
-    "end": 659,
-    "range": [
-      658,
-      659
-    ]
+    "end": 659
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 659,
-    "end": 660,
-    "range": [
-      659,
-      660
-    ]
+    "end": 660
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 665,
-    "end": 666,
-    "range": [
-      665,
-      666
-    ]
+    "end": 666
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 671,
-    "end": 677,
-    "range": [
-      671,
-      677
-    ]
+    "end": 677
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 678,
-    "end": 681,
-    "range": [
-      678,
-      681
-    ]
+    "end": 681
   },
   {
     "type": "Identifier",
     "value": "v_public",
     "start": 682,
-    "end": 690,
-    "range": [
-      682,
-      690
-    ]
+    "end": 690
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 691,
-    "end": 692,
-    "range": [
-      691,
-      692
-    ]
+    "end": 692
   },
   {
     "type": "Numeric",
     "value": "10",
     "start": 693,
-    "end": 695,
-    "range": [
-      693,
-      695
-    ]
+    "end": 695
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 695,
-    "end": 696,
-    "range": [
-      695,
-      696
-    ]
+    "end": 696
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 701,
-    "end": 707,
-    "range": [
-      701,
-      707
-    ]
+    "end": 707
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 708,
-    "end": 717,
-    "range": [
-      708,
-      717
-    ]
+    "end": 717
   },
   {
     "type": "Identifier",
     "value": "i_public",
     "start": 718,
-    "end": 726,
-    "range": [
-      718,
-      726
-    ]
+    "end": 726
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 727,
-    "end": 728,
-    "range": [
-      727,
-      728
-    ]
+    "end": 728
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 733,
-    "end": 734,
-    "range": [
-      733,
-      734
-    ]
+    "end": 734
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 739,
-    "end": 745,
-    "range": [
-      739,
-      745
-    ]
+    "end": 745
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 746,
-    "end": 755,
-    "range": [
-      746,
-      755
-    ]
+    "end": 755
   },
   {
     "type": "Identifier",
     "value": "mi_public",
     "start": 756,
-    "end": 765,
-    "range": [
-      756,
-      765
-    ]
+    "end": 765
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 766,
-    "end": 767,
-    "range": [
-      766,
-      767
-    ]
+    "end": 767
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 776,
-    "end": 782,
-    "range": [
-      776,
-      782
-    ]
+    "end": 782
   },
   {
     "type": "Keyword",
     "value": "class",
     "start": 783,
-    "end": 788,
-    "range": [
-      783,
-      788
-    ]
+    "end": 788
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 789,
-    "end": 790,
-    "range": [
-      789,
-      790
-    ]
+    "end": 790
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 791,
-    "end": 792,
-    "range": [
-      791,
-      792
-    ]
+    "end": 792
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 801,
-    "end": 802,
-    "range": [
-      801,
-      802
-    ]
+    "end": 802
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 807,
-    "end": 808,
-    "range": [
-      807,
-      808
-    ]
+    "end": 808
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 813,
-    "end": 819,
-    "range": [
-      813,
-      819
-    ]
+    "end": 819
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 820,
-    "end": 829,
-    "range": [
-      820,
-      829
-    ]
+    "end": 829
   },
   {
     "type": "Identifier",
     "value": "mu_public",
     "start": 830,
-    "end": 839,
-    "range": [
-      830,
-      839
-    ]
+    "end": 839
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 840,
-    "end": 841,
-    "range": [
-      840,
-      841
-    ]
+    "end": 841
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 850,
-    "end": 856,
-    "range": [
-      850,
-      856
-    ]
+    "end": 856
   },
   {
     "type": "Keyword",
     "value": "interface",
     "start": 857,
-    "end": 866,
-    "range": [
-      857,
-      866
-    ]
+    "end": 866
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 867,
-    "end": 868,
-    "range": [
-      867,
-      868
-    ]
+    "end": 868
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 869,
-    "end": 870,
-    "range": [
-      869,
-      870
-    ]
+    "end": 870
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 879,
-    "end": 880,
-    "range": [
-      879,
-      880
-    ]
+    "end": 880
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 885,
-    "end": 886,
-    "range": [
-      885,
-      886
-    ]
+    "end": 886
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 887,
-    "end": 888,
-    "range": [
-      887,
-      888
-    ]
+    "end": 888
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 890,
-    "end": 896,
-    "range": [
-      890,
-      896
-    ]
+    "end": 896
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 897,
-    "end": 906,
-    "range": [
-      897,
-      906
-    ]
+    "end": 906
   },
   {
     "type": "Identifier",
     "value": "import_public",
     "start": 907,
-    "end": 920,
-    "range": [
-      907,
-      920
-    ]
+    "end": 920
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 921,
-    "end": 922,
-    "range": [
-      921,
-      922
-    ]
+    "end": 922
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 978,
-    "end": 984,
-    "range": [
-      978,
-      984
-    ]
+    "end": 984
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 985,
-    "end": 991,
-    "range": [
-      985,
-      991
-    ]
+    "end": 991
   },
   {
     "type": "Identifier",
     "value": "im_public_c_private",
     "start": 992,
-    "end": 1011,
-    "range": [
-      992,
-      1011
-    ]
+    "end": 1011
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1012,
-    "end": 1013,
-    "range": [
-      1012,
-      1013
-    ]
+    "end": 1013
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 1014,
-    "end": 1023,
-    "range": [
-      1014,
-      1023
-    ]
+    "end": 1023
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1023,
-    "end": 1024,
-    "range": [
-      1023,
-      1024
-    ]
+    "end": 1024
   },
   {
     "type": "Identifier",
     "value": "c_private",
     "start": 1024,
-    "end": 1033,
-    "range": [
-      1024,
-      1033
-    ]
+    "end": 1033
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1033,
-    "end": 1034,
-    "range": [
-      1033,
-      1034
-    ]
+    "end": 1034
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1039,
-    "end": 1045,
-    "range": [
-      1039,
-      1045
-    ]
+    "end": 1045
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1046,
-    "end": 1052,
-    "range": [
-      1046,
-      1052
-    ]
+    "end": 1052
   },
   {
     "type": "Identifier",
     "value": "im_public_e_private",
     "start": 1053,
-    "end": 1072,
-    "range": [
-      1053,
-      1072
-    ]
+    "end": 1072
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1073,
-    "end": 1074,
-    "range": [
-      1073,
-      1074
-    ]
+    "end": 1074
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 1075,
-    "end": 1084,
-    "range": [
-      1075,
-      1084
-    ]
+    "end": 1084
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1084,
-    "end": 1085,
-    "range": [
-      1084,
-      1085
-    ]
+    "end": 1085
   },
   {
     "type": "Identifier",
     "value": "e_private",
     "start": 1085,
-    "end": 1094,
-    "range": [
-      1085,
-      1094
-    ]
+    "end": 1094
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1094,
-    "end": 1095,
-    "range": [
-      1094,
-      1095
-    ]
+    "end": 1095
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1100,
-    "end": 1106,
-    "range": [
-      1100,
-      1106
-    ]
+    "end": 1106
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1107,
-    "end": 1113,
-    "range": [
-      1107,
-      1113
-    ]
+    "end": 1113
   },
   {
     "type": "Identifier",
     "value": "im_public_f_private",
     "start": 1114,
-    "end": 1133,
-    "range": [
-      1114,
-      1133
-    ]
+    "end": 1133
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1134,
-    "end": 1135,
-    "range": [
-      1134,
-      1135
-    ]
+    "end": 1135
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 1136,
-    "end": 1145,
-    "range": [
-      1136,
-      1145
-    ]
+    "end": 1145
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1145,
-    "end": 1146,
-    "range": [
-      1145,
-      1146
-    ]
+    "end": 1146
   },
   {
     "type": "Identifier",
     "value": "f_private",
     "start": 1146,
-    "end": 1155,
-    "range": [
-      1146,
-      1155
-    ]
+    "end": 1155
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1155,
-    "end": 1156,
-    "range": [
-      1155,
-      1156
-    ]
+    "end": 1156
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1161,
-    "end": 1167,
-    "range": [
-      1161,
-      1167
-    ]
+    "end": 1167
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1168,
-    "end": 1174,
-    "range": [
-      1168,
-      1174
-    ]
+    "end": 1174
   },
   {
     "type": "Identifier",
     "value": "im_public_v_private",
     "start": 1175,
-    "end": 1194,
-    "range": [
-      1175,
-      1194
-    ]
+    "end": 1194
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1195,
-    "end": 1196,
-    "range": [
-      1195,
-      1196
-    ]
+    "end": 1196
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 1197,
-    "end": 1206,
-    "range": [
-      1197,
-      1206
-    ]
+    "end": 1206
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1206,
-    "end": 1207,
-    "range": [
-      1206,
-      1207
-    ]
+    "end": 1207
   },
   {
     "type": "Identifier",
     "value": "v_private",
     "start": 1207,
-    "end": 1216,
-    "range": [
-      1207,
-      1216
-    ]
+    "end": 1216
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1216,
-    "end": 1217,
-    "range": [
-      1216,
-      1217
-    ]
+    "end": 1217
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1222,
-    "end": 1228,
-    "range": [
-      1222,
-      1228
-    ]
+    "end": 1228
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1229,
-    "end": 1235,
-    "range": [
-      1229,
-      1235
-    ]
+    "end": 1235
   },
   {
     "type": "Identifier",
     "value": "im_public_i_private",
     "start": 1236,
-    "end": 1255,
-    "range": [
-      1236,
-      1255
-    ]
+    "end": 1255
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1256,
-    "end": 1257,
-    "range": [
-      1256,
-      1257
-    ]
+    "end": 1257
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 1258,
-    "end": 1267,
-    "range": [
-      1258,
-      1267
-    ]
+    "end": 1267
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1267,
-    "end": 1268,
-    "range": [
-      1267,
-      1268
-    ]
+    "end": 1268
   },
   {
     "type": "Identifier",
     "value": "i_private",
     "start": 1268,
-    "end": 1277,
-    "range": [
-      1268,
-      1277
-    ]
+    "end": 1277
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1277,
-    "end": 1278,
-    "range": [
-      1277,
-      1278
-    ]
+    "end": 1278
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1283,
-    "end": 1289,
-    "range": [
-      1283,
-      1289
-    ]
+    "end": 1289
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1290,
-    "end": 1296,
-    "range": [
-      1290,
-      1296
-    ]
+    "end": 1296
   },
   {
     "type": "Identifier",
     "value": "im_public_mi_private",
     "start": 1297,
-    "end": 1317,
-    "range": [
-      1297,
-      1317
-    ]
+    "end": 1317
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1318,
-    "end": 1319,
-    "range": [
-      1318,
-      1319
-    ]
+    "end": 1319
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 1320,
-    "end": 1329,
-    "range": [
-      1320,
-      1329
-    ]
+    "end": 1329
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1329,
-    "end": 1330,
-    "range": [
-      1329,
-      1330
-    ]
+    "end": 1330
   },
   {
     "type": "Identifier",
     "value": "mi_private",
     "start": 1330,
-    "end": 1340,
-    "range": [
-      1330,
-      1340
-    ]
+    "end": 1340
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1340,
-    "end": 1341,
-    "range": [
-      1340,
-      1341
-    ]
+    "end": 1341
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1346,
-    "end": 1352,
-    "range": [
-      1346,
-      1352
-    ]
+    "end": 1352
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 1353,
-    "end": 1359,
-    "range": [
-      1353,
-      1359
-    ]
+    "end": 1359
   },
   {
     "type": "Identifier",
     "value": "im_public_mu_private",
     "start": 1360,
-    "end": 1380,
-    "range": [
-      1360,
-      1380
-    ]
+    "end": 1380
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1381,
-    "end": 1382,
-    "range": [
-      1381,
-      1382
-    ]
+    "end": 1382
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 1383,
-    "end": 1392,
-    "range": [
-      1383,
-      1392
-    ]
+    "end": 1392
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1392,
-    "end": 1393,
-    "range": [
-      1392,
-      1393
-    ]
+    "end": 1393
   },
   {
     "type": "Identifier",
     "value": "mu_private",
     "start": 1393,
-    "end": 1403,
-    "range": [
-      1393,
-      1403
-    ]
+    "end": 1403
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1403,
-    "end": 1404,
-    "range": [
-      1403,
-      1404
-    ]
+    "end": 1404
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1448,
-    "end": 1451,
-    "range": [
-      1448,
-      1451
-    ]
+    "end": 1451
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_c_private",
     "start": 1452,
-    "end": 1482,
-    "range": [
-      1452,
-      1482
-    ]
+    "end": 1482
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1483,
-    "end": 1484,
-    "range": [
-      1483,
-      1484
-    ]
+    "end": 1484
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1485,
-    "end": 1488,
-    "range": [
-      1485,
-      1488
-    ]
+    "end": 1488
   },
   {
     "type": "Identifier",
     "value": "im_public_c_private",
     "start": 1489,
-    "end": 1508,
-    "range": [
-      1489,
-      1508
-    ]
+    "end": 1508
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1508,
-    "end": 1509,
-    "range": [
-      1508,
-      1509
-    ]
+    "end": 1509
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1509,
-    "end": 1510,
-    "range": [
-      1509,
-      1510
-    ]
+    "end": 1510
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1510,
-    "end": 1511,
-    "range": [
-      1510,
-      1511
-    ]
+    "end": 1511
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1516,
-    "end": 1522,
-    "range": [
-      1516,
-      1522
-    ]
+    "end": 1522
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1523,
-    "end": 1526,
-    "range": [
-      1523,
-      1526
-    ]
+    "end": 1526
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_c_private",
     "start": 1527,
-    "end": 1556,
-    "range": [
-      1527,
-      1556
-    ]
+    "end": 1556
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1557,
-    "end": 1558,
-    "range": [
-      1557,
-      1558
-    ]
+    "end": 1558
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 1559,
-    "end": 1562,
-    "range": [
-      1559,
-      1562
-    ]
+    "end": 1562
   },
   {
     "type": "Identifier",
     "value": "im_public_c_private",
     "start": 1563,
-    "end": 1582,
-    "range": [
-      1563,
-      1582
-    ]
+    "end": 1582
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1582,
-    "end": 1583,
-    "range": [
-      1582,
-      1583
-    ]
+    "end": 1583
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1583,
-    "end": 1584,
-    "range": [
-      1583,
-      1584
-    ]
+    "end": 1584
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1584,
-    "end": 1585,
-    "range": [
-      1584,
-      1585
-    ]
+    "end": 1585
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1590,
-    "end": 1593,
-    "range": [
-      1590,
-      1593
-    ]
+    "end": 1593
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_e_private",
     "start": 1594,
-    "end": 1624,
-    "range": [
-      1594,
-      1624
-    ]
+    "end": 1624
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1625,
-    "end": 1626,
-    "range": [
-      1625,
-      1626
-    ]
+    "end": 1626
   },
   {
     "type": "Identifier",
     "value": "im_public_e_private",
     "start": 1627,
-    "end": 1646,
-    "range": [
-      1627,
-      1646
-    ]
+    "end": 1646
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1646,
-    "end": 1647,
-    "range": [
-      1646,
-      1647
-    ]
+    "end": 1647
   },
   {
     "type": "Identifier",
     "value": "Happy",
     "start": 1647,
-    "end": 1652,
-    "range": [
-      1647,
-      1652
-    ]
+    "end": 1652
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1652,
-    "end": 1653,
-    "range": [
-      1652,
-      1653
-    ]
+    "end": 1653
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1658,
-    "end": 1664,
-    "range": [
-      1658,
-      1664
-    ]
+    "end": 1664
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1665,
-    "end": 1668,
-    "range": [
-      1665,
-      1668
-    ]
+    "end": 1668
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_e_private",
     "start": 1669,
-    "end": 1698,
-    "range": [
-      1669,
-      1698
-    ]
+    "end": 1698
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1699,
-    "end": 1700,
-    "range": [
-      1699,
-      1700
-    ]
+    "end": 1700
   },
   {
     "type": "Identifier",
     "value": "im_public_e_private",
     "start": 1701,
-    "end": 1720,
-    "range": [
-      1701,
-      1720
-    ]
+    "end": 1720
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 1720,
-    "end": 1721,
-    "range": [
-      1720,
-      1721
-    ]
+    "end": 1721
   },
   {
     "type": "Identifier",
     "value": "Grumpy",
     "start": 1721,
-    "end": 1727,
-    "range": [
-      1721,
-      1727
-    ]
+    "end": 1727
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1727,
-    "end": 1728,
-    "range": [
-      1727,
-      1728
-    ]
+    "end": 1728
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1733,
-    "end": 1736,
-    "range": [
-      1733,
-      1736
-    ]
+    "end": 1736
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_f_private",
     "start": 1737,
-    "end": 1767,
-    "range": [
-      1737,
-      1767
-    ]
+    "end": 1767
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1768,
-    "end": 1769,
-    "range": [
-      1768,
-      1769
-    ]
+    "end": 1769
   },
   {
     "type": "Identifier",
     "value": "im_public_f_private",
     "start": 1770,
-    "end": 1789,
-    "range": [
-      1770,
-      1789
-    ]
+    "end": 1789
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1789,
-    "end": 1790,
-    "range": [
-      1789,
-      1790
-    ]
+    "end": 1790
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1790,
-    "end": 1791,
-    "range": [
-      1790,
-      1791
-    ]
+    "end": 1791
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1791,
-    "end": 1792,
-    "range": [
-      1791,
-      1792
-    ]
+    "end": 1792
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1797,
-    "end": 1803,
-    "range": [
-      1797,
-      1803
-    ]
+    "end": 1803
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1804,
-    "end": 1807,
-    "range": [
-      1804,
-      1807
-    ]
+    "end": 1807
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_f_private",
     "start": 1808,
-    "end": 1837,
-    "range": [
-      1808,
-      1837
-    ]
+    "end": 1837
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1838,
-    "end": 1839,
-    "range": [
-      1838,
-      1839
-    ]
+    "end": 1839
   },
   {
     "type": "Identifier",
     "value": "im_public_f_private",
     "start": 1840,
-    "end": 1859,
-    "range": [
-      1840,
-      1859
-    ]
+    "end": 1859
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 1859,
-    "end": 1860,
-    "range": [
-      1859,
-      1860
-    ]
+    "end": 1860
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 1860,
-    "end": 1861,
-    "range": [
-      1860,
-      1861
-    ]
+    "end": 1861
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1861,
-    "end": 1862,
-    "range": [
-      1861,
-      1862
-    ]
+    "end": 1862
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1867,
-    "end": 1870,
-    "range": [
-      1867,
-      1870
-    ]
+    "end": 1870
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_v_private",
     "start": 1871,
-    "end": 1901,
-    "range": [
-      1871,
-      1901
-    ]
+    "end": 1901
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1902,
-    "end": 1903,
-    "range": [
-      1902,
-      1903
-    ]
+    "end": 1903
   },
   {
     "type": "Identifier",
     "value": "im_public_v_private",
     "start": 1904,
-    "end": 1923,
-    "range": [
-      1904,
-      1923
-    ]
+    "end": 1923
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1923,
-    "end": 1924,
-    "range": [
-      1923,
-      1924
-    ]
+    "end": 1924
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 1929,
-    "end": 1935,
-    "range": [
-      1929,
-      1935
-    ]
+    "end": 1935
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1936,
-    "end": 1939,
-    "range": [
-      1936,
-      1939
-    ]
+    "end": 1939
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_v_private",
     "start": 1940,
-    "end": 1969,
-    "range": [
-      1940,
-      1969
-    ]
+    "end": 1969
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 1970,
-    "end": 1971,
-    "range": [
-      1970,
-      1971
-    ]
+    "end": 1971
   },
   {
     "type": "Identifier",
     "value": "im_public_v_private",
     "start": 1972,
-    "end": 1991,
-    "range": [
-      1972,
-      1991
-    ]
+    "end": 1991
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 1991,
-    "end": 1992,
-    "range": [
-      1991,
-      1992
-    ]
+    "end": 1992
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 1997,
-    "end": 2000,
-    "range": [
-      1997,
-      2000
-    ]
+    "end": 2000
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_i_private",
     "start": 2001,
-    "end": 2031,
-    "range": [
-      2001,
-      2031
-    ]
+    "end": 2031
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2031,
-    "end": 2032,
-    "range": [
-      2031,
-      2032
-    ]
+    "end": 2032
   },
   {
     "type": "Identifier",
     "value": "im_public_i_private",
     "start": 2033,
-    "end": 2052,
-    "range": [
-      2033,
-      2052
-    ]
+    "end": 2052
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2052,
-    "end": 2053,
-    "range": [
-      2052,
-      2053
-    ]
+    "end": 2053
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2058,
-    "end": 2064,
-    "range": [
-      2058,
-      2064
-    ]
+    "end": 2064
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2065,
-    "end": 2068,
-    "range": [
-      2065,
-      2068
-    ]
+    "end": 2068
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_i_private",
     "start": 2069,
-    "end": 2098,
-    "range": [
-      2069,
-      2098
-    ]
+    "end": 2098
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2098,
-    "end": 2099,
-    "range": [
-      2098,
-      2099
-    ]
+    "end": 2099
   },
   {
     "type": "Identifier",
     "value": "im_public_i_private",
     "start": 2100,
-    "end": 2119,
-    "range": [
-      2100,
-      2119
-    ]
+    "end": 2119
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2119,
-    "end": 2120,
-    "range": [
-      2119,
-      2120
-    ]
+    "end": 2120
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2125,
-    "end": 2128,
-    "range": [
-      2125,
-      2128
-    ]
+    "end": 2128
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_mi_private",
     "start": 2129,
-    "end": 2160,
-    "range": [
-      2129,
-      2160
-    ]
+    "end": 2160
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2161,
-    "end": 2162,
-    "range": [
-      2161,
-      2162
-    ]
+    "end": 2162
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 2163,
-    "end": 2166,
-    "range": [
-      2163,
-      2166
-    ]
+    "end": 2166
   },
   {
     "type": "Identifier",
     "value": "im_public_mi_private",
     "start": 2167,
-    "end": 2187,
-    "range": [
-      2167,
-      2187
-    ]
+    "end": 2187
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2187,
-    "end": 2188,
-    "range": [
-      2187,
-      2188
-    ]
+    "end": 2188
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 2188,
-    "end": 2189,
-    "range": [
-      2188,
-      2189
-    ]
+    "end": 2189
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2189,
-    "end": 2190,
-    "range": [
-      2189,
-      2190
-    ]
+    "end": 2190
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2190,
-    "end": 2191,
-    "range": [
-      2190,
-      2191
-    ]
+    "end": 2191
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2191,
-    "end": 2192,
-    "range": [
-      2191,
-      2192
-    ]
+    "end": 2192
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2197,
-    "end": 2203,
-    "range": [
-      2197,
-      2203
-    ]
+    "end": 2203
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2204,
-    "end": 2207,
-    "range": [
-      2204,
-      2207
-    ]
+    "end": 2207
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_mi_private",
     "start": 2208,
-    "end": 2238,
-    "range": [
-      2208,
-      2238
-    ]
+    "end": 2238
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2239,
-    "end": 2240,
-    "range": [
-      2239,
-      2240
-    ]
+    "end": 2240
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 2241,
-    "end": 2244,
-    "range": [
-      2241,
-      2244
-    ]
+    "end": 2244
   },
   {
     "type": "Identifier",
     "value": "im_public_mi_private",
     "start": 2245,
-    "end": 2265,
-    "range": [
-      2245,
-      2265
-    ]
+    "end": 2265
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2265,
-    "end": 2266,
-    "range": [
-      2265,
-      2266
-    ]
+    "end": 2266
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 2266,
-    "end": 2267,
-    "range": [
-      2266,
-      2267
-    ]
+    "end": 2267
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2267,
-    "end": 2268,
-    "range": [
-      2267,
-      2268
-    ]
+    "end": 2268
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2268,
-    "end": 2269,
-    "range": [
-      2268,
-      2269
-    ]
+    "end": 2269
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2269,
-    "end": 2270,
-    "range": [
-      2269,
-      2270
-    ]
+    "end": 2270
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2275,
-    "end": 2278,
-    "range": [
-      2275,
-      2278
-    ]
+    "end": 2278
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_mu_private",
     "start": 2279,
-    "end": 2310,
-    "range": [
-      2279,
-      2310
-    ]
+    "end": 2310
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2310,
-    "end": 2311,
-    "range": [
-      2310,
-      2311
-    ]
+    "end": 2311
   },
   {
     "type": "Identifier",
     "value": "im_public_mu_private",
     "start": 2312,
-    "end": 2332,
-    "range": [
-      2312,
-      2332
-    ]
+    "end": 2332
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2332,
-    "end": 2333,
-    "range": [
-      2332,
-      2333
-    ]
+    "end": 2333
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 2333,
-    "end": 2334,
-    "range": [
-      2333,
-      2334
-    ]
+    "end": 2334
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2334,
-    "end": 2335,
-    "range": [
-      2334,
-      2335
-    ]
+    "end": 2335
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2340,
-    "end": 2346,
-    "range": [
-      2340,
-      2346
-    ]
+    "end": 2346
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2347,
-    "end": 2350,
-    "range": [
-      2347,
-      2350
-    ]
+    "end": 2350
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_mu_private",
     "start": 2351,
-    "end": 2381,
-    "range": [
-      2351,
-      2381
-    ]
+    "end": 2381
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 2381,
-    "end": 2382,
-    "range": [
-      2381,
-      2382
-    ]
+    "end": 2382
   },
   {
     "type": "Identifier",
     "value": "im_public_mu_private",
     "start": 2383,
-    "end": 2403,
-    "range": [
-      2383,
-      2403
-    ]
+    "end": 2403
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2403,
-    "end": 2404,
-    "range": [
-      2403,
-      2404
-    ]
+    "end": 2404
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 2404,
-    "end": 2405,
-    "range": [
-      2404,
-      2405
-    ]
+    "end": 2405
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2405,
-    "end": 2406,
-    "range": [
-      2405,
-      2406
-    ]
+    "end": 2406
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2466,
-    "end": 2472,
-    "range": [
-      2466,
-      2472
-    ]
+    "end": 2472
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 2473,
-    "end": 2479,
-    "range": [
-      2473,
-      2479
-    ]
+    "end": 2479
   },
   {
     "type": "Identifier",
     "value": "im_public_c_public",
     "start": 2480,
-    "end": 2498,
-    "range": [
-      2480,
-      2498
-    ]
+    "end": 2498
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2499,
-    "end": 2500,
-    "range": [
-      2499,
-      2500
-    ]
+    "end": 2500
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 2501,
-    "end": 2509,
-    "range": [
-      2501,
-      2509
-    ]
+    "end": 2509
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2509,
-    "end": 2510,
-    "range": [
-      2509,
-      2510
-    ]
+    "end": 2510
   },
   {
     "type": "Identifier",
     "value": "c_public",
     "start": 2510,
-    "end": 2518,
-    "range": [
-      2510,
-      2518
-    ]
+    "end": 2518
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2518,
-    "end": 2519,
-    "range": [
-      2518,
-      2519
-    ]
+    "end": 2519
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2524,
-    "end": 2530,
-    "range": [
-      2524,
-      2530
-    ]
+    "end": 2530
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 2531,
-    "end": 2537,
-    "range": [
-      2531,
-      2537
-    ]
+    "end": 2537
   },
   {
     "type": "Identifier",
     "value": "im_public_e_public",
     "start": 2538,
-    "end": 2556,
-    "range": [
-      2538,
-      2556
-    ]
+    "end": 2556
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2557,
-    "end": 2558,
-    "range": [
-      2557,
-      2558
-    ]
+    "end": 2558
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 2559,
-    "end": 2567,
-    "range": [
-      2559,
-      2567
-    ]
+    "end": 2567
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2567,
-    "end": 2568,
-    "range": [
-      2567,
-      2568
-    ]
+    "end": 2568
   },
   {
     "type": "Identifier",
     "value": "e_public",
     "start": 2568,
-    "end": 2576,
-    "range": [
-      2568,
-      2576
-    ]
+    "end": 2576
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2576,
-    "end": 2577,
-    "range": [
-      2576,
-      2577
-    ]
+    "end": 2577
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2582,
-    "end": 2588,
-    "range": [
-      2582,
-      2588
-    ]
+    "end": 2588
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 2589,
-    "end": 2595,
-    "range": [
-      2589,
-      2595
-    ]
+    "end": 2595
   },
   {
     "type": "Identifier",
     "value": "im_public_f_public",
     "start": 2596,
-    "end": 2614,
-    "range": [
-      2596,
-      2614
-    ]
+    "end": 2614
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2615,
-    "end": 2616,
-    "range": [
-      2615,
-      2616
-    ]
+    "end": 2616
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 2617,
-    "end": 2625,
-    "range": [
-      2617,
-      2625
-    ]
+    "end": 2625
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2625,
-    "end": 2626,
-    "range": [
-      2625,
-      2626
-    ]
+    "end": 2626
   },
   {
     "type": "Identifier",
     "value": "f_public",
     "start": 2626,
-    "end": 2634,
-    "range": [
-      2626,
-      2634
-    ]
+    "end": 2634
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2634,
-    "end": 2635,
-    "range": [
-      2634,
-      2635
-    ]
+    "end": 2635
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2640,
-    "end": 2646,
-    "range": [
-      2640,
-      2646
-    ]
+    "end": 2646
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 2647,
-    "end": 2653,
-    "range": [
-      2647,
-      2653
-    ]
+    "end": 2653
   },
   {
     "type": "Identifier",
     "value": "im_public_v_public",
     "start": 2654,
-    "end": 2672,
-    "range": [
-      2654,
-      2672
-    ]
+    "end": 2672
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2673,
-    "end": 2674,
-    "range": [
-      2673,
-      2674
-    ]
+    "end": 2674
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 2675,
-    "end": 2683,
-    "range": [
-      2675,
-      2683
-    ]
+    "end": 2683
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2683,
-    "end": 2684,
-    "range": [
-      2683,
-      2684
-    ]
+    "end": 2684
   },
   {
     "type": "Identifier",
     "value": "v_public",
     "start": 2684,
-    "end": 2692,
-    "range": [
-      2684,
-      2692
-    ]
+    "end": 2692
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2692,
-    "end": 2693,
-    "range": [
-      2692,
-      2693
-    ]
+    "end": 2693
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2698,
-    "end": 2704,
-    "range": [
-      2698,
-      2704
-    ]
+    "end": 2704
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 2705,
-    "end": 2711,
-    "range": [
-      2705,
-      2711
-    ]
+    "end": 2711
   },
   {
     "type": "Identifier",
     "value": "im_public_i_public",
     "start": 2712,
-    "end": 2730,
-    "range": [
-      2712,
-      2730
-    ]
+    "end": 2730
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2731,
-    "end": 2732,
-    "range": [
-      2731,
-      2732
-    ]
+    "end": 2732
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 2733,
-    "end": 2741,
-    "range": [
-      2733,
-      2741
-    ]
+    "end": 2741
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2741,
-    "end": 2742,
-    "range": [
-      2741,
-      2742
-    ]
+    "end": 2742
   },
   {
     "type": "Identifier",
     "value": "i_public",
     "start": 2742,
-    "end": 2750,
-    "range": [
-      2742,
-      2750
-    ]
+    "end": 2750
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2750,
-    "end": 2751,
-    "range": [
-      2750,
-      2751
-    ]
+    "end": 2751
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2756,
-    "end": 2762,
-    "range": [
-      2756,
-      2762
-    ]
+    "end": 2762
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 2763,
-    "end": 2769,
-    "range": [
-      2763,
-      2769
-    ]
+    "end": 2769
   },
   {
     "type": "Identifier",
     "value": "im_public_mi_public",
     "start": 2770,
-    "end": 2789,
-    "range": [
-      2770,
-      2789
-    ]
+    "end": 2789
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2790,
-    "end": 2791,
-    "range": [
-      2790,
-      2791
-    ]
+    "end": 2791
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 2792,
-    "end": 2800,
-    "range": [
-      2792,
-      2800
-    ]
+    "end": 2800
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2800,
-    "end": 2801,
-    "range": [
-      2800,
-      2801
-    ]
+    "end": 2801
   },
   {
     "type": "Identifier",
     "value": "mi_public",
     "start": 2801,
-    "end": 2810,
-    "range": [
-      2801,
-      2810
-    ]
+    "end": 2810
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2810,
-    "end": 2811,
-    "range": [
-      2810,
-      2811
-    ]
+    "end": 2811
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2816,
-    "end": 2822,
-    "range": [
-      2816,
-      2822
-    ]
+    "end": 2822
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 2823,
-    "end": 2829,
-    "range": [
-      2823,
-      2829
-    ]
+    "end": 2829
   },
   {
     "type": "Identifier",
     "value": "im_public_mu_public",
     "start": 2830,
-    "end": 2849,
-    "range": [
-      2830,
-      2849
-    ]
+    "end": 2849
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2850,
-    "end": 2851,
-    "range": [
-      2850,
-      2851
-    ]
+    "end": 2851
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 2852,
-    "end": 2860,
-    "range": [
-      2852,
-      2860
-    ]
+    "end": 2860
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 2860,
-    "end": 2861,
-    "range": [
-      2860,
-      2861
-    ]
+    "end": 2861
   },
   {
     "type": "Identifier",
     "value": "mu_public",
     "start": 2861,
-    "end": 2870,
-    "range": [
-      2861,
-      2870
-    ]
+    "end": 2870
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2870,
-    "end": 2871,
-    "range": [
-      2870,
-      2871
-    ]
+    "end": 2871
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2899,
-    "end": 2902,
-    "range": [
-      2899,
-      2902
-    ]
+    "end": 2902
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_c_public",
     "start": 2903,
-    "end": 2932,
-    "range": [
-      2903,
-      2932
-    ]
+    "end": 2932
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 2933,
-    "end": 2934,
-    "range": [
-      2933,
-      2934
-    ]
+    "end": 2934
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 2935,
-    "end": 2938,
-    "range": [
-      2935,
-      2938
-    ]
+    "end": 2938
   },
   {
     "type": "Identifier",
     "value": "im_public_c_public",
     "start": 2939,
-    "end": 2957,
-    "range": [
-      2939,
-      2957
-    ]
+    "end": 2957
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 2957,
-    "end": 2958,
-    "range": [
-      2957,
-      2958
-    ]
+    "end": 2958
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 2958,
-    "end": 2959,
-    "range": [
-      2958,
-      2959
-    ]
+    "end": 2959
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 2959,
-    "end": 2960,
-    "range": [
-      2959,
-      2960
-    ]
+    "end": 2960
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 2965,
-    "end": 2971,
-    "range": [
-      2965,
-      2971
-    ]
+    "end": 2971
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 2972,
-    "end": 2975,
-    "range": [
-      2972,
-      2975
-    ]
+    "end": 2975
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_c_public",
     "start": 2976,
-    "end": 3004,
-    "range": [
-      2976,
-      3004
-    ]
+    "end": 3004
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3005,
-    "end": 3006,
-    "range": [
-      3005,
-      3006
-    ]
+    "end": 3006
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 3007,
-    "end": 3010,
-    "range": [
-      3007,
-      3010
-    ]
+    "end": 3010
   },
   {
     "type": "Identifier",
     "value": "im_public_c_public",
     "start": 3011,
-    "end": 3029,
-    "range": [
-      3011,
-      3029
-    ]
+    "end": 3029
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3029,
-    "end": 3030,
-    "range": [
-      3029,
-      3030
-    ]
+    "end": 3030
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3030,
-    "end": 3031,
-    "range": [
-      3030,
-      3031
-    ]
+    "end": 3031
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3031,
-    "end": 3032,
-    "range": [
-      3031,
-      3032
-    ]
+    "end": 3032
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3037,
-    "end": 3040,
-    "range": [
-      3037,
-      3040
-    ]
+    "end": 3040
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_e_public",
     "start": 3041,
-    "end": 3070,
-    "range": [
-      3041,
-      3070
-    ]
+    "end": 3070
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3071,
-    "end": 3072,
-    "range": [
-      3071,
-      3072
-    ]
+    "end": 3072
   },
   {
     "type": "Identifier",
     "value": "im_public_e_public",
     "start": 3073,
-    "end": 3091,
-    "range": [
-      3073,
-      3091
-    ]
+    "end": 3091
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3091,
-    "end": 3092,
-    "range": [
-      3091,
-      3092
-    ]
+    "end": 3092
   },
   {
     "type": "Identifier",
     "value": "Happy",
     "start": 3092,
-    "end": 3097,
-    "range": [
-      3092,
-      3097
-    ]
+    "end": 3097
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3097,
-    "end": 3098,
-    "range": [
-      3097,
-      3098
-    ]
+    "end": 3098
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3103,
-    "end": 3109,
-    "range": [
-      3103,
-      3109
-    ]
+    "end": 3109
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3110,
-    "end": 3113,
-    "range": [
-      3110,
-      3113
-    ]
+    "end": 3113
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_e_public",
     "start": 3114,
-    "end": 3142,
-    "range": [
-      3114,
-      3142
-    ]
+    "end": 3142
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3143,
-    "end": 3144,
-    "range": [
-      3143,
-      3144
-    ]
+    "end": 3144
   },
   {
     "type": "Identifier",
     "value": "im_public_e_public",
     "start": 3145,
-    "end": 3163,
-    "range": [
-      3145,
-      3163
-    ]
+    "end": 3163
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3163,
-    "end": 3164,
-    "range": [
-      3163,
-      3164
-    ]
+    "end": 3164
   },
   {
     "type": "Identifier",
     "value": "Grumpy",
     "start": 3164,
-    "end": 3170,
-    "range": [
-      3164,
-      3170
-    ]
+    "end": 3170
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3170,
-    "end": 3171,
-    "range": [
-      3170,
-      3171
-    ]
+    "end": 3171
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3176,
-    "end": 3179,
-    "range": [
-      3176,
-      3179
-    ]
+    "end": 3179
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_f_public",
     "start": 3180,
-    "end": 3209,
-    "range": [
-      3180,
-      3209
-    ]
+    "end": 3209
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3210,
-    "end": 3211,
-    "range": [
-      3210,
-      3211
-    ]
+    "end": 3211
   },
   {
     "type": "Identifier",
     "value": "im_public_f_public",
     "start": 3212,
-    "end": 3230,
-    "range": [
-      3212,
-      3230
-    ]
+    "end": 3230
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3230,
-    "end": 3231,
-    "range": [
-      3230,
-      3231
-    ]
+    "end": 3231
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3231,
-    "end": 3232,
-    "range": [
-      3231,
-      3232
-    ]
+    "end": 3232
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3232,
-    "end": 3233,
-    "range": [
-      3232,
-      3233
-    ]
+    "end": 3233
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3238,
-    "end": 3244,
-    "range": [
-      3238,
-      3244
-    ]
+    "end": 3244
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3245,
-    "end": 3248,
-    "range": [
-      3245,
-      3248
-    ]
+    "end": 3248
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_f_public",
     "start": 3249,
-    "end": 3277,
-    "range": [
-      3249,
-      3277
-    ]
+    "end": 3277
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3278,
-    "end": 3279,
-    "range": [
-      3278,
-      3279
-    ]
+    "end": 3279
   },
   {
     "type": "Identifier",
     "value": "im_public_f_public",
     "start": 3280,
-    "end": 3298,
-    "range": [
-      3280,
-      3298
-    ]
+    "end": 3298
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3298,
-    "end": 3299,
-    "range": [
-      3298,
-      3299
-    ]
+    "end": 3299
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3299,
-    "end": 3300,
-    "range": [
-      3299,
-      3300
-    ]
+    "end": 3300
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3300,
-    "end": 3301,
-    "range": [
-      3300,
-      3301
-    ]
+    "end": 3301
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3306,
-    "end": 3309,
-    "range": [
-      3306,
-      3309
-    ]
+    "end": 3309
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_v_public",
     "start": 3310,
-    "end": 3339,
-    "range": [
-      3310,
-      3339
-    ]
+    "end": 3339
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3340,
-    "end": 3341,
-    "range": [
-      3340,
-      3341
-    ]
+    "end": 3341
   },
   {
     "type": "Identifier",
     "value": "im_public_v_public",
     "start": 3342,
-    "end": 3360,
-    "range": [
-      3342,
-      3360
-    ]
+    "end": 3360
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3360,
-    "end": 3361,
-    "range": [
-      3360,
-      3361
-    ]
+    "end": 3361
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3366,
-    "end": 3372,
-    "range": [
-      3366,
-      3372
-    ]
+    "end": 3372
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3373,
-    "end": 3376,
-    "range": [
-      3373,
-      3376
-    ]
+    "end": 3376
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_v_public",
     "start": 3377,
-    "end": 3405,
-    "range": [
-      3377,
-      3405
-    ]
+    "end": 3405
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3406,
-    "end": 3407,
-    "range": [
-      3406,
-      3407
-    ]
+    "end": 3407
   },
   {
     "type": "Identifier",
     "value": "im_public_v_public",
     "start": 3408,
-    "end": 3426,
-    "range": [
-      3408,
-      3426
-    ]
+    "end": 3426
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3426,
-    "end": 3427,
-    "range": [
-      3426,
-      3427
-    ]
+    "end": 3427
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3432,
-    "end": 3435,
-    "range": [
-      3432,
-      3435
-    ]
+    "end": 3435
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_i_public",
     "start": 3436,
-    "end": 3465,
-    "range": [
-      3436,
-      3465
-    ]
+    "end": 3465
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3465,
-    "end": 3466,
-    "range": [
-      3465,
-      3466
-    ]
+    "end": 3466
   },
   {
     "type": "Identifier",
     "value": "im_public_i_public",
     "start": 3467,
-    "end": 3485,
-    "range": [
-      3467,
-      3485
-    ]
+    "end": 3485
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3485,
-    "end": 3486,
-    "range": [
-      3485,
-      3486
-    ]
+    "end": 3486
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3491,
-    "end": 3497,
-    "range": [
-      3491,
-      3497
-    ]
+    "end": 3497
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3498,
-    "end": 3501,
-    "range": [
-      3498,
-      3501
-    ]
+    "end": 3501
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_i_public",
     "start": 3502,
-    "end": 3530,
-    "range": [
-      3502,
-      3530
-    ]
+    "end": 3530
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3530,
-    "end": 3531,
-    "range": [
-      3530,
-      3531
-    ]
+    "end": 3531
   },
   {
     "type": "Identifier",
     "value": "im_public_i_public",
     "start": 3532,
-    "end": 3550,
-    "range": [
-      3532,
-      3550
-    ]
+    "end": 3550
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3550,
-    "end": 3551,
-    "range": [
-      3550,
-      3551
-    ]
+    "end": 3551
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3556,
-    "end": 3559,
-    "range": [
-      3556,
-      3559
-    ]
+    "end": 3559
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_mi_public",
     "start": 3560,
-    "end": 3590,
-    "range": [
-      3560,
-      3590
-    ]
+    "end": 3590
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3591,
-    "end": 3592,
-    "range": [
-      3591,
-      3592
-    ]
+    "end": 3592
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 3593,
-    "end": 3596,
-    "range": [
-      3593,
-      3596
-    ]
+    "end": 3596
   },
   {
     "type": "Identifier",
     "value": "im_public_mi_public",
     "start": 3597,
-    "end": 3616,
-    "range": [
-      3597,
-      3616
-    ]
+    "end": 3616
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3616,
-    "end": 3617,
-    "range": [
-      3616,
-      3617
-    ]
+    "end": 3617
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 3617,
-    "end": 3618,
-    "range": [
-      3617,
-      3618
-    ]
+    "end": 3618
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3618,
-    "end": 3619,
-    "range": [
-      3618,
-      3619
-    ]
+    "end": 3619
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3619,
-    "end": 3620,
-    "range": [
-      3619,
-      3620
-    ]
+    "end": 3620
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3620,
-    "end": 3621,
-    "range": [
-      3620,
-      3621
-    ]
+    "end": 3621
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3626,
-    "end": 3632,
-    "range": [
-      3626,
-      3632
-    ]
+    "end": 3632
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3633,
-    "end": 3636,
-    "range": [
-      3633,
-      3636
-    ]
+    "end": 3636
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_mi_public",
     "start": 3637,
-    "end": 3666,
-    "range": [
-      3637,
-      3666
-    ]
+    "end": 3666
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3667,
-    "end": 3668,
-    "range": [
-      3667,
-      3668
-    ]
+    "end": 3668
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 3669,
-    "end": 3672,
-    "range": [
-      3669,
-      3672
-    ]
+    "end": 3672
   },
   {
     "type": "Identifier",
     "value": "im_public_mi_public",
     "start": 3673,
-    "end": 3692,
-    "range": [
-      3673,
-      3692
-    ]
+    "end": 3692
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3692,
-    "end": 3693,
-    "range": [
-      3692,
-      3693
-    ]
+    "end": 3693
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 3693,
-    "end": 3694,
-    "range": [
-      3693,
-      3694
-    ]
+    "end": 3694
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 3694,
-    "end": 3695,
-    "range": [
-      3694,
-      3695
-    ]
+    "end": 3695
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 3695,
-    "end": 3696,
-    "range": [
-      3695,
-      3696
-    ]
+    "end": 3696
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3696,
-    "end": 3697,
-    "range": [
-      3696,
-      3697
-    ]
+    "end": 3697
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3702,
-    "end": 3705,
-    "range": [
-      3702,
-      3705
-    ]
+    "end": 3705
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_public_mu_public",
     "start": 3706,
-    "end": 3736,
-    "range": [
-      3706,
-      3736
-    ]
+    "end": 3736
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3736,
-    "end": 3737,
-    "range": [
-      3736,
-      3737
-    ]
+    "end": 3737
   },
   {
     "type": "Identifier",
     "value": "im_public_mu_public",
     "start": 3738,
-    "end": 3757,
-    "range": [
-      3738,
-      3757
-    ]
+    "end": 3757
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3757,
-    "end": 3758,
-    "range": [
-      3757,
-      3758
-    ]
+    "end": 3758
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 3758,
-    "end": 3759,
-    "range": [
-      3758,
-      3759
-    ]
+    "end": 3759
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3759,
-    "end": 3760,
-    "range": [
-      3759,
-      3760
-    ]
+    "end": 3760
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3765,
-    "end": 3771,
-    "range": [
-      3765,
-      3771
-    ]
+    "end": 3771
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 3772,
-    "end": 3775,
-    "range": [
-      3772,
-      3775
-    ]
+    "end": 3775
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_public_mu_public",
     "start": 3776,
-    "end": 3805,
-    "range": [
-      3776,
-      3805
-    ]
+    "end": 3805
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 3805,
-    "end": 3806,
-    "range": [
-      3805,
-      3806
-    ]
+    "end": 3806
   },
   {
     "type": "Identifier",
     "value": "im_public_mu_public",
     "start": 3807,
-    "end": 3826,
-    "range": [
-      3807,
-      3826
-    ]
+    "end": 3826
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3826,
-    "end": 3827,
-    "range": [
-      3826,
-      3827
-    ]
+    "end": 3827
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 3827,
-    "end": 3828,
-    "range": [
-      3827,
-      3828
-    ]
+    "end": 3828
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3828,
-    "end": 3829,
-    "range": [
-      3828,
-      3829
-    ]
+    "end": 3829
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 3830,
-    "end": 3831,
-    "range": [
-      3830,
-      3831
-    ]
+    "end": 3831
   },
   {
     "type": "Identifier",
     "value": "namespace",
     "start": 3833,
-    "end": 3842,
-    "range": [
-      3833,
-      3842
-    ]
+    "end": 3842
   },
   {
     "type": "Identifier",
     "value": "import_private",
     "start": 3843,
-    "end": 3857,
-    "range": [
-      3843,
-      3857
-    ]
+    "end": 3857
   },
   {
     "type": "Punctuator",
     "value": "{",
     "start": 3858,
-    "end": 3859,
-    "range": [
-      3858,
-      3859
-    ]
+    "end": 3859
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3918,
-    "end": 3924,
-    "range": [
-      3918,
-      3924
-    ]
+    "end": 3924
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 3925,
-    "end": 3931,
-    "range": [
-      3925,
-      3931
-    ]
+    "end": 3931
   },
   {
     "type": "Identifier",
     "value": "im_private_c_private",
     "start": 3932,
-    "end": 3952,
-    "range": [
-      3932,
-      3952
-    ]
+    "end": 3952
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 3953,
-    "end": 3954,
-    "range": [
-      3953,
-      3954
-    ]
+    "end": 3954
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 3955,
-    "end": 3964,
-    "range": [
-      3955,
-      3964
-    ]
+    "end": 3964
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 3964,
-    "end": 3965,
-    "range": [
-      3964,
-      3965
-    ]
+    "end": 3965
   },
   {
     "type": "Identifier",
     "value": "c_private",
     "start": 3965,
-    "end": 3974,
-    "range": [
-      3965,
-      3974
-    ]
+    "end": 3974
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 3974,
-    "end": 3975,
-    "range": [
-      3974,
-      3975
-    ]
+    "end": 3975
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 3980,
-    "end": 3986,
-    "range": [
-      3980,
-      3986
-    ]
+    "end": 3986
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 3987,
-    "end": 3993,
-    "range": [
-      3987,
-      3993
-    ]
+    "end": 3993
   },
   {
     "type": "Identifier",
     "value": "im_private_e_private",
     "start": 3994,
-    "end": 4014,
-    "range": [
-      3994,
-      4014
-    ]
+    "end": 4014
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4015,
-    "end": 4016,
-    "range": [
-      4015,
-      4016
-    ]
+    "end": 4016
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 4017,
-    "end": 4026,
-    "range": [
-      4017,
-      4026
-    ]
+    "end": 4026
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4026,
-    "end": 4027,
-    "range": [
-      4026,
-      4027
-    ]
+    "end": 4027
   },
   {
     "type": "Identifier",
     "value": "e_private",
     "start": 4027,
-    "end": 4036,
-    "range": [
-      4027,
-      4036
-    ]
+    "end": 4036
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4036,
-    "end": 4037,
-    "range": [
-      4036,
-      4037
-    ]
+    "end": 4037
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4042,
-    "end": 4048,
-    "range": [
-      4042,
-      4048
-    ]
+    "end": 4048
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 4049,
-    "end": 4055,
-    "range": [
-      4049,
-      4055
-    ]
+    "end": 4055
   },
   {
     "type": "Identifier",
     "value": "im_private_f_private",
     "start": 4056,
-    "end": 4076,
-    "range": [
-      4056,
-      4076
-    ]
+    "end": 4076
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4077,
-    "end": 4078,
-    "range": [
-      4077,
-      4078
-    ]
+    "end": 4078
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 4079,
-    "end": 4088,
-    "range": [
-      4079,
-      4088
-    ]
+    "end": 4088
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4088,
-    "end": 4089,
-    "range": [
-      4088,
-      4089
-    ]
+    "end": 4089
   },
   {
     "type": "Identifier",
     "value": "f_private",
     "start": 4089,
-    "end": 4098,
-    "range": [
-      4089,
-      4098
-    ]
+    "end": 4098
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4098,
-    "end": 4099,
-    "range": [
-      4098,
-      4099
-    ]
+    "end": 4099
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4104,
-    "end": 4110,
-    "range": [
-      4104,
-      4110
-    ]
+    "end": 4110
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 4111,
-    "end": 4117,
-    "range": [
-      4111,
-      4117
-    ]
+    "end": 4117
   },
   {
     "type": "Identifier",
     "value": "im_private_v_private",
     "start": 4118,
-    "end": 4138,
-    "range": [
-      4118,
-      4138
-    ]
+    "end": 4138
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4139,
-    "end": 4140,
-    "range": [
-      4139,
-      4140
-    ]
+    "end": 4140
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 4141,
-    "end": 4150,
-    "range": [
-      4141,
-      4150
-    ]
+    "end": 4150
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4150,
-    "end": 4151,
-    "range": [
-      4150,
-      4151
-    ]
+    "end": 4151
   },
   {
     "type": "Identifier",
     "value": "v_private",
     "start": 4151,
-    "end": 4160,
-    "range": [
-      4151,
-      4160
-    ]
+    "end": 4160
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4160,
-    "end": 4161,
-    "range": [
-      4160,
-      4161
-    ]
+    "end": 4161
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4166,
-    "end": 4172,
-    "range": [
-      4166,
-      4172
-    ]
+    "end": 4172
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 4173,
-    "end": 4179,
-    "range": [
-      4173,
-      4179
-    ]
+    "end": 4179
   },
   {
     "type": "Identifier",
     "value": "im_private_i_private",
     "start": 4180,
-    "end": 4200,
-    "range": [
-      4180,
-      4200
-    ]
+    "end": 4200
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4201,
-    "end": 4202,
-    "range": [
-      4201,
-      4202
-    ]
+    "end": 4202
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 4203,
-    "end": 4212,
-    "range": [
-      4203,
-      4212
-    ]
+    "end": 4212
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4212,
-    "end": 4213,
-    "range": [
-      4212,
-      4213
-    ]
+    "end": 4213
   },
   {
     "type": "Identifier",
     "value": "i_private",
     "start": 4213,
-    "end": 4222,
-    "range": [
-      4213,
-      4222
-    ]
+    "end": 4222
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4222,
-    "end": 4223,
-    "range": [
-      4222,
-      4223
-    ]
+    "end": 4223
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4228,
-    "end": 4234,
-    "range": [
-      4228,
-      4234
-    ]
+    "end": 4234
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 4235,
-    "end": 4241,
-    "range": [
-      4235,
-      4241
-    ]
+    "end": 4241
   },
   {
     "type": "Identifier",
     "value": "im_private_mi_private",
     "start": 4242,
-    "end": 4263,
-    "range": [
-      4242,
-      4263
-    ]
+    "end": 4263
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4264,
-    "end": 4265,
-    "range": [
-      4264,
-      4265
-    ]
+    "end": 4265
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 4266,
-    "end": 4275,
-    "range": [
-      4266,
-      4275
-    ]
+    "end": 4275
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4275,
-    "end": 4276,
-    "range": [
-      4275,
-      4276
-    ]
+    "end": 4276
   },
   {
     "type": "Identifier",
     "value": "mi_private",
     "start": 4276,
-    "end": 4286,
-    "range": [
-      4276,
-      4286
-    ]
+    "end": 4286
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4286,
-    "end": 4287,
-    "range": [
-      4286,
-      4287
-    ]
+    "end": 4287
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4292,
-    "end": 4298,
-    "range": [
-      4292,
-      4298
-    ]
+    "end": 4298
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 4299,
-    "end": 4305,
-    "range": [
-      4299,
-      4305
-    ]
+    "end": 4305
   },
   {
     "type": "Identifier",
     "value": "im_private_mu_private",
     "start": 4306,
-    "end": 4327,
-    "range": [
-      4306,
-      4327
-    ]
+    "end": 4327
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4328,
-    "end": 4329,
-    "range": [
-      4328,
-      4329
-    ]
+    "end": 4329
   },
   {
     "type": "Identifier",
     "value": "m_private",
     "start": 4330,
-    "end": 4339,
-    "range": [
-      4330,
-      4339
-    ]
+    "end": 4339
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4339,
-    "end": 4340,
-    "range": [
-      4339,
-      4340
-    ]
+    "end": 4340
   },
   {
     "type": "Identifier",
     "value": "mu_private",
     "start": 4340,
-    "end": 4350,
-    "range": [
-      4340,
-      4350
-    ]
+    "end": 4350
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4350,
-    "end": 4351,
-    "range": [
-      4350,
-      4351
-    ]
+    "end": 4351
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4385,
-    "end": 4388,
-    "range": [
-      4385,
-      4388
-    ]
+    "end": 4388
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_c_private",
     "start": 4389,
-    "end": 4420,
-    "range": [
-      4389,
-      4420
-    ]
+    "end": 4420
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4421,
-    "end": 4422,
-    "range": [
-      4421,
-      4422
-    ]
+    "end": 4422
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 4423,
-    "end": 4426,
-    "range": [
-      4423,
-      4426
-    ]
+    "end": 4426
   },
   {
     "type": "Identifier",
     "value": "im_private_c_private",
     "start": 4427,
-    "end": 4447,
-    "range": [
-      4427,
-      4447
-    ]
+    "end": 4447
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4447,
-    "end": 4448,
-    "range": [
-      4447,
-      4448
-    ]
+    "end": 4448
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4448,
-    "end": 4449,
-    "range": [
-      4448,
-      4449
-    ]
+    "end": 4449
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4449,
-    "end": 4450,
-    "range": [
-      4449,
-      4450
-    ]
+    "end": 4450
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4455,
-    "end": 4461,
-    "range": [
-      4455,
-      4461
-    ]
+    "end": 4461
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4462,
-    "end": 4465,
-    "range": [
-      4462,
-      4465
-    ]
+    "end": 4465
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_c_private",
     "start": 4466,
-    "end": 4496,
-    "range": [
-      4466,
-      4496
-    ]
+    "end": 4496
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4497,
-    "end": 4498,
-    "range": [
-      4497,
-      4498
-    ]
+    "end": 4498
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 4499,
-    "end": 4502,
-    "range": [
-      4499,
-      4502
-    ]
+    "end": 4502
   },
   {
     "type": "Identifier",
     "value": "im_private_c_private",
     "start": 4503,
-    "end": 4523,
-    "range": [
-      4503,
-      4523
-    ]
+    "end": 4523
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4523,
-    "end": 4524,
-    "range": [
-      4523,
-      4524
-    ]
+    "end": 4524
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4524,
-    "end": 4525,
-    "range": [
-      4524,
-      4525
-    ]
+    "end": 4525
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4525,
-    "end": 4526,
-    "range": [
-      4525,
-      4526
-    ]
+    "end": 4526
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4531,
-    "end": 4534,
-    "range": [
-      4531,
-      4534
-    ]
+    "end": 4534
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_e_private",
     "start": 4535,
-    "end": 4566,
-    "range": [
-      4535,
-      4566
-    ]
+    "end": 4566
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4567,
-    "end": 4568,
-    "range": [
-      4567,
-      4568
-    ]
+    "end": 4568
   },
   {
     "type": "Identifier",
     "value": "im_private_e_private",
     "start": 4569,
-    "end": 4589,
-    "range": [
-      4569,
-      4589
-    ]
+    "end": 4589
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4589,
-    "end": 4590,
-    "range": [
-      4589,
-      4590
-    ]
+    "end": 4590
   },
   {
     "type": "Identifier",
     "value": "Happy",
     "start": 4590,
-    "end": 4595,
-    "range": [
-      4590,
-      4595
-    ]
+    "end": 4595
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4595,
-    "end": 4596,
-    "range": [
-      4595,
-      4596
-    ]
+    "end": 4596
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4601,
-    "end": 4607,
-    "range": [
-      4601,
-      4607
-    ]
+    "end": 4607
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4608,
-    "end": 4611,
-    "range": [
-      4608,
-      4611
-    ]
+    "end": 4611
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_e_private",
     "start": 4612,
-    "end": 4642,
-    "range": [
-      4612,
-      4642
-    ]
+    "end": 4642
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4643,
-    "end": 4644,
-    "range": [
-      4643,
-      4644
-    ]
+    "end": 4644
   },
   {
     "type": "Identifier",
     "value": "im_private_e_private",
     "start": 4645,
-    "end": 4665,
-    "range": [
-      4645,
-      4665
-    ]
+    "end": 4665
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 4665,
-    "end": 4666,
-    "range": [
-      4665,
-      4666
-    ]
+    "end": 4666
   },
   {
     "type": "Identifier",
     "value": "Grumpy",
     "start": 4666,
-    "end": 4672,
-    "range": [
-      4666,
-      4672
-    ]
+    "end": 4672
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4672,
-    "end": 4673,
-    "range": [
-      4672,
-      4673
-    ]
+    "end": 4673
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4678,
-    "end": 4681,
-    "range": [
-      4678,
-      4681
-    ]
+    "end": 4681
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_f_private",
     "start": 4682,
-    "end": 4713,
-    "range": [
-      4682,
-      4713
-    ]
+    "end": 4713
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4714,
-    "end": 4715,
-    "range": [
-      4714,
-      4715
-    ]
+    "end": 4715
   },
   {
     "type": "Identifier",
     "value": "im_private_f_private",
     "start": 4716,
-    "end": 4736,
-    "range": [
-      4716,
-      4736
-    ]
+    "end": 4736
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4736,
-    "end": 4737,
-    "range": [
-      4736,
-      4737
-    ]
+    "end": 4737
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4737,
-    "end": 4738,
-    "range": [
-      4737,
-      4738
-    ]
+    "end": 4738
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4738,
-    "end": 4739,
-    "range": [
-      4738,
-      4739
-    ]
+    "end": 4739
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4744,
-    "end": 4750,
-    "range": [
-      4744,
-      4750
-    ]
+    "end": 4750
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4751,
-    "end": 4754,
-    "range": [
-      4751,
-      4754
-    ]
+    "end": 4754
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_f_private",
     "start": 4755,
-    "end": 4785,
-    "range": [
-      4755,
-      4785
-    ]
+    "end": 4785
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4786,
-    "end": 4787,
-    "range": [
-      4786,
-      4787
-    ]
+    "end": 4787
   },
   {
     "type": "Identifier",
     "value": "im_private_f_private",
     "start": 4788,
-    "end": 4808,
-    "range": [
-      4788,
-      4808
-    ]
+    "end": 4808
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 4808,
-    "end": 4809,
-    "range": [
-      4808,
-      4809
-    ]
+    "end": 4809
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 4809,
-    "end": 4810,
-    "range": [
-      4809,
-      4810
-    ]
+    "end": 4810
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4810,
-    "end": 4811,
-    "range": [
-      4810,
-      4811
-    ]
+    "end": 4811
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4816,
-    "end": 4819,
-    "range": [
-      4816,
-      4819
-    ]
+    "end": 4819
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_v_private",
     "start": 4820,
-    "end": 4851,
-    "range": [
-      4820,
-      4851
-    ]
+    "end": 4851
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4852,
-    "end": 4853,
-    "range": [
-      4852,
-      4853
-    ]
+    "end": 4853
   },
   {
     "type": "Identifier",
     "value": "im_private_v_private",
     "start": 4854,
-    "end": 4874,
-    "range": [
-      4854,
-      4874
-    ]
+    "end": 4874
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4874,
-    "end": 4875,
-    "range": [
-      4874,
-      4875
-    ]
+    "end": 4875
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 4880,
-    "end": 4886,
-    "range": [
-      4880,
-      4886
-    ]
+    "end": 4886
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4887,
-    "end": 4890,
-    "range": [
-      4887,
-      4890
-    ]
+    "end": 4890
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_v_private",
     "start": 4891,
-    "end": 4921,
-    "range": [
-      4891,
-      4921
-    ]
+    "end": 4921
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 4922,
-    "end": 4923,
-    "range": [
-      4922,
-      4923
-    ]
+    "end": 4923
   },
   {
     "type": "Identifier",
     "value": "im_private_v_private",
     "start": 4924,
-    "end": 4944,
-    "range": [
-      4924,
-      4944
-    ]
+    "end": 4944
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 4944,
-    "end": 4945,
-    "range": [
-      4944,
-      4945
-    ]
+    "end": 4945
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 4950,
-    "end": 4953,
-    "range": [
-      4950,
-      4953
-    ]
+    "end": 4953
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_i_private",
     "start": 4954,
-    "end": 4985,
-    "range": [
-      4954,
-      4985
-    ]
+    "end": 4985
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 4985,
-    "end": 4986,
-    "range": [
-      4985,
-      4986
-    ]
+    "end": 4986
   },
   {
     "type": "Identifier",
     "value": "im_private_i_private",
     "start": 4987,
-    "end": 5007,
-    "range": [
-      4987,
-      5007
-    ]
+    "end": 5007
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5007,
-    "end": 5008,
-    "range": [
-      5007,
-      5008
-    ]
+    "end": 5008
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5013,
-    "end": 5019,
-    "range": [
-      5013,
-      5019
-    ]
+    "end": 5019
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 5020,
-    "end": 5023,
-    "range": [
-      5020,
-      5023
-    ]
+    "end": 5023
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_i_private",
     "start": 5024,
-    "end": 5054,
-    "range": [
-      5024,
-      5054
-    ]
+    "end": 5054
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5054,
-    "end": 5055,
-    "range": [
-      5054,
-      5055
-    ]
+    "end": 5055
   },
   {
     "type": "Identifier",
     "value": "im_private_i_private",
     "start": 5056,
-    "end": 5076,
-    "range": [
-      5056,
-      5076
-    ]
+    "end": 5076
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5076,
-    "end": 5077,
-    "range": [
-      5076,
-      5077
-    ]
+    "end": 5077
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 5082,
-    "end": 5085,
-    "range": [
-      5082,
-      5085
-    ]
+    "end": 5085
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_mi_private",
     "start": 5086,
-    "end": 5118,
-    "range": [
-      5086,
-      5118
-    ]
+    "end": 5118
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5119,
-    "end": 5120,
-    "range": [
-      5119,
-      5120
-    ]
+    "end": 5120
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 5121,
-    "end": 5124,
-    "range": [
-      5121,
-      5124
-    ]
+    "end": 5124
   },
   {
     "type": "Identifier",
     "value": "im_private_mi_private",
     "start": 5125,
-    "end": 5146,
-    "range": [
-      5125,
-      5146
-    ]
+    "end": 5146
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5146,
-    "end": 5147,
-    "range": [
-      5146,
-      5147
-    ]
+    "end": 5147
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 5147,
-    "end": 5148,
-    "range": [
-      5147,
-      5148
-    ]
+    "end": 5148
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5148,
-    "end": 5149,
-    "range": [
-      5148,
-      5149
-    ]
+    "end": 5149
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5149,
-    "end": 5150,
-    "range": [
-      5149,
-      5150
-    ]
+    "end": 5150
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5150,
-    "end": 5151,
-    "range": [
-      5150,
-      5151
-    ]
+    "end": 5151
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5156,
-    "end": 5162,
-    "range": [
-      5156,
-      5162
-    ]
+    "end": 5162
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 5163,
-    "end": 5166,
-    "range": [
-      5163,
-      5166
-    ]
+    "end": 5166
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_mi_private",
     "start": 5167,
-    "end": 5198,
-    "range": [
-      5167,
-      5198
-    ]
+    "end": 5198
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5199,
-    "end": 5200,
-    "range": [
-      5199,
-      5200
-    ]
+    "end": 5200
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 5201,
-    "end": 5204,
-    "range": [
-      5201,
-      5204
-    ]
+    "end": 5204
   },
   {
     "type": "Identifier",
     "value": "im_private_mi_private",
     "start": 5205,
-    "end": 5226,
-    "range": [
-      5205,
-      5226
-    ]
+    "end": 5226
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5226,
-    "end": 5227,
-    "range": [
-      5226,
-      5227
-    ]
+    "end": 5227
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 5227,
-    "end": 5228,
-    "range": [
-      5227,
-      5228
-    ]
+    "end": 5228
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5228,
-    "end": 5229,
-    "range": [
-      5228,
-      5229
-    ]
+    "end": 5229
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5229,
-    "end": 5230,
-    "range": [
-      5229,
-      5230
-    ]
+    "end": 5230
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5230,
-    "end": 5231,
-    "range": [
-      5230,
-      5231
-    ]
+    "end": 5231
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 5236,
-    "end": 5239,
-    "range": [
-      5236,
-      5239
-    ]
+    "end": 5239
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_mu_private",
     "start": 5240,
-    "end": 5272,
-    "range": [
-      5240,
-      5272
-    ]
+    "end": 5272
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5272,
-    "end": 5273,
-    "range": [
-      5272,
-      5273
-    ]
+    "end": 5273
   },
   {
     "type": "Identifier",
     "value": "im_private_mu_private",
     "start": 5274,
-    "end": 5295,
-    "range": [
-      5274,
-      5295
-    ]
+    "end": 5295
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5295,
-    "end": 5296,
-    "range": [
-      5295,
-      5296
-    ]
+    "end": 5296
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 5296,
-    "end": 5297,
-    "range": [
-      5296,
-      5297
-    ]
+    "end": 5297
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5297,
-    "end": 5298,
-    "range": [
-      5297,
-      5298
-    ]
+    "end": 5298
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5303,
-    "end": 5309,
-    "range": [
-      5303,
-      5309
-    ]
+    "end": 5309
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 5310,
-    "end": 5313,
-    "range": [
-      5310,
-      5313
-    ]
+    "end": 5313
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_mu_private",
     "start": 5314,
-    "end": 5345,
-    "range": [
-      5314,
-      5345
-    ]
+    "end": 5345
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 5345,
-    "end": 5346,
-    "range": [
-      5345,
-      5346
-    ]
+    "end": 5346
   },
   {
     "type": "Identifier",
     "value": "im_private_mu_private",
     "start": 5347,
-    "end": 5368,
-    "range": [
-      5347,
-      5368
-    ]
+    "end": 5368
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5368,
-    "end": 5369,
-    "range": [
-      5368,
-      5369
-    ]
+    "end": 5369
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 5369,
-    "end": 5370,
-    "range": [
-      5369,
-      5370
-    ]
+    "end": 5370
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5370,
-    "end": 5371,
-    "range": [
-      5370,
-      5371
-    ]
+    "end": 5371
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5429,
-    "end": 5435,
-    "range": [
-      5429,
-      5435
-    ]
+    "end": 5435
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 5436,
-    "end": 5442,
-    "range": [
-      5436,
-      5442
-    ]
+    "end": 5442
   },
   {
     "type": "Identifier",
     "value": "im_private_c_public",
     "start": 5443,
-    "end": 5462,
-    "range": [
-      5443,
-      5462
-    ]
+    "end": 5462
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5463,
-    "end": 5464,
-    "range": [
-      5463,
-      5464
-    ]
+    "end": 5464
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 5465,
-    "end": 5473,
-    "range": [
-      5465,
-      5473
-    ]
+    "end": 5473
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5473,
-    "end": 5474,
-    "range": [
-      5473,
-      5474
-    ]
+    "end": 5474
   },
   {
     "type": "Identifier",
     "value": "c_public",
     "start": 5474,
-    "end": 5482,
-    "range": [
-      5474,
-      5482
-    ]
+    "end": 5482
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5482,
-    "end": 5483,
-    "range": [
-      5482,
-      5483
-    ]
+    "end": 5483
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5488,
-    "end": 5494,
-    "range": [
-      5488,
-      5494
-    ]
+    "end": 5494
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 5495,
-    "end": 5501,
-    "range": [
-      5495,
-      5501
-    ]
+    "end": 5501
   },
   {
     "type": "Identifier",
     "value": "im_private_e_public",
     "start": 5502,
-    "end": 5521,
-    "range": [
-      5502,
-      5521
-    ]
+    "end": 5521
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5522,
-    "end": 5523,
-    "range": [
-      5522,
-      5523
-    ]
+    "end": 5523
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 5524,
-    "end": 5532,
-    "range": [
-      5524,
-      5532
-    ]
+    "end": 5532
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5532,
-    "end": 5533,
-    "range": [
-      5532,
-      5533
-    ]
+    "end": 5533
   },
   {
     "type": "Identifier",
     "value": "e_public",
     "start": 5533,
-    "end": 5541,
-    "range": [
-      5533,
-      5541
-    ]
+    "end": 5541
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5541,
-    "end": 5542,
-    "range": [
-      5541,
-      5542
-    ]
+    "end": 5542
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5547,
-    "end": 5553,
-    "range": [
-      5547,
-      5553
-    ]
+    "end": 5553
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 5554,
-    "end": 5560,
-    "range": [
-      5554,
-      5560
-    ]
+    "end": 5560
   },
   {
     "type": "Identifier",
     "value": "im_private_f_public",
     "start": 5561,
-    "end": 5580,
-    "range": [
-      5561,
-      5580
-    ]
+    "end": 5580
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5581,
-    "end": 5582,
-    "range": [
-      5581,
-      5582
-    ]
+    "end": 5582
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 5583,
-    "end": 5591,
-    "range": [
-      5583,
-      5591
-    ]
+    "end": 5591
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5591,
-    "end": 5592,
-    "range": [
-      5591,
-      5592
-    ]
+    "end": 5592
   },
   {
     "type": "Identifier",
     "value": "f_public",
     "start": 5592,
-    "end": 5600,
-    "range": [
-      5592,
-      5600
-    ]
+    "end": 5600
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5600,
-    "end": 5601,
-    "range": [
-      5600,
-      5601
-    ]
+    "end": 5601
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5606,
-    "end": 5612,
-    "range": [
-      5606,
-      5612
-    ]
+    "end": 5612
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 5613,
-    "end": 5619,
-    "range": [
-      5613,
-      5619
-    ]
+    "end": 5619
   },
   {
     "type": "Identifier",
     "value": "im_private_v_public",
     "start": 5620,
-    "end": 5639,
-    "range": [
-      5620,
-      5639
-    ]
+    "end": 5639
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5640,
-    "end": 5641,
-    "range": [
-      5640,
-      5641
-    ]
+    "end": 5641
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 5642,
-    "end": 5650,
-    "range": [
-      5642,
-      5650
-    ]
+    "end": 5650
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5650,
-    "end": 5651,
-    "range": [
-      5650,
-      5651
-    ]
+    "end": 5651
   },
   {
     "type": "Identifier",
     "value": "v_public",
     "start": 5651,
-    "end": 5659,
-    "range": [
-      5651,
-      5659
-    ]
+    "end": 5659
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5659,
-    "end": 5660,
-    "range": [
-      5659,
-      5660
-    ]
+    "end": 5660
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5665,
-    "end": 5671,
-    "range": [
-      5665,
-      5671
-    ]
+    "end": 5671
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 5672,
-    "end": 5678,
-    "range": [
-      5672,
-      5678
-    ]
+    "end": 5678
   },
   {
     "type": "Identifier",
     "value": "im_private_i_public",
     "start": 5679,
-    "end": 5698,
-    "range": [
-      5679,
-      5698
-    ]
+    "end": 5698
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5699,
-    "end": 5700,
-    "range": [
-      5699,
-      5700
-    ]
+    "end": 5700
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 5701,
-    "end": 5709,
-    "range": [
-      5701,
-      5709
-    ]
+    "end": 5709
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5709,
-    "end": 5710,
-    "range": [
-      5709,
-      5710
-    ]
+    "end": 5710
   },
   {
     "type": "Identifier",
     "value": "i_public",
     "start": 5710,
-    "end": 5718,
-    "range": [
-      5710,
-      5718
-    ]
+    "end": 5718
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5718,
-    "end": 5719,
-    "range": [
-      5718,
-      5719
-    ]
+    "end": 5719
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5724,
-    "end": 5730,
-    "range": [
-      5724,
-      5730
-    ]
+    "end": 5730
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 5731,
-    "end": 5737,
-    "range": [
-      5731,
-      5737
-    ]
+    "end": 5737
   },
   {
     "type": "Identifier",
     "value": "im_private_mi_public",
     "start": 5738,
-    "end": 5758,
-    "range": [
-      5738,
-      5758
-    ]
+    "end": 5758
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5759,
-    "end": 5760,
-    "range": [
-      5759,
-      5760
-    ]
+    "end": 5760
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 5761,
-    "end": 5769,
-    "range": [
-      5761,
-      5769
-    ]
+    "end": 5769
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5769,
-    "end": 5770,
-    "range": [
-      5769,
-      5770
-    ]
+    "end": 5770
   },
   {
     "type": "Identifier",
     "value": "mi_public",
     "start": 5770,
-    "end": 5779,
-    "range": [
-      5770,
-      5779
-    ]
+    "end": 5779
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5779,
-    "end": 5780,
-    "range": [
-      5779,
-      5780
-    ]
+    "end": 5780
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5785,
-    "end": 5791,
-    "range": [
-      5785,
-      5791
-    ]
+    "end": 5791
   },
   {
     "type": "Keyword",
     "value": "import",
     "start": 5792,
-    "end": 5798,
-    "range": [
-      5792,
-      5798
-    ]
+    "end": 5798
   },
   {
     "type": "Identifier",
     "value": "im_private_mu_public",
     "start": 5799,
-    "end": 5819,
-    "range": [
-      5799,
-      5819
-    ]
+    "end": 5819
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5820,
-    "end": 5821,
-    "range": [
-      5820,
-      5821
-    ]
+    "end": 5821
   },
   {
     "type": "Identifier",
     "value": "m_public",
     "start": 5822,
-    "end": 5830,
-    "range": [
-      5822,
-      5830
-    ]
+    "end": 5830
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 5830,
-    "end": 5831,
-    "range": [
-      5830,
-      5831
-    ]
+    "end": 5831
   },
   {
     "type": "Identifier",
     "value": "mu_public",
     "start": 5831,
-    "end": 5840,
-    "range": [
-      5831,
-      5840
-    ]
+    "end": 5840
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5840,
-    "end": 5841,
-    "range": [
-      5840,
-      5841
-    ]
+    "end": 5841
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 5888,
-    "end": 5891,
-    "range": [
-      5888,
-      5891
-    ]
+    "end": 5891
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_c_public",
     "start": 5892,
-    "end": 5922,
-    "range": [
-      5892,
-      5922
-    ]
+    "end": 5922
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5923,
-    "end": 5924,
-    "range": [
-      5923,
-      5924
-    ]
+    "end": 5924
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 5925,
-    "end": 5928,
-    "range": [
-      5925,
-      5928
-    ]
+    "end": 5928
   },
   {
     "type": "Identifier",
     "value": "im_private_c_public",
     "start": 5929,
-    "end": 5948,
-    "range": [
-      5929,
-      5948
-    ]
+    "end": 5948
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 5948,
-    "end": 5949,
-    "range": [
-      5948,
-      5949
-    ]
+    "end": 5949
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 5949,
-    "end": 5950,
-    "range": [
-      5949,
-      5950
-    ]
+    "end": 5950
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 5950,
-    "end": 5951,
-    "range": [
-      5950,
-      5951
-    ]
+    "end": 5951
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 5956,
-    "end": 5962,
-    "range": [
-      5956,
-      5962
-    ]
+    "end": 5962
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 5963,
-    "end": 5966,
-    "range": [
-      5963,
-      5966
-    ]
+    "end": 5966
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_c_public",
     "start": 5967,
-    "end": 5996,
-    "range": [
-      5967,
-      5996
-    ]
+    "end": 5996
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 5997,
-    "end": 5998,
-    "range": [
-      5997,
-      5998
-    ]
+    "end": 5998
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 5999,
-    "end": 6002,
-    "range": [
-      5999,
-      6002
-    ]
+    "end": 6002
   },
   {
     "type": "Identifier",
     "value": "im_private_c_public",
     "start": 6003,
-    "end": 6022,
-    "range": [
-      6003,
-      6022
-    ]
+    "end": 6022
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6022,
-    "end": 6023,
-    "range": [
-      6022,
-      6023
-    ]
+    "end": 6023
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6023,
-    "end": 6024,
-    "range": [
-      6023,
-      6024
-    ]
+    "end": 6024
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6024,
-    "end": 6025,
-    "range": [
-      6024,
-      6025
-    ]
+    "end": 6025
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6030,
-    "end": 6033,
-    "range": [
-      6030,
-      6033
-    ]
+    "end": 6033
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_e_public",
     "start": 6034,
-    "end": 6064,
-    "range": [
-      6034,
-      6064
-    ]
+    "end": 6064
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6065,
-    "end": 6066,
-    "range": [
-      6065,
-      6066
-    ]
+    "end": 6066
   },
   {
     "type": "Identifier",
     "value": "im_private_e_public",
     "start": 6067,
-    "end": 6086,
-    "range": [
-      6067,
-      6086
-    ]
+    "end": 6086
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6086,
-    "end": 6087,
-    "range": [
-      6086,
-      6087
-    ]
+    "end": 6087
   },
   {
     "type": "Identifier",
     "value": "Happy",
     "start": 6087,
-    "end": 6092,
-    "range": [
-      6087,
-      6092
-    ]
+    "end": 6092
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6092,
-    "end": 6093,
-    "range": [
-      6092,
-      6093
-    ]
+    "end": 6093
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 6098,
-    "end": 6104,
-    "range": [
-      6098,
-      6104
-    ]
+    "end": 6104
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6105,
-    "end": 6108,
-    "range": [
-      6105,
-      6108
-    ]
+    "end": 6108
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_e_public",
     "start": 6109,
-    "end": 6138,
-    "range": [
-      6109,
-      6138
-    ]
+    "end": 6138
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6139,
-    "end": 6140,
-    "range": [
-      6139,
-      6140
-    ]
+    "end": 6140
   },
   {
     "type": "Identifier",
     "value": "im_private_e_public",
     "start": 6141,
-    "end": 6160,
-    "range": [
-      6141,
-      6160
-    ]
+    "end": 6160
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6160,
-    "end": 6161,
-    "range": [
-      6160,
-      6161
-    ]
+    "end": 6161
   },
   {
     "type": "Identifier",
     "value": "Grumpy",
     "start": 6161,
-    "end": 6167,
-    "range": [
-      6161,
-      6167
-    ]
+    "end": 6167
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6167,
-    "end": 6168,
-    "range": [
-      6167,
-      6168
-    ]
+    "end": 6168
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6173,
-    "end": 6176,
-    "range": [
-      6173,
-      6176
-    ]
+    "end": 6176
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_f_public",
     "start": 6177,
-    "end": 6207,
-    "range": [
-      6177,
-      6207
-    ]
+    "end": 6207
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6208,
-    "end": 6209,
-    "range": [
-      6208,
-      6209
-    ]
+    "end": 6209
   },
   {
     "type": "Identifier",
     "value": "im_private_f_public",
     "start": 6210,
-    "end": 6229,
-    "range": [
-      6210,
-      6229
-    ]
+    "end": 6229
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6229,
-    "end": 6230,
-    "range": [
-      6229,
-      6230
-    ]
+    "end": 6230
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6230,
-    "end": 6231,
-    "range": [
-      6230,
-      6231
-    ]
+    "end": 6231
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6231,
-    "end": 6232,
-    "range": [
-      6231,
-      6232
-    ]
+    "end": 6232
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 6237,
-    "end": 6243,
-    "range": [
-      6237,
-      6243
-    ]
+    "end": 6243
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6244,
-    "end": 6247,
-    "range": [
-      6244,
-      6247
-    ]
+    "end": 6247
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_f_public",
     "start": 6248,
-    "end": 6277,
-    "range": [
-      6248,
-      6277
-    ]
+    "end": 6277
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6278,
-    "end": 6279,
-    "range": [
-      6278,
-      6279
-    ]
+    "end": 6279
   },
   {
     "type": "Identifier",
     "value": "im_private_f_public",
     "start": 6280,
-    "end": 6299,
-    "range": [
-      6280,
-      6299
-    ]
+    "end": 6299
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6299,
-    "end": 6300,
-    "range": [
-      6299,
-      6300
-    ]
+    "end": 6300
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6300,
-    "end": 6301,
-    "range": [
-      6300,
-      6301
-    ]
+    "end": 6301
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6301,
-    "end": 6302,
-    "range": [
-      6301,
-      6302
-    ]
+    "end": 6302
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6307,
-    "end": 6310,
-    "range": [
-      6307,
-      6310
-    ]
+    "end": 6310
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_v_public",
     "start": 6311,
-    "end": 6341,
-    "range": [
-      6311,
-      6341
-    ]
+    "end": 6341
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6342,
-    "end": 6343,
-    "range": [
-      6342,
-      6343
-    ]
+    "end": 6343
   },
   {
     "type": "Identifier",
     "value": "im_private_v_public",
     "start": 6344,
-    "end": 6363,
-    "range": [
-      6344,
-      6363
-    ]
+    "end": 6363
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6363,
-    "end": 6364,
-    "range": [
-      6363,
-      6364
-    ]
+    "end": 6364
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 6369,
-    "end": 6375,
-    "range": [
-      6369,
-      6375
-    ]
+    "end": 6375
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6376,
-    "end": 6379,
-    "range": [
-      6376,
-      6379
-    ]
+    "end": 6379
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_v_public",
     "start": 6380,
-    "end": 6409,
-    "range": [
-      6380,
-      6409
-    ]
+    "end": 6409
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6410,
-    "end": 6411,
-    "range": [
-      6410,
-      6411
-    ]
+    "end": 6411
   },
   {
     "type": "Identifier",
     "value": "im_private_v_public",
     "start": 6412,
-    "end": 6431,
-    "range": [
-      6412,
-      6431
-    ]
+    "end": 6431
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6431,
-    "end": 6432,
-    "range": [
-      6431,
-      6432
-    ]
+    "end": 6432
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6437,
-    "end": 6440,
-    "range": [
-      6437,
-      6440
-    ]
+    "end": 6440
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_i_public",
     "start": 6441,
-    "end": 6471,
-    "range": [
-      6441,
-      6471
-    ]
+    "end": 6471
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6471,
-    "end": 6472,
-    "range": [
-      6471,
-      6472
-    ]
+    "end": 6472
   },
   {
     "type": "Identifier",
     "value": "im_private_i_public",
     "start": 6473,
-    "end": 6492,
-    "range": [
-      6473,
-      6492
-    ]
+    "end": 6492
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6492,
-    "end": 6493,
-    "range": [
-      6492,
-      6493
-    ]
+    "end": 6493
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 6498,
-    "end": 6504,
-    "range": [
-      6498,
-      6504
-    ]
+    "end": 6504
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6505,
-    "end": 6508,
-    "range": [
-      6505,
-      6508
-    ]
+    "end": 6508
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_i_public",
     "start": 6509,
-    "end": 6538,
-    "range": [
-      6509,
-      6538
-    ]
+    "end": 6538
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6538,
-    "end": 6539,
-    "range": [
-      6538,
-      6539
-    ]
+    "end": 6539
   },
   {
     "type": "Identifier",
     "value": "im_private_i_public",
     "start": 6540,
-    "end": 6559,
-    "range": [
-      6540,
-      6559
-    ]
+    "end": 6559
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6559,
-    "end": 6560,
-    "range": [
-      6559,
-      6560
-    ]
+    "end": 6560
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6565,
-    "end": 6568,
-    "range": [
-      6565,
-      6568
-    ]
+    "end": 6568
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_mi_public",
     "start": 6569,
-    "end": 6600,
-    "range": [
-      6569,
-      6600
-    ]
+    "end": 6600
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6601,
-    "end": 6602,
-    "range": [
-      6601,
-      6602
-    ]
+    "end": 6602
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 6603,
-    "end": 6606,
-    "range": [
-      6603,
-      6606
-    ]
+    "end": 6606
   },
   {
     "type": "Identifier",
     "value": "im_private_mi_public",
     "start": 6607,
-    "end": 6627,
-    "range": [
-      6607,
-      6627
-    ]
+    "end": 6627
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6627,
-    "end": 6628,
-    "range": [
-      6627,
-      6628
-    ]
+    "end": 6628
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 6628,
-    "end": 6629,
-    "range": [
-      6628,
-      6629
-    ]
+    "end": 6629
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6629,
-    "end": 6630,
-    "range": [
-      6629,
-      6630
-    ]
+    "end": 6630
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6630,
-    "end": 6631,
-    "range": [
-      6630,
-      6631
-    ]
+    "end": 6631
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6631,
-    "end": 6632,
-    "range": [
-      6631,
-      6632
-    ]
+    "end": 6632
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 6637,
-    "end": 6643,
-    "range": [
-      6637,
-      6643
-    ]
+    "end": 6643
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6644,
-    "end": 6647,
-    "range": [
-      6644,
-      6647
-    ]
+    "end": 6647
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_mi_public",
     "start": 6648,
-    "end": 6678,
-    "range": [
-      6648,
-      6678
-    ]
+    "end": 6678
   },
   {
     "type": "Punctuator",
     "value": "=",
     "start": 6679,
-    "end": 6680,
-    "range": [
-      6679,
-      6680
-    ]
+    "end": 6680
   },
   {
     "type": "Keyword",
     "value": "new",
     "start": 6681,
-    "end": 6684,
-    "range": [
-      6681,
-      6684
-    ]
+    "end": 6684
   },
   {
     "type": "Identifier",
     "value": "im_private_mi_public",
     "start": 6685,
-    "end": 6705,
-    "range": [
-      6685,
-      6705
-    ]
+    "end": 6705
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6705,
-    "end": 6706,
-    "range": [
-      6705,
-      6706
-    ]
+    "end": 6706
   },
   {
     "type": "Identifier",
     "value": "c",
     "start": 6706,
-    "end": 6707,
-    "range": [
-      6706,
-      6707
-    ]
+    "end": 6707
   },
   {
     "type": "Punctuator",
     "value": "(",
     "start": 6707,
-    "end": 6708,
-    "range": [
-      6707,
-      6708
-    ]
+    "end": 6708
   },
   {
     "type": "Punctuator",
     "value": ")",
     "start": 6708,
-    "end": 6709,
-    "range": [
-      6708,
-      6709
-    ]
+    "end": 6709
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6709,
-    "end": 6710,
-    "range": [
-      6709,
-      6710
-    ]
+    "end": 6710
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6715,
-    "end": 6718,
-    "range": [
-      6715,
-      6718
-    ]
+    "end": 6718
   },
   {
     "type": "Identifier",
     "value": "privateUse_im_private_mu_public",
     "start": 6719,
-    "end": 6750,
-    "range": [
-      6719,
-      6750
-    ]
+    "end": 6750
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6750,
-    "end": 6751,
-    "range": [
-      6750,
-      6751
-    ]
+    "end": 6751
   },
   {
     "type": "Identifier",
     "value": "im_private_mu_public",
     "start": 6752,
-    "end": 6772,
-    "range": [
-      6752,
-      6772
-    ]
+    "end": 6772
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6772,
-    "end": 6773,
-    "range": [
-      6772,
-      6773
-    ]
+    "end": 6773
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 6773,
-    "end": 6774,
-    "range": [
-      6773,
-      6774
-    ]
+    "end": 6774
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6774,
-    "end": 6775,
-    "range": [
-      6774,
-      6775
-    ]
+    "end": 6775
   },
   {
     "type": "Keyword",
     "value": "export",
     "start": 6780,
-    "end": 6786,
-    "range": [
-      6780,
-      6786
-    ]
+    "end": 6786
   },
   {
     "type": "Keyword",
     "value": "var",
     "start": 6787,
-    "end": 6790,
-    "range": [
-      6787,
-      6790
-    ]
+    "end": 6790
   },
   {
     "type": "Identifier",
     "value": "publicUse_im_private_mu_public",
     "start": 6791,
-    "end": 6821,
-    "range": [
-      6791,
-      6821
-    ]
+    "end": 6821
   },
   {
     "type": "Punctuator",
     "value": ":",
     "start": 6821,
-    "end": 6822,
-    "range": [
-      6821,
-      6822
-    ]
+    "end": 6822
   },
   {
     "type": "Identifier",
     "value": "im_private_mu_public",
     "start": 6823,
-    "end": 6843,
-    "range": [
-      6823,
-      6843
-    ]
+    "end": 6843
   },
   {
     "type": "Punctuator",
     "value": ".",
     "start": 6843,
-    "end": 6844,
-    "range": [
-      6843,
-      6844
-    ]
+    "end": 6844
   },
   {
     "type": "Identifier",
     "value": "i",
     "start": 6844,
-    "end": 6845,
-    "range": [
-      6844,
-      6845
-    ]
+    "end": 6845
   },
   {
     "type": "Punctuator",
     "value": ";",
     "start": 6845,
-    "end": 6846,
-    "range": [
-      6845,
-      6846
-    ]
+    "end": 6846
   },
   {
     "type": "Punctuator",
     "value": "}",
     "start": 6847,
-    "end": 6848,
-    "range": [
-      6847,
-      6848
-    ]
+    "end": 6848
   }
 ]
 ```
