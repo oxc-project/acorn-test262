@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 466,
+    "end": 469,
+    "range": [
+      466,
+      469
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "_‌‍・･",
+    "start": 470,
+    "end": 495,
+    "range": [
+      470,
+      495
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 495,
+    "end": 496,
+    "range": [
+      495,
+      496
+    ]
+  }
+]

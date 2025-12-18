@@ -1,0 +1,132 @@
+[
+  {
+    "type": "Identifier",
+    "value": "$DONOTEVALUATE",
+    "start": 1756,
+    "end": 1770,
+    "range": [
+      1756,
+      1770
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1770,
+    "end": 1771,
+    "range": [
+      1770,
+      1771
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1771,
+    "end": 1772,
+    "range": [
+      1771,
+      1772
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1772,
+    "end": 1773,
+    "range": [
+      1772,
+      1773
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 1775,
+    "end": 1781,
+    "range": [
+      1775,
+      1781
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1782,
+    "end": 1783,
+    "range": [
+      1782,
+      1783
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 1784,
+    "end": 1785,
+    "range": [
+      1784,
+      1785
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 1786,
+    "end": 1788,
+    "range": [
+      1786,
+      1788
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "y",
+    "start": 1789,
+    "end": 1790,
+    "range": [
+      1789,
+      1790
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1791,
+    "end": 1792,
+    "range": [
+      1791,
+      1792
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1793,
+    "end": 1797,
+    "range": [
+      1793,
+      1797
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./error-import-named_FIXTURE.js'",
+    "start": 1798,
+    "end": 1831,
+    "range": [
+      1798,
+      1831
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1831,
+    "end": 1832,
+    "range": [
+      1831,
+      1832
+    ]
+  }
+]

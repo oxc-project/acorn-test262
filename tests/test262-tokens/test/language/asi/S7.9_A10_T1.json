@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 277,
+    "end": 278,
+    "range": [
+      277,
+      278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 279,
+    "end": 280,
+    "range": [
+      279,
+      280
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 281,
+    "end": 282,
+    "range": [
+      281,
+      282
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 282,
+    "end": 283,
+    "range": [
+      282,
+      283
+    ]
+  }
+]

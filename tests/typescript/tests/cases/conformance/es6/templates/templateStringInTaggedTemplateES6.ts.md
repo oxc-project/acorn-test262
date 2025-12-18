@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -133,4 +133,89 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 75
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Template",
+    "value": "`I AM THE ${",
+    "start": 0,
+    "end": 12,
+    "range": [
+      0,
+      12
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`${",
+    "start": 13,
+    "end": 16,
+    "range": [
+      13,
+      16
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`TAG`",
+    "start": 17,
+    "end": 22,
+    "range": [
+      17,
+      22
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "} `",
+    "start": 23,
+    "end": 26,
+    "range": [
+      23,
+      26
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "} PORTION`",
+    "start": 27,
+    "end": 37,
+    "range": [
+      27,
+      37
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`I ${",
+    "start": 41,
+    "end": 46,
+    "range": [
+      41,
+      46
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"AM\"",
+    "start": 47,
+    "end": 51,
+    "range": [
+      47,
+      51
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "} THE TEMPLATE PORTION`",
+    "start": 52,
+    "end": 75,
+    "range": [
+      52,
+      75
+    ]
+  }
+]
 ```

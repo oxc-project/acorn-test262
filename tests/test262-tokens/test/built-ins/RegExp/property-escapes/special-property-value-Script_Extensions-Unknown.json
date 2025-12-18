@@ -1,0 +1,98 @@
+[
+  {
+    "type": "RegularExpression",
+    "value": "/\\p{Script_Extensions=Unknown}/u",
+    "regex": {
+      "flags": "u",
+      "pattern": "\\p{Script_Extensions=Unknown}"
+    },
+    "start": 429,
+    "end": 461,
+    "range": [
+      429,
+      461
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 461,
+    "end": 462,
+    "range": [
+      461,
+      462
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/\\p{Script_Extensions=Zzzz}/u",
+    "regex": {
+      "flags": "u",
+      "pattern": "\\p{Script_Extensions=Zzzz}"
+    },
+    "start": 463,
+    "end": 492,
+    "range": [
+      463,
+      492
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 492,
+    "end": 493,
+    "range": [
+      492,
+      493
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/\\p{scx=Unknown}/u",
+    "regex": {
+      "flags": "u",
+      "pattern": "\\p{scx=Unknown}"
+    },
+    "start": 494,
+    "end": 512,
+    "range": [
+      494,
+      512
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 512,
+    "end": 513,
+    "range": [
+      512,
+      513
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/\\p{scx=Zzzz}/u",
+    "regex": {
+      "flags": "u",
+      "pattern": "\\p{scx=Zzzz}"
+    },
+    "start": 514,
+    "end": 529,
+    "range": [
+      514,
+      529
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 529,
+    "end": 530,
+    "range": [
+      529,
+      530
+    ]
+  }
+]

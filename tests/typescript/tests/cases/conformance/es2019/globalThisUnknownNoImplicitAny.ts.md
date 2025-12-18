@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -247,4 +247,309 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 146
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7,
+    "range": [
+      0,
+      7
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 8,
+    "end": 11,
+    "range": [
+      8,
+      11
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "win",
+    "start": 12,
+    "end": 15,
+    "range": [
+      12,
+      15
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 15,
+    "end": 16,
+    "range": [
+      15,
+      16
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Window",
+    "start": 17,
+    "end": 23,
+    "range": [
+      17,
+      23
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "&",
+    "start": 24,
+    "end": 25,
+    "range": [
+      24,
+      25
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 26,
+    "end": 32,
+    "range": [
+      26,
+      32
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "globalThis",
+    "start": 33,
+    "end": 43,
+    "range": [
+      33,
+      43
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 43,
+    "end": 44,
+    "range": [
+      43,
+      44
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "win",
+    "start": 79,
+    "end": 82,
+    "range": [
+      79,
+      82
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 82,
+    "end": 83,
+    "range": [
+      82,
+      83
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "hi",
+    "start": 83,
+    "end": 85,
+    "range": [
+      83,
+      85
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 86,
+    "end": 90,
+    "range": [
+      86,
+      90
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 90,
+    "end": 91,
+    "range": [
+      90,
+      91
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "hi",
+    "start": 91,
+    "end": 93,
+    "range": [
+      91,
+      93
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "globalThis",
+    "start": 94,
+    "end": 104,
+    "range": [
+      94,
+      104
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 104,
+    "end": 105,
+    "range": [
+      104,
+      105
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "hi",
+    "start": 105,
+    "end": 107,
+    "range": [
+      105,
+      107
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "win",
+    "start": 109,
+    "end": 112,
+    "range": [
+      109,
+      112
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 112,
+    "end": 113,
+    "range": [
+      112,
+      113
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'hi'",
+    "start": 113,
+    "end": 117,
+    "range": [
+      113,
+      117
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 117,
+    "end": 118,
+    "range": [
+      117,
+      118
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 119,
+    "end": 123,
+    "range": [
+      119,
+      123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 123,
+    "end": 124,
+    "range": [
+      123,
+      124
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'hi'",
+    "start": 124,
+    "end": 128,
+    "range": [
+      124,
+      128
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 128,
+    "end": 129,
+    "range": [
+      128,
+      129
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "globalThis",
+    "start": 130,
+    "end": 140,
+    "range": [
+      130,
+      140
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 140,
+    "end": 141,
+    "range": [
+      140,
+      141
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'hi'",
+    "start": 141,
+    "end": 145,
+    "range": [
+      141,
+      145
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 145,
+    "end": 146,
+    "range": [
+      145,
+      146
+    ]
+  }
+]
 ```

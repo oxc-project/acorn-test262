@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1065,
+    "end": 1070,
+    "range": [
+      1065,
+      1070
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1071,
+    "end": 1072,
+    "range": [
+      1071,
+      1072
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1072,
+    "end": 1073,
+    "range": [
+      1072,
+      1073
+    ]
+  }
+]

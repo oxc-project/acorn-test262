@@ -1,0 +1,312 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1971,
+    "end": 1976,
+    "range": [
+      1971,
+      1976
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "datetime",
+    "start": 1977,
+    "end": 1985,
+    "range": [
+      1977,
+      1985
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1986,
+    "end": 1987,
+    "range": [
+      1986,
+      1987
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1988,
+    "end": 1991,
+    "range": [
+      1988,
+      1991
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1992,
+    "end": 2000,
+    "range": [
+      1992,
+      2000
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2000,
+    "end": 2001,
+    "range": [
+      2000,
+      2001
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 2001,
+    "end": 2014,
+    "range": [
+      2001,
+      2014
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2014,
+    "end": 2015,
+    "range": [
+      2014,
+      2015
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1001n",
+    "start": 2015,
+    "end": 2020,
+    "range": [
+      2015,
+      2020
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2020,
+    "end": 2021,
+    "range": [
+      2020,
+      2021
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"-00:02\"",
+    "start": 2022,
+    "end": 2030,
+    "range": [
+      2022,
+      2030
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2030,
+    "end": 2031,
+    "range": [
+      2030,
+      2031
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2031,
+    "end": 2032,
+    "range": [
+      2031,
+      2032
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2034,
+    "end": 2039,
+    "range": [
+      2034,
+      2039
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "jsonString",
+    "start": 2040,
+    "end": 2050,
+    "range": [
+      2040,
+      2050
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2051,
+    "end": 2052,
+    "range": [
+      2051,
+      2052
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "datetime",
+    "start": 2053,
+    "end": 2061,
+    "range": [
+      2053,
+      2061
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2061,
+    "end": 2062,
+    "range": [
+      2061,
+      2062
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toJSON",
+    "start": 2062,
+    "end": 2068,
+    "range": [
+      2062,
+      2068
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2068,
+    "end": 2069,
+    "range": [
+      2068,
+      2069
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2069,
+    "end": 2070,
+    "range": [
+      2069,
+      2070
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2070,
+    "end": 2071,
+    "range": [
+      2070,
+      2071
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2073,
+    "end": 2079,
+    "range": [
+      2073,
+      2079
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2079,
+    "end": 2080,
+    "range": [
+      2079,
+      2080
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2080,
+    "end": 2089,
+    "range": [
+      2080,
+      2089
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2089,
+    "end": 2090,
+    "range": [
+      2089,
+      2090
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "jsonString",
+    "start": 2090,
+    "end": 2100,
+    "range": [
+      2090,
+      2100
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2100,
+    "end": 2101,
+    "range": [
+      2100,
+      2101
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1969-12-31T23:58:00.000001001-00:02[-00:02]\"",
+    "start": 2102,
+    "end": 2147,
+    "range": [
+      2102,
+      2147
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2147,
+    "end": 2148,
+    "range": [
+      2147,
+      2148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2148,
+    "end": 2149,
+    "range": [
+      2148,
+      2149
+    ]
+  }
+]

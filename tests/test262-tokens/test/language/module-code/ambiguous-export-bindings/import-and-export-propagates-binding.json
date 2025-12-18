@@ -1,0 +1,262 @@
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 3977,
+    "end": 3983,
+    "range": [
+      3977,
+      3983
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 3984,
+    "end": 3985,
+    "range": [
+      3984,
+      3985
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 3986,
+    "end": 3990,
+    "range": [
+      3986,
+      3990
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./import-and-export-propagates-binding_export-from_FIXTURE.js\"",
+    "start": 3991,
+    "end": 4054,
+    "range": [
+      3991,
+      4054
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4054,
+    "end": 4055,
+    "range": [
+      4054,
+      4055
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 4056,
+    "end": 4062,
+    "range": [
+      4056,
+      4062
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 4063,
+    "end": 4064,
+    "range": [
+      4063,
+      4064
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 4065,
+    "end": 4069,
+    "range": [
+      4065,
+      4069
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./import-and-export-propagates-binding_import-and-export_FIXTURE.js\"",
+    "start": 4070,
+    "end": 4139,
+    "range": [
+      4070,
+      4139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4139,
+    "end": 4140,
+    "range": [
+      4139,
+      4140
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 4142,
+    "end": 4148,
+    "range": [
+      4142,
+      4148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 4149,
+    "end": 4150,
+    "range": [
+      4149,
+      4150
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 4151,
+    "end": 4154,
+    "range": [
+      4151,
+      4154
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 4155,
+    "end": 4156,
+    "range": [
+      4155,
+      4156
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 4157,
+    "end": 4161,
+    "range": [
+      4157,
+      4161
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./import-and-export-propagates-binding.js'",
+    "start": 4162,
+    "end": 4205,
+    "range": [
+      4162,
+      4205
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4205,
+    "end": 4206,
+    "range": [
+      4205,
+      4206
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 4208,
+    "end": 4214,
+    "range": [
+      4208,
+      4214
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4214,
+    "end": 4215,
+    "range": [
+      4214,
+      4215
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 4215,
+    "end": 4224,
+    "range": [
+      4215,
+      4224
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4224,
+    "end": 4225,
+    "range": [
+      4224,
+      4225
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 4225,
+    "end": 4228,
+    "range": [
+      4225,
+      4228
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4228,
+    "end": 4229,
+    "range": [
+      4228,
+      4229
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 4230,
+    "end": 4231,
+    "range": [
+      4230,
+      4231
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4231,
+    "end": 4232,
+    "range": [
+      4231,
+      4232
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4232,
+    "end": 4233,
+    "range": [
+      4232,
+      4233
+    ]
+  }
+]

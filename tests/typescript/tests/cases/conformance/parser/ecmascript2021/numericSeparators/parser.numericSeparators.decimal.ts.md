@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -191,4 +191,149 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 136
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Numeric",
+    "value": "1_000_000_000",
+    "start": 0,
+    "end": 13,
+    "range": [
+      0,
+      13
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1.1_00_01",
+    "start": 14,
+    "end": 23,
+    "range": [
+      14,
+      23
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1e1_0",
+    "start": 24,
+    "end": 29,
+    "range": [
+      24,
+      29
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1e+1_0",
+    "start": 30,
+    "end": 36,
+    "range": [
+      30,
+      36
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1e-1_0",
+    "start": 37,
+    "end": 43,
+    "range": [
+      37,
+      43
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1.1e10_0",
+    "start": 44,
+    "end": 52,
+    "range": [
+      44,
+      52
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1.1e+10_0",
+    "start": 53,
+    "end": 62,
+    "range": [
+      53,
+      62
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1.1e-10_0",
+    "start": 63,
+    "end": 72,
+    "range": [
+      63,
+      72
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "12_34_56",
+    "start": 73,
+    "end": 81,
+    "range": [
+      73,
+      81
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1_22_333",
+    "start": 82,
+    "end": 90,
+    "range": [
+      82,
+      90
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1_2.3_4",
+    "start": 91,
+    "end": 98,
+    "range": [
+      91,
+      98
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1_2.3_4e5_6",
+    "start": 99,
+    "end": 110,
+    "range": [
+      99,
+      110
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1_2.3_4e+5_6",
+    "start": 111,
+    "end": 123,
+    "range": [
+      111,
+      123
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1_2.3_4e-5_6",
+    "start": 124,
+    "end": 136,
+    "range": [
+      124,
+      136
+    ]
+  }
+]
 ```

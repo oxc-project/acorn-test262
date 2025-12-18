@@ -1,0 +1,76 @@
+[
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 1334,
+    "end": 1336,
+    "range": [
+      1334,
+      1336
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1337,
+    "end": 1338,
+    "range": [
+      1337,
+      1338
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1338,
+    "end": 1343,
+    "range": [
+      1338,
+      1343
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/1/",
+    "regex": {
+      "flags": "",
+      "pattern": "1"
+    },
+    "start": 1344,
+    "end": 1347,
+    "range": [
+      1344,
+      1347
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1347,
+    "end": 1348,
+    "range": [
+      1347,
+      1348
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1349,
+    "end": 1350,
+    "range": [
+      1349,
+      1350
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1350,
+    "end": 1351,
+    "range": [
+      1350,
+      1351
+    ]
+  }
+]

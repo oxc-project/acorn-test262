@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 2032,
+    "end": 2038,
+    "range": [
+      2032,
+      2038
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 2039,
+    "end": 2046,
+    "range": [
+      2039,
+      2046
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 2047,
+    "end": 2052,
+    "range": [
+      2047,
+      2052
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 2053,
+    "end": 2057,
+    "range": [
+      2053,
+      2057
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2057,
+    "end": 2058,
+    "range": [
+      2057,
+      2058
+    ]
+  }
+]

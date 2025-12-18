@@ -1,0 +1,13002 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 292,
+    "end": 297,
+    "range": [
+      292,
+      297
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZoneIdentifiers",
+    "start": 298,
+    "end": 317,
+    "range": [
+      298,
+      317
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 318,
+    "end": 319,
+    "range": [
+      318,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 320,
+    "end": 321,
+    "range": [
+      320,
+      321
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Abidjan'",
+    "start": 350,
+    "end": 366,
+    "range": [
+      350,
+      366
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 366,
+    "end": 367,
+    "range": [
+      366,
+      367
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Algiers'",
+    "start": 370,
+    "end": 386,
+    "range": [
+      370,
+      386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 386,
+    "end": 387,
+    "range": [
+      386,
+      387
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Bissau'",
+    "start": 390,
+    "end": 405,
+    "range": [
+      390,
+      405
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 405,
+    "end": 406,
+    "range": [
+      405,
+      406
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Cairo'",
+    "start": 409,
+    "end": 423,
+    "range": [
+      409,
+      423
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 423,
+    "end": 424,
+    "range": [
+      423,
+      424
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Casablanca'",
+    "start": 427,
+    "end": 446,
+    "range": [
+      427,
+      446
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 446,
+    "end": 447,
+    "range": [
+      446,
+      447
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Ceuta'",
+    "start": 450,
+    "end": 464,
+    "range": [
+      450,
+      464
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 464,
+    "end": 465,
+    "range": [
+      464,
+      465
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/El_Aaiun'",
+    "start": 468,
+    "end": 485,
+    "range": [
+      468,
+      485
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 485,
+    "end": 486,
+    "range": [
+      485,
+      486
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Johannesburg'",
+    "start": 489,
+    "end": 510,
+    "range": [
+      489,
+      510
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 510,
+    "end": 511,
+    "range": [
+      510,
+      511
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Juba'",
+    "start": 514,
+    "end": 527,
+    "range": [
+      514,
+      527
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 527,
+    "end": 528,
+    "range": [
+      527,
+      528
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Khartoum'",
+    "start": 531,
+    "end": 548,
+    "range": [
+      531,
+      548
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 548,
+    "end": 549,
+    "range": [
+      548,
+      549
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Lagos'",
+    "start": 552,
+    "end": 566,
+    "range": [
+      552,
+      566
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 566,
+    "end": 567,
+    "range": [
+      566,
+      567
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Maputo'",
+    "start": 570,
+    "end": 585,
+    "range": [
+      570,
+      585
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 585,
+    "end": 586,
+    "range": [
+      585,
+      586
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Monrovia'",
+    "start": 589,
+    "end": 606,
+    "range": [
+      589,
+      606
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 606,
+    "end": 607,
+    "range": [
+      606,
+      607
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Nairobi'",
+    "start": 610,
+    "end": 626,
+    "range": [
+      610,
+      626
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 626,
+    "end": 627,
+    "range": [
+      626,
+      627
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Ndjamena'",
+    "start": 630,
+    "end": 647,
+    "range": [
+      630,
+      647
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 647,
+    "end": 648,
+    "range": [
+      647,
+      648
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Sao_Tome'",
+    "start": 651,
+    "end": 668,
+    "range": [
+      651,
+      668
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 668,
+    "end": 669,
+    "range": [
+      668,
+      669
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Tripoli'",
+    "start": 672,
+    "end": 688,
+    "range": [
+      672,
+      688
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 688,
+    "end": 689,
+    "range": [
+      688,
+      689
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Tunis'",
+    "start": 692,
+    "end": 706,
+    "range": [
+      692,
+      706
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 706,
+    "end": 707,
+    "range": [
+      706,
+      707
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Windhoek'",
+    "start": 710,
+    "end": 727,
+    "range": [
+      710,
+      727
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 727,
+    "end": 728,
+    "range": [
+      727,
+      728
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Adak'",
+    "start": 731,
+    "end": 745,
+    "range": [
+      731,
+      745
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 745,
+    "end": 746,
+    "range": [
+      745,
+      746
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Anchorage'",
+    "start": 749,
+    "end": 768,
+    "range": [
+      749,
+      768
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 768,
+    "end": 769,
+    "range": [
+      768,
+      769
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Araguaina'",
+    "start": 772,
+    "end": 791,
+    "range": [
+      772,
+      791
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 791,
+    "end": 792,
+    "range": [
+      791,
+      792
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Buenos_Aires'",
+    "start": 795,
+    "end": 827,
+    "range": [
+      795,
+      827
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 827,
+    "end": 828,
+    "range": [
+      827,
+      828
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Catamarca'",
+    "start": 831,
+    "end": 860,
+    "range": [
+      831,
+      860
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 860,
+    "end": 861,
+    "range": [
+      860,
+      861
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Cordoba'",
+    "start": 864,
+    "end": 891,
+    "range": [
+      864,
+      891
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 891,
+    "end": 892,
+    "range": [
+      891,
+      892
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Jujuy'",
+    "start": 895,
+    "end": 920,
+    "range": [
+      895,
+      920
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 920,
+    "end": 921,
+    "range": [
+      920,
+      921
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/La_Rioja'",
+    "start": 924,
+    "end": 952,
+    "range": [
+      924,
+      952
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 952,
+    "end": 953,
+    "range": [
+      952,
+      953
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Mendoza'",
+    "start": 956,
+    "end": 983,
+    "range": [
+      956,
+      983
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 983,
+    "end": 984,
+    "range": [
+      983,
+      984
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Rio_Gallegos'",
+    "start": 987,
+    "end": 1019,
+    "range": [
+      987,
+      1019
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1019,
+    "end": 1020,
+    "range": [
+      1019,
+      1020
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Salta'",
+    "start": 1023,
+    "end": 1048,
+    "range": [
+      1023,
+      1048
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1048,
+    "end": 1049,
+    "range": [
+      1048,
+      1049
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/San_Juan'",
+    "start": 1052,
+    "end": 1080,
+    "range": [
+      1052,
+      1080
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1080,
+    "end": 1081,
+    "range": [
+      1080,
+      1081
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/San_Luis'",
+    "start": 1084,
+    "end": 1112,
+    "range": [
+      1084,
+      1112
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1112,
+    "end": 1113,
+    "range": [
+      1112,
+      1113
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Tucuman'",
+    "start": 1116,
+    "end": 1143,
+    "range": [
+      1116,
+      1143
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1143,
+    "end": 1144,
+    "range": [
+      1143,
+      1144
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/Ushuaia'",
+    "start": 1147,
+    "end": 1174,
+    "range": [
+      1147,
+      1174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1174,
+    "end": 1175,
+    "range": [
+      1174,
+      1175
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Asuncion'",
+    "start": 1178,
+    "end": 1196,
+    "range": [
+      1178,
+      1196
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1196,
+    "end": 1197,
+    "range": [
+      1196,
+      1197
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Bahia'",
+    "start": 1200,
+    "end": 1215,
+    "range": [
+      1200,
+      1215
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1215,
+    "end": 1216,
+    "range": [
+      1215,
+      1216
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Bahia_Banderas'",
+    "start": 1219,
+    "end": 1243,
+    "range": [
+      1219,
+      1243
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1243,
+    "end": 1244,
+    "range": [
+      1243,
+      1244
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Barbados'",
+    "start": 1247,
+    "end": 1265,
+    "range": [
+      1247,
+      1265
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1265,
+    "end": 1266,
+    "range": [
+      1265,
+      1266
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Belem'",
+    "start": 1269,
+    "end": 1284,
+    "range": [
+      1269,
+      1284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1284,
+    "end": 1285,
+    "range": [
+      1284,
+      1285
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Belize'",
+    "start": 1288,
+    "end": 1304,
+    "range": [
+      1288,
+      1304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1304,
+    "end": 1305,
+    "range": [
+      1304,
+      1305
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Boa_Vista'",
+    "start": 1308,
+    "end": 1327,
+    "range": [
+      1308,
+      1327
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1327,
+    "end": 1328,
+    "range": [
+      1327,
+      1328
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Bogota'",
+    "start": 1331,
+    "end": 1347,
+    "range": [
+      1331,
+      1347
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1347,
+    "end": 1348,
+    "range": [
+      1347,
+      1348
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Boise'",
+    "start": 1351,
+    "end": 1366,
+    "range": [
+      1351,
+      1366
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1366,
+    "end": 1367,
+    "range": [
+      1366,
+      1367
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Cambridge_Bay'",
+    "start": 1370,
+    "end": 1393,
+    "range": [
+      1370,
+      1393
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1393,
+    "end": 1394,
+    "range": [
+      1393,
+      1394
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Campo_Grande'",
+    "start": 1397,
+    "end": 1419,
+    "range": [
+      1397,
+      1419
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1419,
+    "end": 1420,
+    "range": [
+      1419,
+      1420
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Cancun'",
+    "start": 1423,
+    "end": 1439,
+    "range": [
+      1423,
+      1439
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1439,
+    "end": 1440,
+    "range": [
+      1439,
+      1440
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Caracas'",
+    "start": 1443,
+    "end": 1460,
+    "range": [
+      1443,
+      1460
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1460,
+    "end": 1461,
+    "range": [
+      1460,
+      1461
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Cayenne'",
+    "start": 1464,
+    "end": 1481,
+    "range": [
+      1464,
+      1481
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1481,
+    "end": 1482,
+    "range": [
+      1481,
+      1482
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Chicago'",
+    "start": 1485,
+    "end": 1502,
+    "range": [
+      1485,
+      1502
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1502,
+    "end": 1503,
+    "range": [
+      1502,
+      1503
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Chihuahua'",
+    "start": 1506,
+    "end": 1525,
+    "range": [
+      1506,
+      1525
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1525,
+    "end": 1526,
+    "range": [
+      1525,
+      1526
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Costa_Rica'",
+    "start": 1619,
+    "end": 1639,
+    "range": [
+      1619,
+      1639
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1639,
+    "end": 1640,
+    "range": [
+      1639,
+      1640
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Cuiaba'",
+    "start": 1643,
+    "end": 1659,
+    "range": [
+      1643,
+      1659
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1659,
+    "end": 1660,
+    "range": [
+      1659,
+      1660
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Danmarkshavn'",
+    "start": 1663,
+    "end": 1685,
+    "range": [
+      1663,
+      1685
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1685,
+    "end": 1686,
+    "range": [
+      1685,
+      1686
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Dawson'",
+    "start": 1689,
+    "end": 1705,
+    "range": [
+      1689,
+      1705
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1705,
+    "end": 1706,
+    "range": [
+      1705,
+      1706
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Dawson_Creek'",
+    "start": 1709,
+    "end": 1731,
+    "range": [
+      1709,
+      1731
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1731,
+    "end": 1732,
+    "range": [
+      1731,
+      1732
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Denver'",
+    "start": 1735,
+    "end": 1751,
+    "range": [
+      1735,
+      1751
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1751,
+    "end": 1752,
+    "range": [
+      1751,
+      1752
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Detroit'",
+    "start": 1755,
+    "end": 1772,
+    "range": [
+      1755,
+      1772
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1772,
+    "end": 1773,
+    "range": [
+      1772,
+      1773
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Edmonton'",
+    "start": 1776,
+    "end": 1794,
+    "range": [
+      1776,
+      1794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1794,
+    "end": 1795,
+    "range": [
+      1794,
+      1795
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Eirunepe'",
+    "start": 1798,
+    "end": 1816,
+    "range": [
+      1798,
+      1816
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1816,
+    "end": 1817,
+    "range": [
+      1816,
+      1817
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/El_Salvador'",
+    "start": 1820,
+    "end": 1841,
+    "range": [
+      1820,
+      1841
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1841,
+    "end": 1842,
+    "range": [
+      1841,
+      1842
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Fort_Nelson'",
+    "start": 1845,
+    "end": 1866,
+    "range": [
+      1845,
+      1866
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1866,
+    "end": 1867,
+    "range": [
+      1866,
+      1867
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Fortaleza'",
+    "start": 1870,
+    "end": 1889,
+    "range": [
+      1870,
+      1889
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1889,
+    "end": 1890,
+    "range": [
+      1889,
+      1890
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Glace_Bay'",
+    "start": 1893,
+    "end": 1912,
+    "range": [
+      1893,
+      1912
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1912,
+    "end": 1913,
+    "range": [
+      1912,
+      1913
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Goose_Bay'",
+    "start": 1916,
+    "end": 1935,
+    "range": [
+      1916,
+      1935
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1935,
+    "end": 1936,
+    "range": [
+      1935,
+      1936
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Grand_Turk'",
+    "start": 1939,
+    "end": 1959,
+    "range": [
+      1939,
+      1959
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1959,
+    "end": 1960,
+    "range": [
+      1959,
+      1960
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Guatemala'",
+    "start": 1963,
+    "end": 1982,
+    "range": [
+      1963,
+      1982
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1982,
+    "end": 1983,
+    "range": [
+      1982,
+      1983
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Guayaquil'",
+    "start": 1986,
+    "end": 2005,
+    "range": [
+      1986,
+      2005
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2005,
+    "end": 2006,
+    "range": [
+      2005,
+      2006
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Guyana'",
+    "start": 2009,
+    "end": 2025,
+    "range": [
+      2009,
+      2025
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2025,
+    "end": 2026,
+    "range": [
+      2025,
+      2026
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Halifax'",
+    "start": 2029,
+    "end": 2046,
+    "range": [
+      2029,
+      2046
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2046,
+    "end": 2047,
+    "range": [
+      2046,
+      2047
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Havana'",
+    "start": 2050,
+    "end": 2066,
+    "range": [
+      2050,
+      2066
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2066,
+    "end": 2067,
+    "range": [
+      2066,
+      2067
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Hermosillo'",
+    "start": 2070,
+    "end": 2090,
+    "range": [
+      2070,
+      2090
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2090,
+    "end": 2091,
+    "range": [
+      2090,
+      2091
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Indianapolis'",
+    "start": 2094,
+    "end": 2124,
+    "range": [
+      2094,
+      2124
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2124,
+    "end": 2125,
+    "range": [
+      2124,
+      2125
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Knox'",
+    "start": 2128,
+    "end": 2150,
+    "range": [
+      2128,
+      2150
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2150,
+    "end": 2151,
+    "range": [
+      2150,
+      2151
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Marengo'",
+    "start": 2154,
+    "end": 2179,
+    "range": [
+      2154,
+      2179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2179,
+    "end": 2180,
+    "range": [
+      2179,
+      2180
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Petersburg'",
+    "start": 2183,
+    "end": 2211,
+    "range": [
+      2183,
+      2211
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2211,
+    "end": 2212,
+    "range": [
+      2211,
+      2212
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Tell_City'",
+    "start": 2215,
+    "end": 2242,
+    "range": [
+      2215,
+      2242
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2242,
+    "end": 2243,
+    "range": [
+      2242,
+      2243
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Vevay'",
+    "start": 2246,
+    "end": 2269,
+    "range": [
+      2246,
+      2269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2269,
+    "end": 2270,
+    "range": [
+      2269,
+      2270
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Vincennes'",
+    "start": 2273,
+    "end": 2300,
+    "range": [
+      2273,
+      2300
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2300,
+    "end": 2301,
+    "range": [
+      2300,
+      2301
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indiana/Winamac'",
+    "start": 2304,
+    "end": 2329,
+    "range": [
+      2304,
+      2329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2329,
+    "end": 2330,
+    "range": [
+      2329,
+      2330
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Inuvik'",
+    "start": 2333,
+    "end": 2349,
+    "range": [
+      2333,
+      2349
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2349,
+    "end": 2350,
+    "range": [
+      2349,
+      2350
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Iqaluit'",
+    "start": 2353,
+    "end": 2370,
+    "range": [
+      2353,
+      2370
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2370,
+    "end": 2371,
+    "range": [
+      2370,
+      2371
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Jamaica'",
+    "start": 2374,
+    "end": 2391,
+    "range": [
+      2374,
+      2391
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2391,
+    "end": 2392,
+    "range": [
+      2391,
+      2392
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Juneau'",
+    "start": 2395,
+    "end": 2411,
+    "range": [
+      2395,
+      2411
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2411,
+    "end": 2412,
+    "range": [
+      2411,
+      2412
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Kentucky/Louisville'",
+    "start": 2415,
+    "end": 2444,
+    "range": [
+      2415,
+      2444
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2444,
+    "end": 2445,
+    "range": [
+      2444,
+      2445
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Kentucky/Monticello'",
+    "start": 2448,
+    "end": 2477,
+    "range": [
+      2448,
+      2477
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2477,
+    "end": 2478,
+    "range": [
+      2477,
+      2478
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/La_Paz'",
+    "start": 2481,
+    "end": 2497,
+    "range": [
+      2481,
+      2497
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2497,
+    "end": 2498,
+    "range": [
+      2497,
+      2498
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Lima'",
+    "start": 2501,
+    "end": 2515,
+    "range": [
+      2501,
+      2515
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2515,
+    "end": 2516,
+    "range": [
+      2515,
+      2516
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Los_Angeles'",
+    "start": 2519,
+    "end": 2540,
+    "range": [
+      2519,
+      2540
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2540,
+    "end": 2541,
+    "range": [
+      2540,
+      2541
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Maceio'",
+    "start": 2544,
+    "end": 2560,
+    "range": [
+      2544,
+      2560
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2560,
+    "end": 2561,
+    "range": [
+      2560,
+      2561
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Managua'",
+    "start": 2564,
+    "end": 2581,
+    "range": [
+      2564,
+      2581
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2581,
+    "end": 2582,
+    "range": [
+      2581,
+      2582
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Manaus'",
+    "start": 2585,
+    "end": 2601,
+    "range": [
+      2585,
+      2601
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2601,
+    "end": 2602,
+    "range": [
+      2601,
+      2602
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Martinique'",
+    "start": 2605,
+    "end": 2625,
+    "range": [
+      2605,
+      2625
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2625,
+    "end": 2626,
+    "range": [
+      2625,
+      2626
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Matamoros'",
+    "start": 2629,
+    "end": 2648,
+    "range": [
+      2629,
+      2648
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2648,
+    "end": 2649,
+    "range": [
+      2648,
+      2649
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Mazatlan'",
+    "start": 2652,
+    "end": 2670,
+    "range": [
+      2652,
+      2670
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2670,
+    "end": 2671,
+    "range": [
+      2670,
+      2671
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Menominee'",
+    "start": 2674,
+    "end": 2693,
+    "range": [
+      2674,
+      2693
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2693,
+    "end": 2694,
+    "range": [
+      2693,
+      2694
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Merida'",
+    "start": 2697,
+    "end": 2713,
+    "range": [
+      2697,
+      2713
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2713,
+    "end": 2714,
+    "range": [
+      2713,
+      2714
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Metlakatla'",
+    "start": 2717,
+    "end": 2737,
+    "range": [
+      2717,
+      2737
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2737,
+    "end": 2738,
+    "range": [
+      2737,
+      2738
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Mexico_City'",
+    "start": 2741,
+    "end": 2762,
+    "range": [
+      2741,
+      2762
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2762,
+    "end": 2763,
+    "range": [
+      2762,
+      2763
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Miquelon'",
+    "start": 2766,
+    "end": 2784,
+    "range": [
+      2766,
+      2784
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2784,
+    "end": 2785,
+    "range": [
+      2784,
+      2785
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Moncton'",
+    "start": 2788,
+    "end": 2805,
+    "range": [
+      2788,
+      2805
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2805,
+    "end": 2806,
+    "range": [
+      2805,
+      2806
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Monterrey'",
+    "start": 2809,
+    "end": 2828,
+    "range": [
+      2809,
+      2828
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2828,
+    "end": 2829,
+    "range": [
+      2828,
+      2829
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Montevideo'",
+    "start": 2832,
+    "end": 2852,
+    "range": [
+      2832,
+      2852
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2852,
+    "end": 2853,
+    "range": [
+      2852,
+      2853
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/New_York'",
+    "start": 2856,
+    "end": 2874,
+    "range": [
+      2856,
+      2874
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2874,
+    "end": 2875,
+    "range": [
+      2874,
+      2875
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Nome'",
+    "start": 2878,
+    "end": 2892,
+    "range": [
+      2878,
+      2892
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2892,
+    "end": 2893,
+    "range": [
+      2892,
+      2893
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Noronha'",
+    "start": 2896,
+    "end": 2913,
+    "range": [
+      2896,
+      2913
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2913,
+    "end": 2914,
+    "range": [
+      2913,
+      2914
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/North_Dakota/Beulah'",
+    "start": 2917,
+    "end": 2946,
+    "range": [
+      2917,
+      2946
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2946,
+    "end": 2947,
+    "range": [
+      2946,
+      2947
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/North_Dakota/Center'",
+    "start": 2950,
+    "end": 2979,
+    "range": [
+      2950,
+      2979
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2979,
+    "end": 2980,
+    "range": [
+      2979,
+      2980
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/North_Dakota/New_Salem'",
+    "start": 2983,
+    "end": 3015,
+    "range": [
+      2983,
+      3015
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3015,
+    "end": 3016,
+    "range": [
+      3015,
+      3016
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Nuuk'",
+    "start": 3019,
+    "end": 3033,
+    "range": [
+      3019,
+      3033
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3033,
+    "end": 3034,
+    "range": [
+      3033,
+      3034
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Ojinaga'",
+    "start": 3037,
+    "end": 3054,
+    "range": [
+      3037,
+      3054
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3054,
+    "end": 3055,
+    "range": [
+      3054,
+      3055
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Panama'",
+    "start": 3058,
+    "end": 3074,
+    "range": [
+      3058,
+      3074
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3074,
+    "end": 3075,
+    "range": [
+      3074,
+      3075
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Paramaribo'",
+    "start": 3078,
+    "end": 3098,
+    "range": [
+      3078,
+      3098
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3098,
+    "end": 3099,
+    "range": [
+      3098,
+      3099
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Phoenix'",
+    "start": 3102,
+    "end": 3119,
+    "range": [
+      3102,
+      3119
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3119,
+    "end": 3120,
+    "range": [
+      3119,
+      3120
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Port-au-Prince'",
+    "start": 3123,
+    "end": 3147,
+    "range": [
+      3123,
+      3147
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3147,
+    "end": 3148,
+    "range": [
+      3147,
+      3148
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Porto_Velho'",
+    "start": 3151,
+    "end": 3172,
+    "range": [
+      3151,
+      3172
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3172,
+    "end": 3173,
+    "range": [
+      3172,
+      3173
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Puerto_Rico'",
+    "start": 3176,
+    "end": 3197,
+    "range": [
+      3176,
+      3197
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3197,
+    "end": 3198,
+    "range": [
+      3197,
+      3198
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Punta_Arenas'",
+    "start": 3201,
+    "end": 3223,
+    "range": [
+      3201,
+      3223
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3223,
+    "end": 3224,
+    "range": [
+      3223,
+      3224
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Rankin_Inlet'",
+    "start": 3227,
+    "end": 3249,
+    "range": [
+      3227,
+      3249
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3249,
+    "end": 3250,
+    "range": [
+      3249,
+      3250
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Recife'",
+    "start": 3253,
+    "end": 3269,
+    "range": [
+      3253,
+      3269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3269,
+    "end": 3270,
+    "range": [
+      3269,
+      3270
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Regina'",
+    "start": 3273,
+    "end": 3289,
+    "range": [
+      3273,
+      3289
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3289,
+    "end": 3290,
+    "range": [
+      3289,
+      3290
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Resolute'",
+    "start": 3293,
+    "end": 3311,
+    "range": [
+      3293,
+      3311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3311,
+    "end": 3312,
+    "range": [
+      3311,
+      3312
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Rio_Branco'",
+    "start": 3315,
+    "end": 3335,
+    "range": [
+      3315,
+      3335
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3335,
+    "end": 3336,
+    "range": [
+      3335,
+      3336
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Santarem'",
+    "start": 3339,
+    "end": 3357,
+    "range": [
+      3339,
+      3357
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3357,
+    "end": 3358,
+    "range": [
+      3357,
+      3358
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Santiago'",
+    "start": 3361,
+    "end": 3379,
+    "range": [
+      3361,
+      3379
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3379,
+    "end": 3380,
+    "range": [
+      3379,
+      3380
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Santo_Domingo'",
+    "start": 3383,
+    "end": 3406,
+    "range": [
+      3383,
+      3406
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3406,
+    "end": 3407,
+    "range": [
+      3406,
+      3407
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Sao_Paulo'",
+    "start": 3410,
+    "end": 3429,
+    "range": [
+      3410,
+      3429
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3429,
+    "end": 3430,
+    "range": [
+      3429,
+      3430
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Scoresbysund'",
+    "start": 3433,
+    "end": 3455,
+    "range": [
+      3433,
+      3455
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3455,
+    "end": 3456,
+    "range": [
+      3455,
+      3456
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Sitka'",
+    "start": 3459,
+    "end": 3474,
+    "range": [
+      3459,
+      3474
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3474,
+    "end": 3475,
+    "range": [
+      3474,
+      3475
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/St_Johns'",
+    "start": 3478,
+    "end": 3496,
+    "range": [
+      3478,
+      3496
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3496,
+    "end": 3497,
+    "range": [
+      3496,
+      3497
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Swift_Current'",
+    "start": 3500,
+    "end": 3523,
+    "range": [
+      3500,
+      3523
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3523,
+    "end": 3524,
+    "range": [
+      3523,
+      3524
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Tegucigalpa'",
+    "start": 3527,
+    "end": 3548,
+    "range": [
+      3527,
+      3548
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3548,
+    "end": 3549,
+    "range": [
+      3548,
+      3549
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Thule'",
+    "start": 3552,
+    "end": 3567,
+    "range": [
+      3552,
+      3567
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3567,
+    "end": 3568,
+    "range": [
+      3567,
+      3568
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Tijuana'",
+    "start": 3571,
+    "end": 3588,
+    "range": [
+      3571,
+      3588
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3588,
+    "end": 3589,
+    "range": [
+      3588,
+      3589
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Toronto'",
+    "start": 3592,
+    "end": 3609,
+    "range": [
+      3592,
+      3609
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3609,
+    "end": 3610,
+    "range": [
+      3609,
+      3610
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Vancouver'",
+    "start": 3613,
+    "end": 3632,
+    "range": [
+      3613,
+      3632
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3632,
+    "end": 3633,
+    "range": [
+      3632,
+      3633
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Whitehorse'",
+    "start": 3636,
+    "end": 3656,
+    "range": [
+      3636,
+      3656
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3656,
+    "end": 3657,
+    "range": [
+      3656,
+      3657
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Winnipeg'",
+    "start": 3660,
+    "end": 3678,
+    "range": [
+      3660,
+      3678
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3678,
+    "end": 3679,
+    "range": [
+      3678,
+      3679
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Yakutat'",
+    "start": 3682,
+    "end": 3699,
+    "range": [
+      3682,
+      3699
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3699,
+    "end": 3700,
+    "range": [
+      3699,
+      3700
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Yellowknife'",
+    "start": 3703,
+    "end": 3724,
+    "range": [
+      3703,
+      3724
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3724,
+    "end": 3725,
+    "range": [
+      3724,
+      3725
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Casey'",
+    "start": 3728,
+    "end": 3746,
+    "range": [
+      3728,
+      3746
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3746,
+    "end": 3747,
+    "range": [
+      3746,
+      3747
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Davis'",
+    "start": 3750,
+    "end": 3768,
+    "range": [
+      3750,
+      3768
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3768,
+    "end": 3769,
+    "range": [
+      3768,
+      3769
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Macquarie'",
+    "start": 3772,
+    "end": 3794,
+    "range": [
+      3772,
+      3794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3794,
+    "end": 3795,
+    "range": [
+      3794,
+      3795
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Mawson'",
+    "start": 3798,
+    "end": 3817,
+    "range": [
+      3798,
+      3817
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3817,
+    "end": 3818,
+    "range": [
+      3817,
+      3818
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Palmer'",
+    "start": 3821,
+    "end": 3840,
+    "range": [
+      3821,
+      3840
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3840,
+    "end": 3841,
+    "range": [
+      3840,
+      3841
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Rothera'",
+    "start": 3844,
+    "end": 3864,
+    "range": [
+      3844,
+      3864
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3864,
+    "end": 3865,
+    "range": [
+      3864,
+      3865
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Troll'",
+    "start": 3868,
+    "end": 3886,
+    "range": [
+      3868,
+      3886
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3886,
+    "end": 3887,
+    "range": [
+      3886,
+      3887
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Almaty'",
+    "start": 3890,
+    "end": 3903,
+    "range": [
+      3890,
+      3903
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3903,
+    "end": 3904,
+    "range": [
+      3903,
+      3904
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Amman'",
+    "start": 3907,
+    "end": 3919,
+    "range": [
+      3907,
+      3919
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3919,
+    "end": 3920,
+    "range": [
+      3919,
+      3920
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Anadyr'",
+    "start": 3923,
+    "end": 3936,
+    "range": [
+      3923,
+      3936
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3936,
+    "end": 3937,
+    "range": [
+      3936,
+      3937
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Aqtau'",
+    "start": 3940,
+    "end": 3952,
+    "range": [
+      3940,
+      3952
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3952,
+    "end": 3953,
+    "range": [
+      3952,
+      3953
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Aqtobe'",
+    "start": 3956,
+    "end": 3969,
+    "range": [
+      3956,
+      3969
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3969,
+    "end": 3970,
+    "range": [
+      3969,
+      3970
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Ashgabat'",
+    "start": 3973,
+    "end": 3988,
+    "range": [
+      3973,
+      3988
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3988,
+    "end": 3989,
+    "range": [
+      3988,
+      3989
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Atyrau'",
+    "start": 3992,
+    "end": 4005,
+    "range": [
+      3992,
+      4005
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4005,
+    "end": 4006,
+    "range": [
+      4005,
+      4006
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Baghdad'",
+    "start": 4009,
+    "end": 4023,
+    "range": [
+      4009,
+      4023
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4023,
+    "end": 4024,
+    "range": [
+      4023,
+      4024
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Baku'",
+    "start": 4027,
+    "end": 4038,
+    "range": [
+      4027,
+      4038
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4038,
+    "end": 4039,
+    "range": [
+      4038,
+      4039
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Bangkok'",
+    "start": 4042,
+    "end": 4056,
+    "range": [
+      4042,
+      4056
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4056,
+    "end": 4057,
+    "range": [
+      4056,
+      4057
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Barnaul'",
+    "start": 4060,
+    "end": 4074,
+    "range": [
+      4060,
+      4074
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4074,
+    "end": 4075,
+    "range": [
+      4074,
+      4075
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Beirut'",
+    "start": 4078,
+    "end": 4091,
+    "range": [
+      4078,
+      4091
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4091,
+    "end": 4092,
+    "range": [
+      4091,
+      4092
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Bishkek'",
+    "start": 4095,
+    "end": 4109,
+    "range": [
+      4095,
+      4109
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4109,
+    "end": 4110,
+    "range": [
+      4109,
+      4110
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Chita'",
+    "start": 4113,
+    "end": 4125,
+    "range": [
+      4113,
+      4125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4125,
+    "end": 4126,
+    "range": [
+      4125,
+      4126
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Choibalsan'",
+    "start": 4129,
+    "end": 4146,
+    "range": [
+      4129,
+      4146
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4146,
+    "end": 4147,
+    "range": [
+      4146,
+      4147
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Colombo'",
+    "start": 4150,
+    "end": 4164,
+    "range": [
+      4150,
+      4164
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4164,
+    "end": 4165,
+    "range": [
+      4164,
+      4165
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Damascus'",
+    "start": 4168,
+    "end": 4183,
+    "range": [
+      4168,
+      4183
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4183,
+    "end": 4184,
+    "range": [
+      4183,
+      4184
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Dhaka'",
+    "start": 4187,
+    "end": 4199,
+    "range": [
+      4187,
+      4199
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4199,
+    "end": 4200,
+    "range": [
+      4199,
+      4200
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Dili'",
+    "start": 4203,
+    "end": 4214,
+    "range": [
+      4203,
+      4214
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4214,
+    "end": 4215,
+    "range": [
+      4214,
+      4215
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Dubai'",
+    "start": 4218,
+    "end": 4230,
+    "range": [
+      4218,
+      4230
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4230,
+    "end": 4231,
+    "range": [
+      4230,
+      4231
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Dushanbe'",
+    "start": 4234,
+    "end": 4249,
+    "range": [
+      4234,
+      4249
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4249,
+    "end": 4250,
+    "range": [
+      4249,
+      4250
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Famagusta'",
+    "start": 4253,
+    "end": 4269,
+    "range": [
+      4253,
+      4269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4269,
+    "end": 4270,
+    "range": [
+      4269,
+      4270
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Gaza'",
+    "start": 4273,
+    "end": 4284,
+    "range": [
+      4273,
+      4284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4284,
+    "end": 4285,
+    "range": [
+      4284,
+      4285
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Hebron'",
+    "start": 4288,
+    "end": 4301,
+    "range": [
+      4288,
+      4301
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4301,
+    "end": 4302,
+    "range": [
+      4301,
+      4302
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Ho_Chi_Minh'",
+    "start": 4305,
+    "end": 4323,
+    "range": [
+      4305,
+      4323
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4323,
+    "end": 4324,
+    "range": [
+      4323,
+      4324
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Hong_Kong'",
+    "start": 4327,
+    "end": 4343,
+    "range": [
+      4327,
+      4343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4343,
+    "end": 4344,
+    "range": [
+      4343,
+      4344
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Hovd'",
+    "start": 4347,
+    "end": 4358,
+    "range": [
+      4347,
+      4358
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4358,
+    "end": 4359,
+    "range": [
+      4358,
+      4359
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Irkutsk'",
+    "start": 4362,
+    "end": 4376,
+    "range": [
+      4362,
+      4376
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4376,
+    "end": 4377,
+    "range": [
+      4376,
+      4377
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Jakarta'",
+    "start": 4380,
+    "end": 4394,
+    "range": [
+      4380,
+      4394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4394,
+    "end": 4395,
+    "range": [
+      4394,
+      4395
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Jayapura'",
+    "start": 4398,
+    "end": 4413,
+    "range": [
+      4398,
+      4413
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4413,
+    "end": 4414,
+    "range": [
+      4413,
+      4414
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Jerusalem'",
+    "start": 4417,
+    "end": 4433,
+    "range": [
+      4417,
+      4433
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4433,
+    "end": 4434,
+    "range": [
+      4433,
+      4434
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kabul'",
+    "start": 4437,
+    "end": 4449,
+    "range": [
+      4437,
+      4449
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4449,
+    "end": 4450,
+    "range": [
+      4449,
+      4450
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kamchatka'",
+    "start": 4453,
+    "end": 4469,
+    "range": [
+      4453,
+      4469
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4469,
+    "end": 4470,
+    "range": [
+      4469,
+      4470
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Karachi'",
+    "start": 4473,
+    "end": 4487,
+    "range": [
+      4473,
+      4487
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4487,
+    "end": 4488,
+    "range": [
+      4487,
+      4488
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kathmandu'",
+    "start": 4491,
+    "end": 4507,
+    "range": [
+      4491,
+      4507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4507,
+    "end": 4508,
+    "range": [
+      4507,
+      4508
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Khandyga'",
+    "start": 4511,
+    "end": 4526,
+    "range": [
+      4511,
+      4526
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4526,
+    "end": 4527,
+    "range": [
+      4526,
+      4527
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kolkata'",
+    "start": 4530,
+    "end": 4544,
+    "range": [
+      4530,
+      4544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4544,
+    "end": 4545,
+    "range": [
+      4544,
+      4545
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Krasnoyarsk'",
+    "start": 4548,
+    "end": 4566,
+    "range": [
+      4548,
+      4566
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4566,
+    "end": 4567,
+    "range": [
+      4566,
+      4567
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kuching'",
+    "start": 4570,
+    "end": 4584,
+    "range": [
+      4570,
+      4584
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4584,
+    "end": 4585,
+    "range": [
+      4584,
+      4585
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Macau'",
+    "start": 4588,
+    "end": 4600,
+    "range": [
+      4588,
+      4600
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4600,
+    "end": 4601,
+    "range": [
+      4600,
+      4601
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Magadan'",
+    "start": 4604,
+    "end": 4618,
+    "range": [
+      4604,
+      4618
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4618,
+    "end": 4619,
+    "range": [
+      4618,
+      4619
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Makassar'",
+    "start": 4622,
+    "end": 4637,
+    "range": [
+      4622,
+      4637
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4637,
+    "end": 4638,
+    "range": [
+      4637,
+      4638
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Manila'",
+    "start": 4641,
+    "end": 4654,
+    "range": [
+      4641,
+      4654
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4654,
+    "end": 4655,
+    "range": [
+      4654,
+      4655
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Nicosia'",
+    "start": 4658,
+    "end": 4672,
+    "range": [
+      4658,
+      4672
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4672,
+    "end": 4673,
+    "range": [
+      4672,
+      4673
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Novokuznetsk'",
+    "start": 4676,
+    "end": 4695,
+    "range": [
+      4676,
+      4695
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4695,
+    "end": 4696,
+    "range": [
+      4695,
+      4696
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Novosibirsk'",
+    "start": 4699,
+    "end": 4717,
+    "range": [
+      4699,
+      4717
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4717,
+    "end": 4718,
+    "range": [
+      4717,
+      4718
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Omsk'",
+    "start": 4721,
+    "end": 4732,
+    "range": [
+      4721,
+      4732
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4732,
+    "end": 4733,
+    "range": [
+      4732,
+      4733
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Oral'",
+    "start": 4736,
+    "end": 4747,
+    "range": [
+      4736,
+      4747
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4747,
+    "end": 4748,
+    "range": [
+      4747,
+      4748
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Pontianak'",
+    "start": 4751,
+    "end": 4767,
+    "range": [
+      4751,
+      4767
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4767,
+    "end": 4768,
+    "range": [
+      4767,
+      4768
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Pyongyang'",
+    "start": 4771,
+    "end": 4787,
+    "range": [
+      4771,
+      4787
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4787,
+    "end": 4788,
+    "range": [
+      4787,
+      4788
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Qatar'",
+    "start": 4791,
+    "end": 4803,
+    "range": [
+      4791,
+      4803
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4803,
+    "end": 4804,
+    "range": [
+      4803,
+      4804
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Qostanay'",
+    "start": 4807,
+    "end": 4822,
+    "range": [
+      4807,
+      4822
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4822,
+    "end": 4823,
+    "range": [
+      4822,
+      4823
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Qyzylorda'",
+    "start": 4826,
+    "end": 4842,
+    "range": [
+      4826,
+      4842
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4842,
+    "end": 4843,
+    "range": [
+      4842,
+      4843
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Riyadh'",
+    "start": 4846,
+    "end": 4859,
+    "range": [
+      4846,
+      4859
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4859,
+    "end": 4860,
+    "range": [
+      4859,
+      4860
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Sakhalin'",
+    "start": 4863,
+    "end": 4878,
+    "range": [
+      4863,
+      4878
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4878,
+    "end": 4879,
+    "range": [
+      4878,
+      4879
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Samarkand'",
+    "start": 4882,
+    "end": 4898,
+    "range": [
+      4882,
+      4898
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4898,
+    "end": 4899,
+    "range": [
+      4898,
+      4899
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Seoul'",
+    "start": 4902,
+    "end": 4914,
+    "range": [
+      4902,
+      4914
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4914,
+    "end": 4915,
+    "range": [
+      4914,
+      4915
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Shanghai'",
+    "start": 4918,
+    "end": 4933,
+    "range": [
+      4918,
+      4933
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4933,
+    "end": 4934,
+    "range": [
+      4933,
+      4934
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Singapore'",
+    "start": 4937,
+    "end": 4953,
+    "range": [
+      4937,
+      4953
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4953,
+    "end": 4954,
+    "range": [
+      4953,
+      4954
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Srednekolymsk'",
+    "start": 4957,
+    "end": 4977,
+    "range": [
+      4957,
+      4977
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4977,
+    "end": 4978,
+    "range": [
+      4977,
+      4978
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Taipei'",
+    "start": 4981,
+    "end": 4994,
+    "range": [
+      4981,
+      4994
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4994,
+    "end": 4995,
+    "range": [
+      4994,
+      4995
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Tashkent'",
+    "start": 4998,
+    "end": 5013,
+    "range": [
+      4998,
+      5013
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5013,
+    "end": 5014,
+    "range": [
+      5013,
+      5014
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Tbilisi'",
+    "start": 5017,
+    "end": 5031,
+    "range": [
+      5017,
+      5031
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5031,
+    "end": 5032,
+    "range": [
+      5031,
+      5032
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Tehran'",
+    "start": 5035,
+    "end": 5048,
+    "range": [
+      5035,
+      5048
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5048,
+    "end": 5049,
+    "range": [
+      5048,
+      5049
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Thimphu'",
+    "start": 5052,
+    "end": 5066,
+    "range": [
+      5052,
+      5066
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5066,
+    "end": 5067,
+    "range": [
+      5066,
+      5067
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Tokyo'",
+    "start": 5070,
+    "end": 5082,
+    "range": [
+      5070,
+      5082
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5082,
+    "end": 5083,
+    "range": [
+      5082,
+      5083
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Tomsk'",
+    "start": 5086,
+    "end": 5098,
+    "range": [
+      5086,
+      5098
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5098,
+    "end": 5099,
+    "range": [
+      5098,
+      5099
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Ulaanbaatar'",
+    "start": 5102,
+    "end": 5120,
+    "range": [
+      5102,
+      5120
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5120,
+    "end": 5121,
+    "range": [
+      5120,
+      5121
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Urumqi'",
+    "start": 5124,
+    "end": 5137,
+    "range": [
+      5124,
+      5137
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5137,
+    "end": 5138,
+    "range": [
+      5137,
+      5138
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Ust-Nera'",
+    "start": 5141,
+    "end": 5156,
+    "range": [
+      5141,
+      5156
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5156,
+    "end": 5157,
+    "range": [
+      5156,
+      5157
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Vladivostok'",
+    "start": 5160,
+    "end": 5178,
+    "range": [
+      5160,
+      5178
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5178,
+    "end": 5179,
+    "range": [
+      5178,
+      5179
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Yakutsk'",
+    "start": 5182,
+    "end": 5196,
+    "range": [
+      5182,
+      5196
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5196,
+    "end": 5197,
+    "range": [
+      5196,
+      5197
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Yangon'",
+    "start": 5200,
+    "end": 5213,
+    "range": [
+      5200,
+      5213
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5213,
+    "end": 5214,
+    "range": [
+      5213,
+      5214
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Yekaterinburg'",
+    "start": 5217,
+    "end": 5237,
+    "range": [
+      5217,
+      5237
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5237,
+    "end": 5238,
+    "range": [
+      5237,
+      5238
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Yerevan'",
+    "start": 5241,
+    "end": 5255,
+    "range": [
+      5241,
+      5255
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5255,
+    "end": 5256,
+    "range": [
+      5255,
+      5256
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Azores'",
+    "start": 5259,
+    "end": 5276,
+    "range": [
+      5259,
+      5276
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5276,
+    "end": 5277,
+    "range": [
+      5276,
+      5277
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Bermuda'",
+    "start": 5280,
+    "end": 5298,
+    "range": [
+      5280,
+      5298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5298,
+    "end": 5299,
+    "range": [
+      5298,
+      5299
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Canary'",
+    "start": 5302,
+    "end": 5319,
+    "range": [
+      5302,
+      5319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5319,
+    "end": 5320,
+    "range": [
+      5319,
+      5320
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Cape_Verde'",
+    "start": 5323,
+    "end": 5344,
+    "range": [
+      5323,
+      5344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5344,
+    "end": 5345,
+    "range": [
+      5344,
+      5345
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Faroe'",
+    "start": 5348,
+    "end": 5364,
+    "range": [
+      5348,
+      5364
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5364,
+    "end": 5365,
+    "range": [
+      5364,
+      5365
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Madeira'",
+    "start": 5368,
+    "end": 5386,
+    "range": [
+      5368,
+      5386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5386,
+    "end": 5387,
+    "range": [
+      5386,
+      5387
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/South_Georgia'",
+    "start": 5390,
+    "end": 5414,
+    "range": [
+      5390,
+      5414
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5414,
+    "end": 5415,
+    "range": [
+      5414,
+      5415
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Stanley'",
+    "start": 5418,
+    "end": 5436,
+    "range": [
+      5418,
+      5436
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5436,
+    "end": 5437,
+    "range": [
+      5436,
+      5437
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Adelaide'",
+    "start": 5440,
+    "end": 5460,
+    "range": [
+      5440,
+      5460
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5460,
+    "end": 5461,
+    "range": [
+      5460,
+      5461
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Brisbane'",
+    "start": 5464,
+    "end": 5484,
+    "range": [
+      5464,
+      5484
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5484,
+    "end": 5485,
+    "range": [
+      5484,
+      5485
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Broken_Hill'",
+    "start": 5488,
+    "end": 5511,
+    "range": [
+      5488,
+      5511
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5511,
+    "end": 5512,
+    "range": [
+      5511,
+      5512
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Darwin'",
+    "start": 5515,
+    "end": 5533,
+    "range": [
+      5515,
+      5533
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5533,
+    "end": 5534,
+    "range": [
+      5533,
+      5534
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Eucla'",
+    "start": 5537,
+    "end": 5554,
+    "range": [
+      5537,
+      5554
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5554,
+    "end": 5555,
+    "range": [
+      5554,
+      5555
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Hobart'",
+    "start": 5558,
+    "end": 5576,
+    "range": [
+      5558,
+      5576
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5576,
+    "end": 5577,
+    "range": [
+      5576,
+      5577
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Lindeman'",
+    "start": 5580,
+    "end": 5600,
+    "range": [
+      5580,
+      5600
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5600,
+    "end": 5601,
+    "range": [
+      5600,
+      5601
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Lord_Howe'",
+    "start": 5604,
+    "end": 5625,
+    "range": [
+      5604,
+      5625
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5625,
+    "end": 5626,
+    "range": [
+      5625,
+      5626
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Melbourne'",
+    "start": 5629,
+    "end": 5650,
+    "range": [
+      5629,
+      5650
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5650,
+    "end": 5651,
+    "range": [
+      5650,
+      5651
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Perth'",
+    "start": 5654,
+    "end": 5671,
+    "range": [
+      5654,
+      5671
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5671,
+    "end": 5672,
+    "range": [
+      5671,
+      5672
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Sydney'",
+    "start": 5675,
+    "end": 5693,
+    "range": [
+      5675,
+      5693
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5693,
+    "end": 5694,
+    "range": [
+      5693,
+      5694
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'CET'",
+    "start": 5697,
+    "end": 5702,
+    "range": [
+      5697,
+      5702
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5702,
+    "end": 5703,
+    "range": [
+      5702,
+      5703
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'CST6CDT'",
+    "start": 5706,
+    "end": 5715,
+    "range": [
+      5706,
+      5715
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5715,
+    "end": 5716,
+    "range": [
+      5715,
+      5716
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'EET'",
+    "start": 5719,
+    "end": 5724,
+    "range": [
+      5719,
+      5724
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5724,
+    "end": 5725,
+    "range": [
+      5724,
+      5725
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'EST'",
+    "start": 5728,
+    "end": 5733,
+    "range": [
+      5728,
+      5733
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5733,
+    "end": 5734,
+    "range": [
+      5733,
+      5734
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'EST5EDT'",
+    "start": 5737,
+    "end": 5746,
+    "range": [
+      5737,
+      5746
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5746,
+    "end": 5747,
+    "range": [
+      5746,
+      5747
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT'",
+    "start": 5750,
+    "end": 5759,
+    "range": [
+      5750,
+      5759
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5759,
+    "end": 5760,
+    "range": [
+      5759,
+      5760
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+1'",
+    "start": 5763,
+    "end": 5774,
+    "range": [
+      5763,
+      5774
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5774,
+    "end": 5775,
+    "range": [
+      5774,
+      5775
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+10'",
+    "start": 5778,
+    "end": 5790,
+    "range": [
+      5778,
+      5790
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5790,
+    "end": 5791,
+    "range": [
+      5790,
+      5791
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+11'",
+    "start": 5794,
+    "end": 5806,
+    "range": [
+      5794,
+      5806
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5806,
+    "end": 5807,
+    "range": [
+      5806,
+      5807
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+12'",
+    "start": 5810,
+    "end": 5822,
+    "range": [
+      5810,
+      5822
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5822,
+    "end": 5823,
+    "range": [
+      5822,
+      5823
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+2'",
+    "start": 5826,
+    "end": 5837,
+    "range": [
+      5826,
+      5837
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5837,
+    "end": 5838,
+    "range": [
+      5837,
+      5838
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+3'",
+    "start": 5841,
+    "end": 5852,
+    "range": [
+      5841,
+      5852
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5852,
+    "end": 5853,
+    "range": [
+      5852,
+      5853
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+4'",
+    "start": 5856,
+    "end": 5867,
+    "range": [
+      5856,
+      5867
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5867,
+    "end": 5868,
+    "range": [
+      5867,
+      5868
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+5'",
+    "start": 5871,
+    "end": 5882,
+    "range": [
+      5871,
+      5882
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5882,
+    "end": 5883,
+    "range": [
+      5882,
+      5883
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+6'",
+    "start": 5886,
+    "end": 5897,
+    "range": [
+      5886,
+      5897
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5897,
+    "end": 5898,
+    "range": [
+      5897,
+      5898
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+7'",
+    "start": 5901,
+    "end": 5912,
+    "range": [
+      5901,
+      5912
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5912,
+    "end": 5913,
+    "range": [
+      5912,
+      5913
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+8'",
+    "start": 5916,
+    "end": 5927,
+    "range": [
+      5916,
+      5927
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5927,
+    "end": 5928,
+    "range": [
+      5927,
+      5928
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+9'",
+    "start": 5931,
+    "end": 5942,
+    "range": [
+      5931,
+      5942
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5942,
+    "end": 5943,
+    "range": [
+      5942,
+      5943
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-1'",
+    "start": 5946,
+    "end": 5957,
+    "range": [
+      5946,
+      5957
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5957,
+    "end": 5958,
+    "range": [
+      5957,
+      5958
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-10'",
+    "start": 5961,
+    "end": 5973,
+    "range": [
+      5961,
+      5973
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5973,
+    "end": 5974,
+    "range": [
+      5973,
+      5974
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-11'",
+    "start": 5977,
+    "end": 5989,
+    "range": [
+      5977,
+      5989
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5989,
+    "end": 5990,
+    "range": [
+      5989,
+      5990
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-12'",
+    "start": 5993,
+    "end": 6005,
+    "range": [
+      5993,
+      6005
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6005,
+    "end": 6006,
+    "range": [
+      6005,
+      6006
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-13'",
+    "start": 6009,
+    "end": 6021,
+    "range": [
+      6009,
+      6021
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6021,
+    "end": 6022,
+    "range": [
+      6021,
+      6022
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-14'",
+    "start": 6025,
+    "end": 6037,
+    "range": [
+      6025,
+      6037
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6037,
+    "end": 6038,
+    "range": [
+      6037,
+      6038
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-2'",
+    "start": 6041,
+    "end": 6052,
+    "range": [
+      6041,
+      6052
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6052,
+    "end": 6053,
+    "range": [
+      6052,
+      6053
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-3'",
+    "start": 6056,
+    "end": 6067,
+    "range": [
+      6056,
+      6067
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6067,
+    "end": 6068,
+    "range": [
+      6067,
+      6068
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-4'",
+    "start": 6071,
+    "end": 6082,
+    "range": [
+      6071,
+      6082
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6082,
+    "end": 6083,
+    "range": [
+      6082,
+      6083
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-5'",
+    "start": 6086,
+    "end": 6097,
+    "range": [
+      6086,
+      6097
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6097,
+    "end": 6098,
+    "range": [
+      6097,
+      6098
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-6'",
+    "start": 6101,
+    "end": 6112,
+    "range": [
+      6101,
+      6112
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6112,
+    "end": 6113,
+    "range": [
+      6112,
+      6113
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-7'",
+    "start": 6116,
+    "end": 6127,
+    "range": [
+      6116,
+      6127
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6127,
+    "end": 6128,
+    "range": [
+      6127,
+      6128
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-8'",
+    "start": 6131,
+    "end": 6142,
+    "range": [
+      6131,
+      6142
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6142,
+    "end": 6143,
+    "range": [
+      6142,
+      6143
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-9'",
+    "start": 6146,
+    "end": 6157,
+    "range": [
+      6146,
+      6157
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6157,
+    "end": 6158,
+    "range": [
+      6157,
+      6158
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/UTC'",
+    "start": 6161,
+    "end": 6170,
+    "range": [
+      6161,
+      6170
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6170,
+    "end": 6171,
+    "range": [
+      6170,
+      6171
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Andorra'",
+    "start": 6174,
+    "end": 6190,
+    "range": [
+      6174,
+      6190
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6190,
+    "end": 6191,
+    "range": [
+      6190,
+      6191
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Astrakhan'",
+    "start": 6194,
+    "end": 6212,
+    "range": [
+      6194,
+      6212
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6212,
+    "end": 6213,
+    "range": [
+      6212,
+      6213
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Athens'",
+    "start": 6216,
+    "end": 6231,
+    "range": [
+      6216,
+      6231
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6231,
+    "end": 6232,
+    "range": [
+      6231,
+      6232
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Belgrade'",
+    "start": 6235,
+    "end": 6252,
+    "range": [
+      6235,
+      6252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6252,
+    "end": 6253,
+    "range": [
+      6252,
+      6253
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Berlin'",
+    "start": 6256,
+    "end": 6271,
+    "range": [
+      6256,
+      6271
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6271,
+    "end": 6272,
+    "range": [
+      6271,
+      6272
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Brussels'",
+    "start": 6275,
+    "end": 6292,
+    "range": [
+      6275,
+      6292
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6292,
+    "end": 6293,
+    "range": [
+      6292,
+      6293
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Bucharest'",
+    "start": 6296,
+    "end": 6314,
+    "range": [
+      6296,
+      6314
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6314,
+    "end": 6315,
+    "range": [
+      6314,
+      6315
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Budapest'",
+    "start": 6318,
+    "end": 6335,
+    "range": [
+      6318,
+      6335
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6335,
+    "end": 6336,
+    "range": [
+      6335,
+      6336
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Chisinau'",
+    "start": 6339,
+    "end": 6356,
+    "range": [
+      6339,
+      6356
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6356,
+    "end": 6357,
+    "range": [
+      6356,
+      6357
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Dublin'",
+    "start": 6360,
+    "end": 6375,
+    "range": [
+      6360,
+      6375
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6375,
+    "end": 6376,
+    "range": [
+      6375,
+      6376
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Gibraltar'",
+    "start": 6379,
+    "end": 6397,
+    "range": [
+      6379,
+      6397
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6397,
+    "end": 6398,
+    "range": [
+      6397,
+      6398
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Helsinki'",
+    "start": 6401,
+    "end": 6418,
+    "range": [
+      6401,
+      6418
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6418,
+    "end": 6419,
+    "range": [
+      6418,
+      6419
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Istanbul'",
+    "start": 6422,
+    "end": 6439,
+    "range": [
+      6422,
+      6439
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6439,
+    "end": 6440,
+    "range": [
+      6439,
+      6440
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Kaliningrad'",
+    "start": 6443,
+    "end": 6463,
+    "range": [
+      6443,
+      6463
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6463,
+    "end": 6464,
+    "range": [
+      6463,
+      6464
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Kirov'",
+    "start": 6467,
+    "end": 6481,
+    "range": [
+      6467,
+      6481
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6481,
+    "end": 6482,
+    "range": [
+      6481,
+      6482
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Kyiv'",
+    "start": 6485,
+    "end": 6498,
+    "range": [
+      6485,
+      6498
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6498,
+    "end": 6499,
+    "range": [
+      6498,
+      6499
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Lisbon'",
+    "start": 6502,
+    "end": 6517,
+    "range": [
+      6502,
+      6517
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6517,
+    "end": 6518,
+    "range": [
+      6517,
+      6518
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/London'",
+    "start": 6521,
+    "end": 6536,
+    "range": [
+      6521,
+      6536
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6536,
+    "end": 6537,
+    "range": [
+      6536,
+      6537
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Madrid'",
+    "start": 6540,
+    "end": 6555,
+    "range": [
+      6540,
+      6555
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6555,
+    "end": 6556,
+    "range": [
+      6555,
+      6556
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Malta'",
+    "start": 6559,
+    "end": 6573,
+    "range": [
+      6559,
+      6573
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6573,
+    "end": 6574,
+    "range": [
+      6573,
+      6574
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Minsk'",
+    "start": 6577,
+    "end": 6591,
+    "range": [
+      6577,
+      6591
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6591,
+    "end": 6592,
+    "range": [
+      6591,
+      6592
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Moscow'",
+    "start": 6595,
+    "end": 6610,
+    "range": [
+      6595,
+      6610
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6610,
+    "end": 6611,
+    "range": [
+      6610,
+      6611
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Paris'",
+    "start": 6614,
+    "end": 6628,
+    "range": [
+      6614,
+      6628
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6628,
+    "end": 6629,
+    "range": [
+      6628,
+      6629
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Prague'",
+    "start": 6632,
+    "end": 6647,
+    "range": [
+      6632,
+      6647
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6647,
+    "end": 6648,
+    "range": [
+      6647,
+      6648
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Riga'",
+    "start": 6651,
+    "end": 6664,
+    "range": [
+      6651,
+      6664
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6664,
+    "end": 6665,
+    "range": [
+      6664,
+      6665
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Rome'",
+    "start": 6668,
+    "end": 6681,
+    "range": [
+      6668,
+      6681
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6681,
+    "end": 6682,
+    "range": [
+      6681,
+      6682
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Samara'",
+    "start": 6685,
+    "end": 6700,
+    "range": [
+      6685,
+      6700
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6700,
+    "end": 6701,
+    "range": [
+      6700,
+      6701
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Saratov'",
+    "start": 6704,
+    "end": 6720,
+    "range": [
+      6704,
+      6720
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6720,
+    "end": 6721,
+    "range": [
+      6720,
+      6721
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Simferopol'",
+    "start": 6724,
+    "end": 6743,
+    "range": [
+      6724,
+      6743
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6743,
+    "end": 6744,
+    "range": [
+      6743,
+      6744
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Sofia'",
+    "start": 6747,
+    "end": 6761,
+    "range": [
+      6747,
+      6761
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6761,
+    "end": 6762,
+    "range": [
+      6761,
+      6762
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Tallinn'",
+    "start": 6765,
+    "end": 6781,
+    "range": [
+      6765,
+      6781
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6781,
+    "end": 6782,
+    "range": [
+      6781,
+      6782
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Tirane'",
+    "start": 6785,
+    "end": 6800,
+    "range": [
+      6785,
+      6800
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6800,
+    "end": 6801,
+    "range": [
+      6800,
+      6801
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Ulyanovsk'",
+    "start": 6804,
+    "end": 6822,
+    "range": [
+      6804,
+      6822
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6822,
+    "end": 6823,
+    "range": [
+      6822,
+      6823
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Vienna'",
+    "start": 6826,
+    "end": 6841,
+    "range": [
+      6826,
+      6841
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6841,
+    "end": 6842,
+    "range": [
+      6841,
+      6842
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Vilnius'",
+    "start": 6845,
+    "end": 6861,
+    "range": [
+      6845,
+      6861
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6861,
+    "end": 6862,
+    "range": [
+      6861,
+      6862
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Volgograd'",
+    "start": 6865,
+    "end": 6883,
+    "range": [
+      6865,
+      6883
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6883,
+    "end": 6884,
+    "range": [
+      6883,
+      6884
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Warsaw'",
+    "start": 6887,
+    "end": 6902,
+    "range": [
+      6887,
+      6902
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6902,
+    "end": 6903,
+    "range": [
+      6902,
+      6903
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Zurich'",
+    "start": 6906,
+    "end": 6921,
+    "range": [
+      6906,
+      6921
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6921,
+    "end": 6922,
+    "range": [
+      6921,
+      6922
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'HST'",
+    "start": 6925,
+    "end": 6930,
+    "range": [
+      6925,
+      6930
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6930,
+    "end": 6931,
+    "range": [
+      6930,
+      6931
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Chagos'",
+    "start": 6934,
+    "end": 6949,
+    "range": [
+      6934,
+      6949
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6949,
+    "end": 6950,
+    "range": [
+      6949,
+      6950
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Maldives'",
+    "start": 6953,
+    "end": 6970,
+    "range": [
+      6953,
+      6970
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6970,
+    "end": 6971,
+    "range": [
+      6970,
+      6971
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Mauritius'",
+    "start": 6974,
+    "end": 6992,
+    "range": [
+      6974,
+      6992
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6992,
+    "end": 6993,
+    "range": [
+      6992,
+      6993
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'MET'",
+    "start": 6996,
+    "end": 7001,
+    "range": [
+      6996,
+      7001
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7001,
+    "end": 7002,
+    "range": [
+      7001,
+      7002
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'MST'",
+    "start": 7005,
+    "end": 7010,
+    "range": [
+      7005,
+      7010
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7010,
+    "end": 7011,
+    "range": [
+      7010,
+      7011
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'MST7MDT'",
+    "start": 7014,
+    "end": 7023,
+    "range": [
+      7014,
+      7023
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7023,
+    "end": 7024,
+    "range": [
+      7023,
+      7024
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'PST8PDT'",
+    "start": 7027,
+    "end": 7036,
+    "range": [
+      7027,
+      7036
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7036,
+    "end": 7037,
+    "range": [
+      7036,
+      7037
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Apia'",
+    "start": 7040,
+    "end": 7054,
+    "range": [
+      7040,
+      7054
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7054,
+    "end": 7055,
+    "range": [
+      7054,
+      7055
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Auckland'",
+    "start": 7058,
+    "end": 7076,
+    "range": [
+      7058,
+      7076
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7076,
+    "end": 7077,
+    "range": [
+      7076,
+      7077
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Bougainville'",
+    "start": 7080,
+    "end": 7102,
+    "range": [
+      7080,
+      7102
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7102,
+    "end": 7103,
+    "range": [
+      7102,
+      7103
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Chatham'",
+    "start": 7106,
+    "end": 7123,
+    "range": [
+      7106,
+      7123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7123,
+    "end": 7124,
+    "range": [
+      7123,
+      7124
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Easter'",
+    "start": 7127,
+    "end": 7143,
+    "range": [
+      7127,
+      7143
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7143,
+    "end": 7144,
+    "range": [
+      7143,
+      7144
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Efate'",
+    "start": 7147,
+    "end": 7162,
+    "range": [
+      7147,
+      7162
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7162,
+    "end": 7163,
+    "range": [
+      7162,
+      7163
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Fakaofo'",
+    "start": 7166,
+    "end": 7183,
+    "range": [
+      7166,
+      7183
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7183,
+    "end": 7184,
+    "range": [
+      7183,
+      7184
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Fiji'",
+    "start": 7187,
+    "end": 7201,
+    "range": [
+      7187,
+      7201
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7201,
+    "end": 7202,
+    "range": [
+      7201,
+      7202
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Galapagos'",
+    "start": 7205,
+    "end": 7224,
+    "range": [
+      7205,
+      7224
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7224,
+    "end": 7225,
+    "range": [
+      7224,
+      7225
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Gambier'",
+    "start": 7228,
+    "end": 7245,
+    "range": [
+      7228,
+      7245
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7245,
+    "end": 7246,
+    "range": [
+      7245,
+      7246
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Guadalcanal'",
+    "start": 7249,
+    "end": 7270,
+    "range": [
+      7249,
+      7270
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7270,
+    "end": 7271,
+    "range": [
+      7270,
+      7271
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Guam'",
+    "start": 7274,
+    "end": 7288,
+    "range": [
+      7274,
+      7288
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7288,
+    "end": 7289,
+    "range": [
+      7288,
+      7289
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Honolulu'",
+    "start": 7292,
+    "end": 7310,
+    "range": [
+      7292,
+      7310
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7310,
+    "end": 7311,
+    "range": [
+      7310,
+      7311
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Kanton'",
+    "start": 7314,
+    "end": 7330,
+    "range": [
+      7314,
+      7330
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7330,
+    "end": 7331,
+    "range": [
+      7330,
+      7331
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Kiritimati'",
+    "start": 7334,
+    "end": 7354,
+    "range": [
+      7334,
+      7354
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7354,
+    "end": 7355,
+    "range": [
+      7354,
+      7355
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Kosrae'",
+    "start": 7358,
+    "end": 7374,
+    "range": [
+      7358,
+      7374
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7374,
+    "end": 7375,
+    "range": [
+      7374,
+      7375
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Kwajalein'",
+    "start": 7378,
+    "end": 7397,
+    "range": [
+      7378,
+      7397
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7397,
+    "end": 7398,
+    "range": [
+      7397,
+      7398
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Marquesas'",
+    "start": 7401,
+    "end": 7420,
+    "range": [
+      7401,
+      7420
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7420,
+    "end": 7421,
+    "range": [
+      7420,
+      7421
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Nauru'",
+    "start": 7424,
+    "end": 7439,
+    "range": [
+      7424,
+      7439
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7439,
+    "end": 7440,
+    "range": [
+      7439,
+      7440
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Niue'",
+    "start": 7443,
+    "end": 7457,
+    "range": [
+      7443,
+      7457
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7457,
+    "end": 7458,
+    "range": [
+      7457,
+      7458
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Norfolk'",
+    "start": 7461,
+    "end": 7478,
+    "range": [
+      7461,
+      7478
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7478,
+    "end": 7479,
+    "range": [
+      7478,
+      7479
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Noumea'",
+    "start": 7482,
+    "end": 7498,
+    "range": [
+      7482,
+      7498
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7498,
+    "end": 7499,
+    "range": [
+      7498,
+      7499
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Pago_Pago'",
+    "start": 7502,
+    "end": 7521,
+    "range": [
+      7502,
+      7521
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7521,
+    "end": 7522,
+    "range": [
+      7521,
+      7522
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Palau'",
+    "start": 7525,
+    "end": 7540,
+    "range": [
+      7525,
+      7540
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7540,
+    "end": 7541,
+    "range": [
+      7540,
+      7541
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Pitcairn'",
+    "start": 7544,
+    "end": 7562,
+    "range": [
+      7544,
+      7562
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7562,
+    "end": 7563,
+    "range": [
+      7562,
+      7563
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Port_Moresby'",
+    "start": 7566,
+    "end": 7588,
+    "range": [
+      7566,
+      7588
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7588,
+    "end": 7589,
+    "range": [
+      7588,
+      7589
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Rarotonga'",
+    "start": 7592,
+    "end": 7611,
+    "range": [
+      7592,
+      7611
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7611,
+    "end": 7612,
+    "range": [
+      7611,
+      7612
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Tahiti'",
+    "start": 7615,
+    "end": 7631,
+    "range": [
+      7615,
+      7631
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7631,
+    "end": 7632,
+    "range": [
+      7631,
+      7632
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Tarawa'",
+    "start": 7635,
+    "end": 7651,
+    "range": [
+      7635,
+      7651
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7651,
+    "end": 7652,
+    "range": [
+      7651,
+      7652
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Tongatapu'",
+    "start": 7655,
+    "end": 7674,
+    "range": [
+      7655,
+      7674
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7674,
+    "end": 7675,
+    "range": [
+      7674,
+      7675
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'WET'",
+    "start": 7705,
+    "end": 7710,
+    "range": [
+      7705,
+      7710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7710,
+    "end": 7711,
+    "range": [
+      7710,
+      7711
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Accra'",
+    "start": 7714,
+    "end": 7728,
+    "range": [
+      7714,
+      7728
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7728,
+    "end": 7729,
+    "range": [
+      7728,
+      7729
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Addis_Ababa'",
+    "start": 7732,
+    "end": 7752,
+    "range": [
+      7732,
+      7752
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7752,
+    "end": 7753,
+    "range": [
+      7752,
+      7753
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Asmara'",
+    "start": 7756,
+    "end": 7771,
+    "range": [
+      7756,
+      7771
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7771,
+    "end": 7772,
+    "range": [
+      7771,
+      7772
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Asmera'",
+    "start": 7775,
+    "end": 7790,
+    "range": [
+      7775,
+      7790
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7790,
+    "end": 7791,
+    "range": [
+      7790,
+      7791
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Bamako'",
+    "start": 7794,
+    "end": 7809,
+    "range": [
+      7794,
+      7809
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7809,
+    "end": 7810,
+    "range": [
+      7809,
+      7810
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Bangui'",
+    "start": 7813,
+    "end": 7828,
+    "range": [
+      7813,
+      7828
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7828,
+    "end": 7829,
+    "range": [
+      7828,
+      7829
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Banjul'",
+    "start": 7832,
+    "end": 7847,
+    "range": [
+      7832,
+      7847
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7847,
+    "end": 7848,
+    "range": [
+      7847,
+      7848
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Blantyre'",
+    "start": 7851,
+    "end": 7868,
+    "range": [
+      7851,
+      7868
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7868,
+    "end": 7869,
+    "range": [
+      7868,
+      7869
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Brazzaville'",
+    "start": 7872,
+    "end": 7892,
+    "range": [
+      7872,
+      7892
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7892,
+    "end": 7893,
+    "range": [
+      7892,
+      7893
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Bujumbura'",
+    "start": 7896,
+    "end": 7914,
+    "range": [
+      7896,
+      7914
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7914,
+    "end": 7915,
+    "range": [
+      7914,
+      7915
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Conakry'",
+    "start": 7918,
+    "end": 7934,
+    "range": [
+      7918,
+      7934
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7934,
+    "end": 7935,
+    "range": [
+      7934,
+      7935
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Dakar'",
+    "start": 7938,
+    "end": 7952,
+    "range": [
+      7938,
+      7952
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7952,
+    "end": 7953,
+    "range": [
+      7952,
+      7953
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Dar_es_Salaam'",
+    "start": 7956,
+    "end": 7978,
+    "range": [
+      7956,
+      7978
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7978,
+    "end": 7979,
+    "range": [
+      7978,
+      7979
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Djibouti'",
+    "start": 7982,
+    "end": 7999,
+    "range": [
+      7982,
+      7999
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7999,
+    "end": 8000,
+    "range": [
+      7999,
+      8000
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Douala'",
+    "start": 8003,
+    "end": 8018,
+    "range": [
+      8003,
+      8018
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8018,
+    "end": 8019,
+    "range": [
+      8018,
+      8019
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Freetown'",
+    "start": 8022,
+    "end": 8039,
+    "range": [
+      8022,
+      8039
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8039,
+    "end": 8040,
+    "range": [
+      8039,
+      8040
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Gaborone'",
+    "start": 8043,
+    "end": 8060,
+    "range": [
+      8043,
+      8060
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8060,
+    "end": 8061,
+    "range": [
+      8060,
+      8061
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Harare'",
+    "start": 8064,
+    "end": 8079,
+    "range": [
+      8064,
+      8079
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8079,
+    "end": 8080,
+    "range": [
+      8079,
+      8080
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Kampala'",
+    "start": 8083,
+    "end": 8099,
+    "range": [
+      8083,
+      8099
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8099,
+    "end": 8100,
+    "range": [
+      8099,
+      8100
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Kigali'",
+    "start": 8103,
+    "end": 8118,
+    "range": [
+      8103,
+      8118
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8118,
+    "end": 8119,
+    "range": [
+      8118,
+      8119
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Kinshasa'",
+    "start": 8122,
+    "end": 8139,
+    "range": [
+      8122,
+      8139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8139,
+    "end": 8140,
+    "range": [
+      8139,
+      8140
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Libreville'",
+    "start": 8143,
+    "end": 8162,
+    "range": [
+      8143,
+      8162
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8162,
+    "end": 8163,
+    "range": [
+      8162,
+      8163
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Lome'",
+    "start": 8166,
+    "end": 8179,
+    "range": [
+      8166,
+      8179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8179,
+    "end": 8180,
+    "range": [
+      8179,
+      8180
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Luanda'",
+    "start": 8183,
+    "end": 8198,
+    "range": [
+      8183,
+      8198
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8198,
+    "end": 8199,
+    "range": [
+      8198,
+      8199
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Lubumbashi'",
+    "start": 8202,
+    "end": 8221,
+    "range": [
+      8202,
+      8221
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8221,
+    "end": 8222,
+    "range": [
+      8221,
+      8222
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Lusaka'",
+    "start": 8225,
+    "end": 8240,
+    "range": [
+      8225,
+      8240
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8240,
+    "end": 8241,
+    "range": [
+      8240,
+      8241
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Malabo'",
+    "start": 8244,
+    "end": 8259,
+    "range": [
+      8244,
+      8259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8259,
+    "end": 8260,
+    "range": [
+      8259,
+      8260
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Maseru'",
+    "start": 8263,
+    "end": 8278,
+    "range": [
+      8263,
+      8278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8278,
+    "end": 8279,
+    "range": [
+      8278,
+      8279
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Mbabane'",
+    "start": 8282,
+    "end": 8298,
+    "range": [
+      8282,
+      8298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8298,
+    "end": 8299,
+    "range": [
+      8298,
+      8299
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Mogadishu'",
+    "start": 8302,
+    "end": 8320,
+    "range": [
+      8302,
+      8320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8320,
+    "end": 8321,
+    "range": [
+      8320,
+      8321
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Niamey'",
+    "start": 8324,
+    "end": 8339,
+    "range": [
+      8324,
+      8339
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8339,
+    "end": 8340,
+    "range": [
+      8339,
+      8340
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Nouakchott'",
+    "start": 8343,
+    "end": 8362,
+    "range": [
+      8343,
+      8362
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8362,
+    "end": 8363,
+    "range": [
+      8362,
+      8363
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Ouagadougou'",
+    "start": 8366,
+    "end": 8386,
+    "range": [
+      8366,
+      8386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8386,
+    "end": 8387,
+    "range": [
+      8386,
+      8387
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Porto-Novo'",
+    "start": 8390,
+    "end": 8409,
+    "range": [
+      8390,
+      8409
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8409,
+    "end": 8410,
+    "range": [
+      8409,
+      8410
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Africa/Timbuktu'",
+    "start": 8413,
+    "end": 8430,
+    "range": [
+      8413,
+      8430
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8430,
+    "end": 8431,
+    "range": [
+      8430,
+      8431
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Anguilla'",
+    "start": 8434,
+    "end": 8452,
+    "range": [
+      8434,
+      8452
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8452,
+    "end": 8453,
+    "range": [
+      8452,
+      8453
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Antigua'",
+    "start": 8456,
+    "end": 8473,
+    "range": [
+      8456,
+      8473
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8473,
+    "end": 8474,
+    "range": [
+      8473,
+      8474
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Argentina/ComodRivadavia'",
+    "start": 8477,
+    "end": 8511,
+    "range": [
+      8477,
+      8511
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8511,
+    "end": 8512,
+    "range": [
+      8511,
+      8512
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Aruba'",
+    "start": 8515,
+    "end": 8530,
+    "range": [
+      8515,
+      8530
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8530,
+    "end": 8531,
+    "range": [
+      8530,
+      8531
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Atikokan'",
+    "start": 8534,
+    "end": 8552,
+    "range": [
+      8534,
+      8552
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8552,
+    "end": 8553,
+    "range": [
+      8552,
+      8553
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Atka'",
+    "start": 8556,
+    "end": 8570,
+    "range": [
+      8556,
+      8570
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8570,
+    "end": 8571,
+    "range": [
+      8570,
+      8571
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Blanc-Sablon'",
+    "start": 8574,
+    "end": 8596,
+    "range": [
+      8574,
+      8596
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8596,
+    "end": 8597,
+    "range": [
+      8596,
+      8597
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Buenos_Aires'",
+    "start": 8600,
+    "end": 8622,
+    "range": [
+      8600,
+      8622
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8622,
+    "end": 8623,
+    "range": [
+      8622,
+      8623
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Catamarca'",
+    "start": 8626,
+    "end": 8645,
+    "range": [
+      8626,
+      8645
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8645,
+    "end": 8646,
+    "range": [
+      8645,
+      8646
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Cayman'",
+    "start": 8649,
+    "end": 8665,
+    "range": [
+      8649,
+      8665
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8665,
+    "end": 8666,
+    "range": [
+      8665,
+      8666
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Coral_Harbour'",
+    "start": 8669,
+    "end": 8692,
+    "range": [
+      8669,
+      8692
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8692,
+    "end": 8693,
+    "range": [
+      8692,
+      8693
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Cordoba'",
+    "start": 8696,
+    "end": 8713,
+    "range": [
+      8696,
+      8713
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8713,
+    "end": 8714,
+    "range": [
+      8713,
+      8714
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Creston'",
+    "start": 8717,
+    "end": 8734,
+    "range": [
+      8717,
+      8734
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8734,
+    "end": 8735,
+    "range": [
+      8734,
+      8735
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Curacao'",
+    "start": 8738,
+    "end": 8755,
+    "range": [
+      8738,
+      8755
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8755,
+    "end": 8756,
+    "range": [
+      8755,
+      8756
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Dominica'",
+    "start": 8759,
+    "end": 8777,
+    "range": [
+      8759,
+      8777
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8777,
+    "end": 8778,
+    "range": [
+      8777,
+      8778
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Ensenada'",
+    "start": 8781,
+    "end": 8799,
+    "range": [
+      8781,
+      8799
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8799,
+    "end": 8800,
+    "range": [
+      8799,
+      8800
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Fort_Wayne'",
+    "start": 8803,
+    "end": 8823,
+    "range": [
+      8803,
+      8823
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8823,
+    "end": 8824,
+    "range": [
+      8823,
+      8824
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Godthab'",
+    "start": 8827,
+    "end": 8844,
+    "range": [
+      8827,
+      8844
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8844,
+    "end": 8845,
+    "range": [
+      8844,
+      8845
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Grenada'",
+    "start": 8848,
+    "end": 8865,
+    "range": [
+      8848,
+      8865
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8865,
+    "end": 8866,
+    "range": [
+      8865,
+      8866
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Guadeloupe'",
+    "start": 8869,
+    "end": 8889,
+    "range": [
+      8869,
+      8889
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8889,
+    "end": 8890,
+    "range": [
+      8889,
+      8890
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Indianapolis'",
+    "start": 8893,
+    "end": 8915,
+    "range": [
+      8893,
+      8915
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8915,
+    "end": 8916,
+    "range": [
+      8915,
+      8916
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Jujuy'",
+    "start": 8919,
+    "end": 8934,
+    "range": [
+      8919,
+      8934
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8934,
+    "end": 8935,
+    "range": [
+      8934,
+      8935
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Knox_IN'",
+    "start": 8938,
+    "end": 8955,
+    "range": [
+      8938,
+      8955
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8955,
+    "end": 8956,
+    "range": [
+      8955,
+      8956
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Kralendijk'",
+    "start": 8959,
+    "end": 8979,
+    "range": [
+      8959,
+      8979
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8979,
+    "end": 8980,
+    "range": [
+      8979,
+      8980
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Louisville'",
+    "start": 8983,
+    "end": 9003,
+    "range": [
+      8983,
+      9003
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9003,
+    "end": 9004,
+    "range": [
+      9003,
+      9004
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Lower_Princes'",
+    "start": 9007,
+    "end": 9030,
+    "range": [
+      9007,
+      9030
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9030,
+    "end": 9031,
+    "range": [
+      9030,
+      9031
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Marigot'",
+    "start": 9034,
+    "end": 9051,
+    "range": [
+      9034,
+      9051
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9051,
+    "end": 9052,
+    "range": [
+      9051,
+      9052
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Mendoza'",
+    "start": 9055,
+    "end": 9072,
+    "range": [
+      9055,
+      9072
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9072,
+    "end": 9073,
+    "range": [
+      9072,
+      9073
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Montreal'",
+    "start": 9076,
+    "end": 9094,
+    "range": [
+      9076,
+      9094
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9094,
+    "end": 9095,
+    "range": [
+      9094,
+      9095
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Montserrat'",
+    "start": 9098,
+    "end": 9118,
+    "range": [
+      9098,
+      9118
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9118,
+    "end": 9119,
+    "range": [
+      9118,
+      9119
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Nassau'",
+    "start": 9122,
+    "end": 9138,
+    "range": [
+      9122,
+      9138
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9138,
+    "end": 9139,
+    "range": [
+      9138,
+      9139
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Nipigon'",
+    "start": 9142,
+    "end": 9159,
+    "range": [
+      9142,
+      9159
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9159,
+    "end": 9160,
+    "range": [
+      9159,
+      9160
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Pangnirtung'",
+    "start": 9163,
+    "end": 9184,
+    "range": [
+      9163,
+      9184
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9184,
+    "end": 9185,
+    "range": [
+      9184,
+      9185
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Port_of_Spain'",
+    "start": 9188,
+    "end": 9211,
+    "range": [
+      9188,
+      9211
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9211,
+    "end": 9212,
+    "range": [
+      9211,
+      9212
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Porto_Acre'",
+    "start": 9215,
+    "end": 9235,
+    "range": [
+      9215,
+      9235
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9235,
+    "end": 9236,
+    "range": [
+      9235,
+      9236
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Rainy_River'",
+    "start": 9239,
+    "end": 9260,
+    "range": [
+      9239,
+      9260
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9260,
+    "end": 9261,
+    "range": [
+      9260,
+      9261
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Rosario'",
+    "start": 9264,
+    "end": 9281,
+    "range": [
+      9264,
+      9281
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9281,
+    "end": 9282,
+    "range": [
+      9281,
+      9282
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Santa_Isabel'",
+    "start": 9285,
+    "end": 9307,
+    "range": [
+      9285,
+      9307
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9307,
+    "end": 9308,
+    "range": [
+      9307,
+      9308
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Shiprock'",
+    "start": 9311,
+    "end": 9329,
+    "range": [
+      9311,
+      9329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9329,
+    "end": 9330,
+    "range": [
+      9329,
+      9330
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/St_Barthelemy'",
+    "start": 9333,
+    "end": 9356,
+    "range": [
+      9333,
+      9356
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9356,
+    "end": 9357,
+    "range": [
+      9356,
+      9357
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/St_Kitts'",
+    "start": 9360,
+    "end": 9378,
+    "range": [
+      9360,
+      9378
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9378,
+    "end": 9379,
+    "range": [
+      9378,
+      9379
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/St_Lucia'",
+    "start": 9382,
+    "end": 9400,
+    "range": [
+      9382,
+      9400
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9400,
+    "end": 9401,
+    "range": [
+      9400,
+      9401
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/St_Thomas'",
+    "start": 9404,
+    "end": 9423,
+    "range": [
+      9404,
+      9423
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9423,
+    "end": 9424,
+    "range": [
+      9423,
+      9424
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/St_Vincent'",
+    "start": 9427,
+    "end": 9447,
+    "range": [
+      9427,
+      9447
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9447,
+    "end": 9448,
+    "range": [
+      9447,
+      9448
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Thunder_Bay'",
+    "start": 9451,
+    "end": 9472,
+    "range": [
+      9451,
+      9472
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9472,
+    "end": 9473,
+    "range": [
+      9472,
+      9473
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Tortola'",
+    "start": 9476,
+    "end": 9493,
+    "range": [
+      9476,
+      9493
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9493,
+    "end": 9494,
+    "range": [
+      9493,
+      9494
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'America/Virgin'",
+    "start": 9497,
+    "end": 9513,
+    "range": [
+      9497,
+      9513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9513,
+    "end": 9514,
+    "range": [
+      9513,
+      9514
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/DumontDUrville'",
+    "start": 9517,
+    "end": 9544,
+    "range": [
+      9517,
+      9544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9544,
+    "end": 9545,
+    "range": [
+      9544,
+      9545
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/McMurdo'",
+    "start": 9548,
+    "end": 9568,
+    "range": [
+      9548,
+      9568
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9568,
+    "end": 9569,
+    "range": [
+      9568,
+      9569
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/South_Pole'",
+    "start": 9572,
+    "end": 9595,
+    "range": [
+      9572,
+      9595
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9595,
+    "end": 9596,
+    "range": [
+      9595,
+      9596
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Syowa'",
+    "start": 9599,
+    "end": 9617,
+    "range": [
+      9599,
+      9617
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9617,
+    "end": 9618,
+    "range": [
+      9617,
+      9618
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Antarctica/Vostok'",
+    "start": 9621,
+    "end": 9640,
+    "range": [
+      9621,
+      9640
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9640,
+    "end": 9641,
+    "range": [
+      9640,
+      9641
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Arctic/Longyearbyen'",
+    "start": 9644,
+    "end": 9665,
+    "range": [
+      9644,
+      9665
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9665,
+    "end": 9666,
+    "range": [
+      9665,
+      9666
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Aden'",
+    "start": 9669,
+    "end": 9680,
+    "range": [
+      9669,
+      9680
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9680,
+    "end": 9681,
+    "range": [
+      9680,
+      9681
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Ashkhabad'",
+    "start": 9684,
+    "end": 9700,
+    "range": [
+      9684,
+      9700
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9700,
+    "end": 9701,
+    "range": [
+      9700,
+      9701
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Bahrain'",
+    "start": 9704,
+    "end": 9718,
+    "range": [
+      9704,
+      9718
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9718,
+    "end": 9719,
+    "range": [
+      9718,
+      9719
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Brunei'",
+    "start": 9722,
+    "end": 9735,
+    "range": [
+      9722,
+      9735
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9735,
+    "end": 9736,
+    "range": [
+      9735,
+      9736
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Calcutta'",
+    "start": 9739,
+    "end": 9754,
+    "range": [
+      9739,
+      9754
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9754,
+    "end": 9755,
+    "range": [
+      9754,
+      9755
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Chongqing'",
+    "start": 9758,
+    "end": 9774,
+    "range": [
+      9758,
+      9774
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9774,
+    "end": 9775,
+    "range": [
+      9774,
+      9775
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Chungking'",
+    "start": 9778,
+    "end": 9794,
+    "range": [
+      9778,
+      9794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9794,
+    "end": 9795,
+    "range": [
+      9794,
+      9795
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Dacca'",
+    "start": 9798,
+    "end": 9810,
+    "range": [
+      9798,
+      9810
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9810,
+    "end": 9811,
+    "range": [
+      9810,
+      9811
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Harbin'",
+    "start": 9814,
+    "end": 9827,
+    "range": [
+      9814,
+      9827
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9827,
+    "end": 9828,
+    "range": [
+      9827,
+      9828
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Istanbul'",
+    "start": 9831,
+    "end": 9846,
+    "range": [
+      9831,
+      9846
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9846,
+    "end": 9847,
+    "range": [
+      9846,
+      9847
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kashgar'",
+    "start": 9850,
+    "end": 9864,
+    "range": [
+      9850,
+      9864
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9864,
+    "end": 9865,
+    "range": [
+      9864,
+      9865
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Katmandu'",
+    "start": 9868,
+    "end": 9883,
+    "range": [
+      9868,
+      9883
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9883,
+    "end": 9884,
+    "range": [
+      9883,
+      9884
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kuala_Lumpur'",
+    "start": 9887,
+    "end": 9906,
+    "range": [
+      9887,
+      9906
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9906,
+    "end": 9907,
+    "range": [
+      9906,
+      9907
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Kuwait'",
+    "start": 9910,
+    "end": 9923,
+    "range": [
+      9910,
+      9923
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9923,
+    "end": 9924,
+    "range": [
+      9923,
+      9924
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Macao'",
+    "start": 9927,
+    "end": 9939,
+    "range": [
+      9927,
+      9939
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9939,
+    "end": 9940,
+    "range": [
+      9939,
+      9940
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Muscat'",
+    "start": 9943,
+    "end": 9956,
+    "range": [
+      9943,
+      9956
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9956,
+    "end": 9957,
+    "range": [
+      9956,
+      9957
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Phnom_Penh'",
+    "start": 9960,
+    "end": 9977,
+    "range": [
+      9960,
+      9977
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9977,
+    "end": 9978,
+    "range": [
+      9977,
+      9978
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Rangoon'",
+    "start": 9981,
+    "end": 9995,
+    "range": [
+      9981,
+      9995
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9995,
+    "end": 9996,
+    "range": [
+      9995,
+      9996
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Saigon'",
+    "start": 9999,
+    "end": 10012,
+    "range": [
+      9999,
+      10012
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10012,
+    "end": 10013,
+    "range": [
+      10012,
+      10013
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Tel_Aviv'",
+    "start": 10016,
+    "end": 10031,
+    "range": [
+      10016,
+      10031
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10031,
+    "end": 10032,
+    "range": [
+      10031,
+      10032
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Thimbu'",
+    "start": 10035,
+    "end": 10048,
+    "range": [
+      10035,
+      10048
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10048,
+    "end": 10049,
+    "range": [
+      10048,
+      10049
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Ujung_Pandang'",
+    "start": 10052,
+    "end": 10072,
+    "range": [
+      10052,
+      10072
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10072,
+    "end": 10073,
+    "range": [
+      10072,
+      10073
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Ulan_Bator'",
+    "start": 10076,
+    "end": 10093,
+    "range": [
+      10076,
+      10093
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10093,
+    "end": 10094,
+    "range": [
+      10093,
+      10094
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Asia/Vientiane'",
+    "start": 10097,
+    "end": 10113,
+    "range": [
+      10097,
+      10113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10113,
+    "end": 10114,
+    "range": [
+      10113,
+      10114
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Faeroe'",
+    "start": 10117,
+    "end": 10134,
+    "range": [
+      10117,
+      10134
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10134,
+    "end": 10135,
+    "range": [
+      10134,
+      10135
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Jan_Mayen'",
+    "start": 10138,
+    "end": 10158,
+    "range": [
+      10138,
+      10158
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10158,
+    "end": 10159,
+    "range": [
+      10158,
+      10159
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/Reykjavik'",
+    "start": 10162,
+    "end": 10182,
+    "range": [
+      10162,
+      10182
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10182,
+    "end": 10183,
+    "range": [
+      10182,
+      10183
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Atlantic/St_Helena'",
+    "start": 10186,
+    "end": 10206,
+    "range": [
+      10186,
+      10206
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10206,
+    "end": 10207,
+    "range": [
+      10206,
+      10207
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/ACT'",
+    "start": 10210,
+    "end": 10225,
+    "range": [
+      10210,
+      10225
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10225,
+    "end": 10226,
+    "range": [
+      10225,
+      10226
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Canberra'",
+    "start": 10229,
+    "end": 10249,
+    "range": [
+      10229,
+      10249
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10249,
+    "end": 10250,
+    "range": [
+      10249,
+      10250
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Currie'",
+    "start": 10253,
+    "end": 10271,
+    "range": [
+      10253,
+      10271
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10271,
+    "end": 10272,
+    "range": [
+      10271,
+      10272
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/LHI'",
+    "start": 10275,
+    "end": 10290,
+    "range": [
+      10275,
+      10290
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10290,
+    "end": 10291,
+    "range": [
+      10290,
+      10291
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/NSW'",
+    "start": 10294,
+    "end": 10309,
+    "range": [
+      10294,
+      10309
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10309,
+    "end": 10310,
+    "range": [
+      10309,
+      10310
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/North'",
+    "start": 10313,
+    "end": 10330,
+    "range": [
+      10313,
+      10330
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10330,
+    "end": 10331,
+    "range": [
+      10330,
+      10331
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Queensland'",
+    "start": 10334,
+    "end": 10356,
+    "range": [
+      10334,
+      10356
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10356,
+    "end": 10357,
+    "range": [
+      10356,
+      10357
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/South'",
+    "start": 10360,
+    "end": 10377,
+    "range": [
+      10360,
+      10377
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10377,
+    "end": 10378,
+    "range": [
+      10377,
+      10378
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Tasmania'",
+    "start": 10381,
+    "end": 10401,
+    "range": [
+      10381,
+      10401
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10401,
+    "end": 10402,
+    "range": [
+      10401,
+      10402
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Victoria'",
+    "start": 10405,
+    "end": 10425,
+    "range": [
+      10405,
+      10425
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10425,
+    "end": 10426,
+    "range": [
+      10425,
+      10426
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/West'",
+    "start": 10429,
+    "end": 10445,
+    "range": [
+      10429,
+      10445
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10445,
+    "end": 10446,
+    "range": [
+      10445,
+      10446
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Australia/Yancowinna'",
+    "start": 10449,
+    "end": 10471,
+    "range": [
+      10449,
+      10471
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10471,
+    "end": 10472,
+    "range": [
+      10471,
+      10472
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Brazil/Acre'",
+    "start": 10475,
+    "end": 10488,
+    "range": [
+      10475,
+      10488
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10488,
+    "end": 10489,
+    "range": [
+      10488,
+      10489
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Brazil/DeNoronha'",
+    "start": 10492,
+    "end": 10510,
+    "range": [
+      10492,
+      10510
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10510,
+    "end": 10511,
+    "range": [
+      10510,
+      10511
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Brazil/East'",
+    "start": 10514,
+    "end": 10527,
+    "range": [
+      10514,
+      10527
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10527,
+    "end": 10528,
+    "range": [
+      10527,
+      10528
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Brazil/West'",
+    "start": 10531,
+    "end": 10544,
+    "range": [
+      10531,
+      10544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10544,
+    "end": 10545,
+    "range": [
+      10544,
+      10545
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Atlantic'",
+    "start": 10548,
+    "end": 10565,
+    "range": [
+      10548,
+      10565
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10565,
+    "end": 10566,
+    "range": [
+      10565,
+      10566
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Central'",
+    "start": 10569,
+    "end": 10585,
+    "range": [
+      10569,
+      10585
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10585,
+    "end": 10586,
+    "range": [
+      10585,
+      10586
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Eastern'",
+    "start": 10589,
+    "end": 10605,
+    "range": [
+      10589,
+      10605
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10605,
+    "end": 10606,
+    "range": [
+      10605,
+      10606
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Mountain'",
+    "start": 10609,
+    "end": 10626,
+    "range": [
+      10609,
+      10626
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10626,
+    "end": 10627,
+    "range": [
+      10626,
+      10627
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Newfoundland'",
+    "start": 10630,
+    "end": 10651,
+    "range": [
+      10630,
+      10651
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10651,
+    "end": 10652,
+    "range": [
+      10651,
+      10652
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Pacific'",
+    "start": 10655,
+    "end": 10671,
+    "range": [
+      10655,
+      10671
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10671,
+    "end": 10672,
+    "range": [
+      10671,
+      10672
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Saskatchewan'",
+    "start": 10675,
+    "end": 10696,
+    "range": [
+      10675,
+      10696
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10696,
+    "end": 10697,
+    "range": [
+      10696,
+      10697
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Canada/Yukon'",
+    "start": 10700,
+    "end": 10714,
+    "range": [
+      10700,
+      10714
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10714,
+    "end": 10715,
+    "range": [
+      10714,
+      10715
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Chile/Continental'",
+    "start": 10718,
+    "end": 10737,
+    "range": [
+      10718,
+      10737
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10737,
+    "end": 10738,
+    "range": [
+      10737,
+      10738
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Chile/EasterIsland'",
+    "start": 10741,
+    "end": 10761,
+    "range": [
+      10741,
+      10761
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10761,
+    "end": 10762,
+    "range": [
+      10761,
+      10762
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Cuba'",
+    "start": 10765,
+    "end": 10771,
+    "range": [
+      10765,
+      10771
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10771,
+    "end": 10772,
+    "range": [
+      10771,
+      10772
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Egypt'",
+    "start": 10775,
+    "end": 10782,
+    "range": [
+      10775,
+      10782
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10782,
+    "end": 10783,
+    "range": [
+      10782,
+      10783
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Eire'",
+    "start": 10786,
+    "end": 10792,
+    "range": [
+      10786,
+      10792
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10792,
+    "end": 10793,
+    "range": [
+      10792,
+      10793
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT+0'",
+    "start": 10796,
+    "end": 10807,
+    "range": [
+      10796,
+      10807
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10807,
+    "end": 10808,
+    "range": [
+      10807,
+      10808
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT-0'",
+    "start": 10811,
+    "end": 10822,
+    "range": [
+      10811,
+      10822
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10822,
+    "end": 10823,
+    "range": [
+      10822,
+      10823
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/GMT0'",
+    "start": 10826,
+    "end": 10836,
+    "range": [
+      10826,
+      10836
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10836,
+    "end": 10837,
+    "range": [
+      10836,
+      10837
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/Greenwich'",
+    "start": 10840,
+    "end": 10855,
+    "range": [
+      10840,
+      10855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10855,
+    "end": 10856,
+    "range": [
+      10855,
+      10856
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/UCT'",
+    "start": 10859,
+    "end": 10868,
+    "range": [
+      10859,
+      10868
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10868,
+    "end": 10869,
+    "range": [
+      10868,
+      10869
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/Universal'",
+    "start": 10872,
+    "end": 10887,
+    "range": [
+      10872,
+      10887
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10887,
+    "end": 10888,
+    "range": [
+      10887,
+      10888
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Etc/Zulu'",
+    "start": 10891,
+    "end": 10901,
+    "range": [
+      10891,
+      10901
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10901,
+    "end": 10902,
+    "range": [
+      10901,
+      10902
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Amsterdam'",
+    "start": 10905,
+    "end": 10923,
+    "range": [
+      10905,
+      10923
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10923,
+    "end": 10924,
+    "range": [
+      10923,
+      10924
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Belfast'",
+    "start": 10927,
+    "end": 10943,
+    "range": [
+      10927,
+      10943
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10943,
+    "end": 10944,
+    "range": [
+      10943,
+      10944
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Bratislava'",
+    "start": 10947,
+    "end": 10966,
+    "range": [
+      10947,
+      10966
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10966,
+    "end": 10967,
+    "range": [
+      10966,
+      10967
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Busingen'",
+    "start": 10970,
+    "end": 10987,
+    "range": [
+      10970,
+      10987
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10987,
+    "end": 10988,
+    "range": [
+      10987,
+      10988
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Copenhagen'",
+    "start": 10991,
+    "end": 11010,
+    "range": [
+      10991,
+      11010
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11010,
+    "end": 11011,
+    "range": [
+      11010,
+      11011
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Guernsey'",
+    "start": 11014,
+    "end": 11031,
+    "range": [
+      11014,
+      11031
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11031,
+    "end": 11032,
+    "range": [
+      11031,
+      11032
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Isle_of_Man'",
+    "start": 11035,
+    "end": 11055,
+    "range": [
+      11035,
+      11055
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11055,
+    "end": 11056,
+    "range": [
+      11055,
+      11056
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Jersey'",
+    "start": 11059,
+    "end": 11074,
+    "range": [
+      11059,
+      11074
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11074,
+    "end": 11075,
+    "range": [
+      11074,
+      11075
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Kiev'",
+    "start": 11078,
+    "end": 11091,
+    "range": [
+      11078,
+      11091
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11091,
+    "end": 11092,
+    "range": [
+      11091,
+      11092
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Ljubljana'",
+    "start": 11095,
+    "end": 11113,
+    "range": [
+      11095,
+      11113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11113,
+    "end": 11114,
+    "range": [
+      11113,
+      11114
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Luxembourg'",
+    "start": 11117,
+    "end": 11136,
+    "range": [
+      11117,
+      11136
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11136,
+    "end": 11137,
+    "range": [
+      11136,
+      11137
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Mariehamn'",
+    "start": 11140,
+    "end": 11158,
+    "range": [
+      11140,
+      11158
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11158,
+    "end": 11159,
+    "range": [
+      11158,
+      11159
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Monaco'",
+    "start": 11162,
+    "end": 11177,
+    "range": [
+      11162,
+      11177
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11177,
+    "end": 11178,
+    "range": [
+      11177,
+      11178
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Nicosia'",
+    "start": 11181,
+    "end": 11197,
+    "range": [
+      11181,
+      11197
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11197,
+    "end": 11198,
+    "range": [
+      11197,
+      11198
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Oslo'",
+    "start": 11201,
+    "end": 11214,
+    "range": [
+      11201,
+      11214
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11214,
+    "end": 11215,
+    "range": [
+      11214,
+      11215
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Podgorica'",
+    "start": 11218,
+    "end": 11236,
+    "range": [
+      11218,
+      11236
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11236,
+    "end": 11237,
+    "range": [
+      11236,
+      11237
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/San_Marino'",
+    "start": 11240,
+    "end": 11259,
+    "range": [
+      11240,
+      11259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11259,
+    "end": 11260,
+    "range": [
+      11259,
+      11260
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Sarajevo'",
+    "start": 11263,
+    "end": 11280,
+    "range": [
+      11263,
+      11280
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11280,
+    "end": 11281,
+    "range": [
+      11280,
+      11281
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Skopje'",
+    "start": 11284,
+    "end": 11299,
+    "range": [
+      11284,
+      11299
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11299,
+    "end": 11300,
+    "range": [
+      11299,
+      11300
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Stockholm'",
+    "start": 11303,
+    "end": 11321,
+    "range": [
+      11303,
+      11321
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11321,
+    "end": 11322,
+    "range": [
+      11321,
+      11322
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Tiraspol'",
+    "start": 11325,
+    "end": 11342,
+    "range": [
+      11325,
+      11342
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11342,
+    "end": 11343,
+    "range": [
+      11342,
+      11343
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Uzhgorod'",
+    "start": 11346,
+    "end": 11363,
+    "range": [
+      11346,
+      11363
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11363,
+    "end": 11364,
+    "range": [
+      11363,
+      11364
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Vaduz'",
+    "start": 11367,
+    "end": 11381,
+    "range": [
+      11367,
+      11381
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11381,
+    "end": 11382,
+    "range": [
+      11381,
+      11382
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Vatican'",
+    "start": 11385,
+    "end": 11401,
+    "range": [
+      11385,
+      11401
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11401,
+    "end": 11402,
+    "range": [
+      11401,
+      11402
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Zagreb'",
+    "start": 11405,
+    "end": 11420,
+    "range": [
+      11405,
+      11420
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11420,
+    "end": 11421,
+    "range": [
+      11420,
+      11421
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Europe/Zaporozhye'",
+    "start": 11424,
+    "end": 11443,
+    "range": [
+      11424,
+      11443
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11443,
+    "end": 11444,
+    "range": [
+      11443,
+      11444
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'GB'",
+    "start": 11447,
+    "end": 11451,
+    "range": [
+      11447,
+      11451
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11451,
+    "end": 11452,
+    "range": [
+      11451,
+      11452
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'GB-Eire'",
+    "start": 11455,
+    "end": 11464,
+    "range": [
+      11455,
+      11464
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11464,
+    "end": 11465,
+    "range": [
+      11464,
+      11465
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'GMT'",
+    "start": 11468,
+    "end": 11473,
+    "range": [
+      11468,
+      11473
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11473,
+    "end": 11474,
+    "range": [
+      11473,
+      11474
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'GMT+0'",
+    "start": 11477,
+    "end": 11484,
+    "range": [
+      11477,
+      11484
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11484,
+    "end": 11485,
+    "range": [
+      11484,
+      11485
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'GMT-0'",
+    "start": 11488,
+    "end": 11495,
+    "range": [
+      11488,
+      11495
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11495,
+    "end": 11496,
+    "range": [
+      11495,
+      11496
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'GMT0'",
+    "start": 11499,
+    "end": 11505,
+    "range": [
+      11499,
+      11505
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11505,
+    "end": 11506,
+    "range": [
+      11505,
+      11506
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Greenwich'",
+    "start": 11509,
+    "end": 11520,
+    "range": [
+      11509,
+      11520
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11520,
+    "end": 11521,
+    "range": [
+      11520,
+      11521
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Hongkong'",
+    "start": 11524,
+    "end": 11534,
+    "range": [
+      11524,
+      11534
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11534,
+    "end": 11535,
+    "range": [
+      11534,
+      11535
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Iceland'",
+    "start": 11538,
+    "end": 11547,
+    "range": [
+      11538,
+      11547
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11547,
+    "end": 11548,
+    "range": [
+      11547,
+      11548
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Antananarivo'",
+    "start": 11551,
+    "end": 11572,
+    "range": [
+      11551,
+      11572
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11572,
+    "end": 11573,
+    "range": [
+      11572,
+      11573
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Christmas'",
+    "start": 11576,
+    "end": 11594,
+    "range": [
+      11576,
+      11594
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11594,
+    "end": 11595,
+    "range": [
+      11594,
+      11595
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Cocos'",
+    "start": 11598,
+    "end": 11612,
+    "range": [
+      11598,
+      11612
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11612,
+    "end": 11613,
+    "range": [
+      11612,
+      11613
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Comoro'",
+    "start": 11616,
+    "end": 11631,
+    "range": [
+      11616,
+      11631
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11631,
+    "end": 11632,
+    "range": [
+      11631,
+      11632
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Kerguelen'",
+    "start": 11635,
+    "end": 11653,
+    "range": [
+      11635,
+      11653
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11653,
+    "end": 11654,
+    "range": [
+      11653,
+      11654
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Mahe'",
+    "start": 11657,
+    "end": 11670,
+    "range": [
+      11657,
+      11670
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11670,
+    "end": 11671,
+    "range": [
+      11670,
+      11671
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Mayotte'",
+    "start": 11674,
+    "end": 11690,
+    "range": [
+      11674,
+      11690
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11690,
+    "end": 11691,
+    "range": [
+      11690,
+      11691
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Indian/Reunion'",
+    "start": 11694,
+    "end": 11710,
+    "range": [
+      11694,
+      11710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11710,
+    "end": 11711,
+    "range": [
+      11710,
+      11711
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Iran'",
+    "start": 11714,
+    "end": 11720,
+    "range": [
+      11714,
+      11720
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11720,
+    "end": 11721,
+    "range": [
+      11720,
+      11721
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Israel'",
+    "start": 11724,
+    "end": 11732,
+    "range": [
+      11724,
+      11732
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11732,
+    "end": 11733,
+    "range": [
+      11732,
+      11733
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Jamaica'",
+    "start": 11736,
+    "end": 11745,
+    "range": [
+      11736,
+      11745
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11745,
+    "end": 11746,
+    "range": [
+      11745,
+      11746
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Japan'",
+    "start": 11749,
+    "end": 11756,
+    "range": [
+      11749,
+      11756
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11756,
+    "end": 11757,
+    "range": [
+      11756,
+      11757
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Kwajalein'",
+    "start": 11760,
+    "end": 11771,
+    "range": [
+      11760,
+      11771
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11771,
+    "end": 11772,
+    "range": [
+      11771,
+      11772
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Libya'",
+    "start": 11775,
+    "end": 11782,
+    "range": [
+      11775,
+      11782
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11782,
+    "end": 11783,
+    "range": [
+      11782,
+      11783
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Mexico/BajaNorte'",
+    "start": 11786,
+    "end": 11804,
+    "range": [
+      11786,
+      11804
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11804,
+    "end": 11805,
+    "range": [
+      11804,
+      11805
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Mexico/BajaSur'",
+    "start": 11808,
+    "end": 11824,
+    "range": [
+      11808,
+      11824
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11824,
+    "end": 11825,
+    "range": [
+      11824,
+      11825
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Mexico/General'",
+    "start": 11828,
+    "end": 11844,
+    "range": [
+      11828,
+      11844
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11844,
+    "end": 11845,
+    "range": [
+      11844,
+      11845
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'NZ'",
+    "start": 11848,
+    "end": 11852,
+    "range": [
+      11848,
+      11852
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11852,
+    "end": 11853,
+    "range": [
+      11852,
+      11853
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'NZ-CHAT'",
+    "start": 11856,
+    "end": 11865,
+    "range": [
+      11856,
+      11865
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11865,
+    "end": 11866,
+    "range": [
+      11865,
+      11866
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Navajo'",
+    "start": 11869,
+    "end": 11877,
+    "range": [
+      11869,
+      11877
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11877,
+    "end": 11878,
+    "range": [
+      11877,
+      11878
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'PRC'",
+    "start": 11881,
+    "end": 11886,
+    "range": [
+      11881,
+      11886
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11886,
+    "end": 11887,
+    "range": [
+      11886,
+      11887
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Chuuk'",
+    "start": 11890,
+    "end": 11905,
+    "range": [
+      11890,
+      11905
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11905,
+    "end": 11906,
+    "range": [
+      11905,
+      11906
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Enderbury'",
+    "start": 11909,
+    "end": 11928,
+    "range": [
+      11909,
+      11928
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11928,
+    "end": 11929,
+    "range": [
+      11928,
+      11929
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Funafuti'",
+    "start": 11932,
+    "end": 11950,
+    "range": [
+      11932,
+      11950
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11950,
+    "end": 11951,
+    "range": [
+      11950,
+      11951
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Johnston'",
+    "start": 11954,
+    "end": 11972,
+    "range": [
+      11954,
+      11972
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11972,
+    "end": 11973,
+    "range": [
+      11972,
+      11973
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Majuro'",
+    "start": 11976,
+    "end": 11992,
+    "range": [
+      11976,
+      11992
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11992,
+    "end": 11993,
+    "range": [
+      11992,
+      11993
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Midway'",
+    "start": 11996,
+    "end": 12012,
+    "range": [
+      11996,
+      12012
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12012,
+    "end": 12013,
+    "range": [
+      12012,
+      12013
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Pohnpei'",
+    "start": 12016,
+    "end": 12033,
+    "range": [
+      12016,
+      12033
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12033,
+    "end": 12034,
+    "range": [
+      12033,
+      12034
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Ponape'",
+    "start": 12037,
+    "end": 12053,
+    "range": [
+      12037,
+      12053
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12053,
+    "end": 12054,
+    "range": [
+      12053,
+      12054
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Saipan'",
+    "start": 12057,
+    "end": 12073,
+    "range": [
+      12057,
+      12073
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12073,
+    "end": 12074,
+    "range": [
+      12073,
+      12074
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Samoa'",
+    "start": 12077,
+    "end": 12092,
+    "range": [
+      12077,
+      12092
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12092,
+    "end": 12093,
+    "range": [
+      12092,
+      12093
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Truk'",
+    "start": 12096,
+    "end": 12110,
+    "range": [
+      12096,
+      12110
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12110,
+    "end": 12111,
+    "range": [
+      12110,
+      12111
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Wake'",
+    "start": 12114,
+    "end": 12128,
+    "range": [
+      12114,
+      12128
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12128,
+    "end": 12129,
+    "range": [
+      12128,
+      12129
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Wallis'",
+    "start": 12132,
+    "end": 12148,
+    "range": [
+      12132,
+      12148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12148,
+    "end": 12149,
+    "range": [
+      12148,
+      12149
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Pacific/Yap'",
+    "start": 12152,
+    "end": 12165,
+    "range": [
+      12152,
+      12165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12165,
+    "end": 12166,
+    "range": [
+      12165,
+      12166
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Poland'",
+    "start": 12169,
+    "end": 12177,
+    "range": [
+      12169,
+      12177
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12177,
+    "end": 12178,
+    "range": [
+      12177,
+      12178
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Portugal'",
+    "start": 12181,
+    "end": 12191,
+    "range": [
+      12181,
+      12191
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12191,
+    "end": 12192,
+    "range": [
+      12191,
+      12192
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'ROC'",
+    "start": 12195,
+    "end": 12200,
+    "range": [
+      12195,
+      12200
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12200,
+    "end": 12201,
+    "range": [
+      12200,
+      12201
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'ROK'",
+    "start": 12204,
+    "end": 12209,
+    "range": [
+      12204,
+      12209
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12209,
+    "end": 12210,
+    "range": [
+      12209,
+      12210
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Singapore'",
+    "start": 12213,
+    "end": 12224,
+    "range": [
+      12213,
+      12224
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12224,
+    "end": 12225,
+    "range": [
+      12224,
+      12225
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Turkey'",
+    "start": 12228,
+    "end": 12236,
+    "range": [
+      12228,
+      12236
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12236,
+    "end": 12237,
+    "range": [
+      12236,
+      12237
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'UCT'",
+    "start": 12240,
+    "end": 12245,
+    "range": [
+      12240,
+      12245
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12245,
+    "end": 12246,
+    "range": [
+      12245,
+      12246
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Alaska'",
+    "start": 12249,
+    "end": 12260,
+    "range": [
+      12249,
+      12260
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12260,
+    "end": 12261,
+    "range": [
+      12260,
+      12261
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Aleutian'",
+    "start": 12264,
+    "end": 12277,
+    "range": [
+      12264,
+      12277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12277,
+    "end": 12278,
+    "range": [
+      12277,
+      12278
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Arizona'",
+    "start": 12281,
+    "end": 12293,
+    "range": [
+      12281,
+      12293
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12293,
+    "end": 12294,
+    "range": [
+      12293,
+      12294
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Central'",
+    "start": 12297,
+    "end": 12309,
+    "range": [
+      12297,
+      12309
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12309,
+    "end": 12310,
+    "range": [
+      12309,
+      12310
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/East-Indiana'",
+    "start": 12313,
+    "end": 12330,
+    "range": [
+      12313,
+      12330
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12330,
+    "end": 12331,
+    "range": [
+      12330,
+      12331
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Eastern'",
+    "start": 12334,
+    "end": 12346,
+    "range": [
+      12334,
+      12346
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12346,
+    "end": 12347,
+    "range": [
+      12346,
+      12347
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Hawaii'",
+    "start": 12350,
+    "end": 12361,
+    "range": [
+      12350,
+      12361
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12361,
+    "end": 12362,
+    "range": [
+      12361,
+      12362
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Indiana-Starke'",
+    "start": 12365,
+    "end": 12384,
+    "range": [
+      12365,
+      12384
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12384,
+    "end": 12385,
+    "range": [
+      12384,
+      12385
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Michigan'",
+    "start": 12388,
+    "end": 12401,
+    "range": [
+      12388,
+      12401
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12401,
+    "end": 12402,
+    "range": [
+      12401,
+      12402
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Mountain'",
+    "start": 12405,
+    "end": 12418,
+    "range": [
+      12405,
+      12418
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12418,
+    "end": 12419,
+    "range": [
+      12418,
+      12419
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Pacific'",
+    "start": 12422,
+    "end": 12434,
+    "range": [
+      12422,
+      12434
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12434,
+    "end": 12435,
+    "range": [
+      12434,
+      12435
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'US/Samoa'",
+    "start": 12438,
+    "end": 12448,
+    "range": [
+      12438,
+      12448
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12448,
+    "end": 12449,
+    "range": [
+      12448,
+      12449
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'UTC'",
+    "start": 12452,
+    "end": 12457,
+    "range": [
+      12452,
+      12457
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12457,
+    "end": 12458,
+    "range": [
+      12457,
+      12458
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Universal'",
+    "start": 12461,
+    "end": 12472,
+    "range": [
+      12461,
+      12472
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12472,
+    "end": 12473,
+    "range": [
+      12472,
+      12473
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'W-SU'",
+    "start": 12476,
+    "end": 12482,
+    "range": [
+      12476,
+      12482
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 12482,
+    "end": 12483,
+    "range": [
+      12482,
+      12483
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Zulu'",
+    "start": 12486,
+    "end": 12492,
+    "range": [
+      12486,
+      12492
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 12493,
+    "end": 12494,
+    "range": [
+      12493,
+      12494
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 12494,
+    "end": 12495,
+    "range": [
+      12494,
+      12495
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 12956,
+    "end": 12961,
+    "range": [
+      12956,
+      12961
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ids",
+    "start": 12962,
+    "end": 12965,
+    "range": [
+      12962,
+      12965
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 12966,
+    "end": 12967,
+    "range": [
+      12966,
+      12967
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 12968,
+    "end": 12969,
+    "range": [
+      12968,
+      12969
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 12969,
+    "end": 12972,
+    "range": [
+      12969,
+      12972
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 12972,
+    "end": 12975,
+    "range": [
+      12972,
+      12975
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Set",
+    "start": 12976,
+    "end": 12979,
+    "range": [
+      12976,
+      12979
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 12979,
+    "end": 12980,
+    "range": [
+      12979,
+      12980
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 12980,
+    "end": 12981,
+    "range": [
+      12980,
+      12981
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 12981,
+    "end": 12984,
+    "range": [
+      12981,
+      12984
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZoneIdentifiers",
+    "start": 12984,
+    "end": 13003,
+    "range": [
+      12984,
+      13003
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 13003,
+    "end": 13004,
+    "range": [
+      13003,
+      13004
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 13005,
+    "end": 13008,
+    "range": [
+      13005,
+      13008
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 13008,
+    "end": 13012,
+    "range": [
+      13008,
+      13012
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13012,
+    "end": 13013,
+    "range": [
+      13012,
+      13013
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "supportedValuesOf",
+    "start": 13013,
+    "end": 13030,
+    "range": [
+      13013,
+      13030
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13030,
+    "end": 13031,
+    "range": [
+      13030,
+      13031
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'timeZone'",
+    "start": 13031,
+    "end": 13041,
+    "range": [
+      13031,
+      13041
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13041,
+    "end": 13042,
+    "range": [
+      13041,
+      13042
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 13042,
+    "end": 13043,
+    "range": [
+      13042,
+      13043
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13043,
+    "end": 13044,
+    "range": [
+      13043,
+      13044
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 13044,
+    "end": 13045,
+    "range": [
+      13044,
+      13045
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 13045,
+    "end": 13046,
+    "range": [
+      13045,
+      13046
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 13047,
+    "end": 13050,
+    "range": [
+      13047,
+      13050
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13051,
+    "end": 13052,
+    "range": [
+      13051,
+      13052
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 13052,
+    "end": 13057,
+    "range": [
+      13052,
+      13057
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 13058,
+    "end": 13060,
+    "range": [
+      13058,
+      13060
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "of",
+    "start": 13061,
+    "end": 13063,
+    "range": [
+      13061,
+      13063
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ids",
+    "start": 13064,
+    "end": 13067,
+    "range": [
+      13064,
+      13067
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13067,
+    "end": 13068,
+    "range": [
+      13067,
+      13068
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 13069,
+    "end": 13070,
+    "range": [
+      13069,
+      13070
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 13073,
+    "end": 13078,
+    "range": [
+      13073,
+      13078
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lower",
+    "start": 13079,
+    "end": 13084,
+    "range": [
+      13079,
+      13084
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 13085,
+    "end": 13086,
+    "range": [
+      13085,
+      13086
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 13087,
+    "end": 13089,
+    "range": [
+      13087,
+      13089
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13089,
+    "end": 13090,
+    "range": [
+      13089,
+      13090
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toLowerCase",
+    "start": 13090,
+    "end": 13101,
+    "range": [
+      13090,
+      13101
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13101,
+    "end": 13102,
+    "range": [
+      13101,
+      13102
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13102,
+    "end": 13103,
+    "range": [
+      13102,
+      13103
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 13103,
+    "end": 13104,
+    "range": [
+      13103,
+      13104
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 13107,
+    "end": 13112,
+    "range": [
+      13107,
+      13112
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "upper",
+    "start": 13113,
+    "end": 13118,
+    "range": [
+      13113,
+      13118
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 13119,
+    "end": 13120,
+    "range": [
+      13119,
+      13120
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 13121,
+    "end": 13123,
+    "range": [
+      13121,
+      13123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13123,
+    "end": 13124,
+    "range": [
+      13123,
+      13124
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toUpperCase",
+    "start": 13124,
+    "end": 13135,
+    "range": [
+      13124,
+      13135
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13135,
+    "end": 13136,
+    "range": [
+      13135,
+      13136
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13136,
+    "end": 13137,
+    "range": [
+      13136,
+      13137
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 13137,
+    "end": 13138,
+    "range": [
+      13137,
+      13138
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 13141,
+    "end": 13146,
+    "range": [
+      13141,
+      13146
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 13147,
+    "end": 13150,
+    "range": [
+      13147,
+      13150
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 13151,
+    "end": 13152,
+    "range": [
+      13151,
+      13152
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 13153,
+    "end": 13156,
+    "range": [
+      13153,
+      13156
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 13157,
+    "end": 13165,
+    "range": [
+      13157,
+      13165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13165,
+    "end": 13166,
+    "range": [
+      13165,
+      13166
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 13166,
+    "end": 13179,
+    "range": [
+      13166,
+      13179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13179,
+    "end": 13180,
+    "range": [
+      13179,
+      13180
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 13180,
+    "end": 13182,
+    "range": [
+      13180,
+      13182
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 13182,
+    "end": 13183,
+    "range": [
+      13182,
+      13183
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 13184,
+    "end": 13186,
+    "range": [
+      13184,
+      13186
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13186,
+    "end": 13187,
+    "range": [
+      13186,
+      13187
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 13187,
+    "end": 13188,
+    "range": [
+      13187,
+      13188
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 13191,
+    "end": 13197,
+    "range": [
+      13191,
+      13197
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13197,
+    "end": 13198,
+    "range": [
+      13197,
+      13198
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 13198,
+    "end": 13201,
+    "range": [
+      13198,
+      13201
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13201,
+    "end": 13202,
+    "range": [
+      13201,
+      13202
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "equals",
+    "start": 13202,
+    "end": 13208,
+    "range": [
+      13202,
+      13208
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13208,
+    "end": 13209,
+    "range": [
+      13208,
+      13209
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 13209,
+    "end": 13212,
+    "range": [
+      13209,
+      13212
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13212,
+    "end": 13213,
+    "range": [
+      13212,
+      13213
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "withTimeZone",
+    "start": 13213,
+    "end": 13225,
+    "range": [
+      13213,
+      13225
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13225,
+    "end": 13226,
+    "range": [
+      13225,
+      13226
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "upper",
+    "start": 13226,
+    "end": 13231,
+    "range": [
+      13226,
+      13231
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13231,
+    "end": 13232,
+    "range": [
+      13231,
+      13232
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13232,
+    "end": 13233,
+    "range": [
+      13232,
+      13233
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 13233,
+    "end": 13234,
+    "range": [
+      13233,
+      13234
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`Time zone \"${",
+    "start": 13235,
+    "end": 13249,
+    "range": [
+      13235,
+      13249
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 13249,
+    "end": 13251,
+    "range": [
+      13249,
+      13251
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}\" compared to string \"${",
+    "start": 13251,
+    "end": 13276,
+    "range": [
+      13251,
+      13276
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "upper",
+    "start": 13276,
+    "end": 13281,
+    "range": [
+      13276,
+      13281
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}\"`",
+    "start": 13281,
+    "end": 13284,
+    "range": [
+      13281,
+      13284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13284,
+    "end": 13285,
+    "range": [
+      13284,
+      13285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 13285,
+    "end": 13286,
+    "range": [
+      13285,
+      13286
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 13289,
+    "end": 13295,
+    "range": [
+      13289,
+      13295
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13295,
+    "end": 13296,
+    "range": [
+      13295,
+      13296
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 13296,
+    "end": 13299,
+    "range": [
+      13296,
+      13299
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13299,
+    "end": 13300,
+    "range": [
+      13299,
+      13300
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "equals",
+    "start": 13300,
+    "end": 13306,
+    "range": [
+      13300,
+      13306
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13306,
+    "end": 13307,
+    "range": [
+      13306,
+      13307
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 13307,
+    "end": 13310,
+    "range": [
+      13307,
+      13310
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 13310,
+    "end": 13311,
+    "range": [
+      13310,
+      13311
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "withTimeZone",
+    "start": 13311,
+    "end": 13323,
+    "range": [
+      13311,
+      13323
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13323,
+    "end": 13324,
+    "range": [
+      13323,
+      13324
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lower",
+    "start": 13324,
+    "end": 13329,
+    "range": [
+      13324,
+      13329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13329,
+    "end": 13330,
+    "range": [
+      13329,
+      13330
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13330,
+    "end": 13331,
+    "range": [
+      13330,
+      13331
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 13331,
+    "end": 13332,
+    "range": [
+      13331,
+      13332
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`Time zone \"${",
+    "start": 13333,
+    "end": 13347,
+    "range": [
+      13333,
+      13347
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 13347,
+    "end": 13349,
+    "range": [
+      13347,
+      13349
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}\" compared to string \"${",
+    "start": 13349,
+    "end": 13374,
+    "range": [
+      13349,
+      13374
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lower",
+    "start": 13374,
+    "end": 13379,
+    "range": [
+      13374,
+      13379
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}\"`",
+    "start": 13379,
+    "end": 13382,
+    "range": [
+      13379,
+      13382
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13382,
+    "end": 13383,
+    "range": [
+      13382,
+      13383
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 13383,
+    "end": 13384,
+    "range": [
+      13383,
+      13384
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 13385,
+    "end": 13386,
+    "range": [
+      13385,
+      13386
+    ]
+  }
+]

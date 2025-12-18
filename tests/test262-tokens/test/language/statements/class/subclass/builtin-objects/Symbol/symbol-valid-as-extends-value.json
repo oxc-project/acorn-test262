@@ -1,0 +1,62 @@
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 534,
+    "end": 539,
+    "range": [
+      534,
+      539
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "S",
+    "start": 540,
+    "end": 541,
+    "range": [
+      540,
+      541
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 542,
+    "end": 549,
+    "range": [
+      542,
+      549
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 550,
+    "end": 556,
+    "range": [
+      550,
+      556
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 557,
+    "end": 558,
+    "range": [
+      557,
+      558
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 558,
+    "end": 559,
+    "range": [
+      558,
+      559
+    ]
+  }
+]

@@ -1,0 +1,3446 @@
+[
+  {
+    "type": "Identifier",
+    "value": "testPropertyOfStrings",
+    "start": 485,
+    "end": 506,
+    "range": [
+      485,
+      506
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 506,
+    "end": 507,
+    "range": [
+      506,
+      507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 507,
+    "end": 508,
+    "range": [
+      507,
+      508
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "regExp",
+    "start": 511,
+    "end": 517,
+    "range": [
+      511,
+      517
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 517,
+    "end": 518,
+    "range": [
+      517,
+      518
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/^\\p{RGI_Emoji}+$/v",
+    "regex": {
+      "flags": "v",
+      "pattern": "^\\p{RGI_Emoji}+$"
+    },
+    "start": 519,
+    "end": 538,
+    "range": [
+      519,
+      538
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 538,
+    "end": 539,
+    "range": [
+      538,
+      539
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "expression",
+    "start": 542,
+    "end": 552,
+    "range": [
+      542,
+      552
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 552,
+    "end": 553,
+    "range": [
+      552,
+      553
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\p{RGI_Emoji}\"",
+    "start": 554,
+    "end": 570,
+    "range": [
+      554,
+      570
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 570,
+    "end": 571,
+    "range": [
+      570,
+      571
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "matchStrings",
+    "start": 574,
+    "end": 586,
+    "range": [
+      574,
+      586
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 586,
+    "end": 587,
+    "range": [
+      586,
+      587
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 588,
+    "end": 589,
+    "range": [
+      588,
+      589
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 594,
+    "end": 653,
+    "range": [
+      594,
+      653
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 653,
+    "end": 654,
+    "range": [
+      653,
+      654
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 659,
+    "end": 718,
+    "range": [
+      659,
+      718
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 718,
+    "end": 719,
+    "range": [
+      718,
+      719
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 724,
+    "end": 783,
+    "range": [
+      724,
+      783
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 783,
+    "end": 784,
+    "range": [
+      783,
+      784
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 789,
+    "end": 848,
+    "range": [
+      789,
+      848
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 848,
+    "end": 849,
+    "range": [
+      848,
+      849
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 854,
+    "end": 913,
+    "range": [
+      854,
+      913
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 913,
+    "end": 914,
+    "range": [
+      913,
+      914
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 919,
+    "end": 978,
+    "range": [
+      919,
+      978
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 978,
+    "end": 979,
+    "range": [
+      978,
+      979
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 984,
+    "end": 1043,
+    "range": [
+      984,
+      1043
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1043,
+    "end": 1044,
+    "range": [
+      1043,
+      1044
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 1049,
+    "end": 1108,
+    "range": [
+      1049,
+      1108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1108,
+    "end": 1109,
+    "range": [
+      1108,
+      1109
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 1114,
+    "end": 1173,
+    "range": [
+      1114,
+      1173
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1173,
+    "end": 1174,
+    "range": [
+      1173,
+      1174
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 1179,
+    "end": 1238,
+    "range": [
+      1179,
+      1238
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1238,
+    "end": 1239,
+    "range": [
+      1238,
+      1239
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 1244,
+    "end": 1303,
+    "range": [
+      1244,
+      1303
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1303,
+    "end": 1304,
+    "range": [
+      1303,
+      1304
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 1309,
+    "end": 1368,
+    "range": [
+      1309,
+      1368
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1368,
+    "end": 1369,
+    "range": [
+      1368,
+      1369
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 1374,
+    "end": 1433,
+    "range": [
+      1374,
+      1433
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1433,
+    "end": 1434,
+    "range": [
+      1433,
+      1434
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 1439,
+    "end": 1498,
+    "range": [
+      1439,
+      1498
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1498,
+    "end": 1499,
+    "range": [
+      1498,
+      1499
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 1504,
+    "end": 1563,
+    "range": [
+      1504,
+      1563
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1563,
+    "end": 1564,
+    "range": [
+      1563,
+      1564
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 1569,
+    "end": 1628,
+    "range": [
+      1569,
+      1628
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1628,
+    "end": 1629,
+    "range": [
+      1628,
+      1629
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 1634,
+    "end": 1693,
+    "range": [
+      1634,
+      1693
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1693,
+    "end": 1694,
+    "range": [
+      1693,
+      1694
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 1699,
+    "end": 1758,
+    "range": [
+      1699,
+      1758
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1758,
+    "end": 1759,
+    "range": [
+      1758,
+      1759
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 1764,
+    "end": 1823,
+    "range": [
+      1764,
+      1823
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1823,
+    "end": 1824,
+    "range": [
+      1823,
+      1824
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 1829,
+    "end": 1888,
+    "range": [
+      1829,
+      1888
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1888,
+    "end": 1889,
+    "range": [
+      1888,
+      1889
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 1894,
+    "end": 1953,
+    "range": [
+      1894,
+      1953
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1953,
+    "end": 1954,
+    "range": [
+      1953,
+      1954
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 1959,
+    "end": 2018,
+    "range": [
+      1959,
+      2018
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2018,
+    "end": 2019,
+    "range": [
+      2018,
+      2019
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 2024,
+    "end": 2083,
+    "range": [
+      2024,
+      2083
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2083,
+    "end": 2084,
+    "range": [
+      2083,
+      2084
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 2089,
+    "end": 2148,
+    "range": [
+      2089,
+      2148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2148,
+    "end": 2149,
+    "range": [
+      2148,
+      2149
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 2154,
+    "end": 2213,
+    "range": [
+      2154,
+      2213
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2213,
+    "end": 2214,
+    "range": [
+      2213,
+      2214
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 2219,
+    "end": 2278,
+    "range": [
+      2219,
+      2278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2278,
+    "end": 2279,
+    "range": [
+      2278,
+      2279
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 2284,
+    "end": 2343,
+    "range": [
+      2284,
+      2343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2343,
+    "end": 2344,
+    "range": [
+      2343,
+      2344
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 2349,
+    "end": 2408,
+    "range": [
+      2349,
+      2408
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2408,
+    "end": 2409,
+    "range": [
+      2408,
+      2409
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 2414,
+    "end": 2473,
+    "range": [
+      2414,
+      2473
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2473,
+    "end": 2474,
+    "range": [
+      2473,
+      2474
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 2479,
+    "end": 2538,
+    "range": [
+      2479,
+      2538
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2538,
+    "end": 2539,
+    "range": [
+      2538,
+      2539
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 2544,
+    "end": 2603,
+    "range": [
+      2544,
+      2603
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2603,
+    "end": 2604,
+    "range": [
+      2603,
+      2604
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+    "start": 2609,
+    "end": 2668,
+    "range": [
+      2609,
+      2668
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2668,
+    "end": 2669,
+    "range": [
+      2668,
+      2669
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 2674,
+    "end": 2733,
+    "range": [
+      2674,
+      2733
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2733,
+    "end": 2734,
+    "range": [
+      2733,
+      2734
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 2739,
+    "end": 2798,
+    "range": [
+      2739,
+      2798
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2798,
+    "end": 2799,
+    "range": [
+      2798,
+      2799
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 2804,
+    "end": 2863,
+    "range": [
+      2804,
+      2863
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2863,
+    "end": 2864,
+    "range": [
+      2863,
+      2864
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 2869,
+    "end": 2928,
+    "range": [
+      2869,
+      2928
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2928,
+    "end": 2929,
+    "range": [
+      2928,
+      2929
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+    "start": 2934,
+    "end": 2993,
+    "range": [
+      2934,
+      2993
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2993,
+    "end": 2994,
+    "range": [
+      2993,
+      2994
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+    "start": 2999,
+    "end": 3058,
+    "range": [
+      2999,
+      3058
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3058,
+    "end": 3059,
+    "range": [
+      3058,
+      3059
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+    "start": 3064,
+    "end": 3123,
+    "range": [
+      3064,
+      3123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3123,
+    "end": 3124,
+    "range": [
+      3123,
+      3124
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+    "start": 3129,
+    "end": 3188,
+    "range": [
+      3129,
+      3188
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3188,
+    "end": 3189,
+    "range": [
+      3188,
+      3189
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 3194,
+    "end": 3253,
+    "range": [
+      3194,
+      3253
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3253,
+    "end": 3254,
+    "range": [
+      3253,
+      3254
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 3259,
+    "end": 3318,
+    "range": [
+      3259,
+      3318
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3318,
+    "end": 3319,
+    "range": [
+      3318,
+      3319
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 3324,
+    "end": 3383,
+    "range": [
+      3324,
+      3383
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3383,
+    "end": 3384,
+    "range": [
+      3383,
+      3384
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 3389,
+    "end": 3448,
+    "range": [
+      3389,
+      3448
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3448,
+    "end": 3449,
+    "range": [
+      3448,
+      3449
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 3454,
+    "end": 3513,
+    "range": [
+      3454,
+      3513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3513,
+    "end": 3514,
+    "range": [
+      3513,
+      3514
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 3519,
+    "end": 3578,
+    "range": [
+      3519,
+      3578
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3578,
+    "end": 3579,
+    "range": [
+      3578,
+      3579
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 3584,
+    "end": 3643,
+    "range": [
+      3584,
+      3643
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3643,
+    "end": 3644,
+    "range": [
+      3643,
+      3644
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 3649,
+    "end": 3708,
+    "range": [
+      3649,
+      3708
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3708,
+    "end": 3709,
+    "range": [
+      3708,
+      3709
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 3714,
+    "end": 3773,
+    "range": [
+      3714,
+      3773
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3773,
+    "end": 3774,
+    "range": [
+      3773,
+      3774
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 3779,
+    "end": 3838,
+    "range": [
+      3779,
+      3838
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3838,
+    "end": 3839,
+    "range": [
+      3838,
+      3839
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 3844,
+    "end": 3903,
+    "range": [
+      3844,
+      3903
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3903,
+    "end": 3904,
+    "range": [
+      3903,
+      3904
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 3909,
+    "end": 3968,
+    "range": [
+      3909,
+      3968
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3968,
+    "end": 3969,
+    "range": [
+      3968,
+      3969
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 3974,
+    "end": 4033,
+    "range": [
+      3974,
+      4033
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4033,
+    "end": 4034,
+    "range": [
+      4033,
+      4034
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 4039,
+    "end": 4098,
+    "range": [
+      4039,
+      4098
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4098,
+    "end": 4099,
+    "range": [
+      4098,
+      4099
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 4104,
+    "end": 4163,
+    "range": [
+      4104,
+      4163
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4163,
+    "end": 4164,
+    "range": [
+      4163,
+      4164
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 4169,
+    "end": 4228,
+    "range": [
+      4169,
+      4228
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4228,
+    "end": 4229,
+    "range": [
+      4228,
+      4229
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 4234,
+    "end": 4293,
+    "range": [
+      4234,
+      4293
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4293,
+    "end": 4294,
+    "range": [
+      4293,
+      4294
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 4299,
+    "end": 4358,
+    "range": [
+      4299,
+      4358
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4358,
+    "end": 4359,
+    "range": [
+      4358,
+      4359
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 4364,
+    "end": 4423,
+    "range": [
+      4364,
+      4423
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4423,
+    "end": 4424,
+    "range": [
+      4423,
+      4424
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 4429,
+    "end": 4488,
+    "range": [
+      4429,
+      4488
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4488,
+    "end": 4489,
+    "range": [
+      4488,
+      4489
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 4494,
+    "end": 4553,
+    "range": [
+      4494,
+      4553
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4553,
+    "end": 4554,
+    "range": [
+      4553,
+      4554
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 4559,
+    "end": 4618,
+    "range": [
+      4559,
+      4618
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4618,
+    "end": 4619,
+    "range": [
+      4618,
+      4619
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 4624,
+    "end": 4683,
+    "range": [
+      4624,
+      4683
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4683,
+    "end": 4684,
+    "range": [
+      4683,
+      4684
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 4689,
+    "end": 4748,
+    "range": [
+      4689,
+      4748
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4748,
+    "end": 4749,
+    "range": [
+      4748,
+      4749
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 4754,
+    "end": 4813,
+    "range": [
+      4754,
+      4813
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4813,
+    "end": 4814,
+    "range": [
+      4813,
+      4814
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 4819,
+    "end": 4878,
+    "range": [
+      4819,
+      4878
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4878,
+    "end": 4879,
+    "range": [
+      4878,
+      4879
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 4884,
+    "end": 4943,
+    "range": [
+      4884,
+      4943
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4943,
+    "end": 4944,
+    "range": [
+      4943,
+      4944
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 4949,
+    "end": 5008,
+    "range": [
+      4949,
+      5008
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5008,
+    "end": 5009,
+    "range": [
+      5008,
+      5009
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 5014,
+    "end": 5073,
+    "range": [
+      5014,
+      5073
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5073,
+    "end": 5074,
+    "range": [
+      5073,
+      5074
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 5079,
+    "end": 5138,
+    "range": [
+      5079,
+      5138
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5138,
+    "end": 5139,
+    "range": [
+      5138,
+      5139
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 5144,
+    "end": 5203,
+    "range": [
+      5144,
+      5203
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5203,
+    "end": 5204,
+    "range": [
+      5203,
+      5204
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+    "start": 5209,
+    "end": 5268,
+    "range": [
+      5209,
+      5268
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5268,
+    "end": 5269,
+    "range": [
+      5268,
+      5269
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 5274,
+    "end": 5333,
+    "range": [
+      5274,
+      5333
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5333,
+    "end": 5334,
+    "range": [
+      5333,
+      5334
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 5339,
+    "end": 5398,
+    "range": [
+      5339,
+      5398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5398,
+    "end": 5399,
+    "range": [
+      5398,
+      5399
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 5404,
+    "end": 5463,
+    "range": [
+      5404,
+      5463
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5463,
+    "end": 5464,
+    "range": [
+      5463,
+      5464
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 5469,
+    "end": 5528,
+    "range": [
+      5469,
+      5528
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5528,
+    "end": 5529,
+    "range": [
+      5528,
+      5529
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+    "start": 5534,
+    "end": 5593,
+    "range": [
+      5534,
+      5593
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5593,
+    "end": 5594,
+    "range": [
+      5593,
+      5594
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+    "start": 5599,
+    "end": 5658,
+    "range": [
+      5599,
+      5658
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5658,
+    "end": 5659,
+    "range": [
+      5658,
+      5659
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+    "start": 5664,
+    "end": 5723,
+    "range": [
+      5664,
+      5723
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5723,
+    "end": 5724,
+    "range": [
+      5723,
+      5724
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+    "start": 5729,
+    "end": 5788,
+    "range": [
+      5729,
+      5788
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5788,
+    "end": 5789,
+    "range": [
+      5788,
+      5789
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FB}\"",
+    "start": 5794,
+    "end": 5814,
+    "range": [
+      5794,
+      5814
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5814,
+    "end": 5815,
+    "range": [
+      5814,
+      5815
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FB}\\u200D\\u2640\\uFE0F\"",
+    "start": 5820,
+    "end": 5858,
+    "range": [
+      5820,
+      5858
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5858,
+    "end": 5859,
+    "range": [
+      5858,
+      5859
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FB}\\u200D\\u2642\\uFE0F\"",
+    "start": 5864,
+    "end": 5902,
+    "range": [
+      5864,
+      5902
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5902,
+    "end": 5903,
+    "range": [
+      5902,
+      5903
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FC}\"",
+    "start": 5908,
+    "end": 5928,
+    "range": [
+      5908,
+      5928
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5928,
+    "end": 5929,
+    "range": [
+      5928,
+      5929
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FC}\\u200D\\u2640\\uFE0F\"",
+    "start": 5934,
+    "end": 5972,
+    "range": [
+      5934,
+      5972
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5972,
+    "end": 5973,
+    "range": [
+      5972,
+      5973
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FC}\\u200D\\u2642\\uFE0F\"",
+    "start": 5978,
+    "end": 6016,
+    "range": [
+      5978,
+      6016
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6016,
+    "end": 6017,
+    "range": [
+      6016,
+      6017
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FD}\"",
+    "start": 6022,
+    "end": 6042,
+    "range": [
+      6022,
+      6042
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6042,
+    "end": 6043,
+    "range": [
+      6042,
+      6043
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FD}\\u200D\\u2640\\uFE0F\"",
+    "start": 6048,
+    "end": 6086,
+    "range": [
+      6048,
+      6086
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6086,
+    "end": 6087,
+    "range": [
+      6086,
+      6087
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FD}\\u200D\\u2642\\uFE0F\"",
+    "start": 6092,
+    "end": 6130,
+    "range": [
+      6092,
+      6130
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6130,
+    "end": 6131,
+    "range": [
+      6130,
+      6131
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FE}\"",
+    "start": 6136,
+    "end": 6156,
+    "range": [
+      6136,
+      6156
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6156,
+    "end": 6157,
+    "range": [
+      6156,
+      6157
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FE}\\u200D\\u2640\\uFE0F\"",
+    "start": 6162,
+    "end": 6200,
+    "range": [
+      6162,
+      6200
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6200,
+    "end": 6201,
+    "range": [
+      6200,
+      6201
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FE}\\u200D\\u2642\\uFE0F\"",
+    "start": 6206,
+    "end": 6244,
+    "range": [
+      6206,
+      6244
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6244,
+    "end": 6245,
+    "range": [
+      6244,
+      6245
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FF}\"",
+    "start": 6250,
+    "end": 6270,
+    "range": [
+      6250,
+      6270
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6270,
+    "end": 6271,
+    "range": [
+      6270,
+      6271
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FF}\\u200D\\u2640\\uFE0F\"",
+    "start": 6276,
+    "end": 6314,
+    "range": [
+      6276,
+      6314
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6314,
+    "end": 6315,
+    "range": [
+      6314,
+      6315
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F46F}\\u{1F3FF}\\u200D\\u2642\\uFE0F\"",
+    "start": 6320,
+    "end": 6358,
+    "range": [
+      6320,
+      6358
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6358,
+    "end": 6359,
+    "range": [
+      6358,
+      6359
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F6D8}\"",
+    "start": 6364,
+    "end": 6375,
+    "range": [
+      6364,
+      6375
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6375,
+    "end": 6376,
+    "range": [
+      6375,
+      6376
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FB}\"",
+    "start": 6381,
+    "end": 6401,
+    "range": [
+      6381,
+      6401
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6401,
+    "end": 6402,
+    "range": [
+      6401,
+      6402
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FB}\\u200D\\u2640\\uFE0F\"",
+    "start": 6407,
+    "end": 6445,
+    "range": [
+      6407,
+      6445
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6445,
+    "end": 6446,
+    "range": [
+      6445,
+      6446
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FB}\\u200D\\u2642\\uFE0F\"",
+    "start": 6451,
+    "end": 6489,
+    "range": [
+      6451,
+      6489
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6489,
+    "end": 6490,
+    "range": [
+      6489,
+      6490
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FC}\"",
+    "start": 6495,
+    "end": 6515,
+    "range": [
+      6495,
+      6515
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6515,
+    "end": 6516,
+    "range": [
+      6515,
+      6516
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FC}\\u200D\\u2640\\uFE0F\"",
+    "start": 6521,
+    "end": 6559,
+    "range": [
+      6521,
+      6559
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6559,
+    "end": 6560,
+    "range": [
+      6559,
+      6560
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FC}\\u200D\\u2642\\uFE0F\"",
+    "start": 6565,
+    "end": 6603,
+    "range": [
+      6565,
+      6603
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6603,
+    "end": 6604,
+    "range": [
+      6603,
+      6604
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FD}\"",
+    "start": 6609,
+    "end": 6629,
+    "range": [
+      6609,
+      6629
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6629,
+    "end": 6630,
+    "range": [
+      6629,
+      6630
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FD}\\u200D\\u2640\\uFE0F\"",
+    "start": 6635,
+    "end": 6673,
+    "range": [
+      6635,
+      6673
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6673,
+    "end": 6674,
+    "range": [
+      6673,
+      6674
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FD}\\u200D\\u2642\\uFE0F\"",
+    "start": 6679,
+    "end": 6717,
+    "range": [
+      6679,
+      6717
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6717,
+    "end": 6718,
+    "range": [
+      6717,
+      6718
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FE}\"",
+    "start": 6723,
+    "end": 6743,
+    "range": [
+      6723,
+      6743
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6743,
+    "end": 6744,
+    "range": [
+      6743,
+      6744
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FE}\\u200D\\u2640\\uFE0F\"",
+    "start": 6749,
+    "end": 6787,
+    "range": [
+      6749,
+      6787
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6787,
+    "end": 6788,
+    "range": [
+      6787,
+      6788
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FE}\\u200D\\u2642\\uFE0F\"",
+    "start": 6793,
+    "end": 6831,
+    "range": [
+      6793,
+      6831
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6831,
+    "end": 6832,
+    "range": [
+      6831,
+      6832
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FF}\"",
+    "start": 6837,
+    "end": 6857,
+    "range": [
+      6837,
+      6857
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6857,
+    "end": 6858,
+    "range": [
+      6857,
+      6858
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FF}\\u200D\\u2640\\uFE0F\"",
+    "start": 6863,
+    "end": 6901,
+    "range": [
+      6863,
+      6901
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6901,
+    "end": 6902,
+    "range": [
+      6901,
+      6902
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F93C}\\u{1F3FF}\\u200D\\u2642\\uFE0F\"",
+    "start": 6907,
+    "end": 6945,
+    "range": [
+      6907,
+      6945
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6945,
+    "end": 6946,
+    "range": [
+      6945,
+      6946
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u200D\\u{1FA70}\"",
+    "start": 6951,
+    "end": 6977,
+    "range": [
+      6951,
+      6977
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6977,
+    "end": 6978,
+    "range": [
+      6977,
+      6978
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 6983,
+    "end": 7042,
+    "range": [
+      6983,
+      7042
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7042,
+    "end": 7043,
+    "range": [
+      7042,
+      7043
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 7048,
+    "end": 7107,
+    "range": [
+      7048,
+      7107
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7107,
+    "end": 7108,
+    "range": [
+      7107,
+      7108
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 7113,
+    "end": 7172,
+    "range": [
+      7113,
+      7172
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7172,
+    "end": 7173,
+    "range": [
+      7172,
+      7173
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 7178,
+    "end": 7237,
+    "range": [
+      7178,
+      7237
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7237,
+    "end": 7238,
+    "range": [
+      7237,
+      7238
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FA70}\"",
+    "start": 7243,
+    "end": 7278,
+    "range": [
+      7243,
+      7278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7278,
+    "end": 7279,
+    "range": [
+      7278,
+      7279
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 7284,
+    "end": 7343,
+    "range": [
+      7284,
+      7343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7343,
+    "end": 7344,
+    "range": [
+      7343,
+      7344
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 7349,
+    "end": 7408,
+    "range": [
+      7349,
+      7408
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7408,
+    "end": 7409,
+    "range": [
+      7408,
+      7409
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 7414,
+    "end": 7473,
+    "range": [
+      7414,
+      7473
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7473,
+    "end": 7474,
+    "range": [
+      7473,
+      7474
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 7479,
+    "end": 7538,
+    "range": [
+      7479,
+      7538
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7538,
+    "end": 7539,
+    "range": [
+      7538,
+      7539
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 7544,
+    "end": 7603,
+    "range": [
+      7544,
+      7603
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7603,
+    "end": 7604,
+    "range": [
+      7603,
+      7604
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 7609,
+    "end": 7668,
+    "range": [
+      7609,
+      7668
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7668,
+    "end": 7669,
+    "range": [
+      7668,
+      7669
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 7674,
+    "end": 7733,
+    "range": [
+      7674,
+      7733
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7733,
+    "end": 7734,
+    "range": [
+      7733,
+      7734
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 7739,
+    "end": 7798,
+    "range": [
+      7739,
+      7798
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7798,
+    "end": 7799,
+    "range": [
+      7798,
+      7799
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FA70}\"",
+    "start": 7804,
+    "end": 7839,
+    "range": [
+      7804,
+      7839
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7839,
+    "end": 7840,
+    "range": [
+      7839,
+      7840
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 7845,
+    "end": 7904,
+    "range": [
+      7845,
+      7904
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7904,
+    "end": 7905,
+    "range": [
+      7904,
+      7905
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 7910,
+    "end": 7969,
+    "range": [
+      7910,
+      7969
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7969,
+    "end": 7970,
+    "range": [
+      7969,
+      7970
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 7975,
+    "end": 8034,
+    "range": [
+      7975,
+      8034
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8034,
+    "end": 8035,
+    "range": [
+      8034,
+      8035
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 8040,
+    "end": 8099,
+    "range": [
+      8040,
+      8099
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8099,
+    "end": 8100,
+    "range": [
+      8099,
+      8100
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 8105,
+    "end": 8164,
+    "range": [
+      8105,
+      8164
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8164,
+    "end": 8165,
+    "range": [
+      8164,
+      8165
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 8170,
+    "end": 8229,
+    "range": [
+      8170,
+      8229
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8229,
+    "end": 8230,
+    "range": [
+      8229,
+      8230
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 8235,
+    "end": 8294,
+    "range": [
+      8235,
+      8294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8294,
+    "end": 8295,
+    "range": [
+      8294,
+      8295
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 8300,
+    "end": 8359,
+    "range": [
+      8300,
+      8359
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8359,
+    "end": 8360,
+    "range": [
+      8359,
+      8360
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FA70}\"",
+    "start": 8365,
+    "end": 8400,
+    "range": [
+      8365,
+      8400
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8400,
+    "end": 8401,
+    "range": [
+      8400,
+      8401
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 8406,
+    "end": 8465,
+    "range": [
+      8406,
+      8465
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8465,
+    "end": 8466,
+    "range": [
+      8465,
+      8466
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 8471,
+    "end": 8530,
+    "range": [
+      8471,
+      8530
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8530,
+    "end": 8531,
+    "range": [
+      8530,
+      8531
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 8536,
+    "end": 8595,
+    "range": [
+      8536,
+      8595
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8595,
+    "end": 8596,
+    "range": [
+      8595,
+      8596
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 8601,
+    "end": 8660,
+    "range": [
+      8601,
+      8660
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8660,
+    "end": 8661,
+    "range": [
+      8660,
+      8661
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 8666,
+    "end": 8725,
+    "range": [
+      8666,
+      8725
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8725,
+    "end": 8726,
+    "range": [
+      8725,
+      8726
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 8731,
+    "end": 8790,
+    "range": [
+      8731,
+      8790
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8790,
+    "end": 8791,
+    "range": [
+      8790,
+      8791
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 8796,
+    "end": 8855,
+    "range": [
+      8796,
+      8855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8855,
+    "end": 8856,
+    "range": [
+      8855,
+      8856
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 8861,
+    "end": 8920,
+    "range": [
+      8861,
+      8920
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8920,
+    "end": 8921,
+    "range": [
+      8920,
+      8921
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FA70}\"",
+    "start": 8926,
+    "end": 8961,
+    "range": [
+      8926,
+      8961
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8961,
+    "end": 8962,
+    "range": [
+      8961,
+      8962
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 8967,
+    "end": 9026,
+    "range": [
+      8967,
+      9026
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9026,
+    "end": 9027,
+    "range": [
+      9026,
+      9027
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 9032,
+    "end": 9091,
+    "range": [
+      9032,
+      9091
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9091,
+    "end": 9092,
+    "range": [
+      9091,
+      9092
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 9097,
+    "end": 9156,
+    "range": [
+      9097,
+      9156
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9156,
+    "end": 9157,
+    "range": [
+      9156,
+      9157
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+    "start": 9162,
+    "end": 9221,
+    "range": [
+      9162,
+      9221
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9221,
+    "end": 9222,
+    "range": [
+      9221,
+      9222
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 9227,
+    "end": 9286,
+    "range": [
+      9227,
+      9286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9286,
+    "end": 9287,
+    "range": [
+      9286,
+      9287
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 9292,
+    "end": 9351,
+    "range": [
+      9292,
+      9351
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9351,
+    "end": 9352,
+    "range": [
+      9351,
+      9352
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 9357,
+    "end": 9416,
+    "range": [
+      9357,
+      9416
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9416,
+    "end": 9417,
+    "range": [
+      9416,
+      9417
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 9422,
+    "end": 9481,
+    "range": [
+      9422,
+      9481
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9481,
+    "end": 9482,
+    "range": [
+      9481,
+      9482
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FA70}\"",
+    "start": 9487,
+    "end": 9522,
+    "range": [
+      9487,
+      9522
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9522,
+    "end": 9523,
+    "range": [
+      9522,
+      9523
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+    "start": 9528,
+    "end": 9587,
+    "range": [
+      9528,
+      9587
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9587,
+    "end": 9588,
+    "range": [
+      9587,
+      9588
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+    "start": 9593,
+    "end": 9652,
+    "range": [
+      9593,
+      9652
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9652,
+    "end": 9653,
+    "range": [
+      9652,
+      9653
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+    "start": 9658,
+    "end": 9717,
+    "range": [
+      9658,
+      9717
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9717,
+    "end": 9718,
+    "range": [
+      9717,
+      9718
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+    "start": 9723,
+    "end": 9782,
+    "range": [
+      9723,
+      9782
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9782,
+    "end": 9783,
+    "range": [
+      9782,
+      9783
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1FA8A}\"",
+    "start": 9788,
+    "end": 9799,
+    "range": [
+      9788,
+      9799
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9799,
+    "end": 9800,
+    "range": [
+      9799,
+      9800
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1FA8E}\"",
+    "start": 9805,
+    "end": 9816,
+    "range": [
+      9805,
+      9816
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9816,
+    "end": 9817,
+    "range": [
+      9816,
+      9817
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1FAC8}\"",
+    "start": 9822,
+    "end": 9833,
+    "range": [
+      9822,
+      9833
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9833,
+    "end": 9834,
+    "range": [
+      9833,
+      9834
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1FACD}\"",
+    "start": 9839,
+    "end": 9850,
+    "range": [
+      9839,
+      9850
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9850,
+    "end": 9851,
+    "range": [
+      9850,
+      9851
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1FAEA}\"",
+    "start": 9856,
+    "end": 9867,
+    "range": [
+      9856,
+      9867
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9867,
+    "end": 9868,
+    "range": [
+      9867,
+      9868
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u{1FAEF}\"",
+    "start": 9873,
+    "end": 9884,
+    "range": [
+      9873,
+      9884
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 9887,
+    "end": 9888,
+    "range": [
+      9887,
+      9888
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9888,
+    "end": 9889,
+    "range": [
+      9888,
+      9889
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 9890,
+    "end": 9891,
+    "range": [
+      9890,
+      9891
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9891,
+    "end": 9892,
+    "range": [
+      9891,
+      9892
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 9892,
+    "end": 9893,
+    "range": [
+      9892,
+      9893
+    ]
+  }
+]

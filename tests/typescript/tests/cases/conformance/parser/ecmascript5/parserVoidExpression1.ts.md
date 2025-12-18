@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -29,4 +29,39 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 7
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 0,
+    "end": 4,
+    "range": [
+      0,
+      4
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 5,
+    "end": 6,
+    "range": [
+      5,
+      6
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  }
+]
 ```

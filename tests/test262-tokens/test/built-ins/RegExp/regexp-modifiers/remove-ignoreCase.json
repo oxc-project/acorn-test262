@@ -1,0 +1,3974 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1763,
+    "end": 1766,
+    "range": [
+      1763,
+      1766
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1767,
+    "end": 1770,
+    "range": [
+      1767,
+      1770
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1771,
+    "end": 1772,
+    "range": [
+      1771,
+      1772
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/(?-i:fo)o/i",
+    "regex": {
+      "flags": "i",
+      "pattern": "(?-i:fo)o"
+    },
+    "start": 1773,
+    "end": 1785,
+    "range": [
+      1773,
+      1785
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1785,
+    "end": 1786,
+    "range": [
+      1785,
+      1786
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1787,
+    "end": 1793,
+    "range": [
+      1787,
+      1793
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1793,
+    "end": 1794,
+    "range": [
+      1793,
+      1794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 1794,
+    "end": 1795,
+    "range": [
+      1794,
+      1795
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1795,
+    "end": 1798,
+    "range": [
+      1795,
+      1798
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1798,
+    "end": 1799,
+    "range": [
+      1798,
+      1799
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1799,
+    "end": 1803,
+    "range": [
+      1799,
+      1803
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1803,
+    "end": 1804,
+    "range": [
+      1803,
+      1804
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"FOO\"",
+    "start": 1804,
+    "end": 1809,
+    "range": [
+      1804,
+      1809
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1809,
+    "end": 1810,
+    "range": [
+      1809,
+      1810
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1810,
+    "end": 1811,
+    "range": [
+      1810,
+      1811
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 1812,
+    "end": 1877,
+    "range": [
+      1812,
+      1877
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1877,
+    "end": 1878,
+    "range": [
+      1877,
+      1878
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1878,
+    "end": 1879,
+    "range": [
+      1878,
+      1879
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1880,
+    "end": 1886,
+    "range": [
+      1880,
+      1886
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1886,
+    "end": 1887,
+    "range": [
+      1886,
+      1887
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 1887,
+    "end": 1888,
+    "range": [
+      1887,
+      1888
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1888,
+    "end": 1891,
+    "range": [
+      1888,
+      1891
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1891,
+    "end": 1892,
+    "range": [
+      1891,
+      1892
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1892,
+    "end": 1896,
+    "range": [
+      1892,
+      1896
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1896,
+    "end": 1897,
+    "range": [
+      1896,
+      1897
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"FOo\"",
+    "start": 1897,
+    "end": 1902,
+    "range": [
+      1897,
+      1902
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1902,
+    "end": 1903,
+    "range": [
+      1902,
+      1903
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1903,
+    "end": 1904,
+    "range": [
+      1903,
+      1904
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 1905,
+    "end": 1970,
+    "range": [
+      1905,
+      1970
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1970,
+    "end": 1971,
+    "range": [
+      1970,
+      1971
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1971,
+    "end": 1972,
+    "range": [
+      1971,
+      1972
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1973,
+    "end": 1979,
+    "range": [
+      1973,
+      1979
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1979,
+    "end": 1980,
+    "range": [
+      1979,
+      1980
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1980,
+    "end": 1983,
+    "range": [
+      1980,
+      1983
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1983,
+    "end": 1984,
+    "range": [
+      1983,
+      1984
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1984,
+    "end": 1988,
+    "range": [
+      1984,
+      1988
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1988,
+    "end": 1989,
+    "range": [
+      1988,
+      1989
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"foo\"",
+    "start": 1989,
+    "end": 1994,
+    "range": [
+      1989,
+      1994
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1994,
+    "end": 1995,
+    "range": [
+      1994,
+      1995
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1995,
+    "end": 1996,
+    "range": [
+      1995,
+      1996
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 1997,
+    "end": 2047,
+    "range": [
+      1997,
+      2047
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2047,
+    "end": 2048,
+    "range": [
+      2047,
+      2048
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2048,
+    "end": 2049,
+    "range": [
+      2048,
+      2049
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2050,
+    "end": 2056,
+    "range": [
+      2050,
+      2056
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2056,
+    "end": 2057,
+    "range": [
+      2056,
+      2057
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 2057,
+    "end": 2060,
+    "range": [
+      2057,
+      2060
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2060,
+    "end": 2061,
+    "range": [
+      2060,
+      2061
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2061,
+    "end": 2065,
+    "range": [
+      2061,
+      2065
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2065,
+    "end": 2066,
+    "range": [
+      2065,
+      2066
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"foO\"",
+    "start": 2066,
+    "end": 2071,
+    "range": [
+      2066,
+      2071
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2071,
+    "end": 2072,
+    "range": [
+      2071,
+      2072
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2072,
+    "end": 2073,
+    "range": [
+      2072,
+      2073
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 2074,
+    "end": 2124,
+    "range": [
+      2074,
+      2124
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2124,
+    "end": 2125,
+    "range": [
+      2124,
+      2125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2125,
+    "end": 2126,
+    "range": [
+      2125,
+      2126
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2128,
+    "end": 2131,
+    "range": [
+      2128,
+      2131
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2132,
+    "end": 2135,
+    "range": [
+      2132,
+      2135
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2136,
+    "end": 2137,
+    "range": [
+      2136,
+      2137
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 2138,
+    "end": 2141,
+    "range": [
+      2138,
+      2141
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 2142,
+    "end": 2148,
+    "range": [
+      2142,
+      2148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2148,
+    "end": 2149,
+    "range": [
+      2148,
+      2149
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"(?-i:fo)o\"",
+    "start": 2149,
+    "end": 2160,
+    "range": [
+      2149,
+      2160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2160,
+    "end": 2161,
+    "range": [
+      2160,
+      2161
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"i\"",
+    "start": 2162,
+    "end": 2165,
+    "range": [
+      2162,
+      2165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2165,
+    "end": 2166,
+    "range": [
+      2165,
+      2166
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2166,
+    "end": 2167,
+    "range": [
+      2166,
+      2167
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2168,
+    "end": 2174,
+    "range": [
+      2168,
+      2174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2174,
+    "end": 2175,
+    "range": [
+      2174,
+      2175
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2175,
+    "end": 2176,
+    "range": [
+      2175,
+      2176
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2176,
+    "end": 2179,
+    "range": [
+      2176,
+      2179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2179,
+    "end": 2180,
+    "range": [
+      2179,
+      2180
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2180,
+    "end": 2184,
+    "range": [
+      2180,
+      2184
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2184,
+    "end": 2185,
+    "range": [
+      2184,
+      2185
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"FOO\"",
+    "start": 2185,
+    "end": 2190,
+    "range": [
+      2185,
+      2190
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2190,
+    "end": 2191,
+    "range": [
+      2190,
+      2191
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2191,
+    "end": 2192,
+    "range": [
+      2191,
+      2192
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 2193,
+    "end": 2258,
+    "range": [
+      2193,
+      2258
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2258,
+    "end": 2259,
+    "range": [
+      2258,
+      2259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2259,
+    "end": 2260,
+    "range": [
+      2259,
+      2260
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2261,
+    "end": 2267,
+    "range": [
+      2261,
+      2267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2267,
+    "end": 2268,
+    "range": [
+      2267,
+      2268
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2268,
+    "end": 2269,
+    "range": [
+      2268,
+      2269
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2269,
+    "end": 2272,
+    "range": [
+      2269,
+      2272
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2272,
+    "end": 2273,
+    "range": [
+      2272,
+      2273
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2273,
+    "end": 2277,
+    "range": [
+      2273,
+      2277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2277,
+    "end": 2278,
+    "range": [
+      2277,
+      2278
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"FOo\"",
+    "start": 2278,
+    "end": 2283,
+    "range": [
+      2278,
+      2283
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2283,
+    "end": 2284,
+    "range": [
+      2283,
+      2284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2284,
+    "end": 2285,
+    "range": [
+      2284,
+      2285
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 2286,
+    "end": 2351,
+    "range": [
+      2286,
+      2351
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2351,
+    "end": 2352,
+    "range": [
+      2351,
+      2352
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2352,
+    "end": 2353,
+    "range": [
+      2352,
+      2353
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2354,
+    "end": 2360,
+    "range": [
+      2354,
+      2360
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2360,
+    "end": 2361,
+    "range": [
+      2360,
+      2361
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2361,
+    "end": 2364,
+    "range": [
+      2361,
+      2364
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2364,
+    "end": 2365,
+    "range": [
+      2364,
+      2365
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2365,
+    "end": 2369,
+    "range": [
+      2365,
+      2369
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2369,
+    "end": 2370,
+    "range": [
+      2369,
+      2370
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"foo\"",
+    "start": 2370,
+    "end": 2375,
+    "range": [
+      2370,
+      2375
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2375,
+    "end": 2376,
+    "range": [
+      2375,
+      2376
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2376,
+    "end": 2377,
+    "range": [
+      2376,
+      2377
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 2378,
+    "end": 2428,
+    "range": [
+      2378,
+      2428
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2428,
+    "end": 2429,
+    "range": [
+      2428,
+      2429
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2429,
+    "end": 2430,
+    "range": [
+      2429,
+      2430
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2431,
+    "end": 2437,
+    "range": [
+      2431,
+      2437
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2437,
+    "end": 2438,
+    "range": [
+      2437,
+      2438
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2438,
+    "end": 2441,
+    "range": [
+      2438,
+      2441
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2441,
+    "end": 2442,
+    "range": [
+      2441,
+      2442
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2442,
+    "end": 2446,
+    "range": [
+      2442,
+      2446
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2446,
+    "end": 2447,
+    "range": [
+      2446,
+      2447
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"foO\"",
+    "start": 2447,
+    "end": 2452,
+    "range": [
+      2447,
+      2452
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2452,
+    "end": 2453,
+    "range": [
+      2452,
+      2453
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2453,
+    "end": 2454,
+    "range": [
+      2453,
+      2454
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 2455,
+    "end": 2505,
+    "range": [
+      2455,
+      2505
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2505,
+    "end": 2506,
+    "range": [
+      2505,
+      2506
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2506,
+    "end": 2507,
+    "range": [
+      2506,
+      2507
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2509,
+    "end": 2512,
+    "range": [
+      2509,
+      2512
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re3",
+    "start": 2513,
+    "end": 2516,
+    "range": [
+      2513,
+      2516
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2517,
+    "end": 2518,
+    "range": [
+      2517,
+      2518
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/b(?-i:ar)/i",
+    "regex": {
+      "flags": "i",
+      "pattern": "b(?-i:ar)"
+    },
+    "start": 2519,
+    "end": 2531,
+    "range": [
+      2519,
+      2531
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2531,
+    "end": 2532,
+    "range": [
+      2531,
+      2532
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2533,
+    "end": 2539,
+    "range": [
+      2533,
+      2539
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2539,
+    "end": 2540,
+    "range": [
+      2539,
+      2540
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2540,
+    "end": 2541,
+    "range": [
+      2540,
+      2541
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re3",
+    "start": 2541,
+    "end": 2544,
+    "range": [
+      2541,
+      2544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2544,
+    "end": 2545,
+    "range": [
+      2544,
+      2545
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2545,
+    "end": 2549,
+    "range": [
+      2545,
+      2549
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2549,
+    "end": 2550,
+    "range": [
+      2549,
+      2550
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"BAR\"",
+    "start": 2550,
+    "end": 2555,
+    "range": [
+      2550,
+      2555
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2555,
+    "end": 2556,
+    "range": [
+      2555,
+      2556
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2556,
+    "end": 2557,
+    "range": [
+      2556,
+      2557
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 2558,
+    "end": 2623,
+    "range": [
+      2558,
+      2623
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2623,
+    "end": 2624,
+    "range": [
+      2623,
+      2624
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2624,
+    "end": 2625,
+    "range": [
+      2624,
+      2625
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2626,
+    "end": 2632,
+    "range": [
+      2626,
+      2632
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2632,
+    "end": 2633,
+    "range": [
+      2632,
+      2633
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2633,
+    "end": 2634,
+    "range": [
+      2633,
+      2634
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re3",
+    "start": 2634,
+    "end": 2637,
+    "range": [
+      2634,
+      2637
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2637,
+    "end": 2638,
+    "range": [
+      2637,
+      2638
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2638,
+    "end": 2642,
+    "range": [
+      2638,
+      2642
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2642,
+    "end": 2643,
+    "range": [
+      2642,
+      2643
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"bAR\"",
+    "start": 2643,
+    "end": 2648,
+    "range": [
+      2643,
+      2648
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2648,
+    "end": 2649,
+    "range": [
+      2648,
+      2649
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2649,
+    "end": 2650,
+    "range": [
+      2649,
+      2650
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 2651,
+    "end": 2716,
+    "range": [
+      2651,
+      2716
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2716,
+    "end": 2717,
+    "range": [
+      2716,
+      2717
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2717,
+    "end": 2718,
+    "range": [
+      2717,
+      2718
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2719,
+    "end": 2725,
+    "range": [
+      2719,
+      2725
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2725,
+    "end": 2726,
+    "range": [
+      2725,
+      2726
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re3",
+    "start": 2726,
+    "end": 2729,
+    "range": [
+      2726,
+      2729
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2729,
+    "end": 2730,
+    "range": [
+      2729,
+      2730
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2730,
+    "end": 2734,
+    "range": [
+      2730,
+      2734
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2734,
+    "end": 2735,
+    "range": [
+      2734,
+      2735
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"bar\"",
+    "start": 2735,
+    "end": 2740,
+    "range": [
+      2735,
+      2740
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2740,
+    "end": 2741,
+    "range": [
+      2740,
+      2741
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2741,
+    "end": 2742,
+    "range": [
+      2741,
+      2742
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 2743,
+    "end": 2793,
+    "range": [
+      2743,
+      2793
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2793,
+    "end": 2794,
+    "range": [
+      2793,
+      2794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2794,
+    "end": 2795,
+    "range": [
+      2794,
+      2795
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2796,
+    "end": 2802,
+    "range": [
+      2796,
+      2802
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2802,
+    "end": 2803,
+    "range": [
+      2802,
+      2803
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re3",
+    "start": 2803,
+    "end": 2806,
+    "range": [
+      2803,
+      2806
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2806,
+    "end": 2807,
+    "range": [
+      2806,
+      2807
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2807,
+    "end": 2811,
+    "range": [
+      2807,
+      2811
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2811,
+    "end": 2812,
+    "range": [
+      2811,
+      2812
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Bar\"",
+    "start": 2812,
+    "end": 2817,
+    "range": [
+      2812,
+      2817
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2817,
+    "end": 2818,
+    "range": [
+      2817,
+      2818
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2818,
+    "end": 2819,
+    "range": [
+      2818,
+      2819
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 2820,
+    "end": 2870,
+    "range": [
+      2820,
+      2870
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2870,
+    "end": 2871,
+    "range": [
+      2870,
+      2871
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2871,
+    "end": 2872,
+    "range": [
+      2871,
+      2872
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2874,
+    "end": 2877,
+    "range": [
+      2874,
+      2877
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re4",
+    "start": 2878,
+    "end": 2881,
+    "range": [
+      2878,
+      2881
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2882,
+    "end": 2883,
+    "range": [
+      2882,
+      2883
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 2884,
+    "end": 2887,
+    "range": [
+      2884,
+      2887
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 2888,
+    "end": 2894,
+    "range": [
+      2888,
+      2894
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2894,
+    "end": 2895,
+    "range": [
+      2894,
+      2895
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"b(?-i:ar)\"",
+    "start": 2895,
+    "end": 2906,
+    "range": [
+      2895,
+      2906
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2906,
+    "end": 2907,
+    "range": [
+      2906,
+      2907
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"i\"",
+    "start": 2908,
+    "end": 2911,
+    "range": [
+      2908,
+      2911
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2911,
+    "end": 2912,
+    "range": [
+      2911,
+      2912
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2912,
+    "end": 2913,
+    "range": [
+      2912,
+      2913
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2914,
+    "end": 2920,
+    "range": [
+      2914,
+      2920
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2920,
+    "end": 2921,
+    "range": [
+      2920,
+      2921
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2921,
+    "end": 2922,
+    "range": [
+      2921,
+      2922
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re4",
+    "start": 2922,
+    "end": 2925,
+    "range": [
+      2922,
+      2925
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2925,
+    "end": 2926,
+    "range": [
+      2925,
+      2926
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2926,
+    "end": 2930,
+    "range": [
+      2926,
+      2930
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2930,
+    "end": 2931,
+    "range": [
+      2930,
+      2931
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"BAR\"",
+    "start": 2931,
+    "end": 2936,
+    "range": [
+      2931,
+      2936
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2936,
+    "end": 2937,
+    "range": [
+      2936,
+      2937
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2937,
+    "end": 2938,
+    "range": [
+      2937,
+      2938
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 2939,
+    "end": 3004,
+    "range": [
+      2939,
+      3004
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3004,
+    "end": 3005,
+    "range": [
+      3004,
+      3005
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3005,
+    "end": 3006,
+    "range": [
+      3005,
+      3006
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3007,
+    "end": 3013,
+    "range": [
+      3007,
+      3013
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3013,
+    "end": 3014,
+    "range": [
+      3013,
+      3014
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 3014,
+    "end": 3015,
+    "range": [
+      3014,
+      3015
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re4",
+    "start": 3015,
+    "end": 3018,
+    "range": [
+      3015,
+      3018
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3018,
+    "end": 3019,
+    "range": [
+      3018,
+      3019
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3019,
+    "end": 3023,
+    "range": [
+      3019,
+      3023
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3023,
+    "end": 3024,
+    "range": [
+      3023,
+      3024
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"bAR\"",
+    "start": 3024,
+    "end": 3029,
+    "range": [
+      3024,
+      3029
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3029,
+    "end": 3030,
+    "range": [
+      3029,
+      3030
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3030,
+    "end": 3031,
+    "range": [
+      3030,
+      3031
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not match as modified group does not ignore case\"",
+    "start": 3032,
+    "end": 3097,
+    "range": [
+      3032,
+      3097
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3097,
+    "end": 3098,
+    "range": [
+      3097,
+      3098
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3098,
+    "end": 3099,
+    "range": [
+      3098,
+      3099
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3100,
+    "end": 3106,
+    "range": [
+      3100,
+      3106
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3106,
+    "end": 3107,
+    "range": [
+      3106,
+      3107
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re4",
+    "start": 3107,
+    "end": 3110,
+    "range": [
+      3107,
+      3110
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3110,
+    "end": 3111,
+    "range": [
+      3110,
+      3111
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3111,
+    "end": 3115,
+    "range": [
+      3111,
+      3115
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3115,
+    "end": 3116,
+    "range": [
+      3115,
+      3116
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"bar\"",
+    "start": 3116,
+    "end": 3121,
+    "range": [
+      3116,
+      3121
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3121,
+    "end": 3122,
+    "range": [
+      3121,
+      3122
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3122,
+    "end": 3123,
+    "range": [
+      3122,
+      3123
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 3124,
+    "end": 3174,
+    "range": [
+      3124,
+      3174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3174,
+    "end": 3175,
+    "range": [
+      3174,
+      3175
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3175,
+    "end": 3176,
+    "range": [
+      3175,
+      3176
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3177,
+    "end": 3183,
+    "range": [
+      3177,
+      3183
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3183,
+    "end": 3184,
+    "range": [
+      3183,
+      3184
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re4",
+    "start": 3184,
+    "end": 3187,
+    "range": [
+      3184,
+      3187
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3187,
+    "end": 3188,
+    "range": [
+      3187,
+      3188
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3188,
+    "end": 3192,
+    "range": [
+      3188,
+      3192
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3192,
+    "end": 3193,
+    "range": [
+      3192,
+      3193
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Bar\"",
+    "start": 3193,
+    "end": 3198,
+    "range": [
+      3193,
+      3198
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3198,
+    "end": 3199,
+    "range": [
+      3198,
+      3199
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3199,
+    "end": 3200,
+    "range": [
+      3199,
+      3200
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pattern should not ignore case in modified group\"",
+    "start": 3201,
+    "end": 3251,
+    "range": [
+      3201,
+      3251
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3251,
+    "end": 3252,
+    "range": [
+      3251,
+      3252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3252,
+    "end": 3253,
+    "range": [
+      3252,
+      3253
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 3255,
+    "end": 3258,
+    "range": [
+      3255,
+      3258
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re5",
+    "start": 3259,
+    "end": 3262,
+    "range": [
+      3259,
+      3262
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3263,
+    "end": 3264,
+    "range": [
+      3263,
+      3264
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/b(?-i:a)z/i",
+    "regex": {
+      "flags": "i",
+      "pattern": "b(?-i:a)z"
+    },
+    "start": 3265,
+    "end": 3277,
+    "range": [
+      3265,
+      3277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3277,
+    "end": 3278,
+    "range": [
+      3277,
+      3278
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3279,
+    "end": 3285,
+    "range": [
+      3279,
+      3285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3285,
+    "end": 3286,
+    "range": [
+      3285,
+      3286
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re5",
+    "start": 3286,
+    "end": 3289,
+    "range": [
+      3286,
+      3289
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3289,
+    "end": 3290,
+    "range": [
+      3289,
+      3290
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3290,
+    "end": 3294,
+    "range": [
+      3290,
+      3294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3294,
+    "end": 3295,
+    "range": [
+      3294,
+      3295
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"baz\"",
+    "start": 3295,
+    "end": 3300,
+    "range": [
+      3295,
+      3300
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3300,
+    "end": 3301,
+    "range": [
+      3300,
+      3301
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3301,
+    "end": 3302,
+    "range": [
+      3301,
+      3302
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"a should match a in baz\"",
+    "start": 3303,
+    "end": 3328,
+    "range": [
+      3303,
+      3328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3328,
+    "end": 3329,
+    "range": [
+      3328,
+      3329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3329,
+    "end": 3330,
+    "range": [
+      3329,
+      3330
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3331,
+    "end": 3337,
+    "range": [
+      3331,
+      3337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3337,
+    "end": 3338,
+    "range": [
+      3337,
+      3338
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 3338,
+    "end": 3339,
+    "range": [
+      3338,
+      3339
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re5",
+    "start": 3339,
+    "end": 3342,
+    "range": [
+      3339,
+      3342
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3342,
+    "end": 3343,
+    "range": [
+      3342,
+      3343
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3343,
+    "end": 3347,
+    "range": [
+      3343,
+      3347
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3347,
+    "end": 3348,
+    "range": [
+      3347,
+      3348
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"bAz\"",
+    "start": 3348,
+    "end": 3353,
+    "range": [
+      3348,
+      3353
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3353,
+    "end": 3354,
+    "range": [
+      3353,
+      3354
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3354,
+    "end": 3355,
+    "range": [
+      3354,
+      3355
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"A should not match a in baz\"",
+    "start": 3356,
+    "end": 3385,
+    "range": [
+      3356,
+      3385
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3385,
+    "end": 3386,
+    "range": [
+      3385,
+      3386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3386,
+    "end": 3387,
+    "range": [
+      3386,
+      3387
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3388,
+    "end": 3394,
+    "range": [
+      3388,
+      3394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3394,
+    "end": 3395,
+    "range": [
+      3394,
+      3395
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re5",
+    "start": 3395,
+    "end": 3398,
+    "range": [
+      3395,
+      3398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3398,
+    "end": 3399,
+    "range": [
+      3398,
+      3399
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3399,
+    "end": 3403,
+    "range": [
+      3399,
+      3403
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3403,
+    "end": 3404,
+    "range": [
+      3403,
+      3404
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Baz\"",
+    "start": 3404,
+    "end": 3409,
+    "range": [
+      3404,
+      3409
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3409,
+    "end": 3410,
+    "range": [
+      3409,
+      3410
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3410,
+    "end": 3411,
+    "range": [
+      3410,
+      3411
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"B should match b in baz\"",
+    "start": 3412,
+    "end": 3437,
+    "range": [
+      3412,
+      3437
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3437,
+    "end": 3438,
+    "range": [
+      3437,
+      3438
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3438,
+    "end": 3439,
+    "range": [
+      3438,
+      3439
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3440,
+    "end": 3446,
+    "range": [
+      3440,
+      3446
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3446,
+    "end": 3447,
+    "range": [
+      3446,
+      3447
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re5",
+    "start": 3447,
+    "end": 3450,
+    "range": [
+      3447,
+      3450
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3450,
+    "end": 3451,
+    "range": [
+      3450,
+      3451
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3451,
+    "end": 3455,
+    "range": [
+      3451,
+      3455
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3455,
+    "end": 3456,
+    "range": [
+      3455,
+      3456
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"baZ\"",
+    "start": 3456,
+    "end": 3461,
+    "range": [
+      3456,
+      3461
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3461,
+    "end": 3462,
+    "range": [
+      3461,
+      3462
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3462,
+    "end": 3463,
+    "range": [
+      3462,
+      3463
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Z should match z in baz\"",
+    "start": 3464,
+    "end": 3489,
+    "range": [
+      3464,
+      3489
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3489,
+    "end": 3490,
+    "range": [
+      3489,
+      3490
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3490,
+    "end": 3491,
+    "range": [
+      3490,
+      3491
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3492,
+    "end": 3498,
+    "range": [
+      3492,
+      3498
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3498,
+    "end": 3499,
+    "range": [
+      3498,
+      3499
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re5",
+    "start": 3499,
+    "end": 3502,
+    "range": [
+      3499,
+      3502
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3502,
+    "end": 3503,
+    "range": [
+      3502,
+      3503
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3503,
+    "end": 3507,
+    "range": [
+      3503,
+      3507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3507,
+    "end": 3508,
+    "range": [
+      3507,
+      3508
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"BaZ\"",
+    "start": 3508,
+    "end": 3513,
+    "range": [
+      3508,
+      3513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3513,
+    "end": 3514,
+    "range": [
+      3513,
+      3514
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3514,
+    "end": 3515,
+    "range": [
+      3514,
+      3515
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"should match baz\"",
+    "start": 3516,
+    "end": 3534,
+    "range": [
+      3516,
+      3534
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3534,
+    "end": 3535,
+    "range": [
+      3534,
+      3535
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3535,
+    "end": 3536,
+    "range": [
+      3535,
+      3536
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3537,
+    "end": 3543,
+    "range": [
+      3537,
+      3543
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3543,
+    "end": 3544,
+    "range": [
+      3543,
+      3544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 3544,
+    "end": 3545,
+    "range": [
+      3544,
+      3545
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re5",
+    "start": 3545,
+    "end": 3548,
+    "range": [
+      3545,
+      3548
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3548,
+    "end": 3549,
+    "range": [
+      3548,
+      3549
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3549,
+    "end": 3553,
+    "range": [
+      3549,
+      3553
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3553,
+    "end": 3554,
+    "range": [
+      3553,
+      3554
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"BAZ\"",
+    "start": 3554,
+    "end": 3559,
+    "range": [
+      3554,
+      3559
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3559,
+    "end": 3560,
+    "range": [
+      3559,
+      3560
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3560,
+    "end": 3561,
+    "range": [
+      3560,
+      3561
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"should not match baz\"",
+    "start": 3562,
+    "end": 3584,
+    "range": [
+      3562,
+      3584
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3584,
+    "end": 3585,
+    "range": [
+      3584,
+      3585
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3585,
+    "end": 3586,
+    "range": [
+      3585,
+      3586
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 3588,
+    "end": 3591,
+    "range": [
+      3588,
+      3591
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re6",
+    "start": 3592,
+    "end": 3595,
+    "range": [
+      3592,
+      3595
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3596,
+    "end": 3597,
+    "range": [
+      3596,
+      3597
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 3598,
+    "end": 3601,
+    "range": [
+      3598,
+      3601
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 3602,
+    "end": 3608,
+    "range": [
+      3602,
+      3608
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3608,
+    "end": 3609,
+    "range": [
+      3608,
+      3609
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"b(?-i:a)z\"",
+    "start": 3609,
+    "end": 3620,
+    "range": [
+      3609,
+      3620
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3620,
+    "end": 3621,
+    "range": [
+      3620,
+      3621
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"i\"",
+    "start": 3622,
+    "end": 3625,
+    "range": [
+      3622,
+      3625
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3625,
+    "end": 3626,
+    "range": [
+      3625,
+      3626
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3626,
+    "end": 3627,
+    "range": [
+      3626,
+      3627
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3628,
+    "end": 3634,
+    "range": [
+      3628,
+      3634
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3634,
+    "end": 3635,
+    "range": [
+      3634,
+      3635
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re6",
+    "start": 3635,
+    "end": 3638,
+    "range": [
+      3635,
+      3638
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3638,
+    "end": 3639,
+    "range": [
+      3638,
+      3639
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3639,
+    "end": 3643,
+    "range": [
+      3639,
+      3643
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3643,
+    "end": 3644,
+    "range": [
+      3643,
+      3644
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"baz\"",
+    "start": 3644,
+    "end": 3649,
+    "range": [
+      3644,
+      3649
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3649,
+    "end": 3650,
+    "range": [
+      3649,
+      3650
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3650,
+    "end": 3651,
+    "range": [
+      3650,
+      3651
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"a should match a in baz\"",
+    "start": 3652,
+    "end": 3677,
+    "range": [
+      3652,
+      3677
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3677,
+    "end": 3678,
+    "range": [
+      3677,
+      3678
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3678,
+    "end": 3679,
+    "range": [
+      3678,
+      3679
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3680,
+    "end": 3686,
+    "range": [
+      3680,
+      3686
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3686,
+    "end": 3687,
+    "range": [
+      3686,
+      3687
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 3687,
+    "end": 3688,
+    "range": [
+      3687,
+      3688
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re6",
+    "start": 3688,
+    "end": 3691,
+    "range": [
+      3688,
+      3691
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3691,
+    "end": 3692,
+    "range": [
+      3691,
+      3692
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3692,
+    "end": 3696,
+    "range": [
+      3692,
+      3696
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3696,
+    "end": 3697,
+    "range": [
+      3696,
+      3697
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"bAz\"",
+    "start": 3697,
+    "end": 3702,
+    "range": [
+      3697,
+      3702
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3702,
+    "end": 3703,
+    "range": [
+      3702,
+      3703
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3703,
+    "end": 3704,
+    "range": [
+      3703,
+      3704
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"A should not match a in baz\"",
+    "start": 3705,
+    "end": 3734,
+    "range": [
+      3705,
+      3734
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3734,
+    "end": 3735,
+    "range": [
+      3734,
+      3735
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3735,
+    "end": 3736,
+    "range": [
+      3735,
+      3736
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3737,
+    "end": 3743,
+    "range": [
+      3737,
+      3743
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3743,
+    "end": 3744,
+    "range": [
+      3743,
+      3744
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re6",
+    "start": 3744,
+    "end": 3747,
+    "range": [
+      3744,
+      3747
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3747,
+    "end": 3748,
+    "range": [
+      3747,
+      3748
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3748,
+    "end": 3752,
+    "range": [
+      3748,
+      3752
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3752,
+    "end": 3753,
+    "range": [
+      3752,
+      3753
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Baz\"",
+    "start": 3753,
+    "end": 3758,
+    "range": [
+      3753,
+      3758
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3758,
+    "end": 3759,
+    "range": [
+      3758,
+      3759
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3759,
+    "end": 3760,
+    "range": [
+      3759,
+      3760
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"B should match b in baz\"",
+    "start": 3761,
+    "end": 3786,
+    "range": [
+      3761,
+      3786
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3786,
+    "end": 3787,
+    "range": [
+      3786,
+      3787
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3787,
+    "end": 3788,
+    "range": [
+      3787,
+      3788
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3789,
+    "end": 3795,
+    "range": [
+      3789,
+      3795
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3795,
+    "end": 3796,
+    "range": [
+      3795,
+      3796
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re6",
+    "start": 3796,
+    "end": 3799,
+    "range": [
+      3796,
+      3799
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3799,
+    "end": 3800,
+    "range": [
+      3799,
+      3800
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3800,
+    "end": 3804,
+    "range": [
+      3800,
+      3804
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3804,
+    "end": 3805,
+    "range": [
+      3804,
+      3805
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"baZ\"",
+    "start": 3805,
+    "end": 3810,
+    "range": [
+      3805,
+      3810
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3810,
+    "end": 3811,
+    "range": [
+      3810,
+      3811
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3811,
+    "end": 3812,
+    "range": [
+      3811,
+      3812
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Z should match z in baz\"",
+    "start": 3813,
+    "end": 3838,
+    "range": [
+      3813,
+      3838
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3838,
+    "end": 3839,
+    "range": [
+      3838,
+      3839
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3839,
+    "end": 3840,
+    "range": [
+      3839,
+      3840
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3841,
+    "end": 3847,
+    "range": [
+      3841,
+      3847
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3847,
+    "end": 3848,
+    "range": [
+      3847,
+      3848
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re6",
+    "start": 3848,
+    "end": 3851,
+    "range": [
+      3848,
+      3851
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3851,
+    "end": 3852,
+    "range": [
+      3851,
+      3852
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3852,
+    "end": 3856,
+    "range": [
+      3852,
+      3856
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3856,
+    "end": 3857,
+    "range": [
+      3856,
+      3857
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"BaZ\"",
+    "start": 3857,
+    "end": 3862,
+    "range": [
+      3857,
+      3862
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3862,
+    "end": 3863,
+    "range": [
+      3862,
+      3863
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3863,
+    "end": 3864,
+    "range": [
+      3863,
+      3864
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"should match baz\"",
+    "start": 3865,
+    "end": 3883,
+    "range": [
+      3865,
+      3883
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3883,
+    "end": 3884,
+    "range": [
+      3883,
+      3884
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3884,
+    "end": 3885,
+    "range": [
+      3884,
+      3885
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3886,
+    "end": 3892,
+    "range": [
+      3886,
+      3892
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3892,
+    "end": 3893,
+    "range": [
+      3892,
+      3893
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 3893,
+    "end": 3894,
+    "range": [
+      3893,
+      3894
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re6",
+    "start": 3894,
+    "end": 3897,
+    "range": [
+      3894,
+      3897
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3897,
+    "end": 3898,
+    "range": [
+      3897,
+      3898
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 3898,
+    "end": 3902,
+    "range": [
+      3898,
+      3902
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3902,
+    "end": 3903,
+    "range": [
+      3902,
+      3903
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"BAZ\"",
+    "start": 3903,
+    "end": 3908,
+    "range": [
+      3903,
+      3908
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3908,
+    "end": 3909,
+    "range": [
+      3908,
+      3909
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3909,
+    "end": 3910,
+    "range": [
+      3909,
+      3910
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"should not match baz\"",
+    "start": 3911,
+    "end": 3933,
+    "range": [
+      3911,
+      3933
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3933,
+    "end": 3934,
+    "range": [
+      3933,
+      3934
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3934,
+    "end": 3935,
+    "range": [
+      3934,
+      3935
+    ]
+  }
+]

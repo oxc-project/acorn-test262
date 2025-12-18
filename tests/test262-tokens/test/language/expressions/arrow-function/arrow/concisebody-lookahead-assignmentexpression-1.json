@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 230,
+    "end": 231,
+    "range": [
+      230,
+      231
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 232,
+    "end": 234,
+    "range": [
+      232,
+      234
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 235,
+    "end": 236,
+    "range": [
+      235,
+      236
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 237,
+    "end": 239,
+    "range": [
+      237,
+      239
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 240,
+    "end": 241,
+    "range": [
+      240,
+      241
+    ]
+  }
+]

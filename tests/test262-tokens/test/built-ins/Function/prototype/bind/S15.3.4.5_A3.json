@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 203,
+    "end": 209,
+    "range": [
+      203,
+      209
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 209,
+    "end": 210,
+    "range": [
+      209,
+      210
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'bind'",
+    "start": 213,
+    "end": 219,
+    "range": [
+      213,
+      219
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "in",
+    "start": 220,
+    "end": 222,
+    "range": [
+      220,
+      222
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 223,
+    "end": 231,
+    "range": [
+      223,
+      231
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 231,
+    "end": 232,
+    "range": [
+      231,
+      232
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 232,
+    "end": 241,
+    "range": [
+      232,
+      241
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 241,
+    "end": 242,
+    "range": [
+      241,
+      242
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of evaluating (\\'bind\\' in Function.prototype) is expected to be true'",
+    "start": 245,
+    "end": 327,
+    "range": [
+      245,
+      327
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 328,
+    "end": 329,
+    "range": [
+      328,
+      329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 329,
+    "end": 330,
+    "range": [
+      329,
+      330
+    ]
+  }
+]

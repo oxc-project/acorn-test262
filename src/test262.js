@@ -2,6 +2,7 @@ import { Parser as AcornParser } from "acorn";
 import { parse as meriyahParse } from "meriyah";
 import YAML from "yaml";
 import { transformerAcorn } from "./utils/json.js";
+import { parseEspreeTokens } from "./utils/tokens.js";
 import { run } from "./utils/run.js";
 
 const DISALLOW = [
@@ -70,12 +71,14 @@ await run({
       fixMeriyahValue(ast);
     }
 
-    return [
-      {
-        path: `${path.slice(0, -3)}.json`, // Replace `.js` with `.json`
-        ast,
-      },
-    ];
+    // Parse tokens
+    const tokensJson = parseEspreeTokens(code, isModule, false);
+
+    // Output AST and tokens
+    const astPath = `${path}on`; // Replace `.js` with `.json`
+    const outputs = [{ path: astPath, ast }];
+    if (tokensJson) outputs.push({ path: `../test262-tokens/${astPath}`, content: tokensJson });
+    return outputs;
   },
 });
 

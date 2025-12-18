@@ -20,6 +20,7 @@
   "devDependencies": {
     "@typescript-eslint/parser": "^8.48.0",
     "acorn": "^8.15.0",
+    "espree": "^11.0.0",
     "estree-walker": "^3.0.3",
     "meriyah": "^7.0.0",
     "oxfmt": "^0.18.0",
