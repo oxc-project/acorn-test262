@@ -1,0 +1,581 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 294,
+            "end": 302
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 305,
+                  "end": 313
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 314,
+                  "end": 327
+                },
+                "optional": false,
+                "computed": false,
+                "start": 305,
+                "end": 327
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 328,
+                "end": 332
+              },
+              "optional": false,
+              "computed": false,
+              "start": 305,
+              "end": 332
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2001-09-08T18:46:40-07:00[America/Vancouver]",
+                "raw": "\"2001-09-08T18:46:40-07:00[America/Vancouver]\"",
+                "start": 333,
+                "end": 379
+              }
+            ],
+            "optional": false,
+            "start": 305,
+            "end": 380
+          },
+          "start": 294,
+          "end": 380
+        }
+      ],
+      "start": 288,
+      "end": 381
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "expectedOffset",
+            "start": 388,
+            "end": 402
+          },
+          "init": {
+            "type": "Literal",
+            "value": "-08:12:28",
+            "raw": "\"-08:12:28\"",
+            "start": 405,
+            "end": 416
+          },
+          "start": 388,
+          "end": 416
+        }
+      ],
+      "start": 382,
+      "end": 417
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 472,
+            "end": 478
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 479,
+            "end": 488
+          },
+          "optional": false,
+          "computed": false,
+          "start": 472,
+          "end": 488
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 489,
+                  "end": 497
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "add",
+                  "start": 498,
+                  "end": 501
+                },
+                "optional": false,
+                "computed": false,
+                "start": 489,
+                "end": 501
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 502,
+                        "end": 510
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "Duration",
+                        "start": 511,
+                        "end": 519
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 502,
+                      "end": 519
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 520,
+                      "end": 524
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 502,
+                    "end": 524
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "-P5432Y1837M",
+                      "raw": "\"-P5432Y1837M\"",
+                      "start": 525,
+                      "end": 539
+                    }
+                  ],
+                  "optional": false,
+                  "start": 502,
+                  "end": 540
+                }
+              ],
+              "optional": false,
+              "start": 489,
+              "end": 541
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 542,
+              "end": 548
+            },
+            "optional": false,
+            "computed": false,
+            "start": 489,
+            "end": 548
+          },
+          {
+            "type": "Identifier",
+            "name": "expectedOffset",
+            "start": 550,
+            "end": 564
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "add -P5432Y1837M, offset should be ",
+                  "cooked": "add -P5432Y1837M, offset should be "
+                },
+                "tail": false,
+                "start": 567,
+                "end": 602
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": true,
+                "start": 619,
+                "end": 619
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "expectedOffset",
+                "start": 604,
+                "end": 618
+              }
+            ],
+            "start": 566,
+            "end": 620
+          }
+        ],
+        "optional": false,
+        "start": 472,
+        "end": 621
+      },
+      "start": 472,
+      "end": 622
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 623,
+            "end": 629
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 630,
+            "end": 639
+          },
+          "optional": false,
+          "computed": false,
+          "start": 623,
+          "end": 639
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 640,
+                  "end": 648
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "add",
+                  "start": 649,
+                  "end": 652
+                },
+                "optional": false,
+                "computed": false,
+                "start": 640,
+                "end": 652
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 653,
+                        "end": 661
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "Duration",
+                        "start": 662,
+                        "end": 670
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 653,
+                      "end": 670
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 671,
+                      "end": 675
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 653,
+                    "end": 675
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "-P5432Y1836M",
+                      "raw": "\"-P5432Y1836M\"",
+                      "start": 676,
+                      "end": 690
+                    }
+                  ],
+                  "optional": false,
+                  "start": 653,
+                  "end": 691
+                }
+              ],
+              "optional": false,
+              "start": 640,
+              "end": 692
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 693,
+              "end": 699
+            },
+            "optional": false,
+            "computed": false,
+            "start": 640,
+            "end": 699
+          },
+          {
+            "type": "Identifier",
+            "name": "expectedOffset",
+            "start": 701,
+            "end": 715
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "add -P5432Y1836M, offset should be ",
+                  "cooked": "add -P5432Y1836M, offset should be "
+                },
+                "tail": false,
+                "start": 718,
+                "end": 753
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": true,
+                "start": 770,
+                "end": 770
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "expectedOffset",
+                "start": 755,
+                "end": 769
+              }
+            ],
+            "start": 717,
+            "end": 771
+          }
+        ],
+        "optional": false,
+        "start": 623,
+        "end": 772
+      },
+      "start": 623,
+      "end": 773
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 774,
+            "end": 780
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 781,
+            "end": 790
+          },
+          "optional": false,
+          "computed": false,
+          "start": 774,
+          "end": 790
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 791,
+                  "end": 799
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "add",
+                  "start": 800,
+                  "end": 803
+                },
+                "optional": false,
+                "computed": false,
+                "start": 791,
+                "end": 803
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 804,
+                        "end": 812
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "Duration",
+                        "start": 813,
+                        "end": 821
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 804,
+                      "end": 821
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 822,
+                      "end": 826
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 804,
+                    "end": 826
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "-P5432Y1835M",
+                      "raw": "\"-P5432Y1835M\"",
+                      "start": 827,
+                      "end": 841
+                    }
+                  ],
+                  "optional": false,
+                  "start": 804,
+                  "end": 842
+                }
+              ],
+              "optional": false,
+              "start": 791,
+              "end": 843
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 844,
+              "end": 850
+            },
+            "optional": false,
+            "computed": false,
+            "start": 791,
+            "end": 850
+          },
+          {
+            "type": "Identifier",
+            "name": "expectedOffset",
+            "start": 852,
+            "end": 866
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "add -P5432Y1835M, offset should be ",
+                  "cooked": "add -P5432Y1835M, offset should be "
+                },
+                "tail": false,
+                "start": 869,
+                "end": 904
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": true,
+                "start": 921,
+                "end": 921
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "expectedOffset",
+                "start": 906,
+                "end": 920
+              }
+            ],
+            "start": 868,
+            "end": 922
+          }
+        ],
+        "optional": false,
+        "start": 774,
+        "end": 923
+      },
+      "start": 774,
+      "end": 924
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 925
+}
